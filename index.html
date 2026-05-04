@@ -138,10 +138,6 @@
   }
   .section-block { display: block; }
   .section-block.hidden { display: none; }
-  .grid-meta { grid-template-columns: repeat(3, 1fr); }
-  @media (max-width: 900px) { .grid-meta { grid-template-columns: repeat(2, 1fr); } }
-  @media (max-width: 550px) { .grid-meta { grid-template-columns: 1fr; } }
-  .meta-card .label { color: #e94560; font-weight: 600; }
 </style>
 </head>
 <body>
@@ -156,42 +152,12 @@
       <button id="btn-team" onclick="setGroup('team')">Team</button>
     </div>
     <span id="count"></span>
+    <a href="meta.html" class="legend-link">Meta</a>
     <a href="legend.html" class="legend-link">Legend</a>
   </div>
 </header>
 
 <main>
-
-  <div id="section-meta">
-    <p class="section-label">Meta summaries</p>
-    <div class="grid grid-meta">
-  <div class="card meta-card">
-    <a href="meta_by_detachment_solo_2026-05-04.png" target="_blank"><img src="meta_by_detachment_solo_2026-05-04.png" alt="By Detachment Solo" loading="lazy"></a>
-    <div class="label">By Detachment Solo</div>
-  </div>
-  <div class="card meta-card">
-    <a href="meta_by_detachment_team_2026-05-04.png" target="_blank"><img src="meta_by_detachment_team_2026-05-04.png" alt="By Detachment Team" loading="lazy"></a>
-    <div class="label">By Detachment Team</div>
-  </div>
-  <div class="card meta-card">
-    <a href="meta_counters_solo_2026-05-04.png" target="_blank"><img src="meta_counters_solo_2026-05-04.png" alt="Counters Solo" loading="lazy"></a>
-    <div class="label">Counters Solo</div>
-  </div>
-  <div class="card meta-card">
-    <a href="meta_counters_team_2026-05-04.png" target="_blank"><img src="meta_counters_team_2026-05-04.png" alt="Counters Team" loading="lazy"></a>
-    <div class="label">Counters Team</div>
-  </div>
-  <div class="card meta-card">
-    <a href="meta_overview_solo_2026-05-04.png" target="_blank"><img src="meta_overview_solo_2026-05-04.png" alt="Overview Solo" loading="lazy"></a>
-    <div class="label">Overview Solo</div>
-  </div>
-  <div class="card meta-card">
-    <a href="meta_overview_team_2026-05-04.png" target="_blank"><img src="meta_overview_team_2026-05-04.png" alt="Overview Team" loading="lazy"></a>
-    <div class="label">Overview Team</div>
-  </div>
-    </div>
-  </div>
-
   <div id="section-solo" class="section-block">
     <p class="section-label">Solo events</p>
     <div class="grid" id="grid-solo">
