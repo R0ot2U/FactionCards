@@ -1,4 +1,4 @@
-/* Shared helpers for BCPTrawler interactive site */
+/* Shared helpers for Informed Crusader interactive site */
 
 const DEFAULT_EVENT_TYPE = "all";
 

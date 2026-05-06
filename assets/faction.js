@@ -42,7 +42,7 @@ async function init() {
   try { manifest = await fetchJSON(`${dataRoot(eventType)}/index.json`); } catch (_) {}
 
   // Page title and header
-  document.title = `${data.faction} — BCPTrawler`;
+  document.title = `${data.faction} — Informed Crusader`;
   document.getElementById("breadcrumb-faction").textContent = data.faction;
   document.getElementById("window-label").textContent =
     `${data.faction} · ${data.window_days}-day window · as of ${data.as_of}`;
