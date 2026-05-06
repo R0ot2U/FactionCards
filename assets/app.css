@@ -21,7 +21,7 @@ body {
   color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   margin: 0; padding: 0;
-  font-size: 14px;
+  font-size: clamp(13px, 1vw, 15px);
 }
 
 /* ── Header ─────────────────────────────────────────────── */
@@ -63,9 +63,14 @@ header .meta-info { color: var(--dim); font-size: 0.75rem; text-align: right; }
 .nav-link:hover { background: var(--grid); color: var(--text); }
 
 /* ── Main layout ────────────────────────────────────────── */
-main { padding: 20px 16px; max-width: 1400px; margin: 0 auto; }
 body { display: flex; flex-direction: column; min-height: 100vh; }
-main { flex: 1; }
+main {
+  flex: 1;
+  padding: clamp(16px, 2vw, 32px) clamp(16px, 3vw, 48px);
+  max-width: 1800px;
+  margin: 0 auto;
+  width: 100%;
+}
 
 /* ── Section headers ────────────────────────────────────── */
 .section-title {
@@ -187,36 +192,36 @@ tbody td { padding: 8px 10px; vertical-align: middle; }
 .chart-wrap {
   background: var(--panel);
   border-radius: var(--radius);
-  padding: 12px;
+  padding: clamp(12px, 1.5vw, 20px);
   margin-bottom: 16px;
 }
 
-/* Landing page bar charts — tall on wide screens, shorter on narrow */
+/* Landing page bar charts — each lives in a ~50% column; give them generous height */
 #chart-play,
 #chart-wr {
-  height: clamp(320px, 55vw, 560px);
+  height: clamp(360px, 40vw, 800px);
 }
 
 /* Detachment breakdown chart */
 .chart-det {
-  height: clamp(240px, 40vw, 380px);
+  height: clamp(260px, 30vw, 560px);
 }
 
-/* Matchup chart — scales with number of factions shown; give it room */
+/* Matchup chart — full-width on faction page; needs the most room */
 .chart-matchup {
-  height: clamp(360px, 60vw, 600px);
+  height: clamp(420px, 55vw, 900px);
 }
 
-/* Timeline charts — compact */
+/* Timeline charts — compact pair */
 .chart-timeline {
-  height: clamp(180px, 25vw, 260px);
+  height: clamp(200px, 20vw, 320px);
 }
 
 /* ── Two-col layout — fluid, collapses when columns would be < 340px ── */
 .two-col {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-  gap: 16px;
+  gap: clamp(16px, 2vw, 28px);
 }
 
 /* ── Loading / empty / error ────────────────────────────── */
@@ -260,7 +265,7 @@ tbody td { padding: 8px 10px; vertical-align: middle; }
 .panel {
   background: var(--panel);
   border-radius: var(--radius);
-  padding: 12px 14px;
+  padding: clamp(12px, 1.5vw, 20px) clamp(14px, 2vw, 24px);
   margin-bottom: 16px;
 }
 .panel-title {
