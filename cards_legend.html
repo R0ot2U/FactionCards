@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Faction Card Legend</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  body {
+    background: #0f0f1a;
+    color: #eaeaea;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  a { color: #e94560; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  header {
+    background: #16213e;
+    border-bottom: 2px solid #e94560;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  header h1 { color: #e94560; margin: 0; font-size: 1.25rem; }
+  header .back { color: #888; font-size: 0.85rem; }
+  .layout {
+    display: flex;
+    gap: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0 60px;
+  }
+  nav {
+    width: 220px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 56px;
+    align-self: flex-start;
+    padding: 24px 0 24px 20px;
+    max-height: calc(100vh - 56px);
+    overflow-y: auto;
+  }
+  nav h2 {
+    color: #555;
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+  }
+  nav ul { list-style: none; margin: 0; padding: 0; }
+  nav li { margin: 0; }
+  nav a {
+    color: #888;
+    display: block;
+    font-size: 0.8rem;
+    padding: 4px 0;
+  }
+  nav a:hover { color: #eaeaea; text-decoration: none; }
+  article {
+    flex: 1;
+    padding: 28px 28px 0;
+    min-width: 0;
+  }
+  section {
+    background: #16213e;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px 22px;
+  }
+  section h2 {
+    color: #e94560;
+    font-size: 1rem;
+    margin: 0 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #2a2a4a;
+  }
+  section h3 {
+    color: #eaeaea;
+    font-size: 0.9rem;
+    margin: 14px 0 6px;
+  }
+  p { color: #ccc; font-size: 0.875rem; line-height: 1.6; margin: 0 0 10px; }
+  p:last-child { margin-bottom: 0; }
+  .wr-table { width: 100%; border-collapse: collapse; margin: 8px 0; }
+  .wr-table td {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  .wr-table td:first-child { color: #aaa; width: 120px; }
+  .green  { color: #4caf82; }
+  .yellow { color: #f0c040; }
+  .red    { color: #e94560; }
+  .dim    { color: #888888; }
+  .symbol-table { width: 100%; border-collapse: collapse; }
+  .symbol-table tr + tr td { border-top: 1px solid #1a1a2e; }
+  .symbol-table td {
+    font-size: 0.82rem;
+    padding: 6px 8px;
+    vertical-align: top;
+  }
+  .symbol-table td:first-child {
+    color: #f0c040;
+    font-size: 1rem;
+    width: 36px;
+    text-align: center;
+  }
+  .badge-row { display: flex; flex-wrap: wrap; gap: 10px; margin: 8px 0; }
+  .badge {
+    background: #0f0f1a;
+    border: 1px solid #2a2a4a;
+    border-radius: 6px;
+    font-size: 0.78rem;
+    padding: 6px 12px;
+    line-height: 1.5;
+  }
+  .badge strong { display: block; font-size: 0.7rem; letter-spacing: 0.06em; color: #888; text-transform: uppercase; }
+  .bucket {
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    padding: 2px 8px;
+    margin-right: 4px;
+  }
+  .bucket-pillar { background: #1a3d28; color: #4caf82; }
+  .bucket-core   { background: #2a2a00; color: #f0c040; }
+  .bucket-flex   { background: #2a1a2e; color: #888; }
+  .cell-green  { background: #1a3d28; color: #4caf82; border-radius: 4px; padding: 2px 8px; font-size: 0.8rem; display: inline-block; }
+  .cell-amber  { background: #2a2a00; color: #f0c040; border-radius: 4px; padding: 2px 8px; font-size: 0.8rem; display: inline-block; }
+  .cell-red    { background: #3d1a1e; color: #e94560; border-radius: 4px; padding: 2px 8px; font-size: 0.8rem; display: inline-block; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Faction Card — Legend</h1>
+  <a class="back" href="cards.html">← Back to cards</a>
+  <span style="color:#555; font-size:0.78rem; margin-left:auto">2026-05-06 · 30-day window</span>
+</header>
+
+<div class="layout">
+<nav>
+  <h2>Sections</h2>
+  <ul>
+    <li><a href="#conventions">Global conventions</a></li>
+    <li><a href="#colors">Win rate colors</a></li>
+    <li><a href="#symbols">Symbol key</a></li>
+    <li><a href="#header">Header badges</a></li>
+    <li><a href="#insights">Insights</a></li>
+    <li><a href="#matchups">Best / Worst Into</a></li>
+    <li><a href="#detachments">Detachments</a></li>
+    <li><a href="#players">Top Players</a></li>
+    <li><a href="#units">Top Units</a></li>
+    <li><a href="#enhancements">Top Enhancements</a></li>
+    <li><a href="#round">Win Rate by Round</a></li>
+    <li><a href="#trend">Weekly WR Trend</a></li>
+    <li><a href="#scoring">Scoring Shape</a></li>
+    <li><a href="#breakdown">Det. Breakdown</a></li>
+    <li><a href="#heatmap">Det. Heatmap</a></li>
+  </ul>
+</nav>
+
+<article>
+
+<section id="conventions">
+  <h2>Global Conventions</h2>
+  <p>All cards are generated from BCP and New Recruit tournament data over a rolling
+  <strong>30-day window</strong> ending on the card's <em>as-of</em> date.
+  Only events with parsed army lists are included. Draws are counted as half a win.</p>
+  <p><strong>Minimum sample sizes</strong> — cells or rows with fewer than 10 games are
+  rendered in <span class="dim">grey</span> to signal low confidence. Matchup panels
+  require at least 5 games per matchup (10 for faction-level matchups) before showing a
+  win rate; below that threshold the raw count <span class="dim">n=3</span> is shown
+  instead.</p>
+  <p><strong>Wilson 95% CI Lower</strong> — "Best Into" panels rank matchups by the lower
+  bound of a Wilson confidence interval rather than raw win rate, so a 90% win rate from
+  5 games doesn't beat a 70% win rate from 50 games.</p>
+</section>
+
+<section id="colors">
+  <h2>Win Rate Color Bands</h2>
+  <p>Every win rate value — badges, table cells, heatmap cells, and scatter points — uses
+  the same three-band scheme:</p>
+  <table class="wr-table">
+    <tr><td>≥ 55%</td><td><span class="green">&#9646; Favoured</span></td></tr>
+    <tr><td>46 – 54%</td><td><span class="yellow">&#9646; Even</span></td></tr>
+    <tr><td>≤ 45%</td><td><span class="red">&#9646; Unfavoured</span></td></tr>
+  </table>
+</section>
+
+<section id="symbols">
+  <h2>Symbol Key</h2>
+  <table class="symbol-table">
+    <tr><td>✓</td><td><strong>Best matchup</strong> sub-row in Detachment Breakdown — a favourable matchup for this detachment.</td></tr>
+    <tr><td>✗</td><td><strong>Worst matchup</strong> sub-row in Detachment Breakdown — an unfavourable matchup.</td></tr>
+    <tr><td>▲ / ▼</td><td><strong>Trend direction</strong> in the WIN RATE badge — win rate rose (▲) or fell (▼) vs. the previous equivalent window.</td></tr>
+    <tr><td>Δ</td><td><strong>Impact delta</strong> in Top Units — WR-with-unit minus WR-without-unit. A positive Δ means this unit is correlated with better results.</td></tr>
+    <tr><td>▸</td><td><strong>Section sub-header</strong> row inside a table (e.g. detachment name in Detachment Breakdown).</td></tr>
+    <tr><td>⚠</td><td><strong>Monoculture warning</strong> banner — shown when one detachment accounts for ≥ 75% of all faction lists. Means the faction's overall win rate is dominated by a single build.</td></tr>
+  </table>
+</section>
+
+<section id="header">
+  <h2>Header Badges</h2>
+  <p>The top-right strip shows up to six badges, coloured by the same WR bands above.</p>
+  <div class="badge-row">
+    <div class="badge"><strong>Win Rate</strong>Overall faction WR across all games in window.</div>
+    <div class="badge"><strong>Trend ▲▼</strong>Current WR minus prior-window WR. Only shown if prior window has ≥ 10 games.</div>
+    <div class="badge"><strong>Play Rate</strong>Share of all tournament lists playing this faction. Always shown in blue.</div>
+    <div class="badge"><strong>Top 8</strong>% of faction lists that finished in the top-8 cut. Green ≥ 10%, red &lt; 5%.</div>
+    <div class="badge"><strong>1st</strong>% of faction lists that won their event. Green ≥ 3%.</div>
+    <div class="badge"><strong>Top Table</strong>Win rate in final-round top-table games only (needs ≥ 10 top-table games).</div>
+  </div>
+  <p>Top-cut bracket is scaled by field size: events of 40+ players use a top-8 cut;
+  20–39 players use top-4; smaller events use top-2.</p>
+</section>
+
+<section id="insights">
+  <h2>Narrative Insights</h2>
+  <p>The bullet list near the top of the card auto-generates up to five observations from
+  the data. Each bullet fires only when the signal is strong enough to be meaningful:</p>
+  <ul style="color:#ccc; font-size:0.875rem; line-height:1.8; padding-left:18px; margin:0">
+    <li><strong>Trend</strong> — win rate change vs. prior window (needs n ≥ 10 in both windows).</li>
+    <li><strong>Top-table performance</strong> — flags "glass ceiling" (top-table WR ≥ 8 pp below overall) or "pressure performer" (≥ 8 pp above). Needs top_table_n ≥ 10.</li>
+    <li><strong>Top-cut rate</strong> — flags "podium contender" (≥ 10%) or "undertuned" (&lt; 5%).</li>
+    <li><strong>First-turn preference</strong> — flags strong first- or second-turn bias when the gap is ≥ 8 pp and both sub-samples have ≥ 15 games.</li>
+    <li><strong>High-impact unit</strong> — flags the top unit when its prevalence is ≥ 20% and its Δ is positive.</li>
+  </ul>
+</section>
+
+<section id="matchups">
+  <h2>Best / Worst Into — Factions, Detachments, Archetypes</h2>
+  <p>Horizontal bar charts showing the faction's best and worst historical matchups.
+  Three variants appear on each card: <em>vs. Factions</em>, <em>vs. Detachments</em>,
+  and <em>vs. Archetypes</em> (specific named builds).</p>
+  <p><strong>Best Into</strong> — sorted by Wilson CI lower bound descending (most
+  confidently favoured matchups first). <strong>Worst Into</strong> — sorted by raw win
+  rate ascending (most lopsided losses first). The dashed line at 50% marks the even
+  point.</p>
+  <p>Matchups with fewer than the minimum sample threshold are excluded entirely from
+  these lists (not just greyed out).</p>
+</section>
+
+<section id="detachments">
+  <h2>Detachments</h2>
+  <p>A table of every detachment played by this faction in the window, showing play share
+  and win rate. <strong>Play Rate %</strong> is the percentage of <em>faction</em> lists
+  using each detachment. Rows with fewer than 10 games are dimmed.</p>
+</section>
+
+<section id="players">
+  <h2>Top Players</h2>
+  <p>Players with the most games on this faction in the window, sorted by game count then
+  win rate. Requires at least 4 games to appear. Shows W-L record, WR%, best tournament
+  finish, and their most-played detachment.</p>
+</section>
+
+<section id="units">
+  <h2>Top Units  (sorted by WR impact Δ)</h2>
+  <p>Units are grouped into three buckets by how commonly they appear:</p>
+  <p>
+    <span class="bucket bucket-pillar">▸ PILLAR ≥ 70%</span> — found in most lists; likely a staple.<br>
+    <span class="bucket bucket-core">▸ CORE 30–70%</span> — present in a large minority; a real choice.<br>
+    <span class="bucket bucket-flex">▸ FLEX &lt; 30%</span> — situational or niche pick.
+  </p>
+  <p>Within each bucket, units are sorted by |Δ| (absolute impact) then prevalence.
+  The <strong>Δ</strong> column is the difference between the win rate of games where the
+  unit was included vs. games where it was absent. A large positive Δ suggests the unit
+  is correlated with better results; a large negative Δ suggests the opposite — though
+  correlation is not causation (good players may skew toward or away from certain units).</p>
+  <p>Only units recognised by the BSData army builder registry are shown; free-text or
+  OCR-parsed extras are filtered out.</p>
+</section>
+
+<section id="enhancements">
+  <h2>Top Enhancements</h2>
+  <p>The most-played character enhancements (wargear upgrades), sorted by play rate.
+  Shows prevalence as a percentage of faction lists and overall win rate for games
+  featuring each enhancement. Rows with fewer than 10 games are dimmed.</p>
+</section>
+
+<section id="round">
+  <h2>Win Rate by Round</h2>
+  <p>The faction's win rate in each round of Swiss play (R1–R5 or R1–R6 depending on
+  event format). The dashed line marks 50%. A declining curve across rounds can indicate
+  the faction tends to face stronger opponents as the event progresses; a rising curve
+  can indicate resilience or a strong late-game meta position.</p>
+</section>
+
+<section id="trend">
+  <h2>Weekly WR Trend</h2>
+  <p>Win rate bucketed into calendar weeks within the 30-day window, oldest
+  left to newest right. Useful for spotting whether a faction is on the rise or decline
+  within the current meta period. Weeks with very few games should be treated with
+  caution — the dots are sized equally regardless of sample.</p>
+</section>
+
+<section id="scoring">
+  <h2>Scoring Shape  ·  First Turn</h2>
+  <p>Six statistics describing <em>how</em> this faction wins and loses, not just
+  whether it does:</p>
+  <ul style="color:#ccc; font-size:0.875rem; line-height:1.9; padding-left:18px; margin:0">
+    <li><strong>Win margin</strong> — average VP gap in games this faction won. Higher = more dominant wins.</li>
+    <li><strong>Loss margin</strong> — average VP gap in games this faction lost. Smaller = more competitive losses.</li>
+    <li><strong>Tabling rate</strong> — % of wins where the opponent scored ≤ 3 VP (effectively tabled). <span class="green">Green</span> when ≥ 15%.</li>
+    <li><strong>Close games (≤ 5 VP)</strong> — % of all games decided by 5 VP or fewer. A high rate means the faction often plays razor-thin matches.</li>
+    <li><strong>Blowouts (≥ 15 VP)</strong> — % of all games decided by 15 VP or more in either direction.</li>
+    <li><strong>Going first / Going second</strong> — win rate when the faction takes the first or second turn. Only shown when both sub-samples have ≥ 5 games. A large gap signals strong first- or second-turn dependence.</li>
+  </ul>
+</section>
+
+<section id="breakdown">
+  <h2>Detachment Breakdown — Win Rate &amp; Matchups</h2>
+  <p>A drilldown for the top 3 most-played detachments. Each detachment row shows its
+  overall win rate and list count. Below it, sub-rows list the two best (✓) and two worst
+  (✗) matchups for that specific detachment, giving a sense of how different builds within
+  the faction play differently into the meta. Requires at least 5 games per matchup.</p>
+</section>
+
+<section id="heatmap">
+  <h2>Detachment Heatmap — WR % vs. Opponent Faction</h2>
+  <p>A grid showing the win rate of up to 5 detachments (rows) against up to 8 of the
+  most-played opponent factions (columns). Each cell is coloured:</p>
+  <p>
+    <span class="cell-green">65%</span> &nbsp; WR ≥ 55% — favoured<br>
+    <span class="cell-amber">50%</span> &nbsp; WR 46–54% — even<br>
+    <span class="cell-red">38%</span> &nbsp; WR ≤ 45% — unfavoured
+  </p>
+  <p>Cells with fewer than 5 games show <span class="dim">n=X</span> instead of a win
+  rate; cells with zero games show <span class="dim">—</span>. The heatmap lets you
+  compare which detachment of a given faction fares best into a specific opponent.</p>
+</section>
+
+</article>
+</div>
+</body>
+</html>

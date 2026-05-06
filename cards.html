@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Faction Cards — 2026-05-06</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  body {
+    background: #0f0f1a;
+    color: #eaeaea;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background: #16213e;
+    border-bottom: 2px solid #e94560;
+    padding: 16px 24px 14px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+  }
+  header h1 {
+    color: #e94560;
+    margin: 0;
+    font-size: 1.35rem;
+    flex-shrink: 0;
+  }
+  .meta {
+    color: #888;
+    font-size: 0.8rem;
+    flex-shrink: 0;
+  }
+  .controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-left: auto;
+  }
+  #search {
+    background: #0f0f1a;
+    border: 1px solid #333;
+    border-radius: 6px;
+    color: #eaeaea;
+    font-size: 0.85rem;
+    padding: 5px 10px;
+    width: 180px;
+    outline: none;
+  }
+  #search:focus { border-color: #e94560; }
+  .toggle-group {
+    display: flex;
+    border: 1px solid #333;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .toggle-group button {
+    background: #0f0f1a;
+    border: none;
+    color: #888;
+    cursor: pointer;
+    font-size: 0.8rem;
+    padding: 5px 12px;
+    transition: background 0.15s, color 0.15s;
+  }
+  .toggle-group button:not(:last-child) { border-right: 1px solid #333; }
+  .toggle-group button.active {
+    background: #e94560;
+    color: #fff;
+  }
+  .legend-link {
+    color: #888;
+    font-size: 0.8rem;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .legend-link:hover { color: #eaeaea; }
+  #count {
+    color: #555;
+    font-size: 0.78rem;
+    white-space: nowrap;
+  }
+  main { padding: 20px 16px; }
+  .section-label {
+    color: #555;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 28px;
+  }
+  @media (max-width: 1100px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 750px)  { .grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 480px)  { .grid { grid-template-columns: 1fr; } }
+  .card {
+    background: #16213e;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.15s, box-shadow 0.15s;
+    cursor: pointer;
+  }
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(233,69,96,0.25);
+  }
+  .card img {
+    width: 100%;
+    display: block;
+  }
+  .card .label {
+    padding: 6px 8px;
+    font-size: 0.78rem;
+    color: #aaa;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .card.hidden { display: none; }
+  #no-results {
+    color: #555;
+    display: none;
+    font-size: 0.9rem;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .section-block { display: block; }
+  .section-block.hidden { display: none; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Faction Cards</h1>
+  <span class="meta">Updated 2026-05-06 &nbsp;·&nbsp; 30-day window &nbsp;·&nbsp; 28 factions</span>
+  <div class="controls">
+    <input id="search" type="search" placeholder="Filter factions…" autocomplete="off">
+    <div class="toggle-group">
+      <button id="btn-all"  class="active" onclick="setGroup('all')">All</button>
+      <button id="btn-solo" onclick="setGroup('solo')">Solo</button>
+      <button id="btn-team" onclick="setGroup('team')">Team</button>
+    </div>
+    <span id="count"></span>
+    <a href="meta.html" class="legend-link">Meta</a>
+    <a href="cards_legend.html" class="legend-link">Legend</a>
+    <a href="index.html" class="legend-link">Meta Explorer ↗</a>
+  </div>
+</header>
+
+<main>
+  <div id="section-solo" class="section-block">
+    <p class="section-label">Solo events</p>
+    <div class="grid" id="grid-solo">
+  <div class="card" data-group="solo" data-name="adepta sororitas" data-slug="adeptasororitas">
+    <a href="faction_card_adepta_sororitas_solo_2026-05-06.png" target="_blank"><img src="faction_card_adepta_sororitas_solo_2026-05-06.png" alt="Adepta Sororitas" loading="lazy"></a>
+    <div class="label">Adepta Sororitas</div>
+  </div>
+  <div class="card" data-group="solo" data-name="adeptus custodes" data-slug="adeptuscustodes">
+    <a href="faction_card_adeptus_custodes_solo_2026-05-06.png" target="_blank"><img src="faction_card_adeptus_custodes_solo_2026-05-06.png" alt="Adeptus Custodes" loading="lazy"></a>
+    <div class="label">Adeptus Custodes</div>
+  </div>
+  <div class="card" data-group="solo" data-name="adeptus mechanicus" data-slug="adeptusmechanicus">
+    <a href="faction_card_adeptus_mechanicus_solo_2026-05-06.png" target="_blank"><img src="faction_card_adeptus_mechanicus_solo_2026-05-06.png" alt="Adeptus Mechanicus" loading="lazy"></a>
+    <div class="label">Adeptus Mechanicus</div>
+  </div>
+  <div class="card" data-group="solo" data-name="aeldari" data-slug="aeldari">
+    <a href="faction_card_aeldari_solo_2026-05-06.png" target="_blank"><img src="faction_card_aeldari_solo_2026-05-06.png" alt="Aeldari" loading="lazy"></a>
+    <div class="label">Aeldari</div>
+  </div>
+  <div class="card" data-group="solo" data-name="astra militarum" data-slug="astramilitarum">
+    <a href="faction_card_astra_militarum_solo_2026-05-06.png" target="_blank"><img src="faction_card_astra_militarum_solo_2026-05-06.png" alt="Astra Militarum" loading="lazy"></a>
+    <div class="label">Astra Militarum</div>
+  </div>
+  <div class="card" data-group="solo" data-name="black templars" data-slug="blacktemplars">
+    <a href="faction_card_black_templars_solo_2026-05-06.png" target="_blank"><img src="faction_card_black_templars_solo_2026-05-06.png" alt="Black Templars" loading="lazy"></a>
+    <div class="label">Black Templars</div>
+  </div>
+  <div class="card" data-group="solo" data-name="blood angels" data-slug="bloodangels">
+    <a href="faction_card_blood_angels_solo_2026-05-06.png" target="_blank"><img src="faction_card_blood_angels_solo_2026-05-06.png" alt="Blood Angels" loading="lazy"></a>
+    <div class="label">Blood Angels</div>
+  </div>
+  <div class="card" data-group="solo" data-name="chaos daemons" data-slug="chaosdaemons">
+    <a href="faction_card_chaos_daemons_solo_2026-05-06.png" target="_blank"><img src="faction_card_chaos_daemons_solo_2026-05-06.png" alt="Chaos Daemons" loading="lazy"></a>
+    <div class="label">Chaos Daemons</div>
+  </div>
+  <div class="card" data-group="solo" data-name="chaos knights" data-slug="chaosknights">
+    <a href="faction_card_chaos_knights_solo_2026-05-06.png" target="_blank"><img src="faction_card_chaos_knights_solo_2026-05-06.png" alt="Chaos Knights" loading="lazy"></a>
+    <div class="label">Chaos Knights</div>
+  </div>
+  <div class="card" data-group="solo" data-name="chaos space marines" data-slug="chaosspacemarines">
+    <a href="faction_card_chaos_space_marines_solo_2026-05-06.png" target="_blank"><img src="faction_card_chaos_space_marines_solo_2026-05-06.png" alt="Chaos Space Marines" loading="lazy"></a>
+    <div class="label">Chaos Space Marines</div>
+  </div>
+  <div class="card" data-group="solo" data-name="dark angels" data-slug="darkangels">
+    <a href="faction_card_dark_angels_solo_2026-05-06.png" target="_blank"><img src="faction_card_dark_angels_solo_2026-05-06.png" alt="Dark Angels" loading="lazy"></a>
+    <div class="label">Dark Angels</div>
+  </div>
+  <div class="card" data-group="solo" data-name="death guard" data-slug="deathguard">
+    <a href="faction_card_death_guard_solo_2026-05-06.png" target="_blank"><img src="faction_card_death_guard_solo_2026-05-06.png" alt="Death Guard" loading="lazy"></a>
+    <div class="label">Death Guard</div>
+  </div>
+  <div class="card" data-group="solo" data-name="deathwatch" data-slug="deathwatch">
+    <a href="faction_card_deathwatch_solo_2026-05-06.png" target="_blank"><img src="faction_card_deathwatch_solo_2026-05-06.png" alt="Deathwatch" loading="lazy"></a>
+    <div class="label">Deathwatch</div>
+  </div>
+  <div class="card" data-group="solo" data-name="drukhari" data-slug="drukhari">
+    <a href="faction_card_drukhari_solo_2026-05-06.png" target="_blank"><img src="faction_card_drukhari_solo_2026-05-06.png" alt="Drukhari" loading="lazy"></a>
+    <div class="label">Drukhari</div>
+  </div>
+  <div class="card" data-group="solo" data-name="emperor s children" data-slug="emperorschildren">
+    <a href="faction_card_emperor_s_children_solo_2026-05-06.png" target="_blank"><img src="faction_card_emperor_s_children_solo_2026-05-06.png" alt="Emperor s Children" loading="lazy"></a>
+    <div class="label">Emperor s Children</div>
+  </div>
+  <div class="card" data-group="solo" data-name="genestealer cults" data-slug="genestealercults">
+    <a href="faction_card_genestealer_cults_solo_2026-05-06.png" target="_blank"><img src="faction_card_genestealer_cults_solo_2026-05-06.png" alt="Genestealer Cults" loading="lazy"></a>
+    <div class="label">Genestealer Cults</div>
+  </div>
+  <div class="card" data-group="solo" data-name="grey knights" data-slug="greyknights">
+    <a href="faction_card_grey_knights_solo_2026-05-06.png" target="_blank"><img src="faction_card_grey_knights_solo_2026-05-06.png" alt="Grey Knights" loading="lazy"></a>
+    <div class="label">Grey Knights</div>
+  </div>
+  <div class="card" data-group="solo" data-name="imperial agents" data-slug="imperialagents">
+    <a href="faction_card_imperial_agents_solo_2026-05-06.png" target="_blank"><img src="faction_card_imperial_agents_solo_2026-05-06.png" alt="Imperial Agents" loading="lazy"></a>
+    <div class="label">Imperial Agents</div>
+  </div>
+  <div class="card" data-group="solo" data-name="imperial knights" data-slug="imperialknights">
+    <a href="faction_card_imperial_knights_solo_2026-05-06.png" target="_blank"><img src="faction_card_imperial_knights_solo_2026-05-06.png" alt="Imperial Knights" loading="lazy"></a>
+    <div class="label">Imperial Knights</div>
+  </div>
+  <div class="card" data-group="solo" data-name="leagues of votann" data-slug="leaguesofvotann">
+    <a href="faction_card_leagues_of_votann_solo_2026-05-06.png" target="_blank"><img src="faction_card_leagues_of_votann_solo_2026-05-06.png" alt="Leagues Of Votann" loading="lazy"></a>
+    <div class="label">Leagues Of Votann</div>
+  </div>
+  <div class="card" data-group="solo" data-name="necrons" data-slug="necrons">
+    <a href="faction_card_necrons_solo_2026-05-06.png" target="_blank"><img src="faction_card_necrons_solo_2026-05-06.png" alt="Necrons" loading="lazy"></a>
+    <div class="label">Necrons</div>
+  </div>
+  <div class="card" data-group="solo" data-name="orks" data-slug="orks">
+    <a href="faction_card_orks_solo_2026-05-06.png" target="_blank"><img src="faction_card_orks_solo_2026-05-06.png" alt="Orks" loading="lazy"></a>
+    <div class="label">Orks</div>
+  </div>
+  <div class="card" data-group="solo" data-name="space marines (astartes)" data-slug="spacemarinesastartes">
+    <a href="faction_card_space_marines_astartes_solo_2026-05-06.png" target="_blank"><img src="faction_card_space_marines_astartes_solo_2026-05-06.png" alt="Space Marines (Astartes)" loading="lazy"></a>
+    <div class="label">Space Marines (Astartes)</div>
+  </div>
+  <div class="card" data-group="solo" data-name="space wolves" data-slug="spacewolves">
+    <a href="faction_card_space_wolves_solo_2026-05-06.png" target="_blank"><img src="faction_card_space_wolves_solo_2026-05-06.png" alt="Space Wolves" loading="lazy"></a>
+    <div class="label">Space Wolves</div>
+  </div>
+  <div class="card" data-group="solo" data-name="t'au empire" data-slug="tauempire">
+    <a href="faction_card_t_au_empire_solo_2026-05-06.png" target="_blank"><img src="faction_card_t_au_empire_solo_2026-05-06.png" alt="T'au Empire" loading="lazy"></a>
+    <div class="label">T'au Empire</div>
+  </div>
+  <div class="card" data-group="solo" data-name="thousand sons" data-slug="thousandsons">
+    <a href="faction_card_thousand_sons_solo_2026-05-06.png" target="_blank"><img src="faction_card_thousand_sons_solo_2026-05-06.png" alt="Thousand Sons" loading="lazy"></a>
+    <div class="label">Thousand Sons</div>
+  </div>
+  <div class="card" data-group="solo" data-name="tyranids" data-slug="tyranids">
+    <a href="faction_card_tyranids_solo_2026-05-06.png" target="_blank"><img src="faction_card_tyranids_solo_2026-05-06.png" alt="Tyranids" loading="lazy"></a>
+    <div class="label">Tyranids</div>
+  </div>
+  <div class="card" data-group="solo" data-name="world eaters" data-slug="worldeaters">
+    <a href="faction_card_world_eaters_solo_2026-05-06.png" target="_blank"><img src="faction_card_world_eaters_solo_2026-05-06.png" alt="World Eaters" loading="lazy"></a>
+    <div class="label">World Eaters</div>
+  </div>
+    </div>
+  </div>
+  <div id="section-team" class="section-block">
+    <p class="section-label">Team events</p>
+    <div class="grid" id="grid-team">
+  <div class="card" data-group="team" data-name="adepta sororitas" data-slug="adeptasororitas">
+    <a href="faction_card_adepta_sororitas_team_2026-05-06.png" target="_blank"><img src="faction_card_adepta_sororitas_team_2026-05-06.png" alt="Adepta Sororitas" loading="lazy"></a>
+    <div class="label">Adepta Sororitas</div>
+  </div>
+  <div class="card" data-group="team" data-name="adeptus custodes" data-slug="adeptuscustodes">
+    <a href="faction_card_adeptus_custodes_team_2026-05-06.png" target="_blank"><img src="faction_card_adeptus_custodes_team_2026-05-06.png" alt="Adeptus Custodes" loading="lazy"></a>
+    <div class="label">Adeptus Custodes</div>
+  </div>
+  <div class="card" data-group="team" data-name="adeptus mechanicus" data-slug="adeptusmechanicus">
+    <a href="faction_card_adeptus_mechanicus_team_2026-05-06.png" target="_blank"><img src="faction_card_adeptus_mechanicus_team_2026-05-06.png" alt="Adeptus Mechanicus" loading="lazy"></a>
+    <div class="label">Adeptus Mechanicus</div>
+  </div>
+  <div class="card" data-group="team" data-name="aeldari" data-slug="aeldari">
+    <a href="faction_card_aeldari_team_2026-05-06.png" target="_blank"><img src="faction_card_aeldari_team_2026-05-06.png" alt="Aeldari" loading="lazy"></a>
+    <div class="label">Aeldari</div>
+  </div>
+  <div class="card" data-group="team" data-name="astra militarum" data-slug="astramilitarum">
+    <a href="faction_card_astra_militarum_team_2026-05-06.png" target="_blank"><img src="faction_card_astra_militarum_team_2026-05-06.png" alt="Astra Militarum" loading="lazy"></a>
+    <div class="label">Astra Militarum</div>
+  </div>
+  <div class="card" data-group="team" data-name="black templars" data-slug="blacktemplars">
+    <a href="faction_card_black_templars_team_2026-05-06.png" target="_blank"><img src="faction_card_black_templars_team_2026-05-06.png" alt="Black Templars" loading="lazy"></a>
+    <div class="label">Black Templars</div>
+  </div>
+  <div class="card" data-group="team" data-name="blood angels" data-slug="bloodangels">
+    <a href="faction_card_blood_angels_team_2026-05-06.png" target="_blank"><img src="faction_card_blood_angels_team_2026-05-06.png" alt="Blood Angels" loading="lazy"></a>
+    <div class="label">Blood Angels</div>
+  </div>
+  <div class="card" data-group="team" data-name="chaos daemons" data-slug="chaosdaemons">
+    <a href="faction_card_chaos_daemons_team_2026-05-06.png" target="_blank"><img src="faction_card_chaos_daemons_team_2026-05-06.png" alt="Chaos Daemons" loading="lazy"></a>
+    <div class="label">Chaos Daemons</div>
+  </div>
+  <div class="card" data-group="team" data-name="chaos knights" data-slug="chaosknights">
+    <a href="faction_card_chaos_knights_team_2026-05-06.png" target="_blank"><img src="faction_card_chaos_knights_team_2026-05-06.png" alt="Chaos Knights" loading="lazy"></a>
+    <div class="label">Chaos Knights</div>
+  </div>
+  <div class="card" data-group="team" data-name="chaos space marines" data-slug="chaosspacemarines">
+    <a href="faction_card_chaos_space_marines_team_2026-05-06.png" target="_blank"><img src="faction_card_chaos_space_marines_team_2026-05-06.png" alt="Chaos Space Marines" loading="lazy"></a>
+    <div class="label">Chaos Space Marines</div>
+  </div>
+  <div class="card" data-group="team" data-name="dark angels" data-slug="darkangels">
+    <a href="faction_card_dark_angels_team_2026-05-06.png" target="_blank"><img src="faction_card_dark_angels_team_2026-05-06.png" alt="Dark Angels" loading="lazy"></a>
+    <div class="label">Dark Angels</div>
+  </div>
+  <div class="card" data-group="team" data-name="death guard" data-slug="deathguard">
+    <a href="faction_card_death_guard_team_2026-05-06.png" target="_blank"><img src="faction_card_death_guard_team_2026-05-06.png" alt="Death Guard" loading="lazy"></a>
+    <div class="label">Death Guard</div>
+  </div>
+  <div class="card" data-group="team" data-name="deathwatch" data-slug="deathwatch">
+    <a href="faction_card_deathwatch_team_2026-05-06.png" target="_blank"><img src="faction_card_deathwatch_team_2026-05-06.png" alt="Deathwatch" loading="lazy"></a>
+    <div class="label">Deathwatch</div>
+  </div>
+  <div class="card" data-group="team" data-name="drukhari" data-slug="drukhari">
+    <a href="faction_card_drukhari_team_2026-05-06.png" target="_blank"><img src="faction_card_drukhari_team_2026-05-06.png" alt="Drukhari" loading="lazy"></a>
+    <div class="label">Drukhari</div>
+  </div>
+  <div class="card" data-group="team" data-name="emperor s children" data-slug="emperorschildren">
+    <a href="faction_card_emperor_s_children_team_2026-05-06.png" target="_blank"><img src="faction_card_emperor_s_children_team_2026-05-06.png" alt="Emperor s Children" loading="lazy"></a>
+    <div class="label">Emperor s Children</div>
+  </div>
+  <div class="card" data-group="team" data-name="genestealer cults" data-slug="genestealercults">
+    <a href="faction_card_genestealer_cults_team_2026-05-06.png" target="_blank"><img src="faction_card_genestealer_cults_team_2026-05-06.png" alt="Genestealer Cults" loading="lazy"></a>
+    <div class="label">Genestealer Cults</div>
+  </div>
+  <div class="card" data-group="team" data-name="grey knights" data-slug="greyknights">
+    <a href="faction_card_grey_knights_team_2026-05-06.png" target="_blank"><img src="faction_card_grey_knights_team_2026-05-06.png" alt="Grey Knights" loading="lazy"></a>
+    <div class="label">Grey Knights</div>
+  </div>
+  <div class="card" data-group="team" data-name="imperial agents" data-slug="imperialagents">
+    <a href="faction_card_imperial_agents_team_2026-05-06.png" target="_blank"><img src="faction_card_imperial_agents_team_2026-05-06.png" alt="Imperial Agents" loading="lazy"></a>
+    <div class="label">Imperial Agents</div>
+  </div>
+  <div class="card" data-group="team" data-name="imperial knights" data-slug="imperialknights">
+    <a href="faction_card_imperial_knights_team_2026-05-06.png" target="_blank"><img src="faction_card_imperial_knights_team_2026-05-06.png" alt="Imperial Knights" loading="lazy"></a>
+    <div class="label">Imperial Knights</div>
+  </div>
+  <div class="card" data-group="team" data-name="leagues of votann" data-slug="leaguesofvotann">
+    <a href="faction_card_leagues_of_votann_team_2026-05-06.png" target="_blank"><img src="faction_card_leagues_of_votann_team_2026-05-06.png" alt="Leagues Of Votann" loading="lazy"></a>
+    <div class="label">Leagues Of Votann</div>
+  </div>
+  <div class="card" data-group="team" data-name="necrons" data-slug="necrons">
+    <a href="faction_card_necrons_team_2026-05-06.png" target="_blank"><img src="faction_card_necrons_team_2026-05-06.png" alt="Necrons" loading="lazy"></a>
+    <div class="label">Necrons</div>
+  </div>
+  <div class="card" data-group="team" data-name="orks" data-slug="orks">
+    <a href="faction_card_orks_team_2026-05-06.png" target="_blank"><img src="faction_card_orks_team_2026-05-06.png" alt="Orks" loading="lazy"></a>
+    <div class="label">Orks</div>
+  </div>
+  <div class="card" data-group="team" data-name="space marines (astartes)" data-slug="spacemarinesastartes">
+    <a href="faction_card_space_marines_astartes_team_2026-05-06.png" target="_blank"><img src="faction_card_space_marines_astartes_team_2026-05-06.png" alt="Space Marines (Astartes)" loading="lazy"></a>
+    <div class="label">Space Marines (Astartes)</div>
+  </div>
+  <div class="card" data-group="team" data-name="space wolves" data-slug="spacewolves">
+    <a href="faction_card_space_wolves_team_2026-05-06.png" target="_blank"><img src="faction_card_space_wolves_team_2026-05-06.png" alt="Space Wolves" loading="lazy"></a>
+    <div class="label">Space Wolves</div>
+  </div>
+  <div class="card" data-group="team" data-name="t'au empire" data-slug="tauempire">
+    <a href="faction_card_t_au_empire_team_2026-05-06.png" target="_blank"><img src="faction_card_t_au_empire_team_2026-05-06.png" alt="T'au Empire" loading="lazy"></a>
+    <div class="label">T'au Empire</div>
+  </div>
+  <div class="card" data-group="team" data-name="thousand sons" data-slug="thousandsons">
+    <a href="faction_card_thousand_sons_team_2026-05-06.png" target="_blank"><img src="faction_card_thousand_sons_team_2026-05-06.png" alt="Thousand Sons" loading="lazy"></a>
+    <div class="label">Thousand Sons</div>
+  </div>
+  <div class="card" data-group="team" data-name="tyranids" data-slug="tyranids">
+    <a href="faction_card_tyranids_team_2026-05-06.png" target="_blank"><img src="faction_card_tyranids_team_2026-05-06.png" alt="Tyranids" loading="lazy"></a>
+    <div class="label">Tyranids</div>
+  </div>
+  <div class="card" data-group="team" data-name="world eaters" data-slug="worldeaters">
+    <a href="faction_card_world_eaters_team_2026-05-06.png" target="_blank"><img src="faction_card_world_eaters_team_2026-05-06.png" alt="World Eaters" loading="lazy"></a>
+    <div class="label">World Eaters</div>
+  </div>
+    </div>
+  </div>
+  <div id="no-results">No factions match your search.</div>
+</main>
+
+<script>
+  var currentGroup = 'all';
+
+  function setGroup(g) {
+    currentGroup = g;
+    ['all','solo','team'].forEach(function(id) {
+      document.getElementById('btn-' + id).classList.toggle('active', id === g);
+    });
+    applyFilters();
+  }
+
+  function applyFilters() {
+    var q = document.getElementById('search').value.trim().toLowerCase();
+    var cards = document.querySelectorAll('.card');
+    var visible = 0;
+    cards.forEach(function(c) {
+      var groupMatch = currentGroup === 'all' || c.dataset.group === currentGroup;
+      var nameMatch  = !q || c.dataset.name.indexOf(q) !== -1;
+      var show = groupMatch && nameMatch;
+      c.classList.toggle('hidden', !show);
+      if (show) visible++;
+    });
+
+    // Show/hide section headers
+    ['solo','team'].forEach(function(g) {
+      var sec = document.getElementById('section-' + g);
+      var anyVisible = sec.querySelectorAll('.card:not(.hidden)').length > 0;
+      sec.classList.toggle('hidden', !anyVisible);
+    });
+
+    document.getElementById('count').textContent = visible + ' shown';
+    document.getElementById('no-results').style.display = visible === 0 ? 'block' : 'none';
+  }
+
+  document.getElementById('search').addEventListener('input', applyFilters);
+  applyFilters();
+</script>
+</body>
+</html>

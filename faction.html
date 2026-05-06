@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Faction Detail — BCPTrawler</title>
+<meta name="description" content="Warhammer 40k faction detail: detachments, matchups, top players, and weekly trend data.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/app.css">
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js" defer></script>
+</head>
+<body>
+
+<header>
+  <a class="site-logo" href="index.html">BCPTrawler</a>
+  <span class="subtitle" id="window-label"></span>
+  <span class="spacer"></span>
+  <a class="nav-link" href="legend.html">About</a>
+  <a class="nav-link" id="back-link" href="index.html">← All Factions</a>
+</header>
+
+<main>
+  <div class="breadcrumb">
+    <a id="breadcrumb-back" href="index.html">Meta Explorer</a>
+    › <span id="breadcrumb-faction">Loading…</span>
+  </div>
+
+  <div id="content" class="loading">Loading faction data…</div>
+</main>
+
+<footer id="site-footer"></footer>
+
+<script src="assets/app.js" defer></script>
+<script src="assets/faction.js" defer></script>
+</body>
+</html>
