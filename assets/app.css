@@ -191,9 +191,33 @@ tbody td { padding: 8px 10px; vertical-align: middle; }
   margin-bottom: 16px;
 }
 
-/* ── Two-col layout ─────────────────────────────────────── */
-.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-@media (max-width: 700px) { .two-col { grid-template-columns: 1fr; } }
+/* Landing page bar charts — tall on wide screens, shorter on narrow */
+#chart-play,
+#chart-wr {
+  height: clamp(320px, 55vw, 560px);
+}
+
+/* Detachment breakdown chart */
+.chart-det {
+  height: clamp(240px, 40vw, 380px);
+}
+
+/* Matchup chart — scales with number of factions shown; give it room */
+.chart-matchup {
+  height: clamp(360px, 60vw, 600px);
+}
+
+/* Timeline charts — compact */
+.chart-timeline {
+  height: clamp(180px, 25vw, 260px);
+}
+
+/* ── Two-col layout — fluid, collapses when columns would be < 340px ── */
+.two-col {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 16px;
+}
 
 /* ── Loading / empty / error ────────────────────────────── */
 .loading { color: var(--dim); text-align: center; padding: 40px; font-size: 0.9rem; }

@@ -60,14 +60,14 @@ async function init() {
       </div>
       <div class="chart-wrap">
         <div class="panel-title">Play Rate by Detachment</div>
-        <div id="chart-det" style="height:340px;"></div>
+        <div id="chart-det" class="chart-det"></div>
       </div>
     </div>
 
     <p class="section-title">Matchups vs All Factions</p>
     <div class="chart-wrap">
       <div class="panel-title">Win Rate into Opponent <span class="panel-note">(min 5 games)</span></div>
-      <div id="chart-matchup" style="height:520px;"></div>
+      <div id="chart-matchup" class="chart-matchup"></div>
     </div>
 
     <p class="section-title">Top Players</p>
@@ -80,11 +80,11 @@ async function init() {
     <div class="two-col">
       <div class="chart-wrap">
         <div class="panel-title">Lists per Week</div>
-        <div id="chart-lists" style="height:220px;"></div>
+        <div id="chart-lists" class="chart-timeline"></div>
       </div>
       <div class="chart-wrap">
         <div class="panel-title">Win Rate per Week</div>
-        <div id="chart-wr-timeline" style="height:220px;"></div>
+        <div id="chart-wr-timeline" class="chart-timeline"></div>
       </div>
     </div>
   `;
@@ -200,7 +200,7 @@ function renderDetChart(dets) {
     textposition: "outside",
     cliponaxis: false,
     hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
-  }], darkLayout({ margin: { t: 20, r: 80, b: 30, l: 180 }, height: 340 }), { responsive: true });
+  }], darkLayout({ margin: { t: 20, r: 80, b: 30, l: 180 } }), { responsive: true });
 }
 
 function renderMatchupChart(matchups) {
@@ -237,7 +237,7 @@ function renderTimeline(timeline) {
     y: timeline.map(t => t.lists),
     line: { color: "#1565c0" },
     hovertemplate: "%{x}: %{y} lists<extra></extra>",
-  }], darkLayout({ margin: { t: 10, r: 20, b: 40, l: 50 }, height: 220 }), { responsive: true });
+  }], darkLayout({ margin: { t: 10, r: 20, b: 40, l: 50 } }), { responsive: true });
 
   Plotly.newPlot("chart-wr-timeline", [{
     type: "scatter", mode: "lines+markers",
@@ -246,7 +246,7 @@ function renderTimeline(timeline) {
     line: { color: "#e94560" },
     hovertemplate: "%{x}: %{y:.1f}%<extra></extra>",
   }], darkLayout({
-    margin: { t: 10, r: 20, b: 40, l: 50 }, height: 220,
+    margin: { t: 10, r: 20, b: 40, l: 50 },
     yaxis: { range: [30, 80], gridcolor: "#2a2a4a" },
     shapes: [{ type: "line", x0: 0, x1: 1, xref: "paper", y0: 50, y1: 50,
                line: { color: "#555", width: 1, dash: "dot" } }],
