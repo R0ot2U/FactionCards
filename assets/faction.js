@@ -1,23 +1,11 @@
 /* Faction detail page */
 
-async function init() {
-  const params = new URLSearchParams(window.location.search);
-  const slug = params.get("faction");
-  const eventType = getEventType();
-  const windowDays = getWindow();
+let currentSlug = "";
+let currentEventType = getEventType();
+let currentWindow = getWindow();
 
-  if (!slug) {
-    document.getElementById("content").innerHTML =
-      `<p class="empty">No faction specified. <a href="index.html">Return to explorer.</a></p>`;
-    return;
-  }
-
-  // Update breadcrumb and back-link to preserve event_type and window state
+async function loadFactionData(slug, eventType, windowDays) {
   const backUrl = `index.html?event_type=${encodeURIComponent(eventType)}&window=${encodeURIComponent(windowDays)}`;
-  const backLink = document.getElementById("back-link");
-  const breadcrumbBack = document.getElementById("breadcrumb-back");
-  if (backLink) backLink.href = backUrl;
-  if (breadcrumbBack) breadcrumbBack.href = backUrl;
 
   let data;
   try {
@@ -35,12 +23,26 @@ async function init() {
           Could not load faction data for "${slug}": ${e.message}
           <br><a href="${backUrl}">← Back to explorer</a>
         </p>`;
-      return;
+      return null;
     }
   }
 
   let manifest = {};
   try { manifest = await fetchJSON(`${dataRoot(eventType, windowDays)}/index.json`); } catch (_) {}
+
+  return { data, manifest, backUrl };
+}
+
+function renderFactionPage(result) {
+  if (!result) return;
+
+  const { data, manifest, backUrl } = result;
+
+  // Update links
+  const backLink = document.getElementById("back-link");
+  const breadcrumbBack = document.getElementById("breadcrumb-back");
+  if (backLink) backLink.href = backUrl;
+  if (breadcrumbBack) breadcrumbBack.href = backUrl;
 
   // Page title and header
   document.title = `${data.faction} — Informed Crusader`;
@@ -92,17 +94,6 @@ async function init() {
 
   renderFooter(manifest);
 
-  // Sync active buttons to current state
-  document.querySelectorAll("#event-type-btns .btn").forEach(b => {
-    b.classList.toggle("active", b.dataset.val === eventType);
-  });
-  document.querySelectorAll("#window-btns .btn").forEach(b => {
-    b.classList.toggle("active", b.dataset.val === windowDays);
-  });
-
-  // Set up filter button handlers
-  setupFilterButtons(slug);
-
   // Render charts after DOM is built
   requestAnimationFrame(() => {
     renderDetChart(data.detachments);
@@ -112,30 +103,72 @@ async function init() {
   });
 }
 
-function setupFilterButtons(slug) {
-  // Window buttons — reload page with new window parameter
+async function init() {
+  const params = new URLSearchParams(window.location.search);
+  currentSlug = params.get("faction");
+
+  if (!currentSlug) {
+    document.getElementById("content").innerHTML =
+      `<p class="empty">No faction specified. <a href="index.html">Return to explorer.</a></p>`;
+    return;
+  }
+
+  // Load initial data
+  const result = await loadFactionData(currentSlug, currentEventType, currentWindow);
+  renderFactionPage(result);
+
+  // Sync active buttons to current state
+  document.querySelectorAll("#event-type-btns .btn").forEach(b => {
+    b.classList.toggle("active", b.dataset.val === currentEventType);
+  });
+  document.querySelectorAll("#window-btns .btn").forEach(b => {
+    b.classList.toggle("active", b.dataset.val === currentWindow);
+  });
+
+  // Set up filter button handlers (once)
+  setupFilterButtons();
+}
+
+function setupFilterButtons() {
+  // Window buttons — fetch new data without reload
   document.querySelectorAll("#window-btns .btn").forEach(btn => {
-    btn.addEventListener("click", () => {
+    btn.addEventListener("click", async () => {
       const newWindow = btn.dataset.val;
-      const currentWindow = getWindow();
       if (newWindow === currentWindow) return;
 
+      document.querySelectorAll("#window-btns .btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      currentWindow = newWindow;
+
+      // Update URL without reload
       const url = new URL(window.location);
       url.searchParams.set("window", newWindow);
-      window.location.href = url.toString();
+      history.replaceState(null, "", url);
+
+      // Fetch and render new data
+      const result = await loadFactionData(currentSlug, currentEventType, currentWindow);
+      renderFactionPage(result);
     });
   });
 
-  // Event-type buttons — reload page with new event_type parameter
+  // Event-type buttons — fetch new data without reload
   document.querySelectorAll("#event-type-btns .btn").forEach(btn => {
-    btn.addEventListener("click", () => {
+    btn.addEventListener("click", async () => {
       const newType = btn.dataset.val;
-      const currentType = getEventType();
-      if (newType === currentType) return;
+      if (newType === currentEventType) return;
 
+      document.querySelectorAll("#event-type-btns .btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      currentEventType = newType;
+
+      // Update URL without reload
       const url = new URL(window.location);
       url.searchParams.set("event_type", newType);
-      window.location.href = url.toString();
+      history.replaceState(null, "", url);
+
+      // Fetch and render new data
+      const result = await loadFactionData(currentSlug, currentEventType, currentWindow);
+      renderFactionPage(result);
     });
   });
 }
