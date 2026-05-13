@@ -1,6 +1,8 @@
 /* Shared helpers for Informed Crusader interactive site */
 
 const DEFAULT_EVENT_TYPE = "all";
+const DEFAULT_WINDOW = "30d";
+const SUPPORTED_WINDOWS = ["7d", "14d", "30d", "60d"];
 
 function getEventType() {
   const params = new URLSearchParams(window.location.search);
@@ -8,8 +10,16 @@ function getEventType() {
   return ["all", "solo", "team"].includes(et) ? et : DEFAULT_EVENT_TYPE;
 }
 
-function dataRoot(eventType) {
-  return `data/${eventType || getEventType()}`;
+function getWindow() {
+  const params = new URLSearchParams(window.location.search);
+  const w = params.get("window") || DEFAULT_WINDOW;
+  return SUPPORTED_WINDOWS.includes(w) ? w : DEFAULT_WINDOW;
+}
+
+function dataRoot(eventType, window) {
+  const et = eventType || getEventType();
+  const w = window || getWindow();
+  return `data/${et}/${w}`;
 }
 
 async function fetchJSON(path) {

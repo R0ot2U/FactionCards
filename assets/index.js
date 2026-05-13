@@ -2,27 +2,33 @@
 
 let allFactions = [];
 let currentEventType = getEventType();
-let currentSort = "play_rate";
+let currentWindow = getWindow();
+let currentSortCol = 2;  // Default to play_rate column (0=faction, 1=lists, 2=play_rate)
+let currentSortDir = -1; // -1 = desc, 1 = asc
 let manifest = {};
 
-async function loadData(eventType) {
-  const root = dataRoot(eventType);
+async function loadData(eventType, window) {
+  const root = dataRoot(eventType, window);
   try {
     manifest = await fetchJSON(`${root}/index.json`);
     const factions = await fetchJSON(`${root}/factions.json`);
     allFactions = factions;
     return true;
   } catch (e) {
-    // Fall back to "all" bundle if requested bundle is unavailable
-    if (eventType !== "all") {
+    // Fall back to "all" / "30d" bundle if requested bundle is unavailable
+    if (eventType !== "all" || window !== "30d") {
       try {
-        manifest = await fetchJSON(`${dataRoot("all")}/index.json`);
-        const factions = await fetchJSON(`${dataRoot("all")}/factions.json`);
+        manifest = await fetchJSON(`${dataRoot("all", "30d")}/index.json`);
+        const factions = await fetchJSON(`${dataRoot("all", "30d")}/factions.json`);
         allFactions = factions;
         currentEventType = "all";
+        currentWindow = "30d";
         // Sync button active state to fallback
         document.querySelectorAll("#event-type-btns .btn").forEach(b => {
           b.classList.toggle("active", b.dataset.val === "all");
+        });
+        document.querySelectorAll("#window-btns .btn").forEach(b => {
+          b.classList.toggle("active", b.dataset.val === "30d");
         });
         return true;
       } catch (_) {}
@@ -41,7 +47,7 @@ async function init() {
   document.getElementById("faction-tbody").innerHTML =
     `<tr><td colspan="6" class="loading">Loading data…</td></tr>`;
 
-  const ok = await loadData(currentEventType);
+  const ok = await loadData(currentEventType, currentWindow);
   if (!ok) return;
 
   // Header meta
@@ -54,17 +60,51 @@ async function init() {
   const cardsLink = document.getElementById("cards-link");
   if (cardsLink) cardsLink.href = manifest.cards_url || "https://r0ot2u.github.io/FactionCards/";
 
-  // Sync active button to current event type
+  // Sync active buttons to current state
   document.querySelectorAll("#event-type-btns .btn").forEach(b => {
     b.classList.toggle("active", b.dataset.val === currentEventType);
+  });
+  document.querySelectorAll("#window-btns .btn").forEach(b => {
+    b.classList.toggle("active", b.dataset.val === currentWindow);
   });
 
   renderTable();
   renderCharts();
   renderFooter(manifest);
 
+  // Set up column sorting
+  setupColumnSorting();
+
   // Search
   document.getElementById("search").addEventListener("input", () => renderTable());
+
+  // Window buttons — fetch new bundle and re-render
+  document.querySelectorAll("#window-btns .btn").forEach(btn => {
+    btn.addEventListener("click", async () => {
+      const newWindow = btn.dataset.val;
+      if (newWindow === currentWindow) return;
+
+      document.querySelectorAll("#window-btns .btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      currentWindow = newWindow;
+
+      // Update URL without reload so the state is shareable/bookmarkable
+      const url = new URL(window.location);
+      url.searchParams.set("window", newWindow);
+      history.replaceState(null, "", url);
+
+      await loadData(currentEventType, currentWindow);
+      renderTable();
+      renderCharts();
+      renderFooter(manifest);
+
+      // Update header stats
+      document.getElementById("window-label").textContent =
+        `${manifest.window_days}-day window · as of ${manifest.as_of}`;
+      document.getElementById("build-info").textContent =
+        `${manifest.total_lists.toLocaleString()} lists · ${manifest.total_games.toLocaleString()} games`;
+    });
+  });
 
   // Event-type buttons — fetch new bundle and re-render
   document.querySelectorAll("#event-type-btns .btn").forEach(btn => {
@@ -81,7 +121,7 @@ async function init() {
       url.searchParams.set("event_type", newType);
       history.replaceState(null, "", url);
 
-      await loadData(newType);
+      await loadData(currentEventType, currentWindow);
       renderTable();
       renderCharts();
       renderFooter(manifest);
@@ -93,37 +133,60 @@ async function init() {
         `${manifest.total_lists.toLocaleString()} lists · ${manifest.total_games.toLocaleString()} games`;
     });
   });
-
-  // Sort buttons
-  document.querySelectorAll("#sort-btns .btn").forEach(btn => {
-    btn.addEventListener("click", () => {
-      document.querySelectorAll("#sort-btns .btn").forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
-      currentSort = btn.dataset.sort;
-      renderTable();
-      renderCharts();
-    });
-  });
 }
 
 function filteredFactions() {
   const q = (document.getElementById("search").value || "").toLowerCase().trim();
   let rows = allFactions;
   if (q) rows = rows.filter(r => r.faction.toLowerCase().includes(q));
-  return sortRows(rows, currentSort);
+  return sortRowsByColumn(rows);
 }
 
-function sortRows(rows, sortKey) {
+function sortRowsByColumn(rows) {
+  const colMap = ["faction", "lists", "play_rate", "win_rate", "trend_delta", "top_detachment"];
+  const sortKey = colMap[currentSortCol] || "play_rate";
+
   return [...rows].sort((a, b) => {
-    if (sortKey === "faction") return a.faction.localeCompare(b.faction);
-    return (b[sortKey] ?? 0) - (a[sortKey] ?? 0);
+    if (sortKey === "faction" || sortKey === "top_detachment") {
+      return (a[sortKey] || "").localeCompare(b[sortKey] || "") * currentSortDir;
+    }
+    return ((b[sortKey] ?? -999) - (a[sortKey] ?? -999)) * -currentSortDir;
   });
+}
+
+function setupColumnSorting() {
+  const table = document.getElementById("faction-table");
+  const headers = table.querySelectorAll("thead th");
+
+  headers.forEach((th, colIdx) => {
+    th.style.cursor = "pointer";
+    th.addEventListener("click", () => {
+      if (currentSortCol === colIdx) {
+        currentSortDir = -currentSortDir;
+      } else {
+        currentSortCol = colIdx;
+        currentSortDir = -1; // Default to descending (except faction which sorts asc)
+        if (colIdx === 0) currentSortDir = 1; // Faction name defaults to asc
+      }
+
+      // Update header indicators
+      headers.forEach(h => h.classList.remove("sort-asc", "sort-desc"));
+      th.classList.add(currentSortDir === 1 ? "sort-asc" : "sort-desc");
+
+      renderTable();
+      renderCharts();
+    });
+  });
+
+  // Set initial indicator
+  headers[currentSortCol]?.classList.add("sort-desc");
 }
 
 function factionHref(slug) {
   const url = new URL("faction.html", window.location.href);
   url.searchParams.set("faction", slug);
   url.searchParams.set("event_type", currentEventType);
+  url.searchParams.set("window", currentWindow);
   return url.pathname + url.search;
 }
 
@@ -151,7 +214,14 @@ function renderTable() {
       </tr>`;
   }).join("");
 
-  makeSortable(document.getElementById("faction-table"));
+  // Restore sort indicator
+  const headers = document.querySelectorAll("#faction-table thead th");
+  headers.forEach((h, i) => {
+    h.classList.remove("sort-asc", "sort-desc");
+    if (i === currentSortCol) {
+      h.classList.add(currentSortDir === 1 ? "sort-asc" : "sort-desc");
+    }
+  });
 }
 
 function renderCharts() {

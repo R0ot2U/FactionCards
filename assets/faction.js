@@ -4,6 +4,7 @@ async function init() {
   const params = new URLSearchParams(window.location.search);
   const slug = params.get("faction");
   const eventType = getEventType();
+  const windowDays = getWindow();
 
   if (!slug) {
     document.getElementById("content").innerHTML =
@@ -11,8 +12,8 @@ async function init() {
     return;
   }
 
-  // Update breadcrumb and back-link to preserve event_type state
-  const backUrl = `index.html?event_type=${encodeURIComponent(eventType)}`;
+  // Update breadcrumb and back-link to preserve event_type and window state
+  const backUrl = `index.html?event_type=${encodeURIComponent(eventType)}&window=${encodeURIComponent(windowDays)}`;
   const backLink = document.getElementById("back-link");
   const breadcrumbBack = document.getElementById("breadcrumb-back");
   if (backLink) backLink.href = backUrl;
@@ -20,12 +21,12 @@ async function init() {
 
   let data;
   try {
-    data = await fetchJSON(`${dataRoot(eventType)}/faction/${slug}.json`);
+    data = await fetchJSON(`${dataRoot(eventType, windowDays)}/faction/${slug}.json`);
   } catch (e) {
-    // Try fallback to "all" bundle
-    if (eventType !== "all") {
+    // Try fallback to "all" / "30d" bundle
+    if (eventType !== "all" || windowDays !== "30d") {
       try {
-        data = await fetchJSON(`${dataRoot("all")}/faction/${slug}.json`);
+        data = await fetchJSON(`${dataRoot("all", "30d")}/faction/${slug}.json`);
       } catch (_) {}
     }
     if (!data) {
@@ -39,7 +40,7 @@ async function init() {
   }
 
   let manifest = {};
-  try { manifest = await fetchJSON(`${dataRoot(eventType)}/index.json`); } catch (_) {}
+  try { manifest = await fetchJSON(`${dataRoot(eventType, windowDays)}/index.json`); } catch (_) {}
 
   // Page title and header
   document.title = `${data.faction} — Informed Crusader`;
