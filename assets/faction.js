@@ -92,12 +92,51 @@ async function init() {
 
   renderFooter(manifest);
 
+  // Sync active buttons to current state
+  document.querySelectorAll("#event-type-btns .btn").forEach(b => {
+    b.classList.toggle("active", b.dataset.val === eventType);
+  });
+  document.querySelectorAll("#window-btns .btn").forEach(b => {
+    b.classList.toggle("active", b.dataset.val === windowDays);
+  });
+
+  // Set up filter button handlers
+  setupFilterButtons(slug);
+
   // Render charts after DOM is built
   requestAnimationFrame(() => {
     renderDetChart(data.detachments);
     renderMatchupChart(data.matchups);
     renderTimeline(data.timeline);
     document.querySelectorAll("table").forEach(makeSortable);
+  });
+}
+
+function setupFilterButtons(slug) {
+  // Window buttons — reload page with new window parameter
+  document.querySelectorAll("#window-btns .btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const newWindow = btn.dataset.val;
+      const currentWindow = getWindow();
+      if (newWindow === currentWindow) return;
+
+      const url = new URL(window.location);
+      url.searchParams.set("window", newWindow);
+      window.location.href = url.toString();
+    });
+  });
+
+  // Event-type buttons — reload page with new event_type parameter
+  document.querySelectorAll("#event-type-btns .btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const newType = btn.dataset.val;
+      const currentType = getEventType();
+      if (newType === currentType) return;
+
+      const url = new URL(window.location);
+      url.searchParams.set("event_type", newType);
+      window.location.href = url.toString();
+    });
   });
 }
 
