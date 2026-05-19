@@ -1,45 +1,83 @@
 {
   "faction": "Black Templars",
   "slug": "black_templars",
-  "as_of": "2026-05-13",
+  "as_of": "2026-05-19",
   "window_days": 7,
   "event_type": "solo",
-  "lists": 1,
-  "games": 5,
-  "play_rate": 0.5,
-  "win_rate": 30.0,
-  "trend_delta": -11.2,
-  "top_detachment": "Godhammer Assault Force",
+  "lists": 3,
+  "games": 15,
+  "play_rate": 0.3,
+  "win_rate": 60.0,
+  "trend_delta": null,
+  "top_detachment": "Gladius Task Force",
   "detachments": [
     {
-      "detachment": "Godhammer Assault Force",
-      "base_archetype": "Black Templars \u2014 Godhammer Assault Force",
+      "detachment": "Gladius Task Force",
+      "base_archetype": "Black Templars \u2014 Gladius Task Force",
       "lists": 1,
       "games": 5,
-      "play_rate": 100.0,
-      "win_rate": 30.0
+      "play_rate": 33.3,
+      "win_rate": 60.0
+    },
+    {
+      "detachment": "Bastion Task Force",
+      "base_archetype": "Black Templars \u2014 Bastion Task Force",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 33.3,
+      "win_rate": 40.0
+    },
+    {
+      "detachment": "Ceramite Sentinels",
+      "base_archetype": "Black Templars \u2014 Ceramite Sentinels",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 33.3,
+      "win_rate": 80.0
     }
   ],
   "top_players": [
     {
-      "player_name": "Roman Bulgakov",
-      "detachment": "Godhammer Assault Force",
-      "list_url": "https://www.bestcoastpairings.com/list/HaCWdTk06TZf",
+      "player_name": "Harrison Darge",
+      "detachment": "Ceramite Sentinels",
+      "list_url": "https://www.bestcoastpairings.com/list/LN2BgliyMlll",
       "source": "bcp",
-      "wins": 1,
-      "losses": 3,
-      "draws": 1,
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
       "games": 5,
-      "win_rate": 30.0
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Andres Villamil",
+      "detachment": "Gladius Task Force",
+      "list_url": "https://www.bestcoastpairings.com/list/R7AvHRSmbKtY",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Andr\u00e9 de Almeida",
+      "detachment": "Bastion Task Force",
+      "list_url": "https://www.bestcoastpairings.com/list/I5d5nVKZjNWq",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
     }
   ],
   "matchups": [],
   "timeline": [
     {
-      "week": "2026-W18",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 30.0
+      "week": "2026-W19",
+      "lists": 3,
+      "games": 15,
+      "win_rate": 60.0
     }
   ]
 }

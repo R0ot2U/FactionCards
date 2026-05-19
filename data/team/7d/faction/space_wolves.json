@@ -1,41 +1,60 @@
 {
   "faction": "Space Wolves",
   "slug": "space_wolves",
-  "as_of": "2026-05-13",
+  "as_of": "2026-05-19",
   "window_days": 7,
   "event_type": "team",
-  "lists": 2,
-  "games": 10,
-  "play_rate": 1.2,
-  "win_rate": 25.0,
-  "trend_delta": -18.8,
+  "lists": 3,
+  "games": 15,
+  "play_rate": 0.7,
+  "win_rate": 16.7,
+  "trend_delta": -8.3,
   "top_detachment": "Saga of the Beastslayer",
   "detachments": [
     {
       "detachment": "Saga of the Beastslayer",
       "base_archetype": "Space Wolves \u2014 Saga of the Beastslayer",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 66.7,
+      "win_rate": 15.0
+    },
+    {
+      "detachment": "Saga of the Great Wolf",
+      "base_archetype": "Space Wolves \u2014 Saga of the Great Wolf",
       "lists": 1,
       "games": 5,
-      "play_rate": 50.0,
-      "win_rate": 50.0
+      "play_rate": 33.3,
+      "win_rate": 20.0
     }
   ],
   "top_players": [
     {
-      "player_name": "Paul James",
+      "player_name": "Josh Bryant",
       "detachment": "Saga of the Beastslayer",
-      "list_url": "https://www.bestcoastpairings.com/list/Tijba67rQ2fx",
+      "list_url": "https://www.bestcoastpairings.com/list/hc5yE78cwx3V",
       "source": "bcp",
-      "wins": 2,
-      "losses": 2,
+      "wins": 1,
+      "losses": 3,
       "draws": 1,
       "games": 5,
-      "win_rate": 50.0
+      "win_rate": 30.0
     },
     {
-      "player_name": "Oliver Byrne",
-      "detachment": "Space Marines (Astartes) \u2014 Saga of the Great Wolf",
-      "list_url": "https://www.bestcoastpairings.com/list/BEy2LainIOKY",
+      "player_name": "David \u0160ohajda",
+      "detachment": "Saga of the Great Wolf",
+      "list_url": "https://www.bestcoastpairings.com/list/ii35TlzGvFvH",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "James Patterson",
+      "detachment": "Saga of the Beastslayer",
+      "list_url": "https://www.bestcoastpairings.com/list/MuHkIjeFZhXe",
       "source": "bcp",
       "wins": 0,
       "losses": 5,
@@ -44,13 +63,20 @@
       "win_rate": 0.0
     }
   ],
-  "matchups": [],
+  "matchups": [
+    {
+      "opponent_faction": "Chaos Space Marines",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 50.0
+    }
+  ],
   "timeline": [
     {
-      "week": "2026-W18",
-      "lists": 2,
-      "games": 10,
-      "win_rate": 25.0
+      "week": "2026-W19",
+      "lists": 3,
+      "games": 15,
+      "win_rate": 16.7
     }
   ]
 }

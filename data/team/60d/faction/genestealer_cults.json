@@ -1,46 +1,46 @@
 {
   "faction": "Genestealer Cults",
   "slug": "genestealer_cults",
-  "as_of": "2026-05-13",
+  "as_of": "2026-05-19",
   "window_days": 60,
   "event_type": "team",
-  "lists": 71,
-  "games": 317,
+  "lists": 78,
+  "games": 352,
   "play_rate": 1.4,
-  "win_rate": 55.0,
-  "trend_delta": -5.0,
+  "win_rate": 56.2,
+  "trend_delta": -3.8,
   "top_detachment": "Biosanctic Broodsurge",
   "detachments": [
     {
       "detachment": "Biosanctic Broodsurge",
       "base_archetype": "Genestealer Cults \u2014 Biosanctic Broodsurge",
-      "lists": 34,
-      "games": 127,
-      "play_rate": 47.9,
-      "win_rate": 51.6
+      "lists": 40,
+      "games": 157,
+      "play_rate": 51.3,
+      "win_rate": 54.1
+    },
+    {
+      "detachment": "Outlander Claw",
+      "base_archetype": "Genestealer Cults \u2014 Outlander Claw",
+      "lists": 11,
+      "games": 50,
+      "play_rate": 14.1,
+      "win_rate": 72.0
     },
     {
       "detachment": "Host of Ascension",
       "base_archetype": "Genestealer Cults \u2014 Host of Ascension",
       "lists": 10,
       "games": 51,
-      "play_rate": 14.1,
+      "play_rate": 12.8,
       "win_rate": 56.9
-    },
-    {
-      "detachment": "Outlander Claw",
-      "base_archetype": "Genestealer Cults \u2014 Outlander Claw",
-      "lists": 10,
-      "games": 45,
-      "play_rate": 14.1,
-      "win_rate": 71.1
     },
     {
       "detachment": "Final Day",
       "base_archetype": "Genestealer Cults \u2014 Final Day",
       "lists": 9,
       "games": 45,
-      "play_rate": 12.7,
+      "play_rate": 11.5,
       "win_rate": 50.0
     },
     {
@@ -48,7 +48,7 @@
       "base_archetype": "Genestealer Cults \u2014 Xenocreed Congregation",
       "lists": 4,
       "games": 20,
-      "play_rate": 5.6,
+      "play_rate": 5.1,
       "win_rate": 22.5
     },
     {
@@ -56,8 +56,16 @@
       "base_archetype": "Genestealer Cults \u2014 Brood Brother Auxilia",
       "lists": 3,
       "games": 14,
-      "play_rate": 4.2,
+      "play_rate": 3.8,
       "win_rate": 50.0
+    },
+    {
+      "detachment": "No Detachment",
+      "base_archetype": "Genestealer Cults \u2014 No Detachment",
+      "lists": 1,
+      "games": 15,
+      "play_rate": 1.3,
+      "win_rate": 93.3
     }
   ],
   "top_players": [
@@ -70,17 +78,6 @@
       "losses": 0,
       "draws": 0,
       "games": 10,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Jakub Leitner",
-      "detachment": "Biosanctic Broodsurge",
-      "list_url": "https://www.bestcoastpairings.com/list/4m9ONDD1ycPW",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
       "win_rate": 100.0
     },
     {
@@ -140,7 +137,7 @@
     },
     {
       "player_name": "Ben Greenlay",
-      "detachment": "",
+      "detachment": "No Detachment",
       "list_url": "https://www.bestcoastpairings.com/list/FAqqB3lGARd3",
       "source": "bcp",
       "wins": 14,
@@ -148,6 +145,17 @@
       "draws": 0,
       "games": 15,
       "win_rate": 93.3
+    },
+    {
+      "player_name": "Jakub Leitner",
+      "detachment": "Biosanctic Broodsurge",
+      "list_url": "https://www.bestcoastpairings.com/list/R4cpY2tRB1CY",
+      "source": "bcp",
+      "wins": 9,
+      "losses": 1,
+      "draws": 0,
+      "games": 10,
+      "win_rate": 90.0
     },
     {
       "player_name": "Alex Macdougall",
@@ -172,20 +180,20 @@
       "win_rate": 82.5
     },
     {
-      "player_name": "Tomislav Turic",
-      "detachment": "Host of Ascension",
-      "list_url": "https://www.bestcoastpairings.com/list/HhXSoNOlWqpm",
+      "player_name": "Michal Barciak",
+      "detachment": "Outlander Claw",
+      "list_url": "https://www.bestcoastpairings.com/list/uKtrtSEXg2iC",
       "source": "bcp",
-      "wins": 4,
-      "losses": 1,
+      "wins": 8,
+      "losses": 2,
       "draws": 0,
-      "games": 5,
+      "games": 10,
       "win_rate": 80.0
     },
     {
-      "player_name": "Michal Barciak",
-      "detachment": "Outlander Claw",
-      "list_url": "https://www.bestcoastpairings.com/list/Nvlp5pb6OUD8",
+      "player_name": "Tomislav Turic",
+      "detachment": "Host of Ascension",
+      "list_url": "https://www.bestcoastpairings.com/list/HhXSoNOlWqpm",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -291,105 +299,111 @@
     },
     {
       "opponent_faction": "Astra Militarum",
-      "games": 22,
-      "wins": 18,
-      "win_rate": 81.8
+      "games": 26,
+      "wins": 20,
+      "win_rate": 78.8
     },
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 22,
+      "games": 23,
       "wins": 14,
-      "win_rate": 65.9
+      "win_rate": 63.0
     },
     {
       "opponent_faction": "Adeptus Custodes",
-      "games": 22,
+      "games": 23,
       "wins": 8,
-      "win_rate": 38.6
+      "win_rate": 37.0
     },
     {
       "opponent_faction": "T'au Empire",
-      "games": 21,
-      "wins": 10,
-      "win_rate": 50.0
+      "games": 22,
+      "wins": 11,
+      "win_rate": 52.3
+    },
+    {
+      "opponent_faction": "Aeldari",
+      "games": 19,
+      "wins": 12,
+      "win_rate": 65.8
+    },
+    {
+      "opponent_faction": "Death Guard",
+      "games": 18,
+      "wins": 7,
+      "win_rate": 38.9
     },
     {
       "opponent_faction": "Chaos Space Marines",
       "games": 17,
-      "wins": 11,
-      "win_rate": 64.7
-    },
-    {
-      "opponent_faction": "Death Guard",
-      "games": 17,
-      "wins": 7,
-      "win_rate": 41.2
+      "wins": 12,
+      "win_rate": 70.6
     },
     {
       "opponent_faction": "World Eaters",
-      "games": 15,
-      "wins": 7,
-      "win_rate": 46.7
+      "games": 16,
+      "wins": 9,
+      "win_rate": 56.2
     },
     {
       "opponent_faction": "Imperial Knights",
-      "games": 15,
-      "wins": 10,
-      "win_rate": 70.0
-    },
-    {
-      "opponent_faction": "Aeldari",
-      "games": 14,
-      "wins": 9,
-      "win_rate": 64.3
+      "games": 16,
+      "wins": 11,
+      "win_rate": 71.9
     },
     {
       "opponent_faction": "Orks",
-      "games": 14,
-      "wins": 6,
-      "win_rate": 42.9
-    },
-    {
-      "opponent_faction": "Blood Angels",
-      "games": 11,
-      "wins": 6,
-      "win_rate": 59.1
-    },
-    {
-      "opponent_faction": "Tyranids",
-      "games": 10,
-      "wins": 4,
-      "win_rate": 45.0
-    },
-    {
-      "opponent_faction": "Adepta Sororitas",
-      "games": 9,
-      "wins": 7,
-      "win_rate": 83.3
-    },
-    {
-      "opponent_faction": "Drukhari",
-      "games": 8,
-      "wins": 3,
-      "win_rate": 43.8
+      "games": 16,
+      "wins": 8,
+      "win_rate": 50.0
     },
     {
       "opponent_faction": "Chaos Knights",
-      "games": 8,
-      "wins": 5,
-      "win_rate": 68.8
+      "games": 13,
+      "wins": 8,
+      "win_rate": 61.5
+    },
+    {
+      "opponent_faction": "Blood Angels",
+      "games": 13,
+      "wins": 9,
+      "win_rate": 73.1
+    },
+    {
+      "opponent_faction": "Tyranids",
+      "games": 12,
+      "wins": 4,
+      "win_rate": 37.5
+    },
+    {
+      "opponent_faction": "Adepta Sororitas",
+      "games": 12,
+      "wins": 9,
+      "win_rate": 79.2
+    },
+    {
+      "opponent_faction": "Drukhari",
+      "games": 9,
+      "wins": 4,
+      "win_rate": 50.0
     },
     {
       "opponent_faction": "Thousand Sons",
+      "games": 9,
+      "wins": 3,
+      "win_rate": 33.3
+    },
+    {
+      "opponent_faction": "Chaos Daemons",
       "games": 8,
       "wins": 3,
       "win_rate": 37.5
     },
     {
-      "opponent_faction": "Chaos Daemons",
+      "opponent_faction": "Leagues of Votann",
       "games": 7,
-      "wins": 3,
-      "win_rate": 42.9
+      "wins": 6,
+      "win_rate": 85.7
     },
     {
       "opponent_faction": "Dark Angels",
@@ -398,10 +412,10 @@
       "win_rate": 50.0
     },
     {
-      "opponent_faction": "Leagues of Votann",
+      "opponent_faction": "Emperor's Children",
       "games": 6,
-      "wins": 5,
-      "win_rate": 83.3
+      "wins": 1,
+      "win_rate": 25.0
     },
     {
       "opponent_faction": "Grey Knights",
@@ -439,7 +453,7 @@
       "week": "2026-W15",
       "lists": 11,
       "games": 50,
-      "win_rate": 75.0
+      "win_rate": 83.0
     },
     {
       "week": "2026-W16",
@@ -458,6 +472,12 @@
       "lists": 2,
       "games": 10,
       "win_rate": 60.0
+    },
+    {
+      "week": "2026-W19",
+      "lists": 7,
+      "games": 35,
+      "win_rate": 55.7
     }
   ]
 }

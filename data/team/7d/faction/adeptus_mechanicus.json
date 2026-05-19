@@ -1,45 +1,105 @@
 {
   "faction": "Adeptus Mechanicus",
   "slug": "adeptus_mechanicus",
-  "as_of": "2026-05-13",
+  "as_of": "2026-05-19",
   "window_days": 7,
   "event_type": "team",
-  "lists": 1,
-  "games": 5,
-  "play_rate": 0.6,
-  "win_rate": 50.0,
-  "trend_delta": 3.5,
-  "top_detachment": "Haloscreed Battle Clade",
+  "lists": 5,
+  "games": 25,
+  "play_rate": 1.1,
+  "win_rate": 48.0,
+  "trend_delta": null,
+  "top_detachment": "Skitarii Hunter Cohort",
   "detachments": [
+    {
+      "detachment": "Skitarii Hunter Cohort",
+      "base_archetype": "Adeptus Mechanicus \u2014 Skitarii Hunter Cohort",
+      "lists": 3,
+      "games": 15,
+      "play_rate": 60.0,
+      "win_rate": 53.3
+    },
+    {
+      "detachment": "Explorator Maniple",
+      "base_archetype": "Adeptus Mechanicus \u2014 Explorator Maniple",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 20.0,
+      "win_rate": 20.0
+    },
     {
       "detachment": "Haloscreed Battle Clade",
       "base_archetype": "Adeptus Mechanicus \u2014 Haloscreed Battle Clade",
       "lists": 1,
       "games": 5,
-      "play_rate": 100.0,
-      "win_rate": 50.0
+      "play_rate": 20.0,
+      "win_rate": 60.0
     }
   ],
   "top_players": [
     {
-      "player_name": "Alec Ski",
+      "player_name": "Luka Ladin",
       "detachment": "Haloscreed Battle Clade",
-      "list_url": "https://www.bestcoastpairings.com/list/UAoe01BO3gOb",
+      "list_url": "https://www.bestcoastpairings.com/list/6nHhQnJFrpby",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Spenser Diesing",
+      "detachment": "Skitarii Hunter Cohort",
+      "list_url": "https://www.bestcoastpairings.com/list/zU8tfBRXHRFX",
       "source": "bcp",
       "wins": 2,
-      "losses": 2,
-      "draws": 1,
+      "losses": 1,
+      "draws": 2,
       "games": 5,
-      "win_rate": 50.0
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Jaymo Vanetten",
+      "detachment": "Skitarii Hunter Cohort",
+      "list_url": "https://www.bestcoastpairings.com/list/bcyioM7KQ9QS",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Alec Ski",
+      "detachment": "Skitarii Hunter Cohort",
+      "list_url": "https://www.bestcoastpairings.com/list/IB5AaRRkFSoO",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 2,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Ond\u0159ej N\u00e1den\u00ed\u010dek",
+      "detachment": "Explorator Maniple",
+      "list_url": "https://www.bestcoastpairings.com/list/plPgXyaAmoih",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
     }
   ],
   "matchups": [],
   "timeline": [
     {
-      "week": "2026-W18",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 50.0
+      "week": "2026-W19",
+      "lists": 5,
+      "games": 25,
+      "win_rate": 48.0
     }
   ]
 }

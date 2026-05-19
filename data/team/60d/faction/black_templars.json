@@ -1,55 +1,71 @@
 {
   "faction": "Black Templars",
   "slug": "black_templars",
-  "as_of": "2026-05-13",
+  "as_of": "2026-05-19",
   "window_days": 60,
   "event_type": "team",
-  "lists": 22,
-  "games": 95,
+  "lists": 23,
+  "games": 100,
   "play_rate": 0.4,
-  "win_rate": 45.8,
-  "trend_delta": -10.9,
+  "win_rate": 43.5,
+  "trend_delta": -13.2,
   "top_detachment": "Bastion Task Force",
   "detachments": [
     {
       "detachment": "Bastion Task Force",
       "base_archetype": "Black Templars \u2014 Bastion Task Force",
-      "lists": 10,
-      "games": 40,
-      "play_rate": 45.5,
-      "win_rate": 47.5
+      "lists": 11,
+      "games": 45,
+      "play_rate": 47.8,
+      "win_rate": 42.2
     },
     {
       "detachment": "Gladius Task Force",
       "base_archetype": "Black Templars \u2014 Gladius Task Force",
       "lists": 4,
       "games": 20,
-      "play_rate": 18.2,
+      "play_rate": 17.4,
       "win_rate": 45.0
+    },
+    {
+      "detachment": "Wrathful Procession",
+      "base_archetype": "Black Templars \u2014 Wrathful Procession",
+      "lists": 3,
+      "games": 15,
+      "play_rate": 13.0,
+      "win_rate": 36.7
     },
     {
       "detachment": "Godhammer Assault Force",
       "base_archetype": "Black Templars \u2014 Godhammer Assault Force",
       "lists": 2,
       "games": 5,
-      "play_rate": 9.1,
+      "play_rate": 8.7,
       "win_rate": 50.0
     },
     {
-      "detachment": "Wrathful Procession",
-      "base_archetype": "Black Templars \u2014 Wrathful Procession",
+      "detachment": "Companions of Vehemence",
+      "base_archetype": "Black Templars \u2014 Companions of Vehemence",
       "lists": 1,
       "games": 5,
-      "play_rate": 4.5,
-      "win_rate": 30.0
+      "play_rate": 4.3,
+      "win_rate": 60.0
     },
     {
       "detachment": "Ceramite Sentinels",
       "base_archetype": "Black Templars \u2014 Ceramite Sentinels",
       "lists": 1,
       "games": 5,
-      "play_rate": 4.5,
+      "play_rate": 4.3,
       "win_rate": 70.0
+    },
+    {
+      "detachment": "No Detachment",
+      "base_archetype": "Black Templars \u2014 No Detachment",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 4.3,
+      "win_rate": 20.0
     }
   ],
   "top_players": [
@@ -154,7 +170,7 @@
     },
     {
       "player_name": "Gionathan Soares da Silva",
-      "detachment": "Space Marines (Astartes) \u2014 Companions of Vehemence",
+      "detachment": "Companions of Vehemence",
       "list_url": "https://www.bestcoastpairings.com/list/v01oRT3VfI5p",
       "source": "bcp",
       "wins": 3,
@@ -187,7 +203,7 @@
     },
     {
       "player_name": "Almudena jimenez camporbin",
-      "detachment": "Space Marines (Astartes) \u2014 Wrathful Procession",
+      "detachment": "Wrathful Procession",
       "list_url": "https://www.bestcoastpairings.com/list/Cwej2F9lUCYI",
       "source": "bcp",
       "wins": 3,
@@ -242,7 +258,7 @@
     },
     {
       "player_name": "Ryan Reilly",
-      "detachment": "",
+      "detachment": "No Detachment",
       "list_url": "https://www.bestcoastpairings.com/list/T0MF1pJN223l",
       "source": "bcp",
       "wins": 1,
@@ -253,7 +269,7 @@
     },
     {
       "player_name": "Sebastian Marquez",
-      "detachment": "Space Marines (Astartes) \u2014 Wrathful Procession",
+      "detachment": "Wrathful Procession",
       "list_url": "https://www.bestcoastpairings.com/list/rR7nhZ3IVsYW",
       "source": "bcp",
       "wins": 1,
@@ -277,9 +293,9 @@
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 12,
+      "games": 13,
       "wins": 7,
-      "win_rate": 58.3
+      "win_rate": 53.8
     },
     {
       "opponent_faction": "T'au Empire",
@@ -354,6 +370,12 @@
       "lists": 4,
       "games": 20,
       "win_rate": 52.5
+    },
+    {
+      "week": "2026-W19",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 0.0
     }
   ]
 }

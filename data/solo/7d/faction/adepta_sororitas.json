@@ -1,38 +1,92 @@
 {
   "faction": "Adepta Sororitas",
   "slug": "adepta_sororitas",
-  "as_of": "2026-05-13",
+  "as_of": "2026-05-19",
   "window_days": 7,
   "event_type": "solo",
-  "lists": 3,
-  "games": 15,
-  "play_rate": 1.5,
-  "win_rate": 50.0,
-  "trend_delta": -1.9,
-  "top_detachment": "Bringers of Flame",
+  "lists": 27,
+  "games": 124,
+  "play_rate": 2.9,
+  "win_rate": 47.6,
+  "trend_delta": -2.4,
+  "top_detachment": "Hallowed Martyrs",
   "detachments": [
+    {
+      "detachment": "Hallowed Martyrs",
+      "base_archetype": "Adepta Sororitas \u2014 Hallowed Martyrs",
+      "lists": 14,
+      "games": 67,
+      "play_rate": 51.9,
+      "win_rate": 52.2
+    },
+    {
+      "detachment": "Champions of Faith",
+      "base_archetype": "Adepta Sororitas \u2014 Champions of Faith",
+      "lists": 6,
+      "games": 23,
+      "play_rate": 22.2,
+      "win_rate": 39.1
+    },
+    {
+      "detachment": "Army of Faith",
+      "base_archetype": "Adepta Sororitas \u2014 Army of Faith",
+      "lists": 3,
+      "games": 14,
+      "play_rate": 11.1,
+      "win_rate": 28.6
+    },
     {
       "detachment": "Bringers of Flame",
       "base_archetype": "Adepta Sororitas \u2014 Bringers of Flame",
       "lists": 2,
       "games": 10,
-      "play_rate": 66.7,
-      "win_rate": 65.0
+      "play_rate": 7.4,
+      "win_rate": 30.0
     },
     {
-      "detachment": "Army of Faith",
-      "base_archetype": "Adepta Sororitas \u2014 Army of Faith",
+      "detachment": "0",
+      "base_archetype": "Adepta Sororitas \u2014 0",
       "lists": 1,
       "games": 5,
-      "play_rate": 33.3,
-      "win_rate": 20.0
+      "play_rate": 3.7,
+      "win_rate": 60.0
+    },
+    {
+      "detachment": "No Detachment",
+      "base_archetype": "Adepta Sororitas \u2014 No Detachment",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 3.7,
+      "win_rate": 100.0
     }
   ],
   "top_players": [
     {
-      "player_name": "Blake McCutcheon",
-      "detachment": "Bringers of Flame",
-      "list_url": "https://www.bestcoastpairings.com/list/M6aLbVPZEwec",
+      "player_name": "Joshawa Richter",
+      "detachment": "Hallowed Martyrs",
+      "list_url": "https://www.bestcoastpairings.com/list/QvCsADZ5t478",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "\u9648\u771f LikeItHot",
+      "detachment": "No Detachment",
+      "list_url": "https://www.bestcoastpairings.com/list/GLKxGtFREo5J",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Laszlo Bakos",
+      "detachment": "Hallowed Martyrs",
+      "list_url": "https://www.bestcoastpairings.com/list/z80PfkRjFKAJ",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -41,35 +95,255 @@
       "win_rate": 80.0
     },
     {
-      "player_name": "Boss Helicopter",
-      "detachment": "Bringers of Flame",
-      "list_url": "https://www.bestcoastpairings.com/list/z0mjwDhoRqag",
+      "player_name": "Ratt Meeson",
+      "detachment": "Hallowed Martyrs",
+      "list_url": "https://www.bestcoastpairings.com/list/aZrY4bm4WuAp",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "games": 3,
+      "win_rate": 66.7
+    },
+    {
+      "player_name": "Mark Doherty",
+      "detachment": "Champions of Faith",
+      "list_url": "https://www.bestcoastpairings.com/list/adKn9vcZLsWA",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 1,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Bailey MacAusland",
+      "detachment": "Hallowed Martyrs",
+      "list_url": "https://www.bestcoastpairings.com/list/VbEsl2C7pPH1",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Bryan Crawford",
+      "detachment": "Army of Faith",
+      "list_url": "https://www.bestcoastpairings.com/list/bKk03oikWp4J",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Matthew Dean",
+      "detachment": "0",
+      "list_url": "https://www.bestcoastpairings.com/list/IOZ8DfNMxL16",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Benjamin (Ygg) Busquet",
+      "detachment": "Hallowed Martyrs",
+      "list_url": "https://www.bestcoastpairings.com/list/JCxeklZvLrYR",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Dayton Johnson",
+      "detachment": "Hallowed Martyrs",
+      "list_url": "https://www.bestcoastpairings.com/list/DnawGhknOEWs",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Jaime Cruz",
+      "detachment": "Hallowed Martyrs",
+      "list_url": "https://www.bestcoastpairings.com/list/QCW9ZzxOArcw",
       "source": "bcp",
       "wins": 2,
       "losses": 2,
-      "draws": 1,
-      "games": 5,
+      "draws": 0,
+      "games": 4,
       "win_rate": 50.0
     },
     {
-      "player_name": "Shir Rokach",
-      "detachment": "Army of Faith",
-      "list_url": "https://www.bestcoastpairings.com/list/MfOV6p6yetrk",
+      "player_name": "Kevin Gillette",
+      "detachment": "Hallowed Martyrs",
+      "list_url": "https://www.bestcoastpairings.com/list/Rux7Yk2DH9CA",
       "source": "bcp",
-      "wins": 0,
+      "wins": 2,
       "losses": 3,
-      "draws": 2,
+      "draws": 0,
       "games": 5,
-      "win_rate": 20.0
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Nicholas Ouellette",
+      "detachment": "Champions of Faith",
+      "list_url": "https://www.bestcoastpairings.com/list/Z8c9lxK8gLl3",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Frederico Silva",
+      "detachment": "Hallowed Martyrs",
+      "list_url": "https://www.bestcoastpairings.com/list/kY6dsa8CKWQz",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Luis Montoto",
+      "detachment": "Hallowed Martyrs",
+      "list_url": "https://www.bestcoastpairings.com/list/3jRUiB4qkx7n",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "David Tye",
+      "detachment": "Champions of Faith",
+      "list_url": "https://www.bestcoastpairings.com/list/NwCxqWdf7VX4",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "DJ Inglis",
+      "detachment": "Hallowed Martyrs",
+      "list_url": "https://www.bestcoastpairings.com/list/O3XsDg7XlvEH",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Alistair Morris",
+      "detachment": "Hallowed Martyrs",
+      "list_url": "https://www.bestcoastpairings.com/list/pC8MOoguPzOR",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "George Babagiannis",
+      "detachment": "Bringers of Flame",
+      "list_url": "https://www.bestcoastpairings.com/list/JBkCmF6dbHEt",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Artemiy Tulupnikov",
+      "detachment": "Champions of Faith",
+      "list_url": "https://www.bestcoastpairings.com/list/WVo1jIve2ksR",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "games": 3,
+      "win_rate": 33.3
     }
   ],
-  "matchups": [],
+  "matchups": [
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 12,
+      "wins": 6,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "Emperor's Children",
+      "games": 10,
+      "wins": 2,
+      "win_rate": 20.0
+    },
+    {
+      "opponent_faction": "Tyranids",
+      "games": 9,
+      "wins": 6,
+      "win_rate": 66.7
+    },
+    {
+      "opponent_faction": "Chaos Space Marines",
+      "games": 8,
+      "wins": 6,
+      "win_rate": 75.0
+    },
+    {
+      "opponent_faction": "Death Guard",
+      "games": 8,
+      "wins": 2,
+      "win_rate": 25.0
+    },
+    {
+      "opponent_faction": "Leagues of Votann",
+      "games": 7,
+      "wins": 2,
+      "win_rate": 28.6
+    },
+    {
+      "opponent_faction": "Necrons",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "Imperial Knights",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 66.7
+    },
+    {
+      "opponent_faction": "Drukhari",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0
+    }
+  ],
   "timeline": [
     {
-      "week": "2026-W18",
-      "lists": 3,
-      "games": 15,
-      "win_rate": 50.0
+      "week": "2026-W19",
+      "lists": 27,
+      "games": 124,
+      "win_rate": 47.6
     }
   ]
 }

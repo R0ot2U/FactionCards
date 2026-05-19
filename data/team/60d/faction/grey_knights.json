@@ -1,38 +1,38 @@
 {
   "faction": "Grey Knights",
   "slug": "grey_knights",
-  "as_of": "2026-05-13",
+  "as_of": "2026-05-19",
   "window_days": 60,
   "event_type": "team",
-  "lists": 75,
-  "games": 322,
-  "play_rate": 1.4,
-  "win_rate": 47.4,
-  "trend_delta": 3.6,
+  "lists": 83,
+  "games": 367,
+  "play_rate": 1.5,
+  "win_rate": 46.7,
+  "trend_delta": 2.9,
   "top_detachment": "Warpbane Task Force",
   "detachments": [
     {
       "detachment": "Warpbane Task Force",
       "base_archetype": "Grey Knights \u2014 Warpbane Task Force",
-      "lists": 60,
-      "games": 267,
-      "play_rate": 80.0,
-      "win_rate": 51.5
+      "lists": 64,
+      "games": 282,
+      "play_rate": 77.1,
+      "win_rate": 50.2
     },
     {
       "detachment": "Banishers",
       "base_archetype": "Grey Knights \u2014 Banishers",
-      "lists": 7,
-      "games": 29,
-      "play_rate": 9.3,
-      "win_rate": 36.2
+      "lists": 9,
+      "games": 39,
+      "play_rate": 10.8,
+      "win_rate": 26.9
     },
     {
       "detachment": "Sanctic Spearhead",
       "base_archetype": "Grey Knights \u2014 Sanctic Spearhead",
       "lists": 4,
       "games": 25,
-      "play_rate": 5.3,
+      "play_rate": 4.8,
       "win_rate": 48.0
     },
     {
@@ -40,8 +40,16 @@
       "base_archetype": "Grey Knights \u2014 Augurium Task Force",
       "lists": 2,
       "games": 9,
-      "play_rate": 2.7,
+      "play_rate": 2.4,
       "win_rate": 50.0
+    },
+    {
+      "detachment": "Hallowed Conclave",
+      "base_archetype": "Grey Knights \u2014 Hallowed Conclave",
+      "lists": 2,
+      "games": 8,
+      "play_rate": 2.4,
+      "win_rate": 25.0
     }
   ],
   "top_players": [
@@ -145,6 +153,17 @@
       "win_rate": 75.0
     },
     {
+      "player_name": "Garrett Befera",
+      "detachment": "Warpbane Task Force",
+      "list_url": "https://www.bestcoastpairings.com/list/wDZ89kPitSgj",
+      "source": "bcp",
+      "wins": 7,
+      "losses": 2,
+      "draws": 1,
+      "games": 10,
+      "win_rate": 75.0
+    },
+    {
       "player_name": "Matt Bell",
       "detachment": "Warpbane Task Force",
       "list_url": "https://www.bestcoastpairings.com/list/USk2HzTRuhaW",
@@ -154,6 +173,17 @@
       "draws": 2,
       "games": 15,
       "win_rate": 73.3
+    },
+    {
+      "player_name": "Noah Westergaard",
+      "detachment": "Warpbane Task Force",
+      "list_url": "https://www.bestcoastpairings.com/list/6ZcM0bG5zufV",
+      "source": "bcp",
+      "wins": 7,
+      "losses": 3,
+      "draws": 0,
+      "games": 10,
+      "win_rate": 70.0
     },
     {
       "player_name": "David Arimond",
@@ -242,42 +272,32 @@
       "draws": 2,
       "games": 10,
       "win_rate": 60.0
-    },
-    {
-      "player_name": "Adam Gladders",
-      "detachment": "Warpbane Task Force",
-      "list_url": "https://www.bestcoastpairings.com/list/ulCWWxnIQsx7",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 3,
-      "draws": 2,
-      "games": 10,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Christian REichmann",
-      "detachment": "Warpbane Task Force",
-      "list_url": "https://www.bestcoastpairings.com/list/OkSuLComFPd5",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
     }
   ],
   "matchups": [
     {
-      "opponent_faction": "Necrons",
-      "games": 28,
-      "wins": 7,
-      "win_rate": 26.8
+      "opponent_faction": "T'au Empire",
+      "games": 31,
+      "wins": 13,
+      "win_rate": 41.9
     },
     {
-      "opponent_faction": "T'au Empire",
-      "games": 27,
-      "wins": 10,
-      "win_rate": 38.9
+      "opponent_faction": "Necrons",
+      "games": 30,
+      "wins": 8,
+      "win_rate": 28.3
+    },
+    {
+      "opponent_faction": "World Eaters",
+      "games": 25,
+      "wins": 9,
+      "win_rate": 38.0
+    },
+    {
+      "opponent_faction": "Chaos Space Marines",
+      "games": 25,
+      "wins": 9,
+      "win_rate": 38.0
     },
     {
       "opponent_faction": "Space Marines (Astartes)",
@@ -286,28 +306,34 @@
       "win_rate": 52.2
     },
     {
-      "opponent_faction": "Chaos Space Marines",
-      "games": 22,
-      "wins": 8,
-      "win_rate": 38.6
-    },
-    {
-      "opponent_faction": "World Eaters",
-      "games": 21,
-      "wins": 8,
-      "win_rate": 40.5
+      "opponent_faction": "Adeptus Custodes",
+      "games": 20,
+      "wins": 9,
+      "win_rate": 47.5
     },
     {
       "opponent_faction": "Emperor's Children",
-      "games": 17,
-      "wins": 13,
-      "win_rate": 76.5
+      "games": 19,
+      "wins": 14,
+      "win_rate": 73.7
     },
     {
       "opponent_faction": "Astra Militarum",
-      "games": 15,
+      "games": 16,
       "wins": 7,
-      "win_rate": 50.0
+      "win_rate": 46.9
+    },
+    {
+      "opponent_faction": "Chaos Knights",
+      "games": 15,
+      "wins": 5,
+      "win_rate": 33.3
+    },
+    {
+      "opponent_faction": "Death Guard",
+      "games": 14,
+      "wins": 5,
+      "win_rate": 35.7
     },
     {
       "opponent_faction": "Adeptus Mechanicus",
@@ -316,34 +342,34 @@
       "win_rate": 53.6
     },
     {
-      "opponent_faction": "Adeptus Custodes",
+      "opponent_faction": "Tyranids",
       "games": 14,
-      "wins": 6,
-      "win_rate": 46.4
+      "wins": 5,
+      "win_rate": 39.3
     },
     {
-      "opponent_faction": "Tyranids",
+      "opponent_faction": "Leagues of Votann",
+      "games": 14,
+      "wins": 7,
+      "win_rate": 53.6
+    },
+    {
+      "opponent_faction": "Orks",
       "games": 13,
       "wins": 5,
       "win_rate": 42.3
     },
     {
-      "opponent_faction": "Death Guard",
+      "opponent_faction": "Blood Angels",
       "games": 12,
-      "wins": 5,
-      "win_rate": 41.7
+      "wins": 9,
+      "win_rate": 75.0
     },
     {
-      "opponent_faction": "Chaos Knights",
-      "games": 12,
-      "wins": 4,
-      "win_rate": 33.3
-    },
-    {
-      "opponent_faction": "Orks",
+      "opponent_faction": "Imperial Knights",
       "games": 11,
-      "wins": 4,
-      "win_rate": 40.9
+      "wins": 5,
+      "win_rate": 45.5
     },
     {
       "opponent_faction": "Thousand Sons",
@@ -352,46 +378,34 @@
       "win_rate": 54.5
     },
     {
-      "opponent_faction": "Leagues of Votann",
-      "games": 11,
-      "wins": 5,
-      "win_rate": 50.0
-    },
-    {
-      "opponent_faction": "Blood Angels",
-      "games": 10,
-      "wins": 9,
-      "win_rate": 90.0
-    },
-    {
       "opponent_faction": "Drukhari",
       "games": 9,
       "wins": 4,
       "win_rate": 50.0
     },
     {
-      "opponent_faction": "Imperial Knights",
-      "games": 9,
-      "wins": 4,
-      "win_rate": 44.4
-    },
-    {
       "opponent_faction": "Adepta Sororitas",
-      "games": 6,
-      "wins": 2,
-      "win_rate": 41.7
-    },
-    {
-      "opponent_faction": "Aeldari",
-      "games": 6,
+      "games": 8,
       "wins": 3,
-      "win_rate": 58.3
+      "win_rate": 43.8
     },
     {
       "opponent_faction": "Chaos Daemons",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 64.3
+    },
+    {
+      "opponent_faction": "Aeldari",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 64.3
+    },
+    {
+      "opponent_faction": "Dark Angels",
       "games": 5,
       "wins": 3,
-      "win_rate": 70.0
+      "win_rate": 60.0
     },
     {
       "opponent_faction": "Genestealer Cults",
@@ -434,8 +448,8 @@
     {
       "week": "2026-W16",
       "lists": 12,
-      "games": 54,
-      "win_rate": 35.2
+      "games": 59,
+      "win_rate": 38.1
     },
     {
       "week": "2026-W17",
@@ -446,8 +460,14 @@
     {
       "week": "2026-W18",
       "lists": 3,
-      "games": 15,
-      "win_rate": 43.3
+      "games": 20,
+      "win_rate": 52.5
+    },
+    {
+      "week": "2026-W19",
+      "lists": 8,
+      "games": 35,
+      "win_rate": 32.9
     }
   ]
 }
