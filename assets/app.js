@@ -22,8 +22,10 @@ function dataRoot(eventType, window) {
   return `data/${et}/${w}`;
 }
 
-async function fetchJSON(path) {
-  const resp = await fetch(path);
+async function fetchJSON(path, cacheBust = false) {
+  // Add cache-busting query param if requested (use date-based key for better caching)
+  const url = cacheBust ? `${path}?v=${new Date().toISOString().split('T')[0]}` : path;
+  const resp = await fetch(url);
   if (!resp.ok) throw new Error(`Failed to load ${path}: ${resp.status}`);
   return resp.json();
 }

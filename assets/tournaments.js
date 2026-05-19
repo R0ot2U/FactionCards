@@ -8,11 +8,11 @@ let currentSortDir = -1; // -1 = desc, 1 = asc
 let manifest = {};
 let expandedRows = new Set();
 
-async function loadData(eventType, windowDays) {
+async function loadData(eventType, windowDays, cacheBust = false) {
   const root = dataRoot(eventType, windowDays);
   try {
-    manifest = await fetchJSON(`${root}/index.json`);
-    const tournaments = await fetchJSON(`${root}/tournaments.json`);
+    manifest = await fetchJSON(`${root}/index.json`, cacheBust);
+    const tournaments = await fetchJSON(`${root}/tournaments.json`, cacheBust);
     allTournaments = tournaments;
     return true;
   } catch (e) {
@@ -48,7 +48,8 @@ async function init() {
   document.getElementById("tournaments-tbody").innerHTML =
     `<tr><td colspan="5" class="loading">Loading data…</td></tr>`;
 
-  const ok = await loadData(currentEventType, currentWindow);
+  // Use cache-busting on initial page load to ensure fresh data
+  const ok = await loadData(currentEventType, currentWindow, true);
   if (!ok) return;
 
   // Header meta
