@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tournaments — Informed Crusader</title>
+<meta name="description" content="Warhammer 40k tournament results: view recent events with top 3 placements, list links, and event details.">
+<meta property="og:title" content="Tournaments — Informed Crusader">
+<meta property="og:description" content="Recent tournament results from BCP and New Recruit events.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+
+<header>
+  <a class="site-logo" href="index.html">Informed Crusader</a>
+  <span class="subtitle" id="window-label"></span>
+  <span class="spacer"></span>
+  <a class="nav-link" href="players.html">Players</a>
+  <a class="nav-link" href="index.html">Factions</a>
+  <a class="nav-link" href="legend.html">About</a>
+  <span class="meta-info" id="build-info"></span>
+</header>
+
+<main>
+  <div class="controls">
+    <input class="search-input" type="search" id="search" placeholder="Search tournament…" autocomplete="off">
+    <div class="btn-group" id="window-btns" role="group" aria-label="Time window filter">
+      <button class="btn" data-val="7d">7d</button>
+      <button class="btn" data-val="14d">14d</button>
+      <button class="btn active" data-val="30d">30d</button>
+      <button class="btn" data-val="60d">60d</button>
+    </div>
+    <div class="btn-group" id="event-type-btns" role="group" aria-label="Event type filter">
+      <button class="btn active" data-val="all">All Events</button>
+      <button class="btn" data-val="solo">Singles</button>
+      <button class="btn" data-val="team">Teams</button>
+    </div>
+    <span id="row-count" style="color:var(--dim);font-size:0.8rem;margin-left:4px;"></span>
+  </div>
+
+  <div class="panel">
+    <div class="panel-title">Recent Tournaments</div>
+    <div class="table-wrap">
+      <table id="tournaments-table">
+        <thead>
+          <tr>
+            <th>Event</th>
+            <th title="Event start date">Date</th>
+            <th title="Number of active players">Players</th>
+            <th title="Number of tournament rounds">Rounds</th>
+            <th>Location</th>
+          </tr>
+        </thead>
+        <tbody id="tournaments-tbody">
+          <tr><td colspan="5" class="loading">Loading data…</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</main>
+
+<footer id="site-footer"></footer>
+
+<script src="assets/app.js" defer></script>
+<script src="assets/tournaments.js" defer></script>
+</body>
+</html>

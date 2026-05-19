@@ -4,10 +4,10 @@
   "as_of": "2026-05-13",
   "window_days": 60,
   "event_type": "solo",
-  "lists": 42,
-  "games": 196,
+  "lists": 40,
+  "games": 182,
   "play_rate": 0.5,
-  "win_rate": 41.3,
+  "win_rate": 41.8,
   "trend_delta": null,
   "top_detachment": "Imperialis Fleet",
   "detachments": [
@@ -16,7 +16,7 @@
       "base_archetype": "Imperial Agents \u2014 Imperialis Fleet",
       "lists": 35,
       "games": 157,
-      "play_rate": 83.3,
+      "play_rate": 87.5,
       "win_rate": 42.7
     },
     {
@@ -24,23 +24,15 @@
       "base_archetype": "Imperial Agents \u2014 Purgation Force (Ordo Hereticus)",
       "lists": 3,
       "games": 15,
-      "play_rate": 7.1,
+      "play_rate": 7.5,
       "win_rate": 26.7
-    },
-    {
-      "detachment": "Veiled Blade Elimination Force",
-      "base_archetype": "Imperial Agents \u2014 Veiled Blade Elimination Force",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 2.4,
-      "win_rate": 40.0
     },
     {
       "detachment": "Shadowmark Talon",
       "base_archetype": "Imperial Agents \u2014 Shadowmark Talon",
       "lists": 1,
       "games": 5,
-      "play_rate": 2.4,
+      "play_rate": 2.5,
       "win_rate": 40.0
     }
   ],
@@ -211,17 +203,6 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Mitchell Corey",
-      "detachment": "Veiled Blade Elimination Force",
-      "list_url": "https://www.bestcoastpairings.com/list/ap3BEs5i8NDa",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
       "player_name": "Joshua Flemming",
       "detachment": "Imperialis Fleet",
       "list_url": "https://www.bestcoastpairings.com/list/tEY0D4AKZwSK",
@@ -264,20 +245,25 @@
       "draws": 0,
       "games": 5,
       "win_rate": 40.0
+    },
+    {
+      "player_name": "Elkantar JulianScholz",
+      "detachment": "Imperialis Fleet",
+      "list_url": "https://www.bestcoastpairings.com/list/yrnUHafXx0Zv",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "games": 3,
+      "win_rate": 33.3
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 19,
+      "games": 18,
       "wins": 8,
-      "win_rate": 44.7
-    },
-    {
-      "opponent_faction": "Tyranids",
-      "games": 16,
-      "wins": 7,
-      "win_rate": 43.8
+      "win_rate": 47.2
     },
     {
       "opponent_faction": "Necrons",
@@ -286,10 +272,16 @@
       "win_rate": 46.7
     },
     {
+      "opponent_faction": "Tyranids",
+      "games": 13,
+      "wins": 6,
+      "win_rate": 46.2
+    },
+    {
       "opponent_faction": "Adeptus Custodes",
-      "games": 11,
-      "wins": 4,
-      "win_rate": 36.4
+      "games": 9,
+      "wins": 3,
+      "win_rate": 33.3
     },
     {
       "opponent_faction": "Chaos Space Marines",
@@ -310,52 +302,16 @@
       "win_rate": 37.5
     },
     {
-      "opponent_faction": "Emperor's Children",
-      "games": 8,
-      "wins": 2,
-      "win_rate": 31.2
-    },
-    {
-      "opponent_faction": "Dark Angels",
-      "games": 8,
-      "wins": 3,
-      "win_rate": 37.5
-    },
-    {
       "opponent_faction": "Space Wolves",
       "games": 7,
       "wins": 2,
       "win_rate": 28.6
     },
     {
-      "opponent_faction": "Thousand Sons",
-      "games": 7,
-      "wins": 5,
-      "win_rate": 71.4
-    },
-    {
       "opponent_faction": "Aeldari",
       "games": 7,
       "wins": 5,
       "win_rate": 71.4
-    },
-    {
-      "opponent_faction": "World Eaters",
-      "games": 7,
-      "wins": 4,
-      "win_rate": 57.1
-    },
-    {
-      "opponent_faction": "Death Guard",
-      "games": 7,
-      "wins": 2,
-      "win_rate": 28.6
-    },
-    {
-      "opponent_faction": "Chaos Knights",
-      "games": 7,
-      "wins": 3,
-      "win_rate": 42.9
     },
     {
       "opponent_faction": "Blood Angels",
@@ -370,10 +326,46 @@
       "win_rate": 50.0
     },
     {
+      "opponent_faction": "Thousand Sons",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 66.7
+    },
+    {
       "opponent_faction": "Orks",
       "games": 6,
       "wins": 2,
       "win_rate": 33.3
+    },
+    {
+      "opponent_faction": "Emperor's Children",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 41.7
+    },
+    {
+      "opponent_faction": "Dark Angels",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 33.3
+    },
+    {
+      "opponent_faction": "World Eaters",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 66.7
+    },
+    {
+      "opponent_faction": "Death Guard",
+      "games": 6,
+      "wins": 1,
+      "win_rate": 16.7
+    },
+    {
+      "opponent_faction": "Chaos Knights",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0
     },
     {
       "opponent_faction": "Chaos Daemons",
@@ -396,12 +388,6 @@
   ],
   "timeline": [
     {
-      "week": "2026-W10",
-      "lists": 2,
-      "games": 9,
-      "win_rate": 33.3
-    },
-    {
       "week": "2026-W11",
       "lists": 5,
       "games": 19,
@@ -422,7 +408,7 @@
     {
       "week": "2026-W14",
       "lists": 8,
-      "games": 45,
+      "games": 40,
       "win_rate": 40.0
     },
     {
