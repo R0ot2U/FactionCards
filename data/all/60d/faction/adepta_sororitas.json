@@ -1,63 +1,86 @@
 {
   "faction": "Adepta Sororitas",
   "slug": "adepta_sororitas",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 60,
   "event_type": "all",
-  "lists": 364,
-  "games": 1660,
-  "play_rate": 2.6,
-  "win_rate": 48.5,
-  "trend_delta": -6.2,
+  "lists": 304,
+  "games": 1398,
+  "play_rate": 2.5,
+  "win_rate": 47.9,
+  "trend_delta": -4.3,
   "top_detachment": "Hallowed Martyrs",
+  "ci_lower": 45.3,
+  "meta_health": "slightly_under",
+  "x0_pct": 2.6,
+  "x1_pct": 13.8,
+  "tournament_wins": 4,
   "detachments": [
     {
       "detachment": "Hallowed Martyrs",
       "base_archetype": "Adepta Sororitas \u2014 Hallowed Martyrs",
-      "lists": 165,
-      "games": 755,
-      "play_rate": 45.3,
-      "win_rate": 50.1
+      "lists": 142,
+      "games": 665,
+      "play_rate": 46.7,
+      "win_rate": 48.9,
+      "x0_pct": 3.0,
+      "x1_pct": 15.9,
+      "tournament_wins": 2
     },
     {
       "detachment": "Champions of Faith",
       "base_archetype": "Adepta Sororitas \u2014 Champions of Faith",
-      "lists": 101,
-      "games": 427,
-      "play_rate": 27.7,
-      "win_rate": 49.1
+      "lists": 82,
+      "games": 326,
+      "play_rate": 27.0,
+      "win_rate": 47.5,
+      "x0_pct": 4.1,
+      "x1_pct": 12.3,
+      "tournament_wins": 1
     },
     {
       "detachment": "Bringers of Flame",
       "base_archetype": "Adepta Sororitas \u2014 Bringers of Flame",
-      "lists": 55,
-      "games": 263,
-      "play_rate": 15.1,
-      "win_rate": 45.8
+      "lists": 50,
+      "games": 258,
+      "play_rate": 16.4,
+      "win_rate": 47.7,
+      "x0_pct": 0.0,
+      "x1_pct": 22.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Army of Faith",
       "base_archetype": "Adepta Sororitas \u2014 Army of Faith",
-      "lists": 30,
-      "games": 154,
-      "play_rate": 8.2,
-      "win_rate": 42.5
+      "lists": 20,
+      "games": 101,
+      "play_rate": 6.6,
+      "win_rate": 41.1,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Penitent Host",
       "base_archetype": "Adepta Sororitas \u2014 Penitent Host",
-      "lists": 8,
-      "games": 31,
-      "play_rate": 2.2,
-      "win_rate": 40.3
+      "lists": 5,
+      "games": 18,
+      "play_rate": 1.6,
+      "win_rate": 36.1,
+      "x0_pct": 0.0,
+      "x1_pct": 20.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "No Detachment",
       "base_archetype": "Adepta Sororitas \u2014 No Detachment",
       "lists": 4,
       "games": 20,
-      "play_rate": 1.1,
-      "win_rate": 70.0
+      "play_rate": 1.3,
+      "win_rate": 70.0,
+      "x0_pct": 33.3,
+      "x1_pct": 0.0,
+      "tournament_wins": 1
     },
     {
       "detachment": "0",
@@ -65,7 +88,10 @@
       "lists": 1,
       "games": 10,
       "play_rate": 0.3,
-      "win_rate": 50.0
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
@@ -92,9 +118,9 @@
       "win_rate": 100.0
     },
     {
-      "player_name": "Lasse Blichfeldt",
-      "detachment": "Hallowed Martyrs",
-      "list_url": "https://www.bestcoastpairings.com/list/b4zrHp7onvJL",
+      "player_name": "Sebastien Geoffrion",
+      "detachment": "Champions of Faith",
+      "list_url": "https://www.bestcoastpairings.com/list/iFpj7lRD10GS",
       "source": "bcp",
       "wins": 5,
       "losses": 0,
@@ -125,6 +151,17 @@
       "win_rate": 100.0
     },
     {
+      "player_name": "Jeffrey Kolodner",
+      "detachment": "Hallowed Martyrs",
+      "list_url": "https://www.bestcoastpairings.com/list/Txf2M9z8eR1W",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
       "player_name": "Collin Watson",
       "detachment": "Champions of Faith",
       "list_url": "https://www.bestcoastpairings.com/list/S4Qn5bq40hSz",
@@ -134,17 +171,6 @@
       "draws": 0,
       "games": 3,
       "win_rate": 100.0
-    },
-    {
-      "player_name": "Jeffrey Kolodner",
-      "detachment": "Hallowed Martyrs",
-      "list_url": "https://www.bestcoastpairings.com/list/Txf2M9z8eR1W",
-      "source": "bcp",
-      "wins": 9,
-      "losses": 1,
-      "draws": 0,
-      "games": 10,
-      "win_rate": 90.0
     },
     {
       "player_name": "Patrik Bajn\u00f3ci",
@@ -180,28 +206,6 @@
       "win_rate": 86.7
     },
     {
-      "player_name": "Sebastien Geoffrion",
-      "detachment": "Champions of Faith",
-      "list_url": "https://www.bestcoastpairings.com/list/iFpj7lRD10GS",
-      "source": "bcp",
-      "wins": 8,
-      "losses": 1,
-      "draws": 1,
-      "games": 10,
-      "win_rate": 85.0
-    },
-    {
-      "player_name": "Zachery Riegling",
-      "detachment": "Hallowed Martyrs",
-      "list_url": "https://www.bestcoastpairings.com/list/5Qe83grP5NGU",
-      "source": "bcp",
-      "wins": 18,
-      "losses": 3,
-      "draws": 4,
-      "games": 25,
-      "win_rate": 80.0
-    },
-    {
       "player_name": "Daman Hall",
       "detachment": "Champions of Faith",
       "list_url": "https://www.bestcoastpairings.com/list/SPPzt4ewsxaq",
@@ -216,17 +220,6 @@
       "player_name": "Kian Tan",
       "detachment": "Hallowed Martyrs",
       "list_url": "https://www.bestcoastpairings.com/list/VMJp2AH0mFSD",
-      "source": "bcp",
-      "wins": 8,
-      "losses": 2,
-      "draws": 0,
-      "games": 10,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Jordan McGregor",
-      "detachment": "Champions of Faith",
-      "list_url": "https://www.bestcoastpairings.com/list/LyvvT9Onf0Ez",
       "source": "bcp",
       "wins": 8,
       "losses": 2,
@@ -288,152 +281,179 @@
       "draws": 0,
       "games": 5,
       "win_rate": 80.0
+    },
+    {
+      "player_name": "R\u00f3bert \u00c1rni Gu\u00f0mundsson",
+      "detachment": "Champions of Faith",
+      "list_url": "https://www.bestcoastpairings.com/list/yLpCXbTOMgtL",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Topias Koskinen",
+      "detachment": "Champions of Faith",
+      "list_url": "https://www.bestcoastpairings.com/list/W5PtDftVOGuF",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Zach Starcher",
+      "detachment": "Champions of Faith",
+      "list_url": "https://www.bestcoastpairings.com/list/cwSSFcxToj8b",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 157,
-      "wins": 83,
-      "win_rate": 53.2
+      "games": 132,
+      "wins": 69,
+      "win_rate": 52.7
     },
     {
       "opponent_faction": "Necrons",
-      "games": 135,
-      "wins": 58,
-      "win_rate": 43.3
+      "games": 107,
+      "wins": 46,
+      "win_rate": 43.0
     },
     {
       "opponent_faction": "Chaos Space Marines",
-      "games": 106,
-      "wins": 50,
-      "win_rate": 47.6
+      "games": 94,
+      "wins": 44,
+      "win_rate": 46.8
     },
     {
       "opponent_faction": "T'au Empire",
-      "games": 96,
-      "wins": 41,
-      "win_rate": 43.2
-    },
-    {
-      "opponent_faction": "Astra Militarum",
-      "games": 88,
-      "wins": 44,
-      "win_rate": 50.0
+      "games": 83,
+      "wins": 36,
+      "win_rate": 44.0
     },
     {
       "opponent_faction": "Death Guard",
-      "games": 78,
-      "wins": 39,
+      "games": 72,
+      "wins": 34,
+      "win_rate": 47.2
+    },
+    {
+      "opponent_faction": "Astra Militarum",
+      "games": 69,
+      "wins": 34,
       "win_rate": 50.0
     },
     {
       "opponent_faction": "Adeptus Custodes",
-      "games": 77,
-      "wins": 33,
-      "win_rate": 42.9
+      "games": 65,
+      "wins": 27,
+      "win_rate": 41.5
     },
     {
       "opponent_faction": "Emperor's Children",
-      "games": 74,
-      "wins": 30,
+      "games": 63,
+      "wins": 25,
       "win_rate": 40.5
     },
     {
       "opponent_faction": "Tyranids",
-      "games": 70,
-      "wins": 40,
-      "win_rate": 57.1
+      "games": 63,
+      "wins": 36,
+      "win_rate": 57.9
     },
     {
       "opponent_faction": "World Eaters",
-      "games": 69,
-      "wins": 38,
-      "win_rate": 55.8
-    },
-    {
-      "opponent_faction": "Thousand Sons",
-      "games": 67,
-      "wins": 32,
-      "win_rate": 48.5
-    },
-    {
-      "opponent_faction": "Orks",
-      "games": 62,
-      "wins": 24,
-      "win_rate": 39.5
-    },
-    {
-      "opponent_faction": "Chaos Knights",
-      "games": 60,
-      "wins": 30,
-      "win_rate": 50.0
+      "games": 58,
+      "wins": 31,
+      "win_rate": 53.4
     },
     {
       "opponent_faction": "Imperial Knights",
-      "games": 59,
-      "wins": 35,
-      "win_rate": 60.2
-    },
-    {
-      "opponent_faction": "Leagues of Votann",
-      "games": 56,
-      "wins": 21,
-      "win_rate": 38.4
-    },
-    {
-      "opponent_faction": "Blood Angels",
-      "games": 56,
-      "wins": 27,
-      "win_rate": 49.1
-    },
-    {
-      "opponent_faction": "Drukhari",
       "games": 55,
       "wins": 30,
       "win_rate": 55.5
     },
     {
-      "opponent_faction": "Chaos Daemons",
-      "games": 45,
-      "wins": 21,
-      "win_rate": 47.8
+      "opponent_faction": "Thousand Sons",
+      "games": 55,
+      "wins": 26,
+      "win_rate": 47.3
     },
     {
-      "opponent_faction": "Adeptus Mechanicus",
-      "games": 34,
-      "wins": 20,
-      "win_rate": 58.8
+      "opponent_faction": "Chaos Knights",
+      "games": 50,
+      "wins": 25,
+      "win_rate": 51.0
+    },
+    {
+      "opponent_faction": "Blood Angels",
+      "games": 49,
+      "wins": 23,
+      "win_rate": 48.0
+    },
+    {
+      "opponent_faction": "Leagues of Votann",
+      "games": 48,
+      "wins": 17,
+      "win_rate": 36.5
+    },
+    {
+      "opponent_faction": "Orks",
+      "games": 47,
+      "wins": 17,
+      "win_rate": 36.2
+    },
+    {
+      "opponent_faction": "Drukhari",
+      "games": 45,
+      "wins": 27,
+      "win_rate": 60.0
+    },
+    {
+      "opponent_faction": "Chaos Daemons",
+      "games": 37,
+      "wins": 16,
+      "win_rate": 44.6
     },
     {
       "opponent_faction": "Dark Angels",
-      "games": 32,
-      "wins": 16,
+      "games": 28,
+      "wins": 14,
       "win_rate": 50.0
     },
     {
+      "opponent_faction": "Adeptus Mechanicus",
+      "games": 26,
+      "wins": 15,
+      "win_rate": 59.6
+    },
+    {
       "opponent_faction": "Grey Knights",
-      "games": 30,
-      "wins": 17,
-      "win_rate": 56.7
+      "games": 23,
+      "wins": 14,
+      "win_rate": 60.9
     },
     {
       "opponent_faction": "Genestealer Cults",
-      "games": 27,
-      "wins": 5,
-      "win_rate": 20.4
+      "games": 21,
+      "wins": 3,
+      "win_rate": 14.3
     },
     {
       "opponent_faction": "Aeldari",
-      "games": 26,
-      "wins": 12,
-      "win_rate": 46.2
-    },
-    {
-      "opponent_faction": "Deathwatch",
       "games": 19,
-      "wins": 4,
-      "win_rate": 21.1
+      "wins": 9,
+      "win_rate": 47.4
     },
     {
       "opponent_faction": "Space Wolves",
@@ -442,72 +462,82 @@
       "win_rate": 40.0
     },
     {
-      "opponent_faction": "Black Templars",
-      "games": 10,
-      "wins": 7,
-      "win_rate": 75.0
+      "opponent_faction": "Deathwatch",
+      "games": 15,
+      "wins": 4,
+      "win_rate": 26.7
     },
     {
-      "opponent_faction": "Imperial Agents",
-      "games": 5,
-      "wins": 4,
-      "win_rate": 80.0
+      "opponent_faction": "Black Templars",
+      "games": 9,
+      "wins": 6,
+      "win_rate": 72.2
     }
   ],
   "timeline": [
     {
-      "week": "2026-W11",
-      "lists": 59,
-      "games": 261,
-      "win_rate": 49.8
-    },
-    {
       "week": "2026-W12",
-      "lists": 34,
-      "games": 148,
-      "win_rate": 52.0
+      "lists": 33,
+      "games": 147,
+      "win_rate": 52.0,
+      "total_lists": 1863,
+      "play_rate": 1.8
     },
     {
       "week": "2026-W13",
       "lists": 12,
       "games": 55,
-      "win_rate": 46.4
+      "win_rate": 46.4,
+      "total_lists": 558,
+      "play_rate": 2.2
     },
     {
       "week": "2026-W14",
       "lists": 30,
       "games": 160,
-      "win_rate": 44.7
+      "win_rate": 44.7,
+      "total_lists": 1340,
+      "play_rate": 2.2
     },
     {
       "week": "2026-W15",
       "lists": 52,
-      "games": 253,
-      "win_rate": 48.6
+      "games": 248,
+      "win_rate": 47.6,
+      "total_lists": 2028,
+      "play_rate": 2.6
     },
     {
       "week": "2026-W16",
       "lists": 48,
-      "games": 223,
-      "win_rate": 46.9
+      "games": 228,
+      "win_rate": 45.8,
+      "total_lists": 1938,
+      "play_rate": 2.5
     },
     {
       "week": "2026-W17",
       "lists": 76,
       "games": 312,
-      "win_rate": 50.8
+      "win_rate": 50.8,
+      "total_lists": 2590,
+      "play_rate": 2.9
     },
     {
       "week": "2026-W18",
       "lists": 7,
       "games": 35,
-      "win_rate": 45.7
+      "win_rate": 45.7,
+      "total_lists": 350,
+      "play_rate": 2.0
     },
     {
       "week": "2026-W19",
       "lists": 46,
       "games": 212,
-      "win_rate": 46.9
+      "win_rate": 46.9,
+      "total_lists": 1390,
+      "play_rate": 3.3
     }
   ]
 }

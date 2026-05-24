@@ -1,31 +1,42 @@
 {
   "faction": "T'au Empire",
   "slug": "t_au_empire",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 30,
   "event_type": "solo",
-  "lists": 193,
-  "games": 905,
+  "lists": 192,
+  "games": 903,
   "play_rate": 6.1,
   "win_rate": 52.0,
-  "trend_delta": -5.6,
+  "trend_delta": -6.0,
   "top_detachment": "Mont'ka",
+  "ci_lower": 48.8,
+  "meta_health": "slightly_under",
+  "x0_pct": 2.1,
+  "x1_pct": 13.5,
+  "tournament_wins": 4,
   "detachments": [
     {
       "detachment": "Mont'ka",
       "base_archetype": "T'au Empire \u2014 Mont'ka",
-      "lists": 113,
-      "games": 529,
-      "play_rate": 58.5,
-      "win_rate": 53.5
+      "lists": 112,
+      "games": 527,
+      "play_rate": 58.3,
+      "win_rate": 53.5,
+      "x0_pct": 1.8,
+      "x1_pct": 16.5,
+      "tournament_wins": 2
     },
     {
       "detachment": "Retaliation Cadre",
       "base_archetype": "T'au Empire \u2014 Retaliation Cadre",
       "lists": 39,
       "games": 182,
-      "play_rate": 20.2,
-      "win_rate": 52.5
+      "play_rate": 20.3,
+      "win_rate": 52.5,
+      "x0_pct": 5.1,
+      "x1_pct": 12.8,
+      "tournament_wins": 1
     },
     {
       "detachment": "Experimental Prototype Cadre",
@@ -33,7 +44,10 @@
       "lists": 12,
       "games": 54,
       "play_rate": 6.2,
-      "win_rate": 33.3
+      "win_rate": 33.3,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Auxiliary Cadre",
@@ -41,7 +55,10 @@
       "lists": 10,
       "games": 50,
       "play_rate": 5.2,
-      "win_rate": 54.0
+      "win_rate": 54.0,
+      "x0_pct": 0.0,
+      "x1_pct": 10.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Kroot Hunting Pack",
@@ -49,7 +66,10 @@
       "lists": 9,
       "games": 44,
       "play_rate": 4.7,
-      "win_rate": 58.0
+      "win_rate": 58.0,
+      "x0_pct": 0.0,
+      "x1_pct": 22.2,
+      "tournament_wins": 1
     },
     {
       "detachment": "Kauyon",
@@ -57,7 +77,10 @@
       "lists": 7,
       "games": 30,
       "play_rate": 3.6,
-      "win_rate": 45.0
+      "win_rate": 45.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "No Detachment",
@@ -65,7 +88,10 @@
       "lists": 3,
       "games": 16,
       "play_rate": 1.6,
-      "win_rate": 53.1
+      "win_rate": 53.1,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
@@ -293,9 +319,9 @@
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 90,
-      "wins": 54,
-      "win_rate": 60.0
+      "games": 89,
+      "wins": 53,
+      "win_rate": 60.1
     },
     {
       "opponent_faction": "Necrons",
@@ -413,9 +439,9 @@
     },
     {
       "opponent_faction": "Adepta Sororitas",
-      "games": 16,
+      "games": 15,
       "wins": 7,
-      "win_rate": 46.9
+      "win_rate": 46.7
     },
     {
       "opponent_faction": "Space Wolves",
@@ -445,27 +471,35 @@
   "timeline": [
     {
       "week": "2026-W16",
-      "lists": 70,
-      "games": 333,
-      "win_rate": 53.2
+      "lists": 69,
+      "games": 331,
+      "win_rate": 53.2,
+      "total_lists": 1057,
+      "play_rate": 6.5
     },
     {
       "week": "2026-W17",
       "lists": 60,
       "games": 287,
-      "win_rate": 47.9
+      "win_rate": 47.9,
+      "total_lists": 984,
+      "play_rate": 6.1
     },
     {
       "week": "2026-W18",
       "lists": 8,
       "games": 39,
-      "win_rate": 55.1
+      "win_rate": 55.1,
+      "total_lists": 189,
+      "play_rate": 4.2
     },
     {
       "week": "2026-W19",
       "lists": 55,
       "games": 246,
-      "win_rate": 54.9
+      "win_rate": 54.9,
+      "total_lists": 942,
+      "play_rate": 5.8
     }
   ]
 }

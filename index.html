@@ -49,11 +49,13 @@
         <thead>
           <tr>
             <th>Faction</th>
-            <th title="Number of lists playing this faction in the window">Lists</th>
-            <th title="Share of all lists in the window playing this faction">Play %</th>
+            <th title="Number of players using this faction in the window">Players</th>
+            <th title="Share of all players in the window using this faction">Play %</th>
             <th title="Win rate across all games in the window (draw = 0.5 win)">Win %</th>
+            <th title="X-0 rate: percentage of players going undefeated">X-0 %</th>
+            <th title="X-1 rate: percentage of players with exactly 1 loss">X-1 %</th>
             <th title="Win-rate change compared to the previous window of the same length">Trend</th>
-            <th title="The detachment with the most lists for this faction">Top Detachment</th>
+            <th title="The detachment with the most players for this faction">Top Detachment</th>
           </tr>
         </thead>
         <tbody id="faction-tbody">
@@ -72,6 +74,11 @@
       <div class="panel-title">Win Rate %</div>
       <div id="chart-wr" style="height:520px;"></div>
     </div>
+  </div>
+
+  <div class="chart-wrap map-wrap">
+    <div class="panel-title">Tournament Locations</div>
+    <div id="map-chart"></div>
   </div>
 </main>
 

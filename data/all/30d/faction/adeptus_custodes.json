@@ -1,39 +1,53 @@
 {
   "faction": "Adeptus Custodes",
   "slug": "adeptus_custodes",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 30,
   "event_type": "all",
-  "lists": 316,
-  "games": 1448,
+  "lists": 315,
+  "games": 1447,
   "play_rate": 5.0,
   "win_rate": 48.0,
-  "trend_delta": -5.9,
+  "trend_delta": -6.0,
   "top_detachment": "Talons of the Emperor",
+  "ci_lower": 45.4,
+  "meta_health": "slightly_under",
+  "x0_pct": 3.2,
+  "x1_pct": 10.8,
+  "tournament_wins": 2,
   "detachments": [
     {
       "detachment": "Talons of the Emperor",
       "base_archetype": "Adeptus Custodes \u2014 Talons of the Emperor",
       "lists": 136,
       "games": 640,
-      "play_rate": 43.0,
-      "win_rate": 53.4
+      "play_rate": 43.2,
+      "win_rate": 53.4,
+      "x0_pct": 7.4,
+      "x1_pct": 12.4,
+      "tournament_wins": 2
     },
     {
       "detachment": "Lions of the Emperor",
       "base_archetype": "Adeptus Custodes \u2014 Lions of the Emperor",
-      "lists": 91,
-      "games": 411,
-      "play_rate": 28.8,
-      "win_rate": 48.1
+      "lists": 90,
+      "games": 410,
+      "play_rate": 28.6,
+      "win_rate": 48.0,
+      "x0_pct": 0.0,
+      "x1_pct": 14.6,
+      "tournament_wins": 0
     },
     {
       "detachment": "Shield Host",
       "base_archetype": "Adeptus Custodes \u2014 Shield Host",
       "lists": 56,
       "games": 256,
-      "play_rate": 17.7,
-      "win_rate": 41.0
+      "play_rate": 17.8,
+      "win_rate": 41.0,
+      "x0_pct": 2.0,
+      "x1_pct": 12.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Solar Spearhead",
@@ -41,7 +55,10 @@
       "lists": 24,
       "games": 96,
       "play_rate": 7.6,
-      "win_rate": 31.8
+      "win_rate": 31.8,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "No Detachment",
@@ -49,7 +66,10 @@
       "lists": 6,
       "games": 30,
       "play_rate": 1.9,
-      "win_rate": 45.0
+      "win_rate": 45.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Auric Champions",
@@ -57,7 +77,10 @@
       "lists": 2,
       "games": 10,
       "play_rate": 0.6,
-      "win_rate": 50.0
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 50.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Null Maiden Vigil",
@@ -65,7 +88,10 @@
       "lists": 1,
       "games": 5,
       "play_rate": 0.3,
-      "win_rate": 40.0
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
@@ -293,8 +319,8 @@
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 131,
-      "wins": 63,
+      "games": 130,
+      "wins": 62,
       "win_rate": 48.1
     },
     {
@@ -451,27 +477,35 @@
   "timeline": [
     {
       "week": "2026-W16",
-      "lists": 80,
-      "games": 399,
-      "win_rate": 49.5
+      "lists": 79,
+      "games": 398,
+      "win_rate": 49.5,
+      "total_lists": 1928,
+      "play_rate": 4.1
     },
     {
       "week": "2026-W17",
       "lists": 151,
       "games": 647,
-      "win_rate": 46.4
+      "win_rate": 46.4,
+      "total_lists": 2590,
+      "play_rate": 5.8
     },
     {
       "week": "2026-W18",
       "lists": 23,
       "games": 115,
-      "win_rate": 50.4
+      "win_rate": 50.4,
+      "total_lists": 350,
+      "play_rate": 6.6
     },
     {
       "week": "2026-W19",
       "lists": 62,
       "games": 287,
-      "win_rate": 48.6
+      "win_rate": 48.6,
+      "total_lists": 1390,
+      "play_rate": 4.5
     }
   ]
 }

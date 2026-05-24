@@ -1,53 +1,56 @@
 {
   "faction": "Thousand Sons",
   "slug": "thousand_sons",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 14,
   "event_type": "team",
-  "lists": 17,
-  "games": 85,
-  "play_rate": 2.8,
-  "win_rate": 71.2,
-  "trend_delta": 20.7,
-  "top_detachment": "Grand Coven",
+  "lists": 14,
+  "games": 70,
+  "play_rate": 3.1,
+  "win_rate": 69.3,
+  "trend_delta": 15.8,
+  "top_detachment": "Rubricae Phalanx",
+  "ci_lower": 57.7,
+  "meta_health": "strongly_over",
+  "x0_pct": 14.3,
+  "x1_pct": 28.6,
+  "tournament_wins": 0,
   "detachments": [
-    {
-      "detachment": "Grand Coven",
-      "base_archetype": "Thousand Sons \u2014 Grand Coven",
-      "lists": 7,
-      "games": 35,
-      "play_rate": 41.2,
-      "win_rate": 71.4
-    },
     {
       "detachment": "Rubricae Phalanx",
       "base_archetype": "Thousand Sons \u2014 Rubricae Phalanx",
       "lists": 6,
       "games": 30,
-      "play_rate": 35.3,
-      "win_rate": 70.0
+      "play_rate": 42.9,
+      "win_rate": 70.0,
+      "x0_pct": 16.7,
+      "x1_pct": 33.3,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Grand Coven",
+      "base_archetype": "Thousand Sons \u2014 Grand Coven",
+      "lists": 5,
+      "games": 25,
+      "play_rate": 35.7,
+      "win_rate": 64.0,
+      "x0_pct": 20.0,
+      "x1_pct": 20.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Warpforged Cabal",
       "base_archetype": "Thousand Sons \u2014 Warpforged Cabal",
-      "lists": 4,
-      "games": 20,
-      "play_rate": 23.5,
-      "win_rate": 72.5
+      "lists": 3,
+      "games": 15,
+      "play_rate": 21.4,
+      "win_rate": 76.7,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
-    {
-      "player_name": "Johan Toftvad",
-      "detachment": "Grand Coven",
-      "list_url": "https://www.bestcoastpairings.com/list/LfM7YcpER4Gh",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
     {
       "player_name": "Michael Tonel",
       "detachment": "Grand Coven",
@@ -80,17 +83,6 @@
       "draws": 1,
       "games": 5,
       "win_rate": 90.0
-    },
-    {
-      "player_name": "Bj\u00f8rn Jacobsen",
-      "detachment": "Grand Coven",
-      "list_url": "https://www.bestcoastpairings.com/list/60ejREZ3EHSJ",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
     },
     {
       "player_name": "Gracen Bull",
@@ -129,17 +121,6 @@
       "player_name": "Michal Paruzel",
       "detachment": "Rubricae Phalanx",
       "list_url": "https://www.bestcoastpairings.com/list/zbAd2qOCwGjM",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Pete Armstrong",
-      "detachment": "Warpforged Cabal",
-      "list_url": "https://www.bestcoastpairings.com/list/V5dMUS8gkzaJ",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -227,46 +208,28 @@
   ],
   "matchups": [
     {
-      "opponent_faction": "Necrons",
-      "games": 8,
-      "wins": 6,
-      "win_rate": 75.0
-    },
-    {
       "opponent_faction": "Death Guard",
       "games": 8,
       "wins": 3,
       "win_rate": 43.8
     },
     {
-      "opponent_faction": "Chaos Space Marines",
+      "opponent_faction": "Necrons",
       "games": 7,
-      "wins": 3,
-      "win_rate": 42.9
+      "wins": 6,
+      "win_rate": 85.7
     },
     {
-      "opponent_faction": "Adepta Sororitas",
+      "opponent_faction": "Chaos Space Marines",
       "games": 6,
-      "wins": 5,
-      "win_rate": 83.3
+      "wins": 3,
+      "win_rate": 50.0
     },
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 6,
-      "wins": 4,
-      "win_rate": 66.7
-    },
-    {
-      "opponent_faction": "Astra Militarum",
       "games": 5,
-      "wins": 4,
-      "win_rate": 80.0
-    },
-    {
-      "opponent_faction": "Tyranids",
-      "games": 5,
-      "wins": 5,
-      "win_rate": 100.0
+      "wins": 3,
+      "win_rate": 60.0
     },
     {
       "opponent_faction": "Adeptus Custodes",
@@ -277,16 +240,12 @@
   ],
   "timeline": [
     {
-      "week": "2026-W18",
-      "lists": 3,
-      "games": 15,
-      "win_rate": 80.0
-    },
-    {
       "week": "2026-W19",
       "lists": 14,
       "games": 70,
-      "win_rate": 69.3
+      "win_rate": 69.3,
+      "total_lists": 448,
+      "play_rate": 3.1
     }
   ]
 }

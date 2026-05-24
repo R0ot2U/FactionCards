@@ -1,77 +1,89 @@
 {
   "faction": "Aeldari",
   "slug": "aeldari",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 14,
   "event_type": "team",
-  "lists": 18,
-  "games": 90,
-  "play_rate": 3.0,
-  "win_rate": 41.7,
-  "trend_delta": -10.7,
-  "top_detachment": "Serpent's Brood",
+  "lists": 13,
+  "games": 65,
+  "play_rate": 2.9,
+  "win_rate": 37.7,
+  "trend_delta": -9.3,
+  "top_detachment": "Seer Council",
+  "ci_lower": 26.9,
+  "meta_health": "strongly_under",
+  "x0_pct": 0.0,
+  "x1_pct": 0.0,
+  "tournament_wins": 0,
   "detachments": [
-    {
-      "detachment": "Serpent's Brood",
-      "base_archetype": "Aeldari \u2014 Serpent's Brood",
-      "lists": 4,
-      "games": 20,
-      "play_rate": 22.2,
-      "win_rate": 27.5
-    },
-    {
-      "detachment": "Aspect Host",
-      "base_archetype": "Aeldari \u2014 Aspect Host",
-      "lists": 3,
-      "games": 15,
-      "play_rate": 16.7,
-      "win_rate": 20.0
-    },
-    {
-      "detachment": "Windrider Host",
-      "base_archetype": "Aeldari \u2014 Windrider Host",
-      "lists": 3,
-      "games": 15,
-      "play_rate": 16.7,
-      "win_rate": 30.0
-    },
     {
       "detachment": "Seer Council",
       "base_archetype": "Aeldari \u2014 Seer Council",
       "lists": 3,
       "games": 15,
-      "play_rate": 16.7,
-      "win_rate": 63.3
+      "play_rate": 23.1,
+      "win_rate": 63.3,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Serpent's Brood",
+      "base_archetype": "Aeldari \u2014 Serpent's Brood",
+      "lists": 3,
+      "games": 15,
+      "play_rate": 23.1,
+      "win_rate": 36.7,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Guardian Battlehost",
       "base_archetype": "Aeldari \u2014 Guardian Battlehost",
-      "lists": 3,
-      "games": 15,
-      "play_rate": 16.7,
-      "win_rate": 60.0
+      "lists": 2,
+      "games": 10,
+      "play_rate": 15.4,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Windrider Host",
+      "base_archetype": "Aeldari \u2014 Windrider Host",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 15.4,
+      "win_rate": 15.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Aspect Host",
+      "base_archetype": "Aeldari \u2014 Aspect Host",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 15.4,
+      "win_rate": 30.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Devoted of Ynnead",
       "base_archetype": "Aeldari \u2014 Devoted of Ynnead",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 11.1,
-      "win_rate": 60.0
+      "lists": 1,
+      "games": 5,
+      "play_rate": 7.7,
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
-    {
-      "player_name": "Adam Gill",
-      "detachment": "Guardian Battlehost",
-      "list_url": "https://www.bestcoastpairings.com/list/xEfvl379FYDF",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
     {
       "player_name": "Jay Allen",
       "detachment": "Seer Council",
@@ -82,28 +94,6 @@
       "draws": 1,
       "games": 5,
       "win_rate": 90.0
-    },
-    {
-      "player_name": "Aaron Tyson",
-      "detachment": "Devoted of Ynnead",
-      "list_url": "https://www.bestcoastpairings.com/list/qcKCv1QXgxZW",
-      "source": "bcp",
-      "wins": 6,
-      "losses": 4,
-      "draws": 0,
-      "games": 10,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Killi Paaske",
-      "detachment": "Windrider Host",
-      "list_url": "https://www.bestcoastpairings.com/list/gJbpnkv7H7z6",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
     },
     {
       "player_name": "Andras Fulop",
@@ -205,6 +195,17 @@
       "win_rate": 20.0
     },
     {
+      "player_name": "Aaron Tyson",
+      "detachment": "Devoted of Ynnead",
+      "list_url": "https://www.bestcoastpairings.com/list/qcKCv1QXgxZW",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
       "player_name": "Andrew McLeod",
       "detachment": "Windrider Host",
       "list_url": "https://www.bestcoastpairings.com/list/gNX2yRncnaKC",
@@ -214,28 +215,6 @@
       "draws": 1,
       "games": 5,
       "win_rate": 10.0
-    },
-    {
-      "player_name": "Rolf Pihl",
-      "detachment": "Aspect Host",
-      "list_url": "https://www.bestcoastpairings.com/list/Zqvb1d9a9UYl",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 5,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 0.0
-    },
-    {
-      "player_name": "Chris Mason",
-      "detachment": "Serpent's Brood",
-      "list_url": "https://www.bestcoastpairings.com/list/Wdg06OGy7cZn",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 5,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 0.0
     },
     {
       "player_name": "Grant Nelson",
@@ -251,49 +230,13 @@
   ],
   "matchups": [
     {
-      "opponent_faction": "Space Marines (Astartes)",
-      "games": 8,
-      "wins": 6,
-      "win_rate": 75.0
-    },
-    {
-      "opponent_faction": "T'au Empire",
-      "games": 6,
-      "wins": 1,
-      "win_rate": 16.7
-    },
-    {
-      "opponent_faction": "Genestealer Cults",
-      "games": 6,
-      "wins": 1,
-      "win_rate": 25.0
-    },
-    {
       "opponent_faction": "World Eaters",
-      "games": 6,
-      "wins": 3,
-      "win_rate": 58.3
-    },
-    {
-      "opponent_faction": "Leagues of Votann",
-      "games": 5,
-      "wins": 2,
-      "win_rate": 40.0
-    },
-    {
-      "opponent_faction": "Necrons",
-      "games": 5,
-      "wins": 2,
-      "win_rate": 40.0
-    },
-    {
-      "opponent_faction": "Tyranids",
       "games": 5,
       "wins": 2,
       "win_rate": 50.0
     },
     {
-      "opponent_faction": "Death Guard",
+      "opponent_faction": "Genestealer Cults",
       "games": 5,
       "wins": 1,
       "win_rate": 30.0
@@ -307,16 +250,12 @@
   ],
   "timeline": [
     {
-      "week": "2026-W18",
-      "lists": 5,
-      "games": 25,
-      "win_rate": 52.0
-    },
-    {
       "week": "2026-W19",
       "lists": 13,
       "games": 65,
-      "win_rate": 37.7
+      "win_rate": 37.7,
+      "total_lists": 448,
+      "play_rate": 2.9
     }
   ]
 }

@@ -1,47 +1,64 @@
 {
   "faction": "Drukhari",
   "slug": "drukhari",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 14,
   "event_type": "team",
-  "lists": 21,
-  "games": 105,
-  "play_rate": 3.4,
-  "win_rate": 51.0,
-  "trend_delta": 0.5,
+  "lists": 18,
+  "games": 90,
+  "play_rate": 4.0,
+  "win_rate": 51.7,
+  "trend_delta": -2.0,
   "top_detachment": "Spectacle of Spite",
+  "ci_lower": 41.5,
+  "meta_health": "strongly_under",
+  "x0_pct": 5.6,
+  "x1_pct": 16.7,
+  "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Spectacle of Spite",
       "base_archetype": "Drukhari \u2014 Spectacle of Spite",
-      "lists": 12,
-      "games": 60,
-      "play_rate": 57.1,
-      "win_rate": 45.8
+      "lists": 10,
+      "games": 50,
+      "play_rate": 55.6,
+      "win_rate": 47.0,
+      "x0_pct": 10.0,
+      "x1_pct": 10.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Reaper's Wager",
       "base_archetype": "Drukhari \u2014 Reaper's Wager",
       "lists": 4,
       "games": 20,
-      "play_rate": 19.0,
-      "win_rate": 70.0
+      "play_rate": 22.2,
+      "win_rate": 70.0,
+      "x0_pct": 0.0,
+      "x1_pct": 50.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Kabalite Cartel",
       "base_archetype": "Drukhari \u2014 Kabalite Cartel",
-      "lists": 3,
-      "games": 15,
-      "play_rate": 14.3,
-      "win_rate": 46.7
+      "lists": 2,
+      "games": 10,
+      "play_rate": 11.1,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Skysplinter Assault",
       "base_archetype": "Drukhari \u2014 Skysplinter Assault",
       "lists": 2,
       "games": 10,
-      "play_rate": 9.5,
-      "win_rate": 50.0
+      "play_rate": 11.1,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
@@ -90,17 +107,6 @@
       "win_rate": 70.0
     },
     {
-      "player_name": "Peter Pr\u00fcssing Kristensen",
-      "detachment": "Kabalite Cartel",
-      "list_url": "https://www.bestcoastpairings.com/list/Zr8XHhVjm6HM",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
       "player_name": "Tomas Kohoutek",
       "detachment": "Spectacle of Spite",
       "list_url": "https://www.bestcoastpairings.com/list/HTpiyRcfgRNn",
@@ -121,17 +127,6 @@
       "draws": 0,
       "games": 5,
       "win_rate": 60.0
-    },
-    {
-      "player_name": "Benjamin Vindahl",
-      "detachment": "Spectacle of Spite",
-      "list_url": "https://www.bestcoastpairings.com/list/0EsWVNe3kWha",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
     },
     {
       "player_name": "sterling Arnet",
@@ -255,47 +250,23 @@
       "win_rate": 30.0
     },
     {
-      "player_name": "Harrison Krogh",
+      "player_name": "Stefan Pazderka",
       "detachment": "Spectacle of Spite",
-      "list_url": "https://www.bestcoastpairings.com/list/xtDLic4BHV7t",
+      "list_url": "https://www.bestcoastpairings.com/list/qtm8ZxWyHawh",
       "source": "bcp",
       "wins": 1,
-      "losses": 3,
-      "draws": 1,
+      "losses": 4,
+      "draws": 0,
       "games": 5,
-      "win_rate": 30.0
+      "win_rate": 20.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Necrons",
-      "games": 9,
+      "games": 8,
       "wins": 5,
-      "win_rate": 55.6
-    },
-    {
-      "opponent_faction": "Emperor's Children",
-      "games": 7,
-      "wins": 2,
-      "win_rate": 28.6
-    },
-    {
-      "opponent_faction": "Orks",
-      "games": 7,
-      "wins": 5,
-      "win_rate": 78.6
-    },
-    {
-      "opponent_faction": "Astra Militarum",
-      "games": 7,
-      "wins": 1,
-      "win_rate": 21.4
-    },
-    {
-      "opponent_faction": "Leagues of Votann",
-      "games": 7,
-      "wins": 5,
-      "win_rate": 71.4
+      "win_rate": 62.5
     },
     {
       "opponent_faction": "Tyranids",
@@ -304,30 +275,38 @@
       "win_rate": 35.7
     },
     {
-      "opponent_faction": "Blood Angels",
+      "opponent_faction": "Orks",
       "games": 6,
-      "wins": 2,
-      "win_rate": 33.3
+      "wins": 4,
+      "win_rate": 75.0
     },
     {
-      "opponent_faction": "Space Marines (Astartes)",
+      "opponent_faction": "Emperor's Children",
+      "games": 6,
+      "wins": 1,
+      "win_rate": 16.7
+    },
+    {
+      "opponent_faction": "Astra Militarum",
+      "games": 6,
+      "wins": 1,
+      "win_rate": 25.0
+    },
+    {
+      "opponent_faction": "Leagues of Votann",
       "games": 5,
-      "wins": 3,
-      "win_rate": 60.0
+      "wins": 4,
+      "win_rate": 90.0
     }
   ],
   "timeline": [
     {
-      "week": "2026-W18",
-      "lists": 3,
-      "games": 15,
-      "win_rate": 46.7
-    },
-    {
       "week": "2026-W19",
       "lists": 18,
       "games": 90,
-      "win_rate": 51.7
+      "win_rate": 51.7,
+      "total_lists": 448,
+      "play_rate": 4.0
     }
   ]
 }

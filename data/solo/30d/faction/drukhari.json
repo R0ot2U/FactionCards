@@ -1,39 +1,53 @@
 {
   "faction": "Drukhari",
   "slug": "drukhari",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 30,
   "event_type": "solo",
-  "lists": 90,
-  "games": 411,
+  "lists": 89,
+  "games": 410,
   "play_rate": 2.8,
   "win_rate": 49.1,
-  "trend_delta": -2.7,
+  "trend_delta": -2.8,
   "top_detachment": "Spectacle of Spite",
+  "ci_lower": 44.3,
+  "meta_health": "strongly_under",
+  "x0_pct": 4.5,
+  "x1_pct": 9.0,
+  "tournament_wins": 4,
   "detachments": [
     {
       "detachment": "Spectacle of Spite",
       "base_archetype": "Drukhari \u2014 Spectacle of Spite",
       "lists": 32,
       "games": 148,
-      "play_rate": 35.6,
-      "win_rate": 56.4
+      "play_rate": 36.0,
+      "win_rate": 56.4,
+      "x0_pct": 12.9,
+      "x1_pct": 12.9,
+      "tournament_wins": 4
     },
     {
       "detachment": "Kabalite Cartel",
       "base_archetype": "Drukhari \u2014 Kabalite Cartel",
-      "lists": 26,
-      "games": 110,
-      "play_rate": 28.9,
-      "win_rate": 40.5
+      "lists": 25,
+      "games": 109,
+      "play_rate": 28.1,
+      "win_rate": 40.4,
+      "x0_pct": 0.0,
+      "x1_pct": 4.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Reaper's Wager",
       "base_archetype": "Drukhari \u2014 Reaper's Wager",
       "lists": 21,
       "games": 111,
-      "play_rate": 23.3,
-      "win_rate": 49.5
+      "play_rate": 23.6,
+      "win_rate": 49.5,
+      "x0_pct": 0.0,
+      "x1_pct": 10.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Skysplinter Assault",
@@ -41,15 +55,21 @@
       "lists": 6,
       "games": 25,
       "play_rate": 6.7,
-      "win_rate": 40.0
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "No Detachment",
       "base_archetype": "Drukhari \u2014 No Detachment",
       "lists": 4,
       "games": 12,
-      "play_rate": 4.4,
-      "win_rate": 58.3
+      "play_rate": 4.5,
+      "win_rate": 58.3,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "tournament_wins": 0
     },
     {
       "detachment": "Realspace Raiders",
@@ -57,7 +77,10 @@
       "lists": 1,
       "games": 5,
       "play_rate": 1.1,
-      "win_rate": 40.0
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
@@ -387,9 +410,9 @@
     },
     {
       "opponent_faction": "Adepta Sororitas",
-      "games": 10,
+      "games": 9,
       "wins": 4,
-      "win_rate": 45.0
+      "win_rate": 44.4
     },
     {
       "opponent_faction": "Dark Angels",
@@ -443,27 +466,35 @@
   "timeline": [
     {
       "week": "2026-W16",
-      "lists": 25,
-      "games": 109,
-      "win_rate": 49.5
+      "lists": 24,
+      "games": 108,
+      "win_rate": 49.5,
+      "total_lists": 1057,
+      "play_rate": 2.3
     },
     {
       "week": "2026-W17",
       "lists": 28,
       "games": 133,
-      "win_rate": 48.5
+      "win_rate": 48.5,
+      "total_lists": 984,
+      "play_rate": 2.8
     },
     {
       "week": "2026-W18",
       "lists": 6,
       "games": 30,
-      "win_rate": 50.0
+      "win_rate": 50.0,
+      "total_lists": 189,
+      "play_rate": 3.2
     },
     {
       "week": "2026-W19",
       "lists": 31,
       "games": 139,
-      "win_rate": 49.3
+      "win_rate": 49.3,
+      "total_lists": 942,
+      "play_rate": 3.3
     }
   ]
 }

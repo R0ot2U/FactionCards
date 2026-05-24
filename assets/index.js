@@ -7,12 +7,26 @@ let currentSortCol = 2;  // Default to play_rate column (0=faction, 1=lists, 2=p
 let currentSortDir = -1; // -1 = desc, 1 = asc
 let manifest = {};
 
+let mapData = [];
+
 async function loadData(eventType, window) {
   const root = dataRoot(eventType, window);
   try {
     manifest = await fetchJSON(`${root}/index.json`);
     const factions = await fetchJSON(`${root}/factions.json`);
     allFactions = factions;
+
+    // Load map data and tournaments to filter by window
+    try {
+      mapData = await fetchJSON(`data/map.json`);
+      // Also load tournaments to know which event_ids are in this window
+      const tournaments = await fetchJSON(`${root}/tournaments.json`);
+      const tournamentIds = new Set(tournaments.map(t => t.event_id));
+      mapData = mapData.filter(e => tournamentIds.has(e.event_id));
+    } catch (_) {
+      mapData = [];
+    }
+
     return true;
   } catch (e) {
     // Fall back to "all" / "30d" bundle if requested bundle is unavailable
@@ -23,6 +37,15 @@ async function loadData(eventType, window) {
         allFactions = factions;
         currentEventType = "all";
         currentWindow = "30d";
+        // Load map data for fallback and filter by window
+        try {
+          mapData = await fetchJSON(`data/map.json`);
+          const tournaments = await fetchJSON(`${dataRoot("all", "30d")}/tournaments.json`);
+          const tournamentIds = new Set(tournaments.map(t => t.event_id));
+          mapData = mapData.filter(e => tournamentIds.has(e.event_id));
+        } catch (_) {
+          mapData = [];
+        }
         // Sync button active state to fallback
         document.querySelectorAll("#event-type-btns .btn").forEach(b => {
           b.classList.toggle("active", b.dataset.val === "all");
@@ -42,6 +65,105 @@ async function loadData(eventType, window) {
   }
 }
 
+function renderMap(events) {
+  if (!events || events.length === 0) {
+    document.getElementById("map-chart").innerHTML =
+      '<div style="padding:2rem;text-align:center;color:var(--dim);">No location data available</div>';
+    return;
+  }
+
+  // Group by location (lat, lng rounded to 4 decimals ~11m precision)
+  const locationMap = new Map();
+  events.forEach(e => {
+    const key = `${e.lat.toFixed(4)},${e.lng.toFixed(4)}`;
+    if (!locationMap.has(key)) {
+      locationMap.set(key, {
+        lat: e.lat,
+        lng: e.lng,
+        location: e.location,
+        tournaments: [],
+        totalPlayers: 0,
+        factions: new Map(),
+      });
+    }
+    const loc = locationMap.get(key);
+    loc.tournaments.push(e.name);
+    loc.totalPlayers += e.players || 0;
+    // Track faction counts
+    if (e.factions && Array.isArray(e.factions)) {
+      e.factions.forEach(f => {
+        if (f !== 'Unknown') {  // Filter out Unknown
+          loc.factions.set(f, (loc.factions.get(f) || 0) + 1);
+        }
+      });
+    }
+  });
+
+  // Convert to array and compute top factions
+  const locations = Array.from(locationMap.values()).map(loc => {
+    const topFactions = Array.from(loc.factions.entries())
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 3)
+      .map(([faction]) => faction);
+    return { ...loc, topFactions };
+  });
+
+  const trace = {
+    type: 'scattergeo',
+    lat: locations.map(loc => loc.lat),
+    lon: locations.map(loc => loc.lng),
+    text: locations.map(loc => {
+      const topFactionsStr = loc.topFactions.length > 0
+        ? `<br>Top factions: ${loc.topFactions.join(', ')}`
+        : '';
+      return `${loc.location}<br>${loc.tournaments.length} tournament${loc.tournaments.length > 1 ? 's' : ''}<br>${loc.totalPlayers} total players${topFactionsStr}`;
+    }),
+    hoverinfo: 'text',
+    marker: {
+      size: locations.map(loc => Math.max(8, Math.sqrt(loc.tournaments.length) * 8 + Math.sqrt(loc.totalPlayers) * 0.5)),
+      color: '#e94560',
+      opacity: 0.8,
+      line: { width: 0.5, color: '#fff' }
+    },
+    mode: 'markers',
+  };
+
+  const layout = {
+    geo: {
+      projection: { type: 'natural earth' },
+      showland: true,
+      landcolor: '#1a1a2e',
+      showocean: true,
+      oceancolor: '#0f0f1a',
+      showlakes: false,
+      showcountries: true,
+      countrycolor: '#2a2a4a',
+      coastlinecolor: '#2a2a4a',
+      bgcolor: 'rgba(0,0,0,0)',
+    },
+    paper_bgcolor: 'rgba(0,0,0,0)',
+    plot_bgcolor: 'rgba(0,0,0,0)',
+    margin: { t: 0, b: 0, l: 0, r: 0 },
+    height: 450,
+  };
+
+  const config = {
+    responsive: true,
+    displayModeBar: true,
+    modeBarButtonsToRemove: ['select2d', 'lasso2d'],
+    modeBarButtonsToAdd: [],
+    displaylogo: false,
+    toImageButtonOptions: {
+      format: 'png',
+      filename: 'tournament_locations',
+      height: 800,
+      width: 1400,
+    }
+  };
+
+  Plotly.newPlot('map-chart', [trace], layout, config);
+}
+
 async function init() {
   // Show loading state
   document.getElementById("faction-tbody").innerHTML =
@@ -54,7 +176,7 @@ async function init() {
   document.getElementById("window-label").textContent =
     `${manifest.window_days}-day window · as of ${manifest.as_of}`;
   document.getElementById("build-info").textContent =
-    `${manifest.total_lists.toLocaleString()} lists · ${manifest.total_games.toLocaleString()} games`;
+    `${manifest.total_tournaments.toLocaleString()} tournaments · ${manifest.total_lists.toLocaleString()} players · ${manifest.total_games.toLocaleString()} games`;
 
   // PNG Cards link from manifest
   const cardsLink = document.getElementById("cards-link");
@@ -70,6 +192,7 @@ async function init() {
 
   renderTable();
   renderCharts();
+  renderMap(mapData);
   renderFooter(manifest);
 
   // Set up column sorting
@@ -96,13 +219,14 @@ async function init() {
       await loadData(currentEventType, currentWindow);
       renderTable();
       renderCharts();
+      renderMap(mapData);
       renderFooter(manifest);
 
       // Update header stats
       document.getElementById("window-label").textContent =
         `${manifest.window_days}-day window · as of ${manifest.as_of}`;
       document.getElementById("build-info").textContent =
-        `${manifest.total_lists.toLocaleString()} lists · ${manifest.total_games.toLocaleString()} games`;
+        `${manifest.total_tournaments.toLocaleString()} tournaments · ${manifest.total_lists.toLocaleString()} players · ${manifest.total_games.toLocaleString()} games`;
     });
   });
 
@@ -124,13 +248,14 @@ async function init() {
       await loadData(currentEventType, currentWindow);
       renderTable();
       renderCharts();
+      renderMap(mapData);
       renderFooter(manifest);
 
       // Update header stats
       document.getElementById("window-label").textContent =
         `${manifest.window_days}-day window · as of ${manifest.as_of}`;
       document.getElementById("build-info").textContent =
-        `${manifest.total_lists.toLocaleString()} lists · ${manifest.total_games.toLocaleString()} games`;
+        `${manifest.total_tournaments.toLocaleString()} tournaments · ${manifest.total_lists.toLocaleString()} players · ${manifest.total_games.toLocaleString()} games`;
     });
   });
 }
@@ -143,7 +268,7 @@ function filteredFactions() {
 }
 
 function sortRowsByColumn(rows) {
-  const colMap = ["faction", "lists", "play_rate", "win_rate", "trend_delta", "top_detachment"];
+  const colMap = ["faction", "lists", "play_rate", "win_rate", "x0_pct", "x1_pct", "trend_delta", "top_detachment"];
   const sortKey = colMap[currentSortCol] || "play_rate";
 
   return [...rows].sort((a, b) => {
@@ -196,19 +321,23 @@ function renderTable() {
 
   const tbody = document.getElementById("faction-tbody");
   if (!rows.length) {
-    tbody.innerHTML = `<tr><td colspan="6" class="empty">No factions match.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="8" class="empty">No factions match.</td></tr>`;
     return;
   }
 
   tbody.innerHTML = rows.map(r => {
     const wrCls = wrClass(r.win_rate);
     const slug = r.slug || factionSlug(r.faction);
+    const x0_pct = r.x0_pct != null ? r.x0_pct.toFixed(1) + '%' : '—';
+    const x1_pct = r.x1_pct != null ? r.x1_pct.toFixed(1) + '%' : '—';
     return `
       <tr>
         <td><a class="faction-link" href="${factionHref(slug)}">${r.faction}</a></td>
         <td data-sort="${r.lists}">${r.lists.toLocaleString()}</td>
-        <td data-sort="${r.play_rate}" title="Share of all lists in the window playing this faction">${r.play_rate.toFixed(1)}%</td>
+        <td data-sort="${r.play_rate}" title="Share of all players in the window using this faction">${r.play_rate.toFixed(1)}%</td>
         <td data-sort="${r.win_rate}" title="Win rate across all games in the window (draw = 0.5 win)">${'<span class="' + wrCls + '">' + r.win_rate.toFixed(1) + '%</span>'}</td>
+        <td data-sort="${r.x0_pct ?? -999}" title="Percentage of players going undefeated">${x0_pct}</td>
+        <td data-sort="${r.x1_pct ?? -999}" title="Percentage of players with exactly 1 loss">${x1_pct}</td>
         <td data-sort="${r.trend_delta ?? -999}" title="Win-rate change vs the previous ${manifest.window_days}-day window">${trendHtml(r.trend_delta)}</td>
         <td style="color:var(--dim);font-size:0.8rem">${r.top_detachment || "—"}</td>
       </tr>`;

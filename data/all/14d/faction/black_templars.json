@@ -1,47 +1,53 @@
 {
   "faction": "Black Templars",
   "slug": "black_templars",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 14,
   "event_type": "all",
-  "lists": 5,
-  "games": 25,
+  "lists": 4,
+  "games": 20,
   "play_rate": 0.3,
-  "win_rate": 42.0,
-  "trend_delta": -1.2,
+  "win_rate": 45.0,
+  "trend_delta": 1.2,
   "top_detachment": "Gladius Task Force",
+  "ci_lower": 25.8,
+  "meta_health": "strongly_under",
+  "x0_pct": 0.0,
+  "x1_pct": 0.0,
+  "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Bastion Task Force",
       "base_archetype": "Black Templars \u2014 Bastion Task Force",
       "lists": 2,
       "games": 10,
-      "play_rate": 40.0,
-      "win_rate": 20.0
+      "play_rate": 50.0,
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Gladius Task Force",
       "base_archetype": "Black Templars \u2014 Gladius Task Force",
       "lists": 1,
       "games": 5,
-      "play_rate": 20.0,
-      "win_rate": 60.0
-    },
-    {
-      "detachment": "Godhammer Assault Force",
-      "base_archetype": "Black Templars \u2014 Godhammer Assault Force",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 20.0,
-      "win_rate": 30.0
+      "play_rate": 25.0,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Ceramite Sentinels",
       "base_archetype": "Black Templars \u2014 Ceramite Sentinels",
       "lists": 1,
       "games": 5,
-      "play_rate": 20.0,
-      "win_rate": 80.0
+      "play_rate": 25.0,
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
@@ -79,17 +85,6 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Roman Bulgakov",
-      "detachment": "Godhammer Assault Force",
-      "list_url": "https://www.bestcoastpairings.com/list/HaCWdTk06TZf",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 3,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 30.0
-    },
-    {
       "player_name": "Zden\u011bk \u0160koda",
       "detachment": "Bastion Task Force",
       "list_url": "https://www.bestcoastpairings.com/list/ckOkBsHS4Vux",
@@ -104,16 +99,12 @@
   "matchups": [],
   "timeline": [
     {
-      "week": "2026-W18",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 30.0
-    },
-    {
       "week": "2026-W19",
       "lists": 4,
       "games": 20,
-      "win_rate": 45.0
+      "win_rate": 45.0,
+      "total_lists": 1390,
+      "play_rate": 0.3
     }
   ]
 }

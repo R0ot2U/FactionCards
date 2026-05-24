@@ -49,7 +49,7 @@ async function init() {
   document.getElementById("window-label").textContent =
     `Player Rankings · ${manifest.window_days}-day window · as of ${manifest.as_of}`;
   document.getElementById("build-info").textContent =
-    `${manifest.total_lists.toLocaleString()} lists · ${manifest.total_games.toLocaleString()} games`;
+    `${manifest.total_tournaments.toLocaleString()} tournaments · ${manifest.total_lists.toLocaleString()} players · ${manifest.total_games.toLocaleString()} games`;
 
   // Sync active buttons to current state
   document.querySelectorAll("#event-type-btns .btn").forEach(b => {
@@ -88,7 +88,7 @@ async function init() {
       document.getElementById("window-label").textContent =
         `Player Rankings · ${manifest.window_days}-day window · as of ${manifest.as_of}`;
       document.getElementById("build-info").textContent =
-        `${manifest.total_lists.toLocaleString()} lists · ${manifest.total_games.toLocaleString()} games`;
+        `${manifest.total_tournaments.toLocaleString()} tournaments · ${manifest.total_lists.toLocaleString()} players · ${manifest.total_games.toLocaleString()} games`;
     });
   });
 }

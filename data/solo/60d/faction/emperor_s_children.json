@@ -1,63 +1,86 @@
 {
   "faction": "Emperor's Children",
   "slug": "emperor_s_children",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 60,
   "event_type": "solo",
-  "lists": 285,
-  "games": 1314,
-  "play_rate": 3.4,
-  "win_rate": 49.7,
-  "trend_delta": 8.5,
+  "lists": 243,
+  "games": 1104,
+  "play_rate": 3.3,
+  "win_rate": 50.6,
+  "trend_delta": 8.0,
   "top_detachment": "Coterie of the Conceited",
+  "ci_lower": 47.6,
+  "meta_health": "slightly_under",
+  "x0_pct": 1.6,
+  "x1_pct": 19.3,
+  "tournament_wins": 5,
   "detachments": [
     {
       "detachment": "Coterie of the Conceited",
       "base_archetype": "Emperor's Children \u2014 Coterie of the Conceited",
-      "lists": 166,
-      "games": 762,
-      "play_rate": 58.2,
-      "win_rate": 54.3
+      "lists": 148,
+      "games": 664,
+      "play_rate": 60.9,
+      "win_rate": 55.2,
+      "x0_pct": 2.1,
+      "x1_pct": 24.6,
+      "tournament_wins": 5
     },
     {
       "detachment": "Court of the Phoenician",
       "base_archetype": "Emperor's Children \u2014 Court of the Phoenician",
-      "lists": 66,
-      "games": 318,
-      "play_rate": 23.2,
-      "win_rate": 40.7
+      "lists": 50,
+      "games": 234,
+      "play_rate": 20.6,
+      "win_rate": 38.9,
+      "x0_pct": 2.0,
+      "x1_pct": 8.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Peerless Bladesmen",
       "base_archetype": "Emperor's Children \u2014 Peerless Bladesmen",
-      "lists": 23,
-      "games": 91,
-      "play_rate": 8.1,
-      "win_rate": 42.3
+      "lists": 20,
+      "games": 78,
+      "play_rate": 8.2,
+      "win_rate": 44.2,
+      "x0_pct": 0.0,
+      "x1_pct": 11.1,
+      "tournament_wins": 0
     },
     {
       "detachment": "Carnival of Excess",
       "base_archetype": "Emperor's Children \u2014 Carnival of Excess",
-      "lists": 17,
-      "games": 89,
-      "play_rate": 6.0,
-      "win_rate": 50.0
-    },
-    {
-      "detachment": "Rapid Evisceration",
-      "base_archetype": "Emperor's Children \u2014 Rapid Evisceration",
-      "lists": 6,
-      "games": 33,
-      "play_rate": 2.1,
-      "win_rate": 48.5
+      "lists": 16,
+      "games": 84,
+      "play_rate": 6.6,
+      "win_rate": 53.0,
+      "x0_pct": 0.0,
+      "x1_pct": 12.5,
+      "tournament_wins": 0
     },
     {
       "detachment": "No Detachment",
       "base_archetype": "Emperor's Children \u2014 No Detachment",
       "lists": 5,
       "games": 16,
-      "play_rate": 1.8,
-      "win_rate": 43.8
+      "play_rate": 2.1,
+      "win_rate": 43.8,
+      "x0_pct": 0.0,
+      "x1_pct": 40.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Rapid Evisceration",
+      "base_archetype": "Emperor's Children \u2014 Rapid Evisceration",
+      "lists": 3,
+      "games": 23,
+      "play_rate": 1.2,
+      "win_rate": 47.8,
+      "x0_pct": 0.0,
+      "x1_pct": 66.7,
+      "tournament_wins": 0
     },
     {
       "detachment": "Slaanesh's Chosen",
@@ -65,10 +88,24 @@
       "lists": 1,
       "games": 5,
       "play_rate": 0.4,
-      "win_rate": 80.0
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
+    {
+      "player_name": "Vivion Grisewood",
+      "detachment": "Court of the Phoenician",
+      "list_url": "https://www.bestcoastpairings.com/list/AdBQGVz87W7E",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
     {
       "player_name": "Eirik Rokne Stensland",
       "detachment": "Coterie of the Conceited",
@@ -145,17 +182,6 @@
       "draws": 1,
       "games": 5,
       "win_rate": 90.0
-    },
-    {
-      "player_name": "Simon Quinn",
-      "detachment": "Coterie of the Conceited",
-      "list_url": "https://www.bestcoastpairings.com/list/rEhWLMl23CbZ",
-      "source": "bcp",
-      "wins": 8,
-      "losses": 2,
-      "draws": 0,
-      "games": 10,
-      "win_rate": 80.0
     },
     {
       "player_name": "Bryce Bennett",
@@ -279,9 +305,9 @@
       "win_rate": 80.0
     },
     {
-      "player_name": "Max Nitschinger",
-      "detachment": "Rapid Evisceration",
-      "list_url": "https://www.bestcoastpairings.com/list/EpzVidFZw1jb",
+      "player_name": "Jon Henninger",
+      "detachment": "Slaanesh's Chosen",
+      "list_url": "https://www.bestcoastpairings.com/list/z3qEqhsNgZjy",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -293,158 +319,158 @@
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 142,
-      "wins": 70,
-      "win_rate": 49.6
+      "games": 114,
+      "wins": 58,
+      "win_rate": 50.9
     },
     {
       "opponent_faction": "Chaos Space Marines",
-      "games": 90,
-      "wins": 36,
-      "win_rate": 40.6
+      "games": 84,
+      "wins": 33,
+      "win_rate": 39.9
     },
     {
       "opponent_faction": "Necrons",
-      "games": 86,
-      "wins": 31,
-      "win_rate": 36.0
-    },
-    {
-      "opponent_faction": "Astra Militarum",
-      "games": 64,
-      "wins": 36,
-      "win_rate": 57.0
-    },
-    {
-      "opponent_faction": "Tyranids",
-      "games": 62,
-      "wins": 31,
-      "win_rate": 50.8
+      "games": 67,
+      "wins": 25,
+      "win_rate": 38.1
     },
     {
       "opponent_faction": "Death Guard",
-      "games": 62,
-      "wins": 23,
-      "win_rate": 37.1
+      "games": 55,
+      "wins": 22,
+      "win_rate": 40.0
     },
     {
       "opponent_faction": "T'au Empire",
-      "games": 58,
-      "wins": 30,
-      "win_rate": 51.7
+      "games": 54,
+      "wins": 29,
+      "win_rate": 53.7
+    },
+    {
+      "opponent_faction": "Astra Militarum",
+      "games": 50,
+      "wins": 27,
+      "win_rate": 55.0
+    },
+    {
+      "opponent_faction": "Tyranids",
+      "games": 48,
+      "wins": 25,
+      "win_rate": 53.1
     },
     {
       "opponent_faction": "Adeptus Custodes",
-      "games": 57,
-      "wins": 28,
-      "win_rate": 49.1
+      "games": 46,
+      "wins": 24,
+      "win_rate": 52.2
     },
     {
       "opponent_faction": "World Eaters",
-      "games": 55,
-      "wins": 27,
-      "win_rate": 50.0
-    },
-    {
-      "opponent_faction": "Blood Angels",
-      "games": 54,
-      "wins": 35,
-      "win_rate": 64.8
+      "games": 44,
+      "wins": 24,
+      "win_rate": 54.5
     },
     {
       "opponent_faction": "Thousand Sons",
-      "games": 48,
-      "wins": 21,
-      "win_rate": 44.8
+      "games": 43,
+      "wins": 19,
+      "win_rate": 45.3
     },
     {
-      "opponent_faction": "Imperial Knights",
-      "games": 46,
-      "wins": 21,
-      "win_rate": 45.7
+      "opponent_faction": "Blood Angels",
+      "games": 42,
+      "wins": 26,
+      "win_rate": 61.9
     },
     {
       "opponent_faction": "Orks",
-      "games": 45,
-      "wins": 28,
-      "win_rate": 63.3
+      "games": 41,
+      "wins": 26,
+      "win_rate": 64.6
+    },
+    {
+      "opponent_faction": "Imperial Knights",
+      "games": 38,
+      "wins": 18,
+      "win_rate": 48.7
     },
     {
       "opponent_faction": "Adepta Sororitas",
-      "games": 39,
-      "wins": 23,
-      "win_rate": 60.3
-    },
-    {
-      "opponent_faction": "Aeldari",
-      "games": 38,
+      "games": 33,
       "wins": 20,
-      "win_rate": 53.9
-    },
-    {
-      "opponent_faction": "Dark Angels",
-      "games": 38,
-      "wins": 13,
-      "win_rate": 35.5
-    },
-    {
-      "opponent_faction": "Leagues of Votann",
-      "games": 38,
-      "wins": 22,
-      "win_rate": 59.2
+      "win_rate": 60.6
     },
     {
       "opponent_faction": "Adeptus Mechanicus",
-      "games": 37,
-      "wins": 14,
-      "win_rate": 39.2
+      "games": 33,
+      "wins": 13,
+      "win_rate": 39.4
     },
     {
-      "opponent_faction": "Chaos Daemons",
+      "opponent_faction": "Aeldari",
+      "games": 31,
+      "wins": 14,
+      "win_rate": 45.2
+    },
+    {
+      "opponent_faction": "Dark Angels",
       "games": 30,
-      "wins": 14,
-      "win_rate": 48.3
+      "wins": 9,
+      "win_rate": 31.7
     },
     {
-      "opponent_faction": "Drukhari",
-      "games": 29,
-      "wins": 17,
-      "win_rate": 58.6
-    },
-    {
-      "opponent_faction": "Space Wolves",
+      "opponent_faction": "Leagues of Votann",
       "games": 28,
       "wins": 17,
       "win_rate": 60.7
     },
     {
-      "opponent_faction": "Chaos Knights",
+      "opponent_faction": "Space Wolves",
       "games": 26,
+      "wins": 16,
+      "win_rate": 63.5
+    },
+    {
+      "opponent_faction": "Chaos Daemons",
+      "games": 26,
+      "wins": 13,
+      "win_rate": 51.9
+    },
+    {
+      "opponent_faction": "Drukhari",
+      "games": 25,
+      "wins": 14,
+      "win_rate": 56.0
+    },
+    {
+      "opponent_faction": "Chaos Knights",
+      "games": 23,
       "wins": 7,
-      "win_rate": 28.8
+      "win_rate": 32.6
     },
     {
       "opponent_faction": "Grey Knights",
-      "games": 23,
-      "wins": 14,
-      "win_rate": 60.9
+      "games": 21,
+      "wins": 12,
+      "win_rate": 57.1
     },
     {
       "opponent_faction": "Genestealer Cults",
-      "games": 19,
-      "wins": 11,
-      "win_rate": 57.9
+      "games": 14,
+      "wins": 10,
+      "win_rate": 71.4
     },
     {
       "opponent_faction": "Deathwatch",
-      "games": 11,
+      "games": 10,
       "wins": 7,
-      "win_rate": 63.6
+      "win_rate": 70.0
     },
     {
       "opponent_faction": "Black Templars",
-      "games": 10,
-      "wins": 5,
+      "games": 8,
+      "wins": 4,
       "win_rate": 50.0
     },
     {
@@ -456,58 +482,68 @@
   ],
   "timeline": [
     {
-      "week": "2026-W11",
-      "lists": 42,
-      "games": 206,
-      "win_rate": 45.1
-    },
-    {
       "week": "2026-W12",
       "lists": 35,
-      "games": 160,
-      "win_rate": 41.9
+      "games": 156,
+      "win_rate": 41.7,
+      "total_lists": 1297,
+      "play_rate": 2.7
     },
     {
       "week": "2026-W13",
       "lists": 10,
       "games": 38,
-      "win_rate": 50.0
+      "win_rate": 50.0,
+      "total_lists": 323,
+      "play_rate": 3.1
     },
     {
       "week": "2026-W14",
       "lists": 30,
       "games": 144,
-      "win_rate": 42.0
+      "win_rate": 42.0,
+      "total_lists": 1125,
+      "play_rate": 2.7
     },
     {
       "week": "2026-W15",
       "lists": 29,
       "games": 154,
-      "win_rate": 49.0
+      "win_rate": 49.0,
+      "total_lists": 1348,
+      "play_rate": 2.2
     },
     {
       "week": "2026-W16",
       "lists": 47,
       "games": 210,
-      "win_rate": 57.6
+      "win_rate": 57.6,
+      "total_lists": 1067,
+      "play_rate": 4.4
     },
     {
       "week": "2026-W17",
       "lists": 41,
       "games": 171,
-      "win_rate": 55.8
+      "win_rate": 55.8,
+      "total_lists": 984,
+      "play_rate": 4.2
     },
     {
       "week": "2026-W18",
       "lists": 6,
       "games": 30,
-      "win_rate": 40.0
+      "win_rate": 40.0,
+      "total_lists": 189,
+      "play_rate": 3.2
     },
     {
       "week": "2026-W19",
       "lists": 45,
       "games": 201,
-      "win_rate": 54.7
+      "win_rate": 54.7,
+      "total_lists": 942,
+      "play_rate": 4.8
     }
   ]
 }

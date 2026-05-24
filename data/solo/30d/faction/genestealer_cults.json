@@ -1,15 +1,20 @@
 {
   "faction": "Genestealer Cults",
   "slug": "genestealer_cults",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 30,
   "event_type": "solo",
   "lists": 35,
   "games": 163,
   "play_rate": 1.1,
   "win_rate": 52.5,
-  "trend_delta": 3.8,
+  "trend_delta": 6.0,
   "top_detachment": "Biosanctic Broodsurge",
+  "ci_lower": 44.8,
+  "meta_health": "strongly_under",
+  "x0_pct": 5.7,
+  "x1_pct": 8.6,
+  "tournament_wins": 2,
   "detachments": [
     {
       "detachment": "Biosanctic Broodsurge",
@@ -17,7 +22,10 @@
       "lists": 16,
       "games": 77,
       "play_rate": 45.7,
-      "win_rate": 53.2
+      "win_rate": 53.2,
+      "x0_pct": 6.2,
+      "x1_pct": 0.0,
+      "tournament_wins": 1
     },
     {
       "detachment": "Host of Ascension",
@@ -25,7 +33,10 @@
       "lists": 6,
       "games": 27,
       "play_rate": 17.1,
-      "win_rate": 51.9
+      "win_rate": 51.9,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "tournament_wins": 0
     },
     {
       "detachment": "Outlander Claw",
@@ -33,7 +44,10 @@
       "lists": 6,
       "games": 30,
       "play_rate": 17.1,
-      "win_rate": 51.7
+      "win_rate": 51.7,
+      "x0_pct": 0.0,
+      "x1_pct": 16.7,
+      "tournament_wins": 0
     },
     {
       "detachment": "Final Day",
@@ -41,7 +55,10 @@
       "lists": 4,
       "games": 20,
       "play_rate": 11.4,
-      "win_rate": 60.0
+      "win_rate": 60.0,
+      "x0_pct": 25.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 1
     },
     {
       "detachment": "Xenocreed Congregation",
@@ -49,7 +66,10 @@
       "lists": 2,
       "games": 5,
       "play_rate": 5.7,
-      "win_rate": 20.0
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
@@ -371,25 +391,33 @@
       "week": "2026-W16",
       "lists": 16,
       "games": 79,
-      "win_rate": 53.8
+      "win_rate": 53.8,
+      "total_lists": 1057,
+      "play_rate": 1.5
     },
     {
       "week": "2026-W17",
       "lists": 8,
       "games": 40,
-      "win_rate": 56.2
+      "win_rate": 56.2,
+      "total_lists": 984,
+      "play_rate": 0.8
     },
     {
       "week": "2026-W18",
       "lists": 2,
       "games": 10,
-      "win_rate": 45.0
+      "win_rate": 45.0,
+      "total_lists": 189,
+      "play_rate": 1.1
     },
     {
       "week": "2026-W19",
       "lists": 9,
       "games": 34,
-      "win_rate": 47.1
+      "win_rate": 47.1,
+      "total_lists": 942,
+      "play_rate": 1.0
     }
   ]
 }

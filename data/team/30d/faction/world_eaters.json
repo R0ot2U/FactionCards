@@ -1,15 +1,20 @@
 {
   "faction": "World Eaters",
   "slug": "world_eaters",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 30,
   "event_type": "team",
   "lists": 93,
   "games": 440,
   "play_rate": 3.0,
   "win_rate": 42.3,
-  "trend_delta": -2.3,
+  "trend_delta": -2.1,
   "top_detachment": "Berzerker Warband",
+  "ci_lower": 37.7,
+  "meta_health": "strongly_under",
+  "x0_pct": 6.5,
+  "x1_pct": 16.1,
+  "tournament_wins": 2,
   "detachments": [
     {
       "detachment": "Berzerker Warband",
@@ -17,7 +22,10 @@
       "lists": 81,
       "games": 370,
       "play_rate": 87.1,
-      "win_rate": 43.5
+      "win_rate": 43.5,
+      "x0_pct": 7.9,
+      "x1_pct": 17.1,
+      "tournament_wins": 2
     },
     {
       "detachment": "Goretrack Onslaught",
@@ -25,7 +33,10 @@
       "lists": 5,
       "games": 30,
       "play_rate": 5.4,
-      "win_rate": 33.3
+      "win_rate": 33.3,
+      "x0_pct": 0.0,
+      "x1_pct": 25.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Khorne Daemonkin",
@@ -33,7 +44,10 @@
       "lists": 3,
       "games": 15,
       "play_rate": 3.2,
-      "win_rate": 56.7
+      "win_rate": 56.7,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "tournament_wins": 0
     },
     {
       "detachment": "No Detachment",
@@ -41,7 +55,10 @@
       "lists": 1,
       "games": 5,
       "play_rate": 1.1,
-      "win_rate": 60.0
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Possessed Slaughterband",
@@ -49,7 +66,10 @@
       "lists": 1,
       "games": 5,
       "play_rate": 1.1,
-      "win_rate": 0.0
+      "win_rate": 0.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Vessels of Wrath",
@@ -57,7 +77,10 @@
       "lists": 1,
       "games": 5,
       "play_rate": 1.1,
-      "win_rate": 20.0
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Cursed Legion",
@@ -65,7 +88,10 @@
       "lists": 1,
       "games": 10,
       "play_rate": 1.1,
-      "win_rate": 25.0
+      "win_rate": 25.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
@@ -429,25 +455,33 @@
       "week": "2026-W16",
       "lists": 23,
       "games": 114,
-      "win_rate": 36.0
+      "win_rate": 36.0,
+      "total_lists": 871,
+      "play_rate": 2.6
     },
     {
       "week": "2026-W17",
       "lists": 37,
       "games": 165,
-      "win_rate": 45.2
+      "win_rate": 45.2,
+      "total_lists": 1606,
+      "play_rate": 2.3
     },
     {
       "week": "2026-W18",
       "lists": 10,
       "games": 53,
-      "win_rate": 34.9
+      "win_rate": 34.9,
+      "total_lists": 161,
+      "play_rate": 6.2
     },
     {
       "week": "2026-W19",
       "lists": 23,
       "games": 108,
-      "win_rate": 48.1
+      "win_rate": 48.1,
+      "total_lists": 448,
+      "play_rate": 5.1
     }
   ]
 }

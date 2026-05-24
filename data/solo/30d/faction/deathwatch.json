@@ -1,23 +1,31 @@
 {
   "faction": "Deathwatch",
   "slug": "deathwatch",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 30,
   "event_type": "solo",
   "lists": 45,
   "games": 212,
   "play_rate": 1.4,
   "win_rate": 62.3,
-  "trend_delta": -1.9,
+  "trend_delta": -3.1,
   "top_detachment": "Black Spear Task Force",
+  "ci_lower": 55.6,
+  "meta_health": "strongly_over",
+  "x0_pct": 4.4,
+  "x1_pct": 35.6,
+  "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Black Spear Task Force",
       "base_archetype": "Deathwatch \u2014 Black Spear Task Force",
-      "lists": 42,
+      "lists": 43,
       "games": 204,
-      "play_rate": 93.3,
-      "win_rate": 62.5
+      "play_rate": 95.6,
+      "win_rate": 62.5,
+      "x0_pct": 4.8,
+      "x1_pct": 38.1,
+      "tournament_wins": 0
     },
     {
       "detachment": "No Detachment",
@@ -25,7 +33,10 @@
       "lists": 1,
       "games": 5,
       "play_rate": 2.2,
-      "win_rate": 60.0
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
@@ -353,25 +364,33 @@
       "week": "2026-W16",
       "lists": 19,
       "games": 86,
-      "win_rate": 65.1
+      "win_rate": 65.1,
+      "total_lists": 1057,
+      "play_rate": 1.8
     },
     {
       "week": "2026-W17",
       "lists": 14,
       "games": 68,
-      "win_rate": 58.8
+      "win_rate": 58.8,
+      "total_lists": 984,
+      "play_rate": 1.4
     },
     {
       "week": "2026-W18",
       "lists": 1,
       "games": 5,
-      "win_rate": 60.0
+      "win_rate": 60.0,
+      "total_lists": 189,
+      "play_rate": 0.5
     },
     {
       "week": "2026-W19",
       "lists": 11,
       "games": 53,
-      "win_rate": 62.3
+      "win_rate": 62.3,
+      "total_lists": 942,
+      "play_rate": 1.2
     }
   ]
 }

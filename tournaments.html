@@ -10,6 +10,7 @@
 <meta property="og:type" content="website">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="assets/app.css">
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js" defer></script>
 </head>
 <body>
 
@@ -38,6 +39,11 @@
       <button class="btn" data-val="team">Teams</button>
     </div>
     <span id="row-count" style="color:var(--dim);font-size:0.8rem;margin-left:4px;"></span>
+  </div>
+
+  <div class="chart-wrap map-wrap">
+    <div class="panel-title">Tournament Locations</div>
+    <div id="map-chart"></div>
   </div>
 
   <div class="panel">

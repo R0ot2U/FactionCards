@@ -196,6 +196,42 @@ tbody td { padding: 8px 10px; vertical-align: middle; }
   margin-bottom: 16px;
 }
 
+/* Map container */
+.map-wrap {
+  margin-bottom: 20px;
+}
+.map-wrap #map-chart {
+  min-height: 450px;
+}
+
+/* Plotly mode bar styling for dark theme */
+.modebar {
+  background: transparent !important;
+  top: 10px !important;
+  left: 10px !important;
+  right: auto !important;
+}
+.modebar-btn {
+  background: var(--panel) !important;
+  border: 1px solid var(--grid) !important;
+  border-radius: 4px !important;
+  margin: 0 2px !important;
+  transition: all 0.2s !important;
+}
+.modebar-btn:hover {
+  background: var(--grid) !important;
+  border-color: var(--accent) !important;
+}
+.modebar-btn path {
+  fill: var(--dim) !important;
+}
+.modebar-btn:hover path {
+  fill: var(--text) !important;
+}
+.modebar-btn.active path {
+  fill: var(--accent) !important;
+}
+
 /* Landing page bar charts — each lives in a ~50% column; give them generous height */
 #chart-play,
 #chart-wr {
@@ -368,6 +404,69 @@ footer {
 .legend-link { color: var(--blue-lt); text-decoration: none; }
 .legend-link:hover { text-decoration: underline; }
 
+/* ── Faction page enhancements ──────────────────────────── */
+.three-col {
+  display: grid;
+  grid-template-columns: minmax(200px, 250px) 1fr 1fr;
+  gap: clamp(16px, 2vw, 28px);
+  margin-bottom: 20px;
+}
+
+.ranking-panel {
+  grid-column: 1;
+}
+
+.ranking-panel .panel-title {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.ranking-table {
+  width: 100%;
+  font-size: 0.85rem;
+}
+
+.ranking-table td:last-child {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.chart-det-pie {
+  height: clamp(320px, 32vw, 520px);
+  min-height: 320px;
+}
+
+.stats-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 8px 0;
+}
+
+.pie-btn {
+  background: var(--panel);
+  border: 1px solid var(--grid);
+  color: var(--dim);
+  padding: 3px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.75rem;
+  transition: all 0.2s;
+}
+
+.pie-btn:hover {
+  border-color: var(--blue-lt);
+  color: var(--text);
+}
+
+.pie-btn.active {
+  background: var(--blue);
+  border-color: var(--blue);
+  color: white;
+  font-weight: 600;
+}
+
 /* ── Mobile responsive ──────────────────────────────────── */
 @media (max-width: 600px) {
   header { flex-wrap: wrap; gap: 8px; padding: 10px 14px; }
@@ -377,4 +476,5 @@ footer {
   .footer-inner { flex-direction: column; align-items: flex-start; gap: 8px; }
   .hero { flex-direction: column; }
   .hero-stats { justify-content: flex-start; }
+  .three-col { grid-template-columns: 1fr; }
 }

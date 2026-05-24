@@ -1,15 +1,20 @@
 {
   "faction": "Death Guard",
   "slug": "death_guard",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 30,
   "event_type": "all",
   "lists": 326,
   "games": 1444,
   "play_rate": 5.2,
   "win_rate": 53.5,
-  "trend_delta": 9.4,
+  "trend_delta": 9.5,
   "top_detachment": "Virulent Vectorium",
+  "ci_lower": 50.9,
+  "meta_health": "slightly_over",
+  "x0_pct": 5.2,
+  "x1_pct": 21.2,
+  "tournament_wins": 7,
   "detachments": [
     {
       "detachment": "Virulent Vectorium",
@@ -17,7 +22,10 @@
       "lists": 231,
       "games": 1015,
       "play_rate": 70.9,
-      "win_rate": 55.6
+      "win_rate": 55.6,
+      "x0_pct": 7.3,
+      "x1_pct": 24.9,
+      "tournament_wins": 7
     },
     {
       "detachment": "Mortarion's Hammer",
@@ -25,7 +33,10 @@
       "lists": 41,
       "games": 183,
       "play_rate": 12.6,
-      "win_rate": 52.7
+      "win_rate": 52.7,
+      "x0_pct": 2.6,
+      "x1_pct": 23.1,
+      "tournament_wins": 0
     },
     {
       "detachment": "Tallyband Summoners",
@@ -33,7 +44,10 @@
       "lists": 22,
       "games": 99,
       "play_rate": 6.7,
-      "win_rate": 52.5
+      "win_rate": 52.5,
+      "x0_pct": 5.0,
+      "x1_pct": 30.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Champions of Contagion",
@@ -41,7 +55,10 @@
       "lists": 13,
       "games": 58,
       "play_rate": 4.0,
-      "win_rate": 50.0
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 16.7,
+      "tournament_wins": 0
     },
     {
       "detachment": "Shamblerot Vectorium",
@@ -49,7 +66,10 @@
       "lists": 6,
       "games": 30,
       "play_rate": 1.8,
-      "win_rate": 35.0
+      "win_rate": 35.0,
+      "x0_pct": 0.0,
+      "x1_pct": 16.7,
+      "tournament_wins": 0
     },
     {
       "detachment": "Flyblown Host",
@@ -57,7 +77,10 @@
       "lists": 6,
       "games": 30,
       "play_rate": 1.8,
-      "win_rate": 38.3
+      "win_rate": 38.3,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Death Lord's Chosen",
@@ -65,7 +88,10 @@
       "lists": 5,
       "games": 25,
       "play_rate": 1.5,
-      "win_rate": 32.0
+      "win_rate": 32.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
@@ -453,25 +479,33 @@
       "week": "2026-W16",
       "lists": 98,
       "games": 485,
-      "win_rate": 51.8
+      "win_rate": 51.8,
+      "total_lists": 1928,
+      "play_rate": 5.1
     },
     {
       "week": "2026-W17",
       "lists": 131,
       "games": 527,
-      "win_rate": 54.6
+      "win_rate": 54.6,
+      "total_lists": 2590,
+      "play_rate": 5.1
     },
     {
       "week": "2026-W18",
       "lists": 13,
       "games": 65,
-      "win_rate": 56.2
+      "win_rate": 56.2,
+      "total_lists": 350,
+      "play_rate": 3.7
     },
     {
       "week": "2026-W19",
       "lists": 84,
       "games": 366,
-      "win_rate": 53.8
+      "win_rate": 53.8,
+      "total_lists": 1390,
+      "play_rate": 6.0
     }
   ]
 }

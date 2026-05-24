@@ -22,8 +22,8 @@
   <div class="legend-page">
 
     <h2 class="legend-heading">About Informed Crusader</h2>
-    <p>Informed Crusader collects and analyses competitive Warhammer 40,000 tournament data from <strong>Best Coast Pairings (BCP)</strong> and <strong>New Recruit</strong> events. It provides win rates, play rates, detachment breakdowns, top player rankings, matchup data, and weekly meta trends — all from real tournament results.</p>
-    <p>Data is refreshed periodically. The window label in the header shows the date range the current view covers.</p>
+    <p>Informed Crusader collects and analyses competitive Warhammer 40,000 tournament data from <strong>Best Coast Pairings (BCP)</strong> and <strong>New Recruit</strong> events. It provides win rates, play rates, detachment breakdowns, top player rankings, matchup data, player ELO ratings, and weekly meta trends — all from real tournament results.</p>
+    <p>Data is refreshed periodically after tournament weekends. Time windows are anchored to the <strong>most recent event date</strong>, not today's calendar date, ensuring you always see complete tournament data rather than empty windows.</p>
 
     <h2 class="legend-heading">Event Types</h2>
     <div class="legend-grid">
@@ -45,7 +45,7 @@
     <div class="legend-grid">
       <div class="legend-card">
         <div class="legend-term">Play Rate %</div>
-        <p>The percentage of all army lists in the window that play this faction. A faction with a 10% play rate appeared in 10 out of every 100 lists.</p>
+        <p>The percentage of all players in the window using this faction. A faction with a 10% play rate means 10 out of every 100 players used it.</p>
       </div>
       <div class="legend-card">
         <div class="legend-term">Win Rate %</div>
@@ -53,17 +53,34 @@
         <p class="legend-note">50% is even. Above 55% is strong; below 45% is weak. Colour-coded: green ≥ 55%, yellow 45–55%, red ≤ 45%.</p>
       </div>
       <div class="legend-card">
+        <div class="legend-term">Meta Health</div>
+        <p>Statistical assessment of faction strength based on Wilson 95% confidence interval (CI) lower bound. Uses a pessimistic estimate to avoid over-rating factions with small samples.</p>
+        <p class="legend-note">5 tiers: Strongly Over (CI &gt; 55%), Slightly Over (CI &gt; 50%), Neutral (50%), Slightly Under (CI &lt; 50%), Strongly Under (CI &lt; 45%). A 51.5% win rate can show "underperform" if the CI lower bound is below 50%.</p>
+      </div>
+      <div class="legend-card">
         <div class="legend-term">Trend</div>
         <p>Win-rate change compared to the previous window of the same length. For example, with a 30-day window, Trend compares the most recent 30 days to the 30 days before that.</p>
         <p class="legend-note">▲ means improving, ▼ means declining. A small triangle (±0.5%) is considered flat (shown as —).</p>
       </div>
       <div class="legend-card">
-        <div class="legend-term">Top Detachment</div>
-        <p>The detachment used by the most lists for this faction in the window. Not necessarily the strongest — just the most popular.</p>
+        <div class="legend-term">X-0 Rate</div>
+        <p>Percentage of players who went undefeated with this faction (0 losses, 0 draws, at least 1 win). Measures ceiling potential — how often does the faction take players to perfect records?</p>
       </div>
       <div class="legend-card">
-        <div class="legend-term">Lists</div>
-        <p>Total number of army lists recorded for this faction or detachment in the window. Each player at each event contributes one list.</p>
+        <div class="legend-term">X-1 Rate</div>
+        <p>Percentage of players with exactly 1 loss. Combined with X-0, this shows how many players finished with strong records (top tables).</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Tournament Wins</div>
+        <p>Number of 1st place finishes (lists with placing = 1). Direct measure of championship performance. Shown both faction-wide and per detachment.</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Top Detachment</div>
+        <p>The detachment used by the most players for this faction in the window. Not necessarily the strongest — just the most popular.</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Players</div>
+        <p>Total number of players recorded for this faction or detachment in the window. Each player at each event contributes one entry.</p>
       </div>
       <div class="legend-card">
         <div class="legend-term">Games</div>
@@ -74,8 +91,16 @@
     <h2 class="legend-heading">Faction Detail Page</h2>
     <div class="legend-grid">
       <div class="legend-card">
+        <div class="legend-term">Army Performance vs Meta</div>
+        <p>Stat grid showing: Win Rate, Representation %, X-0 Rate, X-1 Rate, and Tournament Wins. Gives a quick snapshot of how the faction performs against the field.</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Faction Rankings</div>
+        <p>Sidebar table showing this faction's rank across 7 metrics: Total Players, Total Games, Win %, Representation, X-0 Rate, X-1 Rate, and Tournament Wins. Rank is out of all factions in the window.</p>
+      </div>
+      <div class="legend-card">
         <div class="legend-term">Detachment Breakdown</div>
-        <p>Lists and win rate split by detachment (formation). Play % here is relative to this faction's own lists, not all lists.</p>
+        <p>Players, win rate, and tournament wins split by detachment (formation). Play % here is relative to this faction's own players, not all players. Includes a pie chart with switcher for Play %, Win %, and Tournament Wins views.</p>
       </div>
       <div class="legend-card">
         <div class="legend-term">Win Rate into Opponent</div>
@@ -86,18 +111,40 @@
         <p>Players ranked by win rate with this faction in the window. Minimum 3 games required to appear. A "View List" link (where available) opens the original BCP or New Recruit list.</p>
       </div>
       <div class="legend-card">
-        <div class="legend-term">Lists per Week / Win Rate per Week</div>
-        <p>Weekly breakdown of list count and win rate. Shows participation trends and whether performance has shifted recently. Each point is one calendar week.</p>
+        <div class="legend-term">Players per Week / Win Rate per Week</div>
+        <p>Weekly breakdown of player count and win rate. Shows participation trends and whether performance has shifted recently. Each point is one calendar week.</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Weekly Performance Table</div>
+        <p>Sortable table view of the timeline data: Week, Players, Rep %, Win %, Games. Placed below the timeline charts. Allows sorting by any column to identify peak performance weeks or participation spikes.</p>
+      </div>
+    </div>
+
+    <h2 class="legend-heading">Statistical Methodology</h2>
+    <div class="legend-grid">
+      <div class="legend-card">
+        <div class="legend-term">Wilson Confidence Interval</div>
+        <p>Meta Health uses the Wilson 95% confidence interval (CI) instead of raw win rate percentages. The CI gives a range estimate for the "true" win rate, accounting for sample size.</p>
+        <p class="legend-note">A faction with 51.5% win rate but only 20 games might have a CI of 45%–58%, meaning the true win rate could plausibly be anywhere in that range. We use the lower bound (45%) for a pessimistic, conservative assessment.</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Why CI Lower Bound?</div>
+        <p>Using the CI lower bound prevents over-rating factions with lucky small samples. A faction with 60% win rate over 10 games has a wide CI (e.g., 47%–73%), so the lower bound keeps the health rating cautious until more data confirms the performance.</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Incomplete Data Filtering</div>
+        <p>Players with no game records (wins + losses + draws = 0) are excluded from X-0/X-1/Tournament Wins calculations. These represent unparsed or incomplete data, often from events where list scraping failed.</p>
       </div>
     </div>
 
     <h2 class="legend-heading">Data Sources &amp; Caveats</h2>
     <ul class="legend-list">
       <li><strong>Sources:</strong> Best Coast Pairings (BCP) and New Recruit tournament platforms. Data covers GT-level and above events in the window.</li>
-      <li><strong>Army list parsing:</strong> Lists are parsed from BCP and New Recruit export formats. Faction and detachment are extracted from the list text, not the BCP roster (which can be inaccurate for some factions).</li>
+      <li><strong>Army list parsing:</strong> Player lists are parsed from BCP and New Recruit export formats. Faction and detachment are extracted from the list text, not the BCP roster (which can be inaccurate for some factions).</li>
       <li><strong>Sample sizes:</strong> Win rates for factions or detachments with small samples (&lt; 20 games) should be treated with caution — they appear in the data but can swing significantly. Matchups require at least 5 games; player rankings require at least 3.</li>
       <li><strong>Team events:</strong> Team pairing dynamics differ from solo play. Win rates in Teams mode reflect performance within the team pairing context.</li>
       <li><strong>Refresh cadence:</strong> Data is rebuilt periodically after new events are processed. The build date in the footer shows when the current data was generated.</li>
+      <li><strong>Time window anchoring:</strong> Windows (7d, 14d, 30d, 60d) are anchored to the most recent event date in the dataset, not today's calendar date. This ensures windows always show complete tournament data rather than empty periods. For example, if the last data refresh was Tuesday May 20 after a weekend of events, the "7 days" window shows May 13–20 (the week of tournament data), not May 17–24 (which would be empty).</li>
     </ul>
 
     <h2 class="legend-heading">PNG Faction Cards</h2>

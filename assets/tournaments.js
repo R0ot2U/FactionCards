@@ -1,6 +1,7 @@
 /* Tournaments page */
 
 let allTournaments = [];
+let mapData = [];
 let currentEventType = getEventType();
 let currentWindow = getWindow();
 let currentSortCol = 1;  // Default to date column
@@ -14,6 +15,14 @@ async function loadData(eventType, windowDays, cacheBust = false) {
     manifest = await fetchJSON(`${root}/index.json`, cacheBust);
     const tournaments = await fetchJSON(`${root}/tournaments.json`, cacheBust);
     allTournaments = tournaments;
+
+    // Load map data for map visualization
+    try {
+      mapData = await fetchJSON(`data/map.json`);
+    } catch (_) {
+      mapData = [];
+    }
+
     return true;
   } catch (e) {
     // Fall back to "all" / "30d" bundle if requested bundle is unavailable
@@ -24,6 +33,14 @@ async function loadData(eventType, windowDays, cacheBust = false) {
         allTournaments = tournaments;
         currentEventType = "all";
         currentWindow = "30d";
+
+        // Load map data for fallback
+        try {
+          mapData = await fetchJSON(`data/map.json`);
+        } catch (_) {
+          mapData = [];
+        }
+
         // Sync button active state to fallback
         document.querySelectorAll("#event-type-btns .btn").forEach(b => {
           b.classList.toggle("active", b.dataset.val === "all");
@@ -43,6 +60,105 @@ async function loadData(eventType, windowDays, cacheBust = false) {
   }
 }
 
+function renderMap(events) {
+  if (!events || events.length === 0) {
+    document.getElementById("map-chart").innerHTML =
+      '<div style="padding:2rem;text-align:center;color:var(--dim);">No location data available</div>';
+    return;
+  }
+
+  // Group by location (lat, lng rounded to 4 decimals ~11m precision)
+  const locationMap = new Map();
+  events.forEach(e => {
+    const key = `${e.lat.toFixed(4)},${e.lng.toFixed(4)}`;
+    if (!locationMap.has(key)) {
+      locationMap.set(key, {
+        lat: e.lat,
+        lng: e.lng,
+        location: e.location,
+        tournaments: [],
+        totalPlayers: 0,
+        factions: new Map(),
+      });
+    }
+    const loc = locationMap.get(key);
+    loc.tournaments.push(e.name);
+    loc.totalPlayers += e.players || 0;
+    // Track faction counts
+    if (e.factions && Array.isArray(e.factions)) {
+      e.factions.forEach(f => {
+        if (f !== 'Unknown') {  // Filter out Unknown
+          loc.factions.set(f, (loc.factions.get(f) || 0) + 1);
+        }
+      });
+    }
+  });
+
+  // Convert to array and compute top factions
+  const locations = Array.from(locationMap.values()).map(loc => {
+    const topFactions = Array.from(loc.factions.entries())
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 3)
+      .map(([faction]) => faction);
+    return { ...loc, topFactions };
+  });
+
+  const trace = {
+    type: 'scattergeo',
+    lat: locations.map(loc => loc.lat),
+    lon: locations.map(loc => loc.lng),
+    text: locations.map(loc => {
+      const topFactionsStr = loc.topFactions.length > 0
+        ? `<br>Top factions: ${loc.topFactions.join(', ')}`
+        : '';
+      return `${loc.location}<br>${loc.tournaments.length} tournament${loc.tournaments.length > 1 ? 's' : ''}<br>${loc.totalPlayers} total players${topFactionsStr}`;
+    }),
+    hoverinfo: 'text',
+    marker: {
+      size: locations.map(loc => Math.max(8, Math.sqrt(loc.tournaments.length) * 8 + Math.sqrt(loc.totalPlayers) * 0.5)),
+      color: '#e94560',
+      opacity: 0.8,
+      line: { width: 0.5, color: '#fff' }
+    },
+    mode: 'markers',
+  };
+
+  const layout = {
+    geo: {
+      projection: { type: 'natural earth' },
+      showland: true,
+      landcolor: '#1a1a2e',
+      showocean: true,
+      oceancolor: '#0f0f1a',
+      showlakes: false,
+      showcountries: true,
+      countrycolor: '#2a2a4a',
+      coastlinecolor: '#2a2a4a',
+      bgcolor: 'rgba(0,0,0,0)',
+    },
+    paper_bgcolor: 'rgba(0,0,0,0)',
+    plot_bgcolor: 'rgba(0,0,0,0)',
+    margin: { t: 0, b: 0, l: 0, r: 0 },
+    height: 450,
+  };
+
+  const config = {
+    responsive: true,
+    displayModeBar: true,
+    modeBarButtonsToRemove: ['select2d', 'lasso2d'],
+    modeBarButtonsToAdd: [],
+    displaylogo: false,
+    toImageButtonOptions: {
+      format: 'png',
+      filename: 'tournament_locations',
+      height: 800,
+      width: 1400,
+    }
+  };
+
+  Plotly.newPlot('map-chart', [trace], layout, config);
+}
+
 async function init() {
   // Show loading state
   document.getElementById("tournaments-tbody").innerHTML =
@@ -56,7 +172,7 @@ async function init() {
   document.getElementById("window-label").textContent =
     `Tournaments · ${manifest.window_days}-day window · as of ${manifest.as_of}`;
   document.getElementById("build-info").textContent =
-    `${manifest.total_lists.toLocaleString()} lists · ${manifest.total_games.toLocaleString()} games`;
+    `${manifest.total_tournaments.toLocaleString()} tournaments · ${manifest.total_lists.toLocaleString()} players · ${manifest.total_games.toLocaleString()} games`;
 
   // Sync active buttons to current state
   document.querySelectorAll("#event-type-btns .btn").forEach(b => {
@@ -66,6 +182,11 @@ async function init() {
     b.classList.toggle("active", b.dataset.val === currentWindow);
   });
 
+  // Filter map data to match current window
+  const tournamentIds = new Set(allTournaments.map(t => t.event_id));
+  const filteredMapData = mapData.filter(e => tournamentIds.has(e.event_id));
+
+  renderMap(filteredMapData);
   renderTable();
   renderFooter(manifest);
 
@@ -92,6 +213,12 @@ async function init() {
 
       expandedRows.clear(); // Reset expanded state
       await loadData(currentEventType, currentWindow);
+
+      // Filter map data to match current window
+      const tournamentIds = new Set(allTournaments.map(t => t.event_id));
+      const filteredMapData = mapData.filter(e => tournamentIds.has(e.event_id));
+
+      renderMap(filteredMapData);
       renderTable();
       renderFooter(manifest);
 
@@ -99,7 +226,7 @@ async function init() {
       document.getElementById("window-label").textContent =
         `Tournaments · ${manifest.window_days}-day window · as of ${manifest.as_of}`;
       document.getElementById("build-info").textContent =
-        `${manifest.total_lists.toLocaleString()} lists · ${manifest.total_games.toLocaleString()} games`;
+        `${manifest.total_tournaments.toLocaleString()} tournaments · ${manifest.total_lists.toLocaleString()} players · ${manifest.total_games.toLocaleString()} games`;
     });
   });
 
@@ -120,6 +247,12 @@ async function init() {
 
       expandedRows.clear(); // Reset expanded state
       await loadData(currentEventType, currentWindow);
+
+      // Filter map data to match current window
+      const tournamentIds = new Set(allTournaments.map(t => t.event_id));
+      const filteredMapData = mapData.filter(e => tournamentIds.has(e.event_id));
+
+      renderMap(filteredMapData);
       renderTable();
       renderFooter(manifest);
 
@@ -127,7 +260,7 @@ async function init() {
       document.getElementById("window-label").textContent =
         `Tournaments · ${manifest.window_days}-day window · as of ${manifest.as_of}`;
       document.getElementById("build-info").textContent =
-        `${manifest.total_lists.toLocaleString()} lists · ${manifest.total_games.toLocaleString()} games`;
+        `${manifest.total_tournaments.toLocaleString()} tournaments · ${manifest.total_lists.toLocaleString()} players · ${manifest.total_games.toLocaleString()} games`;
     });
   });
 }

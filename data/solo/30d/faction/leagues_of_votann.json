@@ -1,15 +1,20 @@
 {
   "faction": "Leagues of Votann",
   "slug": "leagues_of_votann",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 30,
   "event_type": "solo",
   "lists": 100,
   "games": 474,
-  "play_rate": 3.1,
+  "play_rate": 3.2,
   "win_rate": 50.0,
-  "trend_delta": -0.4,
+  "trend_delta": -0.8,
   "top_detachment": "Hearthband",
+  "ci_lower": 45.5,
+  "meta_health": "slightly_under",
+  "x0_pct": 2.0,
+  "x1_pct": 14.0,
+  "tournament_wins": 2,
   "detachments": [
     {
       "detachment": "Hearthband",
@@ -17,7 +22,10 @@
       "lists": 49,
       "games": 236,
       "play_rate": 49.0,
-      "win_rate": 56.8
+      "win_rate": 56.8,
+      "x0_pct": 2.0,
+      "x1_pct": 20.4,
+      "tournament_wins": 1
     },
     {
       "detachment": "Mercenary Oathband",
@@ -25,7 +33,10 @@
       "lists": 15,
       "games": 77,
       "play_rate": 15.0,
-      "win_rate": 39.0
+      "win_rate": 39.0,
+      "x0_pct": 0.0,
+      "x1_pct": 6.7,
+      "tournament_wins": 0
     },
     {
       "detachment": "Needga\u00e2rd Oathband",
@@ -33,7 +44,10 @@
       "lists": 15,
       "games": 60,
       "play_rate": 15.0,
-      "win_rate": 55.8
+      "win_rate": 55.8,
+      "x0_pct": 7.1,
+      "x1_pct": 14.3,
+      "tournament_wins": 1
     },
     {
       "detachment": "D\u00ealve Assault Shift",
@@ -41,7 +55,10 @@
       "lists": 15,
       "games": 75,
       "play_rate": 15.0,
-      "win_rate": 44.7
+      "win_rate": 44.7,
+      "x0_pct": 0.0,
+      "x1_pct": 7.1,
+      "tournament_wins": 0
     },
     {
       "detachment": "No Detachment",
@@ -49,7 +66,10 @@
       "lists": 2,
       "games": 8,
       "play_rate": 2.0,
-      "win_rate": 25.0
+      "win_rate": 25.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Hearthfyre Arsenal",
@@ -57,7 +77,10 @@
       "lists": 2,
       "games": 10,
       "play_rate": 2.0,
-      "win_rate": 20.0
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Brandfast Oathband",
@@ -65,7 +88,10 @@
       "lists": 1,
       "games": 5,
       "play_rate": 1.0,
-      "win_rate": 20.0
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
@@ -435,25 +461,33 @@
       "week": "2026-W16",
       "lists": 40,
       "games": 183,
-      "win_rate": 46.7
+      "win_rate": 46.7,
+      "total_lists": 1057,
+      "play_rate": 3.8
     },
     {
       "week": "2026-W17",
       "lists": 31,
       "games": 152,
-      "win_rate": 50.3
+      "win_rate": 50.3,
+      "total_lists": 984,
+      "play_rate": 3.2
     },
     {
       "week": "2026-W18",
       "lists": 7,
       "games": 31,
-      "win_rate": 58.1
+      "win_rate": 58.1,
+      "total_lists": 189,
+      "play_rate": 3.7
     },
     {
       "week": "2026-W19",
       "lists": 22,
       "games": 108,
-      "win_rate": 52.8
+      "win_rate": 52.8,
+      "total_lists": 942,
+      "play_rate": 2.3
     }
   ]
 }

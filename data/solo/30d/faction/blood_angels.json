@@ -1,47 +1,64 @@
 {
   "faction": "Blood Angels",
   "slug": "blood_angels",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 30,
   "event_type": "solo",
-  "lists": 110,
+  "lists": 108,
   "games": 502,
-  "play_rate": 3.5,
+  "play_rate": 3.4,
   "win_rate": 45.6,
-  "trend_delta": -4.6,
+  "trend_delta": -4.9,
   "top_detachment": "Liberator Assault Group",
+  "ci_lower": 41.3,
+  "meta_health": "strongly_under",
+  "x0_pct": 0.9,
+  "x1_pct": 15.7,
+  "tournament_wins": 1,
   "detachments": [
     {
       "detachment": "Liberator Assault Group",
       "base_archetype": "Blood Angels \u2014 Liberator Assault Group",
-      "lists": 54,
-      "games": 261,
-      "play_rate": 49.1,
-      "win_rate": 47.5
+      "lists": 56,
+      "games": 276,
+      "play_rate": 51.9,
+      "win_rate": 46.4,
+      "x0_pct": 1.8,
+      "x1_pct": 14.3,
+      "tournament_wins": 1
     },
     {
       "detachment": "Rage-Cursed Onslaught",
       "base_archetype": "Blood Angels \u2014 Rage-Cursed Onslaught",
       "lists": 40,
-      "games": 174,
-      "play_rate": 36.4,
-      "win_rate": 45.1
+      "games": 179,
+      "play_rate": 37.0,
+      "win_rate": 45.5,
+      "x0_pct": 0.0,
+      "x1_pct": 15.8,
+      "tournament_wins": 0
     },
     {
       "detachment": "Angelic Inheritors",
       "base_archetype": "Blood Angels \u2014 Angelic Inheritors",
       "lists": 8,
       "games": 27,
-      "play_rate": 7.3,
-      "win_rate": 44.4
+      "play_rate": 7.4,
+      "win_rate": 44.4,
+      "x0_pct": 0.0,
+      "x1_pct": 42.9,
+      "tournament_wins": 0
     },
     {
       "detachment": "No Detachment",
       "base_archetype": "Blood Angels \u2014 No Detachment",
       "lists": 4,
       "games": 20,
-      "play_rate": 3.6,
-      "win_rate": 37.5
+      "play_rate": 3.7,
+      "win_rate": 37.5,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
@@ -415,27 +432,35 @@
   "timeline": [
     {
       "week": "2026-W16",
-      "lists": 40,
+      "lists": 38,
       "games": 175,
-      "win_rate": 49.1
+      "win_rate": 49.1,
+      "total_lists": 1057,
+      "play_rate": 3.6
     },
     {
       "week": "2026-W17",
       "lists": 36,
       "games": 167,
-      "win_rate": 43.4
+      "win_rate": 43.4,
+      "total_lists": 984,
+      "play_rate": 3.7
     },
     {
       "week": "2026-W18",
       "lists": 4,
       "games": 15,
-      "win_rate": 43.3
+      "win_rate": 43.3,
+      "total_lists": 189,
+      "play_rate": 2.1
     },
     {
       "week": "2026-W19",
       "lists": 30,
       "games": 143,
-      "win_rate": 44.8
+      "win_rate": 44.8,
+      "total_lists": 942,
+      "play_rate": 3.2
     }
   ]
 }

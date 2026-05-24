@@ -1,39 +1,53 @@
 {
   "faction": "Emperor's Children",
   "slug": "emperor_s_children",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 14,
   "event_type": "solo",
-  "lists": 51,
-  "games": 246,
-  "play_rate": 4.5,
-  "win_rate": 53.3,
-  "trend_delta": -3.8,
+  "lists": 45,
+  "games": 216,
+  "play_rate": 4.7,
+  "win_rate": 55.1,
+  "trend_delta": 0.8,
   "top_detachment": "Coterie of the Conceited",
+  "ci_lower": 48.4,
+  "meta_health": "slightly_under",
+  "x0_pct": 2.2,
+  "x1_pct": 24.4,
+  "tournament_wins": 2,
   "detachments": [
     {
       "detachment": "Coterie of the Conceited",
       "base_archetype": "Emperor's Children \u2014 Coterie of the Conceited",
-      "lists": 33,
-      "games": 156,
-      "play_rate": 64.7,
-      "win_rate": 56.4
+      "lists": 29,
+      "games": 136,
+      "play_rate": 64.4,
+      "win_rate": 57.4,
+      "x0_pct": 3.6,
+      "x1_pct": 28.6,
+      "tournament_wins": 2
     },
     {
       "detachment": "Court of the Phoenician",
       "base_archetype": "Emperor's Children \u2014 Court of the Phoenician",
-      "lists": 10,
-      "games": 50,
-      "play_rate": 19.6,
-      "win_rate": 42.0
+      "lists": 9,
+      "games": 45,
+      "play_rate": 20.0,
+      "win_rate": 44.4,
+      "x0_pct": 0.0,
+      "x1_pct": 11.1,
+      "tournament_wins": 0
     },
     {
       "detachment": "Carnival of Excess",
       "base_archetype": "Emperor's Children \u2014 Carnival of Excess",
-      "lists": 8,
-      "games": 40,
-      "play_rate": 15.7,
-      "win_rate": 55.0
+      "lists": 7,
+      "games": 35,
+      "play_rate": 15.6,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 28.6,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
@@ -69,17 +83,6 @@
       "draws": 1,
       "games": 5,
       "win_rate": 90.0
-    },
-    {
-      "player_name": "Troy Rooney",
-      "detachment": "Coterie of the Conceited",
-      "list_url": "https://www.bestcoastpairings.com/list/peSC5PFU1mSg",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
     },
     {
       "player_name": "Jose Carlos Galvez",
@@ -181,17 +184,6 @@
       "win_rate": 70.0
     },
     {
-      "player_name": "Isaac Haahr",
-      "detachment": "Coterie of the Conceited",
-      "list_url": "https://www.bestcoastpairings.com/list/vayNjKy5aEGF",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
       "player_name": "Nick Burnett",
       "detachment": "Coterie of the Conceited",
       "list_url": "https://www.bestcoastpairings.com/list/o64zqSZtZxbW",
@@ -256,26 +248,42 @@
       "draws": 0,
       "games": 5,
       "win_rate": 60.0
+    },
+    {
+      "player_name": "Joseph Strickland",
+      "detachment": "Carnival of Excess",
+      "list_url": "https://www.bestcoastpairings.com/list/ElZwwLRUJy13",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Ed Paszek",
+      "detachment": "Coterie of the Conceited",
+      "list_url": "https://www.bestcoastpairings.com/list/hYLrd0JfTtl3",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 23,
-      "wins": 16,
-      "win_rate": 69.6
+      "games": 19,
+      "wins": 12,
+      "win_rate": 63.2
     },
     {
       "opponent_faction": "Chaos Space Marines",
-      "games": 22,
+      "games": 18,
       "wins": 6,
-      "win_rate": 29.5
-    },
-    {
-      "opponent_faction": "Necrons",
-      "games": 15,
-      "wins": 5,
-      "win_rate": 33.3
+      "win_rate": 36.1
     },
     {
       "opponent_faction": "Thousand Sons",
@@ -285,27 +293,21 @@
     },
     {
       "opponent_faction": "Death Guard",
-      "games": 14,
+      "games": 13,
       "wins": 8,
-      "win_rate": 60.7
+      "win_rate": 65.4
+    },
+    {
+      "opponent_faction": "Necrons",
+      "games": 13,
+      "wins": 4,
+      "win_rate": 30.8
     },
     {
       "opponent_faction": "T'au Empire",
-      "games": 13,
-      "wins": 7,
-      "win_rate": 53.8
-    },
-    {
-      "opponent_faction": "World Eaters",
       "games": 11,
-      "wins": 7,
-      "win_rate": 63.6
-    },
-    {
-      "opponent_faction": "Adeptus Mechanicus",
-      "games": 10,
-      "wins": 4,
-      "win_rate": 40.0
+      "wins": 5,
+      "win_rate": 45.5
     },
     {
       "opponent_faction": "Adepta Sororitas",
@@ -314,52 +316,46 @@
       "win_rate": 80.0
     },
     {
-      "opponent_faction": "Blood Angels",
+      "opponent_faction": "Adeptus Mechanicus",
       "games": 9,
       "wins": 4,
       "win_rate": 44.4
     },
     {
-      "opponent_faction": "Adeptus Custodes",
+      "opponent_faction": "World Eaters",
       "games": 9,
-      "wins": 2,
-      "win_rate": 22.2
+      "wins": 6,
+      "win_rate": 66.7
+    },
+    {
+      "opponent_faction": "Blood Angels",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 50.0
     },
     {
       "opponent_faction": "Astra Militarum",
-      "games": 9,
+      "games": 8,
       "wins": 5,
-      "win_rate": 61.1
-    },
-    {
-      "opponent_faction": "Aeldari",
-      "games": 8,
-      "wins": 3,
-      "win_rate": 37.5
-    },
-    {
-      "opponent_faction": "Tyranids",
-      "games": 8,
-      "wins": 2,
-      "win_rate": 25.0
+      "win_rate": 68.8
     },
     {
       "opponent_faction": "Imperial Knights",
-      "games": 8,
-      "wins": 4,
-      "win_rate": 50.0
-    },
-    {
-      "opponent_faction": "Chaos Daemons",
-      "games": 7,
-      "wins": 3,
-      "win_rate": 50.0
-    },
-    {
-      "opponent_faction": "Leagues of Votann",
       "games": 7,
       "wins": 4,
       "win_rate": 57.1
+    },
+    {
+      "opponent_faction": "Adeptus Custodes",
+      "games": 7,
+      "wins": 2,
+      "win_rate": 28.6
+    },
+    {
+      "opponent_faction": "Tyranids",
+      "games": 7,
+      "wins": 2,
+      "win_rate": 28.6
     },
     {
       "opponent_faction": "Grey Knights",
@@ -368,19 +364,31 @@
       "win_rate": 66.7
     },
     {
+      "opponent_faction": "Chaos Daemons",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 41.7
+    },
+    {
       "opponent_faction": "Chaos Knights",
       "games": 6,
       "wins": 1,
       "win_rate": 16.7
     },
     {
-      "opponent_faction": "Drukhari",
+      "opponent_faction": "Leagues of Votann",
       "games": 6,
       "wins": 4,
       "win_rate": 66.7
     },
     {
-      "opponent_faction": "Space Wolves",
+      "opponent_faction": "Aeldari",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 33.3
+    },
+    {
+      "opponent_faction": "Drukhari",
       "games": 5,
       "wins": 4,
       "win_rate": 80.0
@@ -394,16 +402,12 @@
   ],
   "timeline": [
     {
-      "week": "2026-W18",
-      "lists": 6,
-      "games": 30,
-      "win_rate": 40.0
-    },
-    {
       "week": "2026-W19",
       "lists": 45,
       "games": 216,
-      "win_rate": 55.1
+      "win_rate": 55.1,
+      "total_lists": 942,
+      "play_rate": 4.8
     }
   ]
 }

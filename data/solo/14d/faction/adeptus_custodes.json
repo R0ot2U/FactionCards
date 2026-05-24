@@ -1,63 +1,86 @@
 {
   "faction": "Adeptus Custodes",
   "slug": "adeptus_custodes",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 14,
   "event_type": "solo",
-  "lists": 55,
-  "games": 238,
-  "play_rate": 4.9,
-  "win_rate": 50.0,
-  "trend_delta": 0.1,
+  "lists": 44,
+  "games": 185,
+  "play_rate": 4.6,
+  "win_rate": 48.4,
+  "trend_delta": -1.4,
   "top_detachment": "Talons of the Emperor",
+  "ci_lower": 41.3,
+  "meta_health": "strongly_under",
+  "x0_pct": 0.0,
+  "x1_pct": 15.9,
+  "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Talons of the Emperor",
       "base_archetype": "Adeptus Custodes \u2014 Talons of the Emperor",
-      "lists": 17,
-      "games": 77,
-      "play_rate": 30.9,
-      "win_rate": 55.2
-    },
-    {
-      "detachment": "Lions of the Emperor",
-      "base_archetype": "Adeptus Custodes \u2014 Lions of the Emperor",
-      "lists": 16,
+      "lists": 15,
       "games": 67,
-      "play_rate": 29.1,
-      "win_rate": 47.0
+      "play_rate": 34.1,
+      "win_rate": 54.5,
+      "x0_pct": 0.0,
+      "x1_pct": 20.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Shield Host",
       "base_archetype": "Adeptus Custodes \u2014 Shield Host",
-      "lists": 13,
-      "games": 51,
-      "play_rate": 23.6,
-      "win_rate": 52.0
+      "lists": 11,
+      "games": 41,
+      "play_rate": 25.0,
+      "win_rate": 53.7,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Lions of the Emperor",
+      "base_archetype": "Adeptus Custodes \u2014 Lions of the Emperor",
+      "lists": 11,
+      "games": 44,
+      "play_rate": 25.0,
+      "win_rate": 40.9,
+      "x0_pct": 0.0,
+      "x1_pct": 10.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Solar Spearhead",
       "base_archetype": "Adeptus Custodes \u2014 Solar Spearhead",
-      "lists": 6,
-      "games": 28,
-      "play_rate": 10.9,
-      "win_rate": 44.6
+      "lists": 4,
+      "games": 18,
+      "play_rate": 9.1,
+      "win_rate": 38.9,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "No Detachment",
       "base_archetype": "Adeptus Custodes \u2014 No Detachment",
       "lists": 2,
       "games": 10,
-      "play_rate": 3.6,
-      "win_rate": 40.0
+      "play_rate": 4.5,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Null Maiden Vigil",
       "base_archetype": "Adeptus Custodes \u2014 Null Maiden Vigil",
       "lists": 1,
       "games": 5,
-      "play_rate": 1.8,
-      "win_rate": 40.0
+      "play_rate": 2.3,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
@@ -84,17 +107,6 @@
       "win_rate": 83.3
     },
     {
-      "player_name": "Hunter Boyd",
-      "detachment": "Talons of the Emperor",
-      "list_url": "https://www.bestcoastpairings.com/list/l0gpLGAMWrCv",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
       "player_name": "Korianne Gevaert",
       "detachment": "Shield Host",
       "list_url": "https://www.bestcoastpairings.com/list/CD61rPvvMgQN",
@@ -117,28 +129,6 @@
       "win_rate": 80.0
     },
     {
-      "player_name": "Vlad Kisliakov",
-      "detachment": "Lions of the Emperor",
-      "list_url": "https://www.bestcoastpairings.com/list/45bvpzyfAhvj",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 1,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 70.0
-    },
-    {
-      "player_name": "Brian Moody",
-      "detachment": "Lions of the Emperor",
-      "list_url": "https://www.bestcoastpairings.com/list/4hUu6SIpIGyE",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 1,
-      "draws": 0,
-      "games": 3,
-      "win_rate": 66.7
-    },
-    {
       "player_name": "Pavel Novikov",
       "detachment": "Lions of the Emperor",
       "list_url": "https://www.bestcoastpairings.com/list/zoNryGvqwI4q",
@@ -159,17 +149,6 @@
       "draws": 0,
       "games": 3,
       "win_rate": 66.7
-    },
-    {
-      "player_name": "Aiden Cartwright",
-      "detachment": "Lions of the Emperor",
-      "list_url": "https://www.bestcoastpairings.com/list/lf8I8pJ74G57",
-      "source": "bcp",
-      "wins": 6,
-      "losses": 4,
-      "draws": 0,
-      "games": 10,
-      "win_rate": 60.0
     },
     {
       "player_name": "Steffen Jansen",
@@ -227,9 +206,9 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Max Haydn-higgins",
+      "player_name": "Aiden Cartwright",
       "detachment": "Lions of the Emperor",
-      "list_url": "https://www.bestcoastpairings.com/list/j02wGJNkxCsR",
+      "list_url": "https://www.bestcoastpairings.com/list/v3yLiSG1g8Hd",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -280,113 +259,133 @@
       "draws": 0,
       "games": 5,
       "win_rate": 60.0
+    },
+    {
+      "player_name": "Yizheng Shen",
+      "detachment": "Talons of the Emperor",
+      "list_url": "https://www.bestcoastpairings.com/list/U9cMsO3hxQEK",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Kylo TURLEY",
+      "detachment": "Talons of the Emperor",
+      "list_url": "https://www.bestcoastpairings.com/list/2J7qvw4AWRSN",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Petros Papadakis",
+      "detachment": "Talons of the Emperor",
+      "list_url": "https://www.bestcoastpairings.com/list/LXBr0pzBpWF6",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Steve Byrne",
+      "detachment": "Shield Host",
+      "list_url": "https://www.bestcoastpairings.com/list/b3rwDeA5mFfn",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 26,
-      "wins": 13,
-      "win_rate": 50.0
+      "games": 23,
+      "wins": 12,
+      "win_rate": 52.2
     },
     {
       "opponent_faction": "Chaos Space Marines",
-      "games": 22,
-      "wins": 6,
-      "win_rate": 27.3
+      "games": 18,
+      "wins": 3,
+      "win_rate": 16.7
     },
     {
       "opponent_faction": "Necrons",
-      "games": 17,
-      "wins": 8,
-      "win_rate": 47.1
+      "games": 13,
+      "wins": 7,
+      "win_rate": 53.8
     },
     {
       "opponent_faction": "Imperial Knights",
-      "games": 15,
-      "wins": 9,
-      "win_rate": 63.3
-    },
-    {
-      "opponent_faction": "World Eaters",
       "games": 13,
-      "wins": 8,
-      "win_rate": 61.5
+      "wins": 9,
+      "win_rate": 69.2
     },
     {
       "opponent_faction": "Thousand Sons",
-      "games": 13,
+      "games": 12,
       "wins": 5,
-      "win_rate": 38.5
+      "win_rate": 41.7
     },
     {
       "opponent_faction": "Astra Militarum",
-      "games": 12,
-      "wins": 6,
-      "win_rate": 50.0
-    },
-    {
-      "opponent_faction": "Tyranids",
-      "games": 11,
-      "wins": 7,
-      "win_rate": 63.6
-    },
-    {
-      "opponent_faction": "T'au Empire",
-      "games": 11,
-      "wins": 4,
-      "win_rate": 40.9
-    },
-    {
-      "opponent_faction": "Grey Knights",
       "games": 10,
-      "wins": 6,
-      "win_rate": 60.0
-    },
-    {
-      "opponent_faction": "Emperor's Children",
-      "games": 9,
-      "wins": 7,
-      "win_rate": 77.8
-    },
-    {
-      "opponent_faction": "Leagues of Votann",
-      "games": 9,
-      "wins": 5,
-      "win_rate": 55.6
-    },
-    {
-      "opponent_faction": "Orks",
-      "games": 9,
-      "wins": 6,
-      "win_rate": 66.7
-    },
-    {
-      "opponent_faction": "Aeldari",
-      "games": 7,
-      "wins": 2,
-      "win_rate": 35.7
-    },
-    {
-      "opponent_faction": "Chaos Daemons",
-      "games": 6,
-      "wins": 1,
-      "win_rate": 25.0
-    },
-    {
-      "opponent_faction": "Adeptus Mechanicus",
-      "games": 5,
-      "wins": 2,
+      "wins": 4,
       "win_rate": 40.0
     },
     {
-      "opponent_faction": "Dark Angels",
-      "games": 5,
-      "wins": 1,
-      "win_rate": 30.0
+      "opponent_faction": "T'au Empire",
+      "games": 9,
+      "wins": 3,
+      "win_rate": 38.9
     },
     {
-      "opponent_faction": "Death Guard",
+      "opponent_faction": "Grey Knights",
+      "games": 8,
+      "wins": 5,
+      "win_rate": 62.5
+    },
+    {
+      "opponent_faction": "World Eaters",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 57.1
+    },
+    {
+      "opponent_faction": "Emperor's Children",
+      "games": 7,
+      "wins": 5,
+      "win_rate": 71.4
+    },
+    {
+      "opponent_faction": "Tyranids",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 57.1
+    },
+    {
+      "opponent_faction": "Leagues of Votann",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 57.1
+    },
+    {
+      "opponent_faction": "Orks",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "Adeptus Mechanicus",
       "games": 5,
       "wins": 2,
       "win_rate": 40.0
@@ -395,15 +394,19 @@
   "timeline": [
     {
       "week": "2026-W18",
-      "lists": 13,
-      "games": 63,
-      "win_rate": 53.2
+      "lists": 2,
+      "games": 10,
+      "win_rate": 40.0,
+      "total_lists": 8,
+      "play_rate": 25.0
     },
     {
       "week": "2026-W19",
       "lists": 42,
       "games": 175,
-      "win_rate": 48.9
+      "win_rate": 48.9,
+      "total_lists": 942,
+      "play_rate": 4.5
     }
   ]
 }

@@ -1,15 +1,20 @@
 {
   "faction": "Necrons",
   "slug": "necrons",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 30,
   "event_type": "all",
-  "lists": 496,
+  "lists": 495,
   "games": 2224,
   "play_rate": 7.9,
   "win_rate": 52.1,
-  "trend_delta": -2.4,
+  "trend_delta": -1.4,
   "top_detachment": "Starshatter Arsenal",
+  "ci_lower": 50.0,
+  "meta_health": "neutral",
+  "x0_pct": 4.6,
+  "x1_pct": 18.6,
+  "tournament_wins": 6,
   "detachments": [
     {
       "detachment": "Starshatter Arsenal",
@@ -17,7 +22,10 @@
       "lists": 163,
       "games": 748,
       "play_rate": 32.9,
-      "win_rate": 54.1
+      "win_rate": 54.1,
+      "x0_pct": 6.6,
+      "x1_pct": 21.9,
+      "tournament_wins": 2
     },
     {
       "detachment": "Awakened Dynasty",
@@ -25,7 +33,10 @@
       "lists": 158,
       "games": 679,
       "play_rate": 31.9,
-      "win_rate": 54.6
+      "win_rate": 54.6,
+      "x0_pct": 5.1,
+      "x1_pct": 22.5,
+      "tournament_wins": 2
     },
     {
       "detachment": "Cursed Legion",
@@ -33,7 +44,10 @@
       "lists": 52,
       "games": 240,
       "play_rate": 10.5,
-      "win_rate": 49.4
+      "win_rate": 49.4,
+      "x0_pct": 2.0,
+      "x1_pct": 10.0,
+      "tournament_wins": 1
     },
     {
       "detachment": "Canoptek Court",
@@ -41,31 +55,32 @@
       "lists": 41,
       "games": 165,
       "play_rate": 8.3,
-      "win_rate": 51.8
+      "win_rate": 51.8,
+      "x0_pct": 6.1,
+      "x1_pct": 21.2,
+      "tournament_wins": 0
     },
     {
       "detachment": "Pantheon of Woe",
       "base_archetype": "Necrons \u2014 Pantheon of Woe",
       "lists": 31,
       "games": 147,
-      "play_rate": 6.2,
-      "win_rate": 40.5
+      "play_rate": 6.3,
+      "win_rate": 40.5,
+      "x0_pct": 3.4,
+      "x1_pct": 10.3,
+      "tournament_wins": 1
     },
     {
       "detachment": "Hypercrypt Legion",
       "base_archetype": "Necrons \u2014 Hypercrypt Legion",
       "lists": 25,
       "games": 133,
-      "play_rate": 5.0,
-      "win_rate": 48.5
-    },
-    {
-      "detachment": "Cryptek Conclave",
-      "base_archetype": "Necrons \u2014 Cryptek Conclave",
-      "lists": 11,
-      "games": 43,
-      "play_rate": 2.2,
-      "win_rate": 38.4
+      "play_rate": 5.1,
+      "win_rate": 48.5,
+      "x0_pct": 9.1,
+      "x1_pct": 27.3,
+      "tournament_wins": 0
     },
     {
       "detachment": "Obeisance Phalanx",
@@ -73,7 +88,21 @@
       "lists": 10,
       "games": 49,
       "play_rate": 2.0,
-      "win_rate": 54.1
+      "win_rate": 54.1,
+      "x0_pct": 0.0,
+      "x1_pct": 20.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Cryptek Conclave",
+      "base_archetype": "Necrons \u2014 Cryptek Conclave",
+      "lists": 10,
+      "games": 43,
+      "play_rate": 2.0,
+      "win_rate": 38.4,
+      "x0_pct": 0.0,
+      "x1_pct": 30.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "No Detachment",
@@ -81,7 +110,10 @@
       "lists": 4,
       "games": 15,
       "play_rate": 0.8,
-      "win_rate": 66.7
+      "win_rate": 66.7,
+      "x0_pct": 0.0,
+      "x1_pct": 50.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Annihilation Legion",
@@ -89,7 +121,10 @@
       "lists": 1,
       "games": 5,
       "play_rate": 0.2,
-      "win_rate": 40.0
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
@@ -481,27 +516,35 @@
   "timeline": [
     {
       "week": "2026-W16",
-      "lists": 152,
+      "lists": 151,
       "games": 724,
-      "win_rate": 50.8
+      "win_rate": 50.8,
+      "total_lists": 1928,
+      "play_rate": 7.8
     },
     {
       "week": "2026-W17",
       "lists": 221,
       "games": 925,
-      "win_rate": 52.1
+      "win_rate": 52.1,
+      "total_lists": 2590,
+      "play_rate": 8.5
     },
     {
       "week": "2026-W18",
       "lists": 30,
       "games": 138,
-      "win_rate": 59.4
+      "win_rate": 59.4,
+      "total_lists": 350,
+      "play_rate": 8.6
     },
     {
       "week": "2026-W19",
       "lists": 93,
       "games": 435,
-      "win_rate": 52.2
+      "win_rate": 52.2,
+      "total_lists": 1390,
+      "play_rate": 6.7
     }
   ]
 }

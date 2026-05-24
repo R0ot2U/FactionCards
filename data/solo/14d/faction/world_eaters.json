@@ -1,39 +1,53 @@
 {
   "faction": "World Eaters",
   "slug": "world_eaters",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 14,
   "event_type": "solo",
-  "lists": 39,
-  "games": 190,
-  "play_rate": 3.4,
-  "win_rate": 52.9,
-  "trend_delta": 6.0,
+  "lists": 29,
+  "games": 140,
+  "play_rate": 3.1,
+  "win_rate": 54.6,
+  "trend_delta": 5.0,
   "top_detachment": "Berzerker Warband",
+  "ci_lower": 46.4,
+  "meta_health": "slightly_under",
+  "x0_pct": 0.0,
+  "x1_pct": 27.6,
+  "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Berzerker Warband",
       "base_archetype": "World Eaters \u2014 Berzerker Warband",
-      "lists": 35,
-      "games": 170,
-      "play_rate": 89.7,
-      "win_rate": 52.1
+      "lists": 25,
+      "games": 120,
+      "play_rate": 86.2,
+      "win_rate": 53.8,
+      "x0_pct": 0.0,
+      "x1_pct": 29.2,
+      "tournament_wins": 0
     },
     {
       "detachment": "Khorne Daemonkin",
       "base_archetype": "World Eaters \u2014 Khorne Daemonkin",
       "lists": 3,
       "games": 15,
-      "play_rate": 7.7,
-      "win_rate": 66.7
+      "play_rate": 10.3,
+      "win_rate": 66.7,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "tournament_wins": 0
     },
     {
       "detachment": "Cult of Blood",
       "base_archetype": "World Eaters \u2014 Cult of Blood",
       "lists": 1,
       "games": 5,
-      "play_rate": 2.6,
-      "win_rate": 40.0
+      "play_rate": 3.4,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
@@ -170,53 +184,9 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Osama Al Rumaihi",
-      "detachment": "Berzerker Warband",
-      "list_url": "https://www.bestcoastpairings.com/list/IwgjhaVA1wrQ",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
       "player_name": "Tommy Burgess",
       "detachment": "Berzerker Warband",
       "list_url": "https://www.bestcoastpairings.com/list/aWvAInkEmEkb",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Jett Rose",
-      "detachment": "Berzerker Warband",
-      "list_url": "https://www.bestcoastpairings.com/list/vlds10Ff3ccl",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Hunter Reaves",
-      "detachment": "Berzerker Warband",
-      "list_url": "https://www.bestcoastpairings.com/list/vecApwmVY9Zk",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "John Birmingham",
-      "detachment": "Berzerker Warband",
-      "list_url": "https://www.bestcoastpairings.com/list/zxRnwbhvtiXA",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -256,44 +226,76 @@
       "draws": 1,
       "games": 5,
       "win_rate": 50.0
+    },
+    {
+      "player_name": "Evan Dolan",
+      "detachment": "Berzerker Warband",
+      "list_url": "https://www.bestcoastpairings.com/list/0ph3tAP1pPxj",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Sergio Ivan Bustamante Ojeda",
+      "detachment": "Berzerker Warband",
+      "list_url": "https://www.bestcoastpairings.com/list/LKfBrhpkR6A4",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Charlie Mitch",
+      "detachment": "Berzerker Warband",
+      "list_url": "https://www.bestcoastpairings.com/list/HkHrYYQhPGCI",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "William Marciello",
+      "detachment": "Berzerker Warband",
+      "list_url": "https://www.bestcoastpairings.com/list/qvPecxBfE95r",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 24,
-      "wins": 12,
-      "win_rate": 52.1
+      "games": 14,
+      "wins": 7,
+      "win_rate": 53.6
     },
     {
       "opponent_faction": "Death Guard",
-      "games": 16,
-      "wins": 5,
-      "win_rate": 31.2
-    },
-    {
-      "opponent_faction": "Adeptus Custodes",
-      "games": 13,
-      "wins": 5,
-      "win_rate": 38.5
-    },
-    {
-      "opponent_faction": "Emperor's Children",
-      "games": 11,
+      "games": 12,
       "wins": 4,
-      "win_rate": 36.4
+      "win_rate": 33.3
     },
     {
       "opponent_faction": "Necrons",
-      "games": 11,
-      "wins": 5,
-      "win_rate": 50.0
+      "games": 10,
+      "wins": 4,
+      "win_rate": 45.0
     },
     {
-      "opponent_faction": "Drukhari",
-      "games": 10,
+      "opponent_faction": "Emperor's Children",
+      "games": 9,
       "wins": 3,
-      "win_rate": 35.0
+      "win_rate": 33.3
     },
     {
       "opponent_faction": "Thousand Sons",
@@ -302,64 +304,64 @@
       "win_rate": 25.0
     },
     {
-      "opponent_faction": "Chaos Space Marines",
-      "games": 8,
-      "wins": 5,
-      "win_rate": 62.5
-    },
-    {
       "opponent_faction": "Chaos Daemons",
       "games": 8,
       "wins": 5,
       "win_rate": 62.5
     },
     {
-      "opponent_faction": "Leagues of Votann",
+      "opponent_faction": "Drukhari",
       "games": 8,
-      "wins": 4,
-      "win_rate": 50.0
+      "wins": 3,
+      "win_rate": 43.8
     },
     {
-      "opponent_faction": "Aeldari",
+      "opponent_faction": "Adeptus Custodes",
       "games": 7,
-      "wins": 6,
-      "win_rate": 85.7
+      "wins": 3,
+      "win_rate": 42.9
+    },
+    {
+      "opponent_faction": "Chaos Space Marines",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 57.1
     },
     {
       "opponent_faction": "Imperial Knights",
-      "games": 7,
-      "wins": 6,
-      "win_rate": 85.7
-    },
-    {
-      "opponent_faction": "Dark Angels",
-      "games": 7,
-      "wins": 5,
-      "win_rate": 71.4
-    },
-    {
-      "opponent_faction": "T'au Empire",
-      "games": 6,
-      "wins": 4,
-      "win_rate": 66.7
-    },
-    {
-      "opponent_faction": "Space Wolves",
-      "games": 6,
-      "wins": 4,
-      "win_rate": 66.7
-    },
-    {
-      "opponent_faction": "Chaos Knights",
       "games": 5,
-      "wins": 3,
-      "win_rate": 60.0
+      "wins": 5,
+      "win_rate": 100.0
+    },
+    {
+      "opponent_faction": "Leagues of Votann",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0
     },
     {
       "opponent_faction": "Adeptus Mechanicus",
       "games": 5,
       "wins": 4,
       "win_rate": 80.0
+    },
+    {
+      "opponent_faction": "Dark Angels",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0
+    },
+    {
+      "opponent_faction": "T'au Empire",
+      "games": 5,
+      "wins": 4,
+      "win_rate": 80.0
+    },
+    {
+      "opponent_faction": "Aeldari",
+      "games": 5,
+      "wins": 5,
+      "win_rate": 100.0
     },
     {
       "opponent_faction": "Orks",
@@ -371,15 +373,19 @@
   "timeline": [
     {
       "week": "2026-W18",
-      "lists": 11,
-      "games": 55,
-      "win_rate": 50.9
+      "lists": 1,
+      "games": 5,
+      "win_rate": 80.0,
+      "total_lists": 8,
+      "play_rate": 12.5
     },
     {
       "week": "2026-W19",
       "lists": 28,
       "games": 135,
-      "win_rate": 53.7
+      "win_rate": 53.7,
+      "total_lists": 942,
+      "play_rate": 3.0
     }
   ]
 }

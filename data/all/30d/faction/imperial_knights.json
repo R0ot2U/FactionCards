@@ -1,15 +1,20 @@
 {
   "faction": "Imperial Knights",
   "slug": "imperial_knights",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 30,
   "event_type": "all",
   "lists": 254,
   "games": 1127,
   "play_rate": 4.1,
   "win_rate": 48.4,
-  "trend_delta": -0.7,
+  "trend_delta": -0.6,
   "top_detachment": "Freeblade Company",
+  "ci_lower": 45.5,
+  "meta_health": "slightly_under",
+  "x0_pct": 2.0,
+  "x1_pct": 13.0,
+  "tournament_wins": 1,
   "detachments": [
     {
       "detachment": "Freeblade Company",
@@ -17,7 +22,10 @@
       "lists": 133,
       "games": 598,
       "play_rate": 52.4,
-      "win_rate": 52.8
+      "win_rate": 52.8,
+      "x0_pct": 1.6,
+      "x1_pct": 18.9,
+      "tournament_wins": 1
     },
     {
       "detachment": "Questoris Companions",
@@ -25,7 +33,10 @@
       "lists": 93,
       "games": 391,
       "play_rate": 36.6,
-      "win_rate": 43.1
+      "win_rate": 43.1,
+      "x0_pct": 3.8,
+      "x1_pct": 11.2,
+      "tournament_wins": 0
     },
     {
       "detachment": "Valourstrike Lance",
@@ -33,7 +44,10 @@
       "lists": 12,
       "games": 60,
       "play_rate": 4.7,
-      "win_rate": 40.8
+      "win_rate": 40.8,
+      "x0_pct": 0.0,
+      "x1_pct": 8.3,
+      "tournament_wins": 0
     },
     {
       "detachment": "Spearhead-at-Arms",
@@ -41,7 +55,10 @@
       "lists": 9,
       "games": 50,
       "play_rate": 3.5,
-      "win_rate": 43.0
+      "win_rate": 43.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "No Detachment",
@@ -49,7 +66,10 @@
       "lists": 4,
       "games": 18,
       "play_rate": 1.6,
-      "win_rate": 61.1
+      "win_rate": 61.1,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Gate Warden Lance",
@@ -57,7 +77,10 @@
       "lists": 3,
       "games": 10,
       "play_rate": 1.2,
-      "win_rate": 35.0
+      "win_rate": 35.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
@@ -445,25 +468,33 @@
       "week": "2026-W16",
       "lists": 73,
       "games": 341,
-      "win_rate": 48.2
+      "win_rate": 48.2,
+      "total_lists": 1928,
+      "play_rate": 3.8
     },
     {
       "week": "2026-W17",
       "lists": 103,
       "games": 435,
-      "win_rate": 49.9
+      "win_rate": 49.9,
+      "total_lists": 2590,
+      "play_rate": 4.0
     },
     {
       "week": "2026-W18",
       "lists": 17,
       "games": 82,
-      "win_rate": 42.7
+      "win_rate": 42.7,
+      "total_lists": 350,
+      "play_rate": 4.9
     },
     {
       "week": "2026-W19",
       "lists": 61,
       "games": 269,
-      "win_rate": 47.8
+      "win_rate": 47.8,
+      "total_lists": 1390,
+      "play_rate": 4.4
     }
   ]
 }

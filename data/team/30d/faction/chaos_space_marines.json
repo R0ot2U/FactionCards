@@ -1,15 +1,20 @@
 {
   "faction": "Chaos Space Marines",
   "slug": "chaos_space_marines",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 30,
   "event_type": "team",
   "lists": 220,
   "games": 989,
   "play_rate": 7.1,
   "win_rate": 58.1,
-  "trend_delta": 2.9,
+  "trend_delta": 1.5,
   "top_detachment": "Pactbound Zealots",
+  "ci_lower": 55.0,
+  "meta_health": "slightly_over",
+  "x0_pct": 12.3,
+  "x1_pct": 18.6,
+  "tournament_wins": 5,
   "detachments": [
     {
       "detachment": "Pactbound Zealots",
@@ -17,7 +22,10 @@
       "lists": 86,
       "games": 419,
       "play_rate": 39.1,
-      "win_rate": 68.9
+      "win_rate": 68.9,
+      "x0_pct": 20.3,
+      "x1_pct": 27.8,
+      "tournament_wins": 3
     },
     {
       "detachment": "Huron's Marauders",
@@ -25,7 +33,10 @@
       "lists": 44,
       "games": 180,
       "play_rate": 20.0,
-      "win_rate": 51.7
+      "win_rate": 51.7,
+      "x0_pct": 8.1,
+      "x1_pct": 10.8,
+      "tournament_wins": 1
     },
     {
       "detachment": "Renegade Raiders",
@@ -33,7 +44,10 @@
       "lists": 36,
       "games": 165,
       "play_rate": 16.4,
-      "win_rate": 58.8
+      "win_rate": 58.8,
+      "x0_pct": 14.3,
+      "x1_pct": 25.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Veterans of the Long War",
@@ -41,7 +55,10 @@
       "lists": 13,
       "games": 45,
       "play_rate": 5.9,
-      "win_rate": 56.7
+      "win_rate": 56.7,
+      "x0_pct": 22.2,
+      "x1_pct": 22.2,
+      "tournament_wins": 1
     },
     {
       "detachment": "No Detachment",
@@ -49,7 +66,10 @@
       "lists": 9,
       "games": 40,
       "play_rate": 4.1,
-      "win_rate": 21.2
+      "win_rate": 21.2,
+      "x0_pct": 0.0,
+      "x1_pct": 12.5,
+      "tournament_wins": 0
     },
     {
       "detachment": "Soulforged Warpack",
@@ -57,7 +77,10 @@
       "lists": 7,
       "games": 30,
       "play_rate": 3.2,
-      "win_rate": 66.7
+      "win_rate": 66.7,
+      "x0_pct": 14.3,
+      "x1_pct": 28.6,
+      "tournament_wins": 0
     },
     {
       "detachment": "Creations of Bile",
@@ -65,7 +88,10 @@
       "lists": 7,
       "games": 30,
       "play_rate": 3.2,
-      "win_rate": 36.7
+      "win_rate": 36.7,
+      "x0_pct": 0.0,
+      "x1_pct": 16.7,
+      "tournament_wins": 0
     },
     {
       "detachment": "Renegade Warband",
@@ -73,7 +99,10 @@
       "lists": 6,
       "games": 25,
       "play_rate": 2.7,
-      "win_rate": 16.0
+      "win_rate": 16.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Fellhammer Siege-host",
@@ -81,7 +110,10 @@
       "lists": 3,
       "games": 15,
       "play_rate": 1.4,
-      "win_rate": 56.7
+      "win_rate": 56.7,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "tournament_wins": 0
     },
     {
       "detachment": "Chaos Cult",
@@ -89,7 +121,10 @@
       "lists": 3,
       "games": 10,
       "play_rate": 1.4,
-      "win_rate": 65.0
+      "win_rate": 65.0,
+      "x0_pct": 0.0,
+      "x1_pct": 50.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Warpstrike Champions",
@@ -97,7 +132,10 @@
       "lists": 3,
       "games": 15,
       "play_rate": 1.4,
-      "win_rate": 23.3
+      "win_rate": 23.3,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Cabal of Chaos",
@@ -105,7 +143,10 @@
       "lists": 2,
       "games": 10,
       "play_rate": 0.9,
-      "win_rate": 70.0
+      "win_rate": 70.0,
+      "x0_pct": 50.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Cult of the Arkifane",
@@ -113,7 +154,10 @@
       "lists": 1,
       "games": 5,
       "play_rate": 0.5,
-      "win_rate": 40.0
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
@@ -495,25 +539,33 @@
       "week": "2026-W16",
       "lists": 73,
       "games": 364,
-      "win_rate": 56.6
+      "win_rate": 56.6,
+      "total_lists": 871,
+      "play_rate": 8.4
     },
     {
       "week": "2026-W17",
       "lists": 99,
       "games": 395,
-      "win_rate": 59.1
+      "win_rate": 59.1,
+      "total_lists": 1606,
+      "play_rate": 6.2
     },
     {
       "week": "2026-W18",
       "lists": 12,
       "games": 55,
-      "win_rate": 47.3
+      "win_rate": 47.3,
+      "total_lists": 161,
+      "play_rate": 7.5
     },
     {
       "week": "2026-W19",
       "lists": 36,
       "games": 175,
-      "win_rate": 62.6
+      "win_rate": 62.6,
+      "total_lists": 448,
+      "play_rate": 8.0
     }
   ]
 }

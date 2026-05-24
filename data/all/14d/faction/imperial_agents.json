@@ -1,15 +1,20 @@
 {
   "faction": "Imperial Agents",
   "slug": "imperial_agents",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 14,
   "event_type": "all",
   "lists": 8,
   "games": 27,
-  "play_rate": 0.5,
+  "play_rate": 0.6,
   "win_rate": 55.6,
-  "trend_delta": 21.5,
+  "trend_delta": 22.3,
   "top_detachment": "Imperialis Fleet",
+  "ci_lower": 37.3,
+  "meta_health": "strongly_under",
+  "x0_pct": 12.5,
+  "x1_pct": 12.5,
+  "tournament_wins": 1,
   "detachments": [
     {
       "detachment": "Imperialis Fleet",
@@ -17,7 +22,10 @@
       "lists": 5,
       "games": 17,
       "play_rate": 62.5,
-      "win_rate": 52.9
+      "win_rate": 52.9,
+      "x0_pct": 25.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 1
     },
     {
       "detachment": "No Detachment",
@@ -25,7 +33,10 @@
       "lists": 1,
       "games": 5,
       "play_rate": 12.5,
-      "win_rate": 40.0
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Freeblade Company",
@@ -33,7 +44,10 @@
       "lists": 1,
       "games": 5,
       "play_rate": 12.5,
-      "win_rate": 80.0
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
@@ -99,7 +113,9 @@
       "week": "2026-W19",
       "lists": 8,
       "games": 27,
-      "win_rate": 55.6
+      "win_rate": 55.6,
+      "total_lists": 1390,
+      "play_rate": 0.6
     }
   ]
 }

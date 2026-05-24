@@ -1,39 +1,53 @@
 {
   "faction": "Blood Angels",
   "slug": "blood_angels",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 14,
   "event_type": "team",
-  "lists": 14,
-  "games": 70,
-  "play_rate": 2.3,
-  "win_rate": 36.4,
-  "trend_delta": -11.2,
+  "lists": 9,
+  "games": 45,
+  "play_rate": 2.0,
+  "win_rate": 42.2,
+  "trend_delta": -3.5,
   "top_detachment": "Rage-Cursed Onslaught",
+  "ci_lower": 29.0,
+  "meta_health": "strongly_under",
+  "x0_pct": 0.0,
+  "x1_pct": 0.0,
+  "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Rage-Cursed Onslaught",
       "base_archetype": "Blood Angels \u2014 Rage-Cursed Onslaught",
-      "lists": 7,
-      "games": 35,
-      "play_rate": 50.0,
-      "win_rate": 45.7
+      "lists": 4,
+      "games": 20,
+      "play_rate": 44.4,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Liberator Assault Group",
       "base_archetype": "Blood Angels \u2014 Liberator Assault Group",
-      "lists": 6,
-      "games": 30,
-      "play_rate": 42.9,
-      "win_rate": 25.0
+      "lists": 4,
+      "games": 20,
+      "play_rate": 44.4,
+      "win_rate": 25.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "No Detachment",
       "base_archetype": "Blood Angels \u2014 No Detachment",
       "lists": 1,
       "games": 5,
-      "play_rate": 7.1,
-      "win_rate": 40.0
+      "play_rate": 11.1,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
@@ -52,17 +66,6 @@
       "player_name": "Martin Bouska",
       "detachment": "Rage-Cursed Onslaught",
       "list_url": "https://www.bestcoastpairings.com/list/MYMY1wjP9zzp",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Cam Wageman",
-      "detachment": "Rage-Cursed Onslaught",
-      "list_url": "https://www.bestcoastpairings.com/list/C5LXGM2Z3afM",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -104,17 +107,6 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Chris Taylor",
-      "detachment": "Liberator Assault Group",
-      "list_url": "https://www.bestcoastpairings.com/list/ss5dmjh6i1RG",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
       "player_name": "Kory Horn",
       "detachment": "No Detachment",
       "list_url": "https://www.bestcoastpairings.com/list/ZHrcjtipCy6D",
@@ -137,17 +129,6 @@
       "win_rate": 30.0
     },
     {
-      "player_name": "Konrad Kaminski",
-      "detachment": "Rage-Cursed Onslaught",
-      "list_url": "https://www.bestcoastpairings.com/list/32ERvZrCRhUP",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 4,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 20.0
-    },
-    {
       "player_name": "Jon Andres",
       "detachment": "Liberator Assault Group",
       "list_url": "https://www.bestcoastpairings.com/list/YbMVqialmgIZ",
@@ -168,62 +149,17 @@
       "draws": 1,
       "games": 5,
       "win_rate": 10.0
-    },
-    {
-      "player_name": "Peyton Driscoll",
-      "detachment": "Liberator Assault Group",
-      "list_url": "https://www.bestcoastpairings.com/list/cJdJNcRYRdIs",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 4,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 10.0
-    },
-    {
-      "player_name": "David Soulsby",
-      "detachment": "Rage-Cursed Onslaught",
-      "list_url": "https://www.bestcoastpairings.com/list/XZoPUTcn9Bvx",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 5,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 0.0
     }
   ],
-  "matchups": [
-    {
-      "opponent_faction": "Necrons",
-      "games": 6,
-      "wins": 1,
-      "win_rate": 16.7
-    },
-    {
-      "opponent_faction": "Drukhari",
-      "games": 6,
-      "wins": 4,
-      "win_rate": 66.7
-    },
-    {
-      "opponent_faction": "World Eaters",
-      "games": 6,
-      "wins": 1,
-      "win_rate": 16.7
-    }
-  ],
+  "matchups": [],
   "timeline": [
-    {
-      "week": "2026-W18",
-      "lists": 5,
-      "games": 25,
-      "win_rate": 26.0
-    },
     {
       "week": "2026-W19",
       "lists": 9,
       "games": 45,
-      "win_rate": 42.2
+      "win_rate": 42.2,
+      "total_lists": 448,
+      "play_rate": 2.0
     }
   ]
 }

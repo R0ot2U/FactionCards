@@ -1,39 +1,53 @@
 {
   "faction": "Adepta Sororitas",
   "slug": "adepta_sororitas",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 14,
   "event_type": "team",
-  "lists": 23,
-  "games": 103,
-  "play_rate": 3.8,
-  "win_rate": 44.2,
-  "trend_delta": -0.5,
+  "lists": 19,
+  "games": 83,
+  "play_rate": 4.2,
+  "win_rate": 44.6,
+  "trend_delta": -4.3,
   "top_detachment": "Hallowed Martyrs",
+  "ci_lower": 34.4,
+  "meta_health": "strongly_under",
+  "x0_pct": 0.0,
+  "x1_pct": 10.5,
+  "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Hallowed Martyrs",
       "base_archetype": "Adepta Sororitas \u2014 Hallowed Martyrs",
-      "lists": 13,
-      "games": 60,
-      "play_rate": 56.5,
-      "win_rate": 46.7
-    },
-    {
-      "detachment": "Champions of Faith",
-      "base_archetype": "Adepta Sororitas \u2014 Champions of Faith",
-      "lists": 6,
-      "games": 25,
-      "play_rate": 26.1,
-      "win_rate": 44.0
+      "lists": 11,
+      "games": 50,
+      "play_rate": 57.9,
+      "win_rate": 48.0,
+      "x0_pct": 0.0,
+      "x1_pct": 10.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Bringers of Flame",
       "base_archetype": "Adepta Sororitas \u2014 Bringers of Flame",
       "lists": 4,
       "games": 18,
-      "play_rate": 17.4,
-      "win_rate": 36.1
+      "play_rate": 21.1,
+      "win_rate": 36.1,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Champions of Faith",
+      "base_archetype": "Adepta Sororitas \u2014 Champions of Faith",
+      "lists": 4,
+      "games": 15,
+      "play_rate": 21.1,
+      "win_rate": 43.3,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
@@ -49,17 +63,6 @@
       "win_rate": 80.0
     },
     {
-      "player_name": "Shelby Pilling",
-      "detachment": "Hallowed Martyrs",
-      "list_url": "https://www.bestcoastpairings.com/list/E60iVGgBcFSG",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 0,
-      "draws": 2,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
       "player_name": "Michael Rogers",
       "detachment": "Champions of Faith",
       "list_url": "https://www.bestcoastpairings.com/list/2uhCKCtjoAMZ",
@@ -69,17 +72,6 @@
       "draws": 1,
       "games": 5,
       "win_rate": 70.0
-    },
-    {
-      "player_name": "Jesper Neergaard",
-      "detachment": "Champions of Faith",
-      "list_url": "https://www.bestcoastpairings.com/list/7QLh7Z7fph9b",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
     },
     {
       "player_name": "Dan Sochor",
@@ -192,17 +184,6 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Daniel Pattenden",
-      "detachment": "Champions of Faith",
-      "list_url": "https://www.bestcoastpairings.com/list/MCtmQQCxWkGn",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 3,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 30.0
-    },
-    {
       "player_name": "Steven Clasper",
       "detachment": "Hallowed Martyrs",
       "list_url": "https://www.bestcoastpairings.com/list/QxGeD7GUGKiw",
@@ -247,9 +228,9 @@
       "win_rate": 16.7
     },
     {
-      "player_name": "Nicolai Zederkof",
-      "detachment": "Hallowed Martyrs",
-      "list_url": "https://www.bestcoastpairings.com/list/SDp6GX6F3HsZ",
+      "player_name": "Ji\u0159\u00ed Bu\u0161o",
+      "detachment": "Champions of Faith",
+      "list_url": "https://www.bestcoastpairings.com/list/ApVaedf3WC6M",
       "source": "bcp",
       "wins": 0,
       "losses": 5,
@@ -273,39 +254,15 @@
     },
     {
       "opponent_faction": "Death Guard",
-      "games": 8,
-      "wins": 4,
-      "win_rate": 56.2
+      "games": 7,
+      "wins": 3,
+      "win_rate": 50.0
     },
     {
       "opponent_faction": "Astra Militarum",
-      "games": 8,
-      "wins": 3,
-      "win_rate": 37.5
-    },
-    {
-      "opponent_faction": "Thousand Sons",
-      "games": 6,
-      "wins": 1,
-      "win_rate": 16.7
-    },
-    {
-      "opponent_faction": "World Eaters",
-      "games": 6,
-      "wins": 4,
-      "win_rate": 66.7
-    },
-    {
-      "opponent_faction": "Leagues of Votann",
-      "games": 5,
-      "wins": 1,
-      "win_rate": 30.0
-    },
-    {
-      "opponent_faction": "Necrons",
-      "games": 5,
-      "wins": 4,
-      "win_rate": 80.0
+      "games": 7,
+      "wins": 2,
+      "win_rate": 35.7
     },
     {
       "opponent_faction": "T'au Empire",
@@ -316,16 +273,12 @@
   ],
   "timeline": [
     {
-      "week": "2026-W18",
-      "lists": 4,
-      "games": 20,
-      "win_rate": 42.5
-    },
-    {
       "week": "2026-W19",
       "lists": 19,
       "games": 83,
-      "win_rate": 44.6
+      "win_rate": 44.6,
+      "total_lists": 448,
+      "play_rate": 4.2
     }
   ]
 }

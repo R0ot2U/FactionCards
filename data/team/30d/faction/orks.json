@@ -1,15 +1,20 @@
 {
   "faction": "Orks",
   "slug": "orks",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 30,
   "event_type": "team",
   "lists": 95,
   "games": 410,
   "play_rate": 3.1,
   "win_rate": 53.8,
-  "trend_delta": 5.7,
+  "trend_delta": 6.3,
   "top_detachment": "War Horde",
+  "ci_lower": 48.9,
+  "meta_health": "slightly_under",
+  "x0_pct": 8.4,
+  "x1_pct": 21.1,
+  "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "War Horde",
@@ -17,7 +22,10 @@
       "lists": 67,
       "games": 285,
       "play_rate": 70.5,
-      "win_rate": 54.6
+      "win_rate": 54.6,
+      "x0_pct": 5.4,
+      "x1_pct": 28.6,
+      "tournament_wins": 0
     },
     {
       "detachment": "Green Tide",
@@ -25,7 +33,10 @@
       "lists": 7,
       "games": 35,
       "play_rate": 7.4,
-      "win_rate": 75.7
+      "win_rate": 75.7,
+      "x0_pct": 57.1,
+      "x1_pct": 14.3,
+      "tournament_wins": 0
     },
     {
       "detachment": "Dread Mob",
@@ -33,7 +44,10 @@
       "lists": 6,
       "games": 25,
       "play_rate": 6.3,
-      "win_rate": 46.0
+      "win_rate": 46.0,
+      "x0_pct": 0.0,
+      "x1_pct": 20.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Taktikal Brigade",
@@ -41,7 +55,10 @@
       "lists": 4,
       "games": 20,
       "play_rate": 4.2,
-      "win_rate": 32.5
+      "win_rate": 32.5,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Kult of Speed",
@@ -49,7 +66,10 @@
       "lists": 3,
       "games": 15,
       "play_rate": 3.2,
-      "win_rate": 60.0
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "tournament_wins": 0
     },
     {
       "detachment": "Bully Boyz",
@@ -57,7 +77,10 @@
       "lists": 3,
       "games": 15,
       "play_rate": 3.2,
-      "win_rate": 26.7
+      "win_rate": 26.7,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "More Dakka!",
@@ -65,7 +88,10 @@
       "lists": 2,
       "games": 5,
       "play_rate": 2.1,
-      "win_rate": 10.0
+      "win_rate": 10.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Freebooter Krew",
@@ -73,7 +99,10 @@
       "lists": 1,
       "games": 5,
       "play_rate": 1.1,
-      "win_rate": 40.0
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "No Detachment",
@@ -81,7 +110,10 @@
       "lists": 1,
       "games": 5,
       "play_rate": 1.1,
-      "win_rate": 100.0
+      "win_rate": 100.0,
+      "x0_pct": 100.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
@@ -451,25 +483,33 @@
       "week": "2026-W16",
       "lists": 24,
       "games": 120,
-      "win_rate": 59.6
+      "win_rate": 59.6,
+      "total_lists": 871,
+      "play_rate": 2.8
     },
     {
       "week": "2026-W17",
       "lists": 50,
       "games": 200,
-      "win_rate": 56.8
+      "win_rate": 56.8,
+      "total_lists": 1606,
+      "play_rate": 3.1
     },
     {
       "week": "2026-W18",
       "lists": 7,
       "games": 30,
-      "win_rate": 35.0
+      "win_rate": 35.0,
+      "total_lists": 161,
+      "play_rate": 4.3
     },
     {
       "week": "2026-W19",
       "lists": 14,
       "games": 60,
-      "win_rate": 41.7
+      "win_rate": 41.7,
+      "total_lists": 448,
+      "play_rate": 3.1
     }
   ]
 }

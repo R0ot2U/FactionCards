@@ -1,23 +1,31 @@
 {
   "faction": "Deathwatch",
   "slug": "deathwatch",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-24",
   "window_days": 14,
   "event_type": "solo",
-  "lists": 12,
-  "games": 58,
-  "play_rate": 1.1,
-  "win_rate": 62.1,
-  "trend_delta": -0.2,
+  "lists": 11,
+  "games": 53,
+  "play_rate": 1.2,
+  "win_rate": 62.3,
+  "trend_delta": 3.7,
   "top_detachment": "Black Spear Task Force",
+  "ci_lower": 48.8,
+  "meta_health": "slightly_under",
+  "x0_pct": 0.0,
+  "x1_pct": 45.5,
+  "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Black Spear Task Force",
       "base_archetype": "Deathwatch \u2014 Black Spear Task Force",
       "lists": 11,
       "games": 53,
-      "play_rate": 91.7,
-      "win_rate": 60.4
+      "play_rate": 100.0,
+      "win_rate": 62.3,
+      "x0_pct": 0.0,
+      "x1_pct": 45.5,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
@@ -45,7 +53,7 @@
     },
     {
       "player_name": "Mark Hertel",
-      "detachment": "Space Marines (Astartes) \u2014 Black Spear Task Force",
+      "detachment": "Black Spear Task Force",
       "list_url": "https://www.bestcoastpairings.com/list/2mB1p1zpNbN2",
       "source": "bcp",
       "wins": 4,
@@ -110,17 +118,6 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Foster Rash",
-      "detachment": "Black Spear Task Force",
-      "list_url": "https://www.bestcoastpairings.com/list/MWizwIvqY3Yy",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
       "player_name": "Stephen Bradbury",
       "detachment": "Black Spear Task Force",
       "list_url": "https://www.bestcoastpairings.com/list/yk8pFlgIrbPC",
@@ -160,32 +157,16 @@
       "games": 7,
       "wins": 3,
       "win_rate": 42.9
-    },
-    {
-      "opponent_faction": "Necrons",
-      "games": 5,
-      "wins": 4,
-      "win_rate": 80.0
-    },
-    {
-      "opponent_faction": "Chaos Daemons",
-      "games": 5,
-      "wins": 3,
-      "win_rate": 60.0
     }
   ],
   "timeline": [
     {
-      "week": "2026-W18",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
       "week": "2026-W19",
       "lists": 11,
       "games": 53,
-      "win_rate": 62.3
+      "win_rate": 62.3,
+      "total_lists": 942,
+      "play_rate": 1.2
     }
   ]
 }
