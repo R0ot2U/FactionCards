@@ -1,30 +1,30 @@
 {
   "faction": "Dark Angels",
   "slug": "dark_angels",
-  "as_of": "2026-05-24",
+  "as_of": "2026-05-25",
   "window_days": 30,
   "event_type": "solo",
-  "lists": 76,
-  "games": 343,
-  "play_rate": 2.4,
-  "win_rate": 45.5,
-  "trend_delta": -1.2,
+  "lists": 71,
+  "games": 318,
+  "play_rate": 2.5,
+  "win_rate": 45.6,
+  "trend_delta": -0.9,
   "top_detachment": "Wrath of the Rock",
-  "ci_lower": 40.3,
+  "ci_lower": 40.2,
   "meta_health": "strongly_under",
-  "x0_pct": 1.3,
-  "x1_pct": 9.2,
+  "x0_pct": 1.4,
+  "x1_pct": 9.9,
   "tournament_wins": 1,
   "detachments": [
     {
       "detachment": "Wrath of the Rock",
       "base_archetype": "Dark Angels \u2014 Wrath of the Rock",
-      "lists": 64,
-      "games": 285,
-      "play_rate": 84.2,
-      "win_rate": 44.9,
-      "x0_pct": 1.7,
-      "x1_pct": 10.2,
+      "lists": 60,
+      "games": 265,
+      "play_rate": 84.5,
+      "win_rate": 44.5,
+      "x0_pct": 1.8,
+      "x1_pct": 10.9,
       "tournament_wins": 1
     },
     {
@@ -32,7 +32,7 @@
       "base_archetype": "Dark Angels \u2014 Gladius Task Force",
       "lists": 5,
       "games": 25,
-      "play_rate": 6.6,
+      "play_rate": 7.0,
       "win_rate": 48.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -43,7 +43,7 @@
       "base_archetype": "Dark Angels \u2014 Company of Hunters",
       "lists": 3,
       "games": 13,
-      "play_rate": 3.9,
+      "play_rate": 4.2,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -54,7 +54,7 @@
       "base_archetype": "Dark Angels \u2014 Armoured Speartip",
       "lists": 2,
       "games": 10,
-      "play_rate": 2.6,
+      "play_rate": 2.8,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -63,12 +63,12 @@
     {
       "detachment": "No Detachment",
       "base_archetype": "Dark Angels \u2014 No Detachment",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 2.6,
-      "win_rate": 45.0,
+      "lists": 1,
+      "games": 5,
+      "play_rate": 1.4,
+      "win_rate": 70.0,
       "x0_pct": 0.0,
-      "x1_pct": 50.0,
+      "x1_pct": 100.0,
       "tournament_wins": 0
     }
   ],
@@ -297,39 +297,27 @@
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 35,
+      "games": 33,
       "wins": 18,
-      "win_rate": 51.4
+      "win_rate": 54.5
     },
     {
       "opponent_faction": "Chaos Space Marines",
-      "games": 30,
+      "games": 29,
       "wins": 12,
-      "win_rate": 41.7
+      "win_rate": 43.1
     },
     {
       "opponent_faction": "T'au Empire",
-      "games": 23,
-      "wins": 8,
-      "win_rate": 34.8
+      "games": 22,
+      "wins": 7,
+      "win_rate": 31.8
     },
     {
       "opponent_faction": "Tyranids",
-      "games": 19,
-      "wins": 11,
-      "win_rate": 60.5
-    },
-    {
-      "opponent_faction": "Orks",
-      "games": 19,
-      "wins": 9,
-      "win_rate": 50.0
-    },
-    {
-      "opponent_faction": "Necrons",
-      "games": 18,
+      "games": 16,
       "wins": 8,
-      "win_rate": 44.4
+      "win_rate": 53.1
     },
     {
       "opponent_faction": "Death Guard",
@@ -338,10 +326,16 @@
       "win_rate": 53.1
     },
     {
-      "opponent_faction": "World Eaters",
+      "opponent_faction": "Necrons",
       "games": 16,
       "wins": 7,
       "win_rate": 43.8
+    },
+    {
+      "opponent_faction": "Orks",
+      "games": 16,
+      "wins": 8,
+      "win_rate": 53.1
     },
     {
       "opponent_faction": "Astra Militarum",
@@ -350,16 +344,16 @@
       "win_rate": 30.0
     },
     {
-      "opponent_faction": "Chaos Daemons",
+      "opponent_faction": "World Eaters",
       "games": 15,
-      "wins": 5,
-      "win_rate": 36.7
+      "wins": 7,
+      "win_rate": 46.7
     },
     {
-      "opponent_faction": "Imperial Knights",
-      "games": 13,
+      "opponent_faction": "Chaos Daemons",
+      "games": 14,
       "wins": 5,
-      "win_rate": 38.5
+      "win_rate": 39.3
     },
     {
       "opponent_faction": "Thousand Sons",
@@ -368,22 +362,22 @@
       "win_rate": 30.8
     },
     {
-      "opponent_faction": "Adeptus Custodes",
-      "games": 13,
-      "wins": 7,
-      "win_rate": 57.7
+      "opponent_faction": "Imperial Knights",
+      "games": 12,
+      "wins": 4,
+      "win_rate": 33.3
     },
     {
       "opponent_faction": "Blood Angels",
-      "games": 12,
+      "games": 11,
       "wins": 5,
-      "win_rate": 41.7
+      "win_rate": 45.5
     },
     {
-      "opponent_faction": "Drukhari",
-      "games": 8,
-      "wins": 3,
-      "win_rate": 37.5
+      "opponent_faction": "Adeptus Custodes",
+      "games": 11,
+      "wins": 5,
+      "win_rate": 50.0
     },
     {
       "opponent_faction": "Leagues of Votann",
@@ -392,22 +386,22 @@
       "win_rate": 56.2
     },
     {
-      "opponent_faction": "Space Wolves",
-      "games": 8,
-      "wins": 4,
-      "win_rate": 50.0
+      "opponent_faction": "Drukhari",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 42.9
     },
     {
       "opponent_faction": "Emperor's Children",
-      "games": 8,
-      "wins": 5,
-      "win_rate": 68.8
+      "games": 7,
+      "wins": 4,
+      "win_rate": 64.3
     },
     {
-      "opponent_faction": "Deathwatch",
+      "opponent_faction": "Space Wolves",
       "games": 6,
-      "wins": 1,
-      "win_rate": 16.7
+      "wins": 4,
+      "win_rate": 66.7
     },
     {
       "opponent_faction": "Adeptus Mechanicus",
@@ -416,7 +410,7 @@
       "win_rate": 58.3
     },
     {
-      "opponent_faction": "Grey Knights",
+      "opponent_faction": "Deathwatch",
       "games": 5,
       "wins": 1,
       "win_rate": 20.0
@@ -431,11 +425,11 @@
   "timeline": [
     {
       "week": "2026-W16",
-      "lists": 23,
-      "games": 102,
-      "win_rate": 47.5,
-      "total_lists": 1057,
-      "play_rate": 2.2
+      "lists": 18,
+      "games": 77,
+      "win_rate": 48.7,
+      "total_lists": 775,
+      "play_rate": 2.3
     },
     {
       "week": "2026-W17",

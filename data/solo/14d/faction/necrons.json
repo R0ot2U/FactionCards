@@ -1,27 +1,27 @@
 {
   "faction": "Necrons",
   "slug": "necrons",
-  "as_of": "2026-05-24",
+  "as_of": "2026-05-25",
   "window_days": 14,
   "event_type": "solo",
-  "lists": 60,
-  "games": 269,
+  "lists": 59,
+  "games": 264,
   "play_rate": 6.3,
-  "win_rate": 53.9,
-  "trend_delta": 2.5,
+  "win_rate": 53.0,
+  "trend_delta": 1.2,
   "top_detachment": "Starshatter Arsenal",
-  "ci_lower": 47.9,
+  "ci_lower": 47.0,
   "meta_health": "slightly_under",
-  "x0_pct": 1.7,
-  "x1_pct": 20.0,
-  "tournament_wins": 1,
+  "x0_pct": 0.0,
+  "x1_pct": 20.3,
+  "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Starshatter Arsenal",
       "base_archetype": "Necrons \u2014 Starshatter Arsenal",
       "lists": 19,
       "games": 88,
-      "play_rate": 31.7,
+      "play_rate": 32.2,
       "win_rate": 52.3,
       "x0_pct": 0.0,
       "x1_pct": 21.1,
@@ -32,32 +32,32 @@
       "base_archetype": "Necrons \u2014 Awakened Dynasty",
       "lists": 15,
       "games": 65,
-      "play_rate": 25.0,
+      "play_rate": 25.4,
       "win_rate": 61.5,
       "x0_pct": 0.0,
       "x1_pct": 23.1,
       "tournament_wins": 0
     },
     {
-      "detachment": "Cursed Legion",
-      "base_archetype": "Necrons \u2014 Cursed Legion",
-      "lists": 8,
-      "games": 40,
-      "play_rate": 13.3,
-      "win_rate": 52.5,
-      "x0_pct": 12.5,
-      "x1_pct": 0.0,
-      "tournament_wins": 1
-    },
-    {
       "detachment": "Pantheon of Woe",
       "base_archetype": "Necrons \u2014 Pantheon of Woe",
       "lists": 7,
       "games": 28,
-      "play_rate": 11.7,
+      "play_rate": 11.9,
       "win_rate": 35.7,
       "x0_pct": 0.0,
       "x1_pct": 16.7,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Cursed Legion",
+      "base_archetype": "Necrons \u2014 Cursed Legion",
+      "lists": 7,
+      "games": 35,
+      "play_rate": 11.9,
+      "win_rate": 45.7,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
@@ -65,7 +65,7 @@
       "base_archetype": "Necrons \u2014 Hypercrypt Legion",
       "lists": 4,
       "games": 15,
-      "play_rate": 6.7,
+      "play_rate": 6.8,
       "win_rate": 63.3,
       "x0_pct": 0.0,
       "x1_pct": 33.3,
@@ -76,7 +76,7 @@
       "base_archetype": "Necrons \u2014 Canoptek Court",
       "lists": 4,
       "games": 18,
-      "play_rate": 6.7,
+      "play_rate": 6.8,
       "win_rate": 44.4,
       "x0_pct": 0.0,
       "x1_pct": 25.0,
@@ -87,7 +87,7 @@
       "base_archetype": "Necrons \u2014 Obeisance Phalanx",
       "lists": 2,
       "games": 10,
-      "play_rate": 3.3,
+      "play_rate": 3.4,
       "win_rate": 65.0,
       "x0_pct": 0.0,
       "x1_pct": 50.0,
@@ -106,17 +106,6 @@
     }
   ],
   "top_players": [
-    {
-      "player_name": "Kenneth sparre holm",
-      "detachment": "Cursed Legion",
-      "list_url": "https://www.bestcoastpairings.com/list/js5RvMJF1ifT",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
     {
       "player_name": "Vitaliy Marina",
       "detachment": "Starshatter Arsenal",
@@ -325,20 +314,25 @@
       "draws": 0,
       "games": 5,
       "win_rate": 60.0
+    },
+    {
+      "player_name": "Ryan Stewart",
+      "detachment": "Obeisance Phalanx",
+      "list_url": "https://www.bestcoastpairings.com/list/zAlmE5ABP7y8",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Chaos Space Marines",
-      "games": 26,
-      "wins": 13,
-      "win_rate": 51.9
-    },
-    {
-      "opponent_faction": "Space Marines (Astartes)",
-      "games": 19,
-      "wins": 13,
-      "win_rate": 68.4
+      "games": 25,
+      "wins": 12,
+      "win_rate": 50.0
     },
     {
       "opponent_faction": "Death Guard",
@@ -347,22 +341,16 @@
       "win_rate": 47.4
     },
     {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 18,
+      "wins": 12,
+      "win_rate": 66.7
+    },
+    {
       "opponent_faction": "T'au Empire",
       "games": 17,
       "wins": 8,
       "win_rate": 50.0
-    },
-    {
-      "opponent_faction": "Adeptus Custodes",
-      "games": 13,
-      "wins": 6,
-      "win_rate": 46.2
-    },
-    {
-      "opponent_faction": "Leagues of Votann",
-      "games": 13,
-      "wins": 7,
-      "win_rate": 53.8
     },
     {
       "opponent_faction": "Emperor's Children",
@@ -371,16 +359,22 @@
       "win_rate": 69.2
     },
     {
+      "opponent_faction": "Adeptus Custodes",
+      "games": 12,
+      "wins": 5,
+      "win_rate": 41.7
+    },
+    {
+      "opponent_faction": "Leagues of Votann",
+      "games": 12,
+      "wins": 6,
+      "win_rate": 50.0
+    },
+    {
       "opponent_faction": "Astra Militarum",
       "games": 11,
       "wins": 5,
       "win_rate": 45.5
-    },
-    {
-      "opponent_faction": "World Eaters",
-      "games": 10,
-      "wins": 5,
-      "win_rate": 55.0
     },
     {
       "opponent_faction": "Chaos Daemons",
@@ -393,6 +387,12 @@
       "games": 10,
       "wins": 7,
       "win_rate": 70.0
+    },
+    {
+      "opponent_faction": "World Eaters",
+      "games": 9,
+      "wins": 4,
+      "win_rate": 50.0
     },
     {
       "opponent_faction": "Thousand Sons",
@@ -462,14 +462,6 @@
     }
   ],
   "timeline": [
-    {
-      "week": "2026-W18",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 100.0,
-      "total_lists": 8,
-      "play_rate": 12.5
-    },
     {
       "week": "2026-W19",
       "lists": 59,

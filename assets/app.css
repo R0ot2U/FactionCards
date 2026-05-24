@@ -208,7 +208,8 @@ tbody td { padding: 8px 10px; vertical-align: middle; }
 .modebar {
   background: transparent !important;
   top: 10px !important;
-  left: 10px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
   right: auto !important;
 }
 .modebar-btn {

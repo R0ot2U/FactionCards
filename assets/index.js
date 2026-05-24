@@ -130,7 +130,11 @@ function renderMap(events) {
 
   const layout = {
     geo: {
-      projection: { type: 'natural earth' },
+      projection: {
+        type: 'natural earth',
+        scale: 1
+      },
+      center: { lon: 0, lat: 20 },
       showland: true,
       landcolor: '#1a1a2e',
       showocean: true,
@@ -153,6 +157,7 @@ function renderMap(events) {
     modeBarButtonsToRemove: ['select2d', 'lasso2d'],
     modeBarButtonsToAdd: [],
     displaylogo: false,
+    scrollZoom: true,
     toImageButtonOptions: {
       format: 'png',
       filename: 'tournament_locations',
@@ -161,7 +166,31 @@ function renderMap(events) {
     }
   };
 
-  Plotly.newPlot('map-chart', [trace], layout, config);
+  // Prevent zooming out beyond the initial view
+  Plotly.newPlot('map-chart', [trace], layout, config).then(gd => {
+    let isUpdating = false;
+    gd.on('plotly_relayout', (eventData) => {
+      if (isUpdating) return;
+
+      // Get current scale from layout or event
+      const currentScale = eventData['geo.projection.scale'] !== undefined
+        ? eventData['geo.projection.scale']
+        : gd.layout.geo.projection.scale;
+
+      // If at or below minimum zoom, lock scale and center
+      if (currentScale !== undefined && currentScale <= 1.01) {
+        isUpdating = true;
+        Plotly.relayout(gd, {
+          'geo.projection.scale': 1,
+          'geo.center.lon': 0,
+          'geo.center.lat': 20
+        }).then(() => {
+          isUpdating = false;
+        });
+      }
+    });
+  });
+
 }
 
 async function init() {

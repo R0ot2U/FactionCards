@@ -1,52 +1,52 @@
 {
   "faction": "Grey Knights",
   "slug": "grey_knights",
-  "as_of": "2026-05-24",
+  "as_of": "2026-05-25",
   "window_days": 30,
   "event_type": "solo",
-  "lists": 54,
-  "games": 254,
+  "lists": 49,
+  "games": 229,
   "play_rate": 1.7,
-  "win_rate": 49.2,
-  "trend_delta": 4.3,
+  "win_rate": 48.9,
+  "trend_delta": 3.7,
   "top_detachment": "Warpbane Task Force",
-  "ci_lower": 43.1,
+  "ci_lower": 42.5,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 16.7,
+  "x1_pct": 18.4,
   "tournament_wins": 1,
   "detachments": [
     {
       "detachment": "Warpbane Task Force",
       "base_archetype": "Grey Knights \u2014 Warpbane Task Force",
-      "lists": 36,
-      "games": 166,
-      "play_rate": 66.7,
-      "win_rate": 51.2,
+      "lists": 33,
+      "games": 151,
+      "play_rate": 67.3,
+      "win_rate": 51.0,
       "x0_pct": 0.0,
-      "x1_pct": 17.1,
+      "x1_pct": 18.8,
       "tournament_wins": 0
     },
     {
       "detachment": "Banishers",
       "base_archetype": "Grey Knights \u2014 Banishers",
-      "lists": 14,
-      "games": 70,
-      "play_rate": 25.9,
-      "win_rate": 40.7,
+      "lists": 13,
+      "games": 65,
+      "play_rate": 26.5,
+      "win_rate": 40.8,
       "x0_pct": 0.0,
-      "x1_pct": 7.1,
+      "x1_pct": 7.7,
       "tournament_wins": 1
     },
     {
       "detachment": "No Detachment",
       "base_archetype": "Grey Knights \u2014 No Detachment",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 3.7,
-      "win_rate": 65.0,
+      "lists": 1,
+      "games": 5,
+      "play_rate": 2.0,
+      "win_rate": 70.0,
       "x0_pct": 0.0,
-      "x1_pct": 50.0,
+      "x1_pct": 100.0,
       "tournament_wins": 0
     },
     {
@@ -54,7 +54,7 @@
       "base_archetype": "Grey Knights \u2014 Sanctic Spearhead",
       "lists": 1,
       "games": 5,
-      "play_rate": 1.9,
+      "play_rate": 2.0,
       "win_rate": 70.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
@@ -121,17 +121,6 @@
       "player_name": "Michael Beven",
       "detachment": "Warpbane Task Force",
       "list_url": "https://www.bestcoastpairings.com/list/wIqwoEF7UT9B",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Felix Zunino",
-      "detachment": "Warpbane Task Force",
-      "list_url": "https://www.bestcoastpairings.com/list/q6yy0DSIy9fz",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -281,62 +270,67 @@
       "draws": 0,
       "games": 5,
       "win_rate": 60.0
+    },
+    {
+      "player_name": "Kassie Heitman",
+      "detachment": "Warpbane Task Force",
+      "list_url": "https://www.bestcoastpairings.com/list/0FQSv0NLJrT5",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 29,
+      "games": 28,
       "wins": 12,
-      "win_rate": 43.1
-    },
-    {
-      "opponent_faction": "Necrons",
-      "games": 19,
-      "wins": 6,
-      "win_rate": 34.2
+      "win_rate": 44.6
     },
     {
       "opponent_faction": "Chaos Space Marines",
-      "games": 19,
+      "games": 18,
+      "wins": 5,
+      "win_rate": 30.6
+    },
+    {
+      "opponent_faction": "Necrons",
+      "games": 17,
       "wins": 6,
-      "win_rate": 34.2
+      "win_rate": 38.2
     },
     {
       "opponent_faction": "Adeptus Custodes",
-      "games": 17,
-      "wins": 8,
-      "win_rate": 47.1
+      "games": 16,
+      "wins": 7,
+      "win_rate": 43.8
     },
     {
       "opponent_faction": "Astra Militarum",
-      "games": 16,
-      "wins": 11,
-      "win_rate": 68.8
+      "games": 13,
+      "wins": 8,
+      "win_rate": 61.5
     },
     {
       "opponent_faction": "T'au Empire",
-      "games": 16,
-      "wins": 11,
-      "win_rate": 68.8
+      "games": 13,
+      "wins": 9,
+      "win_rate": 69.2
     },
     {
       "opponent_faction": "Imperial Knights",
-      "games": 15,
-      "wins": 8,
-      "win_rate": 53.3
-    },
-    {
-      "opponent_faction": "Tyranids",
       "games": 13,
       "wins": 7,
       "win_rate": 53.8
     },
     {
-      "opponent_faction": "Emperor's Children",
-      "games": 11,
-      "wins": 5,
-      "win_rate": 45.5
+      "opponent_faction": "Tyranids",
+      "games": 12,
+      "wins": 7,
+      "win_rate": 58.3
     },
     {
       "opponent_faction": "Leagues of Votann",
@@ -345,22 +339,22 @@
       "win_rate": 40.9
     },
     {
-      "opponent_faction": "Orks",
+      "opponent_faction": "Emperor's Children",
       "games": 10,
       "wins": 5,
       "win_rate": 50.0
     },
     {
-      "opponent_faction": "Aeldari",
+      "opponent_faction": "Orks",
       "games": 9,
-      "wins": 6,
-      "win_rate": 66.7
+      "wins": 4,
+      "win_rate": 44.4
     },
     {
-      "opponent_faction": "Death Guard",
+      "opponent_faction": "Aeldari",
       "games": 8,
-      "wins": 4,
-      "win_rate": 50.0
+      "wins": 6,
+      "win_rate": 75.0
     },
     {
       "opponent_faction": "Blood Angels",
@@ -369,13 +363,19 @@
       "win_rate": 42.9
     },
     {
-      "opponent_faction": "Adepta Sororitas",
+      "opponent_faction": "Death Guard",
       "games": 7,
-      "wins": 2,
-      "win_rate": 35.7
+      "wins": 3,
+      "win_rate": 42.9
     },
     {
       "opponent_faction": "Chaos Daemons",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 41.7
+    },
+    {
+      "opponent_faction": "Adepta Sororitas",
       "games": 6,
       "wins": 2,
       "win_rate": 41.7
@@ -385,28 +385,16 @@
       "games": 6,
       "wins": 3,
       "win_rate": 58.3
-    },
-    {
-      "opponent_faction": "Drukhari",
-      "games": 5,
-      "wins": 5,
-      "win_rate": 100.0
-    },
-    {
-      "opponent_faction": "Dark Angels",
-      "games": 5,
-      "wins": 4,
-      "win_rate": 80.0
     }
   ],
   "timeline": [
     {
       "week": "2026-W16",
-      "lists": 16,
-      "games": 78,
-      "win_rate": 50.0,
-      "total_lists": 1057,
-      "play_rate": 1.5
+      "lists": 11,
+      "games": 53,
+      "win_rate": 49.1,
+      "total_lists": 775,
+      "play_rate": 1.4
     },
     {
       "week": "2026-W17",
