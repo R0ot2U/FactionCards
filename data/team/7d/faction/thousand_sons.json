@@ -1,68 +1,104 @@
 {
   "faction": "Thousand Sons",
   "slug": "thousand_sons",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-25",
   "window_days": 7,
   "event_type": "team",
-  "lists": 14,
-  "games": 70,
-  "play_rate": 3.1,
-  "win_rate": 69.3,
-  "trend_delta": -10.7,
-  "top_detachment": "Rubricae Phalanx",
+  "lists": 17,
+  "games": 85,
+  "play_rate": 3.8,
+  "win_rate": 57.6,
+  "trend_delta": -11.7,
+  "top_detachment": "Warpforged Cabal",
+  "ci_lower": 47.0,
+  "meta_health": "slightly_under",
+  "x0_pct": 11.8,
+  "x1_pct": 23.5,
+  "tournament_wins": 0,
   "detachments": [
+    {
+      "detachment": "Warpforged Cabal",
+      "base_archetype": "Thousand Sons \u2014 Warpforged Cabal",
+      "lists": 5,
+      "games": 25,
+      "play_rate": 29.4,
+      "win_rate": 80.0,
+      "x0_pct": 40.0,
+      "x1_pct": 40.0,
+      "tournament_wins": 0
+    },
     {
       "detachment": "Rubricae Phalanx",
       "base_archetype": "Thousand Sons \u2014 Rubricae Phalanx",
-      "lists": 6,
-      "games": 30,
-      "play_rate": 42.9,
-      "win_rate": 70.0
+      "lists": 5,
+      "games": 25,
+      "play_rate": 29.4,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 20.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Grand Coven",
       "base_archetype": "Thousand Sons \u2014 Grand Coven",
       "lists": 5,
       "games": 25,
-      "play_rate": 35.7,
-      "win_rate": 64.0
+      "play_rate": 29.4,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
-      "detachment": "Warpforged Cabal",
-      "base_archetype": "Thousand Sons \u2014 Warpforged Cabal",
-      "lists": 3,
-      "games": 15,
-      "play_rate": 21.4,
-      "win_rate": 76.7
+      "detachment": "Hexwarp Thrallband",
+      "base_archetype": "Thousand Sons \u2014 Hexwarp Thrallband",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.9,
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Changehost of Deceit",
+      "base_archetype": "Thousand Sons \u2014 Changehost of Deceit",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.9,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
     {
-      "player_name": "Michael Tonel",
-      "detachment": "Grand Coven",
-      "list_url": "https://www.bestcoastpairings.com/list/RD9K6aiEQvnx",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Dustin Hammond",
-      "detachment": "Rubricae Phalanx",
-      "list_url": "https://www.bestcoastpairings.com/list/wmEQprDNHPzA",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Fabian Huber",
+      "player_name": "Nick Argent",
       "detachment": "Warpforged Cabal",
-      "list_url": "https://www.bestcoastpairings.com/list/aWm9oU9s2Gri",
+      "list_url": "https://www.bestcoastpairings.com/list/ztAd1YXNHtzl",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Tait Hoby",
+      "detachment": "Warpforged Cabal",
+      "list_url": "https://www.bestcoastpairings.com/list/rDh7CEvqhlXg",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Graeme Meiklejohn",
+      "detachment": "Grand Coven",
+      "list_url": "https://www.bestcoastpairings.com/list/rlM47avqTpw2",
       "source": "bcp",
       "wins": 4,
       "losses": 0,
@@ -71,9 +107,9 @@
       "win_rate": 90.0
     },
     {
-      "player_name": "Gracen Bull",
+      "player_name": "Joshua McGowan",
       "detachment": "Warpforged Cabal",
-      "list_url": "https://www.bestcoastpairings.com/list/uZr0i1c5s5Jm",
+      "list_url": "https://www.bestcoastpairings.com/list/upESbtZVrNYy",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -82,20 +118,31 @@
       "win_rate": 80.0
     },
     {
-      "player_name": "Bryan Gorny",
+      "player_name": "Jacob O\u2019Donnell",
+      "detachment": "Warpforged Cabal",
+      "list_url": "https://www.bestcoastpairings.com/list/XaOx14eW7wml",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Adam Spero",
+      "detachment": "Hexwarp Thrallband",
+      "list_url": "https://www.bestcoastpairings.com/list/OQM8HpxYRnCb",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Kyle Moore",
       "detachment": "Rubricae Phalanx",
-      "list_url": "https://www.bestcoastpairings.com/list/Q1p22xHWBp5K",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Jozef \"Dodo\" Boj\u0148ansk\u00fd",
-      "detachment": "Grand Coven",
-      "list_url": "https://www.bestcoastpairings.com/list/nEqdMcZdbTqf",
+      "list_url": "https://www.bestcoastpairings.com/list/E2HKTp0nvtdQ",
       "source": "bcp",
       "wins": 3,
       "losses": 1,
@@ -104,75 +151,9 @@
       "win_rate": 70.0
     },
     {
-      "player_name": "Michal Paruzel",
-      "detachment": "Rubricae Phalanx",
-      "list_url": "https://www.bestcoastpairings.com/list/zbAd2qOCwGjM",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Dave Elliott",
+      "player_name": "Sebastian Sjunnesson",
       "detachment": "Grand Coven",
-      "list_url": "https://www.bestcoastpairings.com/list/KAOI62iZAh0V",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Jeremy Jenks",
-      "detachment": "Rubricae Phalanx",
-      "list_url": "https://www.bestcoastpairings.com/list/UiF4CpsFmDee",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Alex Pina",
-      "detachment": "Rubricae Phalanx",
-      "list_url": "https://www.bestcoastpairings.com/list/oxREPaDNY6DV",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Karl Roeder",
-      "detachment": "Warpforged Cabal",
-      "list_url": "https://www.bestcoastpairings.com/list/tkFFV0bmsYOd",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Jonathan Barber",
-      "detachment": "Rubricae Phalanx",
-      "list_url": "https://www.bestcoastpairings.com/list/HcHlljaJsyrq",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 1,
-      "draws": 2,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Austin Rogers",
-      "detachment": "Grand Coven",
-      "list_url": "https://www.bestcoastpairings.com/list/tz2nIYMvfkUy",
+      "list_url": "https://www.bestcoastpairings.com/list/q5rEgkt4DfMq",
       "source": "bcp",
       "wins": 2,
       "losses": 2,
@@ -181,44 +162,132 @@
       "win_rate": 50.0
     },
     {
-      "player_name": "Filip Zrnik",
+      "player_name": "Linus Bengtsson",
+      "detachment": "Changehost of Deceit",
+      "list_url": "https://www.bestcoastpairings.com/list/FdmFbRqjlPqg",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 2,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 50.0
+    },
+    {
+      "player_name": "Hannes Hilding",
       "detachment": "Grand Coven",
-      "list_url": "https://www.bestcoastpairings.com/list/T0IgqXTHuRCF",
+      "list_url": "https://www.bestcoastpairings.com/list/CRrdm2fe4ZXQ",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 2,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 50.0
+    },
+    {
+      "player_name": "Matt Dewar",
+      "detachment": "Rubricae Phalanx",
+      "list_url": "https://www.bestcoastpairings.com/list/UaeErhaQtaOO",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
       "draws": 0,
       "games": 5,
       "win_rate": 40.0
+    },
+    {
+      "player_name": "Steve Lee",
+      "detachment": "Warpforged Cabal",
+      "list_url": "https://www.bestcoastpairings.com/list/TdOFvEJEVlSQ",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "James Zhang",
+      "detachment": "Rubricae Phalanx",
+      "list_url": "https://www.bestcoastpairings.com/list/yY7NKilI0rpA",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "David Verrocchi",
+      "detachment": "Rubricae Phalanx",
+      "list_url": "https://www.bestcoastpairings.com/list/4RxBo9b4hBfj",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Merric Butler",
+      "detachment": "Grand Coven",
+      "list_url": "https://www.bestcoastpairings.com/list/gCRonmf1woQ9",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Drystan Barlow",
+      "detachment": "Grand Coven",
+      "list_url": "https://www.bestcoastpairings.com/list/cAowVuAgT5Vk",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 3,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Thomas Melohn",
+      "detachment": "Rubricae Phalanx",
+      "list_url": "https://www.bestcoastpairings.com/list/IOX80sueuKKD",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 4,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 10.0
     }
   ],
   "matchups": [
     {
-      "opponent_faction": "Death Guard",
-      "games": 8,
-      "wins": 3,
-      "win_rate": 43.8
+      "opponent_faction": "Chaos Space Marines",
+      "games": 9,
+      "wins": 5,
+      "win_rate": 55.6
     },
     {
       "opponent_faction": "Necrons",
-      "games": 7,
-      "wins": 6,
-      "win_rate": 85.7
-    },
-    {
-      "opponent_faction": "Chaos Space Marines",
       "games": 6,
-      "wins": 3,
-      "win_rate": 50.0
+      "wins": 2,
+      "win_rate": 33.3
     },
     {
-      "opponent_faction": "Space Marines (Astartes)",
+      "opponent_faction": "Death Guard",
       "games": 5,
-      "wins": 3,
-      "win_rate": 60.0
+      "wins": 1,
+      "win_rate": 30.0
     },
     {
-      "opponent_faction": "Adeptus Custodes",
+      "opponent_faction": "Astra Militarum",
+      "games": 5,
+      "wins": 4,
+      "win_rate": 90.0
+    },
+    {
+      "opponent_faction": "Chaos Daemons",
       "games": 5,
       "wins": 5,
       "win_rate": 100.0
@@ -226,10 +295,12 @@
   ],
   "timeline": [
     {
-      "week": "2026-W19",
-      "lists": 14,
-      "games": 70,
-      "win_rate": 69.3
+      "week": "2026-W20",
+      "lists": 17,
+      "games": 85,
+      "win_rate": 57.6,
+      "total_lists": 448,
+      "play_rate": 3.8
     }
   ]
 }

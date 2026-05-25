@@ -1,46 +1,82 @@
 {
   "faction": "T'au Empire",
   "slug": "t_au_empire",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-25",
   "window_days": 7,
   "event_type": "team",
-  "lists": 18,
-  "games": 83,
-  "play_rate": 4.0,
-  "win_rate": 51.8,
-  "trend_delta": -0.4,
+  "lists": 27,
+  "games": 135,
+  "play_rate": 6.0,
+  "win_rate": 61.5,
+  "trend_delta": 9.7,
   "top_detachment": "Mont'ka",
+  "ci_lower": 53.1,
+  "meta_health": "slightly_over",
+  "x0_pct": 7.4,
+  "x1_pct": 33.3,
+  "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Mont'ka",
       "base_archetype": "T'au Empire \u2014 Mont'ka",
-      "lists": 12,
-      "games": 58,
-      "play_rate": 66.7,
-      "win_rate": 54.3
+      "lists": 17,
+      "games": 85,
+      "play_rate": 63.0,
+      "win_rate": 53.5,
+      "x0_pct": 0.0,
+      "x1_pct": 29.4,
+      "tournament_wins": 0
     },
     {
       "detachment": "Retaliation Cadre",
       "base_archetype": "T'au Empire \u2014 Retaliation Cadre",
-      "lists": 4,
-      "games": 20,
+      "lists": 6,
+      "games": 30,
       "play_rate": 22.2,
-      "win_rate": 50.0
+      "win_rate": 80.0,
+      "x0_pct": 16.7,
+      "x1_pct": 66.7,
+      "tournament_wins": 0
     },
     {
       "detachment": "Kroot Hunting Pack",
       "base_archetype": "T'au Empire \u2014 Kroot Hunting Pack",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 7.4,
+      "win_rate": 70.0,
+      "x0_pct": 50.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Auxiliary Cadre",
+      "base_archetype": "T'au Empire \u2014 Auxiliary Cadre",
       "lists": 1,
       "games": 5,
-      "play_rate": 5.6,
-      "win_rate": 30.0
+      "play_rate": 3.7,
+      "win_rate": 90.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "No Detachment",
+      "base_archetype": "T'au Empire \u2014 No Detachment",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 3.7,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
     {
-      "player_name": "Jan \"H-grid\" Broschinski",
-      "detachment": "Mont'ka",
-      "list_url": "https://www.bestcoastpairings.com/list/dkSekhXHuPtM",
+      "player_name": "Hayden Walduck",
+      "detachment": "Kroot Hunting Pack",
+      "list_url": "https://www.bestcoastpairings.com/list/Oei0ElDbXXVu",
       "source": "bcp",
       "wins": 5,
       "losses": 0,
@@ -49,9 +85,9 @@
       "win_rate": 100.0
     },
     {
-      "player_name": "Kier Smith",
-      "detachment": "Mont'ka",
-      "list_url": "https://www.bestcoastpairings.com/list/9gyeE8580Ijh",
+      "player_name": "Joseph Sault",
+      "detachment": "Retaliation Cadre",
+      "list_url": "https://www.bestcoastpairings.com/list/VmXVg8UXnuOx",
       "source": "bcp",
       "wins": 5,
       "losses": 0,
@@ -60,9 +96,31 @@
       "win_rate": 100.0
     },
     {
-      "player_name": "Ken Bush",
-      "detachment": "Mont'ka",
-      "list_url": "https://www.bestcoastpairings.com/list/MAAywXnwVeBg",
+      "player_name": "kobi brick",
+      "detachment": "Auxiliary Cadre",
+      "list_url": "https://www.bestcoastpairings.com/list/OIhTptNbBWkh",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "Maurizio De benedictis",
+      "detachment": "Retaliation Cadre",
+      "list_url": "https://www.bestcoastpairings.com/list/q9ifjwoyCzGN",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "jordan jones",
+      "detachment": "Retaliation Cadre",
+      "list_url": "https://www.bestcoastpairings.com/list/Uyab5MT1kgGe",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -71,9 +129,42 @@
       "win_rate": 80.0
     },
     {
-      "player_name": "Daryl Phoon",
+      "player_name": "Aj Harris",
       "detachment": "Mont'ka",
-      "list_url": "https://www.bestcoastpairings.com/list/UQqWIZynoop5",
+      "list_url": "https://www.bestcoastpairings.com/list/I2lRrs8CDIh5",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Sebastian Magnusson",
+      "detachment": "Mont'ka",
+      "list_url": "https://www.bestcoastpairings.com/list/qkNSsmtndIVK",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Eric Fu",
+      "detachment": "Mont'ka",
+      "list_url": "https://www.bestcoastpairings.com/list/P53q5LcJ7DGa",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 0,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Rhys Milner",
+      "detachment": "Mont'ka",
+      "list_url": "https://www.bestcoastpairings.com/list/WNW0yDfmzZd3",
       "source": "bcp",
       "wins": 2,
       "losses": 0,
@@ -82,9 +173,9 @@
       "win_rate": 70.0
     },
     {
-      "player_name": "Harley Bessant",
-      "detachment": "Retaliation Cadre",
-      "list_url": "https://www.bestcoastpairings.com/list/EGItFxKhDeYJ",
+      "player_name": "Simon Fitzpatrick",
+      "detachment": "Mont'ka",
+      "list_url": "https://www.bestcoastpairings.com/list/R7i4vvTTYNEB",
       "source": "bcp",
       "wins": 3,
       "losses": 1,
@@ -93,9 +184,64 @@
       "win_rate": 70.0
     },
     {
-      "player_name": "Don Yeh",
+      "player_name": "Markus Hederberg",
       "detachment": "Mont'ka",
-      "list_url": "https://www.bestcoastpairings.com/list/b9IwCXjWHSCF",
+      "list_url": "https://www.bestcoastpairings.com/list/exBLnUsBceDn",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Erik Wahlberg",
+      "detachment": "Mont'ka",
+      "list_url": "https://www.bestcoastpairings.com/list/b6ONTJOtqc3a",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Kyle Mackenzie",
+      "detachment": "Retaliation Cadre",
+      "list_url": "https://www.bestcoastpairings.com/list/G6x52MeOIlpQ",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Daniel Mccurdy",
+      "detachment": "Retaliation Cadre",
+      "list_url": "https://www.bestcoastpairings.com/list/yH2KHOcNgHms",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Ed Henderson",
+      "detachment": "Retaliation Cadre",
+      "list_url": "https://www.bestcoastpairings.com/list/QL7tAx0MC3rN",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Dane Carlsson",
+      "detachment": "Mont'ka",
+      "list_url": "https://www.bestcoastpairings.com/list/U9rUqdjR09C6",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -104,31 +250,31 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Marcus jones",
-      "detachment": "Retaliation Cadre",
-      "list_url": "https://www.bestcoastpairings.com/list/V3rf8Fx1fz45",
+      "player_name": "Max Gullberg",
+      "detachment": "Mont'ka",
+      "list_url": "https://www.bestcoastpairings.com/list/kIogjYC7xdrr",
       "source": "bcp",
-      "wins": 2,
+      "wins": 3,
       "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "Jakub Piotrovski",
-      "detachment": "Retaliation Cadre",
-      "list_url": "https://www.bestcoastpairings.com/list/HlcJPIEwMDsm",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
       "draws": 0,
       "games": 5,
-      "win_rate": 40.0
+      "win_rate": 60.0
     },
     {
-      "player_name": "Christian Muckler",
-      "detachment": "Retaliation Cadre",
-      "list_url": "https://www.bestcoastpairings.com/list/U2zV1rN190HY",
+      "player_name": "Nils Boix-Vives",
+      "detachment": "Mont'ka",
+      "list_url": "https://www.bestcoastpairings.com/list/PJ3itHtP86dA",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Paul Perrin",
+      "detachment": "Mont'ka",
+      "list_url": "https://www.bestcoastpairings.com/list/XnTvEXuApaFb",
       "source": "bcp",
       "wins": 1,
       "losses": 2,
@@ -137,150 +283,105 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Mason Newton",
-      "detachment": "Mont'ka",
-      "list_url": "https://www.bestcoastpairings.com/list/fKKaWkByWsFK",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Alan Estrada",
-      "detachment": "Mont'ka",
-      "list_url": "https://www.bestcoastpairings.com/list/XVDaLbNdgkFa",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Adam Peterman",
-      "detachment": "Mont'ka",
-      "list_url": "https://www.bestcoastpairings.com/list/Yscm7q0h9NSi",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Calvin Fertig",
-      "detachment": "Mont'ka",
-      "list_url": "https://www.bestcoastpairings.com/list/ctuitls4ZeYi",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Paul Phillips",
-      "detachment": "Mont'ka",
-      "list_url": "https://www.bestcoastpairings.com/list/pZIuxFjUAqq2",
+      "player_name": "Teddy Zetterlund",
+      "detachment": "No Detachment",
+      "list_url": "https://www.bestcoastpairings.com/list/gYsjg0vHLQFF",
       "source": "bcp",
       "wins": 1,
       "losses": 2,
-      "draws": 0,
-      "games": 3,
-      "win_rate": 33.3
-    },
-    {
-      "player_name": "Martin Petriscak",
-      "detachment": "Mont'ka",
-      "list_url": "https://www.bestcoastpairings.com/list/y0noP5GmlShJ",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 3,
-      "draws": 1,
+      "draws": 2,
       "games": 5,
-      "win_rate": 30.0
-    },
-    {
-      "player_name": "Tim Ho",
-      "detachment": "Kroot Hunting Pack",
-      "list_url": "https://www.bestcoastpairings.com/list/aRGBLhS86N6m",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 3,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 30.0
-    },
-    {
-      "player_name": "Daddy O",
-      "detachment": "Mont'ka",
-      "list_url": "https://www.bestcoastpairings.com/list/7K6upbybzraA",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 4,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 10.0
+      "win_rate": 40.0
     }
   ],
   "matchups": [
     {
-      "opponent_faction": "Chaos Space Marines",
-      "games": 9,
-      "wins": 5,
-      "win_rate": 61.1
+      "opponent_faction": "Emperor's Children",
+      "games": 11,
+      "wins": 2,
+      "win_rate": 22.7
     },
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 6,
+      "games": 11,
+      "wins": 7,
+      "win_rate": 68.2
+    },
+    {
+      "opponent_faction": "Chaos Space Marines",
+      "games": 9,
       "wins": 4,
-      "win_rate": 66.7
+      "win_rate": 44.4
+    },
+    {
+      "opponent_faction": "Chaos Daemons",
+      "games": 8,
+      "wins": 7,
+      "win_rate": 87.5
+    },
+    {
+      "opponent_faction": "Chaos Knights",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 56.2
+    },
+    {
+      "opponent_faction": "Astra Militarum",
+      "games": 7,
+      "wins": 5,
+      "win_rate": 78.6
     },
     {
       "opponent_faction": "Adeptus Custodes",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 64.3
+    },
+    {
+      "opponent_faction": "Necrons",
+      "games": 7,
+      "wins": 5,
+      "win_rate": 78.6
+    },
+    {
+      "opponent_faction": "Imperial Knights",
       "games": 6,
       "wins": 3,
       "win_rate": 50.0
     },
     {
-      "opponent_faction": "Tyranids",
-      "games": 6,
-      "wins": 2,
-      "win_rate": 33.3
-    },
-    {
-      "opponent_faction": "Emperor's Children",
-      "games": 5,
-      "wins": 1,
-      "win_rate": 30.0
-    },
-    {
-      "opponent_faction": "Necrons",
-      "games": 5,
-      "wins": 0,
-      "win_rate": 10.0
-    },
-    {
       "opponent_faction": "Death Guard",
       "games": 5,
-      "wins": 2,
-      "win_rate": 50.0
+      "wins": 3,
+      "win_rate": 70.0
     },
     {
       "opponent_faction": "Adepta Sororitas",
       "games": 5,
+      "wins": 4,
+      "win_rate": 90.0
+    },
+    {
+      "opponent_faction": "Tyranids",
+      "games": 5,
       "wins": 2,
-      "win_rate": 50.0
+      "win_rate": 40.0
+    },
+    {
+      "opponent_faction": "Blood Angels",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0
     }
   ],
   "timeline": [
     {
-      "week": "2026-W19",
-      "lists": 18,
-      "games": 83,
-      "win_rate": 51.8
+      "week": "2026-W20",
+      "lists": 27,
+      "games": 135,
+      "win_rate": 61.5,
+      "total_lists": 448,
+      "play_rate": 6.0
     }
   ]
 }

@@ -1,46 +1,60 @@
 {
   "faction": "Imperial Knights",
   "slug": "imperial_knights",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-25",
   "window_days": 7,
   "event_type": "team",
-  "lists": 17,
-  "games": 80,
-  "play_rate": 3.8,
-  "win_rate": 49.4,
-  "trend_delta": 0.8,
+  "lists": 21,
+  "games": 105,
+  "play_rate": 4.7,
+  "win_rate": 57.6,
+  "trend_delta": 8.2,
   "top_detachment": "Freeblade Company",
+  "ci_lower": 48.1,
+  "meta_health": "slightly_under",
+  "x0_pct": 0.0,
+  "x1_pct": 42.9,
+  "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Freeblade Company",
       "base_archetype": "Imperial Knights \u2014 Freeblade Company",
-      "lists": 11,
-      "games": 55,
-      "play_rate": 64.7,
-      "win_rate": 49.1
+      "lists": 14,
+      "games": 70,
+      "play_rate": 66.7,
+      "win_rate": 63.6,
+      "x0_pct": 0.0,
+      "x1_pct": 42.9,
+      "tournament_wins": 0
     },
     {
       "detachment": "Questoris Companions",
       "base_archetype": "Imperial Knights \u2014 Questoris Companions",
-      "lists": 3,
-      "games": 15,
-      "play_rate": 17.6,
-      "win_rate": 36.7
+      "lists": 6,
+      "games": 30,
+      "play_rate": 28.6,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 50.0,
+      "tournament_wins": 0
     },
     {
-      "detachment": "Valourstrike Lance",
-      "base_archetype": "Imperial Knights \u2014 Valourstrike Lance",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 11.8,
-      "win_rate": 70.0
+      "detachment": "Gate Warden Lance",
+      "base_archetype": "Imperial Knights \u2014 Gate Warden Lance",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 4.8,
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
     {
-      "player_name": "Mirmi Vallesp\u00ed",
-      "detachment": "Valourstrike Lance",
-      "list_url": "https://www.bestcoastpairings.com/list/1LM4hUc2r24g",
+      "player_name": "Zak Watson",
+      "detachment": "Freeblade Company",
+      "list_url": "https://www.bestcoastpairings.com/list/T8PVOpXJTYP0",
       "source": "bcp",
       "wins": 4,
       "losses": 0,
@@ -49,9 +63,9 @@
       "win_rate": 90.0
     },
     {
-      "player_name": "Ji\u0159\u00ed \u0160ime\u010dek",
+      "player_name": "Romeo Schwartz",
       "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/Rb3uUEvjfI5x",
+      "list_url": "https://www.bestcoastpairings.com/list/GP85uHK8bjkQ",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -60,9 +74,9 @@
       "win_rate": 80.0
     },
     {
-      "player_name": "David Buckner",
+      "player_name": "Evan Mackenna-Ramsay",
       "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/GJf55sA5YHfw",
+      "list_url": "https://www.bestcoastpairings.com/list/YbCeeKREAhTm",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -71,86 +85,141 @@
       "win_rate": 80.0
     },
     {
-      "player_name": "Iv\u00e1n Regalado",
-      "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/FKsFnVLhqqTL",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "James Gibb",
-      "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/z5QWddwa3s6D",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Andy Shellenbarger",
-      "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/PY4WprRC0O5G",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Andoni Villarreal",
-      "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/69gH2Cm2oVLx",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "Alexander Havetta",
+      "player_name": "Robin Kinnunen",
       "detachment": "Questoris Companions",
-      "list_url": "https://www.bestcoastpairings.com/list/PCj5EPbLW04B",
+      "list_url": "https://www.bestcoastpairings.com/list/iVSq2k60lRj6",
       "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
       "games": 5,
-      "win_rate": 50.0
+      "win_rate": 80.0
     },
     {
-      "player_name": "Carlos Robertos",
-      "detachment": "Valourstrike Lance",
-      "list_url": "https://www.bestcoastpairings.com/list/X1vkWHKwzjCi",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "James Ross",
-      "detachment": "Questoris Companions",
-      "list_url": "https://www.bestcoastpairings.com/list/O6rWdWBgibhs",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "Jan Ha\u0148\u00e1\u010dek",
+      "player_name": "Julian Virgona",
       "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/w0Pv8wNJn5yP",
+      "list_url": "https://www.bestcoastpairings.com/list/K0caBgwXytsD",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Michael Bakker",
+      "detachment": "Freeblade Company",
+      "list_url": "https://www.bestcoastpairings.com/list/C09AhV491Bsf",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Matthew Douglas-dalby",
+      "detachment": "Freeblade Company",
+      "list_url": "https://www.bestcoastpairings.com/list/atOHO8jMglXc",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Linus Hesselberg",
+      "detachment": "Questoris Companions",
+      "list_url": "https://www.bestcoastpairings.com/list/C9pCsfFY9DZ1",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Matthew Murphy",
+      "detachment": "Freeblade Company",
+      "list_url": "https://www.bestcoastpairings.com/list/gqoTHvD4oPdN",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Joel Price",
+      "detachment": "Freeblade Company",
+      "list_url": "https://www.bestcoastpairings.com/list/293U006IOCA9",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Alexander Geijskes",
+      "detachment": "Freeblade Company",
+      "list_url": "https://www.bestcoastpairings.com/list/hNzVpwXx5Mqo",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 1,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Joel Gruber",
+      "detachment": "Freeblade Company",
+      "list_url": "https://www.bestcoastpairings.com/list/OIHsXJsH5XGP",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Vilda Lilja",
+      "detachment": "Freeblade Company",
+      "list_url": "https://www.bestcoastpairings.com/list/uzGpOvqDsJU9",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Birk \u00c5strand",
+      "detachment": "Questoris Companions",
+      "list_url": "https://www.bestcoastpairings.com/list/X0RfqTYXdk48",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Gavin Earl",
+      "detachment": "Questoris Companions",
+      "list_url": "https://www.bestcoastpairings.com/list/GcOHiv4Kajqb",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 1,
+      "draws": 3,
+      "games": 5,
+      "win_rate": 50.0
+    },
+    {
+      "player_name": "Dan Keioskie",
+      "detachment": "Freeblade Company",
+      "list_url": "https://www.bestcoastpairings.com/list/wpQKWr9ZZZ3V",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -159,105 +228,120 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Marek \"Kradaxus\" Shatat",
+      "player_name": "Liam Kammholz",
       "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/PChjrTZ0OQ2V",
+      "list_url": "https://www.bestcoastpairings.com/list/YMbQnUJLTfma",
       "source": "bcp",
-      "wins": 1,
+      "wins": 2,
       "losses": 3,
-      "draws": 1,
+      "draws": 0,
       "games": 5,
-      "win_rate": 30.0
+      "win_rate": 40.0
     },
     {
-      "player_name": "Zane Liu",
-      "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/VTDZbeyekdMO",
+      "player_name": "Duncan Dishington",
+      "detachment": "Questoris Companions",
+      "list_url": "https://www.bestcoastpairings.com/list/iKKmTN0oZDES",
       "source": "bcp",
       "wins": 1,
-      "losses": 3,
-      "draws": 1,
+      "losses": 2,
+      "draws": 2,
       "games": 5,
-      "win_rate": 30.0
+      "win_rate": 40.0
     },
     {
-      "player_name": "Colton Sims",
+      "player_name": "Alexander G\u00f6ransson",
       "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/taH269Pvc4o1",
+      "list_url": "https://www.bestcoastpairings.com/list/tuLhfgUzv4GO",
       "source": "bcp",
-      "wins": 1,
+      "wins": 2,
       "losses": 3,
-      "draws": 1,
+      "draws": 0,
       "games": 5,
-      "win_rate": 30.0
+      "win_rate": 40.0
     },
     {
-      "player_name": "Logan Cain",
-      "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/WfYNUtvQSQcW",
+      "player_name": "Lukas Ericsson",
+      "detachment": "Gate Warden Lance",
+      "list_url": "https://www.bestcoastpairings.com/list/SEvmQLTyIb5V",
       "source": "bcp",
       "wins": 1,
       "losses": 4,
       "draws": 0,
       "games": 5,
       "win_rate": 20.0
-    },
-    {
-      "player_name": "Coltrin Bluemel",
-      "detachment": "Questoris Companions",
-      "list_url": "https://www.bestcoastpairings.com/list/cw9dagsvfTxl",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 4,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 10.0
     }
   ],
   "matchups": [
     {
-      "opponent_faction": "Tyranids",
+      "opponent_faction": "Chaos Daemons",
+      "games": 10,
+      "wins": 6,
+      "win_rate": 65.0
+    },
+    {
+      "opponent_faction": "Death Guard",
       "games": 8,
       "wins": 5,
       "win_rate": 68.8
     },
     {
-      "opponent_faction": "Chaos Space Marines",
-      "games": 8,
-      "wins": 1,
-      "win_rate": 12.5
-    },
-    {
       "opponent_faction": "Emperor's Children",
       "games": 7,
-      "wins": 2,
-      "win_rate": 28.6
+      "wins": 4,
+      "win_rate": 57.1
     },
     {
-      "opponent_faction": "Death Guard",
+      "opponent_faction": "Astra Militarum",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 75.0
+    },
+    {
+      "opponent_faction": "Blood Angels",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 66.7
+    },
+    {
+      "opponent_faction": "Necrons",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "T'au Empire",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "Space Marines (Astartes)",
       "games": 5,
       "wins": 2,
       "win_rate": 50.0
     },
     {
-      "opponent_faction": "Necrons",
+      "opponent_faction": "Chaos Knights",
       "games": 5,
-      "wins": 2,
-      "win_rate": 40.0
+      "wins": 3,
+      "win_rate": 70.0
     },
     {
-      "opponent_faction": "Adeptus Custodes",
+      "opponent_faction": "Tyranids",
       "games": 5,
-      "wins": 2,
-      "win_rate": 40.0
+      "wins": 3,
+      "win_rate": 60.0
     }
   ],
   "timeline": [
     {
-      "week": "2026-W19",
-      "lists": 17,
-      "games": 80,
-      "win_rate": 49.4
+      "week": "2026-W20",
+      "lists": 21,
+      "games": 105,
+      "win_rate": 57.6,
+      "total_lists": 448,
+      "play_rate": 4.7
     }
   ]
 }

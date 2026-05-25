@@ -4,25 +4,25 @@
   "as_of": "2026-05-25",
   "window_days": 30,
   "event_type": "team",
-  "lists": 11,
-  "games": 55,
+  "lists": 14,
+  "games": 70,
   "play_rate": 0.4,
-  "win_rate": 39.1,
-  "trend_delta": -10.9,
+  "win_rate": 35.0,
+  "trend_delta": -15.0,
   "top_detachment": "Gladius Task Force",
-  "ci_lower": 27.3,
+  "ci_lower": 24.9,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 18.2,
+  "x1_pct": 14.3,
   "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Bastion Task Force",
       "base_archetype": "Black Templars \u2014 Bastion Task Force",
-      "lists": 4,
-      "games": 20,
-      "play_rate": 36.4,
-      "win_rate": 25.0,
+      "lists": 5,
+      "games": 25,
+      "play_rate": 35.7,
+      "win_rate": 26.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -30,12 +30,12 @@
     {
       "detachment": "Gladius Task Force",
       "base_archetype": "Black Templars \u2014 Gladius Task Force",
-      "lists": 3,
-      "games": 15,
-      "play_rate": 27.3,
-      "win_rate": 40.0,
+      "lists": 4,
+      "games": 20,
+      "play_rate": 28.6,
+      "win_rate": 37.5,
       "x0_pct": 0.0,
-      "x1_pct": 50.0,
+      "x1_pct": 33.3,
       "tournament_wins": 0
     },
     {
@@ -43,7 +43,7 @@
       "base_archetype": "Black Templars \u2014 Wrathful Procession",
       "lists": 2,
       "games": 10,
-      "play_rate": 18.2,
+      "play_rate": 14.3,
       "win_rate": 45.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -54,10 +54,21 @@
       "base_archetype": "Black Templars \u2014 Ceramite Sentinels",
       "lists": 1,
       "games": 5,
-      "play_rate": 9.1,
+      "play_rate": 7.1,
       "win_rate": 70.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Armoured Speartip",
+      "base_archetype": "Black Templars \u2014 Armoured Speartip",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 7.1,
+      "win_rate": 0.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
@@ -65,7 +76,7 @@
       "base_archetype": "Black Templars \u2014 Godhammer Assault Force",
       "lists": 1,
       "games": 5,
-      "play_rate": 9.1,
+      "play_rate": 7.1,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -151,6 +162,28 @@
       "win_rate": 30.0
     },
     {
+      "player_name": "Johan Lagmo",
+      "detachment": "Bastion Task Force",
+      "list_url": "https://www.bestcoastpairings.com/list/LuxpD4TJGMY1",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
+      "player_name": "Erik Westman",
+      "detachment": "Gladius Task Force",
+      "list_url": "https://www.bestcoastpairings.com/list/BaFje7QuVNvF",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
       "player_name": "Martin Sloan",
       "detachment": "Gladius Task Force",
       "list_url": "https://www.bestcoastpairings.com/list/Kuq1QbqjsYqu",
@@ -182,20 +215,37 @@
       "draws": 0,
       "games": 5,
       "win_rate": 0.0
+    },
+    {
+      "player_name": "Kyle Shene",
+      "detachment": "Armoured Speartip",
+      "list_url": "https://www.bestcoastpairings.com/list/0ZsurPMezJ2g",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 5,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 0.0
     }
   ],
   "matchups": [
     {
-      "opponent_faction": "T'au Empire",
-      "games": 6,
-      "wins": 3,
-      "win_rate": 50.0
+      "opponent_faction": "Necrons",
+      "games": 9,
+      "wins": 1,
+      "win_rate": 11.1
     },
     {
-      "opponent_faction": "Necrons",
+      "opponent_faction": "T'au Empire",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 42.9
+    },
+    {
+      "opponent_faction": "Adeptus Custodes",
       "games": 6,
-      "wins": 0,
-      "win_rate": 8.3
+      "wins": 4,
+      "win_rate": 66.7
     },
     {
       "opponent_faction": "Space Marines (Astartes)",
@@ -204,10 +254,10 @@
       "win_rate": 33.3
     },
     {
-      "opponent_faction": "Adeptus Custodes",
+      "opponent_faction": "Astra Militarum",
       "games": 5,
-      "wins": 4,
-      "win_rate": 80.0
+      "wins": 1,
+      "win_rate": 30.0
     }
   ],
   "timeline": [
@@ -234,6 +284,14 @@
       "win_rate": 0.0,
       "total_lists": 448,
       "play_rate": 0.2
+    },
+    {
+      "week": "2026-W20",
+      "lists": 3,
+      "games": 15,
+      "win_rate": 20.0,
+      "total_lists": 448,
+      "play_rate": 0.7
     }
   ]
 }

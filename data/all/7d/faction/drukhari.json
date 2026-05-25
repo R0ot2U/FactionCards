@@ -1,54 +1,71 @@
 {
   "faction": "Drukhari",
   "slug": "drukhari",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-25",
   "window_days": 7,
   "event_type": "all",
-  "lists": 49,
-  "games": 229,
-  "play_rate": 3.5,
-  "win_rate": 50.2,
-  "trend_delta": 1.3,
-  "top_detachment": "Spectacle of Spite",
+  "lists": 36,
+  "games": 175,
+  "play_rate": 2.0,
+  "win_rate": 51.1,
+  "trend_delta": 0.9,
+  "top_detachment": "Reaper's Wager",
+  "ci_lower": 43.8,
+  "meta_health": "strongly_under",
+  "x0_pct": 2.8,
+  "x1_pct": 22.2,
+  "tournament_wins": 1,
   "detachments": [
-    {
-      "detachment": "Spectacle of Spite",
-      "base_archetype": "Drukhari \u2014 Spectacle of Spite",
-      "lists": 23,
-      "games": 110,
-      "play_rate": 46.9,
-      "win_rate": 52.7
-    },
     {
       "detachment": "Reaper's Wager",
       "base_archetype": "Drukhari \u2014 Reaper's Wager",
-      "lists": 15,
-      "games": 69,
-      "play_rate": 30.6,
-      "win_rate": 53.6
+      "lists": 14,
+      "games": 68,
+      "play_rate": 38.9,
+      "win_rate": 46.3,
+      "x0_pct": 0.0,
+      "x1_pct": 14.3,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Spectacle of Spite",
+      "base_archetype": "Drukhari \u2014 Spectacle of Spite",
+      "lists": 12,
+      "games": 58,
+      "play_rate": 33.3,
+      "win_rate": 62.9,
+      "x0_pct": 8.3,
+      "x1_pct": 50.0,
+      "tournament_wins": 1
     },
     {
       "detachment": "Kabalite Cartel",
       "base_archetype": "Drukhari \u2014 Kabalite Cartel",
-      "lists": 7,
-      "games": 33,
-      "play_rate": 14.3,
-      "win_rate": 39.4
+      "lists": 8,
+      "games": 39,
+      "play_rate": 22.2,
+      "win_rate": 46.2,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Skysplinter Assault",
       "base_archetype": "Drukhari \u2014 Skysplinter Assault",
-      "lists": 3,
-      "games": 15,
-      "play_rate": 6.1,
-      "win_rate": 46.7
+      "lists": 2,
+      "games": 10,
+      "play_rate": 5.6,
+      "win_rate": 35.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
     {
-      "player_name": "Tom Hamshire",
+      "player_name": "Neil Goldsmith",
       "detachment": "Spectacle of Spite",
-      "list_url": "https://www.bestcoastpairings.com/list/vEqgRjwzvZHk",
+      "list_url": "https://www.bestcoastpairings.com/list/tcdNuwboVU5I",
       "source": "bcp",
       "wins": 5,
       "losses": 0,
@@ -57,31 +74,20 @@
       "win_rate": 100.0
     },
     {
-      "player_name": "Nicholas Rosasco",
+      "player_name": "Brian Lakeland",
+      "detachment": "Kabalite Cartel",
+      "list_url": "https://www.bestcoastpairings.com/list/THIo1MjWoBGb",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 0,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Ashley Hall",
       "detachment": "Spectacle of Spite",
-      "list_url": "https://www.bestcoastpairings.com/list/E2qeY3vJTSyy",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Alberto \"Arconte\" Gonz\u00e1lez",
-      "detachment": "Reaper's Wager",
-      "list_url": "https://www.bestcoastpairings.com/list/FwGY9mzzj9ZR",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 0,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Damian Flores D\u00edaz",
-      "detachment": "Reaper's Wager",
-      "list_url": "https://www.bestcoastpairings.com/list/WHyjwZ7IIF55",
+      "list_url": "https://www.bestcoastpairings.com/list/WTwj44B1slBZ",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -90,9 +96,9 @@
       "win_rate": 80.0
     },
     {
-      "player_name": "Dani  Nosfe",
-      "detachment": "Reaper's Wager",
-      "list_url": "https://www.bestcoastpairings.com/list/31YtQ8m74ALe",
+      "player_name": "Ryan Rees",
+      "detachment": "Spectacle of Spite",
+      "list_url": "https://www.bestcoastpairings.com/list/3apbAHjIS08W",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -101,9 +107,31 @@
       "win_rate": 80.0
     },
     {
-      "player_name": "Daniel Gallagher",
+      "player_name": "Joey Bedingfield",
+      "detachment": "Reaper's Wager",
+      "list_url": "https://www.bestcoastpairings.com/list/6OrWZuxKXuZb",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "CJ Kane",
+      "detachment": "Reaper's Wager",
+      "list_url": "https://www.bestcoastpairings.com/list/10uopXzPksIK",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Alden Rubin",
       "detachment": "Spectacle of Spite",
-      "list_url": "https://www.bestcoastpairings.com/list/6G5ndiHTcszI",
+      "list_url": "https://www.bestcoastpairings.com/list/YIxbOM2cxFxq",
       "source": "bcp",
       "wins": 3,
       "losses": 1,
@@ -112,9 +140,9 @@
       "win_rate": 70.0
     },
     {
-      "player_name": "Jan D\u0159evoj\u00e1nek",
-      "detachment": "Reaper's Wager",
-      "list_url": "https://www.bestcoastpairings.com/list/UaCxLcDcSUOm",
+      "player_name": "Michael Cirone",
+      "detachment": "Spectacle of Spite",
+      "list_url": "https://www.bestcoastpairings.com/list/DlVwcEI2FOXf",
       "source": "bcp",
       "wins": 3,
       "losses": 1,
@@ -123,9 +151,20 @@
       "win_rate": 70.0
     },
     {
-      "player_name": "Liam Lynch Morgan",
+      "player_name": "Cody Lewis",
+      "detachment": "Spectacle of Spite",
+      "list_url": "https://www.bestcoastpairings.com/list/LiiQQNMA6EWn",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "games": 3,
+      "win_rate": 66.7
+    },
+    {
+      "player_name": "Ahlden Brough",
       "detachment": "Reaper's Wager",
-      "list_url": "https://www.bestcoastpairings.com/list/jUvp1SKbONsv",
+      "list_url": "https://www.bestcoastpairings.com/list/M31fR7d3W4s6",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -134,20 +173,9 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Nicola Giannini",
-      "detachment": "Spectacle of Spite",
-      "list_url": "https://www.bestcoastpairings.com/list/bppvttaUXJmU",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Jonhy  Segura",
+      "player_name": "Thibault Fleischmann",
       "detachment": "Reaper's Wager",
-      "list_url": "https://www.bestcoastpairings.com/list/xayvgJQLIJ9r",
+      "list_url": "https://www.bestcoastpairings.com/list/W9nx2n9HxKsg",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -156,9 +184,20 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Daniel Rivera",
+      "player_name": "Kim Steindel",
+      "detachment": "Reaper's Wager",
+      "list_url": "https://www.bestcoastpairings.com/list/xOsrirD9CIRN",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Gonzalo Zucchetti",
       "detachment": "Spectacle of Spite",
-      "list_url": "https://www.bestcoastpairings.com/list/K3LAb9CNkkb5",
+      "list_url": "https://www.bestcoastpairings.com/list/weK6sYMEYvhx",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -167,9 +206,9 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Jeremy Hoefsloot",
+      "player_name": "James the Beloved",
       "detachment": "Kabalite Cartel",
-      "list_url": "https://www.bestcoastpairings.com/list/7lJJnDTDM2HA",
+      "list_url": "https://www.bestcoastpairings.com/list/22FGApBGpi4o",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -178,20 +217,9 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Michael Hortin",
-      "detachment": "Kabalite Cartel",
-      "list_url": "https://www.bestcoastpairings.com/list/6By8MjPmkKta",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Tomas Kohoutek",
+      "player_name": "Lewis Scott",
       "detachment": "Spectacle of Spite",
-      "list_url": "https://www.bestcoastpairings.com/list/HTpiyRcfgRNn",
+      "list_url": "https://www.bestcoastpairings.com/list/W84agdkvakLM",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -200,9 +228,31 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Sebastian Kipling",
+      "player_name": "Oscar van Huizen",
+      "detachment": "Kabalite Cartel",
+      "list_url": "https://www.bestcoastpairings.com/list/vVkuYrgqSDYo",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Nick Walkden",
+      "detachment": "Reaper's Wager",
+      "list_url": "https://www.bestcoastpairings.com/list/hwVOnRkSzwf8",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Nattanan Chaichomwong",
       "detachment": "Skysplinter Assault",
-      "list_url": "https://www.bestcoastpairings.com/list/ZkVcfrQLRlL2",
+      "list_url": "https://www.bestcoastpairings.com/list/bWhTFzhyAfmK",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -211,183 +261,128 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Arlana Davis",
-      "detachment": "Spectacle of Spite",
-      "list_url": "https://www.bestcoastpairings.com/list/uutaPi0VuDUD",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Sepian Wang",
+      "player_name": "Patrick Voyame",
       "detachment": "Reaper's Wager",
-      "list_url": "https://www.bestcoastpairings.com/list/n2TK1IJ84ktI",
+      "list_url": "https://www.bestcoastpairings.com/list/m9dhEcOZOzxE",
       "source": "bcp",
-      "wins": 3,
+      "wins": 2,
       "losses": 2,
-      "draws": 0,
+      "draws": 1,
       "games": 5,
-      "win_rate": 60.0
+      "win_rate": 50.0
     },
     {
-      "player_name": "Lee Robinson",
+      "player_name": "jonathan savoie",
       "detachment": "Spectacle of Spite",
-      "list_url": "https://www.bestcoastpairings.com/list/YHbH4f6jhBY8",
+      "list_url": "https://www.bestcoastpairings.com/list/JmqYYzORualP",
       "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
+      "wins": 1,
+      "losses": 1,
+      "draws": 3,
       "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Callam Taylor",
-      "detachment": "Spectacle of Spite",
-      "list_url": "https://www.bestcoastpairings.com/list/KGXPsaW1aqkV",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Andreas Arvanitis",
-      "detachment": "Reaper's Wager",
-      "list_url": "https://www.bestcoastpairings.com/list/nPgtkDauf7Qv",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
+      "win_rate": 50.0
     }
   ],
   "matchups": [
     {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 24,
+      "wins": 12,
+      "win_rate": 52.1
+    },
+    {
       "opponent_faction": "Chaos Space Marines",
-      "games": 18,
+      "games": 13,
       "wins": 7,
-      "win_rate": 38.9
+      "win_rate": 57.7
     },
     {
       "opponent_faction": "Necrons",
-      "games": 16,
-      "wins": 7,
-      "win_rate": 43.8
+      "games": 12,
+      "wins": 4,
+      "win_rate": 33.3
     },
     {
       "opponent_faction": "Death Guard",
-      "games": 14,
-      "wins": 7,
-      "win_rate": 50.0
-    },
-    {
-      "opponent_faction": "Chaos Daemons",
-      "games": 13,
-      "wins": 5,
-      "win_rate": 38.5
-    },
-    {
-      "opponent_faction": "World Eaters",
-      "games": 12,
-      "wins": 8,
-      "win_rate": 66.7
-    },
-    {
-      "opponent_faction": "Astra Militarum",
-      "games": 12,
-      "wins": 2,
-      "win_rate": 20.8
-    },
-    {
-      "opponent_faction": "Blood Angels",
-      "games": 11,
-      "wins": 7,
-      "win_rate": 68.2
-    },
-    {
-      "opponent_faction": "Imperial Knights",
-      "games": 11,
-      "wins": 8,
-      "win_rate": 72.7
+      "games": 10,
+      "wins": 6,
+      "win_rate": 60.0
     },
     {
       "opponent_faction": "Emperor's Children",
-      "games": 11,
+      "games": 10,
+      "wins": 5,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "T'au Empire",
+      "games": 10,
       "wins": 2,
-      "win_rate": 18.2
+      "win_rate": 20.0
     },
     {
-      "opponent_faction": "Space Marines (Astartes)",
-      "games": 10,
-      "wins": 7,
-      "win_rate": 70.0
-    },
-    {
-      "opponent_faction": "Tyranids",
-      "games": 10,
-      "wins": 3,
-      "win_rate": 35.0
-    },
-    {
-      "opponent_faction": "Adepta Sororitas",
+      "opponent_faction": "Astra Militarum",
       "games": 9,
       "wins": 5,
       "win_rate": 55.6
     },
     {
-      "opponent_faction": "Leagues of Votann",
+      "opponent_faction": "Thousand Sons",
       "games": 9,
-      "wins": 7,
-      "win_rate": 83.3
+      "wins": 6,
+      "win_rate": 66.7
     },
     {
-      "opponent_faction": "T'au Empire",
-      "games": 8,
+      "opponent_faction": "Blood Angels",
+      "games": 9,
       "wins": 3,
-      "win_rate": 43.8
+      "win_rate": 33.3
+    },
+    {
+      "opponent_faction": "Imperial Knights",
+      "games": 8,
+      "wins": 5,
+      "win_rate": 62.5
     },
     {
       "opponent_faction": "Orks",
       "games": 8,
-      "wins": 6,
-      "win_rate": 81.2
+      "wins": 4,
+      "win_rate": 56.2
     },
     {
-      "opponent_faction": "Adeptus Mechanicus",
+      "opponent_faction": "Aeldari",
       "games": 7,
       "wins": 2,
-      "win_rate": 28.6
+      "win_rate": 35.7
     },
     {
-      "opponent_faction": "Thousand Sons",
+      "opponent_faction": "Chaos Daemons",
       "games": 6,
-      "wins": 3,
-      "win_rate": 50.0
+      "wins": 1,
+      "win_rate": 16.7
+    },
+    {
+      "opponent_faction": "Adepta Sororitas",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 66.7
     },
     {
       "opponent_faction": "Adeptus Custodes",
       "games": 5,
-      "wins": 4,
-      "win_rate": 80.0
-    },
-    {
-      "opponent_faction": "Aeldari",
-      "games": 5,
-      "wins": 4,
-      "win_rate": 80.0
+      "wins": 3,
+      "win_rate": 60.0
     }
   ],
   "timeline": [
     {
-      "week": "2026-W19",
-      "lists": 49,
-      "games": 229,
-      "win_rate": 50.2
+      "week": "2026-W20",
+      "lists": 36,
+      "games": 175,
+      "win_rate": 51.1,
+      "total_lists": 1835,
+      "play_rate": 2.0
     }
   ]
 }

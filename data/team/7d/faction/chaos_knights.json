@@ -1,71 +1,104 @@
 {
   "faction": "Chaos Knights",
   "slug": "chaos_knights",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-25",
   "window_days": 7,
   "event_type": "team",
-  "lists": 17,
-  "games": 78,
-  "play_rate": 3.8,
-  "win_rate": 42.3,
-  "trend_delta": -19.7,
+  "lists": 22,
+  "games": 110,
+  "play_rate": 4.9,
+  "win_rate": 39.1,
+  "trend_delta": -3.2,
   "top_detachment": "Infernal Lance",
+  "ci_lower": 30.5,
+  "meta_health": "strongly_under",
+  "x0_pct": 9.1,
+  "x1_pct": 4.5,
+  "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Infernal Lance",
       "base_archetype": "Chaos Knights \u2014 Infernal Lance",
       "lists": 15,
-      "games": 70,
-      "play_rate": 88.2,
-      "win_rate": 40.7
+      "games": 75,
+      "play_rate": 68.2,
+      "win_rate": 32.7,
+      "x0_pct": 13.3,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Lords of Dread",
       "base_archetype": "Chaos Knights \u2014 Lords of Dread",
+      "lists": 3,
+      "games": 15,
+      "play_rate": 13.6,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Houndpack Lance",
+      "base_archetype": "Chaos Knights \u2014 Houndpack Lance",
+      "lists": 3,
+      "games": 15,
+      "play_rate": 13.6,
+      "win_rate": 63.3,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Iconoclast Fiefdom",
+      "base_archetype": "Chaos Knights \u2014 Iconoclast Fiefdom",
       "lists": 1,
       "games": 5,
-      "play_rate": 5.9,
-      "win_rate": 70.0
+      "play_rate": 4.5,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
     {
-      "player_name": "Dioni Santidrian",
+      "player_name": "Conar Leach",
       "detachment": "Infernal Lance",
-      "list_url": "https://www.bestcoastpairings.com/list/k8DZAXduJJqq",
+      "list_url": "https://www.bestcoastpairings.com/list/8lCwE6g2EfIQ",
       "source": "bcp",
-      "wins": 4,
-      "losses": 1,
+      "wins": 5,
+      "losses": 0,
       "draws": 0,
       "games": 5,
-      "win_rate": 80.0
+      "win_rate": 100.0
     },
     {
-      "player_name": "James Headford",
+      "player_name": "Johan Nicolaisen",
       "detachment": "Infernal Lance",
-      "list_url": "https://www.bestcoastpairings.com/list/dw82mqyyydux",
+      "list_url": "https://www.bestcoastpairings.com/list/9rwm7drX1QkG",
       "source": "bcp",
-      "wins": 4,
-      "losses": 1,
+      "wins": 5,
+      "losses": 0,
       "draws": 0,
       "games": 5,
-      "win_rate": 80.0
+      "win_rate": 100.0
     },
     {
-      "player_name": "Colin Kay",
-      "detachment": "Infernal Lance",
-      "list_url": "https://www.bestcoastpairings.com/list/QTyXs33W3bog",
+      "player_name": "Mason Bird",
+      "detachment": "Houndpack Lance",
+      "list_url": "https://www.bestcoastpairings.com/list/beZlUqwnv3aW",
       "source": "bcp",
       "wins": 4,
-      "losses": 1,
-      "draws": 0,
+      "losses": 0,
+      "draws": 1,
       "games": 5,
-      "win_rate": 80.0
+      "win_rate": 90.0
     },
     {
-      "player_name": "Dylan Graham",
+      "player_name": "Daniel Hesselberg",
       "detachment": "Lords of Dread",
-      "list_url": "https://www.bestcoastpairings.com/list/lmqqUBh509Xk",
+      "list_url": "https://www.bestcoastpairings.com/list/D41J73cvUZTb",
       "source": "bcp",
       "wins": 3,
       "losses": 1,
@@ -74,9 +107,9 @@
       "win_rate": 70.0
     },
     {
-      "player_name": "Thomas Anger",
-      "detachment": "Infernal Lance",
-      "list_url": "https://www.bestcoastpairings.com/list/wbag0yhBpTr8",
+      "player_name": "Ben Roughan",
+      "detachment": "Iconoclast Fiefdom",
+      "list_url": "https://www.bestcoastpairings.com/list/kyuKTnDexYcA",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -85,9 +118,31 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Ondrej Mazal",
+      "player_name": "Stephen Connors",
       "detachment": "Infernal Lance",
-      "list_url": "https://www.bestcoastpairings.com/list/jR4uiZBcd18E",
+      "list_url": "https://www.bestcoastpairings.com/list/H1l2Gj9p4xEJ",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Chester Case",
+      "detachment": "Houndpack Lance",
+      "list_url": "https://www.bestcoastpairings.com/list/PUav1wx9SBPJ",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Joel Maddock",
+      "detachment": "Infernal Lance",
+      "list_url": "https://www.bestcoastpairings.com/list/jM9w8xn55Fow",
       "source": "bcp",
       "wins": 2,
       "losses": 2,
@@ -96,20 +151,9 @@
       "win_rate": 50.0
     },
     {
-      "player_name": "Tony House-Corradine",
+      "player_name": "Alexander hackman",
       "detachment": "Infernal Lance",
-      "list_url": "https://www.bestcoastpairings.com/list/BtIJUlT198VI",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "Miroslav Stolarik",
-      "detachment": "Infernal Lance",
-      "list_url": "https://www.bestcoastpairings.com/list/7jVa6WmPDEz1",
+      "list_url": "https://www.bestcoastpairings.com/list/GgxfzlrFuwyg",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -118,9 +162,9 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "caelan (rolling ones) Fulkerson",
+      "player_name": "Wade Cooper",
       "detachment": "Infernal Lance",
-      "list_url": "https://www.bestcoastpairings.com/list/auKkQAY40abE",
+      "list_url": "https://www.bestcoastpairings.com/list/GRfhlPOshYUI",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -129,20 +173,31 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Yilin Zhao",
-      "detachment": "Helhunt Lance",
-      "list_url": "https://www.bestcoastpairings.com/list/eKX9KZb3SAp0",
+      "player_name": "Michael Mientjes",
+      "detachment": "Houndpack Lance",
+      "list_url": "https://www.bestcoastpairings.com/list/0QtTekJMxZrv",
       "source": "bcp",
-      "wins": 1,
-      "losses": 2,
+      "wins": 2,
+      "losses": 3,
       "draws": 0,
-      "games": 3,
-      "win_rate": 33.3
+      "games": 5,
+      "win_rate": 40.0
     },
     {
-      "player_name": "Colby Siltzer",
+      "player_name": "Mikael Alriksson",
       "detachment": "Infernal Lance",
-      "list_url": "https://www.bestcoastpairings.com/list/VY539EuJgypq",
+      "list_url": "https://www.bestcoastpairings.com/list/hlLNTOe89PCB",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Dineeth Liyanagama",
+      "detachment": "Lords of Dread",
+      "list_url": "https://www.bestcoastpairings.com/list/uAi1HHbr6o14",
       "source": "bcp",
       "wins": 1,
       "losses": 3,
@@ -151,31 +206,31 @@
       "win_rate": 30.0
     },
     {
-      "player_name": "Malaki Fowler",
+      "player_name": "Duncan Lundie",
       "detachment": "Infernal Lance",
-      "list_url": "https://www.bestcoastpairings.com/list/xq6dyqotf54n",
+      "list_url": "https://www.bestcoastpairings.com/list/MyBlgKct5cct",
       "source": "bcp",
       "wins": 1,
-      "losses": 4,
-      "draws": 0,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
+      "player_name": "Alexander Costello",
+      "detachment": "Lords of Dread",
+      "list_url": "https://www.bestcoastpairings.com/list/s9egz3U242O6",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 3,
+      "draws": 2,
       "games": 5,
       "win_rate": 20.0
     },
     {
-      "player_name": "Ray Pace",
+      "player_name": "Chris Mogg",
       "detachment": "Infernal Lance",
-      "list_url": "https://www.bestcoastpairings.com/list/T0gDi7qQmX3G",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 4,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 20.0
-    },
-    {
-      "player_name": "liam robertson",
-      "detachment": "Infernal Lance",
-      "list_url": "https://www.bestcoastpairings.com/list/j6olpyBT6PLI",
+      "list_url": "https://www.bestcoastpairings.com/list/wfp5Uq7AbKZe",
       "source": "bcp",
       "wins": 0,
       "losses": 4,
@@ -184,9 +239,9 @@
       "win_rate": 10.0
     },
     {
-      "player_name": "Simon Bray",
+      "player_name": "Pierre Van Zyl",
       "detachment": "Infernal Lance",
-      "list_url": "https://www.bestcoastpairings.com/list/TXMe9m21bcw5",
+      "list_url": "https://www.bestcoastpairings.com/list/EahfiajmxPOc",
       "source": "bcp",
       "wins": 0,
       "losses": 4,
@@ -195,9 +250,31 @@
       "win_rate": 10.0
     },
     {
-      "player_name": "Dellis Wall",
+      "player_name": "John Glen",
       "detachment": "Infernal Lance",
-      "list_url": "https://www.bestcoastpairings.com/list/dindXDen0Xmi",
+      "list_url": "https://www.bestcoastpairings.com/list/0Qz4K7674P3T",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 4,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 10.0
+    },
+    {
+      "player_name": "Beau-Dean Adams",
+      "detachment": "Infernal Lance",
+      "list_url": "https://www.bestcoastpairings.com/list/cANc14Jzxo1L",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 5,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 0.0
+    },
+    {
+      "player_name": "Erik Halvarsson",
+      "detachment": "Infernal Lance",
+      "list_url": "https://www.bestcoastpairings.com/list/fFjsR590yF8g",
       "source": "bcp",
       "wins": 0,
       "losses": 5,
@@ -208,48 +285,68 @@
   ],
   "matchups": [
     {
+      "opponent_faction": "Death Guard",
+      "games": 10,
+      "wins": 4,
+      "win_rate": 40.0
+    },
+    {
       "opponent_faction": "Chaos Space Marines",
       "games": 9,
-      "wins": 0,
-      "win_rate": 5.6
+      "wins": 2,
+      "win_rate": 22.2
+    },
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 9,
+      "wins": 3,
+      "win_rate": 33.3
     },
     {
       "opponent_faction": "Tyranids",
+      "games": 9,
+      "wins": 5,
+      "win_rate": 61.1
+    },
+    {
+      "opponent_faction": "T'au Empire",
       "games": 8,
-      "wins": 4,
-      "win_rate": 50.0
+      "wins": 3,
+      "win_rate": 43.8
     },
     {
-      "opponent_faction": "Dark Angels",
-      "games": 5,
-      "wins": 1,
-      "win_rate": 20.0
-    },
-    {
-      "opponent_faction": "Death Guard",
-      "games": 5,
+      "opponent_faction": "Astra Militarum",
+      "games": 7,
       "wins": 2,
-      "win_rate": 50.0
+      "win_rate": 28.6
     },
     {
       "opponent_faction": "Necrons",
-      "games": 5,
-      "wins": 4,
-      "win_rate": 80.0
+      "games": 7,
+      "wins": 3,
+      "win_rate": 42.9
     },
     {
-      "opponent_faction": "Genestealer Cults",
+      "opponent_faction": "Orks",
       "games": 5,
-      "wins": 2,
-      "win_rate": 50.0
+      "wins": 3,
+      "win_rate": 60.0
+    },
+    {
+      "opponent_faction": "Imperial Knights",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 30.0
     }
   ],
   "timeline": [
     {
-      "week": "2026-W19",
-      "lists": 17,
-      "games": 78,
-      "win_rate": 42.3
+      "week": "2026-W20",
+      "lists": 22,
+      "games": 110,
+      "win_rate": 39.1,
+      "total_lists": 448,
+      "play_rate": 4.9
     }
   ]
 }

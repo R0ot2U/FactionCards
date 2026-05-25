@@ -1,60 +1,82 @@
 {
   "faction": "Genestealer Cults",
   "slug": "genestealer_cults",
-  "as_of": "2026-05-19",
+  "as_of": "2026-05-25",
   "window_days": 7,
   "event_type": "team",
-  "lists": 7,
-  "games": 35,
-  "play_rate": 1.6,
-  "win_rate": 55.7,
-  "trend_delta": -4.3,
+  "lists": 5,
+  "games": 25,
+  "play_rate": 1.1,
+  "win_rate": 48.0,
+  "trend_delta": -7.7,
   "top_detachment": "Biosanctic Broodsurge",
+  "ci_lower": 30.0,
+  "meta_health": "strongly_under",
+  "x0_pct": 0.0,
+  "x1_pct": 0.0,
+  "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Biosanctic Broodsurge",
       "base_archetype": "Genestealer Cults \u2014 Biosanctic Broodsurge",
-      "lists": 6,
-      "games": 30,
-      "play_rate": 85.7,
-      "win_rate": 51.7
+      "lists": 2,
+      "games": 10,
+      "play_rate": 40.0,
+      "win_rate": 65.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
-      "detachment": "Outlander Claw",
-      "base_archetype": "Genestealer Cults \u2014 Outlander Claw",
+      "detachment": "Final Day",
+      "base_archetype": "Genestealer Cults \u2014 Final Day",
       "lists": 1,
       "games": 5,
-      "play_rate": 14.3,
-      "win_rate": 80.0
+      "play_rate": 20.0,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Xenocreed Congregation",
+      "base_archetype": "Genestealer Cults \u2014 Xenocreed Congregation",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 20.0,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Host of Ascension",
+      "base_archetype": "Genestealer Cults \u2014 Host of Ascension",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 20.0,
+      "win_rate": 0.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     }
   ],
   "top_players": [
     {
-      "player_name": "Jakub Leitner",
+      "player_name": "Ryan Jones",
       "detachment": "Biosanctic Broodsurge",
-      "list_url": "https://www.bestcoastpairings.com/list/R4cpY2tRB1CY",
+      "list_url": "https://www.bestcoastpairings.com/list/qf4dhZuUdW6i",
       "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
+      "wins": 3,
+      "losses": 0,
+      "draws": 2,
       "games": 5,
       "win_rate": 80.0
     },
     {
-      "player_name": "Michal Barciak",
-      "detachment": "Outlander Claw",
-      "list_url": "https://www.bestcoastpairings.com/list/uKtrtSEXg2iC",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Dylan Taine",
-      "detachment": "Biosanctic Broodsurge",
-      "list_url": "https://www.bestcoastpairings.com/list/CPzpS8WttNVV",
+      "player_name": "Jacob Opray",
+      "detachment": "Xenocreed Congregation",
+      "list_url": "https://www.bestcoastpairings.com/list/nJGMN6TD37Yj",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -63,9 +85,9 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Michael Sheahan",
-      "detachment": "Biosanctic Broodsurge",
-      "list_url": "https://www.bestcoastpairings.com/list/WMS385NVbhyF",
+      "player_name": "James The genstealer",
+      "detachment": "Final Day",
+      "list_url": "https://www.bestcoastpairings.com/list/HPXaXg23hSiY",
       "source": "bcp",
       "wins": 2,
       "losses": 2,
@@ -74,59 +96,37 @@
       "win_rate": 50.0
     },
     {
-      "player_name": "Jon\u00e1\u0161 \u010c\u00e1belka",
+      "player_name": "Gordon Snedden",
       "detachment": "Biosanctic Broodsurge",
-      "list_url": "https://www.bestcoastpairings.com/list/Ma91Kt2M2A6N",
+      "list_url": "https://www.bestcoastpairings.com/list/ggiacDDOlL7Q",
       "source": "bcp",
       "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Alex Phimister",
-      "detachment": "Biosanctic Broodsurge",
-      "list_url": "https://www.bestcoastpairings.com/list/mhzpKvEujuM9",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Jarrod Shoemaker",
-      "detachment": "Biosanctic Broodsurge",
-      "list_url": "https://www.bestcoastpairings.com/list/JfOYtKz6J9x9",
-      "source": "bcp",
-      "wins": 1,
       "losses": 2,
-      "draws": 2,
+      "draws": 1,
       "games": 5,
-      "win_rate": 40.0
-    }
-  ],
-  "matchups": [
-    {
-      "opponent_faction": "Aeldari",
-      "games": 5,
-      "wins": 3,
-      "win_rate": 70.0
+      "win_rate": 50.0
     },
     {
-      "opponent_faction": "Chaos Knights",
+      "player_name": "Terrence Gallagher",
+      "detachment": "Host of Ascension",
+      "list_url": "https://www.bestcoastpairings.com/list/fy9sZj2Knsk7",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 5,
+      "draws": 0,
       "games": 5,
-      "wins": 2,
-      "win_rate": 50.0
+      "win_rate": 0.0
     }
   ],
+  "matchups": [],
   "timeline": [
     {
-      "week": "2026-W19",
-      "lists": 7,
-      "games": 35,
-      "win_rate": 55.7
+      "week": "2026-W20",
+      "lists": 5,
+      "games": 25,
+      "win_rate": 48.0,
+      "total_lists": 448,
+      "play_rate": 1.1
     }
   ]
 }
