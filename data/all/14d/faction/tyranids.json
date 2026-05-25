@@ -1,30 +1,30 @@
 {
   "faction": "Tyranids",
   "slug": "tyranids",
-  "as_of": "2026-05-23",
+  "as_of": "2026-05-25",
   "window_days": 14,
   "event_type": "all",
-  "lists": 141,
-  "games": 661,
+  "lists": 143,
+  "games": 671,
   "play_rate": 4.4,
-  "win_rate": 46.6,
-  "trend_delta": -1.5,
+  "win_rate": 46.7,
+  "trend_delta": -2.3,
   "top_detachment": "Invasion Fleet",
-  "ci_lower": 42.8,
+  "ci_lower": 43.0,
   "meta_health": "strongly_under",
   "x0_pct": 1.4,
-  "x1_pct": 21.3,
+  "x1_pct": 21.0,
   "tournament_wins": 1,
   "detachments": [
     {
       "detachment": "Invasion Fleet",
       "base_archetype": "Tyranids \u2014 Invasion Fleet",
-      "lists": 63,
-      "games": 308,
-      "play_rate": 44.7,
-      "win_rate": 45.9,
+      "lists": 64,
+      "games": 313,
+      "play_rate": 44.8,
+      "win_rate": 46.2,
       "x0_pct": 1.6,
-      "x1_pct": 24.2,
+      "x1_pct": 23.8,
       "tournament_wins": 1
     },
     {
@@ -32,7 +32,7 @@
       "base_archetype": "Tyranids \u2014 Subterranean Assault",
       "lists": 52,
       "games": 240,
-      "play_rate": 36.9,
+      "play_rate": 36.4,
       "win_rate": 47.1,
       "x0_pct": 2.0,
       "x1_pct": 22.4,
@@ -43,7 +43,7 @@
       "base_archetype": "Tyranids \u2014 Vanguard Onslaught",
       "lists": 11,
       "games": 48,
-      "play_rate": 7.8,
+      "play_rate": 7.7,
       "win_rate": 58.3,
       "x0_pct": 0.0,
       "x1_pct": 30.0,
@@ -54,7 +54,7 @@
       "base_archetype": "Tyranids \u2014 Crusher Stampede",
       "lists": 6,
       "games": 30,
-      "play_rate": 4.3,
+      "play_rate": 4.2,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -63,12 +63,23 @@
     {
       "detachment": "Assimilation Swarm",
       "base_archetype": "Tyranids \u2014 Assimilation Swarm",
-      "lists": 4,
-      "games": 15,
-      "play_rate": 2.8,
-      "win_rate": 26.7,
+      "lists": 5,
+      "games": 20,
+      "play_rate": 3.5,
+      "win_rate": 32.5,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "No Detachment",
+      "base_archetype": "Tyranids \u2014 No Detachment",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 1.4,
+      "win_rate": 70.0,
+      "x0_pct": 0.0,
+      "x1_pct": 50.0,
       "tournament_wins": 0
     },
     {
@@ -78,17 +89,6 @@
       "games": 5,
       "play_rate": 1.4,
       "win_rate": 10.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "No Detachment",
-      "base_archetype": "Tyranids \u2014 No Detachment",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 0.7,
-      "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -174,7 +174,7 @@
     },
     {
       "player_name": "John Dyer",
-      "detachment": "",
+      "detachment": "No Detachment",
       "list_url": "https://www.bestcoastpairings.com/list/pdrQsTNNmqdd",
       "source": "bcp",
       "wins": 4,
@@ -330,15 +330,15 @@
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 57,
+      "games": 58,
       "wins": 33,
-      "win_rate": 58.8
+      "win_rate": 57.8
     },
     {
       "opponent_faction": "Chaos Space Marines",
-      "games": 52,
+      "games": 54,
       "wins": 19,
-      "win_rate": 36.5
+      "win_rate": 35.2
     },
     {
       "opponent_faction": "Astra Militarum",
@@ -365,13 +365,13 @@
       "win_rate": 41.9
     },
     {
-      "opponent_faction": "Necrons",
-      "games": 33,
-      "wins": 14,
-      "win_rate": 42.4
+      "opponent_faction": "Death Guard",
+      "games": 34,
+      "wins": 15,
+      "win_rate": 44.1
     },
     {
-      "opponent_faction": "Death Guard",
+      "opponent_faction": "Necrons",
       "games": 33,
       "wins": 14,
       "win_rate": 42.4
@@ -384,9 +384,9 @@
     },
     {
       "opponent_faction": "Chaos Knights",
-      "games": 26,
-      "wins": 11,
-      "win_rate": 44.2
+      "games": 27,
+      "wins": 12,
+      "win_rate": 46.3
     },
     {
       "opponent_faction": "Orks",
@@ -402,9 +402,9 @@
     },
     {
       "opponent_faction": "Thousand Sons",
-      "games": 21,
-      "wins": 9,
-      "win_rate": 42.9
+      "games": 22,
+      "wins": 10,
+      "win_rate": 45.5
     },
     {
       "opponent_faction": "World Eaters",
@@ -437,16 +437,16 @@
       "win_rate": 53.3
     },
     {
+      "opponent_faction": "Space Wolves",
+      "games": 13,
+      "wins": 7,
+      "win_rate": 53.8
+    },
+    {
       "opponent_faction": "Grey Knights",
       "games": 13,
       "wins": 8,
       "win_rate": 61.5
-    },
-    {
-      "opponent_faction": "Space Wolves",
-      "games": 12,
-      "wins": 6,
-      "win_rate": 54.2
     },
     {
       "opponent_faction": "Blood Angels",
@@ -461,16 +461,16 @@
       "win_rate": 50.0
     },
     {
+      "opponent_faction": "Deathwatch",
+      "games": 10,
+      "wins": 6,
+      "win_rate": 60.0
+    },
+    {
       "opponent_faction": "Genestealer Cults",
       "games": 9,
       "wins": 6,
       "win_rate": 66.7
-    },
-    {
-      "opponent_faction": "Deathwatch",
-      "games": 9,
-      "wins": 5,
-      "win_rate": 55.6
     },
     {
       "opponent_faction": "Adeptus Mechanicus",
@@ -490,11 +490,11 @@
     },
     {
       "week": "2026-W20",
-      "lists": 72,
-      "games": 356,
-      "win_rate": 44.8,
-      "total_lists": 1835,
-      "play_rate": 3.9
+      "lists": 74,
+      "games": 366,
+      "win_rate": 45.1,
+      "total_lists": 1868,
+      "play_rate": 4.0
     }
   ]
 }

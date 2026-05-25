@@ -1,19 +1,19 @@
 {
   "faction": "Emperor's Children",
   "slug": "emperor_s_children",
-  "as_of": "2026-05-23",
+  "as_of": "2026-05-25",
   "window_days": 7,
   "event_type": "all",
   "lists": 81,
-  "games": 397,
-  "play_rate": 4.4,
-  "win_rate": 53.7,
-  "trend_delta": -3.3,
+  "games": 402,
+  "play_rate": 4.3,
+  "win_rate": 54.0,
+  "trend_delta": -3.0,
   "top_detachment": "Coterie of the Conceited",
-  "ci_lower": 48.7,
+  "ci_lower": 49.1,
   "meta_health": "slightly_under",
   "x0_pct": 6.2,
-  "x1_pct": 18.5,
+  "x1_pct": 19.8,
   "tournament_wins": 2,
   "detachments": [
     {
@@ -30,12 +30,12 @@
     {
       "detachment": "Court of the Phoenician",
       "base_archetype": "Emperor's Children \u2014 Court of the Phoenician",
-      "lists": 11,
-      "games": 55,
-      "play_rate": 13.6,
-      "win_rate": 41.8,
+      "lists": 12,
+      "games": 60,
+      "play_rate": 14.8,
+      "win_rate": 45.0,
       "x0_pct": 0.0,
-      "x1_pct": 18.2,
+      "x1_pct": 25.0,
       "tournament_wins": 0
     },
     {
@@ -52,9 +52,9 @@
     {
       "detachment": "Peerless Bladesmen",
       "base_archetype": "Emperor's Children \u2014 Peerless Bladesmen",
-      "lists": 5,
+      "lists": 4,
       "games": 20,
-      "play_rate": 6.2,
+      "play_rate": 4.9,
       "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -206,6 +206,17 @@
       "win_rate": 80.0
     },
     {
+      "player_name": "Rafael Duran",
+      "detachment": "Court of the Phoenician",
+      "list_url": "https://www.bestcoastpairings.com/list/FytNI4ht7Vi3",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
       "player_name": "Luke Grant",
       "detachment": "Coterie of the Conceited",
       "list_url": "https://www.bestcoastpairings.com/list/fuqDiPc6ttWH",
@@ -292,25 +303,14 @@
       "draws": 0,
       "games": 5,
       "win_rate": 80.0
-    },
-    {
-      "player_name": "Sam Anderson",
-      "detachment": "Coterie of the Conceited",
-      "list_url": "https://www.bestcoastpairings.com/list/yN2peaj8qRnc",
-      "source": "bcp",
-      "wins": 7,
-      "losses": 3,
-      "draws": 0,
-      "games": 10,
-      "win_rate": 70.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 28,
-      "wins": 19,
-      "win_rate": 67.9
+      "games": 29,
+      "wins": 20,
+      "win_rate": 69.0
     },
     {
       "opponent_faction": "Imperial Knights",
@@ -331,16 +331,16 @@
       "win_rate": 45.8
     },
     {
+      "opponent_faction": "Death Guard",
+      "games": 22,
+      "wins": 8,
+      "win_rate": 38.6
+    },
+    {
       "opponent_faction": "Blood Angels",
       "games": 21,
       "wins": 16,
       "win_rate": 76.2
-    },
-    {
-      "opponent_faction": "Death Guard",
-      "games": 21,
-      "wins": 7,
-      "win_rate": 35.7
     },
     {
       "opponent_faction": "Astra Militarum",
@@ -373,16 +373,16 @@
       "win_rate": 72.2
     },
     {
+      "opponent_faction": "Orks",
+      "games": 16,
+      "wins": 9,
+      "win_rate": 56.2
+    },
+    {
       "opponent_faction": "Chaos Knights",
       "games": 16,
       "wins": 10,
       "win_rate": 62.5
-    },
-    {
-      "opponent_faction": "Orks",
-      "games": 15,
-      "wins": 8,
-      "win_rate": 53.3
     },
     {
       "opponent_faction": "Aeldari",
@@ -398,9 +398,9 @@
     },
     {
       "opponent_faction": "Drukhari",
-      "games": 11,
+      "games": 12,
       "wins": 6,
-      "win_rate": 54.5
+      "win_rate": 50.0
     },
     {
       "opponent_faction": "Adepta Sororitas",
@@ -410,9 +410,9 @@
     },
     {
       "opponent_faction": "Dark Angels",
-      "games": 10,
-      "wins": 7,
-      "win_rate": 70.0
+      "games": 11,
+      "wins": 8,
+      "win_rate": 72.7
     },
     {
       "opponent_faction": "Chaos Daemons",
@@ -453,20 +453,12 @@
   ],
   "timeline": [
     {
-      "week": "2026-W19",
-      "lists": 1,
-      "games": 0,
-      "win_rate": null,
-      "total_lists": 24,
-      "play_rate": 4.2
-    },
-    {
       "week": "2026-W20",
-      "lists": 80,
-      "games": 397,
-      "win_rate": 53.7,
-      "total_lists": 1835,
-      "play_rate": 4.4
+      "lists": 81,
+      "games": 402,
+      "win_rate": 54.0,
+      "total_lists": 1868,
+      "play_rate": 4.3
     }
   ]
 }

@@ -1,52 +1,52 @@
 {
   "faction": "Chaos Space Marines",
   "slug": "chaos_space_marines",
-  "as_of": "2026-05-23",
+  "as_of": "2026-05-25",
   "window_days": 7,
   "event_type": "all",
-  "lists": 128,
-  "games": 620,
-  "play_rate": 6.9,
-  "win_rate": 60.3,
-  "trend_delta": -2.5,
+  "lists": 131,
+  "games": 640,
+  "play_rate": 7.0,
+  "win_rate": 59.8,
+  "trend_delta": -3.1,
   "top_detachment": "Pactbound Zealots",
-  "ci_lower": 56.4,
+  "ci_lower": 56.0,
   "meta_health": "strongly_over",
-  "x0_pct": 12.5,
-  "x1_pct": 19.5,
+  "x0_pct": 12.2,
+  "x1_pct": 19.8,
   "tournament_wins": 8,
   "detachments": [
     {
       "detachment": "Pactbound Zealots",
       "base_archetype": "Chaos Space Marines \u2014 Pactbound Zealots",
       "lists": 73,
-      "games": 355,
-      "play_rate": 57.0,
-      "win_rate": 68.0,
-      "x0_pct": 18.3,
-      "x1_pct": 21.1,
+      "games": 360,
+      "play_rate": 55.7,
+      "win_rate": 67.6,
+      "x0_pct": 18.1,
+      "x1_pct": 20.8,
       "tournament_wins": 7
     },
     {
       "detachment": "Renegade Raiders",
       "base_archetype": "Chaos Space Marines \u2014 Renegade Raiders",
-      "lists": 11,
-      "games": 55,
-      "play_rate": 8.6,
-      "win_rate": 51.8,
+      "lists": 12,
+      "games": 60,
+      "play_rate": 9.2,
+      "win_rate": 53.3,
       "x0_pct": 0.0,
-      "x1_pct": 27.3,
+      "x1_pct": 33.3,
       "tournament_wins": 0
     },
     {
       "detachment": "Huron's Marauders",
       "base_archetype": "Chaos Space Marines \u2014 Huron's Marauders",
-      "lists": 11,
-      "games": 55,
-      "play_rate": 8.6,
-      "win_rate": 51.8,
+      "lists": 12,
+      "games": 60,
+      "play_rate": 9.2,
+      "win_rate": 50.8,
       "x0_pct": 0.0,
-      "x1_pct": 9.1,
+      "x1_pct": 8.3,
       "tournament_wins": 0
     },
     {
@@ -54,7 +54,7 @@
       "base_archetype": "Chaos Space Marines \u2014 Soulforged Warpack",
       "lists": 8,
       "games": 35,
-      "play_rate": 6.2,
+      "play_rate": 6.1,
       "win_rate": 60.0,
       "x0_pct": 25.0,
       "x1_pct": 25.0,
@@ -65,7 +65,7 @@
       "base_archetype": "Chaos Space Marines \u2014 Veterans of the Long War",
       "lists": 6,
       "games": 30,
-      "play_rate": 4.7,
+      "play_rate": 4.6,
       "win_rate": 61.7,
       "x0_pct": 0.0,
       "x1_pct": 33.3,
@@ -105,11 +105,22 @@
       "tournament_wins": 0
     },
     {
+      "detachment": "Creations of Bile",
+      "base_archetype": "Chaos Space Marines \u2014 Creations of Bile",
+      "lists": 3,
+      "games": 15,
+      "play_rate": 2.3,
+      "win_rate": 36.7,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
       "detachment": "Deceptors",
       "base_archetype": "Chaos Space Marines \u2014 Deceptors",
       "lists": 2,
       "games": 6,
-      "play_rate": 1.6,
+      "play_rate": 1.5,
       "win_rate": 16.7,
       "x0_pct": 0.0,
       "x1_pct": 50.0,
@@ -120,19 +131,8 @@
       "base_archetype": "Chaos Space Marines \u2014 Nightmare Hunt",
       "lists": 2,
       "games": 10,
-      "play_rate": 1.6,
+      "play_rate": 1.5,
       "win_rate": 20.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Creations of Bile",
-      "base_archetype": "Chaos Space Marines \u2014 Creations of Bile",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 1.6,
-      "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -413,9 +413,15 @@
     },
     {
       "opponent_faction": "Death Guard",
-      "games": 38,
-      "wins": 23,
-      "win_rate": 61.8
+      "games": 41,
+      "wins": 24,
+      "win_rate": 58.5
+    },
+    {
+      "opponent_faction": "Necrons",
+      "games": 37,
+      "wins": 28,
+      "win_rate": 77.0
     },
     {
       "opponent_faction": "Astra Militarum",
@@ -424,10 +430,10 @@
       "win_rate": 47.3
     },
     {
-      "opponent_faction": "Necrons",
-      "games": 35,
-      "wins": 28,
-      "win_rate": 81.4
+      "opponent_faction": "Tyranids",
+      "games": 30,
+      "wins": 19,
+      "win_rate": 65.0
     },
     {
       "opponent_faction": "World Eaters",
@@ -436,28 +442,22 @@
       "win_rate": 71.7
     },
     {
+      "opponent_faction": "Chaos Knights",
+      "games": 29,
+      "wins": 20,
+      "win_rate": 70.7
+    },
+    {
       "opponent_faction": "T'au Empire",
       "games": 29,
       "wins": 13,
       "win_rate": 44.8
     },
     {
-      "opponent_faction": "Chaos Knights",
-      "games": 28,
-      "wins": 19,
-      "win_rate": 69.6
-    },
-    {
-      "opponent_faction": "Tyranids",
-      "games": 28,
-      "wins": 17,
-      "win_rate": 62.5
-    },
-    {
       "opponent_faction": "Thousand Sons",
-      "games": 26,
+      "games": 28,
       "wins": 13,
-      "win_rate": 51.9
+      "win_rate": 48.2
     },
     {
       "opponent_faction": "Emperor's Children",
@@ -467,15 +467,21 @@
     },
     {
       "opponent_faction": "Imperial Knights",
-      "games": 24,
-      "wins": 16,
-      "win_rate": 66.7
+      "games": 25,
+      "wins": 17,
+      "win_rate": 68.0
     },
     {
       "opponent_faction": "Blood Angels",
-      "games": 24,
+      "games": 25,
       "wins": 17,
-      "win_rate": 72.9
+      "win_rate": 70.0
+    },
+    {
+      "opponent_faction": "Orks",
+      "games": 20,
+      "wins": 13,
+      "win_rate": 67.5
     },
     {
       "opponent_faction": "Leagues of Votann",
@@ -490,22 +496,22 @@
       "win_rate": 39.5
     },
     {
-      "opponent_faction": "Orks",
+      "opponent_faction": "Space Wolves",
       "games": 18,
-      "wins": 13,
-      "win_rate": 75.0
+      "wins": 9,
+      "win_rate": 52.8
     },
     {
       "opponent_faction": "Dark Angels",
-      "games": 17,
-      "wins": 9,
-      "win_rate": 55.9
+      "games": 18,
+      "wins": 10,
+      "win_rate": 58.3
     },
     {
-      "opponent_faction": "Space Wolves",
-      "games": 16,
-      "wins": 8,
-      "win_rate": 50.0
+      "opponent_faction": "Deathwatch",
+      "games": 13,
+      "wins": 4,
+      "win_rate": 34.6
     },
     {
       "opponent_faction": "Drukhari",
@@ -518,12 +524,6 @@
       "games": 13,
       "wins": 9,
       "win_rate": 69.2
-    },
-    {
-      "opponent_faction": "Deathwatch",
-      "games": 12,
-      "wins": 3,
-      "win_rate": 29.2
     },
     {
       "opponent_faction": "Adepta Sororitas",
@@ -558,20 +558,12 @@
   ],
   "timeline": [
     {
-      "week": "2026-W19",
-      "lists": 1,
-      "games": 0,
-      "win_rate": null,
-      "total_lists": 24,
-      "play_rate": 4.2
-    },
-    {
       "week": "2026-W20",
-      "lists": 127,
-      "games": 619,
-      "win_rate": 60.4,
-      "total_lists": 1835,
-      "play_rate": 6.9
+      "lists": 131,
+      "games": 639,
+      "win_rate": 59.9,
+      "total_lists": 1868,
+      "play_rate": 7.0
     }
   ]
 }

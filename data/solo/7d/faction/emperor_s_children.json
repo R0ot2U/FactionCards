@@ -1,19 +1,19 @@
 {
   "faction": "Emperor's Children",
   "slug": "emperor_s_children",
-  "as_of": "2026-05-23",
+  "as_of": "2026-05-25",
   "window_days": 7,
   "event_type": "solo",
-  "lists": 59,
-  "games": 287,
-  "play_rate": 4.3,
-  "win_rate": 51.2,
-  "trend_delta": -3.9,
+  "lists": 60,
+  "games": 292,
+  "play_rate": 4.2,
+  "win_rate": 51.7,
+  "trend_delta": -3.4,
   "top_detachment": "Coterie of the Conceited",
-  "ci_lower": 45.5,
+  "ci_lower": 46.0,
   "meta_health": "slightly_under",
-  "x0_pct": 3.4,
-  "x1_pct": 18.6,
+  "x0_pct": 3.3,
+  "x1_pct": 20.0,
   "tournament_wins": 1,
   "detachments": [
     {
@@ -21,7 +21,7 @@
       "base_archetype": "Emperor's Children \u2014 Coterie of the Conceited",
       "lists": 37,
       "games": 177,
-      "play_rate": 62.7,
+      "play_rate": 61.7,
       "win_rate": 54.8,
       "x0_pct": 5.6,
       "x1_pct": 22.2,
@@ -30,12 +30,12 @@
     {
       "detachment": "Court of the Phoenician",
       "base_archetype": "Emperor's Children \u2014 Court of the Phoenician",
-      "lists": 11,
-      "games": 55,
-      "play_rate": 18.6,
-      "win_rate": 41.8,
+      "lists": 12,
+      "games": 60,
+      "play_rate": 20.0,
+      "win_rate": 45.0,
       "x0_pct": 0.0,
-      "x1_pct": 18.2,
+      "x1_pct": 25.0,
       "tournament_wins": 0
     },
     {
@@ -43,7 +43,7 @@
       "base_archetype": "Emperor's Children \u2014 Carnival of Excess",
       "lists": 5,
       "games": 25,
-      "play_rate": 8.5,
+      "play_rate": 8.3,
       "win_rate": 68.0,
       "x0_pct": 0.0,
       "x1_pct": 20.0,
@@ -54,7 +54,7 @@
       "base_archetype": "Emperor's Children \u2014 Peerless Bladesmen",
       "lists": 4,
       "games": 20,
-      "play_rate": 6.8,
+      "play_rate": 6.7,
       "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -143,6 +143,17 @@
       "player_name": "Simon Quinn",
       "detachment": "Coterie of the Conceited",
       "list_url": "https://www.bestcoastpairings.com/list/4a4OoCaITPPF",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Rafael Duran",
+      "detachment": "Court of the Phoenician",
+      "list_url": "https://www.bestcoastpairings.com/list/FytNI4ht7Vi3",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -292,25 +303,14 @@
       "draws": 0,
       "games": 5,
       "win_rate": 60.0
-    },
-    {
-      "player_name": "Gabriel Lamotte",
-      "detachment": "Coterie of the Conceited",
-      "list_url": "https://www.bestcoastpairings.com/list/a9XXOTrIprho",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 22,
-      "wins": 15,
-      "win_rate": 68.2
+      "games": 23,
+      "wins": 16,
+      "win_rate": 69.6
     },
     {
       "opponent_faction": "Necrons",
@@ -349,16 +349,16 @@
       "win_rate": 73.3
     },
     {
+      "opponent_faction": "Death Guard",
+      "games": 14,
+      "wins": 3,
+      "win_rate": 25.0
+    },
+    {
       "opponent_faction": "Chaos Knights",
       "games": 13,
       "wins": 9,
       "win_rate": 69.2
-    },
-    {
-      "opponent_faction": "Death Guard",
-      "games": 13,
-      "wins": 2,
-      "win_rate": 19.2
     },
     {
       "opponent_faction": "Adeptus Custodes",
@@ -380,9 +380,15 @@
     },
     {
       "opponent_faction": "Orks",
-      "games": 9,
-      "wins": 5,
-      "win_rate": 55.6
+      "games": 10,
+      "wins": 6,
+      "win_rate": 60.0
+    },
+    {
+      "opponent_faction": "Dark Angels",
+      "games": 10,
+      "wins": 7,
+      "win_rate": 70.0
     },
     {
       "opponent_faction": "Aeldari",
@@ -397,28 +403,22 @@
       "win_rate": 44.4
     },
     {
-      "opponent_faction": "Dark Angels",
-      "games": 9,
-      "wins": 6,
-      "win_rate": 66.7
-    },
-    {
       "opponent_faction": "T'au Empire",
       "games": 7,
       "wins": 5,
       "win_rate": 71.4
     },
     {
+      "opponent_faction": "Drukhari",
+      "games": 7,
+      "wins": 2,
+      "win_rate": 28.6
+    },
+    {
       "opponent_faction": "Adepta Sororitas",
       "games": 7,
       "wins": 4,
       "win_rate": 57.1
-    },
-    {
-      "opponent_faction": "Drukhari",
-      "games": 6,
-      "wins": 2,
-      "win_rate": 33.3
     },
     {
       "opponent_faction": "Thousand Sons",
@@ -448,11 +448,11 @@
   "timeline": [
     {
       "week": "2026-W20",
-      "lists": 59,
-      "games": 287,
-      "win_rate": 51.2,
-      "total_lists": 1387,
-      "play_rate": 4.3
+      "lists": 60,
+      "games": 292,
+      "win_rate": 51.7,
+      "total_lists": 1420,
+      "play_rate": 4.2
     }
   ]
 }

@@ -1,30 +1,30 @@
 {
   "faction": "Drukhari",
   "slug": "drukhari",
-  "as_of": "2026-05-23",
+  "as_of": "2026-05-25",
   "window_days": 7,
   "event_type": "all",
-  "lists": 36,
-  "games": 175,
-  "play_rate": 1.9,
-  "win_rate": 51.1,
-  "trend_delta": 0.9,
+  "lists": 38,
+  "games": 185,
+  "play_rate": 2.0,
+  "win_rate": 51.9,
+  "trend_delta": 1.7,
   "top_detachment": "Reaper's Wager",
-  "ci_lower": 43.8,
+  "ci_lower": 44.7,
   "meta_health": "strongly_under",
-  "x0_pct": 2.8,
-  "x1_pct": 22.2,
+  "x0_pct": 2.6,
+  "x1_pct": 23.7,
   "tournament_wins": 1,
   "detachments": [
     {
       "detachment": "Reaper's Wager",
       "base_archetype": "Drukhari \u2014 Reaper's Wager",
-      "lists": 14,
-      "games": 68,
-      "play_rate": 38.9,
-      "win_rate": 46.3,
+      "lists": 16,
+      "games": 78,
+      "play_rate": 42.1,
+      "win_rate": 48.7,
       "x0_pct": 0.0,
-      "x1_pct": 14.3,
+      "x1_pct": 18.8,
       "tournament_wins": 0
     },
     {
@@ -32,7 +32,7 @@
       "base_archetype": "Drukhari \u2014 Spectacle of Spite",
       "lists": 12,
       "games": 58,
-      "play_rate": 33.3,
+      "play_rate": 31.6,
       "win_rate": 62.9,
       "x0_pct": 8.3,
       "x1_pct": 50.0,
@@ -43,7 +43,7 @@
       "base_archetype": "Drukhari \u2014 Kabalite Cartel",
       "lists": 8,
       "games": 39,
-      "play_rate": 22.2,
+      "play_rate": 21.1,
       "win_rate": 46.2,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -54,7 +54,7 @@
       "base_archetype": "Drukhari \u2014 Skysplinter Assault",
       "lists": 2,
       "games": 10,
-      "play_rate": 5.6,
+      "play_rate": 5.3,
       "win_rate": 35.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -88,6 +88,17 @@
       "player_name": "Ashley Hall",
       "detachment": "Spectacle of Spite",
       "list_url": "https://www.bestcoastpairings.com/list/WTwj44B1slBZ",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Felix Martin",
+      "detachment": "Reaper's Wager",
+      "list_url": "https://www.bestcoastpairings.com/list/qQ7EGm6QhTpE",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -270,17 +281,6 @@
       "draws": 1,
       "games": 5,
       "win_rate": 50.0
-    },
-    {
-      "player_name": "jonathan savoie",
-      "detachment": "Spectacle of Spite",
-      "list_url": "https://www.bestcoastpairings.com/list/JmqYYzORualP",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 1,
-      "draws": 3,
-      "games": 5,
-      "win_rate": 50.0
     }
   ],
   "matchups": [
@@ -291,28 +291,28 @@
       "win_rate": 52.1
     },
     {
+      "opponent_faction": "Necrons",
+      "games": 13,
+      "wins": 4,
+      "win_rate": 30.8
+    },
+    {
       "opponent_faction": "Chaos Space Marines",
       "games": 13,
       "wins": 7,
       "win_rate": 57.7
     },
     {
-      "opponent_faction": "Necrons",
-      "games": 12,
-      "wins": 4,
-      "win_rate": 33.3
-    },
-    {
       "opponent_faction": "Death Guard",
-      "games": 10,
-      "wins": 6,
-      "win_rate": 60.0
+      "games": 11,
+      "wins": 7,
+      "win_rate": 63.6
     },
     {
       "opponent_faction": "Emperor's Children",
-      "games": 10,
-      "wins": 5,
-      "win_rate": 50.0
+      "games": 11,
+      "wins": 6,
+      "win_rate": 54.5
     },
     {
       "opponent_faction": "T'au Empire",
@@ -321,34 +321,34 @@
       "win_rate": 20.0
     },
     {
+      "opponent_faction": "Thousand Sons",
+      "games": 10,
+      "wins": 6,
+      "win_rate": 60.0
+    },
+    {
+      "opponent_faction": "Orks",
+      "games": 10,
+      "wins": 5,
+      "win_rate": 55.0
+    },
+    {
+      "opponent_faction": "Blood Angels",
+      "games": 10,
+      "wins": 4,
+      "win_rate": 40.0
+    },
+    {
+      "opponent_faction": "Imperial Knights",
+      "games": 9,
+      "wins": 5,
+      "win_rate": 61.1
+    },
+    {
       "opponent_faction": "Astra Militarum",
       "games": 9,
       "wins": 5,
       "win_rate": 55.6
-    },
-    {
-      "opponent_faction": "Thousand Sons",
-      "games": 9,
-      "wins": 6,
-      "win_rate": 66.7
-    },
-    {
-      "opponent_faction": "Blood Angels",
-      "games": 9,
-      "wins": 3,
-      "win_rate": 33.3
-    },
-    {
-      "opponent_faction": "Imperial Knights",
-      "games": 8,
-      "wins": 5,
-      "win_rate": 62.5
-    },
-    {
-      "opponent_faction": "Orks",
-      "games": 8,
-      "wins": 4,
-      "win_rate": 56.2
     },
     {
       "opponent_faction": "Aeldari",
@@ -378,10 +378,10 @@
   "timeline": [
     {
       "week": "2026-W20",
-      "lists": 36,
-      "games": 175,
-      "win_rate": 51.1,
-      "total_lists": 1835,
+      "lists": 38,
+      "games": 185,
+      "win_rate": 51.9,
+      "total_lists": 1868,
       "play_rate": 2.0
     }
   ]

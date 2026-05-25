@@ -1,30 +1,30 @@
 {
   "faction": "Thousand Sons",
   "slug": "thousand_sons",
-  "as_of": "2026-05-23",
+  "as_of": "2026-05-25",
   "window_days": 14,
   "event_type": "solo",
-  "lists": 83,
-  "games": 379,
+  "lists": 84,
+  "games": 384,
   "play_rate": 3.6,
-  "win_rate": 49.9,
-  "trend_delta": -15.9,
+  "win_rate": 50.9,
+  "trend_delta": -15.4,
   "top_detachment": "Grand Coven",
-  "ci_lower": 44.9,
-  "meta_health": "strongly_under",
+  "ci_lower": 45.9,
+  "meta_health": "slightly_under",
   "x0_pct": 6.0,
-  "x1_pct": 16.9,
+  "x1_pct": 17.9,
   "tournament_wins": 1,
   "detachments": [
     {
       "detachment": "Grand Coven",
       "base_archetype": "Thousand Sons \u2014 Grand Coven",
-      "lists": 41,
-      "games": 193,
-      "play_rate": 49.4,
-      "win_rate": 48.7,
-      "x0_pct": 5.0,
-      "x1_pct": 12.5,
+      "lists": 43,
+      "games": 203,
+      "play_rate": 51.2,
+      "win_rate": 49.5,
+      "x0_pct": 4.8,
+      "x1_pct": 14.3,
       "tournament_wins": 0
     },
     {
@@ -32,7 +32,7 @@
       "base_archetype": "Thousand Sons \u2014 Rubricae Phalanx",
       "lists": 20,
       "games": 90,
-      "play_rate": 24.1,
+      "play_rate": 23.8,
       "win_rate": 55.6,
       "x0_pct": 5.6,
       "x1_pct": 33.3,
@@ -43,7 +43,7 @@
       "base_archetype": "Thousand Sons \u2014 Hexwarp Thrallband",
       "lists": 9,
       "games": 42,
-      "play_rate": 10.8,
+      "play_rate": 10.7,
       "win_rate": 48.8,
       "x0_pct": 11.1,
       "x1_pct": 22.2,
@@ -54,7 +54,7 @@
       "base_archetype": "Thousand Sons \u2014 Warpforged Cabal",
       "lists": 8,
       "games": 35,
-      "play_rate": 9.6,
+      "play_rate": 9.5,
       "win_rate": 57.1,
       "x0_pct": 14.3,
       "x1_pct": 0.0,
@@ -69,17 +69,6 @@
       "win_rate": 18.2,
       "x0_pct": 0.0,
       "x1_pct": 33.3,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "No Detachment",
-      "base_archetype": "Thousand Sons \u2014 No Detachment",
-      "lists": 2,
-      "games": 8,
-      "play_rate": 2.4,
-      "win_rate": 31.2,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
       "tournament_wins": 0
     }
   ],
@@ -272,6 +261,17 @@
       "win_rate": 70.0
     },
     {
+      "player_name": "pixon Pixon",
+      "detachment": "Grand Coven",
+      "list_url": "https://www.bestcoastpairings.com/list/moxNmNGHoNjJ",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
       "player_name": "Val Jensen",
       "detachment": "Rubricae Phalanx",
       "list_url": "https://www.bestcoastpairings.com/list/snrMFyiGwkNJ",
@@ -292,49 +292,32 @@
       "draws": 0,
       "games": 6,
       "win_rate": 66.7
-    },
-    {
-      "player_name": "Bryn King",
-      "detachment": "Rubricae Phalanx",
-      "list_url": "https://www.bestcoastpairings.com/list/8qUKSwFmtmXD",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 37,
+      "games": 36,
       "wins": 22,
-      "win_rate": 60.8
+      "win_rate": 62.5
     },
     {
       "opponent_faction": "Chaos Space Marines",
-      "games": 29,
-      "wins": 11,
-      "win_rate": 39.7
+      "games": 30,
+      "wins": 13,
+      "win_rate": 45.0
     },
     {
       "opponent_faction": "Necrons",
-      "games": 26,
-      "wins": 15,
-      "win_rate": 59.6
+      "games": 27,
+      "wins": 16,
+      "win_rate": 59.3
     },
     {
       "opponent_faction": "Death Guard",
       "games": 22,
       "wins": 8,
       "win_rate": 36.4
-    },
-    {
-      "opponent_faction": "Adeptus Custodes",
-      "games": 22,
-      "wins": 10,
-      "win_rate": 45.5
     },
     {
       "opponent_faction": "Imperial Knights",
@@ -344,6 +327,12 @@
     },
     {
       "opponent_faction": "Emperor's Children",
+      "games": 20,
+      "wins": 10,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "Adeptus Custodes",
       "games": 20,
       "wins": 10,
       "win_rate": 50.0
@@ -373,16 +362,16 @@
       "win_rate": 71.4
     },
     {
+      "opponent_faction": "Tyranids",
+      "games": 14,
+      "wins": 6,
+      "win_rate": 42.9
+    },
+    {
       "opponent_faction": "World Eaters",
       "games": 14,
       "wins": 9,
       "win_rate": 64.3
-    },
-    {
-      "opponent_faction": "Tyranids",
-      "games": 13,
-      "wins": 6,
-      "win_rate": 46.2
     },
     {
       "opponent_faction": "Blood Angels",
@@ -391,28 +380,28 @@
       "win_rate": 57.7
     },
     {
+      "opponent_faction": "Orks",
+      "games": 12,
+      "wins": 7,
+      "win_rate": 62.5
+    },
+    {
       "opponent_faction": "Aeldari",
       "games": 12,
       "wins": 6,
       "win_rate": 50.0
     },
     {
-      "opponent_faction": "Orks",
-      "games": 11,
+      "opponent_faction": "Leagues of Votann",
+      "games": 10,
       "wins": 6,
-      "win_rate": 59.1
+      "win_rate": 60.0
     },
     {
       "opponent_faction": "Drukhari",
-      "games": 9,
-      "wins": 1,
-      "win_rate": 11.1
-    },
-    {
-      "opponent_faction": "Leagues of Votann",
-      "games": 8,
-      "wins": 5,
-      "win_rate": 62.5
+      "games": 10,
+      "wins": 2,
+      "win_rate": 20.0
     },
     {
       "opponent_faction": "Space Wolves",
@@ -440,20 +429,12 @@
     },
     {
       "opponent_faction": "Deathwatch",
-      "games": 5,
-      "wins": 1,
-      "win_rate": 20.0
+      "games": 6,
+      "wins": 2,
+      "win_rate": 33.3
     }
   ],
   "timeline": [
-    {
-      "week": "2026-W18",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 0.0,
-      "total_lists": 8,
-      "play_rate": 12.5
-    },
     {
       "week": "2026-W19",
       "lists": 37,
@@ -464,11 +445,11 @@
     },
     {
       "week": "2026-W20",
-      "lists": 45,
-      "games": 210,
-      "win_rate": 50.7,
-      "total_lists": 1387,
-      "play_rate": 3.2
+      "lists": 47,
+      "games": 220,
+      "win_rate": 51.4,
+      "total_lists": 1420,
+      "play_rate": 3.3
     }
   ]
 }
