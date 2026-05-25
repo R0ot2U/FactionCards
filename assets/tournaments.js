@@ -16,9 +16,9 @@ async function loadData(eventType, windowDays, cacheBust = false) {
     const tournaments = await fetchJSON(`${root}/tournaments.json`, cacheBust);
     allTournaments = tournaments;
 
-    // Load map data for map visualization
+    // Load map data for this window
     try {
-      mapData = await fetchJSON(`data/map.json`);
+      mapData = await fetchJSON(`${root}/map.json`);
     } catch (_) {
       mapData = [];
     }
@@ -34,9 +34,9 @@ async function loadData(eventType, windowDays, cacheBust = false) {
         currentEventType = "all";
         currentWindow = "30d";
 
-        // Load map data for fallback
+        // Load map data for fallback window
         try {
-          mapData = await fetchJSON(`data/map.json`);
+          mapData = await fetchJSON(`${dataRoot("all", "30d")}/map.json`);
         } catch (_) {
           mapData = [];
         }

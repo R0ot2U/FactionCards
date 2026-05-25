@@ -16,13 +16,9 @@ async function loadData(eventType, window) {
     const factions = await fetchJSON(`${root}/factions.json`);
     allFactions = factions;
 
-    // Load map data and tournaments to filter by window
+    // Load map data for this window
     try {
-      mapData = await fetchJSON(`data/map.json`);
-      // Also load tournaments to know which event_ids are in this window
-      const tournaments = await fetchJSON(`${root}/tournaments.json`);
-      const tournamentIds = new Set(tournaments.map(t => t.event_id));
-      mapData = mapData.filter(e => tournamentIds.has(e.event_id));
+      mapData = await fetchJSON(`${root}/map.json`);
     } catch (_) {
       mapData = [];
     }
@@ -37,12 +33,9 @@ async function loadData(eventType, window) {
         allFactions = factions;
         currentEventType = "all";
         currentWindow = "30d";
-        // Load map data for fallback and filter by window
+        // Load map data for fallback window
         try {
-          mapData = await fetchJSON(`data/map.json`);
-          const tournaments = await fetchJSON(`${dataRoot("all", "30d")}/tournaments.json`);
-          const tournamentIds = new Set(tournaments.map(t => t.event_id));
-          mapData = mapData.filter(e => tournamentIds.has(e.event_id));
+          mapData = await fetchJSON(`${dataRoot("all", "30d")}/map.json`);
         } catch (_) {
           mapData = [];
         }

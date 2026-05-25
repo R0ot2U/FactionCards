@@ -33,24 +33,17 @@ async function loadFactionData(slug, eventType, windowDays) {
   let manifest = {};
   try { manifest = await fetchJSON(`${dataRoot(eventType, windowDays)}/index.json`); } catch (_) {}
 
-  // Load map data for faction filtering and filter by window
+  // Load map data for this window
   let mapData = [];
   try {
     const root = dataRoot(eventType, windowDays);
-    const fullMapData = await fetchJSON(`data/map.json`);
-    // Load tournaments to know which event_ids are in this window
-    const tournaments = await fetchJSON(`${root}/tournaments.json`);
-    const tournamentIds = new Set(tournaments.map(t => t.event_id));
-    mapData = fullMapData.filter(e => tournamentIds.has(e.event_id));
+    mapData = await fetchJSON(`${root}/map.json`);
   } catch (_) {
     // If error, try fallback window
     if (usedFallback) {
       try {
         const fallbackRoot = dataRoot("all", "30d");
-        const fullMapData = await fetchJSON(`data/map.json`);
-        const tournaments = await fetchJSON(`${fallbackRoot}/tournaments.json`);
-        const tournamentIds = new Set(tournaments.map(t => t.event_id));
-        mapData = fullMapData.filter(e => tournamentIds.has(e.event_id));
+        mapData = await fetchJSON(`${fallbackRoot}/map.json`);
       } catch (_) {
         mapData = [];
       }
