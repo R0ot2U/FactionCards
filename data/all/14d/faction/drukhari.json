@@ -1,49 +1,49 @@
 {
   "faction": "Drukhari",
   "slug": "drukhari",
-  "as_of": "2026-05-23",
+  "as_of": "2026-05-25",
   "window_days": 14,
   "event_type": "all",
-  "lists": 87,
-  "games": 414,
-  "play_rate": 2.7,
-  "win_rate": 51.0,
-  "trend_delta": -0.5,
+  "lists": 93,
+  "games": 439,
+  "play_rate": 2.6,
+  "win_rate": 51.5,
+  "trend_delta": 0.0,
   "top_detachment": "Spectacle of Spite",
-  "ci_lower": 46.2,
+  "ci_lower": 46.8,
   "meta_health": "slightly_under",
-  "x0_pct": 3.4,
-  "x1_pct": 10.3,
-  "tournament_wins": 2,
+  "x0_pct": 4.3,
+  "x1_pct": 9.7,
+  "tournament_wins": 3,
   "detachments": [
     {
       "detachment": "Spectacle of Spite",
       "base_archetype": "Drukhari \u2014 Spectacle of Spite",
-      "lists": 35,
-      "games": 168,
-      "play_rate": 40.2,
-      "win_rate": 56.2,
-      "x0_pct": 8.8,
-      "x1_pct": 8.8,
+      "lists": 37,
+      "games": 173,
+      "play_rate": 39.8,
+      "win_rate": 56.4,
+      "x0_pct": 8.6,
+      "x1_pct": 8.6,
       "tournament_wins": 2
     },
     {
       "detachment": "Reaper's Wager",
       "base_archetype": "Drukhari \u2014 Reaper's Wager",
-      "lists": 31,
-      "games": 147,
-      "play_rate": 35.6,
-      "win_rate": 51.0,
-      "x0_pct": 0.0,
-      "x1_pct": 20.0,
-      "tournament_wins": 0
+      "lists": 34,
+      "games": 162,
+      "play_rate": 36.6,
+      "win_rate": 53.1,
+      "x0_pct": 3.0,
+      "x1_pct": 18.2,
+      "tournament_wins": 1
     },
     {
       "detachment": "Kabalite Cartel",
       "base_archetype": "Drukhari \u2014 Kabalite Cartel",
       "lists": 15,
       "games": 72,
-      "play_rate": 17.2,
+      "play_rate": 16.1,
       "win_rate": 43.1,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -52,10 +52,10 @@
     {
       "detachment": "Skysplinter Assault",
       "base_archetype": "Drukhari \u2014 Skysplinter Assault",
-      "lists": 5,
-      "games": 25,
-      "play_rate": 5.7,
-      "win_rate": 42.0,
+      "lists": 6,
+      "games": 30,
+      "play_rate": 6.5,
+      "win_rate": 38.3,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -77,6 +77,17 @@
       "player_name": "Tom Hamshire",
       "detachment": "Spectacle of Spite",
       "list_url": "https://www.bestcoastpairings.com/list/vEqgRjwzvZHk",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "liam Vsl",
+      "detachment": "Reaper's Wager",
+      "list_url": "https://www.bestcoastpairings.com/list/w1shRYa4P76L",
       "source": "bcp",
       "wins": 5,
       "losses": 0,
@@ -270,25 +281,14 @@
       "draws": 0,
       "games": 5,
       "win_rate": 60.0
-    },
-    {
-      "player_name": "Thibault Fleischmann",
-      "detachment": "Reaper's Wager",
-      "list_url": "https://www.bestcoastpairings.com/list/W9nx2n9HxKsg",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 34,
-      "wins": 19,
-      "win_rate": 57.4
+      "games": 40,
+      "wins": 24,
+      "win_rate": 61.3
     },
     {
       "opponent_faction": "Chaos Space Marines",
@@ -298,15 +298,27 @@
     },
     {
       "opponent_faction": "Necrons",
-      "games": 29,
-      "wins": 11,
-      "win_rate": 37.9
+      "games": 30,
+      "wins": 12,
+      "win_rate": 40.0
     },
     {
       "opponent_faction": "Death Guard",
-      "games": 25,
+      "games": 26,
       "wins": 14,
-      "win_rate": 56.0
+      "win_rate": 53.8
+    },
+    {
+      "opponent_faction": "Astra Militarum",
+      "games": 23,
+      "wins": 8,
+      "win_rate": 37.0
+    },
+    {
+      "opponent_faction": "Blood Angels",
+      "games": 23,
+      "wins": 13,
+      "win_rate": 58.7
     },
     {
       "opponent_faction": "Emperor's Children",
@@ -315,22 +327,10 @@
       "win_rate": 36.4
     },
     {
-      "opponent_faction": "Astra Militarum",
-      "games": 21,
-      "wins": 7,
-      "win_rate": 35.7
-    },
-    {
-      "opponent_faction": "Blood Angels",
-      "games": 21,
-      "wins": 11,
-      "win_rate": 54.8
-    },
-    {
       "opponent_faction": "Imperial Knights",
-      "games": 20,
-      "wins": 13,
-      "win_rate": 67.5
+      "games": 21,
+      "wins": 14,
+      "win_rate": 69.0
     },
     {
       "opponent_faction": "Chaos Daemons",
@@ -340,27 +340,33 @@
     },
     {
       "opponent_faction": "T'au Empire",
-      "games": 18,
-      "wins": 5,
-      "win_rate": 30.6
-    },
-    {
-      "opponent_faction": "Orks",
-      "games": 18,
-      "wins": 12,
-      "win_rate": 66.7
-    },
-    {
-      "opponent_faction": "World Eaters",
-      "games": 16,
-      "wins": 10,
-      "win_rate": 62.5
+      "games": 19,
+      "wins": 6,
+      "win_rate": 34.2
     },
     {
       "opponent_faction": "Thousand Sons",
-      "games": 16,
-      "wins": 9,
-      "win_rate": 56.2
+      "games": 19,
+      "wins": 10,
+      "win_rate": 52.6
+    },
+    {
+      "opponent_faction": "Orks",
+      "games": 19,
+      "wins": 12,
+      "win_rate": 63.2
+    },
+    {
+      "opponent_faction": "World Eaters",
+      "games": 17,
+      "wins": 10,
+      "win_rate": 58.8
+    },
+    {
+      "opponent_faction": "Tyranids",
+      "games": 15,
+      "wins": 7,
+      "win_rate": 46.7
     },
     {
       "opponent_faction": "Adepta Sororitas",
@@ -369,10 +375,10 @@
       "win_rate": 60.0
     },
     {
-      "opponent_faction": "Tyranids",
-      "games": 14,
-      "wins": 6,
-      "win_rate": 42.9
+      "opponent_faction": "Leagues of Votann",
+      "games": 13,
+      "wins": 8,
+      "win_rate": 65.4
     },
     {
       "opponent_faction": "Aeldari",
@@ -381,16 +387,10 @@
       "win_rate": 54.2
     },
     {
-      "opponent_faction": "Leagues of Votann",
-      "games": 11,
-      "wins": 7,
-      "win_rate": 68.2
-    },
-    {
       "opponent_faction": "Adeptus Mechanicus",
-      "games": 10,
+      "games": 11,
       "wins": 3,
-      "win_rate": 35.0
+      "win_rate": 31.8
     },
     {
       "opponent_faction": "Adeptus Custodes",
@@ -399,16 +399,16 @@
       "win_rate": 70.0
     },
     {
+      "opponent_faction": "Chaos Knights",
+      "games": 9,
+      "wins": 4,
+      "win_rate": 44.4
+    },
+    {
       "opponent_faction": "Deathwatch",
       "games": 8,
       "wins": 2,
       "win_rate": 31.2
-    },
-    {
-      "opponent_faction": "Chaos Knights",
-      "games": 8,
-      "wins": 4,
-      "win_rate": 50.0
     },
     {
       "opponent_faction": "Dark Angels",
@@ -434,10 +434,10 @@
     },
     {
       "week": "2026-W20",
-      "lists": 38,
-      "games": 185,
-      "win_rate": 51.9,
-      "total_lists": 1868,
+      "lists": 44,
+      "games": 210,
+      "win_rate": 52.9,
+      "total_lists": 2160,
       "play_rate": 2.0
     }
   ]

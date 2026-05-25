@@ -1,50 +1,61 @@
 {
   "faction": "Chaos Knights",
   "slug": "chaos_knights",
-  "as_of": "2026-05-23",
+  "as_of": "2026-05-25",
   "window_days": 7,
   "event_type": "solo",
-  "lists": 53,
-  "games": 247,
-  "play_rate": 3.7,
-  "win_rate": 44.5,
-  "trend_delta": -2.1,
+  "lists": 60,
+  "games": 282,
+  "play_rate": 3.5,
+  "win_rate": 45.0,
+  "trend_delta": -1.6,
   "top_detachment": "Infernal Lance",
-  "ci_lower": 38.5,
+  "ci_lower": 39.3,
   "meta_health": "strongly_under",
-  "x0_pct": 1.9,
-  "x1_pct": 7.5,
+  "x0_pct": 1.7,
+  "x1_pct": 8.3,
   "tournament_wins": 1,
   "detachments": [
     {
       "detachment": "Infernal Lance",
       "base_archetype": "Chaos Knights \u2014 Infernal Lance",
-      "lists": 35,
-      "games": 162,
-      "play_rate": 66.0,
-      "win_rate": 44.4,
+      "lists": 37,
+      "games": 172,
+      "play_rate": 61.7,
+      "win_rate": 45.3,
       "x0_pct": 0.0,
-      "x1_pct": 8.6,
+      "x1_pct": 10.8,
       "tournament_wins": 0
     },
     {
       "detachment": "Houndpack Lance",
       "base_archetype": "Chaos Knights \u2014 Houndpack Lance",
-      "lists": 8,
-      "games": 40,
-      "play_rate": 15.1,
-      "win_rate": 50.0,
+      "lists": 9,
+      "games": 45,
+      "play_rate": 15.0,
+      "win_rate": 51.1,
       "x0_pct": 0.0,
-      "x1_pct": 12.5,
+      "x1_pct": 11.1,
       "tournament_wins": 0
     },
     {
       "detachment": "Lords of Dread",
       "base_archetype": "Chaos Knights \u2014 Lords of Dread",
+      "lists": 5,
+      "games": 25,
+      "play_rate": 8.3,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Helhunt Lance",
+      "base_archetype": "Chaos Knights \u2014 Helhunt Lance",
       "lists": 4,
       "games": 20,
-      "play_rate": 7.5,
-      "win_rate": 35.0,
+      "play_rate": 6.7,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -54,25 +65,36 @@
       "base_archetype": "Chaos Knights \u2014 Iconoclast Fiefdom",
       "lists": 3,
       "games": 12,
-      "play_rate": 5.7,
+      "play_rate": 5.0,
       "win_rate": 41.7,
       "x0_pct": 33.3,
       "x1_pct": 0.0,
       "tournament_wins": 1
     },
     {
-      "detachment": "Helhunt Lance",
-      "base_archetype": "Chaos Knights \u2014 Helhunt Lance",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 3.8,
-      "win_rate": 50.0,
+      "detachment": "Traitoris Lance",
+      "base_archetype": "Chaos Knights \u2014 Traitoris Lance",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 1.7,
+      "win_rate": 0.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     }
   ],
   "top_players": [
+    {
+      "player_name": "Greg Harris",
+      "detachment": "Infernal Lance",
+      "list_url": "https://www.bestcoastpairings.com/list/oApF2Ah57PLt",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
     {
       "player_name": "Cameron Zareie",
       "detachment": "Houndpack Lance",
@@ -281,49 +303,44 @@
       "draws": 0,
       "games": 5,
       "win_rate": 60.0
-    },
-    {
-      "player_name": "Nick Fuller",
-      "detachment": "Infernal Lance",
-      "list_url": "https://www.bestcoastpairings.com/list/K50yOA9oYF2d",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Necrons",
-      "games": 24,
-      "wins": 13,
-      "win_rate": 54.2
+      "games": 27,
+      "wins": 15,
+      "win_rate": 55.6
     },
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 23,
-      "wins": 9,
-      "win_rate": 41.3
+      "games": 27,
+      "wins": 10,
+      "win_rate": 38.9
     },
     {
       "opponent_faction": "Chaos Space Marines",
-      "games": 20,
+      "games": 24,
       "wins": 6,
-      "win_rate": 32.5
+      "win_rate": 27.1
     },
     {
       "opponent_faction": "Imperial Knights",
-      "games": 14,
+      "games": 15,
       "wins": 8,
-      "win_rate": 57.1
+      "win_rate": 53.3
     },
     {
       "opponent_faction": "Astra Militarum",
-      "games": 14,
+      "games": 15,
       "wins": 8,
-      "win_rate": 57.1
+      "win_rate": 53.3
+    },
+    {
+      "opponent_faction": "Thousand Sons",
+      "games": 13,
+      "wins": 3,
+      "win_rate": 23.1
     },
     {
       "opponent_faction": "Emperor's Children",
@@ -332,40 +349,46 @@
       "win_rate": 30.8
     },
     {
-      "opponent_faction": "Thousand Sons",
+      "opponent_faction": "Adeptus Custodes",
       "games": 12,
-      "wins": 3,
-      "win_rate": 25.0
+      "wins": 7,
+      "win_rate": 58.3
     },
     {
       "opponent_faction": "T'au Empire",
-      "games": 11,
-      "wins": 7,
-      "win_rate": 63.6
+      "games": 12,
+      "wins": 8,
+      "win_rate": 66.7
     },
     {
       "opponent_faction": "Death Guard",
+      "games": 12,
+      "wins": 6,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "World Eaters",
       "games": 11,
       "wins": 5,
       "win_rate": 45.5
     },
     {
-      "opponent_faction": "World Eaters",
+      "opponent_faction": "Blood Angels",
       "games": 10,
       "wins": 4,
-      "win_rate": 40.0
+      "win_rate": 45.0
     },
     {
-      "opponent_faction": "Adeptus Custodes",
-      "games": 8,
-      "wins": 4,
-      "win_rate": 50.0
+      "opponent_faction": "Aeldari",
+      "games": 10,
+      "wins": 6,
+      "win_rate": 60.0
     },
     {
       "opponent_faction": "Grey Knights",
-      "games": 8,
+      "games": 9,
       "wins": 3,
-      "win_rate": 37.5
+      "win_rate": 33.3
     },
     {
       "opponent_faction": "Orks",
@@ -374,16 +397,16 @@
       "win_rate": 37.5
     },
     {
-      "opponent_faction": "Aeldari",
+      "opponent_faction": "Chaos Daemons",
       "games": 8,
       "wins": 5,
       "win_rate": 62.5
     },
     {
-      "opponent_faction": "Blood Angels",
+      "opponent_faction": "Leagues of Votann",
       "games": 7,
-      "wins": 2,
-      "win_rate": 35.7
+      "wins": 3,
+      "win_rate": 42.9
     },
     {
       "opponent_faction": "Deathwatch",
@@ -396,28 +419,16 @@
       "games": 6,
       "wins": 2,
       "win_rate": 33.3
-    },
-    {
-      "opponent_faction": "Leagues of Votann",
-      "games": 6,
-      "wins": 3,
-      "win_rate": 50.0
-    },
-    {
-      "opponent_faction": "Chaos Daemons",
-      "games": 6,
-      "wins": 4,
-      "win_rate": 66.7
     }
   ],
   "timeline": [
     {
       "week": "2026-W20",
-      "lists": 53,
-      "games": 246,
-      "win_rate": 44.7,
-      "total_lists": 1420,
-      "play_rate": 3.7
+      "lists": 60,
+      "games": 281,
+      "win_rate": 45.2,
+      "total_lists": 1712,
+      "play_rate": 3.5
     }
   ]
 }

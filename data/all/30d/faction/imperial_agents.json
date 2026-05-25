@@ -1,19 +1,19 @@
 {
   "faction": "Imperial Agents",
   "slug": "imperial_agents",
-  "as_of": "2026-05-23",
+  "as_of": "2026-05-25",
   "window_days": 30,
   "event_type": "all",
-  "lists": 29,
-  "games": 116,
+  "lists": 30,
+  "games": 121,
   "play_rate": 0.4,
   "win_rate": 38.8,
   "trend_delta": -8.8,
   "top_detachment": "Imperialis Fleet",
-  "ci_lower": 30.4,
+  "ci_lower": 30.6,
   "meta_health": "strongly_under",
-  "x0_pct": 3.4,
-  "x1_pct": 10.3,
+  "x0_pct": 3.3,
+  "x1_pct": 10.0,
   "tournament_wins": 1,
   "detachments": [
     {
@@ -21,32 +21,32 @@
       "base_archetype": "Imperial Agents \u2014 Imperialis Fleet",
       "lists": 22,
       "games": 86,
-      "play_rate": 75.9,
+      "play_rate": 73.3,
       "win_rate": 40.7,
       "x0_pct": 5.0,
       "x1_pct": 10.0,
       "tournament_wins": 1
     },
     {
+      "detachment": "Purgation Force (Ordo Hereticus)",
+      "base_archetype": "Imperial Agents \u2014 Purgation Force (Ordo Hereticus)",
+      "lists": 3,
+      "games": 15,
+      "play_rate": 10.0,
+      "win_rate": 26.7,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
       "detachment": "Freeblade Company",
       "base_archetype": "Imperial Agents \u2014 Freeblade Company",
       "lists": 2,
       "games": 10,
-      "play_rate": 6.9,
+      "play_rate": 6.7,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 50.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Purgation Force (Ordo Hereticus)",
-      "base_archetype": "Imperial Agents \u2014 Purgation Force (Ordo Hereticus)",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 6.9,
-      "win_rate": 20.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
@@ -54,7 +54,7 @@
       "base_archetype": "Imperial Agents \u2014 No Detachment",
       "lists": 2,
       "games": 5,
-      "play_rate": 6.9,
+      "play_rate": 6.7,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -65,7 +65,7 @@
       "base_archetype": "Imperial Agents \u2014 Veiled Blade Elimination Force",
       "lists": 1,
       "games": 5,
-      "play_rate": 3.4,
+      "play_rate": 3.3,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -228,6 +228,17 @@
       "win_rate": 40.0
     },
     {
+      "player_name": "Michael Michaud",
+      "detachment": "Purgation Force (Ordo Hereticus)",
+      "list_url": "https://www.bestcoastpairings.com/list/EWAXUNK6ZEW4",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 7,
+      "draws": 0,
+      "games": 10,
+      "win_rate": 30.0
+    },
+    {
       "player_name": "Armando Gutierrez",
       "detachment": "Imperialis Fleet",
       "list_url": "https://www.bestcoastpairings.com/list/LHs6aetXBZ3D",
@@ -281,31 +292,20 @@
       "draws": 0,
       "games": 5,
       "win_rate": 20.0
-    },
-    {
-      "player_name": "Michael Michaud",
-      "detachment": "Purgation Force (Ordo Hereticus)",
-      "list_url": "https://www.bestcoastpairings.com/list/NdtWfZDHsW0c",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 4,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 20.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 13,
-      "wins": 5,
-      "win_rate": 38.5
+      "games": 14,
+      "wins": 6,
+      "win_rate": 42.9
     },
     {
       "opponent_faction": "Chaos Space Marines",
-      "games": 9,
+      "games": 10,
       "wins": 2,
-      "win_rate": 22.2
+      "win_rate": 20.0
     },
     {
       "opponent_faction": "Necrons",
@@ -356,7 +356,7 @@
       "lists": 4,
       "games": 20,
       "win_rate": 35.0,
-      "total_lists": 1928,
+      "total_lists": 1646,
       "play_rate": 0.2
     },
     {
@@ -377,10 +377,10 @@
     },
     {
       "week": "2026-W20",
-      "lists": 11,
-      "games": 50,
-      "win_rate": 36.0,
-      "total_lists": 1868,
+      "lists": 12,
+      "games": 55,
+      "win_rate": 36.4,
+      "total_lists": 2160,
       "play_rate": 0.6
     }
   ]

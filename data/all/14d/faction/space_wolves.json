@@ -1,30 +1,30 @@
 {
   "faction": "Space Wolves",
   "slug": "space_wolves",
-  "as_of": "2026-05-23",
+  "as_of": "2026-05-25",
   "window_days": 14,
   "event_type": "all",
-  "lists": 60,
-  "games": 275,
+  "lists": 64,
+  "games": 295,
   "play_rate": 1.8,
-  "win_rate": 39.5,
-  "trend_delta": -0.4,
+  "win_rate": 38.8,
+  "trend_delta": -1.1,
   "top_detachment": "Saga of the Great Wolf",
-  "ci_lower": 33.9,
+  "ci_lower": 33.4,
   "meta_health": "strongly_under",
-  "x0_pct": 1.7,
-  "x1_pct": 5.0,
+  "x0_pct": 1.6,
+  "x1_pct": 4.7,
   "tournament_wins": 1,
   "detachments": [
     {
       "detachment": "Saga of the Great Wolf",
       "base_archetype": "Space Wolves \u2014 Saga of the Great Wolf",
-      "lists": 33,
-      "games": 150,
-      "play_rate": 55.0,
-      "win_rate": 39.3,
+      "lists": 37,
+      "games": 170,
+      "play_rate": 57.8,
+      "win_rate": 38.2,
       "x0_pct": 0.0,
-      "x1_pct": 3.1,
+      "x1_pct": 2.8,
       "tournament_wins": 0
     },
     {
@@ -32,7 +32,7 @@
       "base_archetype": "Space Wolves \u2014 Saga of the Beastslayer",
       "lists": 14,
       "games": 65,
-      "play_rate": 23.3,
+      "play_rate": 21.9,
       "win_rate": 43.8,
       "x0_pct": 0.0,
       "x1_pct": 15.4,
@@ -43,7 +43,7 @@
       "base_archetype": "Space Wolves \u2014 Gladius Task Force",
       "lists": 5,
       "games": 20,
-      "play_rate": 8.3,
+      "play_rate": 7.8,
       "win_rate": 30.0,
       "x0_pct": 20.0,
       "x1_pct": 0.0,
@@ -54,7 +54,7 @@
       "base_archetype": "Space Wolves \u2014 Stormlance Task Force",
       "lists": 3,
       "games": 16,
-      "play_rate": 5.0,
+      "play_rate": 4.7,
       "win_rate": 28.1,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -65,7 +65,7 @@
       "base_archetype": "Space Wolves \u2014 Champions of Fenris",
       "lists": 2,
       "games": 10,
-      "play_rate": 3.3,
+      "play_rate": 3.1,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -76,7 +76,7 @@
       "base_archetype": "Space Wolves \u2014 No Detachment",
       "lists": 1,
       "games": 5,
-      "play_rate": 1.7,
+      "play_rate": 1.6,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -87,7 +87,7 @@
       "base_archetype": "Space Wolves \u2014 Saga of the Hunter",
       "lists": 1,
       "games": 5,
-      "play_rate": 1.7,
+      "play_rate": 1.6,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -250,6 +250,17 @@
       "win_rate": 60.0
     },
     {
+      "player_name": "Garrett Moore",
+      "detachment": "Saga of the Great Wolf",
+      "list_url": "https://www.bestcoastpairings.com/list/ePCnaCRu13l9",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
       "player_name": "Sam King",
       "detachment": "Stormlance Task Force",
       "list_url": "https://www.bestcoastpairings.com/list/JGGRvp6plouM",
@@ -303,37 +314,26 @@
       "draws": 0,
       "games": 4,
       "win_rate": 50.0
-    },
-    {
-      "player_name": "Adam Skrzypczak",
-      "detachment": "Saga of the Great Wolf",
-      "list_url": "https://www.bestcoastpairings.com/list/nwnKlHf6xfTh",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 0,
-      "games": 4,
-      "win_rate": 50.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 26,
-      "wins": 12,
-      "win_rate": 46.2
+      "games": 30,
+      "wins": 13,
+      "win_rate": 43.3
     },
     {
       "opponent_faction": "Chaos Space Marines",
-      "games": 26,
-      "wins": 11,
-      "win_rate": 42.3
+      "games": 27,
+      "wins": 12,
+      "win_rate": 44.4
     },
     {
       "opponent_faction": "Necrons",
-      "games": 21,
+      "games": 22,
       "wins": 7,
-      "win_rate": 33.3
+      "win_rate": 31.8
     },
     {
       "opponent_faction": "T'au Empire",
@@ -343,27 +343,45 @@
     },
     {
       "opponent_faction": "Orks",
+      "games": 15,
+      "wins": 6,
+      "win_rate": 40.0
+    },
+    {
+      "opponent_faction": "Death Guard",
+      "games": 15,
+      "wins": 3,
+      "win_rate": 20.0
+    },
+    {
+      "opponent_faction": "Tyranids",
       "games": 14,
       "wins": 6,
       "win_rate": 42.9
     },
     {
-      "opponent_faction": "Death Guard",
+      "opponent_faction": "Emperor's Children",
       "games": 14,
-      "wins": 3,
-      "win_rate": 21.4
-    },
-    {
-      "opponent_faction": "Tyranids",
-      "games": 13,
-      "wins": 6,
-      "win_rate": 46.2
+      "wins": 8,
+      "win_rate": 57.1
     },
     {
       "opponent_faction": "Imperial Knights",
-      "games": 12,
+      "games": 13,
       "wins": 7,
-      "win_rate": 58.3
+      "win_rate": 53.8
+    },
+    {
+      "opponent_faction": "Blood Angels",
+      "games": 12,
+      "wins": 6,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "Aeldari",
+      "games": 12,
+      "wins": 4,
+      "win_rate": 33.3
     },
     {
       "opponent_faction": "Astra Militarum",
@@ -372,34 +390,16 @@
       "win_rate": 29.2
     },
     {
-      "opponent_faction": "Emperor's Children",
-      "games": 12,
-      "wins": 7,
-      "win_rate": 58.3
-    },
-    {
-      "opponent_faction": "Blood Angels",
-      "games": 11,
-      "wins": 5,
-      "win_rate": 45.5
-    },
-    {
-      "opponent_faction": "Aeldari",
-      "games": 11,
-      "wins": 4,
-      "win_rate": 36.4
-    },
-    {
       "opponent_faction": "Thousand Sons",
-      "games": 9,
+      "games": 10,
       "wins": 3,
-      "win_rate": 33.3
+      "win_rate": 30.0
     },
     {
       "opponent_faction": "World Eaters",
-      "games": 9,
+      "games": 10,
       "wins": 2,
-      "win_rate": 22.2
+      "win_rate": 20.0
     },
     {
       "opponent_faction": "Adepta Sororitas",
@@ -426,22 +426,28 @@
       "win_rate": 33.3
     },
     {
+      "opponent_faction": "Grey Knights",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 33.3
+    },
+    {
       "opponent_faction": "Drukhari",
       "games": 6,
       "wins": 0,
       "win_rate": 0.0
     },
     {
-      "opponent_faction": "Grey Knights",
-      "games": 5,
+      "opponent_faction": "Adeptus Custodes",
+      "games": 6,
       "wins": 2,
-      "win_rate": 40.0
+      "win_rate": 33.3
     },
     {
-      "opponent_faction": "Adeptus Custodes",
+      "opponent_faction": "Deathwatch",
       "games": 5,
-      "wins": 1,
-      "win_rate": 20.0
+      "wins": 3,
+      "win_rate": 60.0
     }
   ],
   "timeline": [
@@ -455,11 +461,11 @@
     },
     {
       "week": "2026-W20",
-      "lists": 42,
-      "games": 193,
-      "win_rate": 41.5,
-      "total_lists": 1868,
-      "play_rate": 2.2
+      "lists": 46,
+      "games": 213,
+      "win_rate": 40.4,
+      "total_lists": 2160,
+      "play_rate": 2.1
     }
   ]
 }

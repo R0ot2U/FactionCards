@@ -1,41 +1,41 @@
 {
   "faction": "Genestealer Cults",
   "slug": "genestealer_cults",
-  "as_of": "2026-05-23",
+  "as_of": "2026-05-25",
   "window_days": 14,
   "event_type": "solo",
-  "lists": 22,
-  "games": 92,
+  "lists": 24,
+  "games": 102,
   "play_rate": 0.9,
-  "win_rate": 58.2,
-  "trend_delta": 5.1,
+  "win_rate": 60.3,
+  "trend_delta": 6.3,
   "top_detachment": "Biosanctic Broodsurge",
-  "ci_lower": 47.9,
-  "meta_health": "slightly_under",
-  "x0_pct": 4.5,
-  "x1_pct": 18.2,
+  "ci_lower": 50.6,
+  "meta_health": "slightly_over",
+  "x0_pct": 4.2,
+  "x1_pct": 16.7,
   "tournament_wins": 1,
   "detachments": [
     {
       "detachment": "Biosanctic Broodsurge",
       "base_archetype": "Genestealer Cults \u2014 Biosanctic Broodsurge",
-      "lists": 13,
-      "games": 55,
-      "play_rate": 59.1,
-      "win_rate": 57.3,
+      "lists": 14,
+      "games": 60,
+      "play_rate": 58.3,
+      "win_rate": 57.5,
       "x0_pct": 0.0,
-      "x1_pct": 16.7,
+      "x1_pct": 15.4,
       "tournament_wins": 0
     },
     {
       "detachment": "Host of Ascension",
       "base_archetype": "Genestealer Cults \u2014 Host of Ascension",
-      "lists": 6,
-      "games": 27,
-      "play_rate": 27.3,
-      "win_rate": 66.7,
-      "x0_pct": 16.7,
-      "x1_pct": 33.3,
+      "lists": 7,
+      "games": 32,
+      "play_rate": 29.2,
+      "win_rate": 71.9,
+      "x0_pct": 14.3,
+      "x1_pct": 28.6,
       "tournament_wins": 1
     },
     {
@@ -43,7 +43,7 @@
       "base_archetype": "Genestealer Cults \u2014 Xenocreed Congregation",
       "lists": 2,
       "games": 5,
-      "play_rate": 9.1,
+      "play_rate": 8.3,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -54,7 +54,7 @@
       "base_archetype": "Genestealer Cults \u2014 Final Day",
       "lists": 1,
       "games": 5,
-      "play_rate": 4.5,
+      "play_rate": 4.2,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -66,6 +66,17 @@
       "player_name": "Floof Cox",
       "detachment": "Host of Ascension",
       "list_url": "https://www.bestcoastpairings.com/list/s8Fa1Ysv5WzZ",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "mike lynch",
+      "detachment": "Host of Ascension",
+      "list_url": "https://www.bestcoastpairings.com/list/nIJyeWwe0zYF",
       "source": "bcp",
       "wins": 5,
       "losses": 0,
@@ -195,6 +206,17 @@
       "win_rate": 60.0
     },
     {
+      "player_name": "Didem Cobanoglu",
+      "detachment": "Biosanctic Broodsurge",
+      "list_url": "https://www.bestcoastpairings.com/list/s2dMnuenehQo",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
       "player_name": "Jubilee Alexander",
       "detachment": "Biosanctic Broodsurge",
       "list_url": "https://www.bestcoastpairings.com/list/RZkZ2pyJ57aF",
@@ -259,49 +281,44 @@
       "draws": 0,
       "games": 5,
       "win_rate": 20.0
-    },
-    {
-      "player_name": "Timothy Bouta",
-      "detachment": "Biosanctic Broodsurge",
-      "list_url": "https://www.bestcoastpairings.com/list/8UURVht0rjHi",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 4,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 20.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Necrons",
-      "games": 11,
-      "wins": 6,
-      "win_rate": 59.1
-    },
-    {
-      "opponent_faction": "Imperial Knights",
-      "games": 8,
-      "wins": 5,
+      "games": 12,
+      "wins": 7,
       "win_rate": 62.5
     },
     {
-      "opponent_faction": "Space Marines (Astartes)",
-      "games": 7,
+      "opponent_faction": "Imperial Knights",
+      "games": 9,
       "wins": 6,
-      "win_rate": 85.7
+      "win_rate": 66.7
     },
     {
       "opponent_faction": "Tyranids",
-      "games": 6,
-      "wins": 2,
-      "win_rate": 33.3
+      "games": 8,
+      "wins": 4,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 8,
+      "wins": 7,
+      "win_rate": 87.5
+    },
+    {
+      "opponent_faction": "Leagues of Votann",
+      "games": 7,
+      "wins": 5,
+      "win_rate": 78.6
     },
     {
       "opponent_faction": "Chaos Space Marines",
-      "games": 6,
+      "games": 7,
       "wins": 2,
-      "win_rate": 33.3
+      "win_rate": 28.6
     },
     {
       "opponent_faction": "Death Guard",
@@ -314,12 +331,6 @@
       "games": 6,
       "wins": 6,
       "win_rate": 100.0
-    },
-    {
-      "opponent_faction": "Leagues of Votann",
-      "games": 5,
-      "wins": 3,
-      "win_rate": 70.0
     }
   ],
   "timeline": [
@@ -333,10 +344,10 @@
     },
     {
       "week": "2026-W20",
-      "lists": 13,
-      "games": 58,
-      "win_rate": 64.7,
-      "total_lists": 1420,
+      "lists": 15,
+      "games": 68,
+      "win_rate": 66.9,
+      "total_lists": 1712,
       "play_rate": 0.9
     }
   ]

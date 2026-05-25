@@ -1,16 +1,16 @@
 {
   "faction": "Adeptus Mechanicus",
   "slug": "adeptus_mechanicus",
-  "as_of": "2026-05-23",
+  "as_of": "2026-05-25",
   "window_days": 30,
   "event_type": "solo",
   "lists": 89,
   "games": 405,
   "play_rate": 1.9,
-  "win_rate": 46.8,
-  "trend_delta": 1.3,
+  "win_rate": 46.5,
+  "trend_delta": 0.7,
   "top_detachment": "Haloscreed Battle Clade",
-  "ci_lower": 42.0,
+  "ci_lower": 41.7,
   "meta_health": "strongly_under",
   "x0_pct": 1.1,
   "x1_pct": 12.4,
@@ -22,7 +22,7 @@
       "lists": 48,
       "games": 229,
       "play_rate": 53.9,
-      "win_rate": 50.7,
+      "win_rate": 49.8,
       "x0_pct": 0.0,
       "x1_pct": 14.9,
       "tournament_wins": 0
@@ -30,22 +30,22 @@
     {
       "detachment": "Eradication Cohort",
       "base_archetype": "Adeptus Mechanicus \u2014 Eradication Cohort",
-      "lists": 22,
-      "games": 90,
-      "play_rate": 24.7,
-      "win_rate": 39.4,
+      "lists": 21,
+      "games": 85,
+      "play_rate": 23.6,
+      "win_rate": 41.8,
       "x0_pct": 0.0,
-      "x1_pct": 15.0,
+      "x1_pct": 15.8,
       "tournament_wins": 0
     },
     {
       "detachment": "Skitarii Hunter Cohort",
       "base_archetype": "Adeptus Mechanicus \u2014 Skitarii Hunter Cohort",
-      "lists": 13,
-      "games": 60,
-      "play_rate": 14.6,
-      "win_rate": 42.5,
-      "x0_pct": 8.3,
+      "lists": 14,
+      "games": 65,
+      "play_rate": 15.7,
+      "win_rate": 40.8,
+      "x0_pct": 7.7,
       "x1_pct": 0.0,
       "tournament_wins": 1
     },
@@ -77,17 +77,6 @@
       "player_name": "Adrian Lopez",
       "detachment": "Skitarii Hunter Cohort",
       "list_url": "https://www.bestcoastpairings.com/list/7t8CO5QhgJ7Z",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Samuel Martin",
-      "detachment": "Haloscreed Battle Clade",
-      "list_url": "https://www.bestcoastpairings.com/list/yHLgk6UKDFZS",
       "source": "bcp",
       "wins": 5,
       "losses": 0,
@@ -292,14 +281,25 @@
       "draws": 0,
       "games": 5,
       "win_rate": 60.0
+    },
+    {
+      "player_name": "Tom Eldredge",
+      "detachment": "Haloscreed Battle Clade",
+      "list_url": "https://www.bestcoastpairings.com/list/WcPnoXGyxU8r",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 44,
+      "games": 42,
       "wins": 19,
-      "win_rate": 44.3
+      "win_rate": 46.4
     },
     {
       "opponent_faction": "Necrons",
@@ -308,27 +308,27 @@
       "win_rate": 27.6
     },
     {
-      "opponent_faction": "T'au Empire",
+      "opponent_faction": "Chaos Space Marines",
       "games": 28,
-      "wins": 16,
-      "win_rate": 57.1
+      "wins": 13,
+      "win_rate": 48.2
     },
     {
-      "opponent_faction": "Chaos Space Marines",
+      "opponent_faction": "T'au Empire",
       "games": 27,
-      "wins": 13,
-      "win_rate": 50.0
+      "wins": 14,
+      "win_rate": 51.9
     },
     {
       "opponent_faction": "Emperor's Children",
-      "games": 25,
+      "games": 24,
       "wins": 15,
-      "win_rate": 62.0
+      "win_rate": 64.6
     },
     {
       "opponent_faction": "Adeptus Custodes",
-      "games": 23,
-      "wins": 11,
+      "games": 21,
+      "wins": 10,
       "win_rate": 50.0
     },
     {
@@ -340,14 +340,8 @@
     {
       "opponent_faction": "World Eaters",
       "games": 18,
-      "wins": 4,
-      "win_rate": 22.2
-    },
-    {
-      "opponent_faction": "Astra Militarum",
-      "games": 17,
-      "wins": 6,
-      "win_rate": 35.3
+      "wins": 5,
+      "win_rate": 27.8
     },
     {
       "opponent_faction": "Death Guard",
@@ -356,40 +350,46 @@
       "win_rate": 38.2
     },
     {
+      "opponent_faction": "Astra Militarum",
+      "games": 16,
+      "wins": 5,
+      "win_rate": 31.2
+    },
+    {
+      "opponent_faction": "Adepta Sororitas",
+      "games": 15,
+      "wins": 5,
+      "win_rate": 33.3
+    },
+    {
       "opponent_faction": "Aeldari",
       "games": 15,
       "wins": 7,
       "win_rate": 50.0
     },
     {
-      "opponent_faction": "Adepta Sororitas",
+      "opponent_faction": "Chaos Daemons",
+      "games": 15,
+      "wins": 6,
+      "win_rate": 40.0
+    },
+    {
+      "opponent_faction": "Blood Angels",
       "games": 14,
-      "wins": 4,
-      "win_rate": 28.6
+      "wins": 6,
+      "win_rate": 42.9
+    },
+    {
+      "opponent_faction": "Imperial Knights",
+      "games": 13,
+      "wins": 6,
+      "win_rate": 46.2
     },
     {
       "opponent_faction": "Tyranids",
       "games": 13,
       "wins": 6,
       "win_rate": 46.2
-    },
-    {
-      "opponent_faction": "Blood Angels",
-      "games": 13,
-      "wins": 6,
-      "win_rate": 46.2
-    },
-    {
-      "opponent_faction": "Chaos Daemons",
-      "games": 13,
-      "wins": 5,
-      "win_rate": 38.5
-    },
-    {
-      "opponent_faction": "Imperial Knights",
-      "games": 12,
-      "wins": 6,
-      "win_rate": 50.0
     },
     {
       "opponent_faction": "Leagues of Votann",
@@ -399,9 +399,9 @@
     },
     {
       "opponent_faction": "Thousand Sons",
-      "games": 10,
+      "games": 11,
       "wins": 4,
-      "win_rate": 45.0
+      "win_rate": 40.9
     },
     {
       "opponent_faction": "Drukhari",
@@ -443,11 +443,11 @@
   "timeline": [
     {
       "week": "2026-W16",
-      "lists": 22,
-      "games": 99,
-      "win_rate": 44.9,
-      "total_lists": 1057,
-      "play_rate": 2.1
+      "lists": 19,
+      "games": 84,
+      "win_rate": 43.5,
+      "total_lists": 775,
+      "play_rate": 2.5
     },
     {
       "week": "2026-W17",
@@ -475,11 +475,11 @@
     },
     {
       "week": "2026-W20",
-      "lists": 20,
-      "games": 99,
-      "win_rate": 51.0,
-      "total_lists": 1420,
-      "play_rate": 1.4
+      "lists": 23,
+      "games": 114,
+      "win_rate": 50.4,
+      "total_lists": 1712,
+      "play_rate": 1.3
     }
   ]
 }
