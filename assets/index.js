@@ -76,38 +76,67 @@ function renderMap(events) {
         location: e.location,
         tournaments: [],
         totalPlayers: 0,
-        factionStats: new Map(), // {faction: {games: 0, wins: 0}}
+        factionStats: new Map(), // {faction: {totalX0: 0, totalX1: 0, count: 0}}
       });
     }
     const loc = locationMap.get(key);
     loc.tournaments.push(e.name);
     loc.totalPlayers += e.players || 0;
 
-    // Aggregate faction win rates across events
-    if (e.faction_win_rates) {
-      Object.entries(e.faction_win_rates).forEach(([faction, wr]) => {
+    // Aggregate faction X-0% and X-1% across events
+    if (e.faction_x0_pct) {
+      Object.entries(e.faction_x0_pct).forEach(([faction, x0]) => {
         if (faction !== 'Unknown') {
           if (!loc.factionStats.has(faction)) {
-            loc.factionStats.set(faction, {totalWR: 0, count: 0});
+            loc.factionStats.set(faction, {totalX0: 0, totalX1: 0, count: 0});
           }
           const stats = loc.factionStats.get(faction);
-          stats.totalWR += wr;
+          stats.totalX0 += x0;
           stats.count += 1;
+        }
+      });
+    }
+    if (e.faction_x1_pct) {
+      Object.entries(e.faction_x1_pct).forEach(([faction, x1]) => {
+        if (faction !== 'Unknown') {
+          if (!loc.factionStats.has(faction)) {
+            loc.factionStats.set(faction, {totalX0: 0, totalX1: 0, count: 0});
+          }
+          const stats = loc.factionStats.get(faction);
+          stats.totalX1 += x1;
         }
       });
     }
   });
 
-  // Convert to array and compute top factions by average win rate
+  // Convert to array and compute top factions by X-0%, fallback to X-1%
   const locations = Array.from(locationMap.values()).map(loc => {
-    const factionWRs = Array.from(loc.factionStats.entries()).map(([faction, stats]) => ({
+    const factionMetrics = Array.from(loc.factionStats.entries()).map(([faction, stats]) => ({
       faction,
-      avgWR: stats.totalWR / stats.count
+      avgX0: stats.totalX0 / stats.count,
+      avgX1: stats.totalX1 / stats.count
     }));
-    const topFactions = factionWRs
-      .sort((a, b) => b.avgWR - a.avgWR)
-      .slice(0, 3)
-      .map(f => `${f.faction} (${f.avgWR.toFixed(1)}%)`);
+
+    // Check if any faction has X-0% > 0
+    const hasX0 = factionMetrics.some(f => f.avgX0 > 0);
+
+    let topFactions;
+    if (hasX0) {
+      // Sort by X-0% descending, show top 3
+      topFactions = factionMetrics
+        .filter(f => f.avgX0 > 0)
+        .sort((a, b) => b.avgX0 - a.avgX0)
+        .slice(0, 3)
+        .map(f => `${f.faction} (${f.avgX0.toFixed(1)}% X-0)`);
+    } else {
+      // Fallback to X-1%
+      topFactions = factionMetrics
+        .filter(f => f.avgX1 > 0)
+        .sort((a, b) => b.avgX1 - a.avgX1)
+        .slice(0, 3)
+        .map(f => `${f.faction} (${f.avgX1.toFixed(1)}% X-1)`);
+    }
+
     return { ...loc, topFactions };
   });
 

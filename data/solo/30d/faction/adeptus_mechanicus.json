@@ -1,41 +1,41 @@
 {
   "faction": "Adeptus Mechanicus",
   "slug": "adeptus_mechanicus",
-  "as_of": "2026-05-25",
+  "as_of": "2026-05-23",
   "window_days": 30,
   "event_type": "solo",
-  "lists": 86,
-  "games": 390,
-  "play_rate": 2.0,
-  "win_rate": 46.5,
-  "trend_delta": 0.7,
+  "lists": 89,
+  "games": 405,
+  "play_rate": 1.9,
+  "win_rate": 46.8,
+  "trend_delta": 1.3,
   "top_detachment": "Haloscreed Battle Clade",
-  "ci_lower": 41.6,
+  "ci_lower": 42.0,
   "meta_health": "strongly_under",
-  "x0_pct": 1.2,
-  "x1_pct": 14.0,
+  "x0_pct": 1.1,
+  "x1_pct": 13.5,
   "tournament_wins": 1,
   "detachments": [
     {
       "detachment": "Haloscreed Battle Clade",
       "base_archetype": "Adeptus Mechanicus \u2014 Haloscreed Battle Clade",
-      "lists": 46,
-      "games": 219,
-      "play_rate": 53.5,
-      "win_rate": 49.3,
+      "lists": 48,
+      "games": 229,
+      "play_rate": 53.9,
+      "win_rate": 50.7,
       "x0_pct": 0.0,
-      "x1_pct": 17.8,
+      "x1_pct": 17.0,
       "tournament_wins": 0
     },
     {
       "detachment": "Eradication Cohort",
       "base_archetype": "Adeptus Mechanicus \u2014 Eradication Cohort",
-      "lists": 21,
-      "games": 85,
-      "play_rate": 24.4,
-      "win_rate": 41.8,
+      "lists": 22,
+      "games": 90,
+      "play_rate": 24.7,
+      "win_rate": 39.4,
       "x0_pct": 0.0,
-      "x1_pct": 10.5,
+      "x1_pct": 10.0,
       "tournament_wins": 0
     },
     {
@@ -43,7 +43,7 @@
       "base_archetype": "Adeptus Mechanicus \u2014 Skitarii Hunter Cohort",
       "lists": 13,
       "games": 60,
-      "play_rate": 15.1,
+      "play_rate": 14.6,
       "win_rate": 42.5,
       "x0_pct": 8.3,
       "x1_pct": 0.0,
@@ -54,7 +54,7 @@
       "base_archetype": "Adeptus Mechanicus \u2014 No Detachment",
       "lists": 3,
       "games": 11,
-      "play_rate": 3.5,
+      "play_rate": 3.4,
       "win_rate": 59.1,
       "x0_pct": 0.0,
       "x1_pct": 66.7,
@@ -65,7 +65,7 @@
       "base_archetype": "Adeptus Mechanicus \u2014 Cohort Cybernetica",
       "lists": 3,
       "games": 15,
-      "play_rate": 3.5,
+      "play_rate": 3.4,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -77,6 +77,17 @@
       "player_name": "Adrian Lopez",
       "detachment": "Skitarii Hunter Cohort",
       "list_url": "https://www.bestcoastpairings.com/list/7t8CO5QhgJ7Z",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Samuel Martin",
+      "detachment": "Haloscreed Battle Clade",
+      "list_url": "https://www.bestcoastpairings.com/list/yHLgk6UKDFZS",
       "source": "bcp",
       "wins": 5,
       "losses": 0,
@@ -281,54 +292,43 @@
       "draws": 0,
       "games": 5,
       "win_rate": 60.0
-    },
-    {
-      "player_name": "Tom Eldredge",
-      "detachment": "Haloscreed Battle Clade",
-      "list_url": "https://www.bestcoastpairings.com/list/WcPnoXGyxU8r",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 40,
-      "wins": 17,
-      "win_rate": 43.8
+      "games": 44,
+      "wins": 19,
+      "win_rate": 44.3
     },
     {
       "opponent_faction": "Necrons",
-      "games": 28,
+      "games": 29,
       "wins": 8,
-      "win_rate": 28.6
-    },
-    {
-      "opponent_faction": "Chaos Space Marines",
-      "games": 26,
-      "wins": 13,
-      "win_rate": 51.9
+      "win_rate": 27.6
     },
     {
       "opponent_faction": "T'au Empire",
-      "games": 25,
+      "games": 28,
+      "wins": 16,
+      "win_rate": 57.1
+    },
+    {
+      "opponent_faction": "Chaos Space Marines",
+      "games": 27,
       "wins": 13,
-      "win_rate": 52.0
+      "win_rate": 50.0
     },
     {
       "opponent_faction": "Emperor's Children",
-      "games": 24,
+      "games": 25,
       "wins": 15,
-      "win_rate": 64.6
+      "win_rate": 62.0
     },
     {
       "opponent_faction": "Adeptus Custodes",
-      "games": 21,
-      "wins": 10,
+      "games": 23,
+      "wins": 11,
       "win_rate": 50.0
     },
     {
@@ -338,22 +338,22 @@
       "win_rate": 36.1
     },
     {
+      "opponent_faction": "World Eaters",
+      "games": 18,
+      "wins": 4,
+      "win_rate": 22.2
+    },
+    {
+      "opponent_faction": "Astra Militarum",
+      "games": 17,
+      "wins": 6,
+      "win_rate": 35.3
+    },
+    {
       "opponent_faction": "Death Guard",
       "games": 17,
       "wins": 6,
       "win_rate": 38.2
-    },
-    {
-      "opponent_faction": "World Eaters",
-      "games": 17,
-      "wins": 4,
-      "win_rate": 23.5
-    },
-    {
-      "opponent_faction": "Astra Militarum",
-      "games": 16,
-      "wins": 5,
-      "win_rate": 31.2
     },
     {
       "opponent_faction": "Aeldari",
@@ -405,9 +405,9 @@
     },
     {
       "opponent_faction": "Drukhari",
-      "games": 9,
-      "wins": 6,
-      "win_rate": 66.7
+      "games": 10,
+      "wins": 7,
+      "win_rate": 70.0
     },
     {
       "opponent_faction": "Space Wolves",
@@ -443,11 +443,11 @@
   "timeline": [
     {
       "week": "2026-W16",
-      "lists": 19,
-      "games": 84,
-      "win_rate": 43.5,
-      "total_lists": 775,
-      "play_rate": 2.5
+      "lists": 22,
+      "games": 99,
+      "win_rate": 44.9,
+      "total_lists": 1057,
+      "play_rate": 2.1
     },
     {
       "week": "2026-W17",
