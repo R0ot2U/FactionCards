@@ -76,28 +76,38 @@ function renderMap(events) {
         location: e.location,
         tournaments: [],
         totalPlayers: 0,
-        factions: new Map(),
+        factionStats: new Map(), // {faction: {games: 0, wins: 0}}
       });
     }
     const loc = locationMap.get(key);
     loc.tournaments.push(e.name);
     loc.totalPlayers += e.players || 0;
-    // Track faction counts
-    if (e.factions && Array.isArray(e.factions)) {
-      e.factions.forEach(f => {
-        if (f !== 'Unknown') {  // Filter out Unknown
-          loc.factions.set(f, (loc.factions.get(f) || 0) + 1);
+
+    // Aggregate faction win rates across events
+    if (e.faction_win_rates) {
+      Object.entries(e.faction_win_rates).forEach(([faction, wr]) => {
+        if (faction !== 'Unknown') {
+          if (!loc.factionStats.has(faction)) {
+            loc.factionStats.set(faction, {totalWR: 0, count: 0});
+          }
+          const stats = loc.factionStats.get(faction);
+          stats.totalWR += wr;
+          stats.count += 1;
         }
       });
     }
   });
 
-  // Convert to array and compute top factions
+  // Convert to array and compute top factions by average win rate
   const locations = Array.from(locationMap.values()).map(loc => {
-    const topFactions = Array.from(loc.factions.entries())
-      .sort((a, b) => b[1] - a[1])
+    const factionWRs = Array.from(loc.factionStats.entries()).map(([faction, stats]) => ({
+      faction,
+      avgWR: stats.totalWR / stats.count
+    }));
+    const topFactions = factionWRs
+      .sort((a, b) => b.avgWR - a.avgWR)
       .slice(0, 3)
-      .map(([faction]) => faction);
+      .map(f => `${f.faction} (${f.avgWR.toFixed(1)}%)`);
     return { ...loc, topFactions };
   });
 
