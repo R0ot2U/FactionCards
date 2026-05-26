@@ -49,6 +49,13 @@ function trendHtml(delta) {
   return `<span class="${cls}">${sym}${Math.abs(delta).toFixed(1)}%</span>`;
 }
 
+function ratingTrendHtml(delta) {
+  if (delta === null || delta === undefined) return '<span class="trend-flat">—</span>';
+  const sym = delta > 0 ? "▲" : delta < 0 ? "▼" : "—";
+  const cls = delta > 0.5 ? "trend-up" : delta < -0.5 ? "trend-down" : "trend-flat";
+  return `<span class="${cls}">${sym}${Math.abs(delta).toFixed(1)}</span>`;
+}
+
 function factionSlug(faction) {
   return faction.toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "");
 }

@@ -58,9 +58,14 @@
         <p class="legend-note">5 tiers: Strongly Over (CI &gt; 55%), Slightly Over (CI &gt; 50%), Neutral (50%), Slightly Under (CI &lt; 50%), Strongly Under (CI &lt; 45%). A 51.5% win rate can show "underperform" if the CI lower bound is below 50%.</p>
       </div>
       <div class="legend-card">
-        <div class="legend-term">Trend</div>
-        <p>Win-rate change compared to the previous window of the same length. For example, with a 30-day window, Trend compares the most recent 30 days to the 30 days before that.</p>
-        <p class="legend-note">▲ means improving, ▼ means declining. A small triangle (±0.5%) is considered flat (shown as —).</p>
+        <div class="legend-term">Trend (Factions)</div>
+        <p>Win-rate change compared to the previous window of the same length. For example, with a 30-day window, Trend compares the most recent 30 days to the 30 days before that. Shows whether the faction's performance is improving or declining.</p>
+        <p class="legend-note">▲ means improving, ▼ means declining. Shown as percentage points (e.g., +3.2%). A small change (±0.5%) is considered flat (shown as —).</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Trend (Players)</div>
+        <p>ELO rating change within the current window. Calculated as rating after the last game minus rating before the first game in the window. Shows whether a player's skill rating rose or fell.</p>
+        <p class="legend-note">Measured in rating points (e.g., +258.8), not percentage. ▲ means rating increased, ▼ means decreased. A small change (±0.5 points) is considered flat (shown as —).</p>
       </div>
       <div class="legend-card">
         <div class="legend-term">X-0 Rate</div>
@@ -68,7 +73,7 @@
       </div>
       <div class="legend-card">
         <div class="legend-term">X-1 Rate</div>
-        <p>Percentage of players with exactly 1 loss. Combined with X-0, this shows how many players finished with strong records (top tables).</p>
+        <p>Percentage of players who dropped exactly one game — either 1 loss and 0 draws, or 0 losses and 1 draw. Combined with X-0, this shows how many players finished with strong records (top tables).</p>
       </div>
       <div class="legend-card">
         <div class="legend-term">Tournament Wins</div>
@@ -120,6 +125,52 @@
       </div>
     </div>
 
+    <h2 class="legend-heading">Player Rankings</h2>
+    <div class="legend-grid">
+      <div class="legend-card">
+        <div class="legend-term">ELO Rating</div>
+        <p>Skill rating based on game results and opponent strength. All players start at 1500. Higher rating means stronger competitive performance.</p>
+        <p class="legend-note">Beating a higher-rated opponent increases your rating more than beating a lower-rated opponent. Losing to a lower-rated opponent decreases your rating more than losing to a higher-rated opponent.</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Peak Rating</div>
+        <p>Highest ELO rating this player has ever achieved across all events in the database. Shows their best historical performance.</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">K-Factor</div>
+        <p>How volatile the player's rating is. Determines how much their rating changes after each game.</p>
+        <p class="legend-note">40 = new player (fewer than 30 games), 32 = standard (30+ games), 24 = experienced (100+ games). Higher K means bigger rating swings per game.</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Consistency</div>
+        <p>Score from 0 to 1 measuring how stable a player's performance is across events. Higher = more consistent results.</p>
+        <p class="legend-note">Calculated from variance in win rates across multiple events. A player who consistently goes 3-2 has higher consistency than a player who alternates between 5-0 and 1-4.</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Upset Rate</div>
+        <p>Win rate specifically against higher-rated opponents. Measures a player's ability to punch above their weight class.</p>
+        <p class="legend-note">Only counts games where the opponent's rating was higher than the player's rating at the time of the match. A 40% upset rate means winning 2 out of every 5 games against stronger opponents.</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Trend</div>
+        <p>Rating change over the current window. See "Trend (Players)" in Metric Definitions above for details.</p>
+      </div>
+    </div>
+
+    <h2 class="legend-heading">Tournament Map</h2>
+    <div class="legend-grid">
+      <div class="legend-card">
+        <div class="legend-term">Interactive Map</div>
+        <p>Shows tournament locations worldwide. Appears on the Factions and Tournaments pages. Dot size reflects the number of tournaments and total players at that location.</p>
+        <p class="legend-note">Multiple tournaments in the same city are grouped together. You can zoom and pan to explore different regions.</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Map Tooltips</div>
+        <p>Hover over any dot to see: location name, number of tournaments, total players, and top 3 factions by X-0 rate (undefeated percentage).</p>
+        <p class="legend-note">If no faction has undefeated players at that location, the tooltip shows top 3 by X-1 rate instead. This highlights which factions perform best at each location.</p>
+      </div>
+    </div>
+
     <h2 class="legend-heading">Statistical Methodology</h2>
     <div class="legend-grid">
       <div class="legend-card">
@@ -163,5 +214,7 @@
   </div>
 </footer>
 
+<script data-goatcounter="https://informedcrusader.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
