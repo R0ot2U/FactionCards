@@ -1,19 +1,19 @@
 {
   "faction": "Deathwatch",
   "slug": "deathwatch",
-  "as_of": "2026-05-25",
+  "as_of": "2026-06-01",
   "window_days": 14,
   "event_type": "team",
   "lists": 8,
   "games": 39,
-  "play_rate": 0.9,
-  "win_rate": 59.0,
-  "trend_delta": 0.9,
+  "play_rate": 1.2,
+  "win_rate": 70.5,
+  "trend_delta": 22.2,
   "top_detachment": "Black Spear Task Force",
-  "ci_lower": 43.4,
-  "meta_health": "strongly_under",
+  "ci_lower": 54.9,
+  "meta_health": "slightly_over",
   "x0_pct": 25.0,
-  "x1_pct": 12.5,
+  "x1_pct": 25.0,
   "tournament_wins": 0,
   "detachments": [
     {
@@ -22,13 +22,24 @@
       "lists": 8,
       "games": 39,
       "play_rate": 100.0,
-      "win_rate": 59.0,
+      "win_rate": 70.5,
       "x0_pct": 25.0,
-      "x1_pct": 12.5,
+      "x1_pct": 25.0,
       "tournament_wins": 0
     }
   ],
   "top_players": [
+    {
+      "player_name": "Conor Tomalty",
+      "detachment": "Black Spear Task Force",
+      "list_url": "https://www.bestcoastpairings.com/list/UiAaEX84bPpu",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
     {
       "player_name": "Luke Jakins",
       "detachment": "Black Spear Task Force",
@@ -41,15 +52,15 @@
       "win_rate": 100.0
     },
     {
-      "player_name": "Anton\u00edn Man",
+      "player_name": "Joshua Gray",
       "detachment": "Black Spear Task Force",
-      "list_url": "https://www.bestcoastpairings.com/list/wcyXirlDn0Oy",
+      "list_url": "https://www.bestcoastpairings.com/list/og3MaGERFECD",
       "source": "bcp",
-      "wins": 5,
+      "wins": 4,
       "losses": 0,
-      "draws": 0,
+      "draws": 1,
       "games": 5,
-      "win_rate": 100.0
+      "win_rate": 90.0
     },
     {
       "player_name": "Duncan Caillard",
@@ -63,15 +74,15 @@
       "win_rate": 80.0
     },
     {
-      "player_name": "Egor WatchMaster",
+      "player_name": "Tim Royers",
       "detachment": "Black Spear Task Force",
-      "list_url": "https://www.bestcoastpairings.com/list/goKBzKMTj0TJ",
+      "list_url": "https://www.bestcoastpairings.com/list/iOWI3MKLRUsX",
       "source": "bcp",
-      "wins": 3,
-      "losses": 1,
+      "wins": 2,
+      "losses": 2,
       "draws": 1,
       "games": 5,
-      "win_rate": 70.0
+      "win_rate": 50.0
     },
     {
       "player_name": "dale Carpenter",
@@ -96,45 +107,26 @@
       "win_rate": 50.0
     },
     {
-      "player_name": "James Robinette",
+      "player_name": "Odin Preedy",
       "detachment": "Black Spear Task Force",
-      "list_url": "https://www.bestcoastpairings.com/list/y2BGOpC6OAMt",
+      "list_url": "https://www.bestcoastpairings.com/list/5bJTOPrHGvAC",
       "source": "bcp",
-      "wins": 0,
-      "losses": 4,
-      "draws": 1,
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
       "games": 5,
-      "win_rate": 10.0
-    },
-    {
-      "player_name": "Micheal Hunter",
-      "detachment": "Black Spear Task Force",
-      "list_url": "https://www.bestcoastpairings.com/list/xlCWkPasgFrn",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 4,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 10.0
+      "win_rate": 40.0
     }
   ],
   "matchups": [
     {
-      "opponent_faction": "T'au Empire",
+      "opponent_faction": "Space Marines (Astartes)",
       "games": 5,
-      "wins": 3,
-      "win_rate": 60.0
+      "wins": 2,
+      "win_rate": 40.0
     }
   ],
   "timeline": [
-    {
-      "week": "2026-W19",
-      "lists": 4,
-      "games": 20,
-      "win_rate": 47.5,
-      "total_lists": 448,
-      "play_rate": 0.9
-    },
     {
       "week": "2026-W20",
       "lists": 4,
@@ -142,6 +134,14 @@
       "win_rate": 71.1,
       "total_lists": 448,
       "play_rate": 0.9
+    },
+    {
+      "week": "2026-W21",
+      "lists": 4,
+      "games": 20,
+      "win_rate": 70.0,
+      "total_lists": 241,
+      "play_rate": 1.7
     }
   ]
 }

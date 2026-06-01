@@ -1,28 +1,50 @@
 {
   "faction": "Orks",
   "slug": "orks",
-  "as_of": "2026-05-25",
+  "as_of": "2026-06-01",
   "window_days": 7,
   "event_type": "team",
-  "lists": 15,
-  "games": 75,
-  "play_rate": 3.3,
-  "win_rate": 56.0,
-  "trend_delta": 14.3,
+  "lists": 12,
+  "games": 60,
+  "play_rate": 5.0,
+  "win_rate": 53.3,
+  "trend_delta": -2.7,
   "top_detachment": "War Horde",
-  "ci_lower": 44.7,
+  "ci_lower": 40.9,
   "meta_health": "strongly_under",
-  "x0_pct": 6.7,
-  "x1_pct": 13.3,
+  "x0_pct": 0.0,
+  "x1_pct": 33.3,
   "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "War Horde",
       "base_archetype": "Orks \u2014 War Horde",
-      "lists": 9,
-      "games": 45,
-      "play_rate": 60.0,
-      "win_rate": 47.8,
+      "lists": 7,
+      "games": 35,
+      "play_rate": 58.3,
+      "win_rate": 55.7,
+      "x0_pct": 0.0,
+      "x1_pct": 42.9,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Green Tide",
+      "base_archetype": "Orks \u2014 Green Tide",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 16.7,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 50.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Bully Boyz",
+      "base_archetype": "Orks \u2014 Bully Boyz",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 8.3,
+      "win_rate": 70.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -30,12 +52,12 @@
     {
       "detachment": "Kult of Speed",
       "base_archetype": "Orks \u2014 Kult of Speed",
-      "lists": 3,
-      "games": 15,
-      "play_rate": 20.0,
-      "win_rate": 80.0,
-      "x0_pct": 33.3,
-      "x1_pct": 33.3,
+      "lists": 1,
+      "games": 5,
+      "play_rate": 8.3,
+      "win_rate": 30.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
@@ -43,30 +65,8 @@
       "base_archetype": "Orks \u2014 Dread Mob",
       "lists": 1,
       "games": 5,
-      "play_rate": 6.7,
-      "win_rate": 80.0,
-      "x0_pct": 0.0,
-      "x1_pct": 100.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Freebooter Krew",
-      "base_archetype": "Orks \u2014 Freebooter Krew",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 6.7,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Da Big Hunt",
-      "base_archetype": "Orks \u2014 Da Big Hunt",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 6.7,
-      "win_rate": 30.0,
+      "play_rate": 8.3,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -74,20 +74,20 @@
   ],
   "top_players": [
     {
-      "player_name": "Darcy Harthouse",
-      "detachment": "Kult of Speed",
-      "list_url": "https://www.bestcoastpairings.com/list/g9zgilrBmfRh",
+      "player_name": "Sam Robinson",
+      "detachment": "War Horde",
+      "list_url": "https://www.bestcoastpairings.com/list/OokxiXSi1gRY",
       "source": "bcp",
-      "wins": 5,
+      "wins": 4,
       "losses": 0,
-      "draws": 0,
+      "draws": 1,
       "games": 5,
-      "win_rate": 100.0
+      "win_rate": 90.0
     },
     {
-      "player_name": "Jack Ronnfeldt",
-      "detachment": "Kult of Speed",
-      "list_url": "https://www.bestcoastpairings.com/list/p5pMHdM1yBBD",
+      "player_name": "Chris Leonard",
+      "detachment": "War Horde",
+      "list_url": "https://www.bestcoastpairings.com/list/bmZFBMN41pOa",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -96,64 +96,53 @@
       "win_rate": 80.0
     },
     {
-      "player_name": "Rex Savage",
+      "player_name": "Jonathan Titcombe",
+      "detachment": "War Horde",
+      "list_url": "https://www.bestcoastpairings.com/list/WpkugZS27Y4q",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Mahue Bateman",
+      "detachment": "Green Tide",
+      "list_url": "https://www.bestcoastpairings.com/list/ZUe4ekDJhGV7",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Stephen Brain",
+      "detachment": "Bully Boyz",
+      "list_url": "https://www.bestcoastpairings.com/list/dZSMs1vq9O0M",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Alex Watson",
+      "detachment": "War Horde",
+      "list_url": "https://www.bestcoastpairings.com/list/2WzksXapaiMG",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 2,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 50.0
+    },
+    {
+      "player_name": "Scott Reynolds",
       "detachment": "Dread Mob",
-      "list_url": "https://www.bestcoastpairings.com/list/eforbnJnzG83",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Ryan Shanks",
-      "detachment": "Kult of Speed",
-      "list_url": "https://www.bestcoastpairings.com/list/7HfBevJ0RVMt",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Adrian Lazuardi",
-      "detachment": "Freebooter Krew",
-      "list_url": "https://www.bestcoastpairings.com/list/KKGjWx7qnzbT",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 1,
-      "draws": 2,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Alexander Bull",
-      "detachment": "War Horde",
-      "list_url": "https://www.bestcoastpairings.com/list/1t2ujuVbzt8h",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Edward Askey",
-      "detachment": "War Horde",
-      "list_url": "https://www.bestcoastpairings.com/list/yPeE8ZUrAavN",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 1,
-      "draws": 2,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Will Barden",
-      "detachment": "War Horde",
-      "list_url": "https://www.bestcoastpairings.com/list/HNoYOsvmQDoP",
+      "list_url": "https://www.bestcoastpairings.com/list/aidAlGL3LK7p",
       "source": "bcp",
       "wins": 2,
       "losses": 2,
@@ -162,53 +151,9 @@
       "win_rate": 50.0
     },
     {
-      "player_name": "Stefan Oliveira",
+      "player_name": "Ben Crosthwaite",
       "detachment": "War Horde",
-      "list_url": "https://www.bestcoastpairings.com/list/lgAAiKNA3LAx",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "Tristan Bone",
-      "detachment": "War Horde",
-      "list_url": "https://www.bestcoastpairings.com/list/IrcDKvOKA4h5",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "Henry De Oleveira",
-      "detachment": "War Horde",
-      "list_url": "https://www.bestcoastpairings.com/list/8N7XQNKFfjgo",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "Ben Zagami",
-      "detachment": "War Horde",
-      "list_url": "https://www.bestcoastpairings.com/list/d7OVVin8uwn9",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "Hugh Titchener",
-      "detachment": "War Horde",
-      "list_url": "https://www.bestcoastpairings.com/list/lhSe3wQxjNHi",
+      "list_url": "https://www.bestcoastpairings.com/list/X1Bj7aPq6cuD",
       "source": "bcp",
       "wins": 1,
       "losses": 2,
@@ -217,9 +162,9 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Damien Vander Heyden",
-      "detachment": "Da Big Hunt",
-      "list_url": "https://www.bestcoastpairings.com/list/GpUxAee6QFlV",
+      "player_name": "Christopher Sellers",
+      "detachment": "War Horde",
+      "list_url": "https://www.bestcoastpairings.com/list/LzbJJkX4IPgX",
       "source": "bcp",
       "wins": 1,
       "losses": 3,
@@ -228,9 +173,31 @@
       "win_rate": 30.0
     },
     {
-      "player_name": "Seth Jansson",
+      "player_name": "James Fidler",
+      "detachment": "Kult of Speed",
+      "list_url": "https://www.bestcoastpairings.com/list/m8opK0X4v9Y7",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
+      "player_name": "John Rice",
       "detachment": "War Horde",
-      "list_url": "https://www.bestcoastpairings.com/list/nf8esImRJoBc",
+      "list_url": "https://www.bestcoastpairings.com/list/31yv5Eu5q6IU",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Matthew Donson",
+      "detachment": "Green Tide",
+      "list_url": "https://www.bestcoastpairings.com/list/tGluJg0lKYUA",
       "source": "bcp",
       "wins": 1,
       "losses": 4,
@@ -241,62 +208,32 @@
   ],
   "matchups": [
     {
-      "opponent_faction": "Space Marines (Astartes)",
-      "games": 9,
-      "wins": 5,
-      "win_rate": 55.6
-    },
-    {
-      "opponent_faction": "Tyranids",
+      "opponent_faction": "Chaos Space Marines",
       "games": 7,
-      "wins": 5,
-      "win_rate": 71.4
-    },
-    {
-      "opponent_faction": "Necrons",
-      "games": 7,
-      "wins": 3,
-      "win_rate": 42.9
-    },
-    {
-      "opponent_faction": "Emperor's Children",
-      "games": 6,
-      "wins": 3,
-      "win_rate": 50.0
-    },
-    {
-      "opponent_faction": "Chaos Knights",
-      "games": 5,
       "wins": 2,
-      "win_rate": 40.0
+      "win_rate": 35.7
     },
     {
-      "opponent_faction": "Blood Angels",
-      "games": 5,
-      "wins": 3,
-      "win_rate": 70.0
+      "opponent_faction": "Adeptus Custodes",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 41.7
     },
     {
       "opponent_faction": "Chaos Daemons",
       "games": 5,
-      "wins": 4,
-      "win_rate": 80.0
-    },
-    {
-      "opponent_faction": "Death Guard",
-      "games": 5,
-      "wins": 3,
-      "win_rate": 60.0
+      "wins": 5,
+      "win_rate": 100.0
     }
   ],
   "timeline": [
     {
-      "week": "2026-W20",
-      "lists": 15,
-      "games": 75,
-      "win_rate": 56.0,
-      "total_lists": 448,
-      "play_rate": 3.3
+      "week": "2026-W21",
+      "lists": 12,
+      "games": 60,
+      "win_rate": 53.3,
+      "total_lists": 241,
+      "play_rate": 5.0
     }
   ]
 }
