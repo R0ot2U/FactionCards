@@ -1,30 +1,30 @@
 {
   "faction": "Imperial Agents",
   "slug": "imperial_agents",
-  "as_of": "2026-06-02",
+  "as_of": "2026-06-09",
   "window_days": 30,
   "event_type": "all",
-  "lists": 23,
-  "games": 95,
+  "lists": 24,
+  "games": 101,
   "play_rate": 0.4,
-  "win_rate": 42.1,
-  "trend_delta": 0.9,
+  "win_rate": 40.1,
+  "trend_delta": -1.1,
   "top_detachment": "Imperialis Fleet",
-  "ci_lower": 32.7,
+  "ci_lower": 31.1,
   "meta_health": "strongly_under",
-  "x0_pct": 4.3,
-  "x1_pct": 13.0,
+  "x0_pct": 4.2,
+  "x1_pct": 12.5,
   "tournament_wins": 1,
   "detachments": [
     {
       "detachment": "Imperialis Fleet",
       "base_archetype": "Imperial Agents \u2014 Imperialis Fleet",
-      "lists": 16,
-      "games": 65,
-      "play_rate": 69.6,
-      "win_rate": 43.1,
-      "x0_pct": 6.7,
-      "x1_pct": 13.3,
+      "lists": 17,
+      "games": 71,
+      "play_rate": 70.8,
+      "win_rate": 40.1,
+      "x0_pct": 6.2,
+      "x1_pct": 12.5,
       "tournament_wins": 1
     },
     {
@@ -32,7 +32,7 @@
       "base_archetype": "Imperial Agents \u2014 No Detachment",
       "lists": 3,
       "games": 10,
-      "play_rate": 13.0,
+      "play_rate": 12.5,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -43,7 +43,7 @@
       "base_archetype": "Imperial Agents \u2014 Freeblade Company",
       "lists": 2,
       "games": 10,
-      "play_rate": 8.7,
+      "play_rate": 8.3,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 50.0,
@@ -54,7 +54,7 @@
       "base_archetype": "Imperial Agents \u2014 Veiled Blade Elimination Force",
       "lists": 1,
       "games": 5,
-      "play_rate": 4.3,
+      "play_rate": 4.2,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -65,7 +65,7 @@
       "base_archetype": "Imperial Agents \u2014 Purgation Force (Ordo Hereticus)",
       "lists": 1,
       "games": 5,
-      "play_rate": 4.3,
+      "play_rate": 4.2,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -127,17 +127,6 @@
       "draws": 0,
       "games": 5,
       "win_rate": 60.0
-    },
-    {
-      "player_name": "Christopher Polly",
-      "detachment": "Imperialis Fleet",
-      "list_url": "https://www.bestcoastpairings.com/list/cfLy6Y1GYD7K",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 1,
-      "games": 6,
-      "win_rate": 41.7
     },
     {
       "player_name": "Luke Carrington",
@@ -292,14 +281,25 @@
       "draws": 0,
       "games": 5,
       "win_rate": 20.0
+    },
+    {
+      "player_name": "ryan charters",
+      "detachment": "Imperialis Fleet",
+      "list_url": "https://www.bestcoastpairings.com/list/VHo3Ur97v7DN",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 4,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 10.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 14,
+      "games": 17,
       "wins": 6,
-      "win_rate": 42.9
+      "win_rate": 35.3
     },
     {
       "opponent_faction": "Imperial Knights",
@@ -356,8 +356,8 @@
     {
       "week": "2026-W20",
       "lists": 13,
-      "games": 60,
-      "win_rate": 36.7,
+      "games": 61,
+      "win_rate": 36.1,
       "total_lists": 2209,
       "play_rate": 0.6
     },
@@ -367,6 +367,14 @@
       "games": 8,
       "win_rate": 37.5,
       "total_lists": 1391,
+      "play_rate": 0.1
+    },
+    {
+      "week": "2026-W22",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 10.0,
+      "total_lists": 766,
       "play_rate": 0.1
     }
   ]

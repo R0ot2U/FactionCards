@@ -1,16 +1,16 @@
 {
   "faction": "Imperial Agents",
   "slug": "imperial_agents",
-  "as_of": "2026-06-02",
+  "as_of": "2026-06-09",
   "window_days": 60,
   "event_type": "solo",
   "lists": 49,
   "games": 226,
-  "play_rate": 0.6,
-  "win_rate": 41.6,
-  "trend_delta": -2.7,
+  "play_rate": 0.5,
+  "win_rate": 40.9,
+  "trend_delta": -3.0,
   "top_detachment": "Imperialis Fleet",
-  "ci_lower": 35.4,
+  "ci_lower": 34.7,
   "meta_health": "strongly_under",
   "x0_pct": 2.0,
   "x1_pct": 8.2,
@@ -22,7 +22,7 @@
       "lists": 40,
       "games": 186,
       "play_rate": 81.6,
-      "win_rate": 43.5,
+      "win_rate": 42.7,
       "x0_pct": 2.6,
       "x1_pct": 10.5,
       "tournament_wins": 1
@@ -151,6 +151,17 @@
       "win_rate": 60.0
     },
     {
+      "player_name": "Arin Lavery",
+      "detachment": "Imperialis Fleet",
+      "list_url": "https://www.bestcoastpairings.com/list/cj3IZqDYTuUJ",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
       "player_name": "Chris Boulton",
       "detachment": "Imperialis Fleet",
       "list_url": "https://www.bestcoastpairings.com/list/VWjITQJ6vdLk",
@@ -160,17 +171,6 @@
       "draws": 0,
       "games": 5,
       "win_rate": 60.0
-    },
-    {
-      "player_name": "Arin Lavery",
-      "detachment": "Imperialis Fleet",
-      "list_url": "https://www.bestcoastpairings.com/list/cj3IZqDYTuUJ",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 5,
-      "draws": 0,
-      "games": 10,
-      "win_rate": 50.0
     },
     {
       "player_name": "Richard Grint",
@@ -297,9 +297,9 @@
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 29,
+      "games": 32,
       "wins": 14,
-      "win_rate": 50.0
+      "win_rate": 45.3
     },
     {
       "opponent_faction": "Necrons",
@@ -332,25 +332,19 @@
       "win_rate": 27.3
     },
     {
-      "opponent_faction": "T'au Empire",
-      "games": 10,
-      "wins": 6,
-      "win_rate": 60.0
-    },
-    {
       "opponent_faction": "Astra Militarum",
       "games": 10,
       "wins": 4,
       "win_rate": 40.0
     },
     {
-      "opponent_faction": "Emperor's Children",
+      "opponent_faction": "Tyranids",
       "games": 9,
-      "wins": 3,
-      "win_rate": 38.9
+      "wins": 5,
+      "win_rate": 61.1
     },
     {
-      "opponent_faction": "Tyranids",
+      "opponent_faction": "T'au Empire",
       "games": 9,
       "wins": 5,
       "win_rate": 55.6
@@ -368,10 +362,10 @@
       "win_rate": 25.0
     },
     {
-      "opponent_faction": "Chaos Daemons",
-      "games": 7,
-      "wins": 5,
-      "win_rate": 71.4
+      "opponent_faction": "Emperor's Children",
+      "games": 8,
+      "wins": 3,
+      "win_rate": 43.8
     },
     {
       "opponent_faction": "World Eaters",
@@ -404,6 +398,12 @@
       "win_rate": 83.3
     },
     {
+      "opponent_faction": "Chaos Daemons",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 66.7
+    },
+    {
       "opponent_faction": "Death Guard",
       "games": 6,
       "wins": 2,
@@ -423,14 +423,6 @@
     }
   ],
   "timeline": [
-    {
-      "week": "2026-W13",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 40.0,
-      "total_lists": 306,
-      "play_rate": 0.3
-    },
     {
       "week": "2026-W14",
       "lists": 8,
@@ -485,6 +477,14 @@
       "games": 13,
       "win_rate": 38.5,
       "total_lists": 1150,
+      "play_rate": 0.2
+    },
+    {
+      "week": "2026-W22",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 10.0,
+      "total_lists": 495,
       "play_rate": 0.2
     }
   ]

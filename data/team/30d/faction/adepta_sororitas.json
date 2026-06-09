@@ -1,39 +1,39 @@
 {
   "faction": "Adepta Sororitas",
   "slug": "adepta_sororitas",
-  "as_of": "2026-06-02",
+  "as_of": "2026-06-09",
   "window_days": 30,
   "event_type": "team",
-  "lists": 41,
-  "games": 193,
+  "lists": 45,
+  "games": 213,
   "play_rate": 3.2,
-  "win_rate": 40.2,
-  "trend_delta": -4.1,
+  "win_rate": 39.7,
+  "trend_delta": -4.7,
   "top_detachment": "Hallowed Martyrs",
-  "ci_lower": 33.5,
+  "ci_lower": 33.3,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 4.9,
+  "x1_pct": 6.7,
   "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Hallowed Martyrs",
       "base_archetype": "Adepta Sororitas \u2014 Hallowed Martyrs",
-      "lists": 20,
-      "games": 95,
-      "play_rate": 48.8,
-      "win_rate": 42.1,
+      "lists": 23,
+      "games": 110,
+      "play_rate": 51.1,
+      "win_rate": 39.5,
       "x0_pct": 0.0,
-      "x1_pct": 5.3,
+      "x1_pct": 9.1,
       "tournament_wins": 0
     },
     {
       "detachment": "Champions of Faith",
       "base_archetype": "Adepta Sororitas \u2014 Champions of Faith",
-      "lists": 13,
-      "games": 60,
-      "play_rate": 31.7,
-      "win_rate": 35.0,
+      "lists": 12,
+      "games": 55,
+      "play_rate": 26.7,
+      "win_rate": 33.6,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -41,21 +41,21 @@
     {
       "detachment": "Bringers of Flame",
       "base_archetype": "Adepta Sororitas \u2014 Bringers of Flame",
-      "lists": 5,
-      "games": 23,
-      "play_rate": 12.2,
-      "win_rate": 45.7,
+      "lists": 6,
+      "games": 28,
+      "play_rate": 13.3,
+      "win_rate": 51.8,
       "x0_pct": 0.0,
-      "x1_pct": 20.0,
+      "x1_pct": 16.7,
       "tournament_wins": 0
     },
     {
       "detachment": "Army of Faith",
       "base_archetype": "Adepta Sororitas \u2014 Army of Faith",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 2.4,
-      "win_rate": 50.0,
+      "lists": 2,
+      "games": 10,
+      "play_rate": 4.4,
+      "win_rate": 45.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -65,7 +65,7 @@
       "base_archetype": "Adepta Sororitas \u2014 No Detachment",
       "lists": 1,
       "games": 5,
-      "play_rate": 2.4,
+      "play_rate": 2.2,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -76,7 +76,7 @@
       "base_archetype": "Adepta Sororitas \u2014 Imperialis Fleet",
       "lists": 1,
       "games": 5,
-      "play_rate": 2.4,
+      "play_rate": 2.2,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -84,6 +84,28 @@
     }
   ],
   "top_players": [
+    {
+      "player_name": "Samuel Mart\u00ednez",
+      "detachment": "Hallowed Martyrs",
+      "list_url": "https://www.bestcoastpairings.com/list/PFZnqob7hPmq",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "Sir Valiant AEGIS",
+      "detachment": "Bringers of Flame",
+      "list_url": "https://www.bestcoastpairings.com/list/Z9phRORKsIif",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 0,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 80.0
+    },
     {
       "player_name": "Christopher Chedotal",
       "detachment": "Bringers of Flame",
@@ -103,17 +125,6 @@
       "wins": 4,
       "losses": 1,
       "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Shelby Pilling",
-      "detachment": "Hallowed Martyrs",
-      "list_url": "https://www.bestcoastpairings.com/list/E60iVGgBcFSG",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 0,
-      "draws": 2,
       "games": 5,
       "win_rate": 80.0
     },
@@ -147,17 +158,6 @@
       "wins": 2,
       "losses": 1,
       "draws": 2,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Jesper Neergaard",
-      "detachment": "Champions of Faith",
-      "list_url": "https://www.bestcoastpairings.com/list/7QLh7Z7fph9b",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
       "games": 5,
       "win_rate": 60.0
     },
@@ -308,33 +308,39 @@
   "matchups": [
     {
       "opponent_faction": "Chaos Space Marines",
-      "games": 17,
-      "wins": 6,
-      "win_rate": 38.2
+      "games": 20,
+      "wins": 9,
+      "win_rate": 45.0
     },
     {
       "opponent_faction": "Death Guard",
-      "games": 15,
+      "games": 17,
       "wins": 8,
-      "win_rate": 56.7
+      "win_rate": 47.1
+    },
+    {
+      "opponent_faction": "T'au Empire",
+      "games": 17,
+      "wins": 6,
+      "win_rate": 35.3
     },
     {
       "opponent_faction": "Necrons",
-      "games": 12,
+      "games": 14,
       "wins": 7,
-      "win_rate": 58.3
+      "win_rate": 53.6
     },
     {
       "opponent_faction": "Tyranids",
-      "games": 12,
-      "wins": 5,
-      "win_rate": 45.8
+      "games": 14,
+      "wins": 6,
+      "win_rate": 46.4
     },
     {
       "opponent_faction": "Thousand Sons",
       "games": 11,
-      "wins": 2,
-      "win_rate": 18.2
+      "wins": 3,
+      "win_rate": 27.3
     },
     {
       "opponent_faction": "World Eaters",
@@ -343,34 +349,34 @@
       "win_rate": 54.5
     },
     {
-      "opponent_faction": "Imperial Knights",
-      "games": 10,
-      "wins": 4,
-      "win_rate": 40.0
+      "opponent_faction": "Drukhari",
+      "games": 11,
+      "wins": 3,
+      "win_rate": 27.3
     },
     {
       "opponent_faction": "Leagues of Votann",
       "games": 10,
-      "wins": 5,
-      "win_rate": 50.0
-    },
-    {
-      "opponent_faction": "T'au Empire",
-      "games": 10,
-      "wins": 3,
-      "win_rate": 30.0
+      "wins": 4,
+      "win_rate": 45.0
     },
     {
       "opponent_faction": "Astra Militarum",
       "games": 10,
-      "wins": 3,
-      "win_rate": 30.0
+      "wins": 2,
+      "win_rate": 25.0
+    },
+    {
+      "opponent_faction": "Adeptus Custodes",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 56.2
     },
     {
       "opponent_faction": "Emperor's Children",
       "games": 8,
-      "wins": 0,
-      "win_rate": 6.2
+      "wins": 1,
+      "win_rate": 18.8
     },
     {
       "opponent_faction": "Orks",
@@ -379,22 +385,16 @@
       "win_rate": 25.0
     },
     {
-      "opponent_faction": "Drukhari",
+      "opponent_faction": "Chaos Daemons",
       "games": 8,
-      "wins": 3,
-      "win_rate": 37.5
-    },
-    {
-      "opponent_faction": "Adeptus Custodes",
-      "games": 7,
       "wins": 4,
-      "win_rate": 57.1
+      "win_rate": 56.2
     },
     {
-      "opponent_faction": "Space Marines (Astartes)",
-      "games": 7,
+      "opponent_faction": "Imperial Knights",
+      "games": 8,
       "wins": 2,
-      "win_rate": 28.6
+      "win_rate": 25.0
     },
     {
       "opponent_faction": "Chaos Knights",
@@ -403,21 +403,13 @@
       "win_rate": 42.9
     },
     {
-      "opponent_faction": "Chaos Daemons",
+      "opponent_faction": "Space Marines (Astartes)",
       "games": 6,
-      "wins": 4,
-      "win_rate": 75.0
+      "wins": 1,
+      "win_rate": 16.7
     }
   ],
   "timeline": [
-    {
-      "week": "2026-W18",
-      "lists": 4,
-      "games": 20,
-      "win_rate": 42.5,
-      "total_lists": 161,
-      "play_rate": 2.5
-    },
     {
       "week": "2026-W19",
       "lists": 19,
@@ -441,6 +433,14 @@
       "win_rate": 48.3,
       "total_lists": 241,
       "play_rate": 2.5
+    },
+    {
+      "week": "2026-W22",
+      "lists": 8,
+      "games": 40,
+      "win_rate": 38.8,
+      "total_lists": 271,
+      "play_rate": 3.0
     }
   ]
 }

@@ -1,39 +1,72 @@
 {
   "faction": "Chaos Daemons",
   "slug": "chaos_daemons",
-  "as_of": "2026-06-02",
+  "as_of": "2026-06-09",
   "window_days": 7,
   "event_type": "team",
-  "lists": 7,
-  "games": 35,
-  "play_rate": 2.9,
-  "win_rate": 42.9,
-  "trend_delta": 4.4,
+  "lists": 12,
+  "games": 50,
+  "play_rate": 4.4,
+  "win_rate": 50.0,
+  "trend_delta": 7.1,
   "top_detachment": "Daemonic Incursion",
-  "ci_lower": 28.0,
+  "ci_lower": 36.6,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 14.3,
+  "x1_pct": 16.7,
   "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Daemonic Incursion",
       "base_archetype": "Chaos Daemons \u2014 Daemonic Incursion",
-      "lists": 6,
-      "games": 30,
-      "play_rate": 85.7,
-      "win_rate": 36.7,
+      "lists": 5,
+      "games": 25,
+      "play_rate": 41.7,
+      "win_rate": 36.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
-      "detachment": "Plague Legion",
-      "base_archetype": "Chaos Daemons \u2014 Plague Legion",
+      "detachment": "Scintillating Legion",
+      "base_archetype": "Chaos Daemons \u2014 Scintillating Legion",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 16.7,
+      "win_rate": 55.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Warp Rifts",
+      "base_archetype": "Chaos Daemons \u2014 Warp Rifts",
       "lists": 1,
       "games": 5,
-      "play_rate": 14.3,
+      "play_rate": 8.3,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Infernal Lance",
+      "base_archetype": "Chaos Daemons \u2014 Infernal Lance",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 8.3,
       "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++",
+      "base_archetype": "Chaos Daemons \u2014 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 8.3,
+      "win_rate": 90.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
       "tournament_wins": 0
@@ -41,9 +74,20 @@
   ],
   "top_players": [
     {
-      "player_name": "Geoffrey Hileman",
-      "detachment": "Plague Legion",
-      "list_url": "https://www.bestcoastpairings.com/list/v57KjPEwIjDK",
+      "player_name": "Stefano Bertolini",
+      "detachment": "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++",
+      "list_url": "https://www.bestcoastpairings.com/list/eU6N6mpWjt4a",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "Giuseppe Conti",
+      "detachment": "Infernal Lance",
+      "list_url": "https://www.bestcoastpairings.com/list/BJzwW4imIJKE",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -52,20 +96,42 @@
       "win_rate": 80.0
     },
     {
-      "player_name": "James Merryfield",
+      "player_name": "Michele De Gironimo",
       "detachment": "Daemonic Incursion",
-      "list_url": "https://www.bestcoastpairings.com/list/9w3nWAfxs5GU",
+      "list_url": "https://www.bestcoastpairings.com/list/kVNY6boGBiee",
       "source": "bcp",
-      "wins": 2,
-      "losses": 1,
-      "draws": 2,
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
       "games": 5,
       "win_rate": 60.0
     },
     {
-      "player_name": "Adam Cummins",
+      "player_name": "Stefano Vicario",
+      "detachment": "Scintillating Legion",
+      "list_url": "https://www.bestcoastpairings.com/list/T7kaGv4Lqwmx",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Emiliano D'Ortenzi",
+      "detachment": "Scintillating Legion",
+      "list_url": "https://www.bestcoastpairings.com/list/kTjciY006S1c",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 2,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 50.0
+    },
+    {
+      "player_name": "Jorge Valiente",
       "detachment": "Daemonic Incursion",
-      "list_url": "https://www.bestcoastpairings.com/list/l7kqRlb7eVsf",
+      "list_url": "https://www.bestcoastpairings.com/list/117AyL4F4PW0",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -74,9 +140,20 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Ashley Farn",
+      "player_name": "Michele Merlano",
       "detachment": "Daemonic Incursion",
-      "list_url": "https://www.bestcoastpairings.com/list/cb0TlaNTiF8P",
+      "list_url": "https://www.bestcoastpairings.com/list/Y0hPAbWf0jrF",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 2,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Marco Franza",
+      "detachment": "Warp Rifts",
+      "list_url": "https://www.bestcoastpairings.com/list/jQiNjbF9PQ4d",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -85,20 +162,9 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Jez Morris",
+      "player_name": "Giacomo Piccardo",
       "detachment": "Daemonic Incursion",
-      "list_url": "https://www.bestcoastpairings.com/list/3PODVhywuGva",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Derek Hotchkin",
-      "detachment": "Daemonic Incursion",
-      "list_url": "https://www.bestcoastpairings.com/list/EgzDaEJNIyES",
+      "list_url": "https://www.bestcoastpairings.com/list/x591U1M9Ycw5",
       "source": "bcp",
       "wins": 1,
       "losses": 4,
@@ -107,9 +173,9 @@
       "win_rate": 20.0
     },
     {
-      "player_name": "Kevin Gaskell",
+      "player_name": "Riccardo Soletti",
       "detachment": "Daemonic Incursion",
-      "list_url": "https://www.bestcoastpairings.com/list/266J80GgVLXe",
+      "list_url": "https://www.bestcoastpairings.com/list/o8SWe5lSFpxQ",
       "source": "bcp",
       "wins": 1,
       "losses": 4,
@@ -120,20 +186,20 @@
   ],
   "matchups": [
     {
-      "opponent_faction": "Orks",
-      "games": 5,
-      "wins": 0,
-      "win_rate": 0.0
+      "opponent_faction": "T'au Empire",
+      "games": 9,
+      "wins": 3,
+      "win_rate": 33.3
     }
   ],
   "timeline": [
     {
-      "week": "2026-W21",
-      "lists": 7,
-      "games": 35,
-      "win_rate": 42.9,
-      "total_lists": 241,
-      "play_rate": 2.9
+      "week": "2026-W22",
+      "lists": 12,
+      "games": 50,
+      "win_rate": 50.0,
+      "total_lists": 271,
+      "play_rate": 4.4
     }
   ]
 }
