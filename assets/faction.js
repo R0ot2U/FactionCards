@@ -3,19 +3,20 @@
 let currentSlug = "";
 let currentEventType = getEventType();
 let currentWindow = getWindow();
+let currentEdition = getEdition();
 
-async function loadFactionData(slug, eventType, windowDays) {
-  const backUrl = `index.html?event_type=${encodeURIComponent(eventType)}&window=${encodeURIComponent(windowDays)}`;
+async function loadFactionData(slug, eventType, windowDays, edition) {
+  const backUrl = `index.html?event_type=${encodeURIComponent(eventType)}&window=${encodeURIComponent(windowDays)}&edition=${encodeURIComponent(edition)}`;
 
   let data;
   let usedFallback = false;
   try {
-    data = await fetchJSON(`${dataRoot(eventType, windowDays)}/faction/${slug}.json`);
+    data = await fetchJSON(`${dataRoot(eventType, windowDays, edition)}/faction/${slug}.json`);
   } catch (e) {
-    // Try fallback to "all" / "30d" bundle
-    if (eventType !== "all" || windowDays !== "30d") {
+    // Try fallback to "all" / "7d" / "11th" bundle
+    if (eventType !== "all" || windowDays !== "7d" || edition !== "11th") {
       try {
-        data = await fetchJSON(`${dataRoot("all", "30d")}/faction/${slug}.json`);
+        data = await fetchJSON(`${dataRoot("all", "7d", "11th")}/faction/${slug}.json`);
         usedFallback = true;
       } catch (_) {}
     }
@@ -93,7 +94,7 @@ function renderFactionPage(result) {
         <div id="rankings-table-container"></div>
       </div>
       <div class="panel">
-        <div class="panel-title">Detachment Breakdown</div>
+        <div class="panel-title">Detachment Breakdown <span class="panel-note">(min 5 games)</span></div>
         <div class="table-wrap">${detachmentTable(data.detachments)}</div>
       </div>
       <div class="chart-wrap">
@@ -111,9 +112,23 @@ function renderFactionPage(result) {
 
     <p class="section-title">Detachment Performance</p>
     <div class="chart-wrap">
-      <div class="panel-title">Play Rate by Detachment</div>
+      <div class="panel-title">Play Rate by Detachment <span class="panel-note">(min 5 games)</span></div>
       <div id="chart-det" class="chart-det"></div>
     </div>
+
+    ${data.dispositions && data.dispositions.length > 0 ? `
+    <p class="section-title">Force Dispositions <span style="color:var(--dim);font-size:0.85rem;font-weight:normal;">(11th Edition)</span></p>
+    <div class="two-col">
+      <div class="panel">
+        <div class="panel-title">Disposition Breakdown</div>
+        <div class="table-wrap">${dispositionTable(data.dispositions)}</div>
+      </div>
+      <div class="chart-wrap">
+        <div class="panel-title">Disposition Distribution</div>
+        <div id="chart-disp" class="chart-disp"></div>
+      </div>
+    </div>
+    ` : ''}
 
     <p class="section-title">Matchups vs All Factions</p>
     <div class="chart-wrap">
@@ -156,6 +171,9 @@ function renderFactionPage(result) {
   requestAnimationFrame(async () => {
     renderDetChart(data.detachments);
     renderDetPieChart(data.detachments, 'play_rate');
+    if (data.dispositions && data.dispositions.length > 0) {
+      renderDispChart(data.dispositions);
+    }
     renderMatchupChart(data.matchups);
     renderTimeline(data.timeline);
     if (mapData && mapData.length > 0) {
@@ -192,7 +210,7 @@ async function init() {
   }
 
   // Load initial data
-  const result = await loadFactionData(currentSlug, currentEventType, currentWindow);
+  const result = await loadFactionData(currentSlug, currentEventType, currentWindow, currentEdition);
   renderFactionPage(result);
 
   // Sync active buttons to current state
@@ -201,6 +219,9 @@ async function init() {
   });
   document.querySelectorAll("#window-btns .btn").forEach(b => {
     b.classList.toggle("active", b.dataset.val === currentWindow);
+  });
+  document.querySelectorAll("#edition-btns .btn").forEach(b => {
+    b.classList.toggle("active", b.dataset.val === currentEdition);
   });
 
   // Set up filter button handlers (once)
@@ -224,7 +245,7 @@ function setupFilterButtons() {
       history.replaceState(null, "", url);
 
       // Fetch and render new data
-      const result = await loadFactionData(currentSlug, currentEventType, currentWindow);
+      const result = await loadFactionData(currentSlug, currentEventType, currentWindow, currentEdition);
       renderFactionPage(result);
     });
   });
@@ -245,7 +266,28 @@ function setupFilterButtons() {
       history.replaceState(null, "", url);
 
       // Fetch and render new data
-      const result = await loadFactionData(currentSlug, currentEventType, currentWindow);
+      const result = await loadFactionData(currentSlug, currentEventType, currentWindow, currentEdition);
+      renderFactionPage(result);
+    });
+  });
+
+  // Edition buttons — fetch new data without reload
+  document.querySelectorAll("#edition-btns .btn").forEach(btn => {
+    btn.addEventListener("click", async () => {
+      const newEdition = btn.dataset.val;
+      if (newEdition === currentEdition) return;
+
+      document.querySelectorAll("#edition-btns .btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      currentEdition = newEdition;
+
+      // Update URL without reload
+      const url = new URL(window.location);
+      url.searchParams.set("edition", newEdition);
+      history.replaceState(null, "", url);
+
+      // Fetch and render new data
+      const result = await loadFactionData(currentSlug, currentEventType, currentWindow, currentEdition);
       renderFactionPage(result);
     });
   });
@@ -355,12 +397,49 @@ function detachmentTable(dets) {
     </table>`;
 }
 
+function dispositionTable(disps) {
+  if (!disps || !disps.length) return `<p class="empty">No disposition data (11th Edition only).</p>`;
+  const rows = disps.map(d => {
+    const x0_pct = d.x0_pct != null ? d.x0_pct.toFixed(1) + '%' : '—';
+    const x1_pct = d.x1_pct != null ? d.x1_pct.toFixed(1) + '%' : '—';
+    return `
+    <tr>
+      <td>${d.disposition || "—"}</td>
+      <td data-sort="${d.lists}">${d.lists}</td>
+      <td data-sort="${d.play_rate}" title="Share of this faction's players using this disposition">${d.play_rate.toFixed(1)}%</td>
+      <td data-sort="${d.win_rate}"><span class="${wrClass(d.win_rate)}">${d.win_rate.toFixed(1)}%</span></td>
+      <td data-sort="${d.x0_pct ?? -999}" title="Percentage of players going undefeated with this disposition">${x0_pct}</td>
+      <td data-sort="${d.x1_pct ?? -999}" title="Percentage of players with exactly 1 loss using this disposition">${x1_pct}</td>
+      <td data-sort="${d.games}">${d.games}</td>
+    </tr>`;
+  }).join("");
+  return `
+    <table>
+      <thead><tr>
+        <th>Disposition</th>
+        <th title="Number of players using this disposition in the window">Players</th>
+        <th title="Share of this faction's players using this disposition">Play %</th>
+        <th title="Win rate for this disposition (draw = 0.5 win)">Win %</th>
+        <th title="Percentage of players going undefeated with this disposition">X-0 %</th>
+        <th title="Percentage of players with exactly 1 loss using this disposition">X-1 %</th>
+        <th title="Total games played with this disposition">Games</th>
+      </tr></thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+}
+
 function playersTable(players) {
   if (!players || !players.length) return `<p class="empty">No player data available (min 3 games required).</p>`;
+  // Check if any player has dispositions (11th edition only)
+  const hasDispositions = players.some(p => p.disposition);
+
   const rows = players.map((p, i) => {
     const linkHtml = p.list_url
       ? `<a class="list-link" href="${p.list_url}" target="_blank" rel="noopener">View List ↗</a>`
       : `<span style="color:var(--dim);font-size:0.78rem">${p.source || "—"}</span>`;
+    const dispCell = hasDispositions
+      ? `<td style="color:var(--dim);font-size:0.8rem">${p.disposition || "—"}</td>`
+      : '';
     return `
       <tr>
         <td style="color:var(--dim);font-size:0.8rem">${i + 1}</td>
@@ -368,9 +447,15 @@ function playersTable(players) {
         <td data-sort="${p.win_rate}"><span class="${wrClass(p.win_rate)}">${p.win_rate.toFixed(1)}%</span></td>
         <td>${p.wins}–${p.losses}${p.draws ? `–${p.draws}` : ""}</td>
         <td style="color:var(--dim);font-size:0.8rem">${p.detachment || "—"}</td>
+        ${dispCell}
         <td>${linkHtml}</td>
       </tr>`;
   }).join("");
+
+  const dispHeader = hasDispositions
+    ? '<th title="Force Disposition (11th Edition)">Disposition</th>'
+    : '';
+
   return `
     <table>
       <thead><tr>
@@ -379,6 +464,7 @@ function playersTable(players) {
         <th title="Win rate across games in the window (draw = 0.5 win)">Win %</th>
         <th>Record</th>
         <th>Detachment</th>
+        ${dispHeader}
         <th>List</th>
       </tr></thead>
       <tbody>${rows}</tbody>
@@ -418,6 +504,22 @@ function renderDetChart(dets) {
     x: top.map(d => d.play_rate).reverse(),
     marker: { color: "#1565c0" },
     text: top.map(d => `${d.play_rate.toFixed(1)}%`).reverse(),
+    textposition: "outside",
+    cliponaxis: false,
+    hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
+  }], darkLayout({ margin: { t: 20, r: 80, b: 30, l: 180 } }), { responsive: true });
+}
+
+function renderDispChart(disps) {
+  if (typeof Plotly === "undefined" || !disps || !disps.length) return;
+  const sorted = [...disps].sort((a, b) => b.play_rate - a.play_rate);
+  Plotly.newPlot("chart-disp", [{
+    type: "bar",
+    orientation: "h",
+    y: sorted.map(d => d.disposition || "Unknown").reverse(),
+    x: sorted.map(d => d.play_rate).reverse(),
+    marker: { color: "#e94560" },
+    text: sorted.map(d => `${d.play_rate.toFixed(1)}%`).reverse(),
     textposition: "outside",
     cliponaxis: false,
     hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",

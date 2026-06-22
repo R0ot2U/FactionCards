@@ -1,517 +1,79 @@
 {
   "faction": "Imperial Knights",
   "slug": "imperial_knights",
-  "as_of": "2026-06-09",
+  "as_of": "2026-06-20",
   "window_days": 30,
   "event_type": "solo",
-  "lists": 203,
-  "games": 934,
-  "play_rate": 4.7,
-  "win_rate": 47.3,
-  "trend_delta": -2.8,
-  "top_detachment": "Freeblade Company",
-  "ci_lower": 44.1,
+  "lists": 2,
+  "games": 10,
+  "play_rate": 3.1,
+  "win_rate": 30.0,
+  "trend_delta": null,
+  "top_detachment": "Dominus Foebreakers + Gate Warden Lance",
+  "ci_lower": 10.8,
   "meta_health": "strongly_under",
-  "x0_pct": 1.5,
-  "x1_pct": 12.8,
-  "tournament_wins": 2,
+  "x0_pct": 0.0,
+  "x1_pct": 0.0,
+  "tournament_wins": 0,
   "detachments": [
+    {
+      "detachment": "Dominus Foebreakers + Gate Warden Lance",
+      "base_archetype": "Imperial Knights \u2014 Dominus Foebreakers + Gate Warden Lance",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 50.0,
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
     {
       "detachment": "Freeblade Company",
       "base_archetype": "Imperial Knights \u2014 Freeblade Company",
-      "lists": 125,
-      "games": 575,
-      "play_rate": 61.6,
-      "win_rate": 47.1,
-      "x0_pct": 2.5,
-      "x1_pct": 15.1,
-      "tournament_wins": 2
-    },
-    {
-      "detachment": "Questoris Companions",
-      "base_archetype": "Imperial Knights \u2014 Questoris Companions",
-      "lists": 46,
-      "games": 198,
-      "play_rate": 22.7,
-      "win_rate": 45.7,
-      "x0_pct": 0.0,
-      "x1_pct": 9.5,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Spearhead-at-Arms",
-      "base_archetype": "Imperial Knights \u2014 Spearhead-at-Arms",
-      "lists": 14,
-      "games": 73,
-      "play_rate": 6.9,
-      "win_rate": 56.8,
-      "x0_pct": 0.0,
-      "x1_pct": 14.3,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Valourstrike Lance",
-      "base_archetype": "Imperial Knights \u2014 Valourstrike Lance",
-      "lists": 8,
-      "games": 38,
-      "play_rate": 3.9,
-      "win_rate": 32.9,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "No Detachment",
-      "base_archetype": "Imperial Knights \u2014 No Detachment",
-      "lists": 6,
-      "games": 30,
-      "play_rate": 3.0,
-      "win_rate": 56.7,
-      "x0_pct": 0.0,
-      "x1_pct": 16.7,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Gate Warden Lance",
-      "base_archetype": "Imperial Knights \u2014 Gate Warden Lance",
-      "lists": 3,
-      "games": 15,
-      "play_rate": 1.5,
-      "win_rate": 33.3,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Questor Forgepact",
-      "base_archetype": "Imperial Knights \u2014 Questor Forgepact",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.5,
-      "win_rate": 80.0,
+      "play_rate": 50.0,
+      "win_rate": 40.0,
       "x0_pct": 0.0,
-      "x1_pct": 100.0,
+      "x1_pct": 0.0,
       "tournament_wins": 0
     }
   ],
   "top_players": [
     {
-      "player_name": "Kyle  Smith",
+      "player_name": "Shawn Thorp",
       "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/AbWbEO7wGx9b",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/XFbnWKp6W7Om",
       "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Michael Stewart",
-      "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/b5ZqROQXEyBj",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Dom Ridley",
-      "detachment": "Spearhead-at-Arms",
-      "list_url": "https://www.bestcoastpairings.com/list/t7haFJRQLmqa",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Gavin Hamilton",
-      "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/504AVylYGj9V",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 0,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Mitch Gleeson",
-      "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/RQ5IqYu2IpJm",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 1,
-      "draws": 0,
-      "games": 6,
-      "win_rate": 83.3
-    },
-    {
-      "player_name": "Brett Robb",
-      "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/r9cXpffLEfvn",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Jamie Cumming",
-      "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/Zx0lNgsXAPgq",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Allen Palmer",
-      "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/AE8y7tG5WW94",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Mondaca Juan",
-      "detachment": "Questoris Companions",
-      "list_url": "https://www.bestcoastpairings.com/list/H8Fx7fxt4qW7",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Bradley Williams",
-      "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/sa1i5uSw99Ht",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Stephan Richter",
-      "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/gIguiEzXZU9F",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Ken Devoghelaere",
-      "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/SvUF8Efs8w6X",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Jonathan Plouchard",
-      "detachment": "Questoris Companions",
-      "list_url": "https://www.bestcoastpairings.com/list/4iZPN569KjrK",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Tim Mellings",
-      "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/7XCsaJHRADEB",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Sam Woods",
-      "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/j10DKsByPjZX",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Jind Singh",
-      "detachment": "Questor Forgepact",
-      "list_url": "https://www.bestcoastpairings.com/list/90ecKxHAtX3T",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Javier Naranjo",
-      "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/OjV5VpkCfVOf",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "\u0421\u0435\u0440\u0433\u0435\u0439 \u201cSeed_W\u201d \u0413\u0430\u043f\u043e\u043d\u0435\u043d\u043a\u043e",
-      "detachment": "No Detachment",
-      "list_url": "https://www.bestcoastpairings.com/list/wQEiL0em02jS",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Will Tolley",
-      "detachment": "Spearhead-at-Arms",
-      "list_url": "https://www.bestcoastpairings.com/list/M6tzXAHJnvZl",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Axl Bryant",
-      "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/xQUfVwNrjQzm",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    }
-  ],
-  "matchups": [
-    {
-      "opponent_faction": "Space Marines (Astartes)",
-      "games": 104,
-      "wins": 59,
-      "win_rate": 56.7
-    },
-    {
-      "opponent_faction": "Chaos Space Marines",
-      "games": 76,
-      "wins": 21,
-      "win_rate": 28.3
-    },
-    {
-      "opponent_faction": "Necrons",
-      "games": 59,
-      "wins": 33,
-      "win_rate": 55.9
-    },
-    {
-      "opponent_faction": "T'au Empire",
-      "games": 54,
-      "wins": 22,
-      "win_rate": 41.7
-    },
-    {
-      "opponent_faction": "Astra Militarum",
-      "games": 49,
-      "wins": 23,
-      "win_rate": 48.0
-    },
-    {
-      "opponent_faction": "Tyranids",
-      "games": 43,
-      "wins": 26,
-      "win_rate": 61.6
-    },
-    {
-      "opponent_faction": "Emperor's Children",
-      "games": 42,
-      "wins": 23,
-      "win_rate": 54.8
-    },
-    {
-      "opponent_faction": "Orks",
-      "games": 41,
-      "wins": 21,
-      "win_rate": 51.2
-    },
-    {
-      "opponent_faction": "Death Guard",
-      "games": 38,
-      "wins": 21,
-      "win_rate": 55.3
-    },
-    {
-      "opponent_faction": "Adeptus Custodes",
-      "games": 37,
-      "wins": 13,
-      "win_rate": 35.1
-    },
-    {
-      "opponent_faction": "Thousand Sons",
-      "games": 34,
-      "wins": 18,
-      "win_rate": 52.9
-    },
-    {
-      "opponent_faction": "Blood Angels",
-      "games": 31,
-      "wins": 13,
-      "win_rate": 41.9
-    },
-    {
-      "opponent_faction": "Chaos Knights",
-      "games": 30,
-      "wins": 15,
-      "win_rate": 50.0
-    },
-    {
-      "opponent_faction": "Dark Angels",
-      "games": 29,
-      "wins": 11,
-      "win_rate": 39.7
-    },
-    {
-      "opponent_faction": "World Eaters",
-      "games": 27,
-      "wins": 12,
-      "win_rate": 44.4
-    },
-    {
-      "opponent_faction": "Aeldari",
-      "games": 25,
-      "wins": 12,
-      "win_rate": 50.0
-    },
-    {
-      "opponent_faction": "Grey Knights",
-      "games": 25,
-      "wins": 14,
-      "win_rate": 58.0
-    },
-    {
-      "opponent_faction": "Drukhari",
-      "games": 22,
-      "wins": 6,
-      "win_rate": 29.5
-    },
-    {
-      "opponent_faction": "Chaos Daemons",
-      "games": 19,
-      "wins": 7,
-      "win_rate": 36.8
-    },
-    {
-      "opponent_faction": "Leagues of Votann",
-      "games": 17,
-      "wins": 9,
-      "win_rate": 52.9
-    },
-    {
-      "opponent_faction": "Adepta Sororitas",
-      "games": 17,
-      "wins": 9,
-      "win_rate": 52.9
-    },
-    {
-      "opponent_faction": "Space Wolves",
-      "games": 16,
-      "wins": 5,
-      "win_rate": 31.2
-    },
-    {
-      "opponent_faction": "Deathwatch",
-      "games": 15,
-      "wins": 7,
-      "win_rate": 46.7
-    },
-    {
-      "opponent_faction": "Genestealer Cults",
-      "games": 13,
-      "wins": 5,
-      "win_rate": 38.5
-    },
-    {
-      "opponent_faction": "Adeptus Mechanicus",
-      "games": 13,
-      "wins": 4,
-      "win_rate": 34.6
-    },
-    {
-      "opponent_faction": "Black Templars",
-      "games": 9,
       "wins": 2,
-      "win_rate": 22.2
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
     },
     {
-      "opponent_faction": "Imperial Agents",
-      "games": 7,
-      "wins": 4,
-      "win_rate": 57.1
+      "player_name": "Alex Vermilyea",
+      "detachment": "Dominus Foebreakers + Gate Warden Lance",
+      "disposition": "Priority Assets, Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/o3VvI2GR2y09",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
     }
   ],
+  "matchups": [],
   "timeline": [
     {
-      "week": "2026-W19",
-      "lists": 44,
-      "games": 193,
-      "win_rate": 44.8,
-      "total_lists": 942,
-      "play_rate": 4.7
-    },
-    {
-      "week": "2026-W20",
-      "lists": 91,
-      "games": 411,
-      "win_rate": 47.3,
-      "total_lists": 1761,
-      "play_rate": 5.2
-    },
-    {
-      "week": "2026-W21",
-      "lists": 48,
-      "games": 232,
-      "win_rate": 48.5,
-      "total_lists": 1150,
-      "play_rate": 4.2
-    },
-    {
-      "week": "2026-W22",
-      "lists": 20,
-      "games": 97,
-      "win_rate": 49.5,
-      "total_lists": 495,
-      "play_rate": 4.0
+      "week": "2026-W24",
+      "lists": 2,
+      "games": 10,
+      "win_rate": 30.0,
+      "total_lists": 64,
+      "play_rate": 3.1
     }
   ]
 }

@@ -4,13 +4,14 @@ let allTournaments = [];
 let mapData = [];
 let currentEventType = getEventType();
 let currentWindow = getWindow();
+let currentEdition = getEdition();
 let currentSortCol = 1;  // Default to date column
 let currentSortDir = -1; // -1 = desc, 1 = asc
 let manifest = {};
 let expandedRows = new Set();
 
-async function loadData(eventType, windowDays, cacheBust = false) {
-  const root = dataRoot(eventType, windowDays);
+async function loadData(eventType, windowDays, edition, cacheBust = false) {
+  const root = dataRoot(eventType, windowDays, edition);
   try {
     manifest = await fetchJSON(`${root}/index.json`, cacheBust);
     const tournaments = await fetchJSON(`${root}/tournaments.json`, cacheBust);
@@ -25,18 +26,19 @@ async function loadData(eventType, windowDays, cacheBust = false) {
 
     return true;
   } catch (e) {
-    // Fall back to "all" / "30d" bundle if requested bundle is unavailable
-    if (eventType !== "all" || windowDays !== "30d") {
+    // Fall back to "all" / "7d" / "11th" bundle if requested bundle is unavailable
+    if (eventType !== "all" || windowDays !== "7d" || edition !== "11th") {
       try {
-        manifest = await fetchJSON(`${dataRoot("all", "30d")}/index.json`);
-        const tournaments = await fetchJSON(`${dataRoot("all", "30d")}/tournaments.json`);
+        manifest = await fetchJSON(`${dataRoot("all", "7d", "11th")}/index.json`);
+        const tournaments = await fetchJSON(`${dataRoot("all", "7d", "11th")}/tournaments.json`);
         allTournaments = tournaments;
         currentEventType = "all";
-        currentWindow = "30d";
+        currentWindow = "7d";
+        currentEdition = "11th";
 
         // Load map data for fallback window
         try {
-          mapData = await fetchJSON(`${dataRoot("all", "30d")}/map.json`);
+          mapData = await fetchJSON(`${dataRoot("all", "7d", "11th")}/map.json`);
         } catch (_) {
           mapData = [];
         }
@@ -46,7 +48,10 @@ async function loadData(eventType, windowDays, cacheBust = false) {
           b.classList.toggle("active", b.dataset.val === "all");
         });
         document.querySelectorAll("#window-btns .btn").forEach(b => {
-          b.classList.toggle("active", b.dataset.val === "30d");
+          b.classList.toggle("active", b.dataset.val === "7d");
+        });
+        document.querySelectorAll("#edition-btns .btn").forEach(b => {
+          b.classList.toggle("active", b.dataset.val === "11th");
         });
         return true;
       } catch (_) {}
@@ -248,6 +253,9 @@ async function init() {
   document.querySelectorAll("#window-btns .btn").forEach(b => {
     b.classList.toggle("active", b.dataset.val === currentWindow);
   });
+  document.querySelectorAll("#edition-btns .btn").forEach(b => {
+    b.classList.toggle("active", b.dataset.val === currentEdition);
+  });
 
   // Filter map data to match current window
   const tournamentIds = new Set(allTournaments.map(t => t.event_id));
@@ -279,7 +287,7 @@ async function init() {
       history.replaceState(null, "", url);
 
       expandedRows.clear(); // Reset expanded state
-      await loadData(currentEventType, currentWindow);
+      await loadData(currentEventType, currentWindow, currentEdition);
 
       // Filter map data to match current window
       const tournamentIds = new Set(allTournaments.map(t => t.event_id));
@@ -313,7 +321,41 @@ async function init() {
       history.replaceState(null, "", url);
 
       expandedRows.clear(); // Reset expanded state
-      await loadData(currentEventType, currentWindow);
+      await loadData(currentEventType, currentWindow, currentEdition);
+
+      // Filter map data to match current window
+      const tournamentIds = new Set(allTournaments.map(t => t.event_id));
+      const filteredMapData = mapData.filter(e => tournamentIds.has(e.event_id));
+
+      renderMap(filteredMapData);
+      renderTable();
+      renderFooter(manifest);
+
+      // Update header stats
+      document.getElementById("window-label").textContent =
+        `Tournaments · ${manifest.window_days}-day window · as of ${manifest.as_of}`;
+      document.getElementById("build-info").textContent =
+        `${manifest.total_tournaments.toLocaleString()} tournaments · ${manifest.total_lists.toLocaleString()} players · ${manifest.total_games.toLocaleString()} games`;
+    });
+  });
+
+  // Edition buttons — fetch new bundle and re-render
+  document.querySelectorAll("#edition-btns .btn").forEach(btn => {
+    btn.addEventListener("click", async () => {
+      const newEdition = btn.dataset.val;
+      if (newEdition === currentEdition) return;
+
+      document.querySelectorAll("#edition-btns .btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      currentEdition = newEdition;
+
+      // Update URL without reload
+      const url = new URL(window.location);
+      url.searchParams.set("edition", newEdition);
+      history.replaceState(null, "", url);
+
+      expandedRows.clear(); // Reset expanded state
+      await loadData(currentEventType, currentWindow, currentEdition);
 
       // Filter map data to match current window
       const tournamentIds = new Set(allTournaments.map(t => t.event_id));
@@ -417,6 +459,12 @@ function renderTable() {
     if (isExpanded) {
       let detailHtml = '';
       if (r.top_3 && r.top_3.length > 0) {
+        // Check if any player has dispositions (11th edition)
+        const hasDispositions = r.top_3.some(p => p.disposition);
+        const dispHeader = hasDispositions
+          ? '<th style="text-align:left;padding:0.25rem 0.5rem;">Disposition</th>'
+          : '';
+
         detailHtml = `
           <div style="padding:1rem;background:var(--bg);border-left:3px solid var(--accent);">
             <strong style="color:var(--accent);">Top 3 Placements:</strong>
@@ -426,22 +474,28 @@ function renderTable() {
                   <th style="text-align:left;padding:0.25rem 0.5rem;">Place</th>
                   <th style="text-align:left;padding:0.25rem 0.5rem;">Player</th>
                   <th style="text-align:left;padding:0.25rem 0.5rem;">Faction</th>
+                  ${dispHeader}
                   <th style="text-align:left;padding:0.25rem 0.5rem;">Record</th>
                   <th style="text-align:left;padding:0.25rem 0.5rem;">List</th>
                 </tr>
               </thead>
               <tbody>
-                ${r.top_3.map(p => `
+                ${r.top_3.map(p => {
+                  const dispCell = hasDispositions
+                    ? `<td style="padding:0.25rem 0.5rem;color:var(--dim);font-size:0.75rem;">${p.disposition || '—'}</td>`
+                    : '';
+                  return `
                   <tr style="font-size:0.9rem;">
                     <td style="padding:0.25rem 0.5rem;color:var(--dim);">${p.place}</td>
                     <td style="padding:0.25rem 0.5rem;">${p.player_name}</td>
                     <td style="padding:0.25rem 0.5rem;color:var(--dim);font-size:0.8rem;">${p.faction}</td>
+                    ${dispCell}
                     <td style="padding:0.25rem 0.5rem;">${p.record}</td>
                     <td style="padding:0.25rem 0.5rem;">
                       ${p.list_url ? `<a class="list-link" href="${p.list_url}" target="_blank" rel="noopener">View List ↗</a>` : '—'}
                     </td>
                   </tr>
-                `).join('')}
+                `;}).join('')}
               </tbody>
             </table>
           </div>

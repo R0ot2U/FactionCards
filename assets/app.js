@@ -1,7 +1,8 @@
 /* Shared helpers for Informed Crusader interactive site */
 
 const DEFAULT_EVENT_TYPE = "all";
-const DEFAULT_WINDOW = "30d";
+const DEFAULT_WINDOW = "7d";
+const DEFAULT_EDITION = "11th";
 const SUPPORTED_WINDOWS = ["7d", "14d", "30d", "60d"];
 
 function getEventType() {
@@ -16,10 +17,22 @@ function getWindow() {
   return SUPPORTED_WINDOWS.includes(w) ? w : DEFAULT_WINDOW;
 }
 
-function dataRoot(eventType, window) {
+function getEdition() {
+  const params = new URLSearchParams(window.location.search);
+  const ed = params.get("edition") || DEFAULT_EDITION;
+  return ["10th", "11th", "all"].includes(ed) ? ed : DEFAULT_EDITION;
+}
+
+function dataRoot(eventType, window, edition) {
   const et = eventType || getEventType();
   const w = window || getWindow();
-  return `data/${et}/${w}`;
+  const ed = edition || getEdition();
+
+  // Current structure: data/{edition}/{event_type}/{window}/
+  // For 10th edition, also try legacy path as fallback: data/{event_type}/{window}/
+
+  // All editions now use: data/{edition}/{event_type}/{window}/
+  return `data/${ed}/${et}/${w}`;
 }
 
 async function fetchJSON(path, cacheBust = false) {

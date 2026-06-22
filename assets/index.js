@@ -3,14 +3,15 @@
 let allFactions = [];
 let currentEventType = getEventType();
 let currentWindow = getWindow();
+let currentEdition = getEdition();
 let currentSortCol = 2;  // Default to play_rate column (0=faction, 1=lists, 2=play_rate)
 let currentSortDir = -1; // -1 = desc, 1 = asc
 let manifest = {};
 
 let mapData = [];
 
-async function loadData(eventType, window) {
-  const root = dataRoot(eventType, window);
+async function loadData(eventType, window, edition) {
+  const root = dataRoot(eventType, window, edition);
   try {
     manifest = await fetchJSON(`${root}/index.json`);
     const factions = await fetchJSON(`${root}/factions.json`);
@@ -25,17 +26,18 @@ async function loadData(eventType, window) {
 
     return true;
   } catch (e) {
-    // Fall back to "all" / "30d" bundle if requested bundle is unavailable
-    if (eventType !== "all" || window !== "30d") {
+    // Fall back to "all" / "7d" / "11th" bundle if requested bundle is unavailable
+    if (eventType !== "all" || window !== "7d" || edition !== "11th") {
       try {
-        manifest = await fetchJSON(`${dataRoot("all", "30d")}/index.json`);
-        const factions = await fetchJSON(`${dataRoot("all", "30d")}/factions.json`);
+        manifest = await fetchJSON(`${dataRoot("all", "7d", "11th")}/index.json`);
+        const factions = await fetchJSON(`${dataRoot("all", "7d", "11th")}/factions.json`);
         allFactions = factions;
         currentEventType = "all";
-        currentWindow = "30d";
+        currentWindow = "7d";
+        currentEdition = "11th";
         // Load map data for fallback window
         try {
-          mapData = await fetchJSON(`${dataRoot("all", "30d")}/map.json`);
+          mapData = await fetchJSON(`${dataRoot("all", "7d", "11th")}/map.json`);
         } catch (_) {
           mapData = [];
         }
@@ -44,7 +46,10 @@ async function loadData(eventType, window) {
           b.classList.toggle("active", b.dataset.val === "all");
         });
         document.querySelectorAll("#window-btns .btn").forEach(b => {
-          b.classList.toggle("active", b.dataset.val === "30d");
+          b.classList.toggle("active", b.dataset.val === "7d");
+        });
+        document.querySelectorAll("#edition-btns .btn").forEach(b => {
+          b.classList.toggle("active", b.dataset.val === "11th");
         });
         return true;
       } catch (_) {}
@@ -230,7 +235,7 @@ async function init() {
   document.getElementById("faction-tbody").innerHTML =
     `<tr><td colspan="6" class="loading">Loading data…</td></tr>`;
 
-  const ok = await loadData(currentEventType, currentWindow);
+  const ok = await loadData(currentEventType, currentWindow, currentEdition);
   if (!ok) return;
 
   // Header meta
@@ -249,6 +254,9 @@ async function init() {
   });
   document.querySelectorAll("#window-btns .btn").forEach(b => {
     b.classList.toggle("active", b.dataset.val === currentWindow);
+  });
+  document.querySelectorAll("#edition-btns .btn").forEach(b => {
+    b.classList.toggle("active", b.dataset.val === currentEdition);
   });
 
   renderTable();
@@ -277,7 +285,7 @@ async function init() {
       url.searchParams.set("window", newWindow);
       history.replaceState(null, "", url);
 
-      await loadData(currentEventType, currentWindow);
+      await loadData(currentEventType, currentWindow, currentEdition);
       renderTable();
       renderCharts();
       renderMap(mapData);
@@ -306,7 +314,52 @@ async function init() {
       url.searchParams.set("event_type", newType);
       history.replaceState(null, "", url);
 
-      await loadData(currentEventType, currentWindow);
+      await loadData(currentEventType, currentWindow, currentEdition);
+      renderTable();
+      renderCharts();
+      renderMap(mapData);
+      renderFooter(manifest);
+
+      // Update header stats
+      document.getElementById("window-label").textContent =
+        `${manifest.window_days}-day window · as of ${manifest.as_of}`;
+      document.getElementById("build-info").textContent =
+        `${manifest.total_tournaments.toLocaleString()} tournaments · ${manifest.total_lists.toLocaleString()} players · ${manifest.total_games.toLocaleString()} games`;
+    });
+  });
+
+  // Edition buttons — fetch new bundle and re-render
+  document.querySelectorAll("#edition-btns .btn").forEach(btn => {
+    btn.addEventListener("click", async () => {
+      const newEdition = btn.dataset.val;
+      if (newEdition === currentEdition) return;
+
+      // For non-10th editions, check if data exists first
+      // Build script outputs to: data/{edition}/{event_type}/{window}/
+      if (newEdition !== "10th") {
+        const testPath = newEdition === "11th" ? "data/11th/all/30d/index.json" : "data/all/all/30d/index.json";
+        try {
+          const testResp = await fetch(testPath, { method: 'HEAD' });
+          if (!testResp.ok) {
+            alert(`${newEdition === "11th" ? "11th Edition" : "Combined Edition"} data not yet available.\n\nTo build this data, run:\n  python scripts/build_site_data.py --all-editions --all-event-types --all-windows`);
+            return;
+          }
+        } catch (e) {
+          alert(`${newEdition === "11th" ? "11th Edition" : "Combined Edition"} data not yet available.\n\nTo build this data, run:\n  python scripts/build_site_data.py --all-editions --all-event-types --all-windows`);
+          return;
+        }
+      }
+
+      document.querySelectorAll("#edition-btns .btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      currentEdition = newEdition;
+
+      // Update URL without reload so the state is shareable/bookmarkable
+      const url = new URL(window.location);
+      url.searchParams.set("edition", newEdition);
+      history.replaceState(null, "", url);
+
+      await loadData(currentEventType, currentWindow, currentEdition);
       renderTable();
       renderCharts();
       renderMap(mapData);
@@ -329,11 +382,11 @@ function filteredFactions() {
 }
 
 function sortRowsByColumn(rows) {
-  const colMap = ["faction", "lists", "play_rate", "win_rate", "x0_pct", "x1_pct", "trend_delta", "top_detachment"];
+  const colMap = ["faction", "lists", "play_rate", "win_rate", "x0_pct", "x1_pct", "trend_delta", "top_detachment", "top_disposition"];
   const sortKey = colMap[currentSortCol] || "play_rate";
 
   return [...rows].sort((a, b) => {
-    if (sortKey === "faction" || sortKey === "top_detachment") {
+    if (sortKey === "faction" || sortKey === "top_detachment" || sortKey === "top_disposition") {
       return (a[sortKey] || "").localeCompare(b[sortKey] || "") * currentSortDir;
     }
     return ((b[sortKey] ?? -999) - (a[sortKey] ?? -999)) * -currentSortDir;
@@ -401,6 +454,7 @@ function renderTable() {
         <td data-sort="${r.x1_pct ?? -999}" title="Percentage of players with exactly 1 loss">${x1_pct}</td>
         <td data-sort="${r.trend_delta ?? -999}" title="Win-rate change vs the previous ${manifest.window_days}-day window">${trendHtml(r.trend_delta)}</td>
         <td style="color:var(--dim);font-size:0.8rem">${r.top_detachment || "—"}</td>
+        <td style="color:var(--dim);font-size:0.8rem">${r.top_disposition || "—"}</td>
       </tr>`;
   }).join("");
 
@@ -451,6 +505,30 @@ function renderCharts() {
     shapes: [{ type: "line", x0: 50, x1: 50, y0: -0.5, y1: wrRows.length - 0.5,
                line: { color: "#555", width: 1, dash: "dot" } }],
   }), { responsive: true });
+
+  // Disposition chart (11th edition only)
+  if (manifest.dispositions && manifest.dispositions.length > 0) {
+    const dispSection = document.getElementById("disposition-chart-section");
+    if (dispSection) dispSection.style.display = "block";
+
+    const disps = manifest.dispositions;
+    Plotly.newPlot("chart-disposition", [{
+      type: "bar",
+      orientation: "h",
+      y: disps.map(d => d.disposition).reverse(),
+      x: disps.map(d => d.win_rate).reverse(),
+      marker: { color: disps.map(d => plotlyWrColor(d.win_rate)).reverse() },
+      text: disps.map(d => `${d.win_rate.toFixed(1)}% (n=${d.games})`).reverse(),
+      textposition: "outside",
+      cliponaxis: false,
+      hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
+    }], darkLayout({
+      margin: { t: 20, r: 120, b: 30, l: 180 },
+      xaxis: { range: [0, 80], gridcolor: "#2a2a4a", zerolinecolor: "#2a2a4a" },
+      shapes: [{ type: "line", x0: 50, x1: 50, y0: -0.5, y1: disps.length - 0.5,
+                 line: { color: "#555", width: 1, dash: "dot" } }],
+    }), { responsive: true });
+  }
 }
 
 init();
