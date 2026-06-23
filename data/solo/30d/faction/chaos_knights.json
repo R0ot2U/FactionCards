@@ -1,79 +1,477 @@
 {
   "faction": "Chaos Knights",
   "slug": "chaos_knights",
-  "as_of": "2026-06-20",
+  "as_of": "2026-06-23",
   "window_days": 30,
   "event_type": "solo",
-  "lists": 2,
-  "games": 10,
-  "play_rate": 3.1,
-  "win_rate": 10.0,
-  "trend_delta": null,
-  "top_detachment": "Hunting Warpack + Traitoris Lance",
-  "ci_lower": 1.8,
+  "lists": 49,
+  "games": 240,
+  "play_rate": 2.4,
+  "win_rate": 42.1,
+  "trend_delta": -3.0,
+  "top_detachment": "Infernal Lance",
+  "ci_lower": 36.0,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 0.0,
+  "x1_pct": 6.1,
   "tournament_wins": 0,
   "detachments": [
     {
-      "detachment": "Hunting Warpack + Traitoris Lance",
-      "base_archetype": "Chaos Knights \u2014 Hunting Warpack + Traitoris Lance",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 50.0,
-      "win_rate": 20.0,
+      "detachment": "Infernal Lance",
+      "base_archetype": "Chaos Knights \u2014 Infernal Lance",
+      "lists": 24,
+      "games": 117,
+      "play_rate": 49.0,
+      "win_rate": 41.9,
+      "x0_pct": 0.0,
+      "x1_pct": 4.2,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Houndpack Lance",
+      "base_archetype": "Chaos Knights \u2014 Houndpack Lance",
+      "lists": 8,
+      "games": 40,
+      "play_rate": 16.3,
+      "win_rate": 42.5,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
-      "detachment": "Bastions Of Tyranny + Traitoris Lance",
-      "base_archetype": "Chaos Knights \u2014 Bastions Of Tyranny + Traitoris Lance",
+      "detachment": "Helhunt Lance",
+      "base_archetype": "Chaos Knights \u2014 Helhunt Lance",
+      "lists": 6,
+      "games": 30,
+      "play_rate": 12.2,
+      "win_rate": 36.7,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Lords of Dread",
+      "base_archetype": "Chaos Knights \u2014 Lords of Dread",
+      "lists": 6,
+      "games": 30,
+      "play_rate": 12.2,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Iconoclast Fiefdom",
+      "base_archetype": "Chaos Knights \u2014 Iconoclast Fiefdom",
+      "lists": 4,
+      "games": 18,
+      "play_rate": 8.2,
+      "win_rate": 55.6,
+      "x0_pct": 0.0,
+      "x1_pct": 50.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "No Detachment",
+      "base_archetype": "Chaos Knights \u2014 No Detachment",
       "lists": 1,
       "games": 5,
-      "play_rate": 50.0,
-      "win_rate": 0.0,
+      "play_rate": 2.0,
+      "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     }
   ],
+  "dispositions": [],
   "top_players": [
     {
-      "player_name": "Gigi Williams",
-      "detachment": "Hunting Warpack + Traitoris Lance",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/KW10yGtHkVVy",
+      "player_name": "Adam Davison",
+      "detachment": "Infernal Lance",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/1ReQAI5l2ZwG",
       "source": "bcp",
-      "wins": 1,
-      "losses": 4,
+      "wins": 4,
+      "losses": 1,
       "draws": 0,
       "games": 5,
-      "win_rate": 20.0
+      "win_rate": 80.0
     },
     {
-      "player_name": "Douglas Giddings",
-      "detachment": "Bastions Of Tyranny + Traitoris Lance",
-      "disposition": "Disruption, Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/f1d4bmueUPOI",
+      "player_name": "Trent Abraham",
+      "detachment": "Iconoclast Fiefdom",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/bRzgHBXNEQd7",
       "source": "bcp",
-      "wins": 0,
-      "losses": 5,
+      "wins": 4,
+      "losses": 1,
       "draws": 0,
       "games": 5,
-      "win_rate": 0.0
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Scott Fox",
+      "detachment": "Houndpack Lance",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/ToeGdlbjUSZI",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Alan Richardson",
+      "detachment": "Infernal Lance",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/U6rXGIIqr7Jh",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Francisco Ventura",
+      "detachment": "Iconoclast Fiefdom",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/5djSmANQIZxs",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "games": 3,
+      "win_rate": 66.7
+    },
+    {
+      "player_name": "Jarod Neibling",
+      "detachment": "Helhunt Lance",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/LQvrS2WG3y2a",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Phil Puttock",
+      "detachment": "Infernal Lance",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/30veWOQGWIis",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Ieuan Moraghan",
+      "detachment": "Infernal Lance",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/kd23EAuTEiyi",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Finley Hitchings",
+      "detachment": "Infernal Lance",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/FtyfHO5D4pWl",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Ryan Chapman",
+      "detachment": "Infernal Lance",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/4E3WSmbLwRfC",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "John Garrison",
+      "detachment": "Helhunt Lance",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/goeAEliQmtfg",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Marti Vidal Trav\u00e9s",
+      "detachment": "Lords of Dread",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/tGbheMVTwfsP",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Brad Mathis",
+      "detachment": "Houndpack Lance",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/d3JsQ8TTtzq7",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Dylan Hemsworth",
+      "detachment": "Houndpack Lance",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/Up2tj9rtsP8V",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "lee Wright",
+      "detachment": "Lords of Dread",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/uMEuY3TXrsmY",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Michael  Husmann  - micha_1984",
+      "detachment": "Infernal Lance",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/zD3Meykus80F",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Cameron Newton",
+      "detachment": "Infernal Lance",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/RhRKnlzfQv6M",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 2,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 50.0
+    },
+    {
+      "player_name": "Robert Ivackovic",
+      "detachment": "Helhunt Lance",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/lKFw3bl4garW",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Tony House-Corradine",
+      "detachment": "Infernal Lance",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/d6O4XhcPrbTA",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "James Headford",
+      "detachment": "Infernal Lance",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/XUZCvhDMMgTg",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
     }
   ],
-  "matchups": [],
+  "matchups": [
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 29,
+      "wins": 10,
+      "win_rate": 36.2
+    },
+    {
+      "opponent_faction": "Tyranids",
+      "games": 15,
+      "wins": 5,
+      "win_rate": 33.3
+    },
+    {
+      "opponent_faction": "T'au Empire",
+      "games": 14,
+      "wins": 5,
+      "win_rate": 35.7
+    },
+    {
+      "opponent_faction": "Necrons",
+      "games": 14,
+      "wins": 7,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "Emperor's Children",
+      "games": 14,
+      "wins": 8,
+      "win_rate": 57.1
+    },
+    {
+      "opponent_faction": "Adeptus Custodes",
+      "games": 12,
+      "wins": 3,
+      "win_rate": 25.0
+    },
+    {
+      "opponent_faction": "Blood Angels",
+      "games": 12,
+      "wins": 6,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "Astra Militarum",
+      "games": 12,
+      "wins": 4,
+      "win_rate": 33.3
+    },
+    {
+      "opponent_faction": "Chaos Space Marines",
+      "games": 11,
+      "wins": 5,
+      "win_rate": 45.5
+    },
+    {
+      "opponent_faction": "Imperial Knights",
+      "games": 11,
+      "wins": 4,
+      "win_rate": 36.4
+    },
+    {
+      "opponent_faction": "Dark Angels",
+      "games": 11,
+      "wins": 8,
+      "win_rate": 72.7
+    },
+    {
+      "opponent_faction": "Orks",
+      "games": 9,
+      "wins": 2,
+      "win_rate": 22.2
+    },
+    {
+      "opponent_faction": "Aeldari",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "Grey Knights",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 42.9
+    },
+    {
+      "opponent_faction": "Drukhari",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 42.9
+    },
+    {
+      "opponent_faction": "World Eaters",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 66.7
+    },
+    {
+      "opponent_faction": "Adepta Sororitas",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "Thousand Sons",
+      "games": 6,
+      "wins": 0,
+      "win_rate": 8.3
+    },
+    {
+      "opponent_faction": "Death Guard",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0
+    },
+    {
+      "opponent_faction": "Chaos Daemons",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 20.0
+    }
+  ],
   "timeline": [
     {
+      "week": "2026-W21",
+      "lists": 28,
+      "games": 138,
+      "win_rate": 44.2,
+      "total_lists": 1150,
+      "play_rate": 2.4
+    },
+    {
+      "week": "2026-W22",
+      "lists": 11,
+      "games": 52,
+      "win_rate": 42.3,
+      "total_lists": 495,
+      "play_rate": 2.2
+    },
+    {
       "week": "2026-W24",
-      "lists": 2,
-      "games": 10,
-      "win_rate": 10.0,
-      "total_lists": 64,
-      "play_rate": 3.1
+      "lists": 10,
+      "games": 50,
+      "win_rate": 36.0,
+      "total_lists": 381,
+      "play_rate": 2.6
     }
   ]
 }

@@ -99,7 +99,7 @@ function renderFactionPage(result) {
       </div>
       <div class="chart-wrap">
         <div class="panel-title">
-          Detachment Distribution
+          Detachment Distribution <span class="panel-note">(top 10)</span>
           <div class="pie-metric-btns" style="float:right;display:inline-flex;gap:4px;font-size:0.75rem;">
             <button class="pie-btn active" data-metric="play_rate">Play %</button>
             <button class="pie-btn" data-metric="win_rate">Win %</button>

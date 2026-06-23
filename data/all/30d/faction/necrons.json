@@ -1,28 +1,50 @@
 {
   "faction": "Necrons",
   "slug": "necrons",
-  "as_of": "2026-06-20",
+  "as_of": "2026-06-23",
   "window_days": 30,
   "event_type": "all",
-  "lists": 9,
-  "games": 45,
-  "play_rate": 5.5,
-  "win_rate": 44.4,
-  "trend_delta": null,
+  "lists": 172,
+  "games": 828,
+  "play_rate": 6.4,
+  "win_rate": 53.4,
+  "trend_delta": 1.3,
   "top_detachment": "Awakened Dynasty",
-  "ci_lower": 30.9,
-  "meta_health": "strongly_under",
-  "x0_pct": 0.0,
-  "x1_pct": 0.0,
-  "tournament_wins": 0,
+  "ci_lower": 50.0,
+  "meta_health": "neutral",
+  "x0_pct": 3.5,
+  "x1_pct": 13.4,
+  "tournament_wins": 5,
   "detachments": [
     {
       "detachment": "Awakened Dynasty",
       "base_archetype": "Necrons \u2014 Awakened Dynasty",
-      "lists": 5,
-      "games": 25,
-      "play_rate": 55.6,
-      "win_rate": 46.0,
+      "lists": 65,
+      "games": 315,
+      "play_rate": 37.8,
+      "win_rate": 53.7,
+      "x0_pct": 4.6,
+      "x1_pct": 15.4,
+      "tournament_wins": 4
+    },
+    {
+      "detachment": "Starshatter Arsenal",
+      "base_archetype": "Necrons \u2014 Starshatter Arsenal",
+      "lists": 37,
+      "games": 182,
+      "play_rate": 21.5,
+      "win_rate": 55.5,
+      "x0_pct": 2.8,
+      "x1_pct": 22.2,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Cursed Legion",
+      "base_archetype": "Necrons \u2014 Cursed Legion",
+      "lists": 24,
+      "games": 110,
+      "play_rate": 14.0,
+      "win_rate": 45.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -30,186 +52,489 @@
     {
       "detachment": "Canoptek Court",
       "base_archetype": "Necrons \u2014 Canoptek Court",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 11.1,
-      "win_rate": 20.0,
+      "lists": 19,
+      "games": 93,
+      "play_rate": 11.0,
+      "win_rate": 51.6,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
+      "x1_pct": 5.3,
       "tournament_wins": 0
     },
     {
-      "detachment": "Starshatter Arsenal",
-      "base_archetype": "Necrons \u2014 Starshatter Arsenal",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 11.1,
-      "win_rate": 50.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
+      "detachment": "Hypercrypt Legion",
+      "base_archetype": "Necrons \u2014 Hypercrypt Legion",
+      "lists": 12,
+      "games": 63,
+      "play_rate": 7.0,
+      "win_rate": 61.1,
+      "x0_pct": 8.3,
+      "x1_pct": 25.0,
+      "tournament_wins": 1
     },
     {
       "detachment": "No Detachment",
       "base_archetype": "Necrons \u2014 No Detachment",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 11.1,
-      "win_rate": 60.0,
+      "lists": 6,
+      "games": 20,
+      "play_rate": 3.5,
+      "win_rate": 45.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
-      "detachment": "Cursed Legion + Skyshroud Spearhead",
-      "base_archetype": "Necrons \u2014 Cursed Legion + Skyshroud Spearhead",
+      "detachment": "Pantheon of Woe",
+      "base_archetype": "Necrons \u2014 Pantheon of Woe",
+      "lists": 5,
+      "games": 25,
+      "play_rate": 2.9,
+      "win_rate": 48.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Obeisance Phalanx",
+      "base_archetype": "Necrons \u2014 Obeisance Phalanx",
+      "lists": 3,
+      "games": 15,
+      "play_rate": 1.7,
+      "win_rate": 83.3,
+      "x0_pct": 33.3,
+      "x1_pct": 33.3,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Cryptek Conclave",
+      "base_archetype": "Necrons \u2014 Cryptek Conclave",
       "lists": 1,
       "games": 5,
-      "play_rate": 11.1,
-      "win_rate": 40.0,
+      "play_rate": 0.6,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     }
   ],
+  "dispositions": [],
   "top_players": [
     {
-      "player_name": "Jordan Duchatel",
-      "detachment": "Awakened Dynasty",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/8E6j6J7iFuiR",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 1,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 70.0
-    },
-    {
-      "player_name": "Kirby",
-      "detachment": "No Detachment",
+      "player_name": "David Leniewski",
+      "detachment": "Hypercrypt Legion",
       "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/Bdvr1qiAqG8K",
+      "list_url": "https://www.bestcoastpairings.com/list/4wYavmffVe6R",
       "source": "bcp",
-      "wins": 2,
-      "losses": 1,
-      "draws": 2,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Yorgos Vardakis",
-      "detachment": "Awakened Dynasty",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/H2EDRspoFor9",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
+      "wins": 5,
+      "losses": 0,
       "draws": 0,
       "games": 5,
-      "win_rate": 60.0
+      "win_rate": 100.0
     },
     {
-      "player_name": "Jake Smith",
-      "detachment": "Awakened Dynasty",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/r9AN2wIdJQwU",
+      "player_name": "Arnaud ALLOT",
+      "detachment": "Obeisance Phalanx",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/ZlIkDiMQd5Q8",
       "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
       "games": 5,
-      "win_rate": 50.0
+      "win_rate": 100.0
     },
     {
-      "player_name": "Daniel Gash-Jones",
+      "player_name": "Daniel SSotano",
+      "detachment": "Awakened Dynasty",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/sagZmwkpPSyN",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Jacob Collins",
+      "detachment": "Awakened Dynasty",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/ZfjtQ78Wdrxg",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Max Berlove",
+      "detachment": "Awakened Dynasty",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/X3NfegrKTQkm",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Xiko abarzuza",
       "detachment": "Starshatter Arsenal",
-      "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/xNvf3lhDHAqn",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/dGS8ISnA0qdE",
       "source": "bcp",
-      "wins": 2,
-      "losses": 2,
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Scotty Bee",
+      "detachment": "Awakened Dynasty",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/jqVd403kAieX",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Dan Estill",
+      "detachment": "Obeisance Phalanx",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/VUui0ea2zyQC",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
       "draws": 1,
       "games": 5,
-      "win_rate": 50.0
+      "win_rate": 90.0
     },
     {
-      "player_name": "George Topaltzikis",
-      "detachment": "Cursed Legion + Skyshroud Spearhead",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/Mb5nnho4DcP8",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Michael Rutkai",
+      "player_name": "Marios Kontopyrgos",
       "detachment": "Awakened Dynasty",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/7k9snnq3TXZk",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/48xYv9UZGHdC",
       "source": "bcp",
-      "wins": 1,
-      "losses": 3,
+      "wins": 4,
+      "losses": 0,
       "draws": 1,
       "games": 5,
-      "win_rate": 30.0
+      "win_rate": 90.0
     },
     {
-      "player_name": "Gabriell Caballero",
-      "detachment": "Canoptek Court",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/ntVeFmn72dPw",
+      "player_name": "Alex Ing",
+      "detachment": "Hypercrypt Legion",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/KT98LJ7jUNSB",
       "source": "bcp",
-      "wins": 1,
-      "losses": 4,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 20.0
+      "wins": 8,
+      "losses": 1,
+      "draws": 1,
+      "games": 10,
+      "win_rate": 85.0
     },
     {
-      "player_name": "Thomas Pakiela",
+      "player_name": "Josh Cannon",
       "detachment": "Awakened Dynasty",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/Ym25svpAYOER",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/lwYeukbUCQzg",
       "source": "bcp",
-      "wins": 1,
-      "losses": 4,
+      "wins": 4,
+      "losses": 1,
       "draws": 0,
       "games": 5,
-      "win_rate": 20.0
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "David Clarke",
+      "detachment": "Starshatter Arsenal",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/vItCPZrUCexl",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Noah Parker",
+      "detachment": "Awakened Dynasty",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/bDWwhAnr65B4",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "John Vuchetich",
+      "detachment": "Starshatter Arsenal",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/ACKAY8HizFy6",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Yohan Brebion",
+      "detachment": "Awakened Dynasty",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/qaVRTSHrrgGb",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Ethan Woods",
+      "detachment": "Awakened Dynasty",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/DIzTq4QMOy82",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Joshua Campbell",
+      "detachment": "Awakened Dynasty",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/56dn2oX7mY5l",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Ian Jankus",
+      "detachment": "Starshatter Arsenal",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/vMYHkcRQA61n",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Mike Smith",
+      "detachment": "Hypercrypt Legion",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/0L5GPlrnClKm",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "David Necron Anducas",
+      "detachment": "Starshatter Arsenal",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/wv4xII4plf1r",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 6,
-      "wins": 3,
-      "win_rate": 50.0
+      "games": 76,
+      "wins": 35,
+      "win_rate": 46.7
+    },
+    {
+      "opponent_faction": "Chaos Space Marines",
+      "games": 66,
+      "wins": 29,
+      "win_rate": 44.7
+    },
+    {
+      "opponent_faction": "T'au Empire",
+      "games": 55,
+      "wins": 26,
+      "win_rate": 47.3
+    },
+    {
+      "opponent_faction": "Astra Militarum",
+      "games": 48,
+      "wins": 30,
+      "win_rate": 63.5
+    },
+    {
+      "opponent_faction": "Death Guard",
+      "games": 44,
+      "wins": 25,
+      "win_rate": 58.0
+    },
+    {
+      "opponent_faction": "Thousand Sons",
+      "games": 38,
+      "wins": 18,
+      "win_rate": 47.4
+    },
+    {
+      "opponent_faction": "Imperial Knights",
+      "games": 38,
+      "wins": 14,
+      "win_rate": 38.2
     },
     {
       "opponent_faction": "Tyranids",
-      "games": 5,
-      "wins": 1,
-      "win_rate": 30.0
+      "games": 36,
+      "wins": 24,
+      "win_rate": 66.7
     },
     {
       "opponent_faction": "Emperor's Children",
-      "games": 5,
-      "wins": 0,
-      "win_rate": 0.0
+      "games": 35,
+      "wins": 21,
+      "win_rate": 61.4
+    },
+    {
+      "opponent_faction": "World Eaters",
+      "games": 32,
+      "wins": 18,
+      "win_rate": 57.8
+    },
+    {
+      "opponent_faction": "Blood Angels",
+      "games": 32,
+      "wins": 20,
+      "win_rate": 62.5
+    },
+    {
+      "opponent_faction": "Adeptus Custodes",
+      "games": 26,
+      "wins": 19,
+      "win_rate": 75.0
+    },
+    {
+      "opponent_faction": "Drukhari",
+      "games": 26,
+      "wins": 15,
+      "win_rate": 59.6
+    },
+    {
+      "opponent_faction": "Adepta Sororitas",
+      "games": 24,
+      "wins": 11,
+      "win_rate": 47.9
+    },
+    {
+      "opponent_faction": "Dark Angels",
+      "games": 23,
+      "wins": 13,
+      "win_rate": 56.5
+    },
+    {
+      "opponent_faction": "Orks",
+      "games": 23,
+      "wins": 13,
+      "win_rate": 56.5
+    },
+    {
+      "opponent_faction": "Chaos Daemons",
+      "games": 22,
+      "wins": 10,
+      "win_rate": 47.7
+    },
+    {
+      "opponent_faction": "Leagues of Votann",
+      "games": 22,
+      "wins": 12,
+      "win_rate": 56.8
+    },
+    {
+      "opponent_faction": "Chaos Knights",
+      "games": 20,
+      "wins": 11,
+      "win_rate": 55.0
+    },
+    {
+      "opponent_faction": "Aeldari",
+      "games": 19,
+      "wins": 7,
+      "win_rate": 36.8
+    },
+    {
+      "opponent_faction": "Adeptus Mechanicus",
+      "games": 16,
+      "wins": 7,
+      "win_rate": 43.8
+    },
+    {
+      "opponent_faction": "Deathwatch",
+      "games": 13,
+      "wins": 4,
+      "win_rate": 34.6
+    },
+    {
+      "opponent_faction": "Space Wolves",
+      "games": 11,
+      "wins": 7,
+      "win_rate": 63.6
+    },
+    {
+      "opponent_faction": "Grey Knights",
+      "games": 11,
+      "wins": 8,
+      "win_rate": 72.7
+    },
+    {
+      "opponent_faction": "Genestealer Cults",
+      "games": 10,
+      "wins": 8,
+      "win_rate": 80.0
     }
   ],
   "timeline": [
     {
+      "week": "2026-W21",
+      "lists": 79,
+      "games": 392,
+      "win_rate": 54.7,
+      "total_lists": 1391,
+      "play_rate": 5.7
+    },
+    {
+      "week": "2026-W22",
+      "lists": 51,
+      "games": 233,
+      "win_rate": 49.1,
+      "total_lists": 766,
+      "play_rate": 6.7
+    },
+    {
       "week": "2026-W24",
-      "lists": 9,
-      "games": 45,
-      "win_rate": 44.4,
-      "total_lists": 163,
-      "play_rate": 5.5
+      "lists": 42,
+      "games": 203,
+      "win_rate": 55.9,
+      "total_lists": 537,
+      "play_rate": 7.8
     }
   ]
 }

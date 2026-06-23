@@ -1,39 +1,63 @@
 {
   "faction": "Orks",
   "slug": "orks",
-  "as_of": "2026-06-20",
+  "as_of": "2026-06-23",
   "window_days": 7,
   "event_type": "solo",
-  "lists": 2,
-  "games": 10,
-  "play_rate": 3.1,
-  "win_rate": 60.0,
+  "lists": 8,
+  "games": 31,
+  "play_rate": 2.1,
+  "win_rate": 41.9,
   "trend_delta": null,
   "top_detachment": "War Horde",
-  "ci_lower": 31.3,
+  "ci_lower": 26.4,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 0.0,
+  "x1_pct": 12.5,
   "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "War Horde",
       "base_archetype": "Orks \u2014 War Horde",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 100.0,
+      "lists": 7,
+      "games": 26,
+      "play_rate": 87.5,
+      "win_rate": 38.5,
+      "x0_pct": 0.0,
+      "x1_pct": 16.7,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Freebooter Krew",
+      "base_archetype": "Orks \u2014 Freebooter Krew",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 12.5,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     }
   ],
+  "dispositions": [],
   "top_players": [
     {
-      "player_name": "Jon Snyder",
+      "player_name": "Samuel  Squires",
       "detachment": "War Horde",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/3hSE3g4bXJm5",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/5sY8c0xV60ui",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "games": 3,
+      "win_rate": 66.7
+    },
+    {
+      "player_name": "Jason Fowler",
+      "detachment": "Freebooter Krew",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/1uWNmUppR3eP",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -42,27 +66,82 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Vasilis Miltos",
+      "player_name": "Zane Pollitt",
       "detachment": "War Horde",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/IwutQhHYWeLQ",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/igIstXA0bVCO",
       "source": "bcp",
-      "wins": 3,
-      "losses": 2,
+      "wins": 2,
+      "losses": 3,
       "draws": 0,
       "games": 5,
-      "win_rate": 60.0
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Brett Steele",
+      "detachment": "War Horde",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/pVn3OiDPozxD",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Thai Sirikoone",
+      "detachment": "War Horde",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/xtgMPNbmqYoX",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Donald Minnis",
+      "detachment": "War Horde",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/2N0gesdyZE8u",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "games": 3,
+      "win_rate": 33.3
+    },
+    {
+      "player_name": "David Harris",
+      "detachment": "War Horde",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/9JXonyteJNsq",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
     }
   ],
-  "matchups": [],
+  "matchups": [
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 6,
+      "wins": 5,
+      "win_rate": 83.3
+    }
+  ],
   "timeline": [
     {
       "week": "2026-W24",
-      "lists": 2,
-      "games": 10,
-      "win_rate": 60.0,
-      "total_lists": 64,
-      "play_rate": 3.1
+      "lists": 8,
+      "games": 31,
+      "win_rate": 41.9,
+      "total_lists": 381,
+      "play_rate": 2.1
     }
   ]
 }

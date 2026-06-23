@@ -1,162 +1,575 @@
 {
   "faction": "Tyranids",
   "slug": "tyranids",
-  "as_of": "2026-06-20",
+  "as_of": "2026-06-23",
   "window_days": 60,
   "event_type": "team",
-  "lists": 6,
-  "games": 30,
-  "play_rate": 6.1,
-  "win_rate": 51.7,
-  "trend_delta": null,
-  "top_detachment": "Ambush Predators + Vanguard Onslaught",
-  "ci_lower": 34.6,
-  "meta_health": "strongly_under",
-  "x0_pct": 0.0,
-  "x1_pct": 16.7,
-  "tournament_wins": 0,
+  "lists": 175,
+  "games": 803,
+  "play_rate": 4.2,
+  "win_rate": 50.5,
+  "trend_delta": 0.1,
+  "top_detachment": "Invasion Fleet",
+  "ci_lower": 47.0,
+  "meta_health": "slightly_under",
+  "x0_pct": 5.7,
+  "x1_pct": 12.6,
+  "tournament_wins": 1,
   "detachments": [
     {
-      "detachment": "Ambush Predators + Vanguard Onslaught",
-      "base_archetype": "Tyranids \u2014 Ambush Predators + Vanguard Onslaught",
+      "detachment": "Invasion Fleet",
+      "base_archetype": "Tyranids \u2014 Invasion Fleet",
+      "lists": 92,
+      "games": 415,
+      "play_rate": 52.6,
+      "win_rate": 50.6,
+      "x0_pct": 4.8,
+      "x1_pct": 12.0,
+      "tournament_wins": 1
+    },
+    {
+      "detachment": "Subterranean Assault",
+      "base_archetype": "Tyranids \u2014 Subterranean Assault",
+      "lists": 57,
+      "games": 263,
+      "play_rate": 32.6,
+      "win_rate": 47.5,
+      "x0_pct": 7.4,
+      "x1_pct": 14.8,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Vanguard Onslaught",
+      "base_archetype": "Tyranids \u2014 Vanguard Onslaught",
+      "lists": 12,
+      "games": 60,
+      "play_rate": 6.9,
+      "win_rate": 65.8,
+      "x0_pct": 9.1,
+      "x1_pct": 27.3,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Crusher Stampede",
+      "base_archetype": "Tyranids \u2014 Crusher Stampede",
+      "lists": 9,
+      "games": 40,
+      "play_rate": 5.1,
+      "win_rate": 45.0,
+      "x0_pct": 0.0,
+      "x1_pct": 12.5,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Unending Swarm",
+      "base_archetype": "Tyranids \u2014 Unending Swarm",
       "lists": 2,
       "games": 10,
-      "play_rate": 33.3,
+      "play_rate": 1.1,
+      "win_rate": 35.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "No Detachment",
+      "base_archetype": "Tyranids \u2014 No Detachment",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 0.6,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Assimilation Swarm",
+      "base_archetype": "Tyranids \u2014 Assimilation Swarm",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 0.6,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
-      "detachment": "Invasion Fleet",
-      "base_archetype": "Tyranids \u2014 Invasion Fleet",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 33.3,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 50.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Subterranean Assault",
-      "base_archetype": "Tyranids \u2014 Subterranean Assault",
+      "detachment": "Synaptic Nexus",
+      "base_archetype": "Tyranids \u2014 Synaptic Nexus",
       "lists": 1,
       "games": 5,
-      "play_rate": 16.7,
-      "win_rate": 30.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Assimilation Swarm + Talons Of The Norn Queen",
-      "base_archetype": "Tyranids \u2014 Assimilation Swarm + Talons Of The Norn Queen",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 16.7,
-      "win_rate": 80.0,
-      "x0_pct": 0.0,
+      "play_rate": 0.6,
+      "win_rate": 100.0,
+      "x0_pct": 100.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     }
   ],
+  "dispositions": [],
   "top_players": [
     {
-      "player_name": "Rowan Kennett",
-      "detachment": "Assimilation Swarm + Talons Of The Norn Queen",
-      "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/FfMOB4zrkkKh",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 0,
-      "draws": 2,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Chalan Kelly-Irvin",
-      "detachment": "Ambush Predators + Vanguard Onslaught",
-      "disposition": "Disruption, Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/jUTgHQ6rv9DI",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 0,
-      "draws": 2,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Lewis Boyd",
+      "player_name": "Samuel Pope",
       "detachment": "Invasion Fleet",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/9tK2ZceAbYtY",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/jiKAeDDt9EHR",
       "source": "bcp",
-      "wins": 4,
+      "wins": 10,
+      "losses": 0,
+      "draws": 0,
+      "games": 10,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Curtis Strong",
+      "detachment": "Invasion Fleet",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/Blu7yf9rThrV",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Thomas Fields",
+      "detachment": "Subterranean Assault",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/JinRKdqTbpJG",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Brad Townsend",
+      "detachment": "Subterranean Assault",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/zsLGNwrr0hVo",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Dominic Roy",
+      "detachment": "Vanguard Onslaught",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/swa28TgEp0fC",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Matt Fearn",
+      "detachment": "Subterranean Assault",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/UM8OEuARMStJ",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Thomas Harkestad",
+      "detachment": "Synaptic Nexus",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/BAdAQdFfVmWm",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Connor Reynolds",
+      "detachment": "Invasion Fleet",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/zgQ2tviEv8f3",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Hugo Nissar",
+      "detachment": "Subterranean Assault",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/1ltcAEzwfmJh",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Greg Chamberlain",
+      "detachment": "Invasion Fleet",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/v5rgqkl3RuB2",
+      "source": "bcp",
+      "wins": 9,
       "losses": 1,
       "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
+      "games": 10,
+      "win_rate": 90.0
     },
     {
-      "player_name": "Zack Newport",
-      "detachment": "Invasion Fleet",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/97QvGUQKzLSV",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Dean Lieschke",
+      "player_name": "Rhys Cunningham",
       "detachment": "Subterranean Assault",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/dLAkLJE1P8h8",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/RcEF2stlZk0V",
       "source": "bcp",
-      "wins": 0,
-      "losses": 2,
-      "draws": 3,
-      "games": 5,
-      "win_rate": 30.0
+      "wins": 9,
+      "losses": 1,
+      "draws": 0,
+      "games": 10,
+      "win_rate": 90.0
     },
     {
-      "player_name": "James Rye",
-      "detachment": "Ambush Predators + Vanguard Onslaught",
-      "disposition": "Disruption, Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/aJYCnwW3Uf0U",
+      "player_name": "Quoc Lay",
+      "detachment": "Subterranean Assault",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/u5aQ7FQhQClk",
       "source": "bcp",
-      "wins": 0,
-      "losses": 5,
-      "draws": 0,
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
       "games": 5,
-      "win_rate": 0.0
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "Sergio Parra",
+      "detachment": "Vanguard Onslaught",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/M1291gtj1NFE",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "Pedro Garcia",
+      "detachment": "Invasion Fleet",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/XgOmJfyBGkzs",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "Kike Fullero",
+      "detachment": "Subterranean Assault",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/Gfb87Ct4VMkW",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "Jos\u00e9 D. M\u00e9ndez",
+      "detachment": "Invasion Fleet",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/CIs0Tuy19X7t",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "Chejuan .",
+      "detachment": "Invasion Fleet",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/LAK1KfNxGFTA",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "Riki Predator",
+      "detachment": "Subterranean Assault",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/9vwEQGHB9OXc",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "Scott Morris",
+      "detachment": "Subterranean Assault",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/3RrvxCODRpeq",
+      "source": "bcp",
+      "wins": 13,
+      "losses": 2,
+      "draws": 0,
+      "games": 15,
+      "win_rate": 86.7
+    },
+    {
+      "player_name": "Matthew Langton",
+      "detachment": "Subterranean Assault",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/MZ1MEY6a7RfV",
+      "source": "bcp",
+      "wins": 8,
+      "losses": 1,
+      "draws": 1,
+      "games": 10,
+      "win_rate": 85.0
     }
   ],
   "matchups": [
     {
+      "opponent_faction": "Chaos Space Marines",
+      "games": 58,
+      "wins": 20,
+      "win_rate": 35.3
+    },
+    {
+      "opponent_faction": "Astra Militarum",
+      "games": 56,
+      "wins": 38,
+      "win_rate": 67.9
+    },
+    {
+      "opponent_faction": "Necrons",
+      "games": 56,
+      "wins": 26,
+      "win_rate": 46.4
+    },
+    {
+      "opponent_faction": "T'au Empire",
+      "games": 55,
+      "wins": 32,
+      "win_rate": 59.1
+    },
+    {
+      "opponent_faction": "Death Guard",
+      "games": 55,
+      "wins": 24,
+      "win_rate": 44.5
+    },
+    {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 7,
-      "wins": 3,
-      "win_rate": 42.9
+      "games": 43,
+      "wins": 23,
+      "win_rate": 54.7
+    },
+    {
+      "opponent_faction": "Orks",
+      "games": 39,
+      "wins": 18,
+      "win_rate": 47.4
+    },
+    {
+      "opponent_faction": "Emperor's Children",
+      "games": 38,
+      "wins": 15,
+      "win_rate": 39.5
+    },
+    {
+      "opponent_faction": "Chaos Knights",
+      "games": 37,
+      "wins": 21,
+      "win_rate": 56.8
+    },
+    {
+      "opponent_faction": "Adeptus Custodes",
+      "games": 37,
+      "wins": 16,
+      "win_rate": 44.6
+    },
+    {
+      "opponent_faction": "Imperial Knights",
+      "games": 36,
+      "wins": 13,
+      "win_rate": 37.5
+    },
+    {
+      "opponent_faction": "Thousand Sons",
+      "games": 33,
+      "wins": 12,
+      "win_rate": 36.4
     },
     {
       "opponent_faction": "Aeldari",
-      "games": 5,
+      "games": 28,
+      "wins": 16,
+      "win_rate": 57.1
+    },
+    {
+      "opponent_faction": "Chaos Daemons",
+      "games": 27,
+      "wins": 12,
+      "win_rate": 44.4
+    },
+    {
+      "opponent_faction": "World Eaters",
+      "games": 27,
+      "wins": 14,
+      "win_rate": 53.7
+    },
+    {
+      "opponent_faction": "Adepta Sororitas",
+      "games": 27,
+      "wins": 15,
+      "win_rate": 57.4
+    },
+    {
+      "opponent_faction": "Drukhari",
+      "games": 24,
+      "wins": 11,
+      "win_rate": 47.9
+    },
+    {
+      "opponent_faction": "Leagues of Votann",
+      "games": 22,
+      "wins": 11,
+      "win_rate": 52.3
+    },
+    {
+      "opponent_faction": "Blood Angels",
+      "games": 21,
+      "wins": 15,
+      "win_rate": 71.4
+    },
+    {
+      "opponent_faction": "Dark Angels",
+      "games": 12,
+      "wins": 5,
+      "win_rate": 45.8
+    },
+    {
+      "opponent_faction": "Adeptus Mechanicus",
+      "games": 11,
+      "wins": 5,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "Space Wolves",
+      "games": 10,
+      "wins": 6,
+      "win_rate": 65.0
+    },
+    {
+      "opponent_faction": "Grey Knights",
+      "games": 8,
+      "wins": 5,
+      "win_rate": 62.5
+    },
+    {
+      "opponent_faction": "Genestealer Cults",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 64.3
+    },
+    {
+      "opponent_faction": "Deathwatch",
+      "games": 7,
+      "wins": 5,
+      "win_rate": 71.4
+    },
+    {
+      "opponent_faction": "Black Templars",
+      "games": 6,
       "wins": 3,
-      "win_rate": 60.0
+      "win_rate": 58.3
     }
   ],
   "timeline": [
     {
-      "week": "2026-W24",
+      "week": "2026-W16",
+      "lists": 28,
+      "games": 140,
+      "win_rate": 62.5,
+      "total_lists": 871,
+      "play_rate": 3.2
+    },
+    {
+      "week": "2026-W17",
+      "lists": 63,
+      "games": 260,
+      "win_rate": 46.9,
+      "total_lists": 1606,
+      "play_rate": 3.9
+    },
+    {
+      "week": "2026-W18",
       "lists": 6,
       "games": 30,
-      "win_rate": 51.7,
-      "total_lists": 99,
-      "play_rate": 6.1
+      "win_rate": 61.7,
+      "total_lists": 161,
+      "play_rate": 3.7
+    },
+    {
+      "week": "2026-W19",
+      "lists": 28,
+      "games": 138,
+      "win_rate": 46.4,
+      "total_lists": 448,
+      "play_rate": 6.2
+    },
+    {
+      "week": "2026-W20",
+      "lists": 21,
+      "games": 105,
+      "win_rate": 48.6,
+      "total_lists": 448,
+      "play_rate": 4.7
+    },
+    {
+      "week": "2026-W21",
+      "lists": 9,
+      "games": 35,
+      "win_rate": 47.1,
+      "total_lists": 241,
+      "play_rate": 3.7
+    },
+    {
+      "week": "2026-W22",
+      "lists": 13,
+      "games": 60,
+      "win_rate": 46.7,
+      "total_lists": 271,
+      "play_rate": 4.8
+    },
+    {
+      "week": "2026-W24",
+      "lists": 7,
+      "games": 35,
+      "win_rate": 51.4,
+      "total_lists": 156,
+      "play_rate": 4.5
     }
   ]
 }

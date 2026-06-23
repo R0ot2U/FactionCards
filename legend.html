@@ -16,6 +16,7 @@
   <a class="nav-link" href="players.html">Players</a>
   <a class="nav-link" href="tournaments.html">Tournaments</a>
   <a class="nav-link" href="index.html">Factions</a>
+  <a class="nav-link" href="https://r0ot2u.github.io/FactionCards/cards.html" target="_blank" rel="noopener">PNG Cards ↗</a>
 </header>
 
 <main>
@@ -25,19 +26,24 @@
     <p>Informed Crusader collects and analyses competitive Warhammer 40,000 tournament data from <strong>Best Coast Pairings (BCP)</strong> and <strong>New Recruit</strong> events. It provides win rates, play rates, detachment breakdowns, top player rankings, matchup data, player ELO ratings, and weekly meta trends — all from real tournament results.</p>
     <p>Data is refreshed periodically after tournament weekends. Time windows are anchored to the <strong>most recent event date</strong>, not today's calendar date, ensuring you always see complete tournament data rather than empty windows.</p>
 
-    <h2 class="legend-heading">Event Types</h2>
+    <h2 class="legend-heading">Controls & Filters</h2>
+    <p>Each page has button groups to filter the data you're viewing:</p>
     <div class="legend-grid">
       <div class="legend-card">
-        <div class="legend-term">All Events</div>
-        <p>Combines solo (individual) and team tournament results. Largest sample size.</p>
+        <div class="legend-term">Edition Filter</div>
+        <p><strong>10th Edition:</strong> Original edition data (pre-June 2026).<br>
+        <strong>11th Edition:</strong> Current edition (default). Includes Force Dispositions.<br>
+        <strong>Both:</strong> Combined data from both editions.</p>
       </div>
       <div class="legend-card">
-        <div class="legend-term">Singles</div>
-        <p>Individual (1v1) tournament results only. Reflects solo competitive meta.</p>
+        <div class="legend-term">Time Window</div>
+        <p><strong>7d / 14d / 30d / 60d:</strong> Select the rolling time window. All windows are anchored to the most recent event date, not today's calendar date, so you always see complete tournament data.</p>
       </div>
       <div class="legend-card">
-        <div class="legend-term">Teams</div>
-        <p>Team event results only. Pairing dynamics and team composition affect outcomes, so meta may differ from solo.</p>
+        <div class="legend-term">Event Type</div>
+        <p><strong>All Events:</strong> Solo and team combined (largest sample).<br>
+        <strong>Singles:</strong> Individual (1v1) tournaments only.<br>
+        <strong>Teams:</strong> Team event results only. Pairing dynamics may differ from solo play.</p>
       </div>
     </div>
 
@@ -84,6 +90,14 @@
         <p>The detachment used by the most players for this faction in the window. Not necessarily the strongest — just the most popular.</p>
       </div>
       <div class="legend-card">
+        <div class="legend-term">Top Disposition</div>
+        <p>The most common Force Disposition for this faction (11th Edition only). Five options: <strong>Purge the Foe</strong>, <strong>Take and Hold</strong>, <strong>Priority Assets</strong>, <strong>Disruption</strong>, <strong>Reconnaissance</strong>. Choice determines available secondary objectives.</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Force Disposition</div>
+        <p>An 11th Edition list construction choice. Determines which secondary objectives are available during games. Shown on faction detail pages when 11th edition data is selected.</p>
+      </div>
+      <div class="legend-card">
         <div class="legend-term">Players</div>
         <p>Total number of players recorded for this faction or detachment in the window. Each player at each event contributes one entry.</p>
       </div>
@@ -106,6 +120,10 @@
       <div class="legend-card">
         <div class="legend-term">Detachment Breakdown</div>
         <p>Players, win rate, and tournament wins split by detachment (formation). Play % here is relative to this faction's own players, not all players. Includes a pie chart with switcher for Play %, Win %, and Tournament Wins views.</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Force Dispositions</div>
+        <p>Table showing disposition distribution and win rates for this faction (11th Edition only). Shows which Force Disposition players choose most often and how each performs. Includes pie chart visualization.</p>
       </div>
       <div class="legend-card">
         <div class="legend-term">Win Rate into Opponent</div>
@@ -192,14 +210,22 @@
     <ul class="legend-list">
       <li><strong>Sources:</strong> Best Coast Pairings (BCP) and New Recruit tournament platforms. Data covers GT-level and above events in the window.</li>
       <li><strong>Army list parsing:</strong> Player lists are parsed from BCP and New Recruit export formats. Faction and detachment are extracted from the list text, not the BCP roster (which can be inaccurate for some factions).</li>
-      <li><strong>Sample sizes:</strong> Win rates for factions or detachments with small samples (&lt; 20 games) should be treated with caution — they appear in the data but can swing significantly. Matchups require at least 5 games; player rankings require at least 3.</li>
+      <li><strong>Sample sizes &amp; filters:</strong> Win rates for factions or detachments with small samples (&lt; 20 games) should be treated with caution. The following minimum thresholds are applied:
+        <ul style="margin-top:0.5rem;">
+          <li>Factions require <strong>min 5 games</strong> to appear in the main faction table</li>
+          <li>Detachment stats require <strong>min 5 games</strong></li>
+          <li>Matchup data requires <strong>min 5 games</strong> per pairing</li>
+          <li>Player rankings require <strong>min 3 games</strong> (for 7d/14d/30d windows) or <strong>min 5 games</strong> (for 60d window)</li>
+          <li>Trend arrows require <strong>min 10 games</strong> in the prior window (shows "—" if insufficient)</li>
+        </ul>
+      </li>
       <li><strong>Team events:</strong> Team pairing dynamics differ from solo play. Win rates in Teams mode reflect performance within the team pairing context.</li>
       <li><strong>Refresh cadence:</strong> Data is rebuilt periodically after new events are processed. The build date in the footer shows when the current data was generated.</li>
       <li><strong>Time window anchoring:</strong> Windows (7d, 14d, 30d, 60d) are anchored to the most recent event date in the dataset, not today's calendar date. This ensures windows always show complete tournament data rather than empty periods. For example, if the last data refresh was Tuesday May 20 after a weekend of events, the "7 days" window shows May 13–20 (the week of tournament data), not May 17–24 (which would be empty).</li>
     </ul>
 
     <h2 class="legend-heading">PNG Faction Cards</h2>
-    <p>Static image snapshots of the key metrics are also available as PNG faction cards, useful for sharing on social media or Discord. <a class="legend-link" href="cards.html">View faction cards ↗</a></p>
+    <p>Static image snapshots of the key metrics are also available as PNG faction cards, useful for sharing on social media or Discord. <a class="legend-link" href="https://r0ot2u.github.io/FactionCards/cards.html" target="_blank" rel="noopener">View faction cards ↗</a></p>
 
   </div>
 </main>
@@ -209,7 +235,7 @@
     <span>Data: BCP &amp; New Recruit</span>
     <span class="footer-links">
       <a href="index.html">← Meta Explorer</a>
-      <a href="cards.html">PNG Cards ↗</a>
+      <a href="https://r0ot2u.github.io/FactionCards/cards.html" target="_blank" rel="noopener">PNG Cards ↗</a>
     </span>
   </div>
 </footer>

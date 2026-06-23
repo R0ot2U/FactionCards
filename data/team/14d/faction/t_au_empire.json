@@ -1,84 +1,73 @@
 {
   "faction": "T'au Empire",
   "slug": "t_au_empire",
-  "as_of": "2026-06-20",
+  "as_of": "2026-06-23",
   "window_days": 14,
   "event_type": "team",
-  "lists": 7,
-  "games": 35,
-  "play_rate": 7.1,
-  "win_rate": 52.9,
-  "trend_delta": null,
+  "lists": 9,
+  "games": 45,
+  "play_rate": 5.8,
+  "win_rate": 52.2,
+  "trend_delta": -2.5,
   "top_detachment": "Mont'ka",
-  "ci_lower": 36.9,
+  "ci_lower": 38.0,
   "meta_health": "strongly_under",
-  "x0_pct": 14.3,
-  "x1_pct": 14.3,
+  "x0_pct": 0.0,
+  "x1_pct": 11.1,
   "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Mont'ka",
       "base_archetype": "T'au Empire \u2014 Mont'ka",
+      "lists": 4,
+      "games": 20,
+      "play_rate": 44.4,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Retaliation Cadre",
+      "base_archetype": "T'au Empire \u2014 Retaliation Cadre",
       "lists": 3,
       "games": 15,
-      "play_rate": 42.9,
-      "win_rate": 26.7,
+      "play_rate": 33.3,
+      "win_rate": 66.7,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
-      "detachment": "Advanced Acquisition Cadre + Kauyon",
-      "base_archetype": "T'au Empire \u2014 Advanced Acquisition Cadre + Kauyon",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 28.6,
-      "win_rate": 70.0,
-      "x0_pct": 50.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Auxiliary Cadre + Retaliation Cadre",
-      "base_archetype": "T'au Empire \u2014 Auxiliary Cadre + Retaliation Cadre",
+      "detachment": "Auxiliary Cadre",
+      "base_archetype": "T'au Empire \u2014 Auxiliary Cadre",
       "lists": 1,
       "games": 5,
-      "play_rate": 14.3,
-      "win_rate": 60.0,
+      "play_rate": 11.1,
+      "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
-      "detachment": "No Detachment",
-      "base_archetype": "T'au Empire \u2014 No Detachment",
+      "detachment": "Kroot Hunting Pack",
+      "base_archetype": "T'au Empire \u2014 Kroot Hunting Pack",
       "lists": 1,
       "games": 5,
-      "play_rate": 14.3,
+      "play_rate": 11.1,
       "win_rate": 90.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
       "tournament_wins": 0
     }
   ],
+  "dispositions": [],
   "top_players": [
     {
-      "player_name": "Ben Smith",
-      "detachment": "Advanced Acquisition Cadre + Kauyon",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/sRkoGyfQhOq0",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Nathan Princi",
-      "detachment": "No Detachment",
+      "player_name": "Cooper Leopold",
+      "detachment": "Kroot Hunting Pack",
       "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/TpJhyjhMzq2Z",
+      "list_url": "https://www.bestcoastpairings.com/list/V4KBqwBKxhUR",
       "source": "bcp",
       "wins": 4,
       "losses": 0,
@@ -87,10 +76,34 @@
       "win_rate": 90.0
     },
     {
-      "player_name": "Campbell Freeman",
-      "detachment": "Auxiliary Cadre + Retaliation Cadre",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/WYsO4zOdTtd5",
+      "player_name": "Jacob Whitehouse",
+      "detachment": "Retaliation Cadre",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/dIFJB4bQOF89",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Gee Hunter",
+      "detachment": "Retaliation Cadre",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/kudqaATfcaCn",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 0,
+      "draws": 3,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Carl Cooke",
+      "detachment": "Mont'ka",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/98uwNgjxNtgw",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -99,10 +112,34 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Joel Brodersen",
+      "player_name": "Kyle Mackenzie",
       "detachment": "Mont'ka",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/2sSa9l43HaGz",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/OQch5lxO0gp5",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Edward Askey",
+      "detachment": "Retaliation Cadre",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/LQgCd2S9dxYt",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 1,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Nick Geisler",
+      "detachment": "Mont'ka",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/YoWBF7IDSMuc",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -111,51 +148,46 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Aaron Waters",
-      "detachment": "Advanced Acquisition Cadre + Kauyon",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/JOGMjpibg8te",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Ben Browne",
-      "detachment": "Mont'ka",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/kz0Bhx5Bkdxs",
+      "player_name": "Jake Pickard",
+      "detachment": "Auxiliary Cadre",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/s5M6Krd3j1Aq",
       "source": "bcp",
       "wins": 1,
-      "losses": 3,
-      "draws": 1,
+      "losses": 4,
+      "draws": 0,
       "games": 5,
-      "win_rate": 30.0
+      "win_rate": 20.0
     },
     {
-      "player_name": "David Anderson",
+      "player_name": "Chris Riley",
       "detachment": "Mont'ka",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/aLnKubaNdQAb",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/sRGqdDgH2XkF",
       "source": "bcp",
       "wins": 0,
-      "losses": 4,
-      "draws": 1,
+      "losses": 5,
+      "draws": 0,
       "games": 5,
-      "win_rate": 10.0
+      "win_rate": 0.0
     }
   ],
-  "matchups": [],
+  "matchups": [
+    {
+      "opponent_faction": "Necrons",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 42.9
+    }
+  ],
   "timeline": [
     {
       "week": "2026-W24",
-      "lists": 7,
-      "games": 35,
-      "win_rate": 52.9,
-      "total_lists": 99,
-      "play_rate": 7.1
+      "lists": 9,
+      "games": 45,
+      "win_rate": 52.2,
+      "total_lists": 156,
+      "play_rate": 5.8
     }
   ]
 }

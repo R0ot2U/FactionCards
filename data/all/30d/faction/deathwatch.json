@@ -1,56 +1,403 @@
 {
   "faction": "Deathwatch",
   "slug": "deathwatch",
-  "as_of": "2026-06-20",
+  "as_of": "2026-06-23",
   "window_days": 30,
   "event_type": "all",
-  "lists": 1,
-  "games": 5,
-  "play_rate": 0.6,
-  "win_rate": 80.0,
-  "trend_delta": null,
+  "lists": 34,
+  "games": 175,
+  "play_rate": 1.3,
+  "win_rate": 58.3,
+  "trend_delta": -0.1,
   "top_detachment": "Black Spear Task Force",
-  "ci_lower": 37.6,
-  "meta_health": "strongly_under",
-  "x0_pct": 0.0,
-  "x1_pct": 100.0,
-  "tournament_wins": 0,
+  "ci_lower": 50.9,
+  "meta_health": "slightly_over",
+  "x0_pct": 8.8,
+  "x1_pct": 23.5,
+  "tournament_wins": 3,
   "detachments": [
     {
       "detachment": "Black Spear Task Force",
       "base_archetype": "Deathwatch \u2014 Black Spear Task Force",
+      "lists": 33,
+      "games": 170,
+      "play_rate": 97.1,
+      "win_rate": 58.2,
+      "x0_pct": 9.1,
+      "x1_pct": 24.2,
+      "tournament_wins": 3
+    },
+    {
+      "detachment": "No Detachment",
+      "base_archetype": "Deathwatch \u2014 No Detachment",
       "lists": 1,
       "games": 5,
-      "play_rate": 100.0,
-      "win_rate": 80.0,
+      "play_rate": 2.9,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
-      "x1_pct": 100.0,
+      "x1_pct": 0.0,
       "tournament_wins": 0
     }
   ],
+  "dispositions": [],
   "top_players": [
     {
-      "player_name": "Dimitrios Zotos",
+      "player_name": "Conor Tomalty",
       "detachment": "Black Spear Task Force",
-      "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/iSWA6CvD6Utf",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/UiAaEX84bPpu",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Alejandro Jorquera",
+      "detachment": "Black Spear Task Force",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/IvXKm9doTUpz",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Joshua Gray",
+      "detachment": "Black Spear Task Force",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/og3MaGERFECD",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "Feliks Bartkiewicz",
+      "detachment": "Black Spear Task Force",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/pvQN2zDL8FOX",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "Blake Chandler",
+      "detachment": "Black Spear Task Force",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/kUIIi0MpeWvu",
+      "source": "bcp",
+      "wins": 8,
+      "losses": 2,
+      "draws": 0,
+      "games": 10,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Yann TRAN",
+      "detachment": "Black Spear Task Force",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/8zI2vZDG3ggx",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
       "draws": 0,
       "games": 5,
       "win_rate": 80.0
+    },
+    {
+      "player_name": "Cameron Franks",
+      "detachment": "Black Spear Task Force",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/7b6bfDvN6bq8",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Giovanni Re",
+      "detachment": "Black Spear Task Force",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/MIDwwpAxRQCc",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Greg Lamey",
+      "detachment": "Black Spear Task Force",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/goOOJ9ThF9IH",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Many CL",
+      "detachment": "Black Spear Task Force",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/0ccOZcoYP5SK",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "chloe chippindale",
+      "detachment": "Black Spear Task Force",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/5f7pfl1Gwigv",
+      "source": "bcp",
+      "wins": 7,
+      "losses": 3,
+      "draws": 0,
+      "games": 10,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Josue Izabal",
+      "detachment": "Black Spear Task Force",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/wZXDZ9DZ56hJ",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 2,
+      "draws": 3,
+      "games": 10,
+      "win_rate": 65.0
+    },
+    {
+      "player_name": "Tristan Wampler",
+      "detachment": "Black Spear Task Force",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/plfuvotjT2oA",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Tel Bird",
+      "detachment": "Black Spear Task Force",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/ABWDkKDyycjh",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Baptiste Verwee",
+      "detachment": "Black Spear Task Force",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/RCEW1BPQe5B1",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Pedro Cbrr",
+      "detachment": "Black Spear Task Force",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/zfMpPbBODWbq",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Anna Spray-Wiegert",
+      "detachment": "Black Spear Task Force",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/3YqBQvMsrm67",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Yayyay Super",
+      "detachment": "No Detachment",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/VfBNUvv0wVUi",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Tim Royers",
+      "detachment": "Black Spear Task Force",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/iOWI3MKLRUsX",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 2,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 50.0
+    },
+    {
+      "player_name": "Tom Smith",
+      "detachment": "Black Spear Task Force",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/F9xZMZ6pq5C4",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
     }
   ],
-  "matchups": [],
+  "matchups": [
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 16,
+      "wins": 7,
+      "win_rate": 46.9
+    },
+    {
+      "opponent_faction": "Adeptus Custodes",
+      "games": 15,
+      "wins": 10,
+      "win_rate": 66.7
+    },
+    {
+      "opponent_faction": "Chaos Space Marines",
+      "games": 14,
+      "wins": 8,
+      "win_rate": 57.1
+    },
+    {
+      "opponent_faction": "Necrons",
+      "games": 13,
+      "wins": 8,
+      "win_rate": 65.4
+    },
+    {
+      "opponent_faction": "Thousand Sons",
+      "games": 11,
+      "wins": 6,
+      "win_rate": 54.5
+    },
+    {
+      "opponent_faction": "Drukhari",
+      "games": 11,
+      "wins": 7,
+      "win_rate": 63.6
+    },
+    {
+      "opponent_faction": "Death Guard",
+      "games": 10,
+      "wins": 6,
+      "win_rate": 65.0
+    },
+    {
+      "opponent_faction": "Astra Militarum",
+      "games": 9,
+      "wins": 5,
+      "win_rate": 61.1
+    },
+    {
+      "opponent_faction": "T'au Empire",
+      "games": 9,
+      "wins": 3,
+      "win_rate": 33.3
+    },
+    {
+      "opponent_faction": "Chaos Daemons",
+      "games": 8,
+      "wins": 5,
+      "win_rate": 62.5
+    },
+    {
+      "opponent_faction": "Emperor's Children",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "Tyranids",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "Imperial Knights",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 42.9
+    },
+    {
+      "opponent_faction": "Adepta Sororitas",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 75.0
+    },
+    {
+      "opponent_faction": "Blood Angels",
+      "games": 5,
+      "wins": 4,
+      "win_rate": 80.0
+    }
+  ],
   "timeline": [
     {
+      "week": "2026-W21",
+      "lists": 22,
+      "games": 110,
+      "win_rate": 58.2,
+      "total_lists": 1391,
+      "play_rate": 1.6
+    },
+    {
+      "week": "2026-W22",
+      "lists": 6,
+      "games": 35,
+      "win_rate": 71.4,
+      "total_lists": 766,
+      "play_rate": 0.8
+    },
+    {
       "week": "2026-W24",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 80.0,
-      "total_lists": 163,
-      "play_rate": 0.6
+      "lists": 6,
+      "games": 30,
+      "win_rate": 43.3,
+      "total_lists": 537,
+      "play_rate": 1.1
     }
   ]
 }
