@@ -5,31 +5,31 @@
   "window_days": 14,
   "event_type": "all",
   "lists": 4,
-  "games": 20,
-  "play_rate": 0.7,
-  "win_rate": 37.5,
-  "trend_delta": -1.2,
-  "top_detachment": "Host of Ascension",
-  "ci_lower": 20.0,
+  "games": 18,
+  "play_rate": 2.1,
+  "win_rate": 47.2,
+  "trend_delta": null,
+  "top_detachment": "Biosanctic Broodsurge",
+  "ci_lower": 26.8,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 0.0,
+  "x1_pct": 25.0,
   "tournament_wins": 0,
   "detachments": [
     {
-      "detachment": "Host of Ascension",
-      "base_archetype": "Genestealer Cults \u2014 Host of Ascension",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 50.0,
-      "win_rate": 45.0,
+      "detachment": "Biosanctic Broodsurge",
+      "base_archetype": "Genestealer Cults \u2014 Biosanctic Broodsurge",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 25.0,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
-      "detachment": "Outlander Claw",
-      "base_archetype": "Genestealer Cults \u2014 Outlander Claw",
+      "detachment": "Heroes Of The Uprising + Purestrain Broodswarm + and Xenocult Masses",
+      "base_archetype": "Genestealer Cults \u2014 Heroes Of The Uprising + Purestrain Broodswarm + and Xenocult Masses",
       "lists": 1,
       "games": 5,
       "play_rate": 25.0,
@@ -39,24 +39,85 @@
       "tournament_wins": 0
     },
     {
-      "detachment": "Biosanctic Broodsurge",
-      "base_archetype": "Genestealer Cults \u2014 Biosanctic Broodsurge",
+      "detachment": "Heroes Of The Uprising + Outlander Claw",
+      "base_archetype": "Genestealer Cults \u2014 Heroes Of The Uprising + Outlander Claw",
       "lists": 1,
       "games": 5,
       "play_rate": 25.0,
-      "win_rate": 40.0,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     }
   ],
-  "dispositions": [],
+  "dispositions": [
+    {
+      "disposition": "Disruption",
+      "lists": 2,
+      "play_rate": 50.0,
+      "win_rate": 62.5,
+      "x0_pct": 0.0,
+      "x1_pct": 50.0,
+      "games": 8
+    },
+    {
+      "disposition": "Priority Assets",
+      "lists": 2,
+      "play_rate": 50.0,
+      "win_rate": 37.5,
+      "x0_pct": 0.0,
+      "x1_pct": 50.0,
+      "games": 8
+    },
+    {
+      "disposition": "Purge the Foe",
+      "lists": 1,
+      "play_rate": 25.0,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5
+    },
+    {
+      "disposition": "Reconnaissance",
+      "lists": 1,
+      "play_rate": 25.0,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5
+    }
+  ],
   "top_players": [
     {
-      "player_name": "Michael McCann",
-      "detachment": "Host of Ascension",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/CsZclxsOomKY",
+      "player_name": "Brett Gutterson",
+      "detachment": "Xenocreed Congregation + Xenocult Masses",
+      "disposition": "Disruption, Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/UBNgS4rnYwT4",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "games": 3,
+      "win_rate": 66.7
+    },
+    {
+      "player_name": "Richard Deary IV",
+      "detachment": "Biosanctic Broodsurge",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/6WB1k2feWnJZ",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Phil Richardson",
+      "detachment": "Heroes Of The Uprising + Outlander Claw",
+      "disposition": "Purge the Foe, Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/b2P6fIrSyPPk",
       "source": "bcp",
       "wins": 2,
       "losses": 2,
@@ -65,38 +126,14 @@
       "win_rate": 50.0
     },
     {
-      "player_name": "Brandon Stone",
-      "detachment": "Host of Ascension",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/r6KH2DXjhgCy",
+      "player_name": "Francois Montagne",
+      "detachment": "Heroes Of The Uprising + Purestrain Broodswarm + and Xenocult Masses",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/9hxBu9OKHW89",
       "source": "bcp",
-      "wins": 2,
-      "losses": 3,
+      "wins": 1,
+      "losses": 4,
       "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Bailey Leatherdale",
-      "detachment": "Biosanctic Broodsurge",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/5LwDtyhkuBHm",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Stuart  Trainer",
-      "detachment": "Outlander Claw",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/2s6IdazBk5BB",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 3,
-      "draws": 2,
       "games": 5,
       "win_rate": 20.0
     }
@@ -106,10 +143,10 @@
     {
       "week": "2026-W24",
       "lists": 4,
-      "games": 20,
-      "win_rate": 37.5,
-      "total_lists": 537,
-      "play_rate": 0.7
+      "games": 18,
+      "win_rate": 47.2,
+      "total_lists": 192,
+      "play_rate": 2.1
     }
   ]
 }

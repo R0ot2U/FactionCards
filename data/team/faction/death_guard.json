@@ -1,471 +1,238 @@
 {
   "faction": "Death Guard",
   "slug": "death_guard",
-  "as_of": "2026-05-19",
-  "window_days": 30,
+  "as_of": "2026-06-20",
+  "window_days": 7,
   "event_type": "team",
-  "lists": 169,
-  "games": 721,
-  "play_rate": 5.5,
-  "win_rate": 52.7,
-  "trend_delta": 10.6,
+  "lists": 8,
+  "games": 40,
+  "play_rate": 8.1,
+  "win_rate": 48.8,
+  "trend_delta": null,
   "top_detachment": "Virulent Vectorium",
+  "ci_lower": 34.1,
+  "meta_health": "strongly_under",
+  "x0_pct": 0.0,
+  "x1_pct": 12.5,
+  "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Virulent Vectorium",
       "base_archetype": "Death Guard \u2014 Virulent Vectorium",
-      "lists": 127,
-      "games": 534,
-      "play_rate": 75.1,
-      "win_rate": 54.8
-    },
-    {
-      "detachment": "Mortarion's Hammer",
-      "base_archetype": "Death Guard \u2014 Mortarion's Hammer",
-      "lists": 20,
-      "games": 88,
-      "play_rate": 11.8,
-      "win_rate": 50.6
-    },
-    {
-      "detachment": "Tallyband Summoners",
-      "base_archetype": "Death Guard \u2014 Tallyband Summoners",
-      "lists": 8,
-      "games": 35,
-      "play_rate": 4.7,
-      "win_rate": 57.1
-    },
-    {
-      "detachment": "Champions of Contagion",
-      "base_archetype": "Death Guard \u2014 Champions of Contagion",
-      "lists": 5,
-      "games": 25,
-      "play_rate": 3.0,
-      "win_rate": 52.0
-    },
-    {
-      "detachment": "Shamblerot Vectorium",
-      "base_archetype": "Death Guard \u2014 Shamblerot Vectorium",
       "lists": 3,
       "games": 15,
-      "play_rate": 1.8,
-      "win_rate": 30.0
+      "play_rate": 37.5,
+      "win_rate": 63.3,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "tournament_wins": 0
     },
     {
-      "detachment": "Flyblown Host",
-      "base_archetype": "Death Guard \u2014 Flyblown Host",
+      "detachment": "Flyblown Host + Mortarion's Hammer",
+      "base_archetype": "Death Guard \u2014 Flyblown Host + Mortarion's Hammer",
       "lists": 2,
       "games": 10,
-      "play_rate": 1.2,
-      "win_rate": 25.0
+      "play_rate": 25.0,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
-      "detachment": "Death Lord's Chosen",
-      "base_archetype": "Death Guard \u2014 Death Lord's Chosen",
+      "detachment": "No Detachment",
+      "base_archetype": "Death Guard \u2014 No Detachment",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 12.5,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Death Lord's Chosen + Paragons Of Putrescence",
+      "base_archetype": "Death Guard \u2014 Death Lord's Chosen + Paragons Of Putrescence",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 12.5,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Champions Of Contagion + Contagion Engines",
+      "base_archetype": "Death Guard \u2014 Champions Of Contagion + Contagion Engines",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 12.5,
+      "win_rate": 30.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    }
+  ],
+  "dispositions": [
+    {
+      "disposition": "Take and Hold",
+      "lists": 4,
+      "play_rate": 50.0,
+      "win_rate": 55.0,
+      "x0_pct": 0.0,
+      "x1_pct": 25.0,
+      "games": 20
+    },
+    {
+      "disposition": "Purge the Foe",
       "lists": 2,
-      "games": 10,
-      "play_rate": 1.2,
-      "win_rate": 20.0
+      "play_rate": 25.0,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 10
+    },
+    {
+      "disposition": "Reconnaissance",
+      "lists": 2,
+      "play_rate": 25.0,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 10
+    },
+    {
+      "disposition": "Disruption",
+      "lists": 1,
+      "play_rate": 12.5,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5
+    },
+    {
+      "disposition": "Priority Assets",
+      "lists": 1,
+      "play_rate": 12.5,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5
     }
   ],
   "top_players": [
     {
-      "player_name": "Dom Maidlow",
+      "player_name": "Kurt Cullen",
       "detachment": "Virulent Vectorium",
-      "list_url": "https://www.bestcoastpairings.com/list/cC1ZKa1tPKOM",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/F2PUNNc1FWTY",
       "source": "bcp",
-      "wins": 10,
-      "losses": 0,
-      "draws": 0,
-      "games": 10,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Austin Wingfield",
-      "detachment": "Virulent Vectorium",
-      "list_url": "https://www.bestcoastpairings.com/list/KeFK7s2kaf9x",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
+      "wins": 4,
+      "losses": 1,
       "draws": 0,
       "games": 5,
-      "win_rate": 100.0
+      "win_rate": 80.0
     },
     {
-      "player_name": "Zan Rashid",
+      "player_name": "Luke Brown",
       "detachment": "Virulent Vectorium",
-      "list_url": "https://www.bestcoastpairings.com/list/L975PGYoqihe",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/yO9RQXECgQrz",
       "source": "bcp",
-      "wins": 5,
-      "losses": 0,
+      "wins": 3,
+      "losses": 2,
       "draws": 0,
       "games": 5,
-      "win_rate": 100.0
+      "win_rate": 60.0
     },
     {
-      "player_name": "Tuomas Hallamaa",
+      "player_name": "David Sheridan",
       "detachment": "Virulent Vectorium",
-      "list_url": "https://www.bestcoastpairings.com/list/LwO33xBeCSYy",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/fbwfE9jia1yq",
       "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
+      "wins": 2,
+      "losses": 2,
+      "draws": 1,
       "games": 5,
-      "win_rate": 100.0
+      "win_rate": 50.0
     },
     {
-      "player_name": "Frederik Larsen",
-      "detachment": "Virulent Vectorium",
-      "list_url": "https://www.bestcoastpairings.com/list/MNxot6fOphtr",
+      "player_name": "Oliver Cox",
+      "detachment": "Flyblown Host + Mortarion's Hammer",
+      "disposition": "Purge the Foe, Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/4WI3SfHCIahX",
       "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
+      "wins": 1,
+      "losses": 1,
+      "draws": 3,
       "games": 5,
-      "win_rate": 100.0
+      "win_rate": 50.0
     },
     {
-      "player_name": "Tim O'Flynn",
-      "detachment": "Virulent Vectorium",
-      "list_url": "https://www.bestcoastpairings.com/list/McSuMFMNgj7D",
+      "player_name": "Woody Wu",
+      "detachment": "Death Lord's Chosen + Paragons Of Putrescence",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/9Bx9q1Qivyu8",
       "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
+      "wins": 2,
+      "losses": 2,
+      "draws": 1,
       "games": 5,
-      "win_rate": 100.0
+      "win_rate": 50.0
     },
     {
-      "player_name": "Adri\u00e1n Peruyera",
-      "detachment": "Virulent Vectorium",
-      "list_url": "https://www.bestcoastpairings.com/list/B6xwqinRzCLb",
+      "player_name": "Richard Hill",
+      "detachment": "No Detachment",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/J39sGNzEZPf0",
       "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Mike Pestilens",
-      "detachment": "Virulent Vectorium",
-      "list_url": "https://www.bestcoastpairings.com/list/7pRnlL1uZ6Is",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Eric Andrews",
-      "detachment": "Mortarion's Hammer",
-      "list_url": "https://www.bestcoastpairings.com/list/b4IHIuzmOmWk",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Phillip Schwan",
-      "detachment": "Virulent Vectorium",
-      "list_url": "https://www.bestcoastpairings.com/list/B0kSJW1Hw4Dt",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Trenton Bates",
-      "detachment": "Virulent Vectorium",
-      "list_url": "https://www.bestcoastpairings.com/list/OH57gWwrXxQU",
-      "source": "bcp",
-      "wins": 8,
-      "losses": 0,
+      "wins": 1,
+      "losses": 2,
       "draws": 2,
-      "games": 10,
-      "win_rate": 90.0
+      "games": 5,
+      "win_rate": 40.0
     },
     {
-      "player_name": "Cody Brown",
-      "detachment": "Virulent Vectorium",
-      "list_url": "https://www.bestcoastpairings.com/list/lc5tPiLxLiVH",
+      "player_name": "Neale Talbot",
+      "detachment": "Champions Of Contagion + Contagion Engines",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/L1NJLLMt2Px0",
       "source": "bcp",
-      "wins": 4,
-      "losses": 0,
+      "wins": 1,
+      "losses": 3,
       "draws": 1,
       "games": 5,
-      "win_rate": 90.0
+      "win_rate": 30.0
     },
     {
-      "player_name": "Adam Cooper Watson",
-      "detachment": "Virulent Vectorium",
-      "list_url": "https://www.bestcoastpairings.com/list/W09uzNir2iDl",
+      "player_name": "Sam Yong",
+      "detachment": "Flyblown Host + Mortarion's Hammer",
+      "disposition": "Purge the Foe, Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/ypKxdtwzi4E6",
       "source": "bcp",
-      "wins": 4,
-      "losses": 0,
+      "wins": 1,
+      "losses": 3,
       "draws": 1,
       "games": 5,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Arturo Spottorno",
-      "detachment": "Champions of Contagion",
-      "list_url": "https://www.bestcoastpairings.com/list/IZ1ssW812Lh1",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 0,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Jan Tlust\u00fd",
-      "detachment": "Virulent Vectorium",
-      "list_url": "https://www.bestcoastpairings.com/list/8GsD00COmHKP",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 0,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Matt Chavez",
-      "detachment": "Virulent Vectorium",
-      "list_url": "https://www.bestcoastpairings.com/list/LiG710kHlecR",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 0,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Chase Bandl",
-      "detachment": "Virulent Vectorium",
-      "list_url": "https://www.bestcoastpairings.com/list/sgrK3aTvH2Vx",
-      "source": "bcp",
-      "wins": 8,
-      "losses": 1,
-      "draws": 1,
-      "games": 10,
-      "win_rate": 85.0
-    },
-    {
-      "player_name": "Mike Muzeni",
-      "detachment": "Mortarion's Hammer",
-      "list_url": "https://www.bestcoastpairings.com/list/VnLWCoaaljOI",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Kyle Trayah",
-      "detachment": "Mortarion's Hammer",
-      "list_url": "https://www.bestcoastpairings.com/list/oitlnp6818A0",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Christopher \u201cSecond Hand \u201c  Greeson",
-      "detachment": "Virulent Vectorium",
-      "list_url": "https://www.bestcoastpairings.com/list/zrpm7gFBp0ET",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
+      "win_rate": 30.0
     }
   ],
   "matchups": [
     {
-      "opponent_faction": "Necrons",
-      "games": 83,
-      "wins": 46,
-      "win_rate": 56.0
-    },
-    {
-      "opponent_faction": "Chaos Space Marines",
-      "games": 53,
-      "wins": 21,
-      "win_rate": 39.6
-    },
-    {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 51,
-      "wins": 27,
-      "win_rate": 52.9
-    },
-    {
-      "opponent_faction": "T'au Empire",
-      "games": 49,
-      "wins": 21,
-      "win_rate": 42.9
-    },
-    {
-      "opponent_faction": "Adeptus Custodes",
-      "games": 40,
-      "wins": 18,
-      "win_rate": 45.0
-    },
-    {
-      "opponent_faction": "Thousand Sons",
-      "games": 36,
-      "wins": 22,
-      "win_rate": 62.5
-    },
-    {
-      "opponent_faction": "Tyranids",
-      "games": 36,
-      "wins": 20,
-      "win_rate": 55.6
-    },
-    {
-      "opponent_faction": "Astra Militarum",
-      "games": 33,
-      "wins": 18,
-      "win_rate": 54.5
-    },
-    {
-      "opponent_faction": "Emperor's Children",
-      "games": 33,
-      "wins": 17,
-      "win_rate": 51.5
-    },
-    {
-      "opponent_faction": "Adepta Sororitas",
-      "games": 31,
-      "wins": 16,
-      "win_rate": 51.6
-    },
-    {
-      "opponent_faction": "Chaos Knights",
-      "games": 30,
-      "wins": 18,
-      "win_rate": 60.0
-    },
-    {
-      "opponent_faction": "Drukhari",
-      "games": 27,
-      "wins": 15,
-      "win_rate": 55.6
-    },
-    {
-      "opponent_faction": "Leagues of Votann",
-      "games": 26,
-      "wins": 10,
-      "win_rate": 40.4
-    },
-    {
-      "opponent_faction": "Chaos Daemons",
-      "games": 23,
-      "wins": 11,
-      "win_rate": 47.8
-    },
-    {
-      "opponent_faction": "Imperial Knights",
-      "games": 20,
-      "wins": 10,
-      "win_rate": 52.5
-    },
-    {
-      "opponent_faction": "Orks",
-      "games": 18,
-      "wins": 7,
-      "win_rate": 41.7
-    },
-    {
-      "opponent_faction": "Aeldari",
-      "games": 17,
-      "wins": 7,
-      "win_rate": 41.2
-    },
-    {
-      "opponent_faction": "Blood Angels",
-      "games": 17,
-      "wins": 11,
-      "win_rate": 67.6
-    },
-    {
-      "opponent_faction": "World Eaters",
-      "games": 13,
-      "wins": 8,
-      "win_rate": 65.4
-    },
-    {
-      "opponent_faction": "Adeptus Mechanicus",
-      "games": 12,
-      "wins": 7,
-      "win_rate": 58.3
-    },
-    {
-      "opponent_faction": "Dark Angels",
-      "games": 10,
-      "wins": 7,
-      "win_rate": 70.0
-    },
-    {
-      "opponent_faction": "Genestealer Cults",
-      "games": 10,
-      "wins": 7,
-      "win_rate": 75.0
-    },
-    {
-      "opponent_faction": "Grey Knights",
-      "games": 8,
-      "wins": 7,
-      "win_rate": 93.8
-    },
-    {
-      "opponent_faction": "Space Wolves",
-      "games": 5,
-      "wins": 2,
-      "win_rate": 50.0
-    },
-    {
-      "opponent_faction": "Deathwatch",
-      "games": 5,
-      "wins": 1,
-      "win_rate": 30.0
+      "games": 6,
+      "wins": 4,
+      "win_rate": 66.7
     }
   ],
   "timeline": [
     {
-      "week": "2026-W16",
-      "lists": 52,
-      "games": 269,
-      "win_rate": 51.7
-    },
-    {
-      "week": "2026-W17",
-      "lists": 86,
-      "games": 309,
-      "win_rate": 53.2
-    },
-    {
-      "week": "2026-W18",
-      "lists": 3,
-      "games": 15,
-      "win_rate": 33.3
-    },
-    {
-      "week": "2026-W19",
-      "lists": 28,
-      "games": 128,
-      "win_rate": 55.9
+      "week": "2026-W24",
+      "lists": 8,
+      "games": 40,
+      "win_rate": 48.8,
+      "total_lists": 99,
+      "play_rate": 8.1
     }
   ]
 }

@@ -1,62 +1,79 @@
 {
   "faction": "Thousand Sons",
   "slug": "thousand_sons",
-  "as_of": "2026-05-19",
-  "window_days": 30,
+  "as_of": "2026-06-20",
+  "window_days": 7,
   "event_type": "team",
-  "lists": 113,
-  "games": 460,
-  "play_rate": 3.7,
-  "win_rate": 54.1,
-  "trend_delta": -1.1,
-  "top_detachment": "Grand Coven",
+  "lists": 3,
+  "games": 15,
+  "play_rate": 3.0,
+  "win_rate": 70.0,
+  "trend_delta": null,
+  "top_detachment": "Hexwarp Thrallband + Ritual Of Regeneration",
+  "ci_lower": 44.8,
+  "meta_health": "strongly_under",
+  "x0_pct": 33.3,
+  "x1_pct": 0.0,
+  "tournament_wins": 0,
   "detachments": [
     {
-      "detachment": "Grand Coven",
-      "base_archetype": "Thousand Sons \u2014 Grand Coven",
-      "lists": 60,
-      "games": 250,
-      "play_rate": 53.1,
-      "win_rate": 54.2
-    },
-    {
-      "detachment": "Rubricae Phalanx",
-      "base_archetype": "Thousand Sons \u2014 Rubricae Phalanx",
-      "lists": 27,
-      "games": 100,
-      "play_rate": 23.9,
-      "win_rate": 44.0
-    },
-    {
-      "detachment": "Warpforged Cabal",
-      "base_archetype": "Thousand Sons \u2014 Warpforged Cabal",
-      "lists": 18,
-      "games": 75,
-      "play_rate": 15.9,
-      "win_rate": 72.7
-    },
-    {
-      "detachment": "Hexwarp Thrallband",
-      "base_archetype": "Thousand Sons \u2014 Hexwarp Thrallband",
-      "lists": 6,
-      "games": 25,
-      "play_rate": 5.3,
-      "win_rate": 36.0
-    },
-    {
-      "detachment": "Changehost of Deceit",
-      "base_archetype": "Thousand Sons \u2014 Changehost of Deceit",
+      "detachment": "Hexwarp Thrallband + Ritual Of Regeneration",
+      "base_archetype": "Thousand Sons \u2014 Hexwarp Thrallband + Ritual Of Regeneration",
       "lists": 2,
       "games": 10,
-      "play_rate": 1.8,
-      "win_rate": 60.0
+      "play_rate": 66.7,
+      "win_rate": 55.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Changehost Of Deceit + Sekhetar Cohort",
+      "base_archetype": "Thousand Sons \u2014 Changehost Of Deceit + Sekhetar Cohort",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 33.3,
+      "win_rate": 100.0,
+      "x0_pct": 100.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    }
+  ],
+  "dispositions": [
+    {
+      "disposition": "Priority Assets",
+      "lists": 1,
+      "play_rate": 33.3,
+      "win_rate": 100.0,
+      "x0_pct": 100.0,
+      "x1_pct": 0.0,
+      "games": 5
+    },
+    {
+      "disposition": "Take and Hold",
+      "lists": 1,
+      "play_rate": 33.3,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5
+    },
+    {
+      "disposition": "Purge the Foe",
+      "lists": 1,
+      "play_rate": 33.3,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5
     }
   ],
   "top_players": [
     {
-      "player_name": "Dustin Henshaw",
-      "detachment": "Warpforged Cabal",
-      "list_url": "https://www.bestcoastpairings.com/list/vufDgN4KN5h9",
+      "player_name": "Bren Kentwell",
+      "detachment": "Changehost Of Deceit + Sekhetar Cohort",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/vLlsgMDdYRTG",
       "source": "bcp",
       "wins": 5,
       "losses": 0,
@@ -65,379 +82,39 @@
       "win_rate": 100.0
     },
     {
-      "player_name": "Jeremy Atkinson",
-      "detachment": "Warpforged Cabal",
-      "list_url": "https://www.bestcoastpairings.com/list/53bosNPjzEWo",
+      "player_name": "Luca Serianni",
+      "detachment": "Hexwarp Thrallband + Ritual Of Regeneration",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/ofN8tYY1S15n",
       "source": "bcp",
-      "wins": 5,
+      "wins": 1,
       "losses": 0,
-      "draws": 0,
+      "draws": 4,
       "games": 5,
-      "win_rate": 100.0
+      "win_rate": 60.0
     },
     {
-      "player_name": "Riley Tremblay",
-      "detachment": "Warpforged Cabal",
-      "list_url": "https://www.bestcoastpairings.com/list/GBYIVwLyLrLr",
+      "player_name": "Dale Mann",
+      "detachment": "Hexwarp Thrallband + Ritual Of Regeneration",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/kSchAzYmbEbD",
       "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Johan Toftvad",
-      "detachment": "Grand Coven",
-      "list_url": "https://www.bestcoastpairings.com/list/LfM7YcpER4Gh",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Joshua Cowlard",
-      "detachment": "Grand Coven",
-      "list_url": "https://www.bestcoastpairings.com/list/T3NlDUV4LON9",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Joel G\u00e1llego",
-      "detachment": "Grand Coven",
-      "list_url": "https://www.bestcoastpairings.com/list/BTQf3Zyhh7wy",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Terroxer El Rojo",
-      "detachment": "Grand Coven",
-      "list_url": "https://www.bestcoastpairings.com/list/e2gTkQ52Z1F7",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Michael Tonel",
-      "detachment": "Grand Coven",
-      "list_url": "https://www.bestcoastpairings.com/list/RD9K6aiEQvnx",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Zach Point",
-      "detachment": "Warpforged Cabal",
-      "list_url": "https://www.bestcoastpairings.com/list/ILZ6Ov0cc4iu",
-      "source": "bcp",
-      "wins": 8,
-      "losses": 0,
-      "draws": 2,
-      "games": 10,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Dustin Hammond",
-      "detachment": "Rubricae Phalanx",
-      "list_url": "https://www.bestcoastpairings.com/list/wmEQprDNHPzA",
-      "source": "bcp",
-      "wins": 9,
-      "losses": 1,
-      "draws": 0,
-      "games": 10,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "David Paton",
-      "detachment": "Grand Coven",
-      "list_url": "https://www.bestcoastpairings.com/list/mePQ1A4eUr86",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 0,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Michael Boyle",
-      "detachment": "Grand Coven",
-      "list_url": "https://www.bestcoastpairings.com/list/TJgK2GPIq5uu",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 0,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Fabian Huber",
-      "detachment": "Warpforged Cabal",
-      "list_url": "https://www.bestcoastpairings.com/list/aWm9oU9s2Gri",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 0,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Jeremy Borg",
-      "detachment": "Grand Coven",
-      "list_url": "https://www.bestcoastpairings.com/list/j0Q121U9HBQs",
-      "source": "bcp",
-      "wins": 8,
-      "losses": 2,
-      "draws": 0,
-      "games": 10,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "John Casey",
-      "detachment": "Warpforged Cabal",
-      "list_url": "https://www.bestcoastpairings.com/list/CX6YIFcdwsaw",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Joe Finlayson",
-      "detachment": "Grand Coven",
-      "list_url": "https://www.bestcoastpairings.com/list/1cJUkpblNeUn",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Thomas Xia",
-      "detachment": "Warpforged Cabal",
-      "list_url": "https://www.bestcoastpairings.com/list/dcZlJCxuIu8B",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Ario Khodadadi",
-      "detachment": "Grand Coven",
-      "list_url": "https://www.bestcoastpairings.com/list/xk4ZxGpS1pTR",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Bj\u00f8rn Jacobsen",
-      "detachment": "Grand Coven",
-      "list_url": "https://www.bestcoastpairings.com/list/60ejREZ3EHSJ",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Jack Turner",
-      "detachment": "Grand Coven",
-      "list_url": "https://www.bestcoastpairings.com/list/tkIUcEi5bMbk",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    }
-  ],
-  "matchups": [
-    {
-      "opponent_faction": "Necrons",
-      "games": 50,
-      "wins": 29,
-      "win_rate": 59.0
-    },
-    {
-      "opponent_faction": "Chaos Space Marines",
-      "games": 32,
-      "wins": 12,
-      "win_rate": 39.1
-    },
-    {
-      "opponent_faction": "Death Guard",
-      "games": 32,
-      "wins": 12,
-      "win_rate": 39.1
-    },
-    {
-      "opponent_faction": "Space Marines (Astartes)",
-      "games": 31,
-      "wins": 15,
-      "win_rate": 50.0
-    },
-    {
-      "opponent_faction": "Astra Militarum",
-      "games": 30,
-      "wins": 15,
-      "win_rate": 51.7
-    },
-    {
-      "opponent_faction": "T'au Empire",
-      "games": 28,
-      "wins": 8,
-      "win_rate": 30.4
-    },
-    {
-      "opponent_faction": "Adeptus Custodes",
-      "games": 27,
-      "wins": 19,
-      "win_rate": 72.2
-    },
-    {
-      "opponent_faction": "Chaos Knights",
-      "games": 20,
-      "wins": 11,
-      "win_rate": 57.5
-    },
-    {
-      "opponent_faction": "Emperor's Children",
-      "games": 19,
-      "wins": 10,
-      "win_rate": 55.3
-    },
-    {
-      "opponent_faction": "Tyranids",
-      "games": 19,
-      "wins": 12,
-      "win_rate": 63.2
-    },
-    {
-      "opponent_faction": "Imperial Knights",
-      "games": 18,
-      "wins": 9,
-      "win_rate": 52.8
-    },
-    {
-      "opponent_faction": "Orks",
-      "games": 16,
-      "wins": 6,
-      "win_rate": 37.5
-    },
-    {
-      "opponent_faction": "Adepta Sororitas",
-      "games": 16,
-      "wins": 11,
-      "win_rate": 68.8
-    },
-    {
-      "opponent_faction": "Blood Angels",
-      "games": 15,
-      "wins": 10,
-      "win_rate": 66.7
-    },
-    {
-      "opponent_faction": "Chaos Daemons",
-      "games": 14,
-      "wins": 11,
-      "win_rate": 82.1
-    },
-    {
-      "opponent_faction": "Drukhari",
-      "games": 13,
-      "wins": 9,
-      "win_rate": 73.1
-    },
-    {
-      "opponent_faction": "Aeldari",
-      "games": 12,
-      "wins": 7,
-      "win_rate": 62.5
-    },
-    {
-      "opponent_faction": "Adeptus Mechanicus",
-      "games": 11,
-      "wins": 4,
-      "win_rate": 36.4
-    },
-    {
-      "opponent_faction": "World Eaters",
-      "games": 10,
-      "wins": 6,
-      "win_rate": 65.0
-    },
-    {
-      "opponent_faction": "Leagues of Votann",
-      "games": 9,
-      "wins": 4,
-      "win_rate": 50.0
-    },
-    {
-      "opponent_faction": "Deathwatch",
-      "games": 6,
-      "wins": 3,
-      "win_rate": 58.3
-    },
-    {
-      "opponent_faction": "Dark Angels",
-      "games": 6,
-      "wins": 4,
-      "win_rate": 66.7
-    },
-    {
-      "opponent_faction": "Genestealer Cults",
-      "games": 5,
       "wins": 2,
-      "win_rate": 40.0
+      "losses": 2,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 50.0
     }
   ],
+  "matchups": [],
   "timeline": [
     {
-      "week": "2026-W16",
-      "lists": 27,
-      "games": 115,
-      "win_rate": 46.5
-    },
-    {
-      "week": "2026-W17",
-      "lists": 69,
-      "games": 260,
-      "win_rate": 51.9
-    },
-    {
-      "week": "2026-W18",
+      "week": "2026-W24",
       "lists": 3,
       "games": 15,
-      "win_rate": 80.0
-    },
-    {
-      "week": "2026-W19",
-      "lists": 14,
-      "games": 70,
-      "win_rate": 69.3
+      "win_rate": 70.0,
+      "total_lists": 99,
+      "play_rate": 3.0
     }
   ]
 }

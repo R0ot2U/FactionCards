@@ -1,415 +1,88 @@
 {
   "faction": "Adeptus Mechanicus",
   "slug": "adeptus_mechanicus",
-  "as_of": "2026-05-19",
-  "window_days": 30,
+  "as_of": "2026-06-20",
+  "window_days": 7,
   "event_type": "team",
-  "lists": 57,
-  "games": 235,
-  "play_rate": 1.8,
-  "win_rate": 44.7,
-  "trend_delta": 3.0,
-  "top_detachment": "Haloscreed Battle Clade",
+  "lists": 2,
+  "games": 10,
+  "play_rate": 2.0,
+  "win_rate": 10.0,
+  "trend_delta": null,
+  "top_detachment": "Cohort Cybernetica + Lords Of The Forge",
+  "ci_lower": 1.8,
+  "meta_health": "strongly_under",
+  "x0_pct": 0.0,
+  "x1_pct": 0.0,
+  "tournament_wins": 0,
   "detachments": [
     {
-      "detachment": "Haloscreed Battle Clade",
-      "base_archetype": "Adeptus Mechanicus \u2014 Haloscreed Battle Clade",
-      "lists": 34,
-      "games": 135,
-      "play_rate": 59.6,
-      "win_rate": 46.7
-    },
-    {
-      "detachment": "Skitarii Hunter Cohort",
-      "base_archetype": "Adeptus Mechanicus \u2014 Skitarii Hunter Cohort",
-      "lists": 12,
-      "games": 60,
-      "play_rate": 21.1,
-      "win_rate": 45.0
-    },
-    {
-      "detachment": "Eradication Cohort",
-      "base_archetype": "Adeptus Mechanicus \u2014 Eradication Cohort",
-      "lists": 5,
-      "games": 20,
-      "play_rate": 8.8,
-      "win_rate": 35.0
-    },
-    {
-      "detachment": "No Detachment",
-      "base_archetype": "Adeptus Mechanicus \u2014 No Detachment",
-      "lists": 4,
+      "detachment": "Cohort Cybernetica + Lords Of The Forge",
+      "base_archetype": "Adeptus Mechanicus \u2014 Cohort Cybernetica + Lords Of The Forge",
+      "lists": 2,
       "games": 10,
-      "play_rate": 7.0,
-      "win_rate": 45.0
+      "play_rate": 100.0,
+      "win_rate": 10.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    }
+  ],
+  "dispositions": [
+    {
+      "disposition": "Priority Assets",
+      "lists": 2,
+      "play_rate": 100.0,
+      "win_rate": 10.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 10
     },
     {
-      "detachment": "Explorator Maniple",
-      "base_archetype": "Adeptus Mechanicus \u2014 Explorator Maniple",
+      "disposition": "Take and Hold",
       "lists": 1,
-      "games": 5,
-      "play_rate": 1.8,
-      "win_rate": 20.0
-    },
-    {
-      "detachment": "Cohort Cybernetica",
-      "base_archetype": "Adeptus Mechanicus \u2014 Cohort Cybernetica",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 1.8,
-      "win_rate": 50.0
+      "play_rate": 50.0,
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5
     }
   ],
   "top_players": [
     {
-      "player_name": "Troy Freiburger",
-      "detachment": "Haloscreed Battle Clade",
-      "list_url": "https://www.bestcoastpairings.com/list/NowIqKVUDlne",
+      "player_name": "Brody Martin",
+      "detachment": "Cohort Cybernetica + Lords Of The Forge",
+      "disposition": "Priority Assets, Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/INwUDPPslQdX",
       "source": "bcp",
-      "wins": 5,
-      "losses": 0,
+      "wins": 1,
+      "losses": 4,
       "draws": 0,
       "games": 5,
-      "win_rate": 100.0
+      "win_rate": 20.0
     },
     {
-      "player_name": "Quentin Tridon",
-      "detachment": "Haloscreed Battle Clade",
-      "list_url": "https://www.bestcoastpairings.com/list/20GEiouoyIcl",
+      "player_name": "Jordan Ceglinski",
+      "detachment": "Cohort Cybernetica + Lords Of The Forge",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/nKcTbFIQPqvd",
       "source": "bcp",
-      "wins": 5,
-      "losses": 0,
+      "wins": 0,
+      "losses": 5,
       "draws": 0,
       "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Samuel Martin",
-      "detachment": "Haloscreed Battle Clade",
-      "list_url": "https://www.bestcoastpairings.com/list/TOskeUhI2qyq",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Brett Keable",
-      "detachment": "Haloscreed Battle Clade",
-      "list_url": "https://www.bestcoastpairings.com/list/l7uKmdlEBqIX",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 0,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Benjamin Gerling",
-      "detachment": "Skitarii Hunter Cohort",
-      "list_url": "https://www.bestcoastpairings.com/list/DMkIu5mO1tPi",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Toby Barnwell",
-      "detachment": "Haloscreed Battle Clade",
-      "list_url": "https://www.bestcoastpairings.com/list/qQe6V0QhL2rm",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Rafael miguel Martinez Legorburu",
-      "detachment": "Skitarii Hunter Cohort",
-      "list_url": "https://www.bestcoastpairings.com/list/R6qAfXrqXBsJ",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Matt Bell",
-      "detachment": "Skitarii Hunter Cohort",
-      "list_url": "https://www.bestcoastpairings.com/list/uhb1sAl5XjR5",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 1,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 70.0
-    },
-    {
-      "player_name": "Ricky Di Rocco",
-      "detachment": "Eradication Cohort",
-      "list_url": "https://www.bestcoastpairings.com/list/vkzWMVK29PUn",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "xavier rygaert",
-      "detachment": "Haloscreed Battle Clade",
-      "list_url": "https://www.bestcoastpairings.com/list/ElcgI7uF9BCU",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Rowan (Skitussy) Arbour",
-      "detachment": "Haloscreed Battle Clade",
-      "list_url": "https://www.bestcoastpairings.com/list/38DCZvubVeBC",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 1,
-      "draws": 2,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Red Ropes",
-      "detachment": "Haloscreed Battle Clade",
-      "list_url": "https://www.bestcoastpairings.com/list/FM9uedpkwBdu",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Sam Nowell",
-      "detachment": "Haloscreed Battle Clade",
-      "list_url": "https://www.bestcoastpairings.com/list/t8pPCElZbBda",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 1,
-      "draws": 2,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "James Sykes",
-      "detachment": "No Detachment",
-      "list_url": "https://www.bestcoastpairings.com/list/WcawOAr5jW2z",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Luka Ladin",
-      "detachment": "Haloscreed Battle Clade",
-      "list_url": "https://www.bestcoastpairings.com/list/6nHhQnJFrpby",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Joan Gomila",
-      "detachment": "Haloscreed Battle Clade",
-      "list_url": "https://www.bestcoastpairings.com/list/8S4hMf00hzoe",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Spenser Diesing",
-      "detachment": "Skitarii Hunter Cohort",
-      "list_url": "https://www.bestcoastpairings.com/list/zU8tfBRXHRFX",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 1,
-      "draws": 2,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Jaymo Vanetten",
-      "detachment": "Skitarii Hunter Cohort",
-      "list_url": "https://www.bestcoastpairings.com/list/bcyioM7KQ9QS",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Jack Doddy",
-      "detachment": "Eradication Cohort",
-      "list_url": "https://www.bestcoastpairings.com/list/MZqKEr5rK9lM",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "Miguel Beneyto",
-      "detachment": "Cohort Cybernetica",
-      "list_url": "https://www.bestcoastpairings.com/list/EoqtmNDZn7WW",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
+      "win_rate": 0.0
     }
   ],
-  "matchups": [
-    {
-      "opponent_faction": "Necrons",
-      "games": 24,
-      "wins": 9,
-      "win_rate": 39.6
-    },
-    {
-      "opponent_faction": "Astra Militarum",
-      "games": 19,
-      "wins": 12,
-      "win_rate": 63.2
-    },
-    {
-      "opponent_faction": "T'au Empire",
-      "games": 18,
-      "wins": 5,
-      "win_rate": 27.8
-    },
-    {
-      "opponent_faction": "Emperor's Children",
-      "games": 14,
-      "wins": 3,
-      "win_rate": 25.0
-    },
-    {
-      "opponent_faction": "Chaos Space Marines",
-      "games": 13,
-      "wins": 6,
-      "win_rate": 50.0
-    },
-    {
-      "opponent_faction": "Death Guard",
-      "games": 12,
-      "wins": 5,
-      "win_rate": 41.7
-    },
-    {
-      "opponent_faction": "Adeptus Custodes",
-      "games": 12,
-      "wins": 5,
-      "win_rate": 41.7
-    },
-    {
-      "opponent_faction": "Chaos Knights",
-      "games": 12,
-      "wins": 5,
-      "win_rate": 45.8
-    },
-    {
-      "opponent_faction": "Thousand Sons",
-      "games": 11,
-      "wins": 7,
-      "win_rate": 63.6
-    },
-    {
-      "opponent_faction": "Imperial Knights",
-      "games": 11,
-      "wins": 4,
-      "win_rate": 40.9
-    },
-    {
-      "opponent_faction": "Chaos Daemons",
-      "games": 11,
-      "wins": 5,
-      "win_rate": 45.5
-    },
-    {
-      "opponent_faction": "Orks",
-      "games": 10,
-      "wins": 4,
-      "win_rate": 45.0
-    },
-    {
-      "opponent_faction": "Drukhari",
-      "games": 9,
-      "wins": 3,
-      "win_rate": 33.3
-    },
-    {
-      "opponent_faction": "Space Marines (Astartes)",
-      "games": 8,
-      "wins": 2,
-      "win_rate": 31.2
-    },
-    {
-      "opponent_faction": "Aeldari",
-      "games": 7,
-      "wins": 2,
-      "win_rate": 35.7
-    },
-    {
-      "opponent_faction": "Grey Knights",
-      "games": 7,
-      "wins": 4,
-      "win_rate": 64.3
-    },
-    {
-      "opponent_faction": "Tyranids",
-      "games": 7,
-      "wins": 3,
-      "win_rate": 42.9
-    }
-  ],
+  "matchups": [],
   "timeline": [
     {
-      "week": "2026-W16",
-      "lists": 15,
-      "games": 75,
-      "win_rate": 40.0
-    },
-    {
-      "week": "2026-W17",
-      "lists": 36,
-      "games": 130,
-      "win_rate": 46.5
-    },
-    {
-      "week": "2026-W18",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "week": "2026-W19",
-      "lists": 5,
-      "games": 25,
-      "win_rate": 48.0
+      "week": "2026-W24",
+      "lists": 2,
+      "games": 10,
+      "win_rate": 10.0,
+      "total_lists": 99,
+      "play_rate": 2.0
     }
   ]
 }

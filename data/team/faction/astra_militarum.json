@@ -1,479 +1,120 @@
 {
   "faction": "Astra Militarum",
   "slug": "astra_militarum",
-  "as_of": "2026-05-19",
-  "window_days": 30,
+  "as_of": "2026-06-20",
+  "window_days": 7,
   "event_type": "team",
-  "lists": 190,
-  "games": 820,
-  "play_rate": 6.2,
-  "win_rate": 44.4,
-  "trend_delta": -3.6,
+  "lists": 3,
+  "games": 15,
+  "play_rate": 3.0,
+  "win_rate": 26.7,
+  "trend_delta": null,
   "top_detachment": "Grizzled Company",
+  "ci_lower": 10.9,
+  "meta_health": "strongly_under",
+  "x0_pct": 0.0,
+  "x1_pct": 0.0,
+  "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Grizzled Company",
       "base_archetype": "Astra Militarum \u2014 Grizzled Company",
-      "lists": 148,
-      "games": 630,
-      "play_rate": 77.9,
-      "win_rate": 43.9
-    },
-    {
-      "detachment": "Recon Elements",
-      "base_archetype": "Astra Militarum \u2014 Recon Elements",
-      "lists": 22,
-      "games": 100,
-      "play_rate": 11.6,
-      "win_rate": 50.5
-    },
-    {
-      "detachment": "Hammer of the Emperor",
-      "base_archetype": "Astra Militarum \u2014 Hammer of the Emperor",
-      "lists": 7,
-      "games": 35,
-      "play_rate": 3.7,
-      "win_rate": 35.7
-    },
-    {
-      "detachment": "Combined Arms",
-      "base_archetype": "Astra Militarum \u2014 Combined Arms",
-      "lists": 5,
-      "games": 20,
-      "play_rate": 2.6,
-      "win_rate": 55.0
-    },
-    {
-      "detachment": "Siege Regiment",
-      "base_archetype": "Astra Militarum \u2014 Siege Regiment",
-      "lists": 3,
-      "games": 10,
-      "play_rate": 1.6,
-      "win_rate": 40.0
-    },
-    {
-      "detachment": "Bridgehead Strike",
-      "base_archetype": "Astra Militarum \u2014 Bridgehead Strike",
       "lists": 2,
       "games": 10,
-      "play_rate": 1.1,
-      "win_rate": 50.0
+      "play_rate": 66.7,
+      "win_rate": 35.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
-      "detachment": "Armoured Infantry",
-      "base_archetype": "Astra Militarum \u2014 Armoured Infantry",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 1.1,
-      "win_rate": 15.0
-    },
-    {
-      "detachment": "Steel Hammer",
-      "base_archetype": "Astra Militarum \u2014 Steel Hammer",
+      "detachment": "Designation Force + Hammer Of The Emperor",
+      "base_archetype": "Astra Militarum \u2014 Designation Force + Hammer Of The Emperor",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.5,
-      "win_rate": 60.0
+      "play_rate": 33.3,
+      "win_rate": 10.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    }
+  ],
+  "dispositions": [
+    {
+      "disposition": "Priority Assets",
+      "lists": 2,
+      "play_rate": 66.7,
+      "win_rate": 35.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 10
+    },
+    {
+      "disposition": "Purge the Foe",
+      "lists": 1,
+      "play_rate": 33.3,
+      "win_rate": 10.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5
+    },
+    {
+      "disposition": "Reconnaissance",
+      "lists": 1,
+      "play_rate": 33.3,
+      "win_rate": 10.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5
     }
   ],
   "top_players": [
     {
-      "player_name": "Hunter Boyd",
+      "player_name": "Paul Bampton",
       "detachment": "Grizzled Company",
-      "list_url": "https://www.bestcoastpairings.com/list/4ykU2d3EAYRM",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/qOXr0LPkxNFJ",
       "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Martyn Cooper",
-      "detachment": "Grizzled Company",
-      "list_url": "https://www.bestcoastpairings.com/list/l99gpRGEAD1b",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Eero Saukkonen",
-      "detachment": "Grizzled Company",
-      "list_url": "https://www.bestcoastpairings.com/list/ZR0DVYckwyWZ",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Tucker Rickey",
-      "detachment": "Recon Elements",
-      "list_url": "https://www.bestcoastpairings.com/list/wLD3YDDxmKwh",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Jerome Connolly",
-      "detachment": "Grizzled Company",
-      "list_url": "https://www.bestcoastpairings.com/list/ygdaMvIgK83w",
-      "source": "bcp",
-      "wins": 9,
-      "losses": 1,
-      "draws": 0,
-      "games": 10,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Lyle Dixon",
-      "detachment": "Recon Elements",
-      "list_url": "https://www.bestcoastpairings.com/list/H1loSNNtvqLp",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 0,
+      "wins": 2,
+      "losses": 2,
       "draws": 1,
       "games": 5,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Samuel Viragui",
-      "detachment": "Grizzled Company",
-      "list_url": "https://www.bestcoastpairings.com/list/oiruel91skl3",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 0,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Rafael Harbinson",
-      "detachment": "Grizzled Company",
-      "list_url": "https://www.bestcoastpairings.com/list/Mp6PgeFczH4L",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 0,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Gustavo Jos\u00e9 Branco Varandas de Sousa",
-      "detachment": "Grizzled Company",
-      "list_url": "https://www.bestcoastpairings.com/list/U2NfZXW0WA9U",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 0,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Fer Haro",
-      "detachment": "Grizzled Company",
-      "list_url": "https://www.bestcoastpairings.com/list/mZXtlyOcoBFR",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 0,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Luk\u00e1\u0161 Jedlovec",
-      "detachment": "Recon Elements",
-      "list_url": "https://www.bestcoastpairings.com/list/JpbdXrqZpNEz",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 0,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Ruben Perez",
-      "detachment": "Grizzled Company",
-      "list_url": "https://www.bestcoastpairings.com/list/pYrfEFblVIxh",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 0,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Patryk Maik",
-      "detachment": "Recon Elements",
-      "list_url": "https://www.bestcoastpairings.com/list/7QxfxmxztnJj",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 0,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Alejandro \ud83e\udd8d",
-      "detachment": "Grizzled Company",
-      "list_url": "https://www.bestcoastpairings.com/list/YdPsiNLp6SVA",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 0,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Nick Jagiello",
-      "detachment": "Grizzled Company",
-      "list_url": "https://www.bestcoastpairings.com/list/YezJEbH4196o",
-      "source": "bcp",
-      "wins": 8,
-      "losses": 1,
-      "draws": 1,
-      "games": 10,
-      "win_rate": 85.0
-    },
-    {
-      "player_name": "Duncan Bluhm",
-      "detachment": "Grizzled Company",
-      "list_url": "https://www.bestcoastpairings.com/list/wDnOE8BX6oAA",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Hogan Franklin",
-      "detachment": "Recon Elements",
-      "list_url": "https://www.bestcoastpairings.com/list/DuxSTO320sL6",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Brian Moody",
-      "detachment": "Bridgehead Strike",
-      "list_url": "https://www.bestcoastpairings.com/list/YcK3x2SEnUyY",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 0,
-      "draws": 2,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Scott Cairns",
-      "detachment": "Hammer of the Emperor",
-      "list_url": "https://www.bestcoastpairings.com/list/ELi1M99fRXAE",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Michael Popa",
-      "detachment": "Grizzled Company",
-      "list_url": "https://www.bestcoastpairings.com/list/7xULR7FreODP",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    }
-  ],
-  "matchups": [
-    {
-      "opponent_faction": "Necrons",
-      "games": 72,
-      "wins": 31,
-      "win_rate": 43.8
-    },
-    {
-      "opponent_faction": "Chaos Space Marines",
-      "games": 64,
-      "wins": 19,
-      "win_rate": 29.7
-    },
-    {
-      "opponent_faction": "T'au Empire",
-      "games": 61,
-      "wins": 27,
-      "win_rate": 45.1
-    },
-    {
-      "opponent_faction": "Space Marines (Astartes)",
-      "games": 56,
-      "wins": 22,
-      "win_rate": 40.2
-    },
-    {
-      "opponent_faction": "Emperor's Children",
-      "games": 42,
-      "wins": 15,
-      "win_rate": 36.9
-    },
-    {
-      "opponent_faction": "Adeptus Custodes",
-      "games": 40,
-      "wins": 21,
-      "win_rate": 52.5
-    },
-    {
-      "opponent_faction": "Tyranids",
-      "games": 38,
-      "wins": 12,
-      "win_rate": 32.9
-    },
-    {
-      "opponent_faction": "Death Guard",
-      "games": 34,
-      "wins": 15,
-      "win_rate": 44.1
-    },
-    {
-      "opponent_faction": "Thousand Sons",
-      "games": 33,
-      "wins": 16,
       "win_rate": 50.0
     },
     {
-      "opponent_faction": "Imperial Knights",
-      "games": 33,
-      "wins": 15,
-      "win_rate": 45.5
-    },
-    {
-      "opponent_faction": "Leagues of Votann",
-      "games": 30,
-      "wins": 10,
-      "win_rate": 33.3
-    },
-    {
-      "opponent_faction": "Adepta Sororitas",
-      "games": 26,
-      "wins": 15,
-      "win_rate": 59.6
-    },
-    {
-      "opponent_faction": "World Eaters",
-      "games": 25,
-      "wins": 12,
-      "win_rate": 48.0
-    },
-    {
-      "opponent_faction": "Chaos Knights",
-      "games": 25,
-      "wins": 18,
-      "win_rate": 72.0
-    },
-    {
-      "opponent_faction": "Chaos Daemons",
-      "games": 22,
-      "wins": 9,
-      "win_rate": 40.9
-    },
-    {
-      "opponent_faction": "Drukhari",
-      "games": 21,
-      "wins": 11,
-      "win_rate": 54.8
-    },
-    {
-      "opponent_faction": "Aeldari",
-      "games": 20,
-      "wins": 9,
-      "win_rate": 47.5
-    },
-    {
-      "opponent_faction": "Adeptus Mechanicus",
-      "games": 19,
-      "wins": 7,
-      "win_rate": 36.8
-    },
-    {
-      "opponent_faction": "Genestealer Cults",
-      "games": 18,
-      "wins": 3,
-      "win_rate": 16.7
-    },
-    {
-      "opponent_faction": "Blood Angels",
-      "games": 17,
-      "wins": 10,
-      "win_rate": 58.8
-    },
-    {
-      "opponent_faction": "Orks",
-      "games": 15,
-      "wins": 5,
-      "win_rate": 36.7
-    },
-    {
-      "opponent_faction": "Dark Angels",
-      "games": 11,
-      "wins": 4,
-      "win_rate": 40.9
-    },
-    {
-      "opponent_faction": "Deathwatch",
-      "games": 10,
+      "player_name": "Archie  Woodhouse",
+      "detachment": "Grizzled Company",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/aI2PNPPbP7dH",
+      "source": "bcp",
       "wins": 1,
-      "win_rate": 15.0
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
     },
     {
-      "opponent_faction": "Grey Knights",
-      "games": 9,
-      "wins": 5,
-      "win_rate": 55.6
-    },
-    {
-      "opponent_faction": "Space Wolves",
-      "games": 9,
-      "wins": 7,
-      "win_rate": 83.3
+      "player_name": "Andrew Black",
+      "detachment": "Designation Force + Hammer Of The Emperor",
+      "disposition": "Purge the Foe, Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/WHj4jdWSTXn3",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 4,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 10.0
     }
   ],
+  "matchups": [],
   "timeline": [
     {
-      "week": "2026-W16",
-      "lists": 59,
-      "games": 305,
-      "win_rate": 44.3
-    },
-    {
-      "week": "2026-W17",
-      "lists": 100,
-      "games": 375,
-      "win_rate": 46.3
-    },
-    {
-      "week": "2026-W18",
-      "lists": 7,
-      "games": 25,
-      "win_rate": 22.0
-    },
-    {
-      "week": "2026-W19",
-      "lists": 24,
-      "games": 115,
-      "win_rate": 43.5
+      "week": "2026-W24",
+      "lists": 3,
+      "games": 15,
+      "win_rate": 26.7,
+      "total_lists": 99,
+      "play_rate": 3.0
     }
   ]
 }

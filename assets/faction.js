@@ -3,20 +3,19 @@
 let currentSlug = "";
 let currentEventType = getEventType();
 let currentWindow = getWindow();
-let currentEdition = getEdition();
 
-async function loadFactionData(slug, eventType, windowDays, edition) {
-  const backUrl = `index.html?event_type=${encodeURIComponent(eventType)}&window=${encodeURIComponent(windowDays)}&edition=${encodeURIComponent(edition)}`;
+async function loadFactionData(slug, eventType, windowDays) {
+  const backUrl = `index.html?event_type=${encodeURIComponent(eventType)}&window=${encodeURIComponent(windowDays)}`;
 
   let data;
   let usedFallback = false;
   try {
-    data = await fetchJSON(`${dataRoot(eventType, windowDays, edition)}/faction/${slug}.json`);
+    data = await fetchJSON(`${dataRoot(eventType, windowDays)}/faction/${slug}.json`);
   } catch (e) {
-    // Try fallback to "all" / "7d" / "11th" bundle
-    if (eventType !== "all" || windowDays !== "7d" || edition !== "11th") {
+    // Try fallback to "all" / "7d" bundle
+    if (eventType !== "all" || windowDays !== "7d") {
       try {
-        data = await fetchJSON(`${dataRoot("all", "7d", "11th")}/faction/${slug}.json`);
+        data = await fetchJSON(`${dataRoot("all", "7d")}/faction/${slug}.json`);
         usedFallback = true;
       } catch (_) {}
     }
@@ -210,7 +209,7 @@ async function init() {
   }
 
   // Load initial data
-  const result = await loadFactionData(currentSlug, currentEventType, currentWindow, currentEdition);
+  const result = await loadFactionData(currentSlug, currentEventType, currentWindow);
   renderFactionPage(result);
 
   // Sync active buttons to current state
@@ -219,9 +218,6 @@ async function init() {
   });
   document.querySelectorAll("#window-btns .btn").forEach(b => {
     b.classList.toggle("active", b.dataset.val === currentWindow);
-  });
-  document.querySelectorAll("#edition-btns .btn").forEach(b => {
-    b.classList.toggle("active", b.dataset.val === currentEdition);
   });
 
   // Set up filter button handlers (once)
@@ -245,7 +241,7 @@ function setupFilterButtons() {
       history.replaceState(null, "", url);
 
       // Fetch and render new data
-      const result = await loadFactionData(currentSlug, currentEventType, currentWindow, currentEdition);
+      const result = await loadFactionData(currentSlug, currentEventType, currentWindow);
       renderFactionPage(result);
     });
   });
@@ -266,31 +262,11 @@ function setupFilterButtons() {
       history.replaceState(null, "", url);
 
       // Fetch and render new data
-      const result = await loadFactionData(currentSlug, currentEventType, currentWindow, currentEdition);
+      const result = await loadFactionData(currentSlug, currentEventType, currentWindow);
       renderFactionPage(result);
     });
   });
 
-  // Edition buttons — fetch new data without reload
-  document.querySelectorAll("#edition-btns .btn").forEach(btn => {
-    btn.addEventListener("click", async () => {
-      const newEdition = btn.dataset.val;
-      if (newEdition === currentEdition) return;
-
-      document.querySelectorAll("#edition-btns .btn").forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
-      currentEdition = newEdition;
-
-      // Update URL without reload
-      const url = new URL(window.location);
-      url.searchParams.set("edition", newEdition);
-      history.replaceState(null, "", url);
-
-      // Fetch and render new data
-      const result = await loadFactionData(currentSlug, currentEventType, currentWindow, currentEdition);
-      renderFactionPage(result);
-    });
-  });
 }
 
 function metaHealthBadge(data) {
@@ -497,7 +473,7 @@ function timelineTable(timeline) {
 function renderDetChart(dets) {
   if (typeof Plotly === "undefined" || !dets || !dets.length) return;
   const top = [...dets].sort((a, b) => b.play_rate - a.play_rate).slice(0, 15);
-  Plotly.newPlot("chart-det", [{
+  Plotly.react("chart-det", [{
     type: "bar",
     orientation: "h",
     y: top.map(d => (d.detachment || "Unknown").replace(/^.+ — /, "")).reverse(),
@@ -513,7 +489,7 @@ function renderDetChart(dets) {
 function renderDispChart(disps) {
   if (typeof Plotly === "undefined" || !disps || !disps.length) return;
   const sorted = [...disps].sort((a, b) => b.play_rate - a.play_rate);
-  Plotly.newPlot("chart-disp", [{
+  Plotly.react("chart-disp", [{
     type: "bar",
     orientation: "h",
     y: sorted.map(d => d.disposition || "Unknown").reverse(),
@@ -529,7 +505,7 @@ function renderDispChart(disps) {
 function renderMatchupChart(matchups) {
   if (typeof Plotly === "undefined" || !matchups || !matchups.length) return;
   const sorted = [...matchups].sort((a, b) => b.win_rate - a.win_rate);
-  Plotly.newPlot("chart-matchup", [{
+  Plotly.react("chart-matchup", [{
     type: "bar",
     orientation: "h",
     y: sorted.map(m => m.opponent_faction).reverse(),
@@ -590,7 +566,7 @@ function renderDetPieChart(dets, metric = 'lists') {
   );
   const top = sorted.slice(0, 10);
 
-  Plotly.newPlot("chart-det-pie", [{
+  Plotly.react("chart-det-pie", [{
     type: "pie",
     labels: top.map(d => d.detachment || "Unknown"),
     values: top.map(d => config.getValue(d)),
@@ -619,7 +595,7 @@ function renderDetPieChart(dets, metric = 'lists') {
 function renderTimeline(timeline) {
   if (typeof Plotly === "undefined" || !timeline || !timeline.length) return;
 
-  Plotly.newPlot("chart-lists", [{
+  Plotly.react("chart-lists", [{
     type: "scatter", mode: "lines+markers",
     x: timeline.map(t => t.week),
     y: timeline.map(t => t.lists),
@@ -627,7 +603,7 @@ function renderTimeline(timeline) {
     hovertemplate: "%{x}: %{y} lists<extra></extra>",
   }], darkLayout({ margin: { t: 10, r: 20, b: 40, l: 50 } }), { responsive: true });
 
-  Plotly.newPlot("chart-wr-timeline", [{
+  Plotly.react("chart-wr-timeline", [{
     type: "scatter", mode: "lines+markers",
     x: timeline.filter(t => t.win_rate !== null).map(t => t.week),
     y: timeline.filter(t => t.win_rate !== null).map(t => t.win_rate),

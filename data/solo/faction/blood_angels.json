@@ -1,65 +1,110 @@
 {
   "faction": "Blood Angels",
   "slug": "blood_angels",
-  "as_of": "2026-05-19",
-  "window_days": 30,
+  "as_of": "2026-06-20",
+  "window_days": 7,
   "event_type": "solo",
-  "lists": 110,
-  "games": 502,
-  "play_rate": 3.5,
-  "win_rate": 45.6,
-  "trend_delta": -4.6,
+  "lists": 6,
+  "games": 30,
+  "play_rate": 6.5,
+  "win_rate": 53.3,
+  "trend_delta": null,
   "top_detachment": "Liberator Assault Group",
+  "ci_lower": 36.1,
+  "meta_health": "strongly_under",
+  "x0_pct": 0.0,
+  "x1_pct": 16.7,
+  "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Liberator Assault Group",
       "base_archetype": "Blood Angels \u2014 Liberator Assault Group",
-      "lists": 54,
-      "games": 261,
-      "play_rate": 49.1,
-      "win_rate": 47.5
+      "lists": 2,
+      "games": 10,
+      "play_rate": 33.3,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
       "detachment": "Rage-Cursed Onslaught",
       "base_archetype": "Blood Angels \u2014 Rage-Cursed Onslaught",
-      "lists": 40,
-      "games": 174,
-      "play_rate": 36.4,
-      "win_rate": 45.1
+      "lists": 2,
+      "games": 10,
+      "play_rate": 33.3,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
     },
     {
-      "detachment": "Angelic Inheritors",
-      "base_archetype": "Blood Angels \u2014 Angelic Inheritors",
-      "lists": 8,
-      "games": 27,
-      "play_rate": 7.3,
-      "win_rate": 44.4
+      "detachment": "Legacy Of Grace + Stormlance Task Force",
+      "base_archetype": "Blood Angels \u2014 Legacy Of Grace + Stormlance Task Force",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 16.7,
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0
     },
     {
-      "detachment": "No Detachment",
-      "base_archetype": "Blood Angels \u2014 No Detachment",
-      "lists": 4,
-      "games": 20,
-      "play_rate": 3.6,
-      "win_rate": 37.5
+      "detachment": "Bastion Task Force + Legacy Of Grace",
+      "base_archetype": "Blood Angels \u2014 Bastion Task Force + Legacy Of Grace",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 16.7,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    }
+  ],
+  "dispositions": [
+    {
+      "disposition": "Take and Hold",
+      "lists": 3,
+      "play_rate": 50.0,
+      "win_rate": 46.7,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 15
+    },
+    {
+      "disposition": "Priority Assets",
+      "lists": 2,
+      "play_rate": 33.3,
+      "win_rate": 70.0,
+      "x0_pct": 0.0,
+      "x1_pct": 50.0,
+      "games": 10
+    },
+    {
+      "disposition": "Purge the Foe",
+      "lists": 2,
+      "play_rate": 33.3,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 10
+    },
+    {
+      "disposition": "Disruption",
+      "lists": 1,
+      "play_rate": 16.7,
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "games": 5
     }
   ],
   "top_players": [
     {
-      "player_name": "Dylan Hulsey",
-      "detachment": "Liberator Assault Group",
-      "list_url": "https://www.bestcoastpairings.com/list/a6SynihmO1Im",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Aidan Brocklehurst",
-      "detachment": "Rage-Cursed Onslaught",
-      "list_url": "https://www.bestcoastpairings.com/list/EiWSCZQYWCsb",
+      "player_name": "Brad Ledbetter",
+      "detachment": "Legacy Of Grace + Stormlance Task Force",
+      "disposition": "Disruption, Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/oDQ64hL0sU4b",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -68,374 +113,88 @@
       "win_rate": 80.0
     },
     {
-      "player_name": "Irwin Pablo",
-      "detachment": "Liberator Assault Group",
-      "list_url": "https://www.bestcoastpairings.com/list/zaKHz2sbO3fb",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Marcus Jonsson",
-      "detachment": "Rage-Cursed Onslaught",
-      "list_url": "https://www.bestcoastpairings.com/list/b2mYMLX729MM",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Lewis Aepda",
-      "detachment": "Liberator Assault Group",
-      "list_url": "https://www.bestcoastpairings.com/list/CIKKIISjJ6Qu",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Guillermo L\u00f3pez",
-      "detachment": "Rage-Cursed Onslaught",
-      "list_url": "https://www.bestcoastpairings.com/list/0m83QQxxX0zl",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "David Sullivan",
-      "detachment": "Rage-Cursed Onslaught",
-      "list_url": "https://www.bestcoastpairings.com/list/QwvS3an7oSK9",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Jonathan Arkin",
-      "detachment": "Liberator Assault Group",
-      "list_url": "https://www.bestcoastpairings.com/list/cPGzIzW8DNTP",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Ben Nattrass",
-      "detachment": "Liberator Assault Group",
-      "list_url": "https://www.bestcoastpairings.com/list/uvHxZKQmsAQK",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Zac Coon",
-      "detachment": "Liberator Assault Group",
-      "list_url": "https://www.bestcoastpairings.com/list/1cW6L5Jno3pA",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Michael Labrow",
-      "detachment": "Liberator Assault Group",
-      "list_url": "https://www.bestcoastpairings.com/list/Y8pCwWruBnq9",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Nicolas Petit",
-      "detachment": "No Detachment",
-      "list_url": "https://www.bestcoastpairings.com/list/FcqkcpKLxHuI",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Jordan Checkley",
-      "detachment": "Angelic Inheritors",
-      "list_url": "https://www.bestcoastpairings.com/list/0ZZUa3UPCo59",
+      "player_name": "Rielle Long",
+      "detachment": "Bastion Task Force + Legacy Of Grace",
+      "disposition": "Priority Assets, Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/OvsIQBi9370Q",
       "source": "bcp",
       "wins": 3,
-      "losses": 1,
+      "losses": 2,
       "draws": 0,
-      "games": 4,
-      "win_rate": 75.0
-    },
-    {
-      "player_name": "gustav Setterberg",
-      "detachment": "Liberator Assault Group",
-      "list_url": "https://www.bestcoastpairings.com/list/Wa8CnXujSWyM",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 1,
-      "draws": 1,
       "games": 5,
-      "win_rate": 70.0
+      "win_rate": 60.0
     },
     {
-      "player_name": "Cameron Sheahan",
-      "detachment": "Liberator Assault Group",
-      "list_url": "https://www.bestcoastpairings.com/list/RidqoVrnOY9P",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 1,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 70.0
-    },
-    {
-      "player_name": "Lorenzo Jesus Navidad Rus",
+      "player_name": "Zisis Panetsidis",
       "detachment": "Rage-Cursed Onslaught",
-      "list_url": "https://www.bestcoastpairings.com/list/zeP5G5K9rpRq",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/1xs3oNj3qsa9",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Ryan Taves",
+      "detachment": "Liberator Assault Group",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/A4om9ATdmjqh",
       "source": "bcp",
       "wins": 2,
-      "losses": 1,
+      "losses": 3,
       "draws": 0,
-      "games": 3,
-      "win_rate": 66.7
+      "games": 5,
+      "win_rate": 40.0
     },
     {
-      "player_name": "Alberto Lopez",
-      "detachment": "Angelic Inheritors",
-      "list_url": "https://www.bestcoastpairings.com/list/IbfV28Txk6o1",
+      "player_name": "Tasos Pavlidis",
+      "detachment": "Liberator Assault Group",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/9TeRnS7Juhtk",
       "source": "bcp",
       "wins": 2,
-      "losses": 1,
-      "draws": 0,
-      "games": 3,
-      "win_rate": 66.7
-    },
-    {
-      "player_name": "Trenton Jannaman",
-      "detachment": "Liberator Assault Group",
-      "list_url": "https://www.bestcoastpairings.com/list/WE5w4029B7U8",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
+      "losses": 3,
       "draws": 0,
       "games": 5,
-      "win_rate": 60.0
+      "win_rate": 40.0
     },
     {
-      "player_name": "Kieran Lynch",
+      "player_name": "Nizamis Vaggos",
       "detachment": "Rage-Cursed Onslaught",
-      "list_url": "https://www.bestcoastpairings.com/list/UT25LhZL0NiP",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/J6YAMrM9r77O",
       "source": "bcp",
-      "wins": 3,
-      "losses": 2,
+      "wins": 2,
+      "losses": 3,
       "draws": 0,
       "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Wyatt Brandt",
-      "detachment": "Rage-Cursed Onslaught",
-      "list_url": "https://www.bestcoastpairings.com/list/Y2aTxe3N2y3S",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
+      "win_rate": 40.0
     }
   ],
   "matchups": [
     {
-      "opponent_faction": "Space Marines (Astartes)",
-      "games": 56,
-      "wins": 27,
-      "win_rate": 49.1
-    },
-    {
-      "opponent_faction": "T'au Empire",
-      "games": 41,
-      "wins": 15,
-      "win_rate": 36.6
-    },
-    {
-      "opponent_faction": "Chaos Space Marines",
-      "games": 35,
-      "wins": 15,
-      "win_rate": 42.9
-    },
-    {
-      "opponent_faction": "Death Guard",
-      "games": 29,
-      "wins": 9,
-      "win_rate": 32.8
-    },
-    {
-      "opponent_faction": "Necrons",
-      "games": 26,
-      "wins": 12,
-      "win_rate": 46.2
-    },
-    {
-      "opponent_faction": "Emperor's Children",
-      "games": 21,
-      "wins": 6,
-      "win_rate": 31.0
-    },
-    {
-      "opponent_faction": "Thousand Sons",
-      "games": 21,
-      "wins": 6,
-      "win_rate": 28.6
-    },
-    {
-      "opponent_faction": "Orks",
-      "games": 21,
-      "wins": 12,
-      "win_rate": 57.1
-    },
-    {
-      "opponent_faction": "Imperial Knights",
-      "games": 20,
-      "wins": 11,
-      "win_rate": 57.5
-    },
-    {
-      "opponent_faction": "World Eaters",
-      "games": 20,
-      "wins": 7,
-      "win_rate": 35.0
-    },
-    {
-      "opponent_faction": "Adeptus Custodes",
-      "games": 19,
-      "wins": 9,
-      "win_rate": 47.4
-    },
-    {
-      "opponent_faction": "Drukhari",
-      "games": 17,
-      "wins": 6,
-      "win_rate": 35.3
-    },
-    {
-      "opponent_faction": "Chaos Daemons",
-      "games": 17,
-      "wins": 6,
-      "win_rate": 38.2
-    },
-    {
-      "opponent_faction": "Astra Militarum",
-      "games": 17,
-      "wins": 8,
-      "win_rate": 47.1
-    },
-    {
       "opponent_faction": "Tyranids",
-      "games": 15,
-      "wins": 8,
-      "win_rate": 56.7
-    },
-    {
-      "opponent_faction": "Leagues of Votann",
-      "games": 14,
-      "wins": 5,
-      "win_rate": 35.7
-    },
-    {
-      "opponent_faction": "Adeptus Mechanicus",
-      "games": 13,
-      "wins": 7,
-      "win_rate": 53.8
-    },
-    {
-      "opponent_faction": "Adepta Sororitas",
-      "games": 13,
-      "wins": 2,
-      "win_rate": 19.2
-    },
-    {
-      "opponent_faction": "Dark Angels",
-      "games": 12,
-      "wins": 7,
-      "win_rate": 58.3
-    },
-    {
-      "opponent_faction": "Space Wolves",
-      "games": 11,
-      "wins": 8,
-      "win_rate": 77.3
-    },
-    {
-      "opponent_faction": "Aeldari",
-      "games": 10,
-      "wins": 5,
-      "win_rate": 55.0
-    },
-    {
-      "opponent_faction": "Grey Knights",
-      "games": 7,
-      "wins": 4,
-      "win_rate": 57.1
-    },
-    {
-      "opponent_faction": "Deathwatch",
-      "games": 7,
-      "wins": 4,
-      "win_rate": 57.1
-    },
-    {
-      "opponent_faction": "Chaos Knights",
       "games": 5,
-      "wins": 4,
-      "win_rate": 80.0
+      "wins": 3,
+      "win_rate": 60.0
+    },
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0
     }
   ],
   "timeline": [
     {
-      "week": "2026-W16",
-      "lists": 40,
-      "games": 175,
-      "win_rate": 49.1
-    },
-    {
-      "week": "2026-W17",
-      "lists": 36,
-      "games": 167,
-      "win_rate": 43.4
-    },
-    {
-      "week": "2026-W18",
-      "lists": 4,
-      "games": 15,
-      "win_rate": 43.3
-    },
-    {
-      "week": "2026-W19",
-      "lists": 30,
-      "games": 143,
-      "win_rate": 44.8
+      "week": "2026-W24",
+      "lists": 6,
+      "games": 30,
+      "win_rate": 53.3,
+      "total_lists": 93,
+      "play_rate": 6.5
     }
   ]
 }

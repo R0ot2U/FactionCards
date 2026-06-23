@@ -2,8 +2,25 @@
 
 const DEFAULT_EVENT_TYPE = "all";
 const DEFAULT_WINDOW = "7d";
-const DEFAULT_EDITION = "11th";
 const SUPPORTED_WINDOWS = ["7d", "14d", "30d", "60d"];
+
+// Cache manifest loaded once on page load
+let cacheManifest = null;
+
+async function loadCacheManifest() {
+  if (cacheManifest) return cacheManifest;
+  try {
+    // Always fetch manifest fresh (no cache) to get latest hashes
+    const resp = await fetch(`data/cache_manifest.json?t=${Date.now()}`);
+    if (resp.ok) {
+      cacheManifest = await resp.json();
+    }
+  } catch (e) {
+    console.warn("Failed to load cache manifest, falling back to date-based cache busting", e);
+    cacheManifest = {}; // Empty manifest means use fallback
+  }
+  return cacheManifest;
+}
 
 function getEventType() {
   const params = new URLSearchParams(window.location.search);
@@ -17,27 +34,34 @@ function getWindow() {
   return SUPPORTED_WINDOWS.includes(w) ? w : DEFAULT_WINDOW;
 }
 
-function getEdition() {
-  const params = new URLSearchParams(window.location.search);
-  const ed = params.get("edition") || DEFAULT_EDITION;
-  return ["10th", "11th", "all"].includes(ed) ? ed : DEFAULT_EDITION;
-}
-
-function dataRoot(eventType, window, edition) {
+function dataRoot(eventType, window) {
   const et = eventType || getEventType();
   const w = window || getWindow();
-  const ed = edition || getEdition();
 
-  // Current structure: data/{edition}/{event_type}/{window}/
-  // For 10th edition, also try legacy path as fallback: data/{event_type}/{window}/
-
-  // All editions now use: data/{edition}/{event_type}/{window}/
-  return `data/${ed}/${et}/${w}`;
+  // Simplified structure: data/{event_type}/{window}/
+  return `data/${et}/${w}`;
 }
 
 async function fetchJSON(path, cacheBust = false) {
-  // Add cache-busting query param if requested (use date-based key for better caching)
-  const url = cacheBust ? `${path}?v=${new Date().toISOString().split('T')[0]}` : path;
+  // Use content-hash based cache busting for better invalidation
+  const manifest = await loadCacheManifest();
+
+  let url = path;
+  if (cacheBust && manifest && Object.keys(manifest).length > 0) {
+    // Extract relative path from data/ directory
+    const relPath = path.startsWith('data/') ? path.slice(5) : path;
+    const hash = manifest[relPath];
+    if (hash) {
+      url = `${path}?v=${hash}`;
+    } else {
+      // Fallback to date-based if file not in manifest
+      url = `${path}?v=${new Date().toISOString().split('T')[0]}`;
+    }
+  } else if (cacheBust) {
+    // Fallback to date-based if no manifest
+    url = `${path}?v=${new Date().toISOString().split('T')[0]}`;
+  }
+
   const resp = await fetch(url);
   if (!resp.ok) throw new Error(`Failed to load ${path}: ${resp.status}`);
   return resp.json();
@@ -71,6 +95,15 @@ function ratingTrendHtml(delta) {
 
 function factionSlug(faction) {
   return faction.toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "");
+}
+
+// Debounce utility for search input performance
+function debounce(fn, ms) {
+  let timeoutId;
+  return function(...args) {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => fn.apply(this, args), ms);
+  };
 }
 
 // Simple sortable table. Call on a <table> element.

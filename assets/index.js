@@ -3,15 +3,14 @@
 let allFactions = [];
 let currentEventType = getEventType();
 let currentWindow = getWindow();
-let currentEdition = getEdition();
 let currentSortCol = 2;  // Default to play_rate column (0=faction, 1=lists, 2=play_rate)
 let currentSortDir = -1; // -1 = desc, 1 = asc
 let manifest = {};
 
 let mapData = [];
 
-async function loadData(eventType, window, edition) {
-  const root = dataRoot(eventType, window, edition);
+async function loadData(eventType, window) {
+  const root = dataRoot(eventType, window);
   try {
     manifest = await fetchJSON(`${root}/index.json`);
     const factions = await fetchJSON(`${root}/factions.json`);
@@ -26,18 +25,17 @@ async function loadData(eventType, window, edition) {
 
     return true;
   } catch (e) {
-    // Fall back to "all" / "7d" / "11th" bundle if requested bundle is unavailable
-    if (eventType !== "all" || window !== "7d" || edition !== "11th") {
+    // Fall back to "all" / "7d" bundle if requested bundle is unavailable
+    if (eventType !== "all" || window !== "7d") {
       try {
-        manifest = await fetchJSON(`${dataRoot("all", "7d", "11th")}/index.json`);
-        const factions = await fetchJSON(`${dataRoot("all", "7d", "11th")}/factions.json`);
+        manifest = await fetchJSON(`${dataRoot("all", "7d")}/index.json`);
+        const factions = await fetchJSON(`${dataRoot("all", "7d")}/factions.json`);
         allFactions = factions;
         currentEventType = "all";
         currentWindow = "7d";
-        currentEdition = "11th";
         // Load map data for fallback window
         try {
-          mapData = await fetchJSON(`${dataRoot("all", "7d", "11th")}/map.json`);
+          mapData = await fetchJSON(`${dataRoot("all", "7d")}/map.json`);
         } catch (_) {
           mapData = [];
         }
@@ -47,9 +45,6 @@ async function loadData(eventType, window, edition) {
         });
         document.querySelectorAll("#window-btns .btn").forEach(b => {
           b.classList.toggle("active", b.dataset.val === "7d");
-        });
-        document.querySelectorAll("#edition-btns .btn").forEach(b => {
-          b.classList.toggle("active", b.dataset.val === "11th");
         });
         return true;
       } catch (_) {}
@@ -230,12 +225,33 @@ function renderMap(events) {
 
 }
 
+// Helper to lazy-render map only when scrolled into view
+function lazyRenderMap(mapDataToRender) {
+  const mapEl = document.getElementById("map-chart");
+  if (!mapEl) return;
+
+  // Disconnect any existing observer
+  if (mapEl._mapObserver) {
+    mapEl._mapObserver.disconnect();
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    if (entries[0].isIntersecting) {
+      renderMap(mapDataToRender);
+      observer.disconnect();
+    }
+  }, { rootMargin: "200px" });
+
+  mapEl._mapObserver = observer;
+  observer.observe(mapEl);
+}
+
 async function init() {
   // Show loading state
   document.getElementById("faction-tbody").innerHTML =
     `<tr><td colspan="6" class="loading">Loading data…</td></tr>`;
 
-  const ok = await loadData(currentEventType, currentWindow, currentEdition);
+  const ok = await loadData(currentEventType, currentWindow);
   if (!ok) return;
 
   // Header meta
@@ -255,20 +271,17 @@ async function init() {
   document.querySelectorAll("#window-btns .btn").forEach(b => {
     b.classList.toggle("active", b.dataset.val === currentWindow);
   });
-  document.querySelectorAll("#edition-btns .btn").forEach(b => {
-    b.classList.toggle("active", b.dataset.val === currentEdition);
-  });
 
   renderTable();
   renderCharts();
-  renderMap(mapData);
   renderFooter(manifest);
+  lazyRenderMap(mapData);
 
   // Set up column sorting
   setupColumnSorting();
 
-  // Search
-  document.getElementById("search").addEventListener("input", () => renderTable());
+  // Search (debounced for performance)
+  document.getElementById("search").addEventListener("input", debounce(() => renderTable(), 200));
 
   // Window buttons — fetch new bundle and re-render
   document.querySelectorAll("#window-btns .btn").forEach(btn => {
@@ -285,11 +298,11 @@ async function init() {
       url.searchParams.set("window", newWindow);
       history.replaceState(null, "", url);
 
-      await loadData(currentEventType, currentWindow, currentEdition);
+      await loadData(currentEventType, currentWindow);
       renderTable();
       renderCharts();
-      renderMap(mapData);
       renderFooter(manifest);
+      lazyRenderMap(mapData);
 
       // Update header stats
       document.getElementById("window-label").textContent =
@@ -314,56 +327,11 @@ async function init() {
       url.searchParams.set("event_type", newType);
       history.replaceState(null, "", url);
 
-      await loadData(currentEventType, currentWindow, currentEdition);
+      await loadData(currentEventType, currentWindow);
       renderTable();
       renderCharts();
-      renderMap(mapData);
       renderFooter(manifest);
-
-      // Update header stats
-      document.getElementById("window-label").textContent =
-        `${manifest.window_days}-day window · as of ${manifest.as_of}`;
-      document.getElementById("build-info").textContent =
-        `${manifest.total_tournaments.toLocaleString()} tournaments · ${manifest.total_lists.toLocaleString()} players · ${manifest.total_games.toLocaleString()} games`;
-    });
-  });
-
-  // Edition buttons — fetch new bundle and re-render
-  document.querySelectorAll("#edition-btns .btn").forEach(btn => {
-    btn.addEventListener("click", async () => {
-      const newEdition = btn.dataset.val;
-      if (newEdition === currentEdition) return;
-
-      // For non-10th editions, check if data exists first
-      // Build script outputs to: data/{edition}/{event_type}/{window}/
-      if (newEdition !== "10th") {
-        const testPath = newEdition === "11th" ? "data/11th/all/30d/index.json" : "data/all/all/30d/index.json";
-        try {
-          const testResp = await fetch(testPath, { method: 'HEAD' });
-          if (!testResp.ok) {
-            alert(`${newEdition === "11th" ? "11th Edition" : "Combined Edition"} data not yet available.\n\nTo build this data, run:\n  python scripts/build_site_data.py --all-editions --all-event-types --all-windows`);
-            return;
-          }
-        } catch (e) {
-          alert(`${newEdition === "11th" ? "11th Edition" : "Combined Edition"} data not yet available.\n\nTo build this data, run:\n  python scripts/build_site_data.py --all-editions --all-event-types --all-windows`);
-          return;
-        }
-      }
-
-      document.querySelectorAll("#edition-btns .btn").forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
-      currentEdition = newEdition;
-
-      // Update URL without reload so the state is shareable/bookmarkable
-      const url = new URL(window.location);
-      url.searchParams.set("edition", newEdition);
-      history.replaceState(null, "", url);
-
-      await loadData(currentEventType, currentWindow, currentEdition);
-      renderTable();
-      renderCharts();
-      renderMap(mapData);
-      renderFooter(manifest);
+      lazyRenderMap(mapData);
 
       // Update header stats
       document.getElementById("window-label").textContent =
@@ -413,7 +381,7 @@ function setupColumnSorting() {
       th.classList.add(currentSortDir === 1 ? "sort-asc" : "sort-desc");
 
       renderTable();
-      renderCharts();
+      // Note: renderCharts() removed — charts sort independently, no need to re-render
     });
   });
 
@@ -475,7 +443,7 @@ function renderCharts() {
 
   // Play rate bar — sorted by play rate desc
   const playRows = [...rows].sort((a, b) => b.play_rate - a.play_rate).slice(0, 28);
-  Plotly.newPlot("chart-play", [{
+  Plotly.react("chart-play", [{
     type: "bar",
     orientation: "h",
     y: playRows.map(r => r.faction).reverse(),
@@ -489,7 +457,7 @@ function renderCharts() {
 
   // Win rate bar — sorted by win rate desc
   const wrRows = [...rows].sort((a, b) => b.win_rate - a.win_rate).slice(0, 28);
-  Plotly.newPlot("chart-wr", [{
+  Plotly.react("chart-wr", [{
     type: "bar",
     orientation: "h",
     y: wrRows.map(r => r.faction).reverse(),
@@ -512,7 +480,7 @@ function renderCharts() {
     if (dispSection) dispSection.style.display = "block";
 
     const disps = manifest.dispositions;
-    Plotly.newPlot("chart-disposition", [{
+    Plotly.react("chart-disposition", [{
       type: "bar",
       orientation: "h",
       y: disps.map(d => d.disposition).reverse(),

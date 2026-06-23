@@ -4,14 +4,13 @@ let allTournaments = [];
 let mapData = [];
 let currentEventType = getEventType();
 let currentWindow = getWindow();
-let currentEdition = getEdition();
 let currentSortCol = 1;  // Default to date column
 let currentSortDir = -1; // -1 = desc, 1 = asc
 let manifest = {};
 let expandedRows = new Set();
 
-async function loadData(eventType, windowDays, edition, cacheBust = false) {
-  const root = dataRoot(eventType, windowDays, edition);
+async function loadData(eventType, windowDays, cacheBust = false) {
+  const root = dataRoot(eventType, windowDays);
   try {
     manifest = await fetchJSON(`${root}/index.json`, cacheBust);
     const tournaments = await fetchJSON(`${root}/tournaments.json`, cacheBust);
@@ -26,19 +25,18 @@ async function loadData(eventType, windowDays, edition, cacheBust = false) {
 
     return true;
   } catch (e) {
-    // Fall back to "all" / "7d" / "11th" bundle if requested bundle is unavailable
-    if (eventType !== "all" || windowDays !== "7d" || edition !== "11th") {
+    // Fall back to "all" / "7d" bundle if requested bundle is unavailable
+    if (eventType !== "all" || windowDays !== "7d") {
       try {
-        manifest = await fetchJSON(`${dataRoot("all", "7d", "11th")}/index.json`);
-        const tournaments = await fetchJSON(`${dataRoot("all", "7d", "11th")}/tournaments.json`);
+        manifest = await fetchJSON(`${dataRoot("all", "7d")}/index.json`);
+        const tournaments = await fetchJSON(`${dataRoot("all", "7d")}/tournaments.json`);
         allTournaments = tournaments;
         currentEventType = "all";
         currentWindow = "7d";
-        currentEdition = "11th";
 
         // Load map data for fallback window
         try {
-          mapData = await fetchJSON(`${dataRoot("all", "7d", "11th")}/map.json`);
+          mapData = await fetchJSON(`${dataRoot("all", "7d")}/map.json`);
         } catch (_) {
           mapData = [];
         }
@@ -49,9 +47,6 @@ async function loadData(eventType, windowDays, edition, cacheBust = false) {
         });
         document.querySelectorAll("#window-btns .btn").forEach(b => {
           b.classList.toggle("active", b.dataset.val === "7d");
-        });
-        document.querySelectorAll("#edition-btns .btn").forEach(b => {
-          b.classList.toggle("active", b.dataset.val === "11th");
         });
         return true;
       } catch (_) {}
@@ -231,6 +226,27 @@ function renderMap(events) {
   });
 }
 
+// Helper to lazy-render map only when scrolled into view
+function lazyRenderMap(filteredMapData) {
+  const mapEl = document.getElementById("map-chart");
+  if (!mapEl) return;
+
+  // Disconnect any existing observer
+  if (mapEl._mapObserver) {
+    mapEl._mapObserver.disconnect();
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    if (entries[0].isIntersecting) {
+      renderMap(filteredMapData);
+      observer.disconnect();
+    }
+  }, { rootMargin: "200px" });
+
+  mapEl._mapObserver = observer;
+  observer.observe(mapEl);
+}
+
 async function init() {
   // Show loading state
   document.getElementById("tournaments-tbody").innerHTML =
@@ -253,23 +269,20 @@ async function init() {
   document.querySelectorAll("#window-btns .btn").forEach(b => {
     b.classList.toggle("active", b.dataset.val === currentWindow);
   });
-  document.querySelectorAll("#edition-btns .btn").forEach(b => {
-    b.classList.toggle("active", b.dataset.val === currentEdition);
-  });
 
   // Filter map data to match current window
   const tournamentIds = new Set(allTournaments.map(t => t.event_id));
   const filteredMapData = mapData.filter(e => tournamentIds.has(e.event_id));
 
-  renderMap(filteredMapData);
   renderTable();
   renderFooter(manifest);
+  lazyRenderMap(filteredMapData);
 
   // Set up column sorting
   setupColumnSorting();
 
-  // Search
-  document.getElementById("search").addEventListener("input", () => renderTable());
+  // Search (debounced for performance)
+  document.getElementById("search").addEventListener("input", debounce(() => renderTable(), 200));
 
   // Window buttons — fetch new bundle and re-render
   document.querySelectorAll("#window-btns .btn").forEach(btn => {
@@ -287,15 +300,15 @@ async function init() {
       history.replaceState(null, "", url);
 
       expandedRows.clear(); // Reset expanded state
-      await loadData(currentEventType, currentWindow, currentEdition);
+      await loadData(currentEventType, currentWindow);
 
       // Filter map data to match current window
       const tournamentIds = new Set(allTournaments.map(t => t.event_id));
       const filteredMapData = mapData.filter(e => tournamentIds.has(e.event_id));
 
-      renderMap(filteredMapData);
       renderTable();
       renderFooter(manifest);
+      lazyRenderMap(filteredMapData);
 
       // Update header stats
       document.getElementById("window-label").textContent =
@@ -321,15 +334,15 @@ async function init() {
       history.replaceState(null, "", url);
 
       expandedRows.clear(); // Reset expanded state
-      await loadData(currentEventType, currentWindow, currentEdition);
+      await loadData(currentEventType, currentWindow);
 
       // Filter map data to match current window
       const tournamentIds = new Set(allTournaments.map(t => t.event_id));
       const filteredMapData = mapData.filter(e => tournamentIds.has(e.event_id));
 
-      renderMap(filteredMapData);
       renderTable();
       renderFooter(manifest);
+      lazyRenderMap(filteredMapData);
 
       // Update header stats
       document.getElementById("window-label").textContent =
@@ -339,39 +352,6 @@ async function init() {
     });
   });
 
-  // Edition buttons — fetch new bundle and re-render
-  document.querySelectorAll("#edition-btns .btn").forEach(btn => {
-    btn.addEventListener("click", async () => {
-      const newEdition = btn.dataset.val;
-      if (newEdition === currentEdition) return;
-
-      document.querySelectorAll("#edition-btns .btn").forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
-      currentEdition = newEdition;
-
-      // Update URL without reload
-      const url = new URL(window.location);
-      url.searchParams.set("edition", newEdition);
-      history.replaceState(null, "", url);
-
-      expandedRows.clear(); // Reset expanded state
-      await loadData(currentEventType, currentWindow, currentEdition);
-
-      // Filter map data to match current window
-      const tournamentIds = new Set(allTournaments.map(t => t.event_id));
-      const filteredMapData = mapData.filter(e => tournamentIds.has(e.event_id));
-
-      renderMap(filteredMapData);
-      renderTable();
-      renderFooter(manifest);
-
-      // Update header stats
-      document.getElementById("window-label").textContent =
-        `Tournaments · ${manifest.window_days}-day window · as of ${manifest.as_of}`;
-      document.getElementById("build-info").textContent =
-        `${manifest.total_tournaments.toLocaleString()} tournaments · ${manifest.total_lists.toLocaleString()} players · ${manifest.total_games.toLocaleString()} games`;
-    });
-  });
 }
 
 function filteredTournaments() {

@@ -6,19 +6,23 @@ let currentSortCol = 2;  // Default to rating column
 let currentSortDir = -1; // -1 = desc, 1 = asc
 let manifest = {};
 
-async function loadData(eventType) {
-  const root = dataRoot(eventType, "30d");
+async function loadData(eventType, cacheBust = false) {
+  // Players load from event_type level (all-time, not windowed)
+  const playersPath = `data/${eventType}/players.json`;
+  // Manifest loads from a windowed path (for metadata)
+  const manifestPath = dataRoot(eventType, "7d") + "/index.json";
+
   try {
-    manifest = await fetchJSON(`${root}/index.json`);
-    const players = await fetchJSON(`${root}/players.json`);
+    manifest = await fetchJSON(manifestPath, cacheBust);
+    const players = await fetchJSON(playersPath, cacheBust);
     allPlayers = players;
     return true;
   } catch (e) {
-    // Fall back to "all" / "30d" bundle if requested bundle is unavailable
+    // Fall back to "all" if requested bundle is unavailable
     if (eventType !== "all") {
       try {
-        manifest = await fetchJSON(`${dataRoot("all", "30d")}/index.json`);
-        const players = await fetchJSON(`${dataRoot("all", "30d")}/players.json`);
+        manifest = await fetchJSON(dataRoot("all", "7d") + "/index.json");
+        const players = await fetchJSON("data/all/players.json");
         allPlayers = players;
         currentEventType = "all";
         // Sync button active state to fallback
@@ -42,12 +46,13 @@ async function init() {
   document.getElementById("players-tbody").innerHTML =
     `<tr><td colspan="8" class="loading">Loading data…</td></tr>`;
 
-  const ok = await loadData(currentEventType);
+  // Use cache-busting on initial page load
+  const ok = await loadData(currentEventType, true);
   if (!ok) return;
 
   // Header meta
   document.getElementById("window-label").textContent =
-    `Player Rankings · ${manifest.window_days}-day window · as of ${manifest.as_of}`;
+    `Player Rankings · as of ${manifest.as_of}`;
   document.getElementById("build-info").textContent =
     `${manifest.total_tournaments.toLocaleString()} tournaments · ${manifest.total_lists.toLocaleString()} players · ${manifest.total_games.toLocaleString()} games`;
 
@@ -62,8 +67,8 @@ async function init() {
   // Set up column sorting
   setupColumnSorting();
 
-  // Search
-  document.getElementById("search").addEventListener("input", () => renderTable());
+  // Search (debounced for performance)
+  document.getElementById("search").addEventListener("input", debounce(() => renderTable(), 200));
 
   // Event-type buttons — fetch new bundle and re-render
   document.querySelectorAll("#event-type-btns .btn").forEach(btn => {
@@ -86,7 +91,7 @@ async function init() {
 
       // Update header stats
       document.getElementById("window-label").textContent =
-        `Player Rankings · ${manifest.window_days}-day window · as of ${manifest.as_of}`;
+        `Player Rankings · as of ${manifest.as_of}`;
       document.getElementById("build-info").textContent =
         `${manifest.total_tournaments.toLocaleString()} tournaments · ${manifest.total_lists.toLocaleString()} players · ${manifest.total_games.toLocaleString()} games`;
     });
@@ -149,12 +154,6 @@ function renderTable() {
     return;
   }
 
-  // Calculate overall rank (from allPlayers, not filtered)
-  const rankMap = new Map();
-  allPlayers.forEach((p, idx) => {
-    rankMap.set(p.player_name, idx + 1);
-  });
-
   tbody.innerHTML = rows.map((r) => {
     const wrCls = wrClass(r.win_rate || 0);
     const record = `${r.wins || 0}-${r.losses || 0}` + (r.draws ? `-${r.draws}` : "");
@@ -166,8 +165,8 @@ function renderTable() {
     const consistency = r.consistency ?? 0;
     const consCls = consistency >= 0.8 ? "wr-green" : consistency >= 0.6 ? "wr-yellow" : "wr-red";
 
-    // Overall rank from unfiltered list
-    const rank = rankMap.get(r.player_name) || '—';
+    // Rank is pre-computed by build script
+    const rank = r.rank || '—';
 
     return `
       <tr>
