@@ -4,36 +4,47 @@
   "as_of": "2026-06-29",
   "window_days": 7,
   "event_type": "solo",
-  "lists": 14,
-  "games": 66,
-  "play_rate": 5.4,
-  "win_rate": 38.6,
+  "lists": 17,
+  "games": 81,
+  "play_rate": 4.3,
+  "win_rate": 38.9,
   "trend_delta": null,
-  "top_detachment": "Designation Force + Mechanised Assault",
-  "ci_lower": 27.8,
+  "top_detachment": "Armoured Infantry + Designation Force",
+  "ci_lower": 29.0,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 14.3,
+  "x1_pct": 11.8,
   "tournament_wins": 0,
   "detachments": [
+    {
+      "detachment": "Armoured Infantry + Designation Force",
+      "base_archetype": "Astra Militarum \u2014 Armoured Infantry + Designation Force",
+      "lists": 3,
+      "games": 15,
+      "play_rate": 17.6,
+      "win_rate": 26.7,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
     {
       "detachment": "Designation Force + Mechanised Assault",
       "base_archetype": "Astra Militarum \u2014 Designation Force + Mechanised Assault",
       "lists": 2,
       "games": 10,
-      "play_rate": 14.3,
+      "play_rate": 11.8,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 50.0,
       "tournament_wins": 0
     },
     {
-      "detachment": "Armoured Infantry + Designation Force",
-      "base_archetype": "Astra Militarum \u2014 Armoured Infantry + Designation Force",
+      "detachment": "Bridgehead Strike + Hammer Of The Emperor",
+      "base_archetype": "Astra Militarum \u2014 Bridgehead Strike + Hammer Of The Emperor",
       "lists": 2,
       "games": 10,
-      "play_rate": 14.3,
-      "win_rate": 30.0,
+      "play_rate": 11.8,
+      "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -43,7 +54,7 @@
       "base_archetype": "Astra Militarum \u2014 Bridgehead Strike (Fire Zone Purge) + Siege Regiment (Artillery Support)",
       "lists": 1,
       "games": 5,
-      "play_rate": 7.1,
+      "play_rate": 5.9,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -54,7 +65,7 @@
       "base_archetype": "Astra Militarum \u2014 Abhuman Auxiliaries + Steel Hammer",
       "lists": 1,
       "games": 5,
-      "play_rate": 7.1,
+      "play_rate": 5.9,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -65,7 +76,7 @@
       "base_archetype": "Astra Militarum \u2014 No Detachment",
       "lists": 1,
       "games": 5,
-      "play_rate": 7.1,
+      "play_rate": 5.9,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -76,7 +87,7 @@
       "base_archetype": "Astra Militarum \u2014 Designation Force + Hammer of the Emperor (Designated Targets)",
       "lists": 1,
       "games": 5,
-      "play_rate": 7.1,
+      "play_rate": 5.9,
       "win_rate": 70.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -87,19 +98,8 @@
       "base_archetype": "Astra Militarum \u2014 Grizzled Company (Ruthless Discipline)",
       "lists": 1,
       "games": 5,
-      "play_rate": 7.1,
+      "play_rate": 5.9,
       "win_rate": 20.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Bridgehead Strike + Hammer Of The Emperor",
-      "base_archetype": "Astra Militarum \u2014 Bridgehead Strike + Hammer Of The Emperor",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 7.1,
-      "win_rate": 0.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -109,7 +109,7 @@
       "base_archetype": "Astra Militarum \u2014 Bridgehead Strike + Mechanised Assault",
       "lists": 1,
       "games": 5,
-      "play_rate": 7.1,
+      "play_rate": 5.9,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -120,7 +120,18 @@
       "base_archetype": "Astra Militarum \u2014 Siege Regiment (Artillery Support)",
       "lists": 1,
       "games": 5,
-      "play_rate": 7.1,
+      "play_rate": 5.9,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Steel Hammer",
+      "base_archetype": "Astra Militarum \u2014 Steel Hammer",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.9,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -130,44 +141,44 @@
   "dispositions": [
     {
       "disposition": "Purge the Foe",
-      "lists": 5,
-      "play_rate": 35.7,
-      "win_rate": 43.5,
+      "lists": 7,
+      "play_rate": 41.2,
+      "win_rate": 45.5,
       "x0_pct": 0.0,
-      "x1_pct": 40.0,
-      "games": 23
+      "x1_pct": 28.6,
+      "games": 33
     },
     {
       "disposition": "Reconnaissance",
-      "lists": 5,
-      "play_rate": 35.7,
-      "win_rate": 45.7,
+      "lists": 6,
+      "play_rate": 35.3,
+      "win_rate": 41.1,
       "x0_pct": 0.0,
-      "x1_pct": 40.0,
-      "games": 23
+      "x1_pct": 33.3,
+      "games": 28
     },
     {
       "disposition": "Priority Assets",
-      "lists": 4,
-      "play_rate": 28.6,
-      "win_rate": 22.2,
+      "lists": 5,
+      "play_rate": 29.4,
+      "win_rate": 26.1,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 18
+      "games": 23
     },
     {
       "disposition": "Take and Hold",
-      "lists": 3,
-      "play_rate": 21.4,
-      "win_rate": 40.0,
+      "lists": 4,
+      "play_rate": 23.5,
+      "win_rate": 35.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 15
+      "games": 20
     },
     {
       "disposition": "Disruption",
       "lists": 1,
-      "play_rate": 7.1,
+      "play_rate": 5.9,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -248,10 +259,34 @@
       "win_rate": 60.0
     },
     {
+      "player_name": "Tim Frisbee",
+      "detachment": "Steel Hammer",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/FmdUJe0jIZuG",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
       "player_name": "Jeremy Graham",
       "detachment": "No Detachment",
       "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/oaLnd02R1WiW",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Mr. Pibb",
+      "detachment": "Bridgehead Strike + Hammer Of The Emperor",
+      "disposition": "Priority Assets, Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/GfjjQHQ0O9SD",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -320,6 +355,18 @@
       "win_rate": 20.0
     },
     {
+      "player_name": "Nick Studer",
+      "detachment": "Armoured Infantry + Designation Force",
+      "disposition": "Reconnaissance, Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/Pb5no6ZKWYkv",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
       "player_name": "Tobias Theilen",
       "detachment": "Armoured Infantry + Designation Force",
       "disposition": "Reconnaissance, Take and Hold",
@@ -347,49 +394,55 @@
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 9,
-      "wins": 6,
+      "games": 12,
+      "wins": 8,
       "win_rate": 66.7
     },
     {
       "opponent_faction": "Tyranids",
+      "games": 8,
+      "wins": 3,
+      "win_rate": 37.5
+    },
+    {
+      "opponent_faction": "Chaos Daemons",
+      "games": 7,
+      "wins": 5,
+      "win_rate": 71.4
+    },
+    {
+      "opponent_faction": "Necrons",
+      "games": 7,
+      "wins": 1,
+      "win_rate": 14.3
+    },
+    {
+      "opponent_faction": "Imperial Knights",
       "games": 6,
       "wins": 1,
       "win_rate": 16.7
     },
     {
-      "opponent_faction": "Chaos Daemons",
-      "games": 6,
-      "wins": 5,
-      "win_rate": 83.3
-    },
-    {
-      "opponent_faction": "Imperial Knights",
-      "games": 5,
-      "wins": 1,
-      "win_rate": 20.0
-    },
-    {
-      "opponent_faction": "Necrons",
-      "games": 5,
-      "wins": 1,
-      "win_rate": 20.0
-    },
-    {
       "opponent_faction": "T'au Empire",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 66.7
+    },
+    {
+      "opponent_faction": "Grey Knights",
       "games": 5,
-      "wins": 3,
-      "win_rate": 60.0
+      "wins": 1,
+      "win_rate": 20.0
     }
   ],
   "timeline": [
     {
       "week": "2026-W25",
-      "lists": 14,
-      "games": 66,
-      "win_rate": 38.6,
-      "total_lists": 257,
-      "play_rate": 5.4
+      "lists": 17,
+      "games": 81,
+      "win_rate": 38.9,
+      "total_lists": 397,
+      "play_rate": 4.3
     }
   ]
 }

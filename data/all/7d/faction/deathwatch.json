@@ -4,25 +4,25 @@
   "as_of": "2026-06-29",
   "window_days": 7,
   "event_type": "all",
-  "lists": 1,
-  "games": 5,
-  "play_rate": 0.1,
-  "win_rate": 20.0,
+  "lists": 4,
+  "games": 20,
+  "play_rate": 0.3,
+  "win_rate": 47.5,
   "trend_delta": null,
   "top_detachment": "Black Spear Task Force",
-  "ci_lower": 3.6,
+  "ci_lower": 27.9,
   "meta_health": "strongly_under",
-  "x0_pct": 0.0,
+  "x0_pct": 25.0,
   "x1_pct": 0.0,
   "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Black Spear Task Force",
       "base_archetype": "Deathwatch \u2014 Black Spear Task Force",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 100.0,
-      "win_rate": 20.0,
+      "lists": 3,
+      "games": 15,
+      "play_rate": 75.0,
+      "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -31,15 +31,60 @@
   "dispositions": [
     {
       "disposition": "Priority Assets",
-      "lists": 1,
-      "play_rate": 100.0,
-      "win_rate": 20.0,
+      "lists": 3,
+      "play_rate": 75.0,
+      "win_rate": 30.0,
       "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 15
+    },
+    {
+      "disposition": "Reconnaissance",
+      "lists": 1,
+      "play_rate": 25.0,
+      "win_rate": 100.0,
+      "x0_pct": 100.0,
       "x1_pct": 0.0,
       "games": 5
     }
   ],
   "top_players": [
+    {
+      "player_name": "Travis Finell",
+      "detachment": "",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/x0Q5LLJ06jWT",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Shawn Myers",
+      "detachment": "Black Spear Task Force",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/dhCMlcZFR601",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Anna Spray-Wiegert",
+      "detachment": "Black Spear Task Force",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/P41PfJtEFjRV",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
     {
       "player_name": "Colin Kiernan",
       "detachment": "Black Spear Task Force",
@@ -57,11 +102,11 @@
   "timeline": [
     {
       "week": "2026-W25",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 20.0,
-      "total_lists": 827,
-      "play_rate": 0.1
+      "lists": 4,
+      "games": 20,
+      "win_rate": 47.5,
+      "total_lists": 1162,
+      "play_rate": 0.3
     }
   ]
 }

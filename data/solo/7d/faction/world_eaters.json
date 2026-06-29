@@ -4,13 +4,13 @@
   "as_of": "2026-06-29",
   "window_days": 7,
   "event_type": "solo",
-  "lists": 12,
-  "games": 58,
-  "play_rate": 4.7,
-  "win_rate": 43.1,
-  "trend_delta": 13.1,
+  "lists": 17,
+  "games": 78,
+  "play_rate": 4.3,
+  "win_rate": 42.3,
+  "trend_delta": 12.3,
   "top_detachment": "Berzerker Warband",
-  "ci_lower": 31.2,
+  "ci_lower": 32.0,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
   "x1_pct": 0.0,
@@ -19,10 +19,10 @@
     {
       "detachment": "Berzerker Warband",
       "base_archetype": "World Eaters \u2014 Berzerker Warband",
-      "lists": 6,
-      "games": 30,
-      "play_rate": 50.0,
-      "win_rate": 43.3,
+      "lists": 8,
+      "games": 40,
+      "play_rate": 47.1,
+      "win_rate": 42.5,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -32,8 +32,19 @@
       "base_archetype": "World Eaters \u2014 Possessed Slaughterband + Vessels Of Wrath",
       "lists": 3,
       "games": 15,
-      "play_rate": 25.0,
+      "play_rate": 17.6,
       "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Brazen Engines + Khorne Daemonkin",
+      "base_archetype": "World Eaters \u2014 Brazen Engines + Khorne Daemonkin",
+      "lists": 3,
+      "games": 10,
+      "play_rate": 17.6,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -43,19 +54,19 @@
       "base_archetype": "World Eaters \u2014 Goretrack Onslaught + Vessels Of Wrath",
       "lists": 1,
       "games": 5,
-      "play_rate": 8.3,
+      "play_rate": 5.9,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
-      "detachment": "Brazen Engines + Khorne Daemonkin",
-      "base_archetype": "World Eaters \u2014 Brazen Engines + Khorne Daemonkin",
+      "detachment": "Butchers Of Khorne + Goretrack Onslaught",
+      "base_archetype": "World Eaters \u2014 Butchers Of Khorne + Goretrack Onslaught",
       "lists": 1,
       "games": 5,
-      "play_rate": 8.3,
-      "win_rate": 60.0,
+      "play_rate": 5.9,
+      "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -64,42 +75,54 @@
   "dispositions": [
     {
       "disposition": "Purge the Foe",
-      "lists": 11,
-      "play_rate": 91.7,
-      "win_rate": 43.4,
+      "lists": 15,
+      "play_rate": 88.2,
+      "win_rate": 42.6,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 53
+      "games": 68
     },
     {
       "disposition": "Priority Assets",
       "lists": 3,
-      "play_rate": 25.0,
+      "play_rate": 17.6,
       "win_rate": 33.3,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "games": 15
     },
     {
+      "disposition": "Reconnaissance",
+      "lists": 3,
+      "play_rate": 17.6,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 10
+    },
+    {
       "disposition": "Take and Hold",
-      "lists": 1,
-      "play_rate": 8.3,
+      "lists": 2,
+      "play_rate": 11.8,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 5
-    },
-    {
-      "disposition": "Reconnaissance",
-      "lists": 1,
-      "play_rate": 8.3,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 5
+      "games": 10
     }
   ],
   "top_players": [
+    {
+      "player_name": "Eric Breeden",
+      "detachment": "Berzerker Warband",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/EaQyx8TC0rik",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
     {
       "player_name": "Christian Muschalek",
       "detachment": "Berzerker Warband",
@@ -197,6 +220,30 @@
       "win_rate": 40.0
     },
     {
+      "player_name": "Cade Van Tilburg",
+      "detachment": "Butchers Of Khorne + Goretrack Onslaught",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/rRhPK4KHHasm",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Cole Baker",
+      "detachment": "Brazen Engines + Khorne Daemonkin",
+      "disposition": "Purge the Foe, Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/0bRUBzKibej3",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
       "player_name": "Espen Hodne",
       "detachment": "Brazen Engines + Possessed Slaughterband",
       "disposition": "Purge the Foe",
@@ -233,6 +280,18 @@
       "win_rate": 20.0
     },
     {
+      "player_name": "Jared Morton",
+      "detachment": "Berzerker Warband",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/MXhrga6G1IXN",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
       "player_name": "Nathan Widlake",
       "detachment": "Possessed Slaughterband + Vessels Of Wrath",
       "disposition": "Priority Assets, Purge the Foe",
@@ -248,15 +307,21 @@
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 7,
-      "wins": 5,
-      "win_rate": 71.4
+      "games": 12,
+      "wins": 8,
+      "win_rate": 66.7
     },
     {
       "opponent_faction": "Tyranids",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "Necrons",
       "games": 6,
-      "wins": 2,
-      "win_rate": 33.3
+      "wins": 3,
+      "win_rate": 50.0
     },
     {
       "opponent_faction": "Thousand Sons",
@@ -265,7 +330,13 @@
       "win_rate": 0.0
     },
     {
-      "opponent_faction": "Necrons",
+      "opponent_faction": "Grey Knights",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 20.0
+    },
+    {
+      "opponent_faction": "Leagues of Votann",
       "games": 5,
       "wins": 2,
       "win_rate": 40.0
@@ -274,11 +345,11 @@
   "timeline": [
     {
       "week": "2026-W25",
-      "lists": 12,
-      "games": 58,
-      "win_rate": 43.1,
-      "total_lists": 257,
-      "play_rate": 4.7
+      "lists": 17,
+      "games": 78,
+      "win_rate": 42.3,
+      "total_lists": 397,
+      "play_rate": 4.3
     }
   ]
 }

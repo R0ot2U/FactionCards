@@ -4,26 +4,37 @@
   "as_of": "2026-06-29",
   "window_days": 7,
   "event_type": "team",
-  "lists": 5,
-  "games": 24,
+  "lists": 7,
+  "games": 34,
   "play_rate": 0.9,
-  "win_rate": 47.9,
+  "win_rate": 60.3,
   "trend_delta": null,
   "top_detachment": "Argent Assault + Banishers",
-  "ci_lower": 29.6,
+  "ci_lower": 43.6,
   "meta_health": "strongly_under",
-  "x0_pct": 20.0,
-  "x1_pct": 0.0,
-  "tournament_wins": 0,
+  "x0_pct": 28.6,
+  "x1_pct": 14.3,
+  "tournament_wins": 1,
   "detachments": [
     {
       "detachment": "Argent Assault + Banishers",
       "base_archetype": "Grey Knights \u2014 Argent Assault + Banishers",
-      "lists": 3,
-      "games": 15,
-      "play_rate": 60.0,
-      "win_rate": 63.3,
-      "x0_pct": 33.3,
+      "lists": 4,
+      "games": 20,
+      "play_rate": 57.1,
+      "win_rate": 72.5,
+      "x0_pct": 50.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 1
+    },
+    {
+      "detachment": "Banishers + Immaterial Interdiction",
+      "base_archetype": "Grey Knights \u2014 Banishers + Immaterial Interdiction",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 14.3,
+      "win_rate": 0.0,
+      "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     },
@@ -32,36 +43,36 @@
       "base_archetype": "Grey Knights \u2014 Banishers",
       "lists": 1,
       "games": 5,
-      "play_rate": 20.0,
-      "win_rate": 0.0,
+      "play_rate": 14.3,
+      "win_rate": 80.0,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
+      "x1_pct": 100.0,
       "tournament_wins": 0
     }
   ],
   "dispositions": [
     {
+      "disposition": "Purge the Foe",
+      "lists": 4,
+      "play_rate": 57.1,
+      "win_rate": 60.5,
+      "x0_pct": 25.0,
+      "x1_pct": 0.0,
+      "games": 19
+    },
+    {
       "disposition": "Disruption",
       "lists": 4,
-      "play_rate": 80.0,
+      "play_rate": 57.1,
       "win_rate": 47.5,
       "x0_pct": 25.0,
       "x1_pct": 0.0,
       "games": 20
     },
     {
-      "disposition": "Purge the Foe",
-      "lists": 3,
-      "play_rate": 60.0,
-      "win_rate": 46.4,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 14
-    },
-    {
       "disposition": "Priority Assets",
       "lists": 1,
-      "play_rate": 20.0,
+      "play_rate": 14.3,
       "win_rate": 0.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -69,6 +80,18 @@
     }
   ],
   "top_players": [
+    {
+      "player_name": "Ken Bush",
+      "detachment": "Argent Assault + Banishers",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/mdZxjlENbu6Z",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
     {
       "player_name": "Alexander Silman",
       "detachment": "Argent Assault + Banishers",
@@ -80,6 +103,18 @@
       "draws": 0,
       "games": 5,
       "win_rate": 100.0
+    },
+    {
+      "player_name": "Donovan Sailo",
+      "detachment": "Banishers",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/oHUdgkOCHbtn",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
     },
     {
       "player_name": "Jared Hughes",
@@ -119,7 +154,7 @@
     },
     {
       "player_name": "Henry Slater",
-      "detachment": "Banishers",
+      "detachment": "Banishers + Immaterial Interdiction",
       "disposition": "Disruption, Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/3QS616XTEiJR",
       "source": "bcp",
@@ -134,10 +169,10 @@
   "timeline": [
     {
       "week": "2026-W25",
-      "lists": 5,
-      "games": 24,
-      "win_rate": 47.9,
-      "total_lists": 570,
+      "lists": 7,
+      "games": 34,
+      "win_rate": 60.3,
+      "total_lists": 765,
       "play_rate": 0.9
     }
   ]

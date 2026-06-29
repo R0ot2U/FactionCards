@@ -4,24 +4,46 @@
   "as_of": "2026-06-29",
   "window_days": 7,
   "event_type": "solo",
-  "lists": 6,
-  "games": 24,
-  "play_rate": 2.3,
-  "win_rate": 37.5,
+  "lists": 11,
+  "games": 49,
+  "play_rate": 2.8,
+  "win_rate": 44.9,
   "trend_delta": null,
-  "top_detachment": "Saga Of The Great Wolf + Veterans Of The Fang",
-  "ci_lower": 21.2,
+  "top_detachment": "Legends of Saga + Saga Of The Great Wolf + Song",
+  "ci_lower": 31.9,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
   "x1_pct": 0.0,
   "tournament_wins": 0,
   "detachments": [
     {
+      "detachment": "Legends of Saga + Saga Of The Great Wolf + Song",
+      "base_archetype": "Space Wolves \u2014 Legends of Saga + Saga Of The Great Wolf + Song",
+      "lists": 5,
+      "games": 20,
+      "play_rate": 45.5,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
       "detachment": "Saga Of The Great Wolf + Veterans Of The Fang",
       "base_archetype": "Space Wolves \u2014 Saga Of The Great Wolf + Veterans Of The Fang",
       "lists": 2,
       "games": 10,
-      "play_rate": 33.3,
+      "play_rate": 18.2,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Saga Of The Beastslayer + Veterans Of The Fang",
+      "base_archetype": "Space Wolves \u2014 Saga Of The Beastslayer + Veterans Of The Fang",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 9.1,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -32,7 +54,7 @@
       "base_archetype": "Space Wolves \u2014 Champions Of Fenris + Saga Of The Great Wolf",
       "lists": 1,
       "games": 5,
-      "play_rate": 16.7,
+      "play_rate": 9.1,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -43,7 +65,7 @@
       "base_archetype": "Space Wolves \u2014 Saga Of The Hunter",
       "lists": 1,
       "games": 5,
-      "play_rate": 16.7,
+      "play_rate": 9.1,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -52,39 +74,75 @@
   ],
   "dispositions": [
     {
-      "disposition": "Disruption",
-      "lists": 3,
-      "play_rate": 50.0,
+      "disposition": "Take and Hold",
+      "lists": 7,
+      "play_rate": 63.6,
       "win_rate": 46.7,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 15
+      "games": 30
     },
     {
-      "disposition": "Take and Hold",
-      "lists": 3,
-      "play_rate": 50.0,
-      "win_rate": 40.0,
+      "disposition": "Disruption",
+      "lists": 4,
+      "play_rate": 36.4,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 10
+      "games": 20
     },
     {
       "disposition": "Purge the Foe",
-      "lists": 2,
-      "play_rate": 33.3,
-      "win_rate": 22.2,
+      "lists": 3,
+      "play_rate": 27.3,
+      "win_rate": 35.7,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 9
+      "games": 14
     }
   ],
   "top_players": [
+    {
+      "player_name": "Adam Thompson",
+      "detachment": "Legends of Saga + Saga Of The Great Wolf + Song",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/CGGFAKjSxiQf",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
     {
       "player_name": "Graham Voigt",
       "detachment": "Saga Of The Great Wolf + Veterans Of The Fang",
       "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/unswVaHsVObC",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Sam Dayton",
+      "detachment": "Saga Of The Beastslayer + Veterans Of The Fang",
+      "disposition": "Disruption, Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/8GYj7oI0qoim",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Dan Brus",
+      "detachment": "Legends of Saga + Saga Of The Great Wolf + Song",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/sWgrR60xd4Kf",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -103,6 +161,18 @@
       "draws": 0,
       "games": 5,
       "win_rate": 60.0
+    },
+    {
+      "player_name": "Derek Hotchkin",
+      "detachment": "Legends of Saga + Saga Of The Great Wolf + Song",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/wqHZDYzrYP0d",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
     },
     {
       "player_name": "Rhys Hassell",
@@ -129,6 +199,18 @@
       "win_rate": 20.0
     },
     {
+      "player_name": "chris smith",
+      "detachment": "Legends of Saga + Saga Of The Great Wolf + Song",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/FSUjkHG2418M",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
       "player_name": "Paul Deeks",
       "detachment": "Saga Of The Hunter",
       "disposition": "Disruption",
@@ -144,19 +226,25 @@
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
+      "games": 10,
+      "wins": 5,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "Tyranids",
       "games": 5,
-      "wins": 2,
-      "win_rate": 40.0
+      "wins": 5,
+      "win_rate": 100.0
     }
   ],
   "timeline": [
     {
       "week": "2026-W25",
-      "lists": 6,
-      "games": 24,
-      "win_rate": 37.5,
-      "total_lists": 257,
-      "play_rate": 2.3
+      "lists": 11,
+      "games": 49,
+      "win_rate": 44.9,
+      "total_lists": 397,
+      "play_rate": 2.8
     }
   ]
 }

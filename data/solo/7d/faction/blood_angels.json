@@ -4,36 +4,36 @@
   "as_of": "2026-06-29",
   "window_days": 7,
   "event_type": "solo",
-  "lists": 6,
-  "games": 30,
+  "lists": 9,
+  "games": 45,
   "play_rate": 2.3,
-  "win_rate": 43.3,
-  "trend_delta": -1.7,
+  "win_rate": 45.6,
+  "trend_delta": 0.6,
   "top_detachment": "Liberator Assault Group",
-  "ci_lower": 27.4,
+  "ci_lower": 31.9,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 16.7,
+  "x1_pct": 11.1,
   "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Liberator Assault Group",
       "base_archetype": "Blood Angels \u2014 Liberator Assault Group",
-      "lists": 2,
-      "games": 10,
+      "lists": 3,
+      "games": 15,
       "play_rate": 33.3,
-      "win_rate": 70.0,
+      "win_rate": 66.7,
       "x0_pct": 0.0,
-      "x1_pct": 50.0,
+      "x1_pct": 33.3,
       "tournament_wins": 0
     },
     {
       "detachment": "Rage-Cursed Onslaught",
       "base_archetype": "Blood Angels \u2014 Rage-Cursed Onslaught",
-      "lists": 2,
-      "games": 10,
+      "lists": 3,
+      "games": 15,
       "play_rate": 33.3,
-      "win_rate": 30.0,
+      "win_rate": 36.7,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -43,7 +43,18 @@
       "base_archetype": "Blood Angels \u2014 Liberator Assault Group (The Red Thirst)",
       "lists": 1,
       "games": 5,
-      "play_rate": 16.7,
+      "play_rate": 11.1,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Encarmine Speartip + The Angelic Host",
+      "base_archetype": "Blood Angels \u2014 Encarmine Speartip + The Angelic Host",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 11.1,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -54,7 +65,7 @@
       "base_archetype": "Blood Angels \u2014 Angelic Inheritors",
       "lists": 1,
       "games": 5,
-      "play_rate": 16.7,
+      "play_rate": 11.1,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -64,26 +75,35 @@
   "dispositions": [
     {
       "disposition": "Take and Hold",
-      "lists": 3,
-      "play_rate": 50.0,
+      "lists": 4,
+      "play_rate": 44.4,
       "win_rate": 60.0,
       "x0_pct": 0.0,
-      "x1_pct": 33.3,
-      "games": 15
+      "x1_pct": 25.0,
+      "games": 20
     },
     {
       "disposition": "Purge the Foe",
-      "lists": 2,
+      "lists": 3,
       "play_rate": 33.3,
-      "win_rate": 30.0,
+      "win_rate": 36.7,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 10
+      "games": 15
+    },
+    {
+      "disposition": "Disruption",
+      "lists": 1,
+      "play_rate": 11.1,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5
     },
     {
       "disposition": "Priority Assets",
       "lists": 1,
-      "play_rate": 16.7,
+      "play_rate": 11.1,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -116,10 +136,46 @@
       "win_rate": 60.0
     },
     {
+      "player_name": "Austin Cance",
+      "detachment": "Liberator Assault Group",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/J1AzFhoQr2kf",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Jason Thomas",
+      "detachment": "Rage-Cursed Onslaught",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/LbB9L5xDqlTA",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 2,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 50.0
+    },
+    {
       "player_name": "Martin Kragh Nielsen",
       "detachment": "Liberator Assault Group (The Red Thirst)",
       "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/GSk58uZkRMFw",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Yusuf Saleh",
+      "detachment": "Encarmine Speartip + The Angelic Host",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/TNvbQBscusCJ",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -164,14 +220,21 @@
       "win_rate": 20.0
     }
   ],
-  "matchups": [],
+  "matchups": [
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0
+    }
+  ],
   "timeline": [
     {
       "week": "2026-W25",
-      "lists": 6,
-      "games": 30,
-      "win_rate": 43.3,
-      "total_lists": 257,
+      "lists": 9,
+      "games": 45,
+      "win_rate": 45.6,
+      "total_lists": 397,
       "play_rate": 2.3
     }
   ]
