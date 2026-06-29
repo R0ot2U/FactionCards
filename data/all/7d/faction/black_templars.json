@@ -1,38 +1,71 @@
 {
   "faction": "Black Templars",
   "slug": "black_templars",
-  "as_of": "2026-06-23",
+  "as_of": "2026-06-29",
   "window_days": 7,
   "event_type": "all",
-  "lists": 3,
-  "games": 14,
-  "play_rate": 1.6,
-  "win_rate": 57.1,
+  "lists": 5,
+  "games": 25,
+  "play_rate": 0.6,
+  "win_rate": 64.0,
   "trend_delta": null,
-  "top_detachment": "The Living Miracle + Vindication Task Force",
-  "ci_lower": 32.6,
+  "top_detachment": "Godhammer Assault Force",
+  "ci_lower": 44.5,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 33.3,
+  "x1_pct": 40.0,
   "tournament_wins": 0,
   "detachments": [
     {
-      "detachment": "The Living Miracle + Vindication Task Force",
-      "base_archetype": "Black Templars \u2014 The Living Miracle + Vindication Task Force",
+      "detachment": "Godhammer Assault Force",
+      "base_archetype": "Black Templars \u2014 Godhammer Assault Force",
       "lists": 1,
       "games": 5,
-      "play_rate": 33.3,
+      "play_rate": 20.0,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Gladius Task Force",
+      "base_archetype": "Black Templars \u2014 Gladius Task Force",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 20.0,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Companions Of Vehemence + Wrathful Procession",
+      "base_archetype": "Black Templars \u2014 Companions Of Vehemence + Wrathful Procession",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 20.0,
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Marshal'S Household + Stormlance Task Force",
+      "base_archetype": "Black Templars \u2014 Marshal'S Household + Stormlance Task Force",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 20.0,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
-      "detachment": "Ironstorm Spearhead + The Living Miracle",
-      "base_archetype": "Black Templars \u2014 Ironstorm Spearhead + The Living Miracle",
+      "detachment": "No Detachment",
+      "base_archetype": "Black Templars \u2014 No Detachment",
       "lists": 1,
       "games": 5,
-      "play_rate": 33.3,
+      "play_rate": 20.0,
       "win_rate": 80.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
@@ -43,28 +76,46 @@
     {
       "disposition": "Purge the Foe",
       "lists": 3,
-      "play_rate": 100.0,
-      "win_rate": 57.1,
+      "play_rate": 60.0,
+      "win_rate": 70.0,
       "x0_pct": 0.0,
-      "x1_pct": 33.3,
-      "games": 14
+      "x1_pct": 66.7,
+      "games": 15
+    },
+    {
+      "disposition": "Priority Assets",
+      "lists": 2,
+      "play_rate": 40.0,
+      "win_rate": 55.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 10
+    },
+    {
+      "disposition": "Take and Hold",
+      "lists": 1,
+      "play_rate": 20.0,
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "games": 5
     },
     {
       "disposition": "Disruption",
       "lists": 1,
-      "play_rate": 33.3,
-      "win_rate": 25.0,
+      "play_rate": 20.0,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 4
+      "games": 5
     }
   ],
   "top_players": [
     {
-      "player_name": "Charilaos Chitas",
-      "detachment": "Ironstorm Spearhead + The Living Miracle",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/IbUirQU9dH0K",
+      "player_name": "matthias marinakis",
+      "detachment": "Companions Of Vehemence + Wrathful Procession",
+      "disposition": "Purge the Foe, Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/Guo55iFSGGMz",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -73,10 +124,22 @@
       "win_rate": 80.0
     },
     {
-      "player_name": "Adam Niefsky",
-      "detachment": "The Living Miracle + Vindication Task Force",
+      "player_name": "chloe chippindale",
+      "detachment": "No Detachment",
       "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/dAjspsoridDm",
+      "list_url": "https://www.bestcoastpairings.com/list/oU0dnYS1NI5Y",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Truls Oskar Pedersen",
+      "detachment": "Marshal'S Household + Stormlance Task Force",
+      "disposition": "Disruption, Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/sTuyybOdVrp6",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -85,27 +148,46 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Chance Crawford",
-      "detachment": "Godhammer Assault Force + The Living Miracle",
-      "disposition": "Disruption, Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/ONQpOw8L7eGF",
+      "player_name": "Daniel Mendrala",
+      "detachment": "Godhammer Assault Force",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/MXVnn4pRxyJI",
       "source": "bcp",
       "wins": 1,
-      "losses": 3,
-      "draws": 0,
-      "games": 4,
-      "win_rate": 25.0
+      "losses": 1,
+      "draws": 3,
+      "games": 5,
+      "win_rate": 50.0
+    },
+    {
+      "player_name": "Milton Ponce",
+      "detachment": "Gladius Task Force",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/vgw9fkCv6iZC",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 2,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 50.0
     }
   ],
-  "matchups": [],
+  "matchups": [
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 5,
+      "wins": 5,
+      "win_rate": 100.0
+    }
+  ],
   "timeline": [
     {
-      "week": "2026-W24",
-      "lists": 3,
-      "games": 14,
-      "win_rate": 57.1,
-      "total_lists": 192,
-      "play_rate": 1.6
+      "week": "2026-W25",
+      "lists": 5,
+      "games": 25,
+      "win_rate": 64.0,
+      "total_lists": 827,
+      "play_rate": 0.6
     }
   ]
 }

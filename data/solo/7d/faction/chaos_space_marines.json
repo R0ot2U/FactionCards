@@ -1,69 +1,109 @@
 {
   "faction": "Chaos Space Marines",
   "slug": "chaos_space_marines",
-  "as_of": "2026-06-23",
+  "as_of": "2026-06-29",
   "window_days": 7,
   "event_type": "solo",
-  "lists": 3,
-  "games": 15,
-  "play_rate": 3.2,
-  "win_rate": 53.3,
-  "trend_delta": null,
-  "top_detachment": "Cabal Of Chaos + Nightmare Hunt",
-  "ci_lower": 30.1,
+  "lists": 6,
+  "games": 30,
+  "play_rate": 2.3,
+  "win_rate": 58.3,
+  "trend_delta": 5.0,
+  "top_detachment": "Murdertalon Raiders + Veterans Of The Long War",
+  "ci_lower": 40.7,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 0.0,
+  "x1_pct": 16.7,
   "tournament_wins": 0,
   "detachments": [
     {
-      "detachment": "Cabal Of Chaos + Nightmare Hunt",
-      "base_archetype": "Chaos Space Marines \u2014 Cabal Of Chaos + Nightmare Hunt",
+      "detachment": "Murdertalon Raiders + Veterans Of The Long War",
+      "base_archetype": "Chaos Space Marines \u2014 Murdertalon Raiders + Veterans Of The Long War",
       "lists": 1,
       "games": 5,
-      "play_rate": 33.3,
+      "play_rate": 16.7,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Pactbound Zealots",
+      "base_archetype": "Chaos Space Marines \u2014 Pactbound Zealots",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 16.7,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
-      "detachment": "Cabal Of Chaos + Warpstrike Champions",
-      "base_archetype": "Chaos Space Marines \u2014 Cabal Of Chaos + Warpstrike Champions",
+      "detachment": "Creations of Bile",
+      "base_archetype": "Chaos Space Marines \u2014 Creations of Bile",
       "lists": 1,
       "games": 5,
-      "play_rate": 33.3,
+      "play_rate": 16.7,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Renegade Raiders",
+      "base_archetype": "Chaos Space Marines \u2014 Renegade Raiders",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 16.7,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
-      "detachment": "Devotees Of Destruction + Warpstrike Champions",
-      "base_archetype": "Chaos Space Marines \u2014 Devotees Of Destruction + Warpstrike Champions",
+      "detachment": "Murdertalon Raiders + Soulforged Warpack",
+      "base_archetype": "Chaos Space Marines \u2014 Murdertalon Raiders + Soulforged Warpack",
       "lists": 1,
       "games": 5,
-      "play_rate": 33.3,
-      "win_rate": 60.0,
+      "play_rate": 16.7,
+      "win_rate": 80.0,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
+      "x1_pct": 100.0,
       "tournament_wins": 0
     }
   ],
   "dispositions": [
     {
-      "disposition": "Disruption",
-      "lists": 3,
-      "play_rate": 100.0,
-      "win_rate": 53.3,
+      "disposition": "Purge the Foe",
+      "lists": 2,
+      "play_rate": 33.3,
+      "win_rate": 70.0,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 15
+      "x1_pct": 50.0,
+      "games": 10
     },
     {
       "disposition": "Priority Assets",
-      "lists": 1,
+      "lists": 2,
       "play_rate": 33.3,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 10
+    },
+    {
+      "disposition": "Take and Hold",
+      "lists": 1,
+      "play_rate": 16.7,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5
+    },
+    {
+      "disposition": "Reconnaissance",
+      "lists": 1,
+      "play_rate": 16.7,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -72,10 +112,22 @@
   ],
   "top_players": [
     {
-      "player_name": "Kyriakos Kamarakis",
-      "detachment": "Cabal Of Chaos + Warpstrike Champions",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/cL5njkgs5dik",
+      "player_name": "Andrew Lewis",
+      "detachment": "Murdertalon Raiders + Soulforged Warpack",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/FQAzIHGYw5tA",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Robin Akantorex",
+      "detachment": "Murdertalon Raiders + Veterans Of The Long War",
+      "disposition": "Purge the Foe, Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/gfIlFaxziH8r",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -84,10 +136,10 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "AGGELOS PAPANTONAKIS",
-      "detachment": "Devotees Of Destruction + Warpstrike Champions",
-      "disposition": "Disruption, Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/3k3exeFaDW38",
+      "player_name": "Mario Latorre",
+      "detachment": "",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/emvtrHyq1Zr2",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -96,10 +148,34 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Dimitrios Ioakeimidis",
-      "detachment": "Cabal Of Chaos + Nightmare Hunt",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/mjcoCv9GnP1O",
+      "player_name": "Oscar Gambau",
+      "detachment": "Renegade Raiders",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/ywsrUTu0r6gT",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Jakob H\u00f6rtnagl",
+      "detachment": "Creations of Bile",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/VYhK0NL38L3m",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 2,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 50.0
+    },
+    {
+      "player_name": "Tim Humboldt",
+      "detachment": "Pactbound Zealots",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/K0BCqi8SiFkz",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -108,15 +184,22 @@
       "win_rate": 40.0
     }
   ],
-  "matchups": [],
+  "matchups": [
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 5,
+      "wins": 5,
+      "win_rate": 100.0
+    }
+  ],
   "timeline": [
     {
-      "week": "2026-W24",
-      "lists": 3,
-      "games": 15,
-      "win_rate": 53.3,
-      "total_lists": 93,
-      "play_rate": 3.2
+      "week": "2026-W25",
+      "lists": 6,
+      "games": 30,
+      "win_rate": 58.3,
+      "total_lists": 257,
+      "play_rate": 2.3
     }
   ]
 }

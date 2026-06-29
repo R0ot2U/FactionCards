@@ -1,19 +1,19 @@
 {
   "faction": "Thousand Sons",
   "slug": "thousand_sons",
-  "as_of": "2026-06-23",
+  "as_of": "2026-06-29",
   "window_days": 7,
   "event_type": "solo",
-  "lists": 4,
-  "games": 20,
-  "play_rate": 4.3,
-  "win_rate": 52.5,
-  "trend_delta": null,
+  "lists": 9,
+  "games": 45,
+  "play_rate": 3.5,
+  "win_rate": 67.8,
+  "trend_delta": 15.3,
   "top_detachment": "Hexwarp Thrallband + Ritual Of Regeneration",
-  "ci_lower": 32.0,
-  "meta_health": "strongly_under",
-  "x0_pct": 25.0,
-  "x1_pct": 0.0,
+  "ci_lower": 53.2,
+  "meta_health": "slightly_over",
+  "x0_pct": 11.1,
+  "x1_pct": 44.4,
   "tournament_wins": 1,
   "detachments": [
     {
@@ -21,50 +21,101 @@
       "base_archetype": "Thousand Sons \u2014 Hexwarp Thrallband + Ritual Of Regeneration",
       "lists": 3,
       "games": 15,
-      "play_rate": 75.0,
-      "win_rate": 36.7,
+      "play_rate": 33.3,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Hexwarp Thrallband + Sekhetar Cohort",
+      "base_archetype": "Thousand Sons \u2014 Hexwarp Thrallband + Sekhetar Cohort",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 22.2,
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Sekhetar Cohort + Warpforged Cabal",
+      "base_archetype": "Thousand Sons \u2014 Sekhetar Cohort + Warpforged Cabal",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 22.2,
+      "win_rate": 90.0,
+      "x0_pct": 50.0,
+      "x1_pct": 50.0,
+      "tournament_wins": 1
+    },
+    {
+      "detachment": "Rubricae Phalanx",
+      "base_archetype": "Thousand Sons \u2014 Rubricae Phalanx",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 11.1,
+      "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
-      "detachment": "No Detachment",
-      "base_archetype": "Thousand Sons \u2014 No Detachment",
+      "detachment": "Ritual Of Regeneration + Warpforged Cabal",
+      "base_archetype": "Thousand Sons \u2014 Ritual Of Regeneration + Warpforged Cabal",
       "lists": 1,
       "games": 5,
-      "play_rate": 25.0,
-      "win_rate": 100.0,
-      "x0_pct": 100.0,
+      "play_rate": 11.1,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "tournament_wins": 1
+      "tournament_wins": 0
     }
   ],
   "dispositions": [
     {
       "disposition": "Take and Hold",
+      "lists": 6,
+      "play_rate": 66.7,
+      "win_rate": 63.3,
+      "x0_pct": 0.0,
+      "x1_pct": 50.0,
+      "games": 30
+    },
+    {
+      "disposition": "Priority Assets",
       "lists": 4,
-      "play_rate": 100.0,
-      "win_rate": 52.5,
+      "play_rate": 44.4,
+      "win_rate": 85.0,
       "x0_pct": 25.0,
-      "x1_pct": 0.0,
+      "x1_pct": 75.0,
       "games": 20
     },
     {
       "disposition": "Purge the Foe",
-      "lists": 3,
-      "play_rate": 75.0,
-      "win_rate": 36.7,
+      "lists": 4,
+      "play_rate": 44.4,
+      "win_rate": 57.5,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 15
+      "x1_pct": 25.0,
+      "games": 20
+    },
+    {
+      "disposition": "Disruption",
+      "lists": 2,
+      "play_rate": 22.2,
+      "win_rate": 65.0,
+      "x0_pct": 0.0,
+      "x1_pct": 50.0,
+      "games": 10
     }
   ],
   "top_players": [
     {
-      "player_name": "Dan Meloro",
-      "detachment": "No Detachment",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/o8XWtDe1tyTA",
+      "player_name": "Struan Robertson",
+      "detachment": "Sekhetar Cohort + Warpforged Cabal",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/caNpvn4LD8zF",
       "source": "bcp",
       "wins": 5,
       "losses": 0,
@@ -73,10 +124,58 @@
       "win_rate": 100.0
     },
     {
-      "player_name": "Colin Lopin",
+      "player_name": "Geir Dutta",
+      "detachment": "Hexwarp Thrallband + Sekhetar Cohort",
+      "disposition": "Priority Assets, Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/Am3g4TS4WFQV",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Roland Hubert",
       "detachment": "Hexwarp Thrallband + Ritual Of Regeneration",
       "disposition": "Purge the Foe, Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/cIeJQ85ol6wT",
+      "list_url": "https://www.bestcoastpairings.com/list/FYjsLnydgbFk",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Bogdan-Mihai R\u00e2pea",
+      "detachment": "Hexwarp Thrallband + Sekhetar Cohort",
+      "disposition": "Priority Assets, Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/pJRIEQ2992rB",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Nicholas Christensen-Secker",
+      "detachment": "Sekhetar Cohort + Warpforged Cabal",
+      "disposition": "Disruption, Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/YBNqo2ETBmAU",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Tommy Foist",
+      "detachment": "Hexwarp Thrallband + Ritual Of Regeneration",
+      "disposition": "Purge the Foe, Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/74HHIytvNxbI",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -85,46 +184,76 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Spyros Mpalitsas",
-      "detachment": "Hexwarp Thrallband + Ritual Of Regeneration",
-      "disposition": "Take and Hold, Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/gIPPCBsIKiSw",
+      "player_name": "Luis Gonzalez Garcia",
+      "detachment": "Ritual Of Regeneration + Warpforged Cabal",
+      "disposition": "Disruption, Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/C15AizI49X18",
       "source": "bcp",
-      "wins": 1,
-      "losses": 3,
+      "wins": 2,
+      "losses": 2,
       "draws": 1,
       "games": 5,
-      "win_rate": 30.0
+      "win_rate": 50.0
     },
     {
-      "player_name": "Theodoros Beis",
-      "detachment": "Hexwarp Thrallband + Ritual Of Regeneration",
-      "disposition": "Purge the Foe, Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/KSzRLPtaQ6CA",
+      "player_name": "Mikel Valero",
+      "detachment": "Rubricae Phalanx",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/ygLVPQNnAwXB",
       "source": "bcp",
-      "wins": 1,
-      "losses": 4,
+      "wins": 2,
+      "losses": 3,
       "draws": 0,
       "games": 5,
-      "win_rate": 20.0
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Karl Butler",
+      "detachment": "Hexwarp Thrallband + Ritual Of Regeneration",
+      "disposition": "Purge the Foe, Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/mat5m2sH8nmw",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
     }
   ],
   "matchups": [
     {
-      "opponent_faction": "Space Marines (Astartes)",
+      "opponent_faction": "World Eaters",
       "games": 6,
-      "wins": 1,
-      "win_rate": 25.0
+      "wins": 6,
+      "win_rate": 100.0
+    },
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0
+    },
+    {
+      "opponent_faction": "Adeptus Custodes",
+      "games": 5,
+      "wins": 4,
+      "win_rate": 80.0
+    },
+    {
+      "opponent_faction": "T'au Empire",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0
     }
   ],
   "timeline": [
     {
-      "week": "2026-W24",
-      "lists": 4,
-      "games": 20,
-      "win_rate": 52.5,
-      "total_lists": 93,
-      "play_rate": 4.3
+      "week": "2026-W25",
+      "lists": 9,
+      "games": 45,
+      "win_rate": 67.8,
+      "total_lists": 257,
+      "play_rate": 3.5
     }
   ]
 }

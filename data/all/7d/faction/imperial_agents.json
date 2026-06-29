@@ -1,93 +1,141 @@
 {
   "faction": "Imperial Agents",
   "slug": "imperial_agents",
-  "as_of": "2026-06-23",
+  "as_of": "2026-06-29",
   "window_days": 7,
   "event_type": "all",
   "lists": 4,
   "games": 20,
-  "play_rate": 0.7,
-  "win_rate": 30.0,
+  "play_rate": 0.5,
+  "win_rate": 40.0,
   "trend_delta": null,
   "top_detachment": "Imperialis Fleet",
-  "ci_lower": 14.5,
+  "ci_lower": 21.9,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 0.0,
+  "x1_pct": 25.0,
   "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Imperialis Fleet",
       "base_archetype": "Imperial Agents \u2014 Imperialis Fleet",
-      "lists": 4,
-      "games": 20,
-      "play_rate": 100.0,
+      "lists": 2,
+      "games": 10,
+      "play_rate": 50.0,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 50.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Ordo Hereticus + Purgation Force",
+      "base_archetype": "Imperial Agents \u2014 Ordo Hereticus + Purgation Force",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 25.0,
+      "win_rate": 30.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Lions of the Emperor",
+      "base_archetype": "Imperial Agents \u2014 Lions of the Emperor",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 25.0,
       "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     }
   ],
-  "dispositions": [],
-  "top_players": [
+  "dispositions": [
     {
-      "player_name": "Robert Cripps",
-      "detachment": "Imperialis Fleet",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/Oy3nfXaqZDpY",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
+      "disposition": "Disruption",
+      "lists": 3,
+      "play_rate": 75.0,
+      "win_rate": 43.3,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "games": 15
     },
     {
-      "player_name": "Sam Fagan",
-      "detachment": "Imperialis Fleet",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/K29YxOr8rEMc",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Vinicius Capelloto",
-      "detachment": "Imperialis Fleet",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/Sy4AX1K7Uwuo",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Andrew Horn",
-      "detachment": "Imperialis Fleet",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/XncsCS6Y01cU",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 5,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 0.0
+      "disposition": "Purge the Foe",
+      "lists": 1,
+      "play_rate": 25.0,
+      "win_rate": 30.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5
     }
   ],
-  "matchups": [],
+  "top_players": [
+    {
+      "player_name": "Ross Tully",
+      "detachment": "Imperialis Fleet",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/JUGvZCsmx5Zk",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "Ola Meling Johannessen",
+      "detachment": "Ordo Hereticus + Purgation Force",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/h2hgbRuwjh8E",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
+      "player_name": "Vagasi Zsombor",
+      "detachment": "Lions of the Emperor",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/SLEqBnMABDQs",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
+      "player_name": "Jake Peterson",
+      "detachment": "Imperialis Fleet",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/IEZaZ7yBcbFU",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 4,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 10.0
+    }
+  ],
+  "matchups": [
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 30.0
+    }
+  ],
   "timeline": [
     {
-      "week": "2026-W24",
+      "week": "2026-W25",
       "lists": 4,
       "games": 20,
-      "win_rate": 30.0,
-      "total_lists": 537,
-      "play_rate": 0.7
+      "win_rate": 40.0,
+      "total_lists": 827,
+      "play_rate": 0.5
     }
   ]
 }

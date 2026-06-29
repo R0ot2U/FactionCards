@@ -1,123 +1,99 @@
 {
   "faction": "Black Templars",
   "slug": "black_templars",
-  "as_of": "2026-06-23",
+  "as_of": "2026-06-29",
   "window_days": 30,
   "event_type": "team",
-  "lists": 5,
-  "games": 22,
-  "play_rate": 0.7,
-  "win_rate": 47.7,
-  "trend_delta": 12.7,
-  "top_detachment": "Bastion Task Force",
-  "ci_lower": 28.8,
+  "lists": 2,
+  "games": 10,
+  "play_rate": 0.3,
+  "win_rate": 50.0,
+  "trend_delta": null,
+  "top_detachment": "Godhammer Assault Force",
+  "ci_lower": 23.7,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
   "x1_pct": 0.0,
   "tournament_wins": 0,
   "detachments": [
     {
-      "detachment": "Bastion Task Force",
-      "base_archetype": "Black Templars \u2014 Bastion Task Force",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 40.0,
-      "win_rate": 65.0,
+      "detachment": "Godhammer Assault Force",
+      "base_archetype": "Black Templars \u2014 Godhammer Assault Force",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 50.0,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
-      "detachment": "Companions of Vehemence",
-      "base_archetype": "Black Templars \u2014 Companions of Vehemence",
+      "detachment": "Gladius Task Force",
+      "base_archetype": "Black Templars \u2014 Gladius Task Force",
       "lists": 1,
       "games": 5,
-      "play_rate": 20.0,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Wrathful Procession",
-      "base_archetype": "Black Templars \u2014 Wrathful Procession",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 20.0,
-      "win_rate": 20.0,
+      "play_rate": 50.0,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     }
   ],
-  "dispositions": [],
+  "dispositions": [
+    {
+      "disposition": "Purge the Foe",
+      "lists": 1,
+      "play_rate": 50.0,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5
+    },
+    {
+      "disposition": "Priority Assets",
+      "lists": 1,
+      "play_rate": 50.0,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5
+    }
+  ],
   "top_players": [
     {
-      "player_name": "Andrea Sonzogni",
-      "detachment": "Bastion Task Force",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/2prgEOCoo4YN",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 1,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 70.0
-    },
-    {
-      "player_name": "Luca Prinsesita",
-      "detachment": "Bastion Task Force",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/NBFpyhsbW9TS",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Mike Riley",
-      "detachment": "Companions of Vehemence",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/QNhDgrAaLTWe",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "olive MacDonald",
-      "detachment": "Wrathful Procession",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/0iJ4C6DjzTPk",
+      "player_name": "Daniel Mendrala",
+      "detachment": "Godhammer Assault Force",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/MXVnn4pRxyJI",
       "source": "bcp",
       "wins": 1,
-      "losses": 4,
-      "draws": 0,
+      "losses": 1,
+      "draws": 3,
       "games": 5,
-      "win_rate": 20.0
+      "win_rate": 50.0
+    },
+    {
+      "player_name": "Milton Ponce",
+      "detachment": "Gladius Task Force",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/vgw9fkCv6iZC",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 2,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 50.0
     }
   ],
   "matchups": [],
   "timeline": [
     {
-      "week": "2026-W21",
-      "lists": 3,
-      "games": 12,
-      "win_rate": 33.3,
-      "total_lists": 241,
-      "play_rate": 1.2
-    },
-    {
-      "week": "2026-W22",
+      "week": "2026-W25",
       "lists": 2,
       "games": 10,
-      "win_rate": 65.0,
-      "total_lists": 271,
-      "play_rate": 0.7
+      "win_rate": 50.0,
+      "total_lists": 570,
+      "play_rate": 0.4
     }
   ]
 }

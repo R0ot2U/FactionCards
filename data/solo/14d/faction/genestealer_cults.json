@@ -1,27 +1,49 @@
 {
   "faction": "Genestealer Cults",
   "slug": "genestealer_cults",
-  "as_of": "2026-06-23",
+  "as_of": "2026-06-29",
   "window_days": 14,
   "event_type": "solo",
-  "lists": 2,
-  "games": 8,
-  "play_rate": 2.2,
-  "win_rate": 62.5,
+  "lists": 7,
+  "games": 27,
+  "play_rate": 2.0,
+  "win_rate": 51.9,
   "trend_delta": null,
-  "top_detachment": "Biosanctic Broodsurge",
-  "ci_lower": 30.6,
+  "top_detachment": "Outlander Claw + Xenocult Masses",
+  "ci_lower": 34.0,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 50.0,
+  "x1_pct": 14.3,
   "tournament_wins": 0,
   "detachments": [
+    {
+      "detachment": "Outlander Claw + Xenocult Masses",
+      "base_archetype": "Genestealer Cults \u2014 Outlander Claw + Xenocult Masses",
+      "lists": 3,
+      "games": 14,
+      "play_rate": 42.9,
+      "win_rate": 42.9,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Heroes Of The Uprising + Xenocreed Congregation",
+      "base_archetype": "Genestealer Cults \u2014 Heroes Of The Uprising + Xenocreed Congregation",
+      "lists": 2,
+      "games": 5,
+      "play_rate": 28.6,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
     {
       "detachment": "Biosanctic Broodsurge",
       "base_archetype": "Genestealer Cults \u2014 Biosanctic Broodsurge",
       "lists": 1,
       "games": 5,
-      "play_rate": 50.0,
+      "play_rate": 14.3,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -30,22 +52,40 @@
   ],
   "dispositions": [
     {
-      "disposition": "Disruption",
-      "lists": 2,
-      "play_rate": 100.0,
-      "win_rate": 62.5,
+      "disposition": "Reconnaissance",
+      "lists": 3,
+      "play_rate": 42.9,
+      "win_rate": 42.9,
       "x0_pct": 0.0,
-      "x1_pct": 50.0,
-      "games": 8
+      "x1_pct": 0.0,
+      "games": 14
+    },
+    {
+      "disposition": "Disruption",
+      "lists": 3,
+      "play_rate": 42.9,
+      "win_rate": 61.5,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "games": 13
     },
     {
       "disposition": "Priority Assets",
-      "lists": 1,
-      "play_rate": 50.0,
-      "win_rate": 66.7,
+      "lists": 3,
+      "play_rate": 42.9,
+      "win_rate": 62.5,
       "x0_pct": 0.0,
-      "x1_pct": 100.0,
-      "games": 3
+      "x1_pct": 33.3,
+      "games": 8
+    },
+    {
+      "disposition": "Purge the Foe",
+      "lists": 2,
+      "play_rate": 28.6,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5
     }
   ],
   "top_players": [
@@ -72,9 +112,64 @@
       "draws": 0,
       "games": 5,
       "win_rate": 60.0
+    },
+    {
+      "player_name": "Andrew Hartley",
+      "detachment": "Outlander Claw + Xenocult Masses",
+      "disposition": "Disruption, Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/BUOgpQP9Xj5m",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Anthony Hucks",
+      "detachment": "Heroes Of The Uprising + Xenocreed Congregation",
+      "disposition": "Priority Assets, Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/cMxHdHQxvZgL",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Devin Calpo",
+      "detachment": "Outlander Claw + Xenocult Masses",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/3NHM2kmWdKAY",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Will Reed",
+      "detachment": "Outlander Claw + Xenocult Masses",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/JgWZohUGjA15",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "games": 4,
+      "win_rate": 25.0
     }
   ],
-  "matchups": [],
+  "matchups": [
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 7,
+      "wins": 6,
+      "win_rate": 85.7
+    }
+  ],
   "timeline": [
     {
       "week": "2026-W24",
@@ -83,6 +178,14 @@
       "win_rate": 62.5,
       "total_lists": 93,
       "play_rate": 2.2
+    },
+    {
+      "week": "2026-W25",
+      "lists": 5,
+      "games": 19,
+      "win_rate": 47.4,
+      "total_lists": 257,
+      "play_rate": 1.9
     }
   ]
 }

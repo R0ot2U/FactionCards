@@ -1,28 +1,39 @@
 {
   "faction": "Genestealer Cults",
   "slug": "genestealer_cults",
-  "as_of": "2026-06-23",
+  "as_of": "2026-06-29",
   "window_days": 30,
   "event_type": "team",
-  "lists": 2,
-  "games": 10,
-  "play_rate": 2.0,
-  "win_rate": 35.0,
+  "lists": 12,
+  "games": 60,
+  "play_rate": 1.8,
+  "win_rate": 40.0,
   "trend_delta": null,
-  "top_detachment": "Heroes Of The Uprising + Purestrain Broodswarm + and Xenocult Masses",
-  "ci_lower": 13.7,
+  "top_detachment": "Final Day + Xenocult Masses",
+  "ci_lower": 28.6,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 0.0,
+  "x1_pct": 8.3,
   "tournament_wins": 0,
   "detachments": [
     {
-      "detachment": "Heroes Of The Uprising + Purestrain Broodswarm + and Xenocult Masses",
-      "base_archetype": "Genestealer Cults \u2014 Heroes Of The Uprising + Purestrain Broodswarm + and Xenocult Masses",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 50.0,
-      "win_rate": 20.0,
+      "detachment": "Final Day + Xenocult Masses",
+      "base_archetype": "Genestealer Cults \u2014 Final Day + Xenocult Masses",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 16.7,
+      "win_rate": 35.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Final Day",
+      "base_archetype": "Genestealer Cults \u2014 Final Day",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 16.7,
+      "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -30,10 +41,76 @@
     {
       "detachment": "Heroes Of The Uprising + Outlander Claw",
       "base_archetype": "Genestealer Cults \u2014 Heroes Of The Uprising + Outlander Claw",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 16.7,
+      "win_rate": 35.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Xenocreed Congregation + Xenocult Masses",
+      "base_archetype": "Genestealer Cults \u2014 Xenocreed Congregation + Xenocult Masses",
       "lists": 1,
       "games": 5,
-      "play_rate": 50.0,
+      "play_rate": 8.3,
+      "win_rate": 70.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Force Dispositions: Disruption, Priority Assets, Purge the Foe",
+      "base_archetype": "Genestealer Cults \u2014 Force Dispositions: Disruption, Priority Assets, Purge the Foe",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 8.3,
       "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Final Day + Purestrain Broodswarm",
+      "base_archetype": "Genestealer Cults \u2014 Final Day + Purestrain Broodswarm",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 8.3,
+      "win_rate": 30.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Heroes of the Uprising, Purestrain Broodswarm, and Xenocult Masses",
+      "base_archetype": "Genestealer Cults \u2014 Heroes of the Uprising, Purestrain Broodswarm, and Xenocult Masses",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 8.3,
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Biosanctic Broodsurge + Xenocult Masses",
+      "base_archetype": "Genestealer Cults \u2014 Biosanctic Broodsurge + Xenocult Masses",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 8.3,
+      "win_rate": 90.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Heroes Of The Uprising + Purestrain Broodswarm + and Xenocult Masses",
+      "base_archetype": "Genestealer Cults \u2014 Heroes Of The Uprising + Purestrain Broodswarm + and Xenocult Masses",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 8.3,
+      "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -41,34 +118,88 @@
   ],
   "dispositions": [
     {
-      "disposition": "Priority Assets",
-      "lists": 1,
-      "play_rate": 50.0,
-      "win_rate": 20.0,
+      "disposition": "Disruption",
+      "lists": 7,
+      "play_rate": 58.3,
+      "win_rate": 48.6,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 5
+      "x1_pct": 14.3,
+      "games": 35
     },
     {
       "disposition": "Purge the Foe",
-      "lists": 1,
-      "play_rate": 50.0,
-      "win_rate": 50.0,
+      "lists": 7,
+      "play_rate": 58.3,
+      "win_rate": 34.3,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 5
+      "games": 35
+    },
+    {
+      "disposition": "Priority Assets",
+      "lists": 5,
+      "play_rate": 41.7,
+      "win_rate": 28.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 25
     },
     {
       "disposition": "Reconnaissance",
-      "lists": 1,
-      "play_rate": 50.0,
-      "win_rate": 50.0,
+      "lists": 2,
+      "play_rate": 16.7,
+      "win_rate": 35.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
+      "games": 10
+    },
+    {
+      "disposition": "Take and Hold",
+      "lists": 1,
+      "play_rate": 8.3,
+      "win_rate": 90.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
       "games": 5
     }
   ],
   "top_players": [
+    {
+      "player_name": "Tucker Rickey",
+      "detachment": "Biosanctic Broodsurge + Xenocult Masses",
+      "disposition": "Disruption, Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/cu4UKIXiNgSS",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "Jonathan Chenoweth",
+      "detachment": "Xenocreed Congregation + Xenocult Masses",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/ndv08HsdO6cE",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Kevin Manning",
+      "detachment": "Force Dispositions: Disruption, Priority Assets, Purge the Foe",
+      "disposition": "Disruption, Priority Assets, Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/3SCAjJwyOn2D",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 2,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 50.0
+    },
     {
       "player_name": "Phil Richardson",
       "detachment": "Heroes Of The Uprising + Outlander Claw",
@@ -80,6 +211,90 @@
       "draws": 1,
       "games": 5,
       "win_rate": 50.0
+    },
+    {
+      "player_name": "Paul Reynolds",
+      "detachment": "Final Day",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/oiYEHObGXwXS",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 2,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Sasa Lalic",
+      "detachment": "Final Day + Xenocult Masses",
+      "disposition": "Disruption, Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/D418l5TH1MXJ",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 2,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "David Ivings",
+      "detachment": "Final Day + Xenocult Masses",
+      "disposition": "Disruption, Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/Bfp6dO0Bd5XW",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
+      "player_name": "Zachary Shinkle",
+      "detachment": "Final Day + Purestrain Broodswarm",
+      "disposition": "Priority Assets, Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/iLIJl8SvdJWd",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
+      "player_name": "Erik Cipriani",
+      "detachment": "Final Day",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/mMeKRkrbzMDF",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Kory Lance",
+      "detachment": "Heroes of the Uprising, Purestrain Broodswarm, and Xenocult Masses",
+      "disposition": "Disruption, Priority Assets, Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/l9O1eLAZpXGd",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Chris Overstreet",
+      "detachment": "Heroes Of The Uprising + Outlander Claw",
+      "disposition": "Purge the Foe, Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/p5p0vg8QsxjE",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
     },
     {
       "player_name": "Francois Montagne",
@@ -94,7 +309,26 @@
       "win_rate": 20.0
     }
   ],
-  "matchups": [],
+  "matchups": [
+    {
+      "opponent_faction": "Astra Militarum",
+      "games": 5,
+      "wins": 4,
+      "win_rate": 80.0
+    },
+    {
+      "opponent_faction": "Chaos Space Marines",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 20.0
+    },
+    {
+      "opponent_faction": "T'au Empire",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 30.0
+    }
+  ],
   "timeline": [
     {
       "week": "2026-W24",
@@ -103,6 +337,14 @@
       "win_rate": 35.0,
       "total_lists": 99,
       "play_rate": 2.0
+    },
+    {
+      "week": "2026-W25",
+      "lists": 10,
+      "games": 50,
+      "win_rate": 41.0,
+      "total_lists": 570,
+      "play_rate": 1.8
     }
   ]
 }

@@ -1,41 +1,63 @@
 {
   "faction": "T'au Empire",
   "slug": "t_au_empire",
-  "as_of": "2026-06-23",
+  "as_of": "2026-06-29",
   "window_days": 60,
   "event_type": "solo",
-  "lists": 7,
-  "games": 33,
-  "play_rate": 7.5,
-  "win_rate": 57.6,
+  "lists": 19,
+  "games": 93,
+  "play_rate": 5.4,
+  "win_rate": 52.7,
   "trend_delta": null,
-  "top_detachment": "Advanced Acquisition Cadre + Retaliation Cadre",
-  "ci_lower": 40.8,
+  "top_detachment": "Mont'ka",
+  "ci_lower": 42.6,
   "meta_health": "strongly_under",
-  "x0_pct": 0.0,
-  "x1_pct": 28.6,
-  "tournament_wins": 0,
+  "x0_pct": 5.3,
+  "x1_pct": 26.3,
+  "tournament_wins": 3,
   "detachments": [
+    {
+      "detachment": "Mont'ka",
+      "base_archetype": "T'au Empire \u2014 Mont'ka",
+      "lists": 9,
+      "games": 45,
+      "play_rate": 47.4,
+      "win_rate": 52.2,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "tournament_wins": 2
+    },
     {
       "detachment": "Advanced Acquisition Cadre + Retaliation Cadre",
       "base_archetype": "T'au Empire \u2014 Advanced Acquisition Cadre + Retaliation Cadre",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 28.6,
-      "win_rate": 50.0,
+      "lists": 5,
+      "games": 25,
+      "play_rate": 26.3,
+      "win_rate": 64.0,
+      "x0_pct": 20.0,
+      "x1_pct": 20.0,
+      "tournament_wins": 1
+    },
+    {
+      "detachment": "Auxiliary Cadre + Kauyon",
+      "base_archetype": "T'au Empire \u2014 Auxiliary Cadre + Kauyon",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.3,
+      "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
-      "detachment": "Mont'ka",
-      "base_archetype": "T'au Empire \u2014 Mont'ka",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 28.6,
-      "win_rate": 70.0,
+      "detachment": "Mont'ka (Killing Blow)",
+      "base_archetype": "T'au Empire \u2014 Mont'ka (Killing Blow)",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.3,
+      "win_rate": 10.0,
       "x0_pct": 0.0,
-      "x1_pct": 50.0,
+      "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
@@ -43,7 +65,7 @@
       "base_archetype": "T'au Empire \u2014 Kauyon (Patient Hunter)",
       "lists": 1,
       "games": 5,
-      "play_rate": 14.3,
+      "play_rate": 5.3,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -54,7 +76,7 @@
       "base_archetype": "T'au Empire \u2014 Experimental Prototype Cadre",
       "lists": 1,
       "games": 5,
-      "play_rate": 14.3,
+      "play_rate": 5.3,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -64,38 +86,95 @@
   "dispositions": [
     {
       "disposition": "Purge the Foe",
-      "lists": 4,
-      "play_rate": 57.1,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 25.0,
-      "games": 20
+      "lists": 15,
+      "play_rate": 78.9,
+      "win_rate": 53.3,
+      "x0_pct": 6.7,
+      "x1_pct": 26.7,
+      "games": 75
     },
     {
       "disposition": "Reconnaissance",
-      "lists": 3,
-      "play_rate": 42.9,
-      "win_rate": 53.3,
+      "lists": 5,
+      "play_rate": 26.3,
+      "win_rate": 56.0,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 15
+      "x1_pct": 20.0,
+      "games": 25
     },
     {
       "disposition": "Priority Assets",
-      "lists": 2,
-      "play_rate": 28.6,
-      "win_rate": 50.0,
+      "lists": 3,
+      "play_rate": 15.8,
+      "win_rate": 46.2,
       "x0_pct": 0.0,
-      "x1_pct": 50.0,
-      "games": 8
+      "x1_pct": 33.3,
+      "games": 13
+    },
+    {
+      "disposition": "Disruption",
+      "lists": 1,
+      "play_rate": 5.3,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5
     }
   ],
   "top_players": [
+    {
+      "player_name": "Eirik Rokne Stensland",
+      "detachment": "Advanced Acquisition Cadre + Retaliation Cadre",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/gPcZ7MBXQnsa",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "koldo besga",
+      "detachment": "Mont'ka",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/QLuFoRQ2YDq4",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "christoph M\u00fcller",
+      "detachment": "Mont'ka",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/mvD6VzwVxO0Z",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
     {
       "player_name": "Christos Sarsonis",
       "detachment": "Mont'ka",
       "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/QTuY7Hkf27W1",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Ieuan Bevan",
+      "detachment": "Advanced Acquisition Cadre + Retaliation Cadre",
+      "disposition": "Purge the Foe, Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/D84sQuofDDVu",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -114,6 +193,18 @@
       "draws": 0,
       "games": 3,
       "win_rate": 66.7
+    },
+    {
+      "player_name": "Connor Winfield",
+      "detachment": "Mont'ka",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/wQnKJ1iiW08h",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
     },
     {
       "player_name": "Juliana Hammaker",
@@ -152,6 +243,42 @@
       "win_rate": 60.0
     },
     {
+      "player_name": "Rhys Lewis",
+      "detachment": "Mont'ka",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/0lwIhp7au22n",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Jakob Stueland",
+      "detachment": "Auxiliary Cadre + Kauyon",
+      "disposition": "Disruption, Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/TDw8TZNc9KaI",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Michael Belanger",
+      "detachment": "Advanced Acquisition Cadre + Retaliation Cadre",
+      "disposition": "Purge the Foe, Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/zJXKk9nYJxqW",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
       "player_name": "Matthew Deary",
       "detachment": "Experimental Prototype Cadre",
       "disposition": "Priority Assets",
@@ -174,20 +301,104 @@
       "draws": 0,
       "games": 5,
       "win_rate": 40.0
+    },
+    {
+      "player_name": "Jonathon Hefner",
+      "detachment": "Mont'ka",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/CmWRot7pk6Eh",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Dominik Allg\u00e4uer",
+      "detachment": "Mont'ka",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/Mu5E4fhydoO3",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Jeremy Jordan",
+      "detachment": "Mont'ka (Killing Blow)",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/zmEKXdwuhPwv",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 4,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 10.0
+    },
+    {
+      "player_name": "Daniel Sandnes Sando",
+      "detachment": "Mont'ka",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/8pgVqnS7LqWh",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 5,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 0.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
+      "games": 16,
+      "wins": 9,
+      "win_rate": 59.4
+    },
+    {
+      "opponent_faction": "Tyranids",
+      "games": 9,
+      "wins": 6,
+      "win_rate": 66.7
+    },
+    {
+      "opponent_faction": "Imperial Knights",
+      "games": 9,
+      "wins": 7,
+      "win_rate": 77.8
+    },
+    {
+      "opponent_faction": "Thousand Sons",
+      "games": 8,
+      "wins": 3,
+      "win_rate": 37.5
+    },
+    {
+      "opponent_faction": "Emperor's Children",
       "games": 7,
       "wins": 4,
       "win_rate": 57.1
     },
     {
-      "opponent_faction": "Emperor's Children",
+      "opponent_faction": "Necrons",
+      "games": 6,
+      "wins": 0,
+      "win_rate": 8.3
+    },
+    {
+      "opponent_faction": "Orks",
       "games": 5,
-      "wins": 3,
-      "win_rate": 60.0
+      "wins": 2,
+      "win_rate": 40.0
+    },
+    {
+      "opponent_faction": "Astra Militarum",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0
     }
   ],
   "timeline": [
@@ -198,6 +409,14 @@
       "win_rate": 57.6,
       "total_lists": 93,
       "play_rate": 7.5
+    },
+    {
+      "week": "2026-W25",
+      "lists": 12,
+      "games": 60,
+      "win_rate": 50.0,
+      "total_lists": 257,
+      "play_rate": 4.7
     }
   ]
 }

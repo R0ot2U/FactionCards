@@ -1,83 +1,39 @@
 {
   "faction": "Aeldari",
   "slug": "aeldari",
-  "as_of": "2026-06-23",
+  "as_of": "2026-06-29",
   "window_days": 7,
   "event_type": "solo",
-  "lists": 11,
-  "games": 51,
-  "play_rate": 2.9,
-  "win_rate": 47.1,
+  "lists": 8,
+  "games": 38,
+  "play_rate": 3.1,
+  "win_rate": 42.1,
   "trend_delta": null,
-  "top_detachment": "Serpent's Brood",
-  "ci_lower": 34.1,
+  "top_detachment": "Armoured Warhost + Serpent's Brood",
+  "ci_lower": 27.9,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 18.2,
+  "x1_pct": 0.0,
   "tournament_wins": 0,
   "detachments": [
     {
-      "detachment": "Serpent's Brood",
-      "base_archetype": "Aeldari \u2014 Serpent's Brood",
-      "lists": 3,
-      "games": 11,
-      "play_rate": 27.3,
-      "win_rate": 36.4,
-      "x0_pct": 0.0,
-      "x1_pct": 33.3,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Spirit Conclave",
-      "base_archetype": "Aeldari \u2014 Spirit Conclave",
+      "detachment": "Armoured Warhost + Serpent's Brood",
+      "base_archetype": "Aeldari \u2014 Armoured Warhost + Serpent's Brood",
       "lists": 2,
       "games": 10,
-      "play_rate": 18.2,
+      "play_rate": 25.0,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
-      "detachment": "Windrider Host",
-      "base_archetype": "Aeldari \u2014 Windrider Host",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 18.2,
-      "win_rate": 20.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Seer Council",
-      "base_archetype": "Aeldari \u2014 Seer Council",
+      "detachment": "Aspect Host (Path of the Warrior)",
+      "base_archetype": "Aeldari \u2014 Aspect Host (Path of the Warrior)",
       "lists": 1,
       "games": 5,
-      "play_rate": 9.1,
-      "win_rate": 80.0,
-      "x0_pct": 0.0,
-      "x1_pct": 100.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Corsair Coterie",
-      "base_archetype": "Aeldari \u2014 Corsair Coterie",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 9.1,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Eldritch Raiders",
-      "base_archetype": "Aeldari \u2014 Eldritch Raiders",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 9.1,
-      "win_rate": 60.0,
+      "play_rate": 12.5,
+      "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -87,80 +43,147 @@
       "base_archetype": "Aeldari \u2014 Aspect Host",
       "lists": 1,
       "games": 5,
-      "play_rate": 9.1,
-      "win_rate": 80.0,
+      "play_rate": 12.5,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Armoured Warhost + Spirit Conclave",
+      "base_archetype": "Aeldari \u2014 Armoured Warhost + Spirit Conclave",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 12.5,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Path Of The Outcast + Seer Council",
+      "base_archetype": "Aeldari \u2014 Path Of The Outcast + Seer Council",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 12.5,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Corsair Coterie + Twilight Flickers",
+      "base_archetype": "Aeldari \u2014 Corsair Coterie + Twilight Flickers",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 12.5,
+      "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     }
   ],
-  "dispositions": [],
+  "dispositions": [
+    {
+      "disposition": "Disruption",
+      "lists": 3,
+      "play_rate": 37.5,
+      "win_rate": 38.5,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 13
+    },
+    {
+      "disposition": "Reconnaissance",
+      "lists": 3,
+      "play_rate": 37.5,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 15
+    },
+    {
+      "disposition": "Purge the Foe",
+      "lists": 2,
+      "play_rate": 25.0,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 10
+    },
+    {
+      "disposition": "Take and Hold",
+      "lists": 2,
+      "play_rate": 25.0,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 10
+    },
+    {
+      "disposition": "Priority Assets",
+      "lists": 2,
+      "play_rate": 25.0,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 10
+    }
+  ],
   "top_players": [
     {
-      "player_name": "Nick Carpenter",
-      "detachment": "Seer Council",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/xlz5GsV34ANT",
+      "player_name": "Christopher Houlston",
+      "detachment": "Armoured Warhost + Spirit Conclave",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/ndUw2Ui1GWMR",
       "source": "bcp",
-      "wins": 4,
-      "losses": 1,
+      "wins": 3,
+      "losses": 2,
       "draws": 0,
       "games": 5,
-      "win_rate": 80.0
+      "win_rate": 60.0
     },
     {
-      "player_name": "Arthur Zubrack Oliver",
+      "player_name": "Magnus Sand",
+      "detachment": "Armoured Warhost + Serpent's Brood",
+      "disposition": "Purge the Foe, Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/JakliA0lD4nP",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Lasse Ulven Pedersen",
+      "detachment": "Armoured Warhost + Serpent's Brood",
+      "disposition": "Purge the Foe, Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/rtZv2Bezi1B5",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Jan Polleichtner",
+      "detachment": "Aspect Host (Path of the Warrior)",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/kM0c0Zw2neLw",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Samuel Escribano",
       "detachment": "Aspect Host",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/GHPZy2fKDBiq",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Kieren Trimbee",
-      "detachment": "Serpent's Brood",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/0kEbHCaUaBrq",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 1,
-      "draws": 0,
-      "games": 3,
-      "win_rate": 66.7
-    },
-    {
-      "player_name": "Samuel Stuart",
-      "detachment": "Corsair Coterie",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/VS0jS6ghudY4",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Sarah Hanson",
-      "detachment": "Eldritch Raiders",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/vopuOQlZCyxl",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Steven Norman",
-      "detachment": "Spirit Conclave",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/HQnvdn1ovl6Y",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/ROzW9gamVfMs",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -169,10 +192,10 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Reece Dzivinski",
-      "detachment": "Spirit Conclave",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/Lb3szpr2Rlfg",
+      "player_name": "Liam Meaker",
+      "detachment": "Path Of The Outcast + Seer Council",
+      "disposition": "Priority Assets, Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/QHlWGrLNIXew",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -181,82 +204,46 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Christopher Pole",
-      "detachment": "Serpent's Brood",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/qMQLLGl6Lnz4",
+      "player_name": "John De Silva",
+      "detachment": "Corsair Coterie + Twilight Flickers",
+      "disposition": "Priority Assets, Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/6ewjA8uL6CQA",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Stephen Gleeson",
+      "detachment": "Armoured Warhost + Windrider Host",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/jzatPdgLKsFV",
       "source": "bcp",
       "wins": 1,
       "losses": 2,
       "draws": 0,
       "games": 3,
       "win_rate": 33.3
-    },
-    {
-      "player_name": "Jay Conde",
-      "detachment": "Windrider Host",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/yKuuVHPdI5gQ",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 4,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 20.0
-    },
-    {
-      "player_name": "Evan Roberts",
-      "detachment": "Windrider Host",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/6fhVMehJF9XD",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 4,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 20.0
-    },
-    {
-      "player_name": "John Oman",
-      "detachment": "Serpent's Brood",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/6BHOBGkVyEoo",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 4,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 20.0
     }
   ],
   "matchups": [
     {
-      "opponent_faction": "Blood Angels",
-      "games": 6,
-      "wins": 4,
-      "win_rate": 66.7
-    },
-    {
-      "opponent_faction": "Necrons",
-      "games": 6,
-      "wins": 3,
-      "win_rate": 50.0
-    },
-    {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 6,
+      "games": 8,
       "wins": 3,
-      "win_rate": 50.0
+      "win_rate": 37.5
     }
   ],
   "timeline": [
     {
-      "week": "2026-W24",
-      "lists": 11,
-      "games": 51,
-      "win_rate": 47.1,
-      "total_lists": 381,
-      "play_rate": 2.9
+      "week": "2026-W25",
+      "lists": 8,
+      "games": 38,
+      "win_rate": 42.1,
+      "total_lists": 257,
+      "play_rate": 3.1
     }
   ]
 }

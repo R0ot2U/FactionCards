@@ -1,28 +1,72 @@
 {
   "faction": "Grey Knights",
   "slug": "grey_knights",
-  "as_of": "2026-06-23",
+  "as_of": "2026-06-29",
   "window_days": 7,
   "event_type": "solo",
-  "lists": 2,
-  "games": 8,
-  "play_rate": 2.2,
-  "win_rate": 37.5,
+  "lists": 6,
+  "games": 29,
+  "play_rate": 2.3,
+  "win_rate": 55.2,
   "trend_delta": null,
-  "top_detachment": "Argent Assault + Banishers",
-  "ci_lower": 13.7,
+  "top_detachment": "Argent Assault + Hallowed Conclave",
+  "ci_lower": 37.5,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 0.0,
+  "x1_pct": 16.7,
   "tournament_wins": 0,
   "detachments": [
     {
+      "detachment": "Argent Assault + Hallowed Conclave",
+      "base_archetype": "Grey Knights \u2014 Argent Assault + Hallowed Conclave",
+      "lists": 2,
+      "games": 9,
+      "play_rate": 33.3,
+      "win_rate": 33.3,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Immaterial Interdiction + Sanctic Spearhead",
+      "base_archetype": "Grey Knights \u2014 Immaterial Interdiction + Sanctic Spearhead",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 16.7,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Brotherhood Strike + Fires Of Purgation",
+      "base_archetype": "Grey Knights \u2014 Brotherhood Strike + Fires Of Purgation",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 16.7,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
       "detachment": "Argent Assault + Banishers",
       "base_archetype": "Grey Knights \u2014 Argent Assault + Banishers",
-      "lists": 2,
-      "games": 8,
-      "play_rate": 100.0,
-      "win_rate": 37.5,
+      "lists": 1,
+      "games": 5,
+      "play_rate": 16.7,
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Warpbane Task Force",
+      "base_archetype": "Grey Knights \u2014 Warpbane Task Force",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 16.7,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -30,30 +74,96 @@
   ],
   "dispositions": [
     {
-      "disposition": "Disruption",
-      "lists": 2,
-      "play_rate": 100.0,
-      "win_rate": 37.5,
+      "disposition": "Purge the Foe",
+      "lists": 4,
+      "play_rate": 66.7,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 8
+      "x1_pct": 25.0,
+      "games": 20
     },
     {
-      "disposition": "Purge the Foe",
+      "disposition": "Disruption",
       "lists": 2,
-      "play_rate": 100.0,
-      "win_rate": 37.5,
+      "play_rate": 33.3,
+      "win_rate": 70.0,
+      "x0_pct": 0.0,
+      "x1_pct": 50.0,
+      "games": 10
+    },
+    {
+      "disposition": "Take and Hold",
+      "lists": 2,
+      "play_rate": 33.3,
+      "win_rate": 33.3,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 8
+      "games": 9
+    },
+    {
+      "disposition": "Priority Assets",
+      "lists": 1,
+      "play_rate": 16.7,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5
     }
   ],
   "top_players": [
     {
-      "player_name": "Charles Hickman",
+      "player_name": "Eli Diehr",
       "detachment": "Argent Assault + Banishers",
       "disposition": "Disruption, Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/pryMtyDVrroO",
+      "list_url": "https://www.bestcoastpairings.com/list/v15Xv7ac7Fr1",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Magnus D\u00e6hlen",
+      "detachment": "Immaterial Interdiction + Sanctic Spearhead",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/iG4RMo2BUTeR",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Asbj\u00f8rn Roh\u00f8lhaugen",
+      "detachment": "Brotherhood Strike + Fires Of Purgation",
+      "disposition": "Disruption, Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/0MIiS9f1cz1f",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Marko Robertshaw",
+      "detachment": "Warpbane Task Force",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/gVyuW1xGhts4",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Moritz Bund",
+      "detachment": "Argent Assault + Hallowed Conclave",
+      "disposition": "Purge the Foe, Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/LnJxsDrydHP5",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -62,27 +172,34 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Luis Martinez",
-      "detachment": "Argent Assault + Banishers",
-      "disposition": "Disruption, Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/UemuiS7utFo5",
+      "player_name": "David Gillespie",
+      "detachment": "Argent Assault + Hallowed Conclave",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/q9qj8GVagP4W",
       "source": "bcp",
       "wins": 1,
-      "losses": 2,
+      "losses": 3,
       "draws": 0,
-      "games": 3,
-      "win_rate": 33.3
+      "games": 4,
+      "win_rate": 25.0
     }
   ],
-  "matchups": [],
+  "matchups": [
+    {
+      "opponent_faction": "Chaos Daemons",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0
+    }
+  ],
   "timeline": [
     {
-      "week": "2026-W24",
-      "lists": 2,
-      "games": 8,
-      "win_rate": 37.5,
-      "total_lists": 93,
-      "play_rate": 2.2
+      "week": "2026-W25",
+      "lists": 6,
+      "games": 29,
+      "win_rate": 55.2,
+      "total_lists": 257,
+      "play_rate": 2.3
     }
   ]
 }

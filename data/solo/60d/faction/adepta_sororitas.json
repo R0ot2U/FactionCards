@@ -1,70 +1,101 @@
 {
   "faction": "Adepta Sororitas",
   "slug": "adepta_sororitas",
-  "as_of": "2026-06-23",
+  "as_of": "2026-06-29",
   "window_days": 60,
   "event_type": "solo",
-  "lists": 3,
-  "games": 15,
-  "play_rate": 3.2,
-  "win_rate": 46.7,
+  "lists": 9,
+  "games": 42,
+  "play_rate": 2.6,
+  "win_rate": 42.9,
   "trend_delta": null,
-  "top_detachment": "Army Of Faith + Sanctified Orators",
-  "ci_lower": 24.8,
+  "top_detachment": "Army Of Faith + Chorus Of Condemnation",
+  "ci_lower": 29.1,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 33.3,
+  "x1_pct": 11.1,
   "tournament_wins": 0,
   "detachments": [
     {
+      "detachment": "Army Of Faith + Chorus Of Condemnation",
+      "base_archetype": "Adepta Sororitas \u2014 Army Of Faith + Chorus Of Condemnation",
+      "lists": 3,
+      "games": 15,
+      "play_rate": 33.3,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "tournament_wins": 0
+    },
+    {
       "detachment": "Army Of Faith + Sanctified Orators",
       "base_archetype": "Adepta Sororitas \u2014 Army Of Faith + Sanctified Orators",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 66.7,
-      "win_rate": 30.0,
+      "lists": 3,
+      "games": 13,
+      "play_rate": 33.3,
+      "win_rate": 30.8,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
-      "detachment": "Army Of Faith + Chorus Of Condemnation",
-      "base_archetype": "Adepta Sororitas \u2014 Army Of Faith + Chorus Of Condemnation",
+      "detachment": "Bringers Of Flame",
+      "base_archetype": "Adepta Sororitas \u2014 Bringers Of Flame",
+      "lists": 2,
+      "games": 9,
+      "play_rate": 22.2,
+      "win_rate": 33.3,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Hallowed Martyrs",
+      "base_archetype": "Adepta Sororitas \u2014 Hallowed Martyrs",
       "lists": 1,
       "games": 5,
-      "play_rate": 33.3,
-      "win_rate": 80.0,
+      "play_rate": 11.1,
+      "win_rate": 40.0,
       "x0_pct": 0.0,
-      "x1_pct": 100.0,
+      "x1_pct": 0.0,
       "tournament_wins": 0
     }
   ],
   "dispositions": [
     {
       "disposition": "Take and Hold",
+      "lists": 5,
+      "play_rate": 55.6,
+      "win_rate": 47.8,
+      "x0_pct": 0.0,
+      "x1_pct": 20.0,
+      "games": 23
+    },
+    {
+      "disposition": "Purge the Foe",
+      "lists": 5,
+      "play_rate": 55.6,
+      "win_rate": 31.8,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 22
+    },
+    {
+      "disposition": "Reconnaissance",
       "lists": 2,
-      "play_rate": 66.7,
-      "win_rate": 50.0,
+      "play_rate": 22.2,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 50.0,
       "games": 10
     },
     {
-      "disposition": "Purge the Foe",
-      "lists": 2,
-      "play_rate": 66.7,
-      "win_rate": 30.0,
+      "disposition": "Priority Assets",
+      "lists": 1,
+      "play_rate": 11.1,
+      "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 10
-    },
-    {
-      "disposition": "Reconnaissance",
-      "lists": 1,
-      "play_rate": 33.3,
-      "win_rate": 80.0,
-      "x0_pct": 0.0,
-      "x1_pct": 100.0,
       "games": 5
     }
   ],
@@ -82,6 +113,54 @@
       "win_rate": 80.0
     },
     {
+      "player_name": "Anders Dahlen",
+      "detachment": "Army Of Faith + Chorus Of Condemnation",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/G3OCnMtkIqFn",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Christian Jensen",
+      "detachment": "Army Of Faith + Chorus Of Condemnation",
+      "disposition": "Reconnaissance, Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/RsrbVDm0RDKG",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Rudi Schoen",
+      "detachment": "Bringers Of Flame",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/nJB9N7cIRdvi",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Adri el M\u00e1rtir \u269c\ufe0f",
+      "detachment": "Hallowed Martyrs",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/kZfZD45KRu8H",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
       "player_name": "Giorgos Pefitsis",
       "detachment": "Army Of Faith + Sanctified Orators",
       "disposition": "Purge the Foe",
@@ -92,6 +171,30 @@
       "draws": 0,
       "games": 5,
       "win_rate": 40.0
+    },
+    {
+      "player_name": "Max Herzog",
+      "detachment": "Army Of Faith + Sanctified Orators",
+      "disposition": "Purge the Foe, Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/18ylwAdKIDSG",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 2,
+      "draws": 0,
+      "games": 3,
+      "win_rate": 33.3
+    },
+    {
+      "player_name": "Andre Santos",
+      "detachment": "Bringers Of Flame",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/5Q1NcsZ9Gduk",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "games": 4,
+      "win_rate": 25.0
     },
     {
       "player_name": "Nikitas Fyntanidis",
@@ -106,7 +209,20 @@
       "win_rate": 20.0
     }
   ],
-  "matchups": [],
+  "matchups": [
+    {
+      "opponent_faction": "Tyranids",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 33.3
+    },
+    {
+      "opponent_faction": "Chaos Space Marines",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 20.0
+    }
+  ],
   "timeline": [
     {
       "week": "2026-W24",
@@ -115,6 +231,14 @@
       "win_rate": 46.7,
       "total_lists": 93,
       "play_rate": 3.2
+    },
+    {
+      "week": "2026-W25",
+      "lists": 6,
+      "games": 27,
+      "win_rate": 40.7,
+      "total_lists": 257,
+      "play_rate": 2.3
     }
   ]
 }

@@ -1,39 +1,94 @@
 {
   "faction": "Orks",
   "slug": "orks",
-  "as_of": "2026-06-23",
+  "as_of": "2026-06-29",
   "window_days": 7,
   "event_type": "solo",
-  "lists": 4,
-  "games": 18,
-  "play_rate": 4.3,
-  "win_rate": 55.6,
-  "trend_delta": null,
+  "lists": 10,
+  "games": 48,
+  "play_rate": 3.9,
+  "win_rate": 61.5,
+  "trend_delta": 5.9,
   "top_detachment": "War Horde",
-  "ci_lower": 33.7,
-  "meta_health": "strongly_under",
-  "x0_pct": 0.0,
-  "x1_pct": 25.0,
+  "ci_lower": 47.3,
+  "meta_health": "slightly_under",
+  "x0_pct": 10.0,
+  "x1_pct": 30.0,
   "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "War Horde",
       "base_archetype": "Orks \u2014 War Horde",
       "lists": 2,
+      "games": 9,
+      "play_rate": 20.0,
+      "win_rate": 77.8,
+      "x0_pct": 50.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Dread Mob + Taktikal Brigade",
+      "base_archetype": "Orks \u2014 Dread Mob + Taktikal Brigade",
+      "lists": 2,
       "games": 10,
-      "play_rate": 50.0,
-      "win_rate": 60.0,
+      "play_rate": 20.0,
+      "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
-      "detachment": "No Detachment",
-      "base_archetype": "Orks \u2014 No Detachment",
+      "detachment": "Bully Boyz + Taktikal Brigade",
+      "base_archetype": "Orks \u2014 Bully Boyz + Taktikal Brigade",
       "lists": 1,
       "games": 5,
-      "play_rate": 25.0,
+      "play_rate": 10.0,
       "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Bully Boyz + More Dakka!",
+      "base_archetype": "Orks \u2014 Bully Boyz + More Dakka!",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 10.0,
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Freebooter Krew + More Dakka!",
+      "base_archetype": "Orks \u2014 Freebooter Krew + More Dakka!",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 10.0,
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Green Tide + More Dakka!",
+      "base_archetype": "Orks \u2014 Green Tide + More Dakka!",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 10.0,
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Dread Mob + More Dakka!",
+      "base_archetype": "Orks \u2014 Dread Mob + More Dakka!",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 10.0,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -41,108 +96,171 @@
   ],
   "dispositions": [
     {
-      "disposition": "Take and Hold",
-      "lists": 2,
-      "play_rate": 50.0,
-      "win_rate": 60.0,
+      "disposition": "Purge the Foe",
+      "lists": 7,
+      "play_rate": 70.0,
+      "win_rate": 54.4,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 10
+      "x1_pct": 28.6,
+      "games": 34
+    },
+    {
+      "disposition": "Take and Hold",
+      "lists": 4,
+      "play_rate": 40.0,
+      "win_rate": 78.9,
+      "x0_pct": 25.0,
+      "x1_pct": 50.0,
+      "games": 19
     },
     {
       "disposition": "Disruption",
-      "lists": 1,
-      "play_rate": 25.0,
-      "win_rate": 66.7,
-      "x0_pct": 0.0,
-      "x1_pct": 100.0,
-      "games": 3
-    },
-    {
-      "disposition": "Reconnaissance",
-      "lists": 1,
-      "play_rate": 25.0,
-      "win_rate": 66.7,
-      "x0_pct": 0.0,
-      "x1_pct": 100.0,
-      "games": 3
-    },
-    {
-      "disposition": "Purge the Foe",
-      "lists": 1,
-      "play_rate": 25.0,
-      "win_rate": 40.0,
+      "lists": 3,
+      "play_rate": 30.0,
+      "win_rate": 33.3,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 5
+      "games": 15
     }
   ],
   "top_players": [
     {
-      "player_name": "Mike Ludwig",
-      "detachment": "Speedwaaagh! + Taktikal Brigade",
-      "disposition": "Disruption, Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/xR8W81MyxZJ4",
+      "player_name": "Jonathan Arkin",
+      "detachment": "War Horde",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/TCDYXdjJWBoU",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Roman Kleiber",
+      "detachment": "Bully Boyz + More Dakka!",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/P8LOgq03aRog",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Landric MacMillan",
+      "detachment": "Freebooter Krew + More Dakka!",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/h6LNR6XpMiI5",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Adam Kojich",
+      "detachment": "Green Tide + More Dakka!",
+      "disposition": "Purge the Foe, Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/Pajg15PzpfoZ",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Alex Stewart",
+      "detachment": "Da Big Hunt + More Dakka!",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/hnkpgmby5W4S",
       "source": "bcp",
       "wins": 2,
       "losses": 1,
-      "draws": 0,
-      "games": 3,
-      "win_rate": 66.7
+      "draws": 1,
+      "games": 4,
+      "win_rate": 62.5
     },
     {
-      "player_name": "Jon Snyder",
-      "detachment": "War Horde",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/3hSE3g4bXJm5",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Vasilis Miltos",
-      "detachment": "War Horde",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/IwutQhHYWeLQ",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Josh Maurer",
-      "detachment": "No Detachment",
+      "player_name": "Luke Tansy",
+      "detachment": "Dread Mob + More Dakka!",
       "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/eHDQRn0rSViI",
+      "list_url": "https://www.bestcoastpairings.com/list/FX8NQpAmAbPF",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Luke Ellis-Bowyer",
+      "detachment": "Dread Mob + Taktikal Brigade",
+      "disposition": "Disruption, Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/3y3Nu37tatt5",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Elliot Beckett",
+      "detachment": "War Horde",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/Es9J27dzAR9M",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "games": 4,
+      "win_rate": 50.0
+    },
+    {
+      "player_name": "Mathias Steen",
+      "detachment": "Bully Boyz + Taktikal Brigade",
+      "disposition": "Disruption, Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/EpcZIp7qIeVZ",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
       "draws": 0,
       "games": 5,
       "win_rate": 40.0
+    },
+    {
+      "player_name": "Jesse Bees",
+      "detachment": "Dread Mob + Taktikal Brigade",
+      "disposition": "Disruption, Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/VZpCFG3e5Vh1",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 5,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 0.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 7,
-      "wins": 5,
-      "win_rate": 71.4
+      "games": 9,
+      "wins": 3,
+      "win_rate": 33.3
     }
   ],
   "timeline": [
     {
-      "week": "2026-W24",
-      "lists": 4,
-      "games": 18,
-      "win_rate": 55.6,
-      "total_lists": 93,
-      "play_rate": 4.3
+      "week": "2026-W25",
+      "lists": 10,
+      "games": 48,
+      "win_rate": 61.5,
+      "total_lists": 257,
+      "play_rate": 3.9
     }
   ]
 }

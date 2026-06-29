@@ -1,30 +1,63 @@
 {
   "faction": "Adeptus Mechanicus",
   "slug": "adeptus_mechanicus",
-  "as_of": "2026-06-23",
+  "as_of": "2026-06-29",
   "window_days": 14,
   "event_type": "solo",
-  "lists": 4,
-  "games": 16,
-  "play_rate": 4.3,
-  "win_rate": 68.8,
+  "lists": 8,
+  "games": 35,
+  "play_rate": 2.3,
+  "win_rate": 64.3,
   "trend_delta": null,
-  "top_detachment": "Lords Of The Forge + Rad-Zone Corps",
-  "ci_lower": 44.4,
-  "meta_health": "strongly_under",
-  "x0_pct": 25.0,
-  "x1_pct": 50.0,
+  "top_detachment": "Cohort Cybernetica + Lords Of The Forge",
+  "ci_lower": 47.7,
+  "meta_health": "slightly_under",
+  "x0_pct": 12.5,
+  "x1_pct": 37.5,
   "tournament_wins": 1,
   "detachments": [
+    {
+      "detachment": "Cohort Cybernetica + Lords Of The Forge",
+      "base_archetype": "Adeptus Mechanicus \u2014 Cohort Cybernetica + Lords Of The Forge",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 25.0,
+      "win_rate": 45.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
     {
       "detachment": "Lords Of The Forge + Rad-Zone Corps",
       "base_archetype": "Adeptus Mechanicus \u2014 Lords Of The Forge + Rad-Zone Corps",
       "lists": 2,
       "games": 6,
-      "play_rate": 50.0,
+      "play_rate": 25.0,
       "win_rate": 66.7,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "No Detachment",
+      "base_archetype": "Adeptus Mechanicus \u2014 No Detachment",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 12.5,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Lords Of The Forge + Skitarii Hunter Cohort (War-form Mantles)",
+      "base_archetype": "Adeptus Mechanicus \u2014 Lords Of The Forge + Skitarii Hunter Cohort (War-form Mantles)",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 12.5,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
@@ -32,38 +65,27 @@
       "base_archetype": "Adeptus Mechanicus \u2014 Eradication Cohort",
       "lists": 1,
       "games": 5,
-      "play_rate": 25.0,
+      "play_rate": 12.5,
       "win_rate": 100.0,
       "x0_pct": 100.0,
       "x1_pct": 0.0,
       "tournament_wins": 1
-    },
-    {
-      "detachment": "Cohort Cybernetica + Lords Of The Forge",
-      "base_archetype": "Adeptus Mechanicus \u2014 Cohort Cybernetica + Lords Of The Forge",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 25.0,
-      "win_rate": 40.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
     }
   ],
   "dispositions": [
     {
       "disposition": "Priority Assets",
-      "lists": 3,
-      "play_rate": 75.0,
-      "win_rate": 54.5,
+      "lists": 5,
+      "play_rate": 62.5,
+      "win_rate": 54.8,
       "x0_pct": 0.0,
-      "x1_pct": 66.7,
-      "games": 11
+      "x1_pct": 40.0,
+      "games": 21
     },
     {
       "disposition": "Take and Hold",
       "lists": 3,
-      "play_rate": 75.0,
+      "play_rate": 37.5,
       "win_rate": 54.5,
       "x0_pct": 0.0,
       "x1_pct": 66.7,
@@ -71,10 +93,19 @@
     },
     {
       "disposition": "Purge the Foe",
-      "lists": 1,
+      "lists": 2,
       "play_rate": 25.0,
-      "win_rate": 100.0,
-      "x0_pct": 100.0,
+      "win_rate": 88.9,
+      "x0_pct": 50.0,
+      "x1_pct": 50.0,
+      "games": 9
+    },
+    {
+      "disposition": "Reconnaissance",
+      "lists": 1,
+      "play_rate": 12.5,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
       "x1_pct": 0.0,
       "games": 5
     }
@@ -91,6 +122,18 @@
       "draws": 0,
       "games": 5,
       "win_rate": 100.0
+    },
+    {
+      "player_name": "Chay Eldridge",
+      "detachment": "Haloscreed Battle Clade",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/teorUeHRze8T",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 0,
+      "games": 4,
+      "win_rate": 75.0
     },
     {
       "player_name": "Nikita Vizentinis",
@@ -117,6 +160,42 @@
       "win_rate": 66.7
     },
     {
+      "player_name": "Szymon H. Kuran",
+      "detachment": "No Detachment",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/soXgwfwCvgaE",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Goran Schumacher-Milutinovic",
+      "detachment": "Lords Of The Forge + Skitarii Hunter Cohort (War-form Mantles)",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/bIkHrMSfvJ3g",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Gavin Gontarek",
+      "detachment": "Cohort Cybernetica + Lords Of The Forge",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/30tiWz0GwZge",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 2,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 50.0
+    },
+    {
       "player_name": "Vasileios Georgopoulos",
       "detachment": "Cohort Cybernetica + Lords Of The Forge",
       "disposition": "Priority Assets, Take and Hold",
@@ -129,7 +208,20 @@
       "win_rate": 40.0
     }
   ],
-  "matchups": [],
+  "matchups": [
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 8,
+      "wins": 5,
+      "win_rate": 62.5
+    },
+    {
+      "opponent_faction": "Tyranids",
+      "games": 5,
+      "wins": 4,
+      "win_rate": 80.0
+    }
+  ],
   "timeline": [
     {
       "week": "2026-W24",
@@ -138,6 +230,14 @@
       "win_rate": 68.8,
       "total_lists": 93,
       "play_rate": 4.3
+    },
+    {
+      "week": "2026-W25",
+      "lists": 4,
+      "games": 19,
+      "win_rate": 60.5,
+      "total_lists": 257,
+      "play_rate": 1.6
     }
   ]
 }

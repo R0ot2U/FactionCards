@@ -1,28 +1,127 @@
 {
   "faction": "Astra Militarum",
   "slug": "astra_militarum",
-  "as_of": "2026-06-23",
+  "as_of": "2026-06-29",
   "window_days": 7,
   "event_type": "solo",
-  "lists": 2,
-  "games": 8,
-  "play_rate": 2.2,
-  "win_rate": 37.5,
+  "lists": 14,
+  "games": 66,
+  "play_rate": 5.4,
+  "win_rate": 38.6,
   "trend_delta": null,
-  "top_detachment": "Designation Force + Hammer Of The Emperor",
-  "ci_lower": 13.7,
+  "top_detachment": "Designation Force + Mechanised Assault",
+  "ci_lower": 27.8,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 0.0,
+  "x1_pct": 14.3,
   "tournament_wins": 0,
   "detachments": [
     {
-      "detachment": "Designation Force + Hammer Of The Emperor",
-      "base_archetype": "Astra Militarum \u2014 Designation Force + Hammer Of The Emperor",
+      "detachment": "Designation Force + Mechanised Assault",
+      "base_archetype": "Astra Militarum \u2014 Designation Force + Mechanised Assault",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 14.3,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 50.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Armoured Infantry + Designation Force",
+      "base_archetype": "Astra Militarum \u2014 Armoured Infantry + Designation Force",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 14.3,
+      "win_rate": 30.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Bridgehead Strike (Fire Zone Purge) + Siege Regiment (Artillery Support)",
+      "base_archetype": "Astra Militarum \u2014 Bridgehead Strike (Fire Zone Purge) + Siege Regiment (Artillery Support)",
       "lists": 1,
       "games": 5,
-      "play_rate": 50.0,
+      "play_rate": 7.1,
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Abhuman Auxiliaries + Steel Hammer",
+      "base_archetype": "Astra Militarum \u2014 Abhuman Auxiliaries + Steel Hammer",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 7.1,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "No Detachment",
+      "base_archetype": "Astra Militarum \u2014 No Detachment",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 7.1,
       "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Designation Force + Hammer of the Emperor (Designated Targets)",
+      "base_archetype": "Astra Militarum \u2014 Designation Force + Hammer of the Emperor (Designated Targets)",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 7.1,
+      "win_rate": 70.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Grizzled Company (Ruthless Discipline)",
+      "base_archetype": "Astra Militarum \u2014 Grizzled Company (Ruthless Discipline)",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 7.1,
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Bridgehead Strike + Hammer Of The Emperor",
+      "base_archetype": "Astra Militarum \u2014 Bridgehead Strike + Hammer Of The Emperor",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 7.1,
+      "win_rate": 0.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Bridgehead Strike + Mechanised Assault",
+      "base_archetype": "Astra Militarum \u2014 Bridgehead Strike + Mechanised Assault",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 7.1,
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Siege Regiment (Artillery Support)",
+      "base_archetype": "Astra Militarum \u2014 Siege Regiment (Artillery Support)",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 7.1,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -30,28 +129,46 @@
   ],
   "dispositions": [
     {
+      "disposition": "Purge the Foe",
+      "lists": 5,
+      "play_rate": 35.7,
+      "win_rate": 43.5,
+      "x0_pct": 0.0,
+      "x1_pct": 40.0,
+      "games": 23
+    },
+    {
       "disposition": "Reconnaissance",
-      "lists": 2,
-      "play_rate": 100.0,
-      "win_rate": 37.5,
+      "lists": 5,
+      "play_rate": 35.7,
+      "win_rate": 45.7,
+      "x0_pct": 0.0,
+      "x1_pct": 40.0,
+      "games": 23
+    },
+    {
+      "disposition": "Priority Assets",
+      "lists": 4,
+      "play_rate": 28.6,
+      "win_rate": 22.2,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 8
+      "games": 18
     },
     {
       "disposition": "Take and Hold",
-      "lists": 1,
-      "play_rate": 50.0,
-      "win_rate": 33.3,
+      "lists": 3,
+      "play_rate": 21.4,
+      "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 3
+      "games": 15
     },
     {
-      "disposition": "Purge the Foe",
+      "disposition": "Disruption",
       "lists": 1,
-      "play_rate": 50.0,
-      "win_rate": 40.0,
+      "play_rate": 7.1,
+      "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "games": 5
@@ -59,10 +176,82 @@
   ],
   "top_players": [
     {
-      "player_name": "James Winder",
-      "detachment": "Designation Force + Hammer Of The Emperor",
+      "player_name": "Gregory Moxley",
+      "detachment": "Designation Force + Mechanised Assault",
       "disposition": "Purge the Foe, Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/gY4ve8KkRJn6",
+      "list_url": "https://www.bestcoastpairings.com/list/tEnbfVvstLKt",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Sebastian Huber",
+      "detachment": "Designation Force + Hammer of the Emperor (Designated Targets)",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/LLz3yi4UdI38",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Simen Vestlie",
+      "detachment": "Designation Force + Steel Hammer",
+      "disposition": "Purge the Foe, Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/wkp67LCtMkDo",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 1,
+      "draws": 0,
+      "games": 3,
+      "win_rate": 66.7
+    },
+    {
+      "player_name": "Eirik Eirik",
+      "detachment": "Abhuman Auxiliaries + Steel Hammer",
+      "disposition": "Purge the Foe, Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/BSilg1oPGL5C",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Noah Belue",
+      "detachment": "Armoured Infantry + Designation Force",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/c0IQgkJ4DXAK",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Graham Neave",
+      "detachment": "Siege Regiment (Artillery Support)",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/gw9i6KhLWmH8",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Jeremy Graham",
+      "detachment": "No Detachment",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/oaLnd02R1WiW",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -71,27 +260,136 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Raoul Vega",
-      "detachment": "Armoured Infantry + Designation Force",
-      "disposition": "Reconnaissance, Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/9GLmokzsGTEq",
+      "player_name": "Jordan Jones",
+      "detachment": "Grizzled Company",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/J2PPPT7ciHqX",
       "source": "bcp",
       "wins": 1,
       "losses": 2,
       "draws": 0,
       "games": 3,
       "win_rate": 33.3
+    },
+    {
+      "player_name": "Trym Wangen",
+      "detachment": "Bridgehead Strike (Fire Zone Purge) + Siege Regiment (Artillery Support)",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/BodrMbeHToGJ",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Ben Kluge",
+      "detachment": "Grizzled Company (Ruthless Discipline)",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/fIMCPM8yu9Ub",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Ross Bateman",
+      "detachment": "Bridgehead Strike + Mechanised Assault",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/jDlL4X1jszm4",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Adam De-Vere",
+      "detachment": "Designation Force + Mechanised Assault",
+      "disposition": "Purge the Foe, Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/iPejhGKbUBT8",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Tobias Theilen",
+      "detachment": "Armoured Infantry + Designation Force",
+      "disposition": "Reconnaissance, Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/6CMhoVITUZOo",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 5,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 0.0
+    },
+    {
+      "player_name": "Luis Sebasti\u00e1n Pina",
+      "detachment": "Bridgehead Strike + Hammer Of The Emperor",
+      "disposition": "Priority Assets, Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/ZSxMYSCeWQ0h",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 5,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 0.0
     }
   ],
-  "matchups": [],
+  "matchups": [
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 9,
+      "wins": 6,
+      "win_rate": 66.7
+    },
+    {
+      "opponent_faction": "Tyranids",
+      "games": 6,
+      "wins": 1,
+      "win_rate": 16.7
+    },
+    {
+      "opponent_faction": "Chaos Daemons",
+      "games": 6,
+      "wins": 5,
+      "win_rate": 83.3
+    },
+    {
+      "opponent_faction": "Imperial Knights",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 20.0
+    },
+    {
+      "opponent_faction": "Necrons",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 20.0
+    },
+    {
+      "opponent_faction": "T'au Empire",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0
+    }
+  ],
   "timeline": [
     {
-      "week": "2026-W24",
-      "lists": 2,
-      "games": 8,
-      "win_rate": 37.5,
-      "total_lists": 93,
-      "play_rate": 2.2
+      "week": "2026-W25",
+      "lists": 14,
+      "games": 66,
+      "win_rate": 38.6,
+      "total_lists": 257,
+      "play_rate": 5.4
     }
   ]
 }
