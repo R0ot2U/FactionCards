@@ -14,7 +14,7 @@ let currentEventType = getEventType();
 let currentWindow = getWindow();
 let currentDispositionTab = DISPOSITIONS[0];
 let currentArmiesDetachmentsMode = "armies";
-let currentTopSortBy = "lists";
+let currentTopSortBy = "win_rate";
 
 async function loadData(eventType, window) {
   const root = dataRoot(eventType, window);
