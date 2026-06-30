@@ -580,4 +580,44 @@ footer {
     opacity: 0 !important;
     pointer-events: none !important;
   }
+
+  /* Disposition page specific - wrap filter buttons */
+  .tab-buttons {
+    flex-wrap: wrap;
+    gap: 6px !important;
+  }
+
+  .tab-btn {
+    font-size: 0.7rem !important;
+    padding: 5px 10px !important;
+  }
+
+  /* Stack filter button groups vertically on mobile */
+  #disposition-tabs + div {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 8px !important;
+  }
+
+  /* Make button groups full width on mobile */
+  .tab-toggle.btn-group {
+    width: 100%;
+    display: flex;
+  }
+
+  .tab-toggle .btn {
+    flex: 1;
+    font-size: 0.7rem;
+    padding: 6px 4px;
+    white-space: nowrap;
+  }
+
+  /* Increase specific disposition chart heights */
+  #chart-disposition-overview {
+    height: clamp(400px, 50vh, 550px) !important;
+  }
+
+  #matchup-heatmap {
+    height: clamp(450px, 55vh, 600px) !important;
+  }
 }
