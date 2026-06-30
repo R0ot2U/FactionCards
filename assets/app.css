@@ -264,7 +264,17 @@ tbody td { padding: 8px 10px; vertical-align: middle; }
   left: 50% !important;
   transform: translateX(-50%) !important;
   right: auto !important;
+  opacity: 0 !important;
+  transition: opacity 0.3s !important;
 }
+
+/* Show modebar on hover (desktop only) */
+.chart-wrap:hover .modebar,
+.panel:hover .modebar,
+.map-wrap:hover .modebar {
+  opacity: 1 !important;
+}
+
 .modebar-btn {
   background: var(--panel) !important;
   border: 1px solid var(--grid) !important;
@@ -290,6 +300,15 @@ tbody td { padding: 8px 10px; vertical-align: middle; }
 #chart-play,
 #chart-wr {
   height: clamp(360px, 40vw, 800px);
+}
+
+/* Disposition charts default heights (mobile overrides below) */
+#chart-disposition-overview {
+  height: 400px;
+}
+
+#matchup-heatmap {
+  height: 520px;
 }
 
 /* Detachment breakdown chart */
@@ -531,4 +550,34 @@ footer {
   .hero { flex-direction: column; }
   .hero-stats { justify-content: flex-start; }
   .three-col { grid-template-columns: 1fr; }
+
+  /* Responsive chart heights — override inline styles */
+  .chart-wrap [id^="chart-"],
+  .chart-wrap [id^="matchup-"] {
+    height: clamp(200px, 50vw, 350px) !important;
+  }
+
+  /* Map specific height */
+  .map-wrap #map-chart {
+    min-height: 280px !important;
+    height: 280px !important;
+  }
+
+  /* Charts that already use CSS classes */
+  .chart-det-pie { height: clamp(240px, 45vw, 320px) !important; }
+  .chart-matchup { height: clamp(280px, 50vw, 400px) !important; }
+  .chart-timeline { height: clamp(180px, 35vw, 260px) !important; }
+
+  /* Force hide modebar on mobile - aggressive selectors to override Plotly inline styles */
+  .modebar,
+  .modebar-group,
+  .modebar-container,
+  div.modebar,
+  svg.modebar,
+  [class*="modebar"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
 }

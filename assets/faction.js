@@ -483,7 +483,7 @@ function renderDetChart(dets) {
     textposition: "outside",
     cliponaxis: false,
     hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
-  }], darkLayout({ margin: { t: 20, r: 80, b: 30, l: 180 } }), { responsive: true });
+  }], darkLayout({ margin: { t: 20, r: 80, b: 30, l: 180 } }), plotlyConfig());
 }
 
 function renderDispChart(disps) {
@@ -499,7 +499,7 @@ function renderDispChart(disps) {
     textposition: "outside",
     cliponaxis: false,
     hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
-  }], darkLayout({ margin: { t: 20, r: 80, b: 30, l: 180 } }), { responsive: true });
+  }], darkLayout({ margin: { t: 20, r: 80, b: 30, l: 180 } }), plotlyConfig());
 }
 
 function renderMatchupChart(matchups) {
@@ -524,7 +524,7 @@ function renderMatchupChart(matchups) {
     },
     shapes: [{ type: "line", x0: 50, x1: 50, y0: -0.5, y1: sorted.length - 0.5,
                line: { color: "#555", width: 1, dash: "dot" } }],
-  }), { responsive: true });
+  }), plotlyConfig());
 }
 
 function renderDetPieChart(dets, metric = 'lists') {
@@ -589,7 +589,7 @@ function renderDetPieChart(dets, metric = 'lists') {
       xanchor: 'left',
       yanchor: 'middle'
     },
-  }), { responsive: true });
+  }), plotlyConfig());
 }
 
 function renderTimeline(timeline) {
@@ -601,7 +601,7 @@ function renderTimeline(timeline) {
     y: timeline.map(t => t.lists),
     line: { color: "#1565c0" },
     hovertemplate: "%{x}: %{y} lists<extra></extra>",
-  }], darkLayout({ margin: { t: 10, r: 20, b: 40, l: 50 } }), { responsive: true });
+  }], darkLayout({ margin: { t: 10, r: 20, b: 40, l: 50 } }), plotlyConfig());
 
   Plotly.react("chart-wr-timeline", [{
     type: "scatter", mode: "lines+markers",
@@ -614,7 +614,7 @@ function renderTimeline(timeline) {
     yaxis: { range: [30, 80], gridcolor: "#2a2a4a" },
     shapes: [{ type: "line", x0: 0, x1: 1, xref: "paper", y0: 50, y1: 50,
                line: { color: "#555", width: 1, dash: "dot" } }],
-  }), { responsive: true });
+  }), plotlyConfig());
 }
 
 async function loadRankings(eventType, windowDays, currentFaction) {
@@ -747,19 +747,14 @@ function renderFactionMap(factionName, mapData) {
     height: 400,
   };
 
-  const config = {
-    responsive: true,
-    displayModeBar: true,
-    modeBarButtonsToRemove: ['select2d', 'lasso2d'],
-    modeBarButtonsToAdd: [],
-    displaylogo: false,
+  const config = plotlyConfig({
     toImageButtonOptions: {
       format: 'png',
       filename: `${factionName.replace(/[^a-z0-9]/gi, '_')}_locations`,
       height: 800,
       width: 1400,
     }
-  };
+  });
 
   Plotly.newPlot('map-chart', [trace], layout, config);
 }

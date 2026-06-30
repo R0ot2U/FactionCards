@@ -83,7 +83,7 @@ function renderOverviewChart() {
       y0: -0.5, y1: rows.length - 0.5,
       line: { color: "#555", width: 1, dash: "dot" }
     }],
-  }), { responsive: true });
+  }), plotlyConfig());
 }
 
 function renderMatchupHeatmap() {
@@ -99,6 +99,12 @@ function renderMatchupHeatmap() {
   matchups.forEach(m => {
     lookup.set(`${m.disposition}|${m.opponent}`, m);
   });
+
+  // Truncate labels on mobile for better fit
+  const isMobile = window.innerWidth <= 600;
+  const labels = isMobile
+    ? DISPOSITIONS.map(d => d.split(' ')[0])  // "Purge", "Take", "Priority", "Disruption", "Reconnaissance"
+    : DISPOSITIONS;
 
   // z[row][col] = win rate; null cells are mirrors (diagonal)
   const z = [];
@@ -129,8 +135,8 @@ function renderMatchupHeatmap() {
 
   Plotly.react("matchup-heatmap", [{
     type: "heatmap",
-    x: DISPOSITIONS,
-    y: DISPOSITIONS,
+    x: labels,
+    y: labels,
     z: z,
     text: text,
     texttemplate: "%{text}",
@@ -153,7 +159,7 @@ function renderMatchupHeatmap() {
     margin: { t: 30, r: 30, b: 100, l: 150 },
     xaxis: { tickangle: -30, gridcolor: "#2a2a4a", zerolinecolor: "#2a2a4a" },
     yaxis: { autorange: "reversed", gridcolor: "#2a2a4a" },
-  }), { responsive: true });
+  }), plotlyConfig());
 }
 
 function renderMatchupTables() {

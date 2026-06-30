@@ -183,20 +183,15 @@ function renderMap(events) {
     height: 450,
   };
 
-  const config = {
-    responsive: true,
-    displayModeBar: true,
-    modeBarButtonsToRemove: ['select2d', 'lasso2d'],
-    modeBarButtonsToAdd: [],
-    displaylogo: false,
-    scrollZoom: true,
+  const config = plotlyConfig({
+    scrollZoom: true,  // Only enabled on desktop via plotlyConfig()
     toImageButtonOptions: {
       format: 'png',
       filename: 'tournament_locations',
       height: 800,
       width: 1400,
     }
-  };
+  });
 
   // Prevent zooming out beyond the initial view
   Plotly.newPlot('map-chart', [trace], layout, config).then(gd => {
@@ -453,7 +448,7 @@ function renderCharts() {
     textposition: "outside",
     cliponaxis: false,
     hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
-  }], darkLayout({ margin: { t: 20, r: 80, b: 30, l: 180 } }), { responsive: true });
+  }], darkLayout({ margin: { t: 20, r: 80, b: 30, l: 180 } }), plotlyConfig());
 
   // Win rate bar — sorted by win rate desc
   const wrRows = [...rows].sort((a, b) => b.win_rate - a.win_rate).slice(0, 28);
@@ -472,7 +467,7 @@ function renderCharts() {
     xaxis: { range: [0, 80], gridcolor: "#2a2a4a", zerolinecolor: "#2a2a4a" },
     shapes: [{ type: "line", x0: 50, x1: 50, y0: -0.5, y1: wrRows.length - 0.5,
                line: { color: "#555", width: 1, dash: "dot" } }],
-  }), { responsive: true });
+  }), plotlyConfig());
 
   // Disposition chart (11th edition only)
   if (manifest.dispositions && manifest.dispositions.length > 0) {
@@ -495,7 +490,7 @@ function renderCharts() {
       xaxis: { range: [0, 80], gridcolor: "#2a2a4a", zerolinecolor: "#2a2a4a" },
       shapes: [{ type: "line", x0: 50, x1: 50, y0: -0.5, y1: disps.length - 0.5,
                  line: { color: "#555", width: 1, dash: "dot" } }],
-    }), { responsive: true });
+    }), plotlyConfig());
   }
 }
 

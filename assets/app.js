@@ -145,17 +145,34 @@ function plotlyWrColor(wr) {
   return "#e53935";
 }
 
+// Mobile-aware Plotly config
+function plotlyConfig(overrides = {}) {
+  const isMobile = window.innerWidth <= 600;
+  return Object.assign({
+    responsive: true,
+    displayModeBar: isMobile ? false : true,
+    displaylogo: false,
+    scrollZoom: isMobile ? false : (overrides.scrollZoom ?? false),
+    staticPlot: false,
+    modeBarButtonsToRemove: ['select2d', 'lasso2d'],
+    modeBarButtonsToAdd: [],
+  }, overrides);
+}
+
 // Default Plotly layout matching site dark theme
 function darkLayout(overrides = {}) {
-  return Object.assign({
+  const isMobile = window.innerWidth <= 600;
+  const base = {
     paper_bgcolor: "#16213e",
     plot_bgcolor:  "#16213e",
-    font:  { color: "#eaeaea", size: 11 },
-    margin: { t: 30, r: 20, b: 40, l: 160 },
+    font:  { color: "#eaeaea", size: isMobile ? 9 : 11 },
+    margin: { t: 30, r: 20, b: 40, l: isMobile ? 100 : 160 },
     xaxis: { gridcolor: "#2a2a4a", zerolinecolor: "#2a2a4a" },
     yaxis: { gridcolor: "#2a2a4a" },
     showlegend: false,
-  }, overrides);
+  };
+  if (isMobile) base.dragmode = false;
+  return Object.assign(base, overrides);
 }
 
 // Render site footer into element with id="site-footer"
@@ -173,4 +190,44 @@ function renderFooter(manifest) {
         <a href="${manifest?.cards_url || 'https://r0ot2u.github.io/FactionCards/cards.html'}" target="_blank" rel="noopener">PNG Cards ↗</a>
       </span>
     </div>`;
+}
+
+// Force-hide modebar on mobile via direct DOM manipulation (backup for CSS)
+function hideModebarOnMobile() {
+  if (window.innerWidth <= 600) {
+    document.querySelectorAll('.modebar').forEach(el => {
+      el.style.display = 'none';
+      el.style.visibility = 'hidden';
+    });
+  }
+}
+
+// Watch for dynamically added modebars and hide them on mobile
+if (typeof window !== 'undefined' && typeof MutationObserver !== 'undefined') {
+  const observer = new MutationObserver((mutations) => {
+    if (window.innerWidth <= 600) {
+      mutations.forEach(mutation => {
+        mutation.addedNodes.forEach(node => {
+          if (node.classList && node.classList.contains('modebar')) {
+            node.style.display = 'none';
+            node.style.visibility = 'hidden';
+          }
+          // Check children too
+          if (node.querySelectorAll) {
+            node.querySelectorAll('.modebar').forEach(el => {
+              el.style.display = 'none';
+              el.style.visibility = 'hidden';
+            });
+          }
+        });
+      });
+    }
+  });
+
+  window.addEventListener('load', () => {
+    hideModebarOnMobile();
+    observer.observe(document.body, { childList: true, subtree: true });
+  });
+
+  window.addEventListener('resize', debounce(hideModebarOnMobile, 250));
 }

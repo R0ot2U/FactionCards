@@ -185,13 +185,8 @@ function renderMap(events) {
     height: 450,
   };
 
-  const config = {
-    responsive: true,
-    displayModeBar: true,
-    modeBarButtonsToRemove: ['select2d', 'lasso2d'],
-    modeBarButtonsToAdd: [],
-    displaylogo: false,
-    scrollZoom: true,
+  const config = plotlyConfig({
+    scrollZoom: true,  // Only enabled on desktop via plotlyConfig()
     toImageButtonOptions: {
       format: 'png',
       filename: 'tournament_locations',
