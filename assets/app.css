@@ -61,6 +61,59 @@ header .meta-info { color: var(--dim); font-size: 0.75rem; text-align: right; }
   transition: background 0.15s, color 0.15s;
 }
 .nav-link:hover { background: var(--grid); color: var(--text); }
+.nav-link.active { color: var(--accent); background: rgba(233,69,96,0.12); }
+
+/* ── Tab buttons (used on dispositions page) ────────────── */
+.tab-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--grid);
+  padding-bottom: 8px;
+}
+.tab-btn {
+  background: transparent;
+  border: 1px solid var(--grid);
+  color: var(--dim);
+  padding: 6px 12px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.tab-btn:hover { background: var(--grid); color: var(--text); }
+.tab-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+.tab-toggle { margin-bottom: 12px; }
+.tab-content { margin-top: 4px; }
+
+/* ── Collapsible matchup sections ───────────────────────── */
+.matchup-details {
+  border: 1px solid var(--grid);
+  border-radius: var(--radius);
+  margin-bottom: 8px;
+  background: rgba(0,0,0,0.15);
+}
+.matchup-details > summary {
+  cursor: pointer;
+  padding: 10px 14px;
+  font-weight: 600;
+  font-size: 0.88rem;
+  color: var(--text);
+  list-style: none;
+  user-select: none;
+}
+.matchup-details > summary::-webkit-details-marker { display: none; }
+.matchup-details > summary::before {
+  content: "▸";
+  display: inline-block;
+  margin-right: 8px;
+  color: var(--accent);
+  transition: transform 0.15s;
+}
+.matchup-details[open] > summary::before { transform: rotate(90deg); }
+.matchup-details > .table-wrap,
+.matchup-details > .empty { padding: 0 14px 12px; }
 
 /* ── Main layout ────────────────────────────────────────── */
 body { display: flex; flex-direction: column; min-height: 100vh; }

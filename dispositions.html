@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Force Dispositions — Informed Crusader</title>
+<meta name="description" content="Warhammer 40k 11th Edition Force Disposition analytics: win rates, matchup heatmap, top armies & detachments, and average VP across the five canonical dispositions.">
+<meta property="og:title" content="Force Dispositions — Informed Crusader">
+<meta property="og:description" content="11th Edition Force Disposition meta analysis: matchup heatmap, top armies, average VP scoring.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/app.css">
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js" defer></script>
+</head>
+<body>
+
+<header>
+  <a class="site-logo" href="index.html">Informed Crusader</a>
+  <span class="subtitle" id="window-label"></span>
+  <span class="spacer"></span>
+  <a class="nav-link" href="players.html">Players</a>
+  <a class="nav-link" href="tournaments.html">Tournaments</a>
+  <a class="nav-link active" href="dispositions.html">Dispositions</a>
+  <a class="nav-link" href="legend.html">About</a>
+  <a class="nav-link" href="https://r0ot2u.github.io/FactionCards/cards.html" id="cards-link" target="_blank" rel="noopener">PNG Cards ↗</a>
+  <span class="meta-info" id="build-info"></span>
+</header>
+
+<main>
+  <div class="controls">
+    <div class="btn-group" id="window-btns" role="group" aria-label="Time window filter">
+      <button class="btn" data-val="7d">7d</button>
+      <button class="btn" data-val="14d">14d</button>
+      <button class="btn active" data-val="30d">30d</button>
+      <button class="btn" data-val="60d">60d</button>
+    </div>
+    <div class="btn-group" id="event-type-btns" role="group" aria-label="Event type filter">
+      <button class="btn active" data-val="all">All Events</button>
+      <button class="btn" data-val="solo">Singles</button>
+      <button class="btn" data-val="team">Teams</button>
+    </div>
+    <span id="row-count" style="color:var(--dim);font-size:0.8rem;margin-left:4px;"></span>
+  </div>
+
+  <div id="status" class="loading" style="display:none;">Loading data…</div>
+
+  <div class="chart-wrap">
+    <div class="panel-title">Force Disposition Win Rate <span class="panel-note">(11th Edition · 5 canonical dispositions)</span></div>
+    <div id="chart-disposition-overview" style="height:400px;"></div>
+  </div>
+
+  <div class="chart-wrap">
+    <div class="panel-title">Matchup Heatmap <span class="panel-note">(win rate when row plays into column)</span></div>
+    <div id="matchup-heatmap" style="height:520px;"></div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-title">Matchup Breakdown <span class="panel-note">(expand a disposition for opponent-by-opponent detail)</span></div>
+    <div id="matchup-tables"></div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-title">Top Armies &amp; Detachments by Disposition</div>
+    <div class="tab-buttons" id="disposition-tabs" role="tablist"></div>
+    <div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px;">
+      <div class="tab-toggle btn-group" id="armies-detachments-toggle" role="group" aria-label="Armies or detachments">
+        <button class="btn active" data-val="armies">Top 5 Armies</button>
+        <button class="btn" data-val="detachments">Top 5 Detachments</button>
+      </div>
+      <div class="tab-toggle btn-group" id="top-sort-toggle" role="group" aria-label="Sort by">
+        <button class="btn active" data-val="lists" title="Sort by number of lists">Lists</button>
+        <button class="btn" data-val="games" title="Sort by number of games played">Games</button>
+        <button class="btn" data-val="win_rate" title="Sort by win rate">Win %</button>
+        <button class="btn" data-val="x0_pct" title="Sort by X-0 rate">X-0 %</button>
+      </div>
+    </div>
+    <div class="tab-content" id="armies-detachments-table"></div>
+  </div>
+</main>
+
+<footer id="site-footer"></footer>
+
+<script src="assets/app.js" defer></script>
+<script src="assets/dispositions.js" defer></script>
+<script data-goatcounter="https://informedcrusader.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
