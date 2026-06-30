@@ -1,7 +1,7 @@
 {
   "faction": "Astra Militarum",
   "slug": "astra_militarum",
-  "as_of": "2026-06-29",
+  "as_of": "2026-06-30",
   "window_days": 7,
   "event_type": "team",
   "lists": 31,
@@ -149,8 +149,8 @@
       "tournament_wins": 0
     },
     {
-      "detachment": "Armoured Infantry",
-      "base_archetype": "Astra Militarum \u2014 Armoured Infantry",
+      "detachment": "Armoured Infantry + Designation Force (Squadron Command)",
+      "base_archetype": "Astra Militarum \u2014 Armoured Infantry + Designation Force (Squadron Command)",
       "lists": 1,
       "games": 5,
       "play_rate": 3.2,
@@ -162,56 +162,56 @@
   ],
   "dispositions": [
     {
-      "disposition": "Priority Assets",
-      "lists": 12,
-      "play_rate": 38.7,
-      "win_rate": 38.1,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 59
-    },
-    {
       "disposition": "Reconnaissance",
-      "lists": 11,
-      "play_rate": 35.5,
-      "win_rate": 36.4,
-      "x0_pct": 9.1,
-      "x1_pct": 0.0,
-      "games": 55
-    },
-    {
-      "disposition": "Purge the Foe",
       "lists": 9,
       "play_rate": 29.0,
-      "win_rate": 38.6,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 44
-    },
-    {
-      "disposition": "Take and Hold",
-      "lists": 6,
-      "play_rate": 19.4,
-      "win_rate": 35.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 30
-    },
-    {
-      "disposition": "Disruption",
-      "lists": 3,
-      "play_rate": 9.7,
       "win_rate": 33.3,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 15
+      "games": 45
+    },
+    {
+      "disposition": "Purge the Foe",
+      "lists": 8,
+      "play_rate": 25.8,
+      "win_rate": 35.9,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 39
+    },
+    {
+      "disposition": "Priority Assets",
+      "lists": 6,
+      "play_rate": 19.4,
+      "win_rate": 31.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 29
+    },
+    {
+      "disposition": "Take and Hold",
+      "lists": 5,
+      "play_rate": 16.1,
+      "win_rate": 38.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 25
+    },
+    {
+      "disposition": "Disruption",
+      "lists": 2,
+      "play_rate": 6.5,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 10
     }
   ],
   "top_players": [
     {
       "player_name": "Nemo The Fish",
       "detachment": "Recon Elements",
-      "disposition": "Reconnaissance",
+      "disposition": "",
       "list_url": "https://www.bestcoastpairings.com/list/02KZws422Net",
       "source": "bcp",
       "wins": 5,
@@ -223,7 +223,7 @@
     {
       "player_name": "Frank Viruet",
       "detachment": "Grizzled Company",
-      "disposition": "Priority Assets",
+      "disposition": "",
       "list_url": "https://www.bestcoastpairings.com/list/ikPfneNRvoTa",
       "source": "bcp",
       "wins": 3,
@@ -235,7 +235,7 @@
     {
       "player_name": "Jin Lee",
       "detachment": "Grizzled Company",
-      "disposition": "Priority Assets",
+      "disposition": "",
       "list_url": "https://www.bestcoastpairings.com/list/1wWxYX9LZ5PB",
       "source": "bcp",
       "wins": 3,
@@ -247,7 +247,7 @@
     {
       "player_name": "J\u00f6kull \"Steve\" J\u00f3hannsson",
       "detachment": "Grizzled Company",
-      "disposition": "Priority Assets",
+      "disposition": "",
       "list_url": "https://www.bestcoastpairings.com/list/D9pg8TqF6bcT",
       "source": "bcp",
       "wins": 3,
@@ -283,7 +283,7 @@
     {
       "player_name": "Reuben Fleming",
       "detachment": "Hammer of the Emperor",
-      "disposition": "Purge the Foe",
+      "disposition": "",
       "list_url": "https://www.bestcoastpairings.com/list/WA9sf7ijq46Y",
       "source": "bcp",
       "wins": 3,
@@ -331,7 +331,7 @@
     {
       "player_name": "Kenneth Courtney",
       "detachment": "Grizzled Company",
-      "disposition": "Priority Assets",
+      "disposition": "",
       "list_url": "https://www.bestcoastpairings.com/list/9EJoVcBCvFzY",
       "source": "bcp",
       "wins": 2,

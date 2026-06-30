@@ -1,39 +1,39 @@
 {
   "faction": "Adeptus Custodes",
   "slug": "adeptus_custodes",
-  "as_of": "2026-06-29",
+  "as_of": "2026-06-30",
   "window_days": 14,
   "event_type": "solo",
-  "lists": 27,
-  "games": 120,
-  "play_rate": 5.5,
-  "win_rate": 45.8,
+  "lists": 30,
+  "games": 135,
+  "play_rate": 5.1,
+  "win_rate": 48.9,
   "trend_delta": null,
   "top_detachment": "Lions Of The Emperor + Might Of The Moritoi",
-  "ci_lower": 37.2,
+  "ci_lower": 40.6,
   "meta_health": "strongly_under",
-  "x0_pct": 3.7,
-  "x1_pct": 7.4,
+  "x0_pct": 3.3,
+  "x1_pct": 13.3,
   "tournament_wins": 1,
   "detachments": [
     {
       "detachment": "Lions Of The Emperor + Might Of The Moritoi",
       "base_archetype": "Adeptus Custodes \u2014 Lions Of The Emperor + Might Of The Moritoi",
-      "lists": 10,
-      "games": 49,
-      "play_rate": 37.0,
-      "win_rate": 58.2,
-      "x0_pct": 10.0,
-      "x1_pct": 10.0,
+      "lists": 11,
+      "games": 54,
+      "play_rate": 36.7,
+      "win_rate": 60.2,
+      "x0_pct": 9.1,
+      "x1_pct": 18.2,
       "tournament_wins": 1
     },
     {
       "detachment": "Shield Host + Tharanatoi Hammerblow",
       "base_archetype": "Adeptus Custodes \u2014 Shield Host + Tharanatoi Hammerblow",
-      "lists": 4,
-      "games": 11,
-      "play_rate": 14.8,
-      "win_rate": 27.3,
+      "lists": 5,
+      "games": 16,
+      "play_rate": 16.7,
+      "win_rate": 37.5,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -43,7 +43,7 @@
       "base_archetype": "Adeptus Custodes \u2014 Might Of The Moritoi + Shield Host",
       "lists": 3,
       "games": 15,
-      "play_rate": 11.1,
+      "play_rate": 10.0,
       "win_rate": 53.3,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -54,7 +54,7 @@
       "base_archetype": "Adeptus Custodes \u2014 Shield Host + Silent Hunters",
       "lists": 3,
       "games": 13,
-      "play_rate": 11.1,
+      "play_rate": 10.0,
       "win_rate": 11.5,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -65,7 +65,7 @@
       "base_archetype": "Adeptus Custodes \u2014 No Detachment",
       "lists": 2,
       "games": 8,
-      "play_rate": 7.4,
+      "play_rate": 6.7,
       "win_rate": 37.5,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -76,10 +76,21 @@
       "base_archetype": "Adeptus Custodes \u2014 Lions of the Emperor",
       "lists": 2,
       "games": 9,
-      "play_rate": 7.4,
+      "play_rate": 6.7,
       "win_rate": 55.6,
       "x0_pct": 0.0,
       "x1_pct": 50.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Lions Of The Emperor + Silent Hunters",
+      "base_archetype": "Adeptus Custodes \u2014 Lions Of The Emperor + Silent Hunters",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 3.3,
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
       "tournament_wins": 0
     },
     {
@@ -87,7 +98,7 @@
       "base_archetype": "Adeptus Custodes \u2014 Silent Hunters + Solar Spearhead",
       "lists": 1,
       "games": 5,
-      "play_rate": 3.7,
+      "play_rate": 3.3,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -98,7 +109,7 @@
       "base_archetype": "Adeptus Custodes \u2014 Auric Champions + Tharanatoi Hammerblow",
       "lists": 1,
       "games": 5,
-      "play_rate": 3.7,
+      "play_rate": 3.3,
       "win_rate": 80.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -109,7 +120,7 @@
       "base_archetype": "Adeptus Custodes \u2014 Might Of The Moritoi + Shield Host (March of the Honoured Dead)",
       "lists": 1,
       "games": 5,
-      "play_rate": 3.7,
+      "play_rate": 3.3,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -119,48 +130,57 @@
   "dispositions": [
     {
       "disposition": "Purge the Foe",
-      "lists": 23,
-      "play_rate": 85.2,
-      "win_rate": 46.1,
-      "x0_pct": 4.3,
-      "x1_pct": 8.7,
-      "games": 102
+      "lists": 22,
+      "play_rate": 73.3,
+      "win_rate": 49.0,
+      "x0_pct": 4.5,
+      "x1_pct": 9.1,
+      "games": 98
+    },
+    {
+      "disposition": "Disruption",
+      "lists": 6,
+      "play_rate": 20.0,
+      "win_rate": 56.9,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "games": 29
     },
     {
       "disposition": "Reconnaissance",
+      "lists": 5,
+      "play_rate": 16.7,
+      "win_rate": 28.3,
+      "x0_pct": 0.0,
+      "x1_pct": 20.0,
+      "games": 23
+    },
+    {
+      "disposition": "Priority Assets",
       "lists": 4,
-      "play_rate": 14.8,
-      "win_rate": 13.9,
+      "play_rate": 13.3,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "games": 18
     },
     {
-      "disposition": "Priority Assets",
-      "lists": 3,
-      "play_rate": 11.1,
-      "win_rate": 46.2,
+      "disposition": "*Priority Assets*",
+      "lists": 1,
+      "play_rate": 3.3,
+      "win_rate": 33.3,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 13
-    },
-    {
-      "disposition": "Disruption",
-      "lists": 3,
-      "play_rate": 11.1,
-      "win_rate": 39.3,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 14
+      "games": 3
     },
     {
       "disposition": "Take and Hold",
-      "lists": 2,
-      "play_rate": 7.4,
-      "win_rate": 12.5,
+      "lists": 1,
+      "play_rate": 3.3,
+      "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 8
+      "games": 5
     }
   ],
   "top_players": [
@@ -189,10 +209,34 @@
       "win_rate": 100.0
     },
     {
+      "player_name": "Will Horan",
+      "detachment": "Lions Of The Emperor + Silent Hunters",
+      "disposition": "Disruption, Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/uv0mIGo5KQ9l",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
       "player_name": "Sergio Munoz",
       "detachment": "Lions of the Emperor",
-      "disposition": "Purge the Foe",
+      "disposition": "",
       "list_url": "https://www.bestcoastpairings.com/list/f6Xd6u88N6uF",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Tyler White",
+      "detachment": "Lions Of The Emperor + Might Of The Moritoi",
+      "disposition": "Disruption, Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/g3Yl5A24CEnO",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -211,6 +255,18 @@
       "draws": 0,
       "games": 5,
       "win_rate": 80.0
+    },
+    {
+      "player_name": "Trent Irrer",
+      "detachment": "Shield Host + Tharanatoi Hammerblow",
+      "disposition": "Priority Assets, Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/i3KSgMMWYmUs",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
     },
     {
       "player_name": "Snorre Bugge",
@@ -239,7 +295,7 @@
     {
       "player_name": "Max Nitschinger",
       "detachment": "No Detachment",
-      "disposition": "",
+      "disposition": "Disruption, Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/JGf9rvpnX1Xa",
       "source": "bcp",
       "wins": 3,
@@ -251,7 +307,7 @@
     {
       "player_name": "Ini Spirit of faults",
       "detachment": "Lions Of The Emperor + Might Of The Moritoi",
-      "disposition": "Purge the Foe",
+      "disposition": "",
       "list_url": "https://www.bestcoastpairings.com/list/LSf7MtHtRNiM",
       "source": "bcp",
       "wins": 3,
@@ -347,7 +403,7 @@
     {
       "player_name": "Tom Quinn",
       "detachment": "Shield Host + Tharanatoi Hammerblow",
-      "disposition": "Purge the Foe",
+      "disposition": "*Priority Assets*, Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/OyLdB1APIoUG",
       "source": "bcp",
       "wins": 1,
@@ -359,7 +415,7 @@
     {
       "player_name": "Liam Block",
       "detachment": "Lions of the Emperor",
-      "disposition": "Purge the Foe",
+      "disposition": "",
       "list_url": "https://www.bestcoastpairings.com/list/iX5WUeofIKbR",
       "source": "bcp",
       "wins": 1,
@@ -367,62 +423,26 @@
       "draws": 0,
       "games": 4,
       "win_rate": 25.0
-    },
-    {
-      "player_name": "Beer hammer40000",
-      "detachment": "Silent Hunters + Solar Spearhead",
-      "disposition": "Reconnaissance, Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/Gw8oG31VHYjn",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 4,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 20.0
-    },
-    {
-      "player_name": "Jose Delgado The Emperor protects",
-      "detachment": "Shield Host + Silent Hunters",
-      "disposition": "Purge the Foe, Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/wDbCwMOoYdzn",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 4,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 20.0
-    },
-    {
-      "player_name": "Ian Dunlap",
-      "detachment": "Might Of The Moritoi + Shield Host (March of the Honoured Dead)",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/0L7NlzHpn5JN",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 4,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 20.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Necrons",
-      "games": 16,
-      "wins": 9,
-      "win_rate": 56.2
+      "games": 18,
+      "wins": 11,
+      "win_rate": 61.1
     },
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 15,
-      "wins": 8,
-      "win_rate": 56.7
+      "games": 17,
+      "wins": 10,
+      "win_rate": 61.8
     },
     {
       "opponent_faction": "Tyranids",
-      "games": 13,
-      "wins": 4,
-      "win_rate": 30.8
+      "games": 16,
+      "wins": 6,
+      "win_rate": 37.5
     },
     {
       "opponent_faction": "Thousand Sons",
@@ -432,9 +452,21 @@
     },
     {
       "opponent_faction": "Emperor's Children",
+      "games": 7,
+      "wins": 5,
+      "win_rate": 71.4
+    },
+    {
+      "opponent_faction": "Chaos Space Marines",
       "games": 6,
       "wins": 4,
       "win_rate": 66.7
+    },
+    {
+      "opponent_faction": "Adepta Sororitas",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0
     },
     {
       "opponent_faction": "Orks",
@@ -454,11 +486,11 @@
     },
     {
       "week": "2026-W25",
-      "lists": 21,
-      "games": 90,
-      "win_rate": 44.4,
-      "total_lists": 397,
-      "play_rate": 5.3
+      "lists": 24,
+      "games": 105,
+      "win_rate": 48.6,
+      "total_lists": 494,
+      "play_rate": 4.9
     }
   ]
 }
