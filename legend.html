@@ -15,6 +15,7 @@
   <span class="spacer"></span>
   <a class="nav-link" href="players.html">Players</a>
   <a class="nav-link" href="tournaments.html">Tournaments</a>
+  <a class="nav-link" href="dispositions.html">Dispositions</a>
   <a class="nav-link" href="index.html">Factions</a>
   <a class="nav-link" href="https://r0ot2u.github.io/FactionCards/cards.html" target="_blank" rel="noopener">PNG Cards ↗</a>
 </header>
@@ -104,6 +105,63 @@
       <div class="legend-card">
         <div class="legend-term">Games</div>
         <p>Total number of individual game results recorded. Each round of an event produces one game per player.</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Lists</div>
+        <p>Total number of army lists submitted. In the dispositions context, this counts lists that declared this Force Disposition. Same as Players count in most contexts.</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Avg VP</div>
+        <p>Average (mean) victory points scored per game. Shows typical scoring output for a disposition or matchup. Higher values indicate more aggressive or higher-scoring mission types.</p>
+        <p class="legend-note">Used on disposition detail pages and previously in matchup analysis. Purge the Foe typically scores highest (~44 VP average), while Disruption and Reconnaissance score lower (~18-19 VP average).</p>
+      </div>
+    </div>
+
+    <h2 class="legend-heading">Dispositions Overview</h2>
+    <p>The Dispositions page (11th Edition only) shows performance across the five canonical Force Dispositions: <strong>Purge the Foe</strong>, <strong>Take and Hold</strong>, <strong>Priority Assets</strong>, <strong>Disruption</strong>, and <strong>Reconnaissance</strong>. Force Dispositions determine which secondary objectives are available during games.</p>
+    <div class="legend-grid">
+      <div class="legend-card">
+        <div class="legend-term">Force Disposition Win Rate</div>
+        <p>Overall win rate for all lists using each disposition. Shows which dispositions are performing best across the meta. Horizontal bar chart, sorted by play rate (most popular at top).</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Matchup Heatmap</div>
+        <p>5×5 grid showing win rate when one disposition (row) plays against another (column). Mirror matches (same disposition on both sides) are excluded and shown as grey cells.</p>
+        <p class="legend-note">Read as: "When [row disposition] plays into [column disposition], the row's win rate is X%". Colour scale: red (poor matchup) → yellow (even) → green (favourable).</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Matchup Breakdown</div>
+        <p>Expandable tables showing detailed head-to-head records for each disposition against the other four. Click a disposition name to expand and see games played and win rate vs each opponent.</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Top 5 Armies / Detachments</div>
+        <p>Shows the best-performing armies or detachments for each disposition. Sortable by <strong>Lists</strong> (most popular), <strong>Games</strong> (most played), <strong>Win %</strong> (best performance, default), or <strong>X-0 %</strong> (undefeated rate).</p>
+        <p class="legend-note">When you change the sort, the displayed top 5 changes to show the actual top 5 for that metric, not just re-sorted results. For example, sorting by Win % shows the 5 highest-performing armies, even if they're not the most popular.</p>
+      </div>
+    </div>
+
+    <h2 class="legend-heading">Disposition Detail Page</h2>
+    <p>Each disposition has a dedicated detail page showing full breakdowns, accessible by clicking a disposition name from the overview page or matchup tables.</p>
+    <div class="legend-grid">
+      <div class="legend-card">
+        <div class="legend-term">Hero Stats</div>
+        <p>Six key metrics displayed at the top: <strong>Lists</strong> (count), <strong>Games</strong> (count), <strong>Win Rate</strong> (%), <strong>Avg VP</strong> (victory points), <strong>X-0 Rate</strong> (undefeated %), <strong>X-1 Rate</strong> (one-loss %).</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Faction Breakdown</div>
+        <p>Full table of all factions using this disposition, with list count, games played, win rate, and X-0 rate. Shows which factions prefer this disposition and how they perform with it.</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Detachment Breakdown</div>
+        <p>All detachment combinations (base_archetype format) using this disposition. Includes multi-detachment combos like "Drukhari — Exhibition Of Slaughter + Skysplinter Assault". Shows lists, games, win rate, X-0 rate.</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Matchup Table</div>
+        <p>Head-to-head records against the other four dispositions (mirrors excluded). Shows games played and win rate for each pairing. Sortable by any column.</p>
+      </div>
+      <div class="legend-card">
+        <div class="legend-term">Top Players</div>
+        <p>Top 10 players by win rate using this disposition in the current window. Minimum 3 games required. Shows player name, faction, wins-losses-draws record, and win rate.</p>
       </div>
     </div>
 
