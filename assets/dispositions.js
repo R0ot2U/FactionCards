@@ -65,6 +65,7 @@ function renderOverviewChart() {
       `<div class="empty">No disposition data.</div>`;
     return;
   }
+  const isMobile = window.innerWidth <= 600;
   Plotly.react("chart-disposition-overview", [{
     type: "bar",
     orientation: "h",
@@ -76,7 +77,7 @@ function renderOverviewChart() {
     cliponaxis: false,
     hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
   }], darkLayout({
-    margin: { t: 20, r: 120, b: 30, l: 180 },
+    margin: { t: 20, r: isMobile ? 50 : 120, b: 30, l: isMobile ? 150 : 180 },
     xaxis: { range: [0, 80], gridcolor: "#2a2a4a", zerolinecolor: "#2a2a4a" },
     shapes: [{
       type: "line", x0: 50, x1: 50,
@@ -156,7 +157,7 @@ function renderMatchupHeatmap() {
     xgap: 2,
     ygap: 2,
   }], darkLayout({
-    margin: { t: 30, r: 30, b: 100, l: 150 },
+    margin: { t: 30, r: isMobile ? 20 : 30, b: isMobile ? 60 : 100, l: isMobile ? 80 : 150 },
     xaxis: { tickangle: -30, gridcolor: "#2a2a4a", zerolinecolor: "#2a2a4a" },
     yaxis: { autorange: "reversed", gridcolor: "#2a2a4a" },
   }), plotlyConfig());
