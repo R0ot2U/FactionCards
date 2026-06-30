@@ -551,22 +551,22 @@ footer {
   .hero-stats { justify-content: flex-start; }
   .three-col { grid-template-columns: 1fr; }
 
-  /* Responsive chart heights — override inline styles */
+  /* Responsive chart heights — use viewport height for better mobile fit */
   .chart-wrap [id^="chart-"],
   .chart-wrap [id^="matchup-"] {
-    height: clamp(200px, 50vw, 350px) !important;
+    height: clamp(350px, 50vh, 600px) !important;
   }
 
-  /* Map specific height */
+  /* Map specific height - larger for better geography visibility */
   .map-wrap #map-chart {
-    min-height: 280px !important;
-    height: 280px !important;
+    min-height: 400px !important;
+    height: clamp(400px, 50vh, 500px) !important;
   }
 
   /* Charts that already use CSS classes */
-  .chart-det-pie { height: clamp(240px, 45vw, 320px) !important; }
-  .chart-matchup { height: clamp(280px, 50vw, 400px) !important; }
-  .chart-timeline { height: clamp(180px, 35vw, 260px) !important; }
+  .chart-det-pie { height: clamp(320px, 45vh, 450px) !important; }
+  .chart-matchup { height: clamp(400px, 55vh, 550px) !important; }
+  .chart-timeline { height: clamp(250px, 35vh, 350px) !important; }
 
   /* Force hide modebar on mobile - aggressive selectors to override Plotly inline styles */
   .modebar,

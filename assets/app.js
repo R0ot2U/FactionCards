@@ -165,8 +165,8 @@ function darkLayout(overrides = {}) {
   const base = {
     paper_bgcolor: "#16213e",
     plot_bgcolor:  "#16213e",
-    font:  { color: "#eaeaea", size: isMobile ? 9 : 11 },
-    margin: { t: 30, r: 20, b: 40, l: isMobile ? 100 : 160 },
+    font:  { color: "#eaeaea", size: isMobile ? 10 : 11 },
+    margin: { t: 30, r: 20, b: 40, l: isMobile ? 120 : 160 },
     xaxis: { gridcolor: "#2a2a4a", zerolinecolor: "#2a2a4a" },
     yaxis: { gridcolor: "#2a2a4a" },
     showlegend: false,
