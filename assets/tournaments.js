@@ -193,7 +193,7 @@ function renderMap(events) {
       height: 800,
       width: 1400,
     }
-  };
+  });
 
   // Prevent zooming out beyond the initial view
   Plotly.newPlot('map-chart', [trace], layout, config).then(gd => {
