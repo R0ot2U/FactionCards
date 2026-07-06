@@ -1,30 +1,41 @@
 {
   "faction": "Deathwatch",
   "slug": "deathwatch",
-  "as_of": "2026-06-28",
+  "as_of": "2026-07-06",
   "window_days": 14,
   "event_type": "all",
-  "lists": 5,
-  "games": 25,
-  "play_rate": 0.3,
-  "win_rate": 54.0,
+  "lists": 8,
+  "games": 40,
+  "play_rate": 0.5,
+  "win_rate": 46.2,
   "trend_delta": null,
   "top_detachment": "Black Spear Task Force",
-  "ci_lower": 35.3,
+  "ci_lower": 31.8,
   "meta_health": "strongly_under",
-  "x0_pct": 20.0,
-  "x1_pct": 20.0,
+  "x0_pct": 12.5,
+  "x1_pct": 0.0,
   "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Black Spear Task Force",
       "base_archetype": "Deathwatch \u2014 Black Spear Task Force",
-      "lists": 4,
-      "games": 20,
-      "play_rate": 80.0,
-      "win_rate": 42.5,
+      "lists": 6,
+      "games": 30,
+      "play_rate": 75.0,
+      "win_rate": 38.3,
       "x0_pct": 0.0,
-      "x1_pct": 25.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Black Spear Task Force (Kill Teams)",
+      "base_archetype": "Deathwatch \u2014 Black Spear Task Force (Kill Teams)",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 12.5,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
@@ -32,7 +43,7 @@
       "base_archetype": "Deathwatch \u2014 No Detachment",
       "lists": 1,
       "games": 5,
-      "play_rate": 20.0,
+      "play_rate": 12.5,
       "win_rate": 100.0,
       "x0_pct": 100.0,
       "x1_pct": 0.0,
@@ -42,17 +53,17 @@
   "dispositions": [
     {
       "disposition": "Priority Assets",
-      "lists": 4,
-      "play_rate": 80.0,
-      "win_rate": 42.5,
+      "lists": 7,
+      "play_rate": 87.5,
+      "win_rate": 38.6,
       "x0_pct": 0.0,
-      "x1_pct": 25.0,
-      "games": 20
+      "x1_pct": 0.0,
+      "games": 35
     },
     {
       "disposition": "Reconnaissance",
       "lists": 1,
-      "play_rate": 20.0,
+      "play_rate": 12.5,
       "win_rate": 100.0,
       "x0_pct": 100.0,
       "x1_pct": 0.0,
@@ -73,22 +84,58 @@
       "win_rate": 100.0
     },
     {
-      "player_name": "Dimitrios Zotos",
+      "player_name": "Kevin Weaver",
       "detachment": "Black Spear Task Force",
       "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/iSWA6CvD6Utf",
+      "list_url": "https://www.bestcoastpairings.com/list/m6R2sJM1skAw",
       "source": "bcp",
-      "wins": 4,
-      "losses": 1,
+      "wins": 3,
+      "losses": 2,
       "draws": 0,
       "games": 5,
-      "win_rate": 80.0
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Ayman Pathfinder",
+      "detachment": "Black Spear Task Force (Kill Teams)",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/Lt2tSY0yVFLI",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
     },
     {
       "player_name": "Shawn Myers",
       "detachment": "Black Spear Task Force",
       "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/dhCMlcZFR601",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Roger Borras",
+      "detachment": "Black Spear Task Force",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/h34MGz1bKyhw",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Odin Preedy",
+      "detachment": "Black Spear Task Force",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/W4cbfGrKXUC6",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -124,20 +171,20 @@
   "matchups": [],
   "timeline": [
     {
-      "week": "2026-W24",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 80.0,
-      "total_lists": 192,
-      "play_rate": 0.5
-    },
-    {
       "week": "2026-W25",
       "lists": 4,
       "games": 20,
       "win_rate": 47.5,
-      "total_lists": 1244,
+      "total_lists": 1259,
       "play_rate": 0.3
+    },
+    {
+      "week": "2026-W26",
+      "lists": 4,
+      "games": 20,
+      "win_rate": 45.0,
+      "total_lists": 494,
+      "play_rate": 0.8
     }
   ]
 }

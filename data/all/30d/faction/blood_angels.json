@@ -1,50 +1,61 @@
 {
   "faction": "Blood Angels",
   "slug": "blood_angels",
-  "as_of": "2026-06-28",
+  "as_of": "2026-07-06",
   "window_days": 30,
   "event_type": "all",
-  "lists": 34,
-  "games": 170,
-  "play_rate": 2.4,
-  "win_rate": 51.2,
+  "lists": 45,
+  "games": 212,
+  "play_rate": 2.3,
+  "win_rate": 50.2,
   "trend_delta": null,
-  "top_detachment": "Rage-Cursed Onslaught",
-  "ci_lower": 43.7,
+  "top_detachment": "Liberator Assault Group",
+  "ci_lower": 43.6,
   "meta_health": "strongly_under",
-  "x0_pct": 2.9,
-  "x1_pct": 17.6,
+  "x0_pct": 2.2,
+  "x1_pct": 17.8,
   "tournament_wins": 0,
   "detachments": [
     {
-      "detachment": "Rage-Cursed Onslaught",
-      "base_archetype": "Blood Angels \u2014 Rage-Cursed Onslaught",
-      "lists": 11,
-      "games": 55,
-      "play_rate": 32.4,
-      "win_rate": 45.5,
+      "detachment": "Liberator Assault Group",
+      "base_archetype": "Blood Angels \u2014 Liberator Assault Group",
+      "lists": 14,
+      "games": 70,
+      "play_rate": 31.1,
+      "win_rate": 55.0,
       "x0_pct": 0.0,
-      "x1_pct": 9.1,
+      "x1_pct": 21.4,
       "tournament_wins": 0
     },
     {
-      "detachment": "Liberator Assault Group",
-      "base_archetype": "Blood Angels \u2014 Liberator Assault Group",
-      "lists": 11,
-      "games": 55,
-      "play_rate": 32.4,
-      "win_rate": 58.2,
+      "detachment": "Rage-Cursed Onslaught",
+      "base_archetype": "Blood Angels \u2014 Rage-Cursed Onslaught",
+      "lists": 14,
+      "games": 65,
+      "play_rate": 31.1,
+      "win_rate": 49.2,
       "x0_pct": 0.0,
-      "x1_pct": 27.3,
+      "x1_pct": 15.4,
       "tournament_wins": 0
     },
     {
       "detachment": "Angelic Inheritors",
       "base_archetype": "Blood Angels \u2014 Angelic Inheritors",
+      "lists": 4,
+      "games": 15,
+      "play_rate": 8.9,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 25.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Legacy Of Grace + Stormlance Task Force",
+      "base_archetype": "Blood Angels \u2014 Legacy Of Grace + Stormlance Task Force",
       "lists": 3,
       "games": 15,
-      "play_rate": 8.8,
-      "win_rate": 33.3,
+      "play_rate": 6.7,
+      "win_rate": 53.3,
       "x0_pct": 0.0,
       "x1_pct": 33.3,
       "tournament_wins": 0
@@ -54,21 +65,21 @@
       "base_archetype": "Blood Angels \u2014 Bastion Task Force + Legacy Of Grace",
       "lists": 2,
       "games": 10,
-      "play_rate": 5.9,
+      "play_rate": 4.4,
       "win_rate": 80.0,
       "x0_pct": 50.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
-      "detachment": "Legacy Of Grace + Stormlance Task Force",
-      "base_archetype": "Blood Angels \u2014 Legacy Of Grace + Stormlance Task Force",
+      "detachment": "Legacy Of Grace + The Angelic Host",
+      "base_archetype": "Blood Angels \u2014 Legacy Of Grace + The Angelic Host",
       "lists": 2,
       "games": 10,
-      "play_rate": 5.9,
-      "win_rate": 70.0,
+      "play_rate": 4.4,
+      "win_rate": 40.0,
       "x0_pct": 0.0,
-      "x1_pct": 50.0,
+      "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
@@ -76,7 +87,7 @@
       "base_archetype": "Blood Angels \u2014 Liberator Assault Group (The Red Thirst)",
       "lists": 1,
       "games": 5,
-      "play_rate": 2.9,
+      "play_rate": 2.2,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -87,7 +98,7 @@
       "base_archetype": "Blood Angels \u2014 Encarmine Speartip + The Angelic Host",
       "lists": 1,
       "games": 5,
-      "play_rate": 2.9,
+      "play_rate": 2.2,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -98,19 +109,8 @@
       "base_archetype": "Blood Angels \u2014 The Angelic Host + Wrath Of The Doomed",
       "lists": 1,
       "games": 5,
-      "play_rate": 2.9,
+      "play_rate": 2.2,
       "win_rate": 40.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Legacy Of Grace + The Angelic Host",
-      "base_archetype": "Blood Angels \u2014 Legacy Of Grace + The Angelic Host",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 2.9,
-      "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -120,8 +120,19 @@
       "base_archetype": "Blood Angels \u2014 Encarmine Speartip + Legacy Of Grace + and Wrath of the Doomed",
       "lists": 1,
       "games": 5,
-      "play_rate": 2.9,
+      "play_rate": 2.2,
       "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Encarmine Speartip + Vanguard Spearhead (Shadow Masters)",
+      "base_archetype": "Blood Angels \u2014 Encarmine Speartip + Vanguard Spearhead (Shadow Masters)",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 2.2,
+      "win_rate": 0.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -129,40 +140,40 @@
   ],
   "dispositions": [
     {
-      "disposition": "Purge the Foe",
-      "lists": 13,
-      "play_rate": 38.2,
-      "win_rate": 46.2,
-      "x0_pct": 0.0,
-      "x1_pct": 7.7,
-      "games": 65
-    },
-    {
       "disposition": "Take and Hold",
-      "lists": 12,
-      "play_rate": 35.3,
-      "win_rate": 56.7,
+      "lists": 16,
+      "play_rate": 35.6,
+      "win_rate": 53.9,
       "x0_pct": 0.0,
       "x1_pct": 25.0,
-      "games": 60
+      "games": 77
+    },
+    {
+      "disposition": "Purge the Foe",
+      "lists": 16,
+      "play_rate": 35.6,
+      "win_rate": 49.3,
+      "x0_pct": 0.0,
+      "x1_pct": 12.5,
+      "games": 75
     },
     {
       "disposition": "Priority Assets",
-      "lists": 8,
-      "play_rate": 23.5,
-      "win_rate": 52.5,
-      "x0_pct": 12.5,
-      "x1_pct": 25.0,
-      "games": 40
+      "lists": 11,
+      "play_rate": 24.4,
+      "win_rate": 52.0,
+      "x0_pct": 9.1,
+      "x1_pct": 18.2,
+      "games": 50
     },
     {
       "disposition": "Disruption",
-      "lists": 1,
-      "play_rate": 2.9,
-      "win_rate": 40.0,
+      "lists": 2,
+      "play_rate": 4.4,
+      "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 5
+      "games": 10
     }
   ],
   "top_players": [
@@ -251,10 +262,34 @@
       "win_rate": 80.0
     },
     {
+      "player_name": "Glenn Connolly",
+      "detachment": "Rage-Cursed Onslaught",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/ffxcvJXTF0xN",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
       "player_name": "Richard Forrest",
       "detachment": "Liberator Assault Group",
       "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/8dGvVXo2RjcO",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Jack Watkins",
+      "detachment": "Liberator Assault Group",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/wZpaq4cmN5Qx",
       "source": "bcp",
       "wins": 3,
       "losses": 1,
@@ -323,6 +358,30 @@
       "win_rate": 60.0
     },
     {
+      "player_name": "Mark-Anthony Baini",
+      "detachment": "Legacy Of Grace + The Angelic Host",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/3V4Z6DBdB2W3",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "William Nicholl",
+      "detachment": "Rage-Cursed Onslaught",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/Mb8y2e4lhvSo",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
       "player_name": "Jake Jakovich",
       "detachment": "Liberator Assault Group",
       "disposition": "Take and Hold",
@@ -357,68 +416,26 @@
       "draws": 0,
       "games": 5,
       "win_rate": 60.0
-    },
-    {
-      "player_name": "Zisis Panetsidis",
-      "detachment": "Rage-Cursed Onslaught",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/1xs3oNj3qsa9",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Chris Chance",
-      "detachment": "Rage-Cursed Onslaught",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/A3Wh5OCJ0Kjt",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "Jason Thomas",
-      "detachment": "Rage-Cursed Onslaught",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/LbB9L5xDqlTA",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "Jason Norris",
-      "detachment": "Rage-Cursed Onslaught",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/cgBLbSKHdN4p",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 17,
-      "wins": 10,
-      "win_rate": 58.8
+      "games": 23,
+      "wins": 14,
+      "win_rate": 60.9
     },
     {
       "opponent_faction": "Tyranids",
-      "games": 15,
+      "games": 16,
       "wins": 8,
-      "win_rate": 56.7
+      "win_rate": 53.1
+    },
+    {
+      "opponent_faction": "Chaos Space Marines",
+      "games": 13,
+      "wins": 8,
+      "win_rate": 65.4
     },
     {
       "opponent_faction": "Necrons",
@@ -427,64 +444,76 @@
       "win_rate": 54.2
     },
     {
-      "opponent_faction": "Adeptus Custodes",
-      "games": 10,
+      "opponent_faction": "T'au Empire",
+      "games": 12,
       "wins": 4,
-      "win_rate": 40.0
+      "win_rate": 33.3
     },
     {
-      "opponent_faction": "T'au Empire",
-      "games": 10,
-      "wins": 4,
-      "win_rate": 40.0
+      "opponent_faction": "Emperor's Children",
+      "games": 11,
+      "wins": 5,
+      "win_rate": 45.5
     },
     {
       "opponent_faction": "Orks",
-      "games": 9,
+      "games": 10,
       "wins": 4,
-      "win_rate": 44.4
+      "win_rate": 40.0
     },
     {
       "opponent_faction": "Astra Militarum",
-      "games": 9,
+      "games": 10,
       "wins": 4,
-      "win_rate": 44.4
+      "win_rate": 45.0
     },
     {
-      "opponent_faction": "Chaos Space Marines",
+      "opponent_faction": "Adeptus Custodes",
+      "games": 9,
+      "wins": 3,
+      "win_rate": 33.3
+    },
+    {
+      "opponent_faction": "World Eaters",
+      "games": 9,
+      "wins": 8,
+      "win_rate": 88.9
+    },
+    {
+      "opponent_faction": "Imperial Knights",
       "games": 8,
-      "wins": 6,
-      "win_rate": 81.2
+      "wins": 3,
+      "win_rate": 43.8
     },
     {
       "opponent_faction": "Thousand Sons",
       "games": 8,
-      "wins": 3,
-      "win_rate": 37.5
+      "wins": 4,
+      "win_rate": 50.0
     },
     {
-      "opponent_faction": "Emperor's Children",
+      "opponent_faction": "Chaos Daemons",
       "games": 8,
-      "wins": 3,
-      "win_rate": 37.5
-    },
-    {
-      "opponent_faction": "World Eaters",
-      "games": 7,
-      "wins": 6,
-      "win_rate": 85.7
-    },
-    {
-      "opponent_faction": "Imperial Knights",
-      "games": 6,
-      "wins": 2,
-      "win_rate": 41.7
+      "wins": 5,
+      "win_rate": 62.5
     },
     {
       "opponent_faction": "Death Guard",
-      "games": 6,
+      "games": 8,
+      "wins": 3,
+      "win_rate": 43.8
+    },
+    {
+      "opponent_faction": "Aeldari",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "Adeptus Mechanicus",
+      "games": 7,
       "wins": 2,
-      "win_rate": 41.7
+      "win_rate": 35.7
     },
     {
       "opponent_faction": "Leagues of Votann",
@@ -493,16 +522,10 @@
       "win_rate": 16.7
     },
     {
-      "opponent_faction": "Chaos Daemons",
+      "opponent_faction": "Drukhari",
       "games": 5,
-      "wins": 3,
-      "win_rate": 60.0
-    },
-    {
-      "opponent_faction": "Aeldari",
-      "games": 5,
-      "wins": 2,
-      "win_rate": 40.0
+      "wins": 1,
+      "win_rate": 20.0
     }
   ],
   "timeline": [
@@ -517,9 +540,17 @@
     {
       "week": "2026-W25",
       "lists": 27,
-      "games": 135,
-      "win_rate": 52.6,
-      "total_lists": 1244,
+      "games": 130,
+      "win_rate": 53.8,
+      "total_lists": 1259,
+      "play_rate": 2.1
+    },
+    {
+      "week": "2026-W26",
+      "lists": 11,
+      "games": 47,
+      "win_rate": 43.6,
+      "total_lists": 494,
       "play_rate": 2.2
     }
   ]

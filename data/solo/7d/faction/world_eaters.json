@@ -1,28 +1,28 @@
 {
   "faction": "World Eaters",
   "slug": "world_eaters",
-  "as_of": "2026-06-28",
+  "as_of": "2026-07-06",
   "window_days": 7,
   "event_type": "solo",
-  "lists": 19,
-  "games": 88,
-  "play_rate": 4.0,
-  "win_rate": 42.0,
-  "trend_delta": 12.0,
+  "lists": 20,
+  "games": 95,
+  "play_rate": 4.1,
+  "win_rate": 49.5,
+  "trend_delta": 7.5,
   "top_detachment": "Berzerker Warband",
-  "ci_lower": 32.3,
+  "ci_lower": 39.6,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 0.0,
+  "x1_pct": 10.0,
   "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Berzerker Warband",
       "base_archetype": "World Eaters \u2014 Berzerker Warband",
-      "lists": 9,
+      "lists": 10,
       "games": 45,
-      "play_rate": 47.4,
-      "win_rate": 42.2,
+      "play_rate": 50.0,
+      "win_rate": 48.9,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -30,31 +30,31 @@
     {
       "detachment": "Brazen Engines + Khorne Daemonkin",
       "base_archetype": "World Eaters \u2014 Brazen Engines + Khorne Daemonkin",
-      "lists": 4,
-      "games": 15,
-      "play_rate": 21.1,
-      "win_rate": 46.7,
+      "lists": 5,
+      "games": 25,
+      "play_rate": 25.0,
+      "win_rate": 52.0,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
+      "x1_pct": 20.0,
       "tournament_wins": 0
     },
     {
-      "detachment": "Possessed Slaughterband + Vessels Of Wrath",
-      "base_archetype": "World Eaters \u2014 Possessed Slaughterband + Vessels Of Wrath",
-      "lists": 3,
-      "games": 15,
-      "play_rate": 15.8,
-      "win_rate": 40.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Goretrack Onslaught + Vessels Of Wrath",
-      "base_archetype": "World Eaters \u2014 Goretrack Onslaught + Vessels Of Wrath",
+      "detachment": "Possessed Slaughterband",
+      "base_archetype": "World Eaters \u2014 Possessed Slaughterband",
       "lists": 1,
       "games": 5,
-      "play_rate": 5.3,
+      "play_rate": 5.0,
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Brazen Engines + Khorne Daemonkin (Rampaging Terrors)",
+      "base_archetype": "World Eaters \u2014 Brazen Engines + Khorne Daemonkin (Rampaging Terrors)",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.0,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -65,7 +65,29 @@
       "base_archetype": "World Eaters \u2014 Butchers Of Khorne + Goretrack Onslaught",
       "lists": 1,
       "games": 5,
-      "play_rate": 5.3,
+      "play_rate": 5.0,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Berzerker Warband (Relentless Rage)",
+      "base_archetype": "World Eaters \u2014 Berzerker Warband (Relentless Rage)",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.0,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Brazen Engines + Possessed Slaughterband",
+      "base_archetype": "World Eaters \u2014 Brazen Engines + Possessed Slaughterband",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.0,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -75,89 +97,62 @@
   "dispositions": [
     {
       "disposition": "Purge the Foe",
-      "lists": 17,
-      "play_rate": 89.5,
-      "win_rate": 42.3,
+      "lists": 15,
+      "play_rate": 75.0,
+      "win_rate": 52.9,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 78
+      "x1_pct": 13.3,
+      "games": 70
     },
     {
-      "disposition": "Take and Hold",
-      "lists": 2,
-      "play_rate": 10.5,
+      "disposition": "Reconnaissance",
+      "lists": 4,
+      "play_rate": 20.0,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 10
+      "games": 20
+    },
+    {
+      "disposition": "Take and Hold",
+      "lists": 1,
+      "play_rate": 5.0,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5
     }
   ],
   "top_players": [
     {
-      "player_name": "Eric Breeden",
-      "detachment": "Berzerker Warband",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/EaQyx8TC0rik",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Christian Muschalek",
-      "detachment": "Berzerker Warband",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/SO00tpNShFKu",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Thomas Petzenhammer",
-      "detachment": "Berzerker Warband",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/Msh3wBV2lWPo",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Carlos Ru\u00edz",
-      "detachment": "Berzerker Warband",
+      "player_name": "Leo Monty",
+      "detachment": "Possessed Slaughterband",
       "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/2cGp1E90WDmD",
+      "list_url": "https://www.bestcoastpairings.com/list/7vJyekUkyTQj",
       "source": "bcp",
-      "wins": 3,
-      "losses": 2,
+      "wins": 4,
+      "losses": 1,
       "draws": 0,
       "games": 5,
-      "win_rate": 60.0
+      "win_rate": 80.0
     },
     {
-      "player_name": "Edmund Dymott",
-      "detachment": "Possessed Slaughterband + Vessels Of Wrath",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/QdbWEty0TQUa",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "David Carlisle",
+      "player_name": "Aidan Sutherley-Gilmour",
       "detachment": "Brazen Engines + Khorne Daemonkin",
       "disposition": "Purge the Foe, Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/IkVtJXmy1TIz",
+      "list_url": "https://www.bestcoastpairings.com/list/9lBHNFzbGzsQ",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Peter Biondic",
+      "detachment": "Berzerker Warband",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/hG20iUKCVizv",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -166,46 +161,70 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Alex Robins",
-      "detachment": "Brazen Engines + Khorne Daemonkin",
-      "disposition": "Purge the Foe, Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/XONKVPIUVPdS",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Grant McCarty",
+      "player_name": "Jacob Gioulekas",
       "detachment": "Berzerker Warband",
       "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/8ZHiKe17G6gA",
+      "list_url": "https://www.bestcoastpairings.com/list/sZGuoqo9RXK3",
       "source": "bcp",
-      "wins": 2,
-      "losses": 3,
+      "wins": 3,
+      "losses": 2,
       "draws": 0,
       "games": 5,
-      "win_rate": 40.0
+      "win_rate": 60.0
     },
     {
-      "player_name": "Jordon Weatherwax",
-      "detachment": "Goretrack Onslaught + Vessels Of Wrath",
-      "disposition": "Priority Assets, Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/vfQtQcXblPRe",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Manuel Ramos",
+      "player_name": "Dean Sinnbeck",
       "detachment": "Berzerker Warband",
       "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/rCmGfLYddefl",
+      "list_url": "https://www.bestcoastpairings.com/list/xkpOydicvMoc",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Muhammad Farid",
+      "detachment": "Brazen Engines + Khorne Daemonkin",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/9WTBMwIyUKUY",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Caleb Bowman",
+      "detachment": "Berzerker Warband",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/LmE7pF5O6p15",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Craig Pitches",
+      "detachment": "Berzerker Warband",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/lKpTRPlpWvUn",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Jonathon Penn",
+      "detachment": "Berzerker Warband",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/hcRehYRYQBGj",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -214,10 +233,10 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Rick Wright",
-      "detachment": "Possessed Slaughterband + Vessels Of Wrath",
-      "disposition": "Priority Assets, Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/BnVRjkr0JQQH",
+      "player_name": "James Hughes",
+      "detachment": "Berzerker Warband",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/8uYWLr0cT9WD",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -226,10 +245,82 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Cade Van Tilburg",
+      "player_name": "Angel Mayoral",
+      "detachment": "Berzerker Warband",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/f9HrPtbQW09e",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Osama Al Rumaihi",
+      "detachment": "Brazen Engines + Khorne Daemonkin",
+      "disposition": "REKHORNE",
+      "list_url": "https://www.bestcoastpairings.com/list/Co3X9LJPPR7S",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Alex PRITCHARD-SMITH",
+      "detachment": "Brazen Engines + Khorne Daemonkin (Rampaging Terrors)",
+      "disposition": "",
+      "list_url": "https://www.bestcoastpairings.com/list/49cBYAhio2ot",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Jonathan Leary",
+      "detachment": "Brazen Engines + Khorne Daemonkin",
+      "disposition": "Purge the Foe, Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/3G5pyCOaJBHi",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Luke Gosling",
+      "detachment": "Brazen Engines + Khorne Daemonkin",
+      "disposition": "Purge the Foe, Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/aAUkGBW50b7i",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Paul Stewart",
       "detachment": "Butchers Of Khorne + Goretrack Onslaught",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/zpEMw0RYkJfV",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Johan (the tabled) Hackman",
+      "detachment": "Berzerker Warband (Relentless Rage)",
       "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/rRhPK4KHHasm",
+      "list_url": "https://www.bestcoastpairings.com/list/UdCRjzjTb9gm",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -238,124 +329,70 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Cole Baker",
-      "detachment": "Brazen Engines + Khorne Daemonkin",
-      "disposition": "Purge the Foe, Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/0bRUBzKibej3",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Espen Hodne",
+      "player_name": "RHYS FULLER",
       "detachment": "Brazen Engines + Possessed Slaughterband",
       "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/iXCtVsp2CI2G",
+      "list_url": "https://www.bestcoastpairings.com/list/6eiTHGMG0DB9",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Connor Greaves",
+      "detachment": "Berzerker Warband",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/EmdTIsTmlB9p",
       "source": "bcp",
       "wins": 1,
       "losses": 2,
       "draws": 0,
       "games": 3,
       "win_rate": 33.3
-    },
-    {
-      "player_name": "Sergio Vazquez",
-      "detachment": "Berzerker Warband",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/80lZFdWuARzp",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 4,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 20.0
-    },
-    {
-      "player_name": "Jason Miller",
-      "detachment": "Berzerker Warband",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/Wlq5ZBLRs0na",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 4,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 20.0
-    },
-    {
-      "player_name": "Jared Morton",
-      "detachment": "Berzerker Warband",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/MXhrga6G1IXN",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 4,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 20.0
-    },
-    {
-      "player_name": "Nathan Widlake",
-      "detachment": "Possessed Slaughterband + Vessels Of Wrath",
-      "disposition": "Priority Assets, Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/0sTkLcLW165f",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 4,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 20.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 15,
-      "wins": 9,
-      "win_rate": 60.0
+      "games": 17,
+      "wins": 6,
+      "win_rate": 35.3
     },
     {
-      "opponent_faction": "Tyranids",
+      "opponent_faction": "Chaos Space Marines",
       "games": 8,
-      "wins": 4,
-      "win_rate": 50.0
-    },
-    {
-      "opponent_faction": "Thousand Sons",
-      "games": 7,
-      "wins": 0,
-      "win_rate": 0.0
-    },
-    {
-      "opponent_faction": "Necrons",
-      "games": 6,
-      "wins": 3,
-      "win_rate": 50.0
-    },
-    {
-      "opponent_faction": "Grey Knights",
-      "games": 5,
-      "wins": 1,
-      "win_rate": 20.0
+      "wins": 6,
+      "win_rate": 75.0
     },
     {
       "opponent_faction": "Leagues of Votann",
-      "games": 5,
-      "wins": 2,
-      "win_rate": 40.0
+      "games": 8,
+      "wins": 3,
+      "win_rate": 37.5
+    },
+    {
+      "opponent_faction": "Tyranids",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 42.9
+    },
+    {
+      "opponent_faction": "Aeldari",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 66.7
     }
   ],
   "timeline": [
     {
-      "week": "2026-W25",
-      "lists": 19,
-      "games": 88,
-      "win_rate": 42.0,
-      "total_lists": 479,
-      "play_rate": 4.0
+      "week": "2026-W26",
+      "lists": 20,
+      "games": 95,
+      "win_rate": 49.5,
+      "total_lists": 484,
+      "play_rate": 4.1
     }
   ]
 }
