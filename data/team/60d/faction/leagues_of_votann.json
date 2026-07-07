@@ -1,7 +1,7 @@
 {
   "faction": "Leagues of Votann",
   "slug": "leagues_of_votann",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 60,
   "event_type": "team",
   "lists": 25,
@@ -19,12 +19,12 @@
     {
       "detachment": "Hearthguard Covenant + Needga\u00e2rd Oathband",
       "base_archetype": "Leagues of Votann \u2014 Hearthguard Covenant + Needga\u00e2rd Oathband",
-      "lists": 5,
-      "games": 25,
-      "play_rate": 20.0,
-      "win_rate": 44.0,
-      "x0_pct": 20.0,
-      "x1_pct": 20.0,
+      "lists": 6,
+      "games": 30,
+      "play_rate": 24.0,
+      "win_rate": 50.0,
+      "x0_pct": 16.7,
+      "x1_pct": 33.3,
       "tournament_wins": 0
     },
     {
@@ -136,17 +136,6 @@
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
-    },
-    {
-      "detachment": "Hearthguard Covenant + Needga\u00e2rd Oathband (Avatars of the Ancestors)",
-      "base_archetype": "Leagues of Votann \u2014 Hearthguard Covenant + Needga\u00e2rd Oathband (Avatars of the Ancestors)",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 4.0,
-      "win_rate": 80.0,
-      "x0_pct": 0.0,
-      "x1_pct": 100.0,
-      "tournament_wins": 0
     }
   ],
   "dispositions": [
@@ -196,6 +185,117 @@
       "games": 5
     }
   ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 30,
+      "wins": 16,
+      "win_rate": 53.3
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 30,
+      "wins": 14,
+      "win_rate": 48.3
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 24,
+      "wins": 11,
+      "win_rate": 45.8
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 21,
+      "wins": 9,
+      "win_rate": 45.2
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 16,
+      "wins": 9,
+      "win_rate": 56.2
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Reconnaissance",
+      "games": 9,
+      "wins": 4,
+      "win_rate": 44.4
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Disruption",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 42.9
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Take and Hold",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 66.7
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Priority Assets",
+      "games": 6,
+      "wins": 1,
+      "win_rate": 25.0
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Purge the Foe",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Purge the Foe",
+      "games": 15,
+      "wins": 10,
+      "win_rate": 70.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Reconnaissance",
+      "games": 13,
+      "wins": 7,
+      "win_rate": 53.8
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Take and Hold",
+      "games": 10,
+      "wins": 5,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Priority Assets",
+      "games": 10,
+      "wins": 5,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Disruption",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Priority Assets",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 64.3
+    }
+  ],
   "top_players": [
     {
       "player_name": "Ronnie Kinney",
@@ -224,7 +324,7 @@
     {
       "player_name": "Alex Mann",
       "detachment": "Hearthguard Covenant + Needga\u00e2rd Oathband",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/xQDcxHKN5u0e",
       "source": "bcp",
       "wins": 4,
@@ -235,8 +335,8 @@
     },
     {
       "player_name": "quentin conopask",
-      "detachment": "Hearthguard Covenant + Needga\u00e2rd Oathband (Avatars of the Ancestors)",
-      "disposition": "",
+      "detachment": "Hearthguard Covenant + Needga\u00e2rd Oathband",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/EbArEM7v699y",
       "source": "bcp",
       "wins": 4,
@@ -260,7 +360,7 @@
     {
       "player_name": "Blake Anderson",
       "detachment": "Hearthguard Covenant + Mercenary Oathband",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/j2MzF8vmZYap",
       "source": "bcp",
       "wins": 3,
@@ -272,7 +372,7 @@
     {
       "player_name": "Bryce Bennett",
       "detachment": "D\u00ealve Assault Shift",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/QfwJwQM3vvRW",
       "source": "bcp",
       "wins": 3,
@@ -308,7 +408,7 @@
     {
       "player_name": "Ken Lindsay",
       "detachment": "Armoured Trailblazers + Mercenary Oathband",
-      "disposition": "Disruption, Take and Hold",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/P8xNKj6WUjSV",
       "source": "bcp",
       "wins": 2,
@@ -320,7 +420,7 @@
     {
       "player_name": "Tyler Brownlee",
       "detachment": "Hearthguard Covenant + Persecution Prospect",
-      "disposition": "Disruption, Priority Assets",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/4JGzJaWc5jve",
       "source": "bcp",
       "wins": 2,
@@ -344,7 +444,7 @@
     {
       "player_name": "Theodore Boorum",
       "detachment": "D\u00ealve Assault Shift + Farseekers",
-      "disposition": "Purge the Foe, Reconnaissance",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/ImekJW75LkWx",
       "source": "bcp",
       "wins": 2,
@@ -356,7 +456,7 @@
     {
       "player_name": "Jordan Stuckenschneider",
       "detachment": "Farseekers + Mercenary Oathband",
-      "disposition": "Reconnaissance, Take and Hold",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/iQydUw027p1d",
       "source": "bcp",
       "wins": 2,
@@ -368,7 +468,7 @@
     {
       "player_name": "Arnold Manuel",
       "detachment": "Armoured Trailblazers + D\u00ealve Assault Shift",
-      "disposition": "Disruption, Purge the Foe",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/VK0wpVNuZi9I",
       "source": "bcp",
       "wins": 1,
@@ -380,7 +480,7 @@
     {
       "player_name": "Philip Fortin",
       "detachment": "Armoured Trailblazers + Farseekers + and Hearthguard Covenant",
-      "disposition": "Disruption, Priority Assets, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/uT89ohjR2EwU",
       "source": "bcp",
       "wins": 2,
@@ -416,7 +516,7 @@
     {
       "player_name": "Marvin Villatoro",
       "detachment": "Hearthband",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/ghSHM4cmau5e",
       "source": "bcp",
       "wins": 1,
@@ -428,7 +528,7 @@
     {
       "player_name": "Eric Koppel",
       "detachment": "Farseekers + Mercenary Oathband",
-      "disposition": "Reconnaissance, Take and Hold",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/eu2044KUVEeC",
       "source": "bcp",
       "wins": 1,

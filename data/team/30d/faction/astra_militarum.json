@@ -1,7 +1,7 @@
 {
   "faction": "Astra Militarum",
   "slug": "astra_militarum",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 30,
   "event_type": "team",
   "lists": 34,
@@ -149,8 +149,8 @@
       "tournament_wins": 0
     },
     {
-      "detachment": "Armoured Infantry + Designation Force (Squadron Command)",
-      "base_archetype": "Astra Militarum \u2014 Armoured Infantry + Designation Force (Squadron Command)",
+      "detachment": "Armoured Infantry + Designation Force",
+      "base_archetype": "Astra Militarum \u2014 Armoured Infantry + Designation Force",
       "lists": 1,
       "games": 5,
       "play_rate": 2.9,
@@ -218,11 +218,122 @@
       "games": 10
     }
   ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 41,
+      "wins": 13,
+      "win_rate": 32.9
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 39,
+      "wins": 12,
+      "win_rate": 32.1
+    },
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 34,
+      "wins": 11,
+      "win_rate": 32.4
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 29,
+      "wins": 13,
+      "win_rate": 44.8
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 25,
+      "wins": 10,
+      "win_rate": 40.0
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Take and Hold",
+      "games": 20,
+      "wins": 9,
+      "win_rate": 45.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Priority Assets",
+      "games": 13,
+      "wins": 3,
+      "win_rate": 26.9
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Purge the Foe",
+      "games": 13,
+      "wins": 5,
+      "win_rate": 38.5
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Reconnaissance",
+      "games": 11,
+      "wins": 5,
+      "win_rate": 45.5
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Disruption",
+      "games": 11,
+      "wins": 3,
+      "win_rate": 31.8
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Take and Hold",
+      "games": 14,
+      "wins": 2,
+      "win_rate": 17.9
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Priority Assets",
+      "games": 12,
+      "wins": 2,
+      "win_rate": 20.8
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Purge the Foe",
+      "games": 10,
+      "wins": 2,
+      "win_rate": 20.0
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Disruption",
+      "games": 9,
+      "wins": 5,
+      "win_rate": 61.1
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Reconnaissance",
+      "games": 8,
+      "wins": 3,
+      "win_rate": 37.5
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Priority Assets",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 50.0
+    }
+  ],
   "top_players": [
     {
       "player_name": "Nemo The Fish",
       "detachment": "Recon Elements",
-      "disposition": "",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/02KZws422Net",
       "source": "bcp",
       "wins": 5,
@@ -234,7 +345,7 @@
     {
       "player_name": "Frank Viruet",
       "detachment": "Grizzled Company",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/ikPfneNRvoTa",
       "source": "bcp",
       "wins": 3,
@@ -246,7 +357,7 @@
     {
       "player_name": "Jin Lee",
       "detachment": "Grizzled Company",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/1wWxYX9LZ5PB",
       "source": "bcp",
       "wins": 3,
@@ -258,7 +369,7 @@
     {
       "player_name": "J\u00f6kull \"Steve\" J\u00f3hannsson",
       "detachment": "Grizzled Company",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/D9pg8TqF6bcT",
       "source": "bcp",
       "wins": 3,
@@ -270,7 +381,7 @@
     {
       "player_name": "Eric Garcia",
       "detachment": "Designation Force + Steel Hammer",
-      "disposition": "Purge the Foe, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/MwUgNa0ey55O",
       "source": "bcp",
       "wins": 3,
@@ -282,7 +393,7 @@
     {
       "player_name": "Alec White-patarino",
       "detachment": "Abhuman Auxiliaries + Hammer Of The Emperor",
-      "disposition": "Purge the Foe, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/NTMTsILostUg",
       "source": "bcp",
       "wins": 3,
@@ -294,7 +405,7 @@
     {
       "player_name": "Reuben Fleming",
       "detachment": "Hammer of the Emperor",
-      "disposition": "",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/WA9sf7ijq46Y",
       "source": "bcp",
       "wins": 3,
@@ -306,7 +417,7 @@
     {
       "player_name": "Justin Crain",
       "detachment": "Abhuman Auxiliaries + Siege Regiment",
-      "disposition": "Disruption, Take and Hold",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/wSplUK20LR3d",
       "source": "bcp",
       "wins": 3,
@@ -330,7 +441,7 @@
     {
       "player_name": "Nicholas Rausch",
       "detachment": "Designation Force + Steel Hammer",
-      "disposition": "Purge the Foe, Reconnaissance",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/Fd3gDD2PlU6J",
       "source": "bcp",
       "wins": 3,
@@ -342,7 +453,7 @@
     {
       "player_name": "Kenneth Courtney",
       "detachment": "Grizzled Company",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/9EJoVcBCvFzY",
       "source": "bcp",
       "wins": 2,
@@ -366,7 +477,7 @@
     {
       "player_name": "Andrew Corban",
       "detachment": "Designation Force + Steel Hammer",
-      "disposition": "Purge the Foe, Reconnaissance",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/E4flDvySZ5HJ",
       "source": "bcp",
       "wins": 2,
@@ -378,7 +489,7 @@
     {
       "player_name": "Jordan Malik",
       "detachment": "Abhuman Auxiliaries + Siege Regiment",
-      "disposition": "Disruption, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/8lkrvtEvUsKF",
       "source": "bcp",
       "wins": 2,

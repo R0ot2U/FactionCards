@@ -1,7 +1,7 @@
 {
   "faction": "Adepta Sororitas",
   "slug": "adepta_sororitas",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 14,
   "event_type": "team",
   "lists": 16,
@@ -30,10 +30,10 @@
     {
       "detachment": "Army Of Faith + Sacred Champions",
       "base_archetype": "Adepta Sororitas \u2014 Army Of Faith + Sacred Champions",
-      "lists": 3,
-      "games": 15,
-      "play_rate": 18.8,
-      "win_rate": 30.0,
+      "lists": 4,
+      "games": 20,
+      "play_rate": 25.0,
+      "win_rate": 37.5,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -69,17 +69,6 @@
       "win_rate": 80.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Army Of Faith + Sacred Champions (Sacred Rites)",
-      "base_archetype": "Adepta Sororitas \u2014 Army Of Faith + Sacred Champions (Sacred Rites)",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 6.2,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
@@ -163,6 +152,89 @@
       "games": 5
     }
   ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 19,
+      "wins": 10,
+      "win_rate": 52.6
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 16,
+      "wins": 9,
+      "win_rate": 56.2
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 16,
+      "wins": 6,
+      "win_rate": 37.5
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 15,
+      "wins": 6,
+      "win_rate": 43.3
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 13,
+      "wins": 6,
+      "win_rate": 46.2
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Purge the Foe",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Reconnaissance",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 56.2
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Disruption",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 41.7
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Take and Hold",
+      "games": 9,
+      "wins": 5,
+      "win_rate": 55.6
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Disruption",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 41.7
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Priority Assets",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 30.0
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Purge the Foe",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0
+    }
+  ],
   "top_players": [
     {
       "player_name": "Francesca Guthrie",
@@ -179,7 +251,7 @@
     {
       "player_name": "John Harris",
       "detachment": "No Detachment",
-      "disposition": "",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/op5pTcta2h0a",
       "source": "bcp",
       "wins": 4,
@@ -203,7 +275,7 @@
     {
       "player_name": "Jeffrey Kolodner",
       "detachment": "Hallowed Martyrs",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/OewZj7FSyAAL",
       "source": "bcp",
       "wins": 3,
@@ -214,8 +286,8 @@
     },
     {
       "player_name": "Jeremiah Peavy",
-      "detachment": "Army Of Faith + Sacred Champions (Sacred Rites)",
-      "disposition": "",
+      "detachment": "Army Of Faith + Sacred Champions",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/nnoDShDelXtC",
       "source": "bcp",
       "wins": 3,
@@ -311,7 +383,7 @@
     {
       "player_name": "Nathan Wade",
       "detachment": "Hallowed Martyrs",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/DjLuNXHQBoFw",
       "source": "bcp",
       "wins": 1,

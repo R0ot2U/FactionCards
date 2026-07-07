@@ -1,41 +1,74 @@
 {
   "faction": "Emperor's Children",
   "slug": "emperor_s_children",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 7,
   "event_type": "solo",
-  "lists": 18,
-  "games": 79,
-  "play_rate": 3.7,
-  "win_rate": 56.3,
-  "trend_delta": -6.7,
-  "top_detachment": "Carnival Of Excess + Frenzied Host",
-  "ci_lower": 45.4,
+  "lists": 25,
+  "games": 114,
+  "play_rate": 4.0,
+  "win_rate": 57.5,
+  "trend_delta": -5.5,
+  "top_detachment": "Coterie Of The Conceited",
+  "ci_lower": 48.3,
   "meta_health": "slightly_under",
-  "x0_pct": 5.6,
-  "x1_pct": 16.7,
+  "x0_pct": 8.0,
+  "x1_pct": 16.0,
   "tournament_wins": 1,
   "detachments": [
     {
+      "detachment": "Coterie Of The Conceited",
+      "base_archetype": "Emperor's Children \u2014 Coterie Of The Conceited",
+      "lists": 8,
+      "games": 38,
+      "play_rate": 32.0,
+      "win_rate": 61.8,
+      "x0_pct": 0.0,
+      "x1_pct": 25.0,
+      "tournament_wins": 0
+    },
+    {
       "detachment": "Carnival Of Excess + Frenzied Host",
       "base_archetype": "Emperor's Children \u2014 Carnival Of Excess + Frenzied Host",
-      "lists": 6,
-      "games": 23,
-      "play_rate": 33.3,
-      "win_rate": 60.9,
-      "x0_pct": 20.0,
+      "lists": 7,
+      "games": 28,
+      "play_rate": 28.0,
+      "win_rate": 60.7,
+      "x0_pct": 16.7,
       "x1_pct": 0.0,
       "tournament_wins": 1
     },
     {
-      "detachment": "Coterie Of The Conceited",
-      "base_archetype": "Emperor's Children \u2014 Coterie Of The Conceited",
-      "lists": 6,
-      "games": 28,
-      "play_rate": 33.3,
-      "win_rate": 62.5,
+      "detachment": "Peerless Bladesmen + Spectacle Of Slaughter",
+      "base_archetype": "Emperor's Children \u2014 Peerless Bladesmen + Spectacle Of Slaughter",
+      "lists": 3,
+      "games": 13,
+      "play_rate": 12.0,
+      "win_rate": 30.8,
       "x0_pct": 0.0,
-      "x1_pct": 33.3,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Carnival Of Excess + Elegant Brutes",
+      "base_archetype": "Emperor's Children \u2014 Carnival Of Excess + Elegant Brutes",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 8.0,
+      "win_rate": 90.0,
+      "x0_pct": 50.0,
+      "x1_pct": 50.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Court Of The Phoenician + Frenzied Host",
+      "base_archetype": "Emperor's Children \u2014 Court Of The Phoenician + Frenzied Host",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 8.0,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
@@ -43,19 +76,8 @@
       "base_archetype": "Emperor's Children \u2014 Frenzied Host + Peerless Bladesmen",
       "lists": 1,
       "games": 5,
-      "play_rate": 5.6,
+      "play_rate": 4.0,
       "win_rate": 20.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Coterie of the Conceited (Pledges to the Dark Prince)",
-      "base_archetype": "Emperor's Children \u2014 Coterie of the Conceited (Pledges to the Dark Prince)",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 5.6,
-      "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -65,30 +87,19 @@
       "base_archetype": "Emperor's Children \u2014 No Detachment",
       "lists": 1,
       "games": 5,
-      "play_rate": 5.6,
+      "play_rate": 4.0,
       "win_rate": 80.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
       "tournament_wins": 0
     },
     {
-      "detachment": "Carnival Of Excess + Frenzied Host (Daemonic Empowerment)",
-      "base_archetype": "Emperor's Children \u2014 Carnival Of Excess + Frenzied Host (Daemonic Empowerment)",
+      "detachment": "Carnival Of Excess",
+      "base_archetype": "Emperor's Children \u2014 Carnival Of Excess",
       "lists": 1,
       "games": 5,
-      "play_rate": 5.6,
+      "play_rate": 4.0,
       "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Court Of The Phoenician + Frenzied Host",
-      "base_archetype": "Emperor's Children \u2014 Court Of The Phoenician + Frenzied Host",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 5.6,
-      "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -97,38 +108,156 @@
   "dispositions": [
     {
       "disposition": "Purge the Foe",
-      "lists": 10,
-      "play_rate": 55.6,
-      "win_rate": 57.6,
+      "lists": 14,
+      "play_rate": 56.0,
+      "win_rate": 53.8,
       "x0_pct": 0.0,
-      "x1_pct": 30.0,
-      "games": 46
+      "x1_pct": 21.4,
+      "games": 66
     },
     {
       "disposition": "Priority Assets",
-      "lists": 6,
-      "play_rate": 33.3,
-      "win_rate": 56.0,
-      "x0_pct": 16.7,
+      "lists": 8,
+      "play_rate": 32.0,
+      "win_rate": 62.9,
+      "x0_pct": 25.0,
       "x1_pct": 0.0,
-      "games": 25
+      "games": 35
     },
     {
       "disposition": "Disruption",
       "lists": 2,
-      "play_rate": 11.1,
+      "play_rate": 8.0,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "games": 8
+    },
+    {
+      "disposition": "Take and Hold",
+      "lists": 1,
+      "play_rate": 4.0,
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "games": 5
+    }
+  ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 28,
+      "wins": 14,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 27,
+      "wins": 19,
+      "win_rate": 70.4
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 21,
+      "wins": 11,
+      "win_rate": 52.4
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 20,
+      "wins": 11,
+      "win_rate": 57.5
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 17,
+      "wins": 10,
+      "win_rate": 58.8
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Purge the Foe",
+      "games": 12,
+      "wins": 10,
+      "win_rate": 83.3
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Take and Hold",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 57.1
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Priority Assets",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Disruption",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Take and Hold",
+      "games": 18,
+      "wins": 9,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Purge the Foe",
+      "games": 14,
+      "wins": 8,
+      "win_rate": 57.1
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Disruption",
+      "games": 12,
+      "wins": 7,
+      "win_rate": 62.5
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Priority Assets",
+      "games": 12,
+      "wins": 7,
+      "win_rate": 58.3
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Reconnaissance",
+      "games": 10,
+      "wins": 4,
+      "win_rate": 40.0
     }
   ],
   "top_players": [
     {
       "player_name": "Ferran Villegas",
       "detachment": "Carnival Of Excess + Frenzied Host",
-      "disposition": "Disruption, Priority Assets",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/C0qqm9zhYtkr",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Craig Bedford",
+      "detachment": "Carnival Of Excess + Elegant Brutes",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/oJgv7hAtlyrU",
       "source": "bcp",
       "wins": 5,
       "losses": 0,
@@ -151,8 +280,20 @@
     {
       "player_name": "Manel Tulla",
       "detachment": "No Detachment",
-      "disposition": "",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/Xs9Llj7aAGmj",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Dominik Tavernaro",
+      "detachment": "Carnival Of Excess + Elegant Brutes",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/ylzQXKoFb36L",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -174,8 +315,8 @@
     },
     {
       "player_name": "Richard McCammon",
-      "detachment": "Coterie of the Conceited (Pledges to the Dark Prince)",
-      "disposition": "",
+      "detachment": "Coterie Of The Conceited",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/ejRNVA8Pe97U",
       "source": "bcp",
       "wins": 3,
@@ -211,7 +352,7 @@
     {
       "player_name": "David Lozano",
       "detachment": "Carnival Of Excess + Frenzied Host",
-      "disposition": "Disruption, Priority Assets",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/O5f0cBvDDD1g",
       "source": "bcp",
       "wins": 3,
@@ -221,9 +362,21 @@
       "win_rate": 60.0
     },
     {
+      "player_name": "Mathias Peterlin",
+      "detachment": "Carnival Of Excess",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/ZnQhURQlNZjR",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
       "player_name": "Rune Husa",
-      "detachment": "Carnival Of Excess + Frenzied Host (Daemonic Empowerment)",
-      "disposition": "",
+      "detachment": "Carnival Of Excess + Frenzied Host",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/v724xbinw71t",
       "source": "bcp",
       "wins": 3,
@@ -257,9 +410,45 @@
       "win_rate": 60.0
     },
     {
+      "player_name": "Adam Elliott",
+      "detachment": "Peerless Bladesmen + Spectacle Of Slaughter",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/1Pf2w1hsGtqr",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Niall Jenkins",
+      "detachment": "Coterie Of The Conceited",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/6QbHhaoSOkQS",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Rich\u00e1rd Iv\u00e1ny",
+      "detachment": "Court Of The Phoenician + Frenzied Host",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/h6aKdN0GKgZH",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
       "player_name": "Sam Boardman",
       "detachment": "Court Of The Phoenician + Frenzied Host",
-      "disposition": "Disruption, Purge the Foe",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/Cg89kXErVYtu",
       "source": "bcp",
       "wins": 2,
@@ -271,7 +460,7 @@
     {
       "player_name": "Jonathan Fox",
       "detachment": "Carnival Of Excess + Frenzied Host",
-      "disposition": "Disruption, Priority Assets",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/fJOnixIgAMdK",
       "source": "bcp",
       "wins": 2,
@@ -283,7 +472,7 @@
     {
       "player_name": "Dean L",
       "detachment": "Carnival Of Excess + Frenzied Host",
-      "disposition": "Disruption, Priority Assets",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/v7r3YechDMHa",
       "source": "bcp",
       "wins": 1,
@@ -291,90 +480,72 @@
       "draws": 0,
       "games": 3,
       "win_rate": 33.3
-    },
-    {
-      "player_name": "Zak Lynch",
-      "detachment": "Frenzied Host + Peerless Bladesmen",
-      "disposition": "Disruption, Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/Py2xLrAxg013",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 4,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 20.0
-    },
-    {
-      "player_name": "Edgar Arias",
-      "detachment": "Peerless Bladesmen + Spectacle Of Slaughter",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/anznmNS6JZQM",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 3,
-      "draws": 0,
-      "games": 3,
-      "win_rate": 0.0
-    },
-    {
-      "player_name": "Jordan Tapp",
-      "detachment": "Coterie Of The Conceited",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/M1SEdthtkZXe",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 3,
-      "draws": 0,
-      "games": 3,
-      "win_rate": 0.0
     }
   ],
   "matchups": [
     {
-      "opponent_faction": "Necrons",
-      "games": 12,
-      "wins": 4,
-      "win_rate": 33.3
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 14,
+      "wins": 5,
+      "win_rate": 35.7
     },
     {
-      "opponent_faction": "Space Marines (Astartes)",
+      "opponent_faction": "Necrons",
+      "games": 13,
+      "wins": 5,
+      "win_rate": 38.5
+    },
+    {
+      "opponent_faction": "Drukhari",
+      "games": 10,
+      "wins": 5,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "Adeptus Custodes",
+      "games": 9,
+      "wins": 8,
+      "win_rate": 88.9
+    },
+    {
+      "opponent_faction": "Tyranids",
       "games": 9,
       "wins": 5,
       "win_rate": 55.6
     },
     {
-      "opponent_faction": "Drukhari",
-      "games": 7,
+      "opponent_faction": "Thousand Sons",
+      "games": 8,
       "wins": 3,
-      "win_rate": 42.9
+      "win_rate": 37.5
+    },
+    {
+      "opponent_faction": "Chaos Space Marines",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 66.7
     },
     {
       "opponent_faction": "Adeptus Mechanicus",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "Leagues of Votann",
       "games": 5,
       "wins": 3,
       "win_rate": 60.0
-    },
-    {
-      "opponent_faction": "Tyranids",
-      "games": 5,
-      "wins": 3,
-      "win_rate": 60.0
-    },
-    {
-      "opponent_faction": "Thousand Sons",
-      "games": 5,
-      "wins": 2,
-      "win_rate": 40.0
     }
   ],
   "timeline": [
     {
       "week": "2026-W26",
-      "lists": 18,
-      "games": 79,
-      "win_rate": 56.3,
-      "total_lists": 484,
-      "play_rate": 3.7
+      "lists": 25,
+      "games": 114,
+      "win_rate": 57.5,
+      "total_lists": 625,
+      "play_rate": 4.0
     }
   ]
 }

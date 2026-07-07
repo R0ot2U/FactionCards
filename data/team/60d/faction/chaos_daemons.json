@@ -1,7 +1,7 @@
 {
   "faction": "Chaos Daemons",
   "slug": "chaos_daemons",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 60,
   "event_type": "team",
   "lists": 32,
@@ -94,6 +94,17 @@
       "tournament_wins": 0
     },
     {
+      "detachment": "Daemonic Incursion",
+      "base_archetype": "Chaos Daemons \u2014 Daemonic Incursion",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 6.2,
+      "win_rate": 85.0,
+      "x0_pct": 50.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
       "detachment": "Lords Of The Warp + Plague Legion",
       "base_archetype": "Chaos Daemons \u2014 Lords Of The Warp + Plague Legion",
       "lists": 1,
@@ -123,28 +134,6 @@
       "play_rate": 3.1,
       "win_rate": 20.0,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Daemonic Incursion (Warp Rifts)",
-      "base_archetype": "Chaos Daemons \u2014 Daemonic Incursion (Warp Rifts)",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 3.1,
-      "win_rate": 70.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Daemonic Incursion",
-      "base_archetype": "Chaos Daemons \u2014 Daemonic Incursion",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 3.1,
-      "win_rate": 100.0,
-      "x0_pct": 100.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     },
@@ -229,11 +218,157 @@
       "games": 15
     }
   ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 37,
+      "wins": 17,
+      "win_rate": 45.9
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 36,
+      "wins": 20,
+      "win_rate": 55.6
+    },
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 30,
+      "wins": 20,
+      "win_rate": 68.3
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 28,
+      "wins": 20,
+      "win_rate": 71.4
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 25,
+      "wins": 14,
+      "win_rate": 56.0
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Priority Assets",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 58.3
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Disruption",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 66.7
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Priority Assets",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Take and Hold",
+      "games": 14,
+      "wins": 6,
+      "win_rate": 46.4
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Reconnaissance",
+      "games": 11,
+      "wins": 6,
+      "win_rate": 54.5
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Priority Assets",
+      "games": 10,
+      "wins": 5,
+      "win_rate": 55.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Purge the Foe",
+      "games": 8,
+      "wins": 5,
+      "win_rate": 62.5
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Disruption",
+      "games": 7,
+      "wins": 6,
+      "win_rate": 85.7
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Take and Hold",
+      "games": 11,
+      "wins": 5,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Purge the Foe",
+      "games": 11,
+      "wins": 7,
+      "win_rate": 63.6
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Disruption",
+      "games": 8,
+      "wins": 5,
+      "win_rate": 68.8
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Priority Assets",
+      "games": 8,
+      "wins": 5,
+      "win_rate": 68.8
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Reconnaissance",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Disruption",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 58.3
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Priority Assets",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 41.7
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Reconnaissance",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 70.0
+    }
+  ],
   "top_players": [
     {
       "player_name": "John Casey",
       "detachment": "Scintillating Legion",
-      "disposition": "",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/Sy8boeppHEd2",
       "source": "bcp",
       "wins": 5,
@@ -257,7 +392,7 @@
     {
       "player_name": "Nick Nanavati",
       "detachment": "Cavalcade Of Chaos + Shadow Legion",
-      "disposition": "Disruption, Purge the Foe",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/1njFU9UyMhBz",
       "source": "bcp",
       "wins": 4,
@@ -269,7 +404,7 @@
     {
       "player_name": "Kody Drake",
       "detachment": "Lords Of The Warp + Plague Legion",
-      "disposition": "Purge the Foe, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/6IEXNmVMxwtq",
       "source": "bcp",
       "wins": 4,
@@ -281,7 +416,7 @@
     {
       "player_name": "Matt Aspinwall",
       "detachment": "Scintillating Legion + Warptide",
-      "disposition": "Priority Assets, Reconnaissance",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/pub3XShdNpHB",
       "source": "bcp",
       "wins": 4,
@@ -293,7 +428,7 @@
     {
       "player_name": "Logan Funderburk",
       "detachment": "Blood Legion + Cavalcade Of Chaos",
-      "disposition": "",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/kuWKg1EcrVJf",
       "source": "bcp",
       "wins": 3,
@@ -305,7 +440,7 @@
     {
       "player_name": "Stephen Mitchell",
       "detachment": "Shadow Legion + Warptide",
-      "disposition": "Purge the Foe, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/mGRa2smQGf2m",
       "source": "bcp",
       "wins": 4,
@@ -317,7 +452,7 @@
     {
       "player_name": "John Topping",
       "detachment": "Plague Legion + Warptide",
-      "disposition": "Reconnaissance, Take and Hold",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/cXrjvsCsL0hj",
       "source": "bcp",
       "wins": 4,
@@ -341,7 +476,7 @@
     {
       "player_name": "Matt Zelus",
       "detachment": "Lords Of The Warp + Scintillating Legion",
-      "disposition": "Priority Assets, Purge the Foe",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/gUfNyxgT7Kge",
       "source": "bcp",
       "wins": 4,
@@ -376,8 +511,8 @@
     },
     {
       "player_name": "Dan Soare",
-      "detachment": "Daemonic Incursion (Warp Rifts)",
-      "disposition": "",
+      "detachment": "Daemonic Incursion",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/As5Dmj3xe9Fr",
       "source": "bcp",
       "wins": 3,
@@ -413,7 +548,7 @@
     {
       "player_name": "David Miracle",
       "detachment": "Cavalcade Of Chaos + Scintillating Legion",
-      "disposition": "Disruption, Priority Assets",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/4IdPFDeL0lV2",
       "source": "bcp",
       "wins": 2,
@@ -425,7 +560,7 @@
     {
       "player_name": "Brandon Perdue",
       "detachment": "Plague Legion + Warptide",
-      "disposition": "Reconnaissance, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/IfzpUa9IbNit",
       "source": "bcp",
       "wins": 3,
@@ -461,7 +596,7 @@
     {
       "player_name": "Timothy Grant",
       "detachment": "Plague Legion + Warptide",
-      "disposition": "Reconnaissance, Take and Hold",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/Oq7nKgCojueE",
       "source": "bcp",
       "wins": 2,

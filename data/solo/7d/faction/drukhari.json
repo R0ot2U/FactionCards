@@ -1,41 +1,41 @@
 {
   "faction": "Drukhari",
   "slug": "drukhari",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 7,
   "event_type": "solo",
-  "lists": 12,
-  "games": 58,
-  "play_rate": 2.5,
-  "win_rate": 51.7,
-  "trend_delta": -5.1,
+  "lists": 20,
+  "games": 97,
+  "play_rate": 3.2,
+  "win_rate": 45.4,
+  "trend_delta": -11.4,
   "top_detachment": "Exhibition Of Slaughter + Skysplinter Assault",
-  "ci_lower": 39.2,
+  "ci_lower": 35.8,
   "meta_health": "strongly_under",
-  "x0_pct": 8.3,
-  "x1_pct": 8.3,
+  "x0_pct": 5.0,
+  "x1_pct": 5.0,
   "tournament_wins": 0,
   "detachments": [
     {
       "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
       "base_archetype": "Drukhari \u2014 Exhibition Of Slaughter + Skysplinter Assault",
-      "lists": 7,
-      "games": 35,
-      "play_rate": 58.3,
-      "win_rate": 54.3,
-      "x0_pct": 14.3,
+      "lists": 11,
+      "games": 54,
+      "play_rate": 55.0,
+      "win_rate": 48.1,
+      "x0_pct": 9.1,
       "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
       "detachment": "Kabalite Agonysts + Skysplinter Assault",
       "base_archetype": "Drukhari \u2014 Kabalite Agonysts + Skysplinter Assault",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 16.7,
-      "win_rate": 70.0,
+      "lists": 5,
+      "games": 25,
+      "play_rate": 25.0,
+      "win_rate": 52.0,
       "x0_pct": 0.0,
-      "x1_pct": 50.0,
+      "x1_pct": 20.0,
       "tournament_wins": 0
     },
     {
@@ -43,7 +43,7 @@
       "base_archetype": "Drukhari \u2014 Kabalite Cartel + Tools Of Torment",
       "lists": 1,
       "games": 5,
-      "play_rate": 8.3,
+      "play_rate": 5.0,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -54,8 +54,19 @@
       "base_archetype": "Drukhari \u2014 Exhibition Of Slaughter + Kabalite Cartel",
       "lists": 1,
       "games": 5,
-      "play_rate": 8.3,
+      "play_rate": 5.0,
       "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Reaper's Wager",
+      "base_archetype": "Drukhari \u2014 Reaper's Wager",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.0,
+      "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -64,28 +75,114 @@
   "dispositions": [
     {
       "disposition": "Reconnaissance",
-      "lists": 10,
-      "play_rate": 83.3,
-      "win_rate": 54.2,
-      "x0_pct": 10.0,
-      "x1_pct": 10.0,
-      "games": 48
+      "lists": 14,
+      "play_rate": 70.0,
+      "win_rate": 50.7,
+      "x0_pct": 7.1,
+      "x1_pct": 7.1,
+      "games": 67
     },
     {
       "disposition": "Disruption",
-      "lists": 2,
-      "play_rate": 16.7,
+      "lists": 3,
+      "play_rate": 15.0,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 10
+      "games": 15
+    },
+    {
+      "disposition": "Purge the Foe",
+      "lists": 3,
+      "play_rate": 15.0,
+      "win_rate": 26.7,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 15
+    }
+  ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 38,
+      "wins": 16,
+      "win_rate": 42.1
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 21,
+      "wins": 10,
+      "win_rate": 47.6
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 15,
+      "wins": 8,
+      "win_rate": 53.3
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 14,
+      "wins": 6,
+      "win_rate": 42.9
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Purge the Foe",
+      "games": 9,
+      "wins": 3,
+      "win_rate": 33.3
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Purge the Foe",
+      "games": 6,
+      "wins": 1,
+      "win_rate": 16.7
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Purge the Foe",
+      "games": 23,
+      "wins": 12,
+      "win_rate": 52.2
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Take and Hold",
+      "games": 15,
+      "wins": 9,
+      "win_rate": 60.0
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Priority Assets",
+      "games": 11,
+      "wins": 5,
+      "win_rate": 45.5
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Reconnaissance",
+      "games": 9,
+      "wins": 4,
+      "win_rate": 44.4
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Disruption",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0
     }
   ],
   "top_players": [
     {
       "player_name": "Joshua Townley",
       "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/QmEWg0DydiyH",
       "source": "bcp",
       "wins": 5,
@@ -97,7 +194,7 @@
     {
       "player_name": "Robert Kimpton",
       "detachment": "Kabalite Agonysts + Skysplinter Assault",
-      "disposition": "Purge the Foe, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/mmcFdclcUvQ6",
       "source": "bcp",
       "wins": 4,
@@ -111,6 +208,18 @@
       "detachment": "Exhibition Of Slaughter + Kabalite Cartel",
       "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/jU3DU0V7tRsx",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Sebastian Kipling",
+      "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/KgJ11oz76vOu",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -133,7 +242,7 @@
     {
       "player_name": "Callam Taylor-Deighton",
       "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/78luftUrfU9W",
       "source": "bcp",
       "wins": 3,
@@ -145,7 +254,7 @@
     {
       "player_name": "Paulie Wallis",
       "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/JAsbx2hMB4ag",
       "source": "bcp",
       "wins": 3,
@@ -157,8 +266,32 @@
     {
       "player_name": "Patrick Harrison",
       "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/jt95AyLbGRpf",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Callum Brownson-Smith",
+      "detachment": "Kabalite Agonysts + Skysplinter Assault",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/BM0Rv65BDB9w",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Harry Dobson",
+      "detachment": "Kabalite Agonysts + Skysplinter Assault",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/W57CPAeAyQGD",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -181,7 +314,7 @@
     {
       "player_name": "Julio Fernandez",
       "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/Xt2eLUXhtPOu",
       "source": "bcp",
       "wins": 2,
@@ -191,10 +324,58 @@
       "win_rate": 40.0
     },
     {
+      "player_name": "Alec Burgess",
+      "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/l9ADkXrnhkyx",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Irina Kremers",
+      "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/0447KRnJjyjq",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "games": 4,
+      "win_rate": 25.0
+    },
+    {
       "player_name": "Carlos Arguello",
       "detachment": "Kabalite Cartel + Tools Of Torment",
       "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/LJZVG05ivyEB",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Peter Timko",
+      "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/m09UqkgkKTFu",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Stefan Pazderka",
+      "detachment": "Reaper's Wager",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/P3ycaqiVGV3z",
       "source": "bcp",
       "wins": 1,
       "losses": 4,
@@ -215,9 +396,21 @@
       "win_rate": 20.0
     },
     {
+      "player_name": "Will Smith",
+      "detachment": "Kabalite Agonysts + Skysplinter Assault",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/WckBfymKsPr2",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 5,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 0.0
+    },
+    {
       "player_name": "Leo Steiner",
       "detachment": "Spectacle of Spite",
-      "disposition": "",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/K5UIxKph9Jev",
       "source": "bcp",
       "wins": 0,
@@ -230,31 +423,61 @@
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 9,
-      "wins": 5,
-      "win_rate": 55.6
+      "games": 15,
+      "wins": 6,
+      "win_rate": 40.0
     },
     {
       "opponent_faction": "Emperor's Children",
-      "games": 7,
+      "games": 10,
+      "wins": 5,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "Necrons",
+      "games": 9,
       "wins": 4,
-      "win_rate": 57.1
+      "win_rate": 44.4
+    },
+    {
+      "opponent_faction": "Imperial Knights",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_faction": "Thousand Sons",
+      "games": 7,
+      "wins": 2,
+      "win_rate": 28.6
     },
     {
       "opponent_faction": "Orks",
-      "games": 5,
+      "games": 7,
       "wins": 1,
-      "win_rate": 20.0
+      "win_rate": 14.3
+    },
+    {
+      "opponent_faction": "Leagues of Votann",
+      "games": 5,
+      "wins": 4,
+      "win_rate": 80.0
+    },
+    {
+      "opponent_faction": "Tyranids",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0
     }
   ],
   "timeline": [
     {
       "week": "2026-W26",
-      "lists": 12,
-      "games": 58,
-      "win_rate": 51.7,
-      "total_lists": 484,
-      "play_rate": 2.5
+      "lists": 20,
+      "games": 97,
+      "win_rate": 45.4,
+      "total_lists": 625,
+      "play_rate": 3.2
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
   "faction": "Deathwatch",
   "slug": "deathwatch",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 60,
   "event_type": "solo",
   "lists": 6,
   "games": 30,
-  "play_rate": 0.6,
+  "play_rate": 0.5,
   "win_rate": 50.0,
   "trend_delta": null,
   "top_detachment": "Black Spear Task Force",
@@ -19,23 +19,12 @@
     {
       "detachment": "Black Spear Task Force",
       "base_archetype": "Deathwatch \u2014 Black Spear Task Force",
-      "lists": 5,
-      "games": 25,
-      "play_rate": 83.3,
-      "win_rate": 52.0,
+      "lists": 6,
+      "games": 30,
+      "play_rate": 100.0,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
-      "x1_pct": 20.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Black Spear Task Force (Kill Teams)",
-      "base_archetype": "Deathwatch \u2014 Black Spear Task Force (Kill Teams)",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 16.7,
-      "win_rate": 40.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
+      "x1_pct": 16.7,
       "tournament_wins": 0
     }
   ],
@@ -48,6 +37,30 @@
       "x0_pct": 0.0,
       "x1_pct": 16.7,
       "games": 30
+    }
+  ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 11,
+      "wins": 5,
+      "win_rate": 45.5
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Purge the Foe",
+      "games": 11,
+      "wins": 5,
+      "win_rate": 45.5
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Take and Hold",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 50.0
     }
   ],
   "top_players": [
@@ -77,8 +90,8 @@
     },
     {
       "player_name": "Ayman Pathfinder",
-      "detachment": "Black Spear Task Force (Kill Teams)",
-      "disposition": "",
+      "detachment": "Black Spear Task Force",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/Lt2tSY0yVFLI",
       "source": "bcp",
       "wins": 2,
@@ -147,8 +160,8 @@
       "lists": 4,
       "games": 20,
       "win_rate": 45.0,
-      "total_lists": 484,
-      "play_rate": 0.8
+      "total_lists": 625,
+      "play_rate": 0.6
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
   "faction": "Deathwatch",
   "slug": "deathwatch",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 60,
   "event_type": "all",
   "lists": 9,
   "games": 45,
-  "play_rate": 0.5,
+  "play_rate": 0.4,
   "win_rate": 50.0,
   "trend_delta": null,
   "top_detachment": "Black Spear Task Force",
@@ -19,23 +19,12 @@
     {
       "detachment": "Black Spear Task Force",
       "base_archetype": "Deathwatch \u2014 Black Spear Task Force",
-      "lists": 7,
-      "games": 35,
-      "play_rate": 77.8,
-      "win_rate": 44.3,
+      "lists": 8,
+      "games": 40,
+      "play_rate": 88.9,
+      "win_rate": 43.8,
       "x0_pct": 0.0,
-      "x1_pct": 14.3,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Black Spear Task Force (Kill Teams)",
-      "base_archetype": "Deathwatch \u2014 Black Spear Task Force (Kill Teams)",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 11.1,
-      "win_rate": 40.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
+      "x1_pct": 12.5,
       "tournament_wins": 0
     },
     {
@@ -70,11 +59,55 @@
       "games": 5
     }
   ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 14,
+      "wins": 6,
+      "win_rate": 42.9
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 12,
+      "wins": 7,
+      "win_rate": 58.3
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Purge the Foe",
+      "games": 13,
+      "wins": 5,
+      "win_rate": 38.5
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Take and Hold",
+      "games": 10,
+      "wins": 5,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Disruption",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Reconnaissance",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 50.0
+    }
+  ],
   "top_players": [
     {
       "player_name": "Travis Finell",
       "detachment": "No Detachment",
-      "disposition": "",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/x0Q5LLJ06jWT",
       "source": "bcp",
       "wins": 5,
@@ -109,8 +142,8 @@
     },
     {
       "player_name": "Ayman Pathfinder",
-      "detachment": "Black Spear Task Force (Kill Teams)",
-      "disposition": "",
+      "detachment": "Black Spear Task Force",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/Lt2tSY0yVFLI",
       "source": "bcp",
       "wins": 2,
@@ -203,8 +236,8 @@
       "lists": 4,
       "games": 20,
       "win_rate": 45.0,
-      "total_lists": 484,
-      "play_rate": 0.8
+      "total_lists": 625,
+      "play_rate": 0.6
     }
   ]
 }

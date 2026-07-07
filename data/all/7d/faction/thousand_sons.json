@@ -1,50 +1,61 @@
 {
   "faction": "Thousand Sons",
   "slug": "thousand_sons",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 7,
   "event_type": "all",
-  "lists": 23,
-  "games": 106,
-  "play_rate": 4.8,
-  "win_rate": 57.5,
-  "trend_delta": -2.7,
+  "lists": 31,
+  "games": 139,
+  "play_rate": 5.0,
+  "win_rate": 57.6,
+  "trend_delta": -2.6,
   "top_detachment": "Hexwarp Thrallband + Sekhetar Cohort",
-  "ci_lower": 48.0,
+  "ci_lower": 49.2,
   "meta_health": "slightly_under",
-  "x0_pct": 8.7,
-  "x1_pct": 17.4,
+  "x0_pct": 9.7,
+  "x1_pct": 19.4,
   "tournament_wins": 1,
   "detachments": [
     {
       "detachment": "Hexwarp Thrallband + Sekhetar Cohort",
       "base_archetype": "Thousand Sons \u2014 Hexwarp Thrallband + Sekhetar Cohort",
-      "lists": 11,
-      "games": 52,
-      "play_rate": 47.8,
-      "win_rate": 67.3,
-      "x0_pct": 18.2,
-      "x1_pct": 18.2,
+      "lists": 15,
+      "games": 68,
+      "play_rate": 48.4,
+      "win_rate": 66.2,
+      "x0_pct": 20.0,
+      "x1_pct": 20.0,
       "tournament_wins": 1
     },
     {
       "detachment": "Hexwarp Thrallband + Ritual Of Regeneration",
       "base_archetype": "Thousand Sons \u2014 Hexwarp Thrallband + Ritual Of Regeneration",
-      "lists": 6,
-      "games": 26,
-      "play_rate": 26.1,
-      "win_rate": 46.2,
+      "lists": 7,
+      "games": 31,
+      "play_rate": 22.6,
+      "win_rate": 45.2,
       "x0_pct": 0.0,
-      "x1_pct": 16.7,
+      "x1_pct": 14.3,
       "tournament_wins": 0
     },
     {
       "detachment": "Grand Coven",
       "base_archetype": "Thousand Sons \u2014 Grand Coven",
-      "lists": 3,
-      "games": 15,
-      "play_rate": 13.0,
-      "win_rate": 53.3,
+      "lists": 4,
+      "games": 20,
+      "play_rate": 12.9,
+      "win_rate": 55.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Rubricae Phalanx",
+      "base_archetype": "Thousand Sons \u2014 Rubricae Phalanx",
+      "lists": 2,
+      "games": 5,
+      "play_rate": 6.5,
+      "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -54,7 +65,18 @@
       "base_archetype": "Thousand Sons \u2014 Ritual Of Regeneration + Warpforged Cabal",
       "lists": 1,
       "games": 5,
-      "play_rate": 4.3,
+      "play_rate": 3.2,
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "No Detachment",
+      "base_archetype": "Thousand Sons \u2014 No Detachment",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 3.2,
       "win_rate": 80.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
@@ -65,7 +87,7 @@
       "base_archetype": "Thousand Sons \u2014 Ritual Of Regeneration + Warpmeld Pact",
       "lists": 1,
       "games": 5,
-      "play_rate": 4.3,
+      "play_rate": 3.2,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -75,37 +97,149 @@
   "dispositions": [
     {
       "disposition": "Priority Assets",
-      "lists": 10,
-      "play_rate": 43.5,
-      "win_rate": 63.8,
-      "x0_pct": 20.0,
-      "x1_pct": 10.0,
-      "games": 47
+      "lists": 12,
+      "play_rate": 38.7,
+      "win_rate": 61.4,
+      "x0_pct": 16.7,
+      "x1_pct": 8.3,
+      "games": 57
     },
     {
       "disposition": "Take and Hold",
-      "lists": 7,
-      "play_rate": 30.4,
-      "win_rate": 58.6,
-      "x0_pct": 0.0,
-      "x1_pct": 28.6,
-      "games": 29
+      "lists": 11,
+      "play_rate": 35.5,
+      "win_rate": 59.5,
+      "x0_pct": 9.1,
+      "x1_pct": 27.3,
+      "games": 42
     },
     {
       "disposition": "Purge the Foe",
-      "lists": 6,
-      "play_rate": 26.1,
-      "win_rate": 46.7,
+      "lists": 7,
+      "play_rate": 22.6,
+      "win_rate": 45.7,
       "x0_pct": 0.0,
-      "x1_pct": 16.7,
-      "games": 30
+      "x1_pct": 14.3,
+      "games": 35
+    }
+  ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 42,
+      "wins": 26,
+      "win_rate": 61.9
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 39,
+      "wins": 22,
+      "win_rate": 56.4
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 26,
+      "wins": 14,
+      "win_rate": 53.8
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 24,
+      "wins": 14,
+      "win_rate": 58.3
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Purge the Foe",
+      "games": 16,
+      "wins": 12,
+      "win_rate": 75.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Take and Hold",
+      "games": 15,
+      "wins": 7,
+      "win_rate": 46.7
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Reconnaissance",
+      "games": 14,
+      "wins": 8,
+      "win_rate": 57.1
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Priority Assets",
+      "games": 9,
+      "wins": 5,
+      "win_rate": 55.6
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Purge the Foe",
+      "games": 13,
+      "wins": 6,
+      "win_rate": 46.2
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Take and Hold",
+      "games": 11,
+      "wins": 6,
+      "win_rate": 54.5
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Reconnaissance",
+      "games": 6,
+      "wins": 1,
+      "win_rate": 16.7
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Priority Assets",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Purge the Foe",
+      "games": 12,
+      "wins": 7,
+      "win_rate": 58.3
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Take and Hold",
+      "games": 11,
+      "wins": 8,
+      "win_rate": 72.7
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Priority Assets",
+      "games": 9,
+      "wins": 5,
+      "win_rate": 55.6
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Reconnaissance",
+      "games": 5,
+      "wins": 4,
+      "win_rate": 80.0
     }
   ],
   "top_players": [
     {
       "player_name": "Sam Nash",
       "detachment": "Hexwarp Thrallband + Sekhetar Cohort",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/2HI7L1AXsLj4",
       "source": "bcp",
       "wins": 5,
@@ -141,8 +275,32 @@
     {
       "player_name": "Escipi\u00f3n El Rojo",
       "detachment": "Hexwarp Thrallband + Sekhetar Cohort",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/ass9oFVTf9KX",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Alberto Movio",
+      "detachment": "Hexwarp Thrallband + Sekhetar Cohort",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/KnTKPrOqucnL",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Fabian Huber",
+      "detachment": "No Detachment",
+      "disposition": null,
+      "list_url": "https://www.bestcoastpairings.com/list/fpwieX15Q2gG",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -153,7 +311,7 @@
     {
       "player_name": "Jonny Talbot",
       "detachment": "Hexwarp Thrallband + Sekhetar Cohort",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/PxsZGZEY0AZ6",
       "source": "bcp",
       "wins": 4,
@@ -165,7 +323,7 @@
     {
       "player_name": "Stephen MacGregor",
       "detachment": "Hexwarp Thrallband + Sekhetar Cohort",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/0wqwAWF48KP3",
       "source": "bcp",
       "wins": 3,
@@ -187,9 +345,21 @@
       "win_rate": 60.0
     },
     {
+      "player_name": "Leonardo Vertu\u0161",
+      "detachment": "Grand Coven",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/5DMeX4QnGR9N",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
       "player_name": "Timofey Absent",
       "detachment": "Grand Coven",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/iy0XKZGWFKxt",
       "source": "bcp",
       "wins": 3,
@@ -201,7 +371,7 @@
     {
       "player_name": "Elias Vaage",
       "detachment": "Hexwarp Thrallband + Sekhetar Cohort",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/wwRv9zeDaIDq",
       "source": "bcp",
       "wins": 3,
@@ -213,7 +383,7 @@
     {
       "player_name": "Simon Evans",
       "detachment": "Hexwarp Thrallband + Sekhetar Cohort",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/BmLndWmmLjaZ",
       "source": "bcp",
       "wins": 3,
@@ -237,7 +407,7 @@
     {
       "player_name": "Alex Hughes",
       "detachment": "Hexwarp Thrallband + Ritual Of Regeneration",
-      "disposition": "Purge the Foe, Take and Hold",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/BRGTEOdhmgea",
       "source": "bcp",
       "wins": 3,
@@ -261,7 +431,7 @@
     {
       "player_name": "Matt Ridge-Vesty",
       "detachment": "Hexwarp Thrallband + Ritual Of Regeneration",
-      "disposition": "Purge the Foe, Take and Hold",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/eXnA4sViDtHj",
       "source": "bcp",
       "wins": 3,
@@ -283,99 +453,93 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Charlotte Kong",
+      "player_name": "Jonny Crabtree",
       "detachment": "Hexwarp Thrallband + Sekhetar Cohort",
-      "disposition": "Priority Assets, Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/eGQq7JUbFp3X",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Ben Garvey",
-      "detachment": "Grand Coven",
-      "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/1kPPTd7s2D1F",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Nick Brewin",
-      "detachment": "Hexwarp Thrallband + Ritual Of Regeneration",
-      "disposition": "Purge the Foe, Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/k5i4snFNB9xv",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Josh Pope",
-      "detachment": "Hexwarp Thrallband + Sekhetar Cohort",
-      "disposition": "Priority Assets, Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/3SZCyi10bjMR",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 2,
-      "draws": 0,
-      "games": 3,
-      "win_rate": 33.3
-    },
-    {
-      "player_name": "Jack Crozier",
-      "detachment": "Rubricae Phalanx",
       "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/1qNPhGSn89hn",
+      "list_url": "https://www.bestcoastpairings.com/list/M6iTWvKD9ahp",
       "source": "bcp",
-      "wins": 1,
+      "wins": 2,
       "losses": 2,
       "draws": 0,
-      "games": 3,
-      "win_rate": 33.3
+      "games": 4,
+      "win_rate": 50.0
+    },
+    {
+      "player_name": "Valentin Voros",
+      "detachment": "Hexwarp Thrallband + Sekhetar Cohort",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/bKyFKMpWkKR7",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 20,
-      "wins": 9,
-      "win_rate": 45.0
-    },
-    {
-      "opponent_faction": "Tyranids",
-      "games": 11,
-      "wins": 6,
-      "win_rate": 54.5
-    },
-    {
-      "opponent_faction": "T'au Empire",
-      "games": 8,
-      "wins": 4,
+      "games": 22,
+      "wins": 11,
       "win_rate": 50.0
     },
     {
+      "opponent_faction": "Tyranids",
+      "games": 13,
+      "wins": 7,
+      "win_rate": 53.8
+    },
+    {
+      "opponent_faction": "T'au Empire",
+      "games": 12,
+      "wins": 5,
+      "win_rate": 41.7
+    },
+    {
       "opponent_faction": "Necrons",
-      "games": 8,
-      "wins": 3,
-      "win_rate": 37.5
+      "games": 11,
+      "wins": 5,
+      "win_rate": 45.5
     },
     {
       "opponent_faction": "Adeptus Custodes",
-      "games": 5,
-      "wins": 3,
-      "win_rate": 60.0
+      "games": 8,
+      "wins": 5,
+      "win_rate": 62.5
     },
     {
       "opponent_faction": "Emperor's Children",
+      "games": 8,
+      "wins": 5,
+      "win_rate": 62.5
+    },
+    {
+      "opponent_faction": "Drukhari",
+      "games": 7,
+      "wins": 5,
+      "win_rate": 71.4
+    },
+    {
+      "opponent_faction": "Orks",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 57.1
+    },
+    {
+      "opponent_faction": "Imperial Knights",
+      "games": 7,
+      "wins": 5,
+      "win_rate": 71.4
+    },
+    {
+      "opponent_faction": "Chaos Daemons",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0
+    },
+    {
+      "opponent_faction": "Adeptus Mechanicus",
       "games": 5,
       "wins": 3,
       "win_rate": 60.0
@@ -384,11 +548,11 @@
   "timeline": [
     {
       "week": "2026-W26",
-      "lists": 23,
-      "games": 106,
-      "win_rate": 57.5,
-      "total_lists": 484,
-      "play_rate": 4.8
+      "lists": 31,
+      "games": 139,
+      "win_rate": 57.6,
+      "total_lists": 625,
+      "play_rate": 5.0
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "faction": "Drukhari",
   "slug": "drukhari",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 60,
   "event_type": "team",
   "lists": 29,
@@ -19,10 +19,10 @@
     {
       "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
       "base_archetype": "Drukhari \u2014 Exhibition Of Slaughter + Skysplinter Assault",
-      "lists": 16,
-      "games": 85,
-      "play_rate": 55.2,
-      "win_rate": 31.2,
+      "lists": 17,
+      "games": 90,
+      "play_rate": 58.6,
+      "win_rate": 31.1,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -83,17 +83,6 @@
       "tournament_wins": 0
     },
     {
-      "detachment": "Exhibition Of Slaughter + Skysplinter Assault (Exacting Cruelty)",
-      "base_archetype": "Drukhari \u2014 Exhibition Of Slaughter + Skysplinter Assault (Exacting Cruelty)",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 3.4,
-      "win_rate": 30.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
       "detachment": "Spectacle Of Spite",
       "base_archetype": "Drukhari \u2014 Spectacle Of Spite",
       "lists": 1,
@@ -116,8 +105,8 @@
       "tournament_wins": 0
     },
     {
-      "detachment": "Exhibition of Slaughter (1 DP) + Kabalite Agonysts (1 DP) + Tools of Torment (Exacting Cruelty) (1 DP)",
-      "base_archetype": "Drukhari \u2014 Exhibition of Slaughter (1 DP) + Kabalite Agonysts (1 DP) + Tools of Torment (Exacting Cruelty) (1 DP)",
+      "detachment": "Exhibition Of Slaughter + Kabalite Agonysts + Tools Of Torment",
+      "base_archetype": "Drukhari \u2014 Exhibition Of Slaughter + Kabalite Agonysts + Tools Of Torment",
       "lists": 1,
       "games": 5,
       "play_rate": 3.4,
@@ -127,8 +116,8 @@
       "tournament_wins": 0
     },
     {
-      "detachment": "Skysplinter Assault (2DP) + Exhibition of Slaughter (1DP)",
-      "base_archetype": "Drukhari \u2014 Skysplinter Assault (2DP) + Exhibition of Slaughter (1DP)",
+      "detachment": "Skysplinter Assault+ Exhibition of Slaughter",
+      "base_archetype": "Drukhari \u2014 Skysplinter Assault+ Exhibition of Slaughter",
       "lists": 1,
       "games": 5,
       "play_rate": 3.4,
@@ -185,6 +174,117 @@
       "games": 10
     }
   ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 44,
+      "wins": 18,
+      "win_rate": 42.0
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 32,
+      "wins": 14,
+      "win_rate": 43.8
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 28,
+      "wins": 14,
+      "win_rate": 51.8
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 23,
+      "wins": 8,
+      "win_rate": 34.8
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 21,
+      "wins": 5,
+      "win_rate": 26.2
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Reconnaissance",
+      "games": 9,
+      "wins": 1,
+      "win_rate": 16.7
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Disruption",
+      "games": 9,
+      "wins": 1,
+      "win_rate": 16.7
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Purge the Foe",
+      "games": 8,
+      "wins": 2,
+      "win_rate": 25.0
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Take and Hold",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Priority Assets",
+      "games": 5,
+      "wins": 4,
+      "win_rate": 90.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Purge the Foe",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Purge the Foe",
+      "games": 22,
+      "wins": 9,
+      "win_rate": 40.9
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Take and Hold",
+      "games": 14,
+      "wins": 4,
+      "win_rate": 32.1
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Priority Assets",
+      "games": 14,
+      "wins": 5,
+      "win_rate": 35.7
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Disruption",
+      "games": 9,
+      "wins": 4,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Reconnaissance",
+      "games": 8,
+      "wins": 1,
+      "win_rate": 18.8
+    }
+  ],
   "top_players": [
     {
       "player_name": "Matt Lane",
@@ -201,7 +301,7 @@
     {
       "player_name": "Matthew Wells-Putz",
       "detachment": "Exhibition Of Slaughter + Realspace Raiders",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/LazveVwlk80g",
       "source": "bcp",
       "wins": 4,
@@ -225,7 +325,7 @@
     {
       "player_name": "N\u00e1ndor P\u00e1l",
       "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/dLDE0bTYWw5T",
       "source": "bcp",
       "wins": 2,
@@ -260,8 +360,8 @@
     },
     {
       "player_name": "Matthew Stredwick",
-      "detachment": "Skysplinter Assault (2DP) + Exhibition of Slaughter (1DP)",
-      "disposition": "",
+      "detachment": "Skysplinter Assault+ Exhibition of Slaughter",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/KolXgGzcgovH",
       "source": "bcp",
       "wins": 3,
@@ -285,7 +385,7 @@
     {
       "player_name": "Rob Lebeau",
       "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
-      "disposition": "",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/mISerGOlVhli",
       "source": "bcp",
       "wins": 2,
@@ -321,7 +421,7 @@
     {
       "player_name": "Stephen Corrales",
       "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/ctmtUprZ82JK",
       "source": "bcp",
       "wins": 2,
@@ -333,7 +433,7 @@
     {
       "player_name": "Jerad Berhow",
       "detachment": "Realspace Raiders + Tools Of Torment",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/Rd8TXJ2w4MkP",
       "source": "bcp",
       "wins": 1,
@@ -345,7 +445,7 @@
     {
       "player_name": "William Shanahan",
       "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
-      "disposition": "",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/nCTxIz8H9iC5",
       "source": "bcp",
       "wins": 2,
@@ -357,7 +457,7 @@
     {
       "player_name": "Jesse Reno",
       "detachment": "Realspace Raid + Tools of Slaughter",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/FVB9h0RsfPjr",
       "source": "bcp",
       "wins": 1,
@@ -369,7 +469,7 @@
     {
       "player_name": "Jerad Doyle",
       "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/vL6HPb5daswm",
       "source": "bcp",
       "wins": 2,
@@ -381,7 +481,7 @@
     {
       "player_name": "Benjamin Starling",
       "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/mybQMHdsjRgG",
       "source": "bcp",
       "wins": 1,
@@ -392,8 +492,8 @@
     },
     {
       "player_name": "Ari C",
-      "detachment": "Exhibition Of Slaughter + Skysplinter Assault (Exacting Cruelty)",
-      "disposition": "",
+      "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/CaZ1VBY1bdkU",
       "source": "bcp",
       "wins": 1,
@@ -404,8 +504,8 @@
     },
     {
       "player_name": "Todosiciuc \"Todo\" Bogdan",
-      "detachment": "Exhibition of Slaughter (1 DP) + Kabalite Agonysts (1 DP) + Tools of Torment (Exacting Cruelty) (1 DP)",
-      "disposition": "",
+      "detachment": "Exhibition Of Slaughter + Kabalite Agonysts + Tools Of Torment",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/pJYUHJtv9vDL",
       "source": "bcp",
       "wins": 1,

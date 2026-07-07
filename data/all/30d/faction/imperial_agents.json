@@ -1,7 +1,7 @@
 {
   "faction": "Imperial Agents",
   "slug": "imperial_agents",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 30,
   "event_type": "all",
   "lists": 6,
@@ -81,6 +81,16 @@
       "games": 10
     }
   ],
+  "disposition_matchups": [],
+  "disposition_cross": [
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Purge the Foe",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 50.0
+    }
+  ],
   "top_players": [
     {
       "player_name": "Ross Tully",
@@ -109,7 +119,7 @@
     {
       "player_name": "Matt Stadnik",
       "detachment": "No Detachment",
-      "disposition": "",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/E8PqosdsFMhH",
       "source": "bcp",
       "wins": 2,
@@ -177,7 +187,7 @@
       "lists": 1,
       "games": 5,
       "win_rate": 80.0,
-      "total_lists": 484,
+      "total_lists": 625,
       "play_rate": 0.2
     }
   ]

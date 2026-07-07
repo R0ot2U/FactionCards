@@ -1,7 +1,7 @@
 {
   "faction": "Aeldari",
   "slug": "aeldari",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 60,
   "event_type": "team",
   "lists": 30,
@@ -138,8 +138,8 @@
       "tournament_wins": 0
     },
     {
-      "detachment": "Path of the Outcast 1dp + Seer Council 2dp (Strands of Fate)",
-      "base_archetype": "Aeldari \u2014 Path of the Outcast 1dp + Seer Council 2dp (Strands of Fate)",
+      "detachment": "Path of the Outcast 1dp + Seer Council 2dp",
+      "base_archetype": "Aeldari \u2014 Path of the Outcast 1dp + Seer Council 2dp",
       "lists": 1,
       "games": 5,
       "play_rate": 3.3,
@@ -160,8 +160,8 @@
       "tournament_wins": 0
     },
     {
-      "detachment": "Armoured Warhost + Ghosts of the Webway (Skilled Crews)",
-      "base_archetype": "Aeldari \u2014 Armoured Warhost + Ghosts of the Webway (Skilled Crews)",
+      "detachment": "Armoured Warhost + Ghosts Of The Webway",
+      "base_archetype": "Aeldari \u2014 Armoured Warhost + Ghosts Of The Webway",
       "lists": 1,
       "games": 5,
       "play_rate": 3.3,
@@ -251,6 +251,110 @@
       "games": 10
     }
   ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 42,
+      "wins": 11,
+      "win_rate": 26.2
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 30,
+      "wins": 9,
+      "win_rate": 30.0
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 30,
+      "wins": 8,
+      "win_rate": 26.7
+    },
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 26,
+      "wins": 16,
+      "win_rate": 61.5
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 19,
+      "wins": 11,
+      "win_rate": 60.5
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Reconnaissance",
+      "games": 18,
+      "wins": 1,
+      "win_rate": 8.3
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Take and Hold",
+      "games": 18,
+      "wins": 4,
+      "win_rate": 25.0
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Priority Assets",
+      "games": 14,
+      "wins": 3,
+      "win_rate": 25.0
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Disruption",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 33.3
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Purge the Foe",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Reconnaissance",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Reconnaissance",
+      "games": 13,
+      "wins": 6,
+      "win_rate": 46.2
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Purge the Foe",
+      "games": 10,
+      "wins": 6,
+      "win_rate": 65.0
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Priority Assets",
+      "games": 9,
+      "wins": 3,
+      "win_rate": 33.3
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Disruption",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 64.3
+    }
+  ],
   "top_players": [
     {
       "player_name": "Tanner Floyd",
@@ -267,7 +371,7 @@
     {
       "player_name": "Mark Slaughter",
       "detachment": "Eldritch Raiders + Path Of The Outcast",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/pt78PmcQMPuR",
       "source": "bcp",
       "wins": 4,
@@ -279,7 +383,7 @@
     {
       "player_name": "Matt Schuchman",
       "detachment": "Path Of The Outcast + Seer Council",
-      "disposition": "Priority Assets, Reconnaissance",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/fKbo0P8KddVY",
       "source": "bcp",
       "wins": 4,
@@ -291,7 +395,7 @@
     {
       "player_name": "Aaron Knafla",
       "detachment": "Corsair Coterie + Path Of The Outcast",
-      "disposition": "Priority Assets, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/BSc6UPa94epN",
       "source": "bcp",
       "wins": 3,
@@ -303,7 +407,7 @@
     {
       "player_name": "Greg Maginnity",
       "detachment": "No Detachment",
-      "disposition": "",
+      "disposition": null,
       "list_url": "https://www.bestcoastpairings.com/list/SVgxC89tdZRa",
       "source": "bcp",
       "wins": 3,
@@ -314,8 +418,8 @@
     },
     {
       "player_name": "Tad Beaty",
-      "detachment": "Path of the Outcast 1dp + Seer Council 2dp (Strands of Fate)",
-      "disposition": "",
+      "detachment": "Path of the Outcast 1dp + Seer Council 2dp",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/RAsvGjbv9tQH",
       "source": "bcp",
       "wins": 3,
@@ -327,7 +431,7 @@
     {
       "player_name": "Daniel Olivas",
       "detachment": "Ghosts Of The Webway + Path Of The Outcast",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/taFnY4vEZAYJ",
       "source": "bcp",
       "wins": 3,
@@ -363,7 +467,7 @@
     {
       "player_name": "Stuart Price",
       "detachment": "Path Of The Outcast + Spirit Conclave",
-      "disposition": "Reconnaissance, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/YS4EY4f4fCMg",
       "source": "bcp",
       "wins": 2,
@@ -375,7 +479,7 @@
     {
       "player_name": "Joshua White",
       "detachment": "Path Of The Outcast + Seer Council",
-      "disposition": "Priority Assets, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/YF0xv1P6gKUR",
       "source": "bcp",
       "wins": 2,
@@ -387,7 +491,7 @@
     {
       "player_name": "Michael Turner",
       "detachment": "Fateful Performance + Spirit Conclave",
-      "disposition": "Disruption, Take and Hold",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/oddpyq1DeTD5",
       "source": "bcp",
       "wins": 1,
@@ -411,7 +515,7 @@
     {
       "player_name": "Patrick Shanahan",
       "detachment": "No Detachment",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/aR6HOI5kWlDr",
       "source": "bcp",
       "wins": 2,
@@ -423,7 +527,7 @@
     {
       "player_name": "Dayton Johnson",
       "detachment": "Corsair Coterie + Path Of The Outcast",
-      "disposition": "",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/2CvwUMtrKSLM",
       "source": "bcp",
       "wins": 2,
@@ -458,7 +562,7 @@
     },
     {
       "player_name": "Kristin Chantler",
-      "detachment": "Armoured Warhost + Ghosts of the Webway (Skilled Crews)",
+      "detachment": "Armoured Warhost + Ghosts Of The Webway",
       "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/ouSxGT0J5Y2T",
       "source": "bcp",
@@ -483,7 +587,7 @@
     {
       "player_name": "Gerald Morris",
       "detachment": "Path Of The Outcast + Seer Council",
-      "disposition": "Priority Assets, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/Q7AiqpFHr9wo",
       "source": "bcp",
       "wins": 0,

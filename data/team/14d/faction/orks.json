@@ -1,7 +1,7 @@
 {
   "faction": "Orks",
   "slug": "orks",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 14,
   "event_type": "team",
   "lists": 39,
@@ -240,6 +240,138 @@
       "games": 10
     }
   ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 44,
+      "wins": 22,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 42,
+      "wins": 26,
+      "win_rate": 63.1
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 38,
+      "wins": 19,
+      "win_rate": 51.3
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 36,
+      "wins": 24,
+      "win_rate": 68.1
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 32,
+      "wins": 19,
+      "win_rate": 59.4
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Purge the Foe",
+      "games": 14,
+      "wins": 4,
+      "win_rate": 28.6
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Priority Assets",
+      "games": 14,
+      "wins": 7,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Reconnaissance",
+      "games": 11,
+      "wins": 5,
+      "win_rate": 45.5
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Disruption",
+      "games": 9,
+      "wins": 5,
+      "win_rate": 61.1
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Take and Hold",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Disruption",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 58.3
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Disruption",
+      "games": 6,
+      "wins": 5,
+      "win_rate": 83.3
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Purge the Foe",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 41.7
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Take and Hold",
+      "games": 5,
+      "wins": 4,
+      "win_rate": 90.0
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Purge the Foe",
+      "games": 22,
+      "wins": 14,
+      "win_rate": 65.9
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Take and Hold",
+      "games": 20,
+      "wins": 14,
+      "win_rate": 70.0
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Disruption",
+      "games": 19,
+      "wins": 10,
+      "win_rate": 55.3
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Priority Assets",
+      "games": 18,
+      "wins": 8,
+      "win_rate": 47.2
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Reconnaissance",
+      "games": 17,
+      "wins": 11,
+      "win_rate": 64.7
+    }
+  ],
   "top_players": [
     {
       "player_name": "Steven Pampreen",
@@ -256,7 +388,7 @@
     {
       "player_name": "Logan Haga",
       "detachment": "More Dakka! + Speedwaaagh!",
-      "disposition": "Purge the Foe, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/KW9zv5bk5zml",
       "source": "bcp",
       "wins": 5,
@@ -268,7 +400,7 @@
     {
       "player_name": "Zach Starcher",
       "detachment": "Green Tide + More Dakka!",
-      "disposition": "Purge the Foe, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/iMPCiaVhYZkz",
       "source": "bcp",
       "wins": 4,
@@ -292,7 +424,7 @@
     {
       "player_name": "Logan Chantler",
       "detachment": "Green Tide + Rollin' Deff",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/gnNyORYJ7F8L",
       "source": "bcp",
       "wins": 4,
@@ -316,7 +448,7 @@
     {
       "player_name": "Travis King",
       "detachment": "Green Tide + Taktikal Brigade",
-      "disposition": "Disruption, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/jLUR8IcXHeig",
       "source": "bcp",
       "wins": 4,
@@ -328,7 +460,7 @@
     {
       "player_name": "Ryan Brown",
       "detachment": "Green Tide + Taktikal Brigade",
-      "disposition": "Disruption, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/CwSTgRY3nbl2",
       "source": "bcp",
       "wins": 3,
@@ -340,7 +472,7 @@
     {
       "player_name": "Matt McWatters",
       "detachment": "Green Tide + Taktikal Brigade",
-      "disposition": "Disruption, Take and Hold",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/r33znsW3mApt",
       "source": "bcp",
       "wins": 3,
@@ -376,7 +508,7 @@
     {
       "player_name": "Logan Gilles",
       "detachment": "Taktikal Brigade",
-      "disposition": "",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/nKj0Kbi2VjTh",
       "source": "bcp",
       "wins": 2,
@@ -388,7 +520,7 @@
     {
       "player_name": "Weston Goldsmith",
       "detachment": "Green Tide / Taktikal Brigade",
-      "disposition": "",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/sKsJfK8lqTLp",
       "source": "bcp",
       "wins": 3,
@@ -412,7 +544,7 @@
     {
       "player_name": "Alex Herrera",
       "detachment": "Freebooter Krew + Taktikal Brigade",
-      "disposition": "Disruption, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/eLeGMBO4VIwU",
       "source": "bcp",
       "wins": 2,
@@ -436,7 +568,7 @@
     {
       "player_name": "Rob Ashwill",
       "detachment": "More Dakka!",
-      "disposition": "",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/0t8tdz9FGR43",
       "source": "bcp",
       "wins": 2,
@@ -448,7 +580,7 @@
     {
       "player_name": "Joseph Shaw",
       "detachment": "Green Tide + More Dakka!",
-      "disposition": "Purge the Foe, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/AaPDqEbggauS",
       "source": "bcp",
       "wins": 2,
@@ -460,7 +592,7 @@
     {
       "player_name": "Daniel Twitty",
       "detachment": "Freebooter Krew + More Dakka!",
-      "disposition": "Purge the Foe, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/lRj7rjWT0Ftj",
       "source": "bcp",
       "wins": 2,

@@ -1,7 +1,7 @@
 {
   "faction": "Dark Angels",
   "slug": "dark_angels",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 60,
   "event_type": "team",
   "lists": 22,
@@ -30,12 +30,12 @@
     {
       "detachment": "Wrath Of The Rock",
       "base_archetype": "Dark Angels \u2014 Wrath Of The Rock",
-      "lists": 6,
-      "games": 30,
-      "play_rate": 27.3,
-      "win_rate": 58.3,
-      "x0_pct": 16.7,
-      "x1_pct": 16.7,
+      "lists": 7,
+      "games": 35,
+      "play_rate": 31.8,
+      "win_rate": 58.6,
+      "x0_pct": 14.3,
+      "x1_pct": 14.3,
       "tournament_wins": 0
     },
     {
@@ -105,17 +105,6 @@
       "tournament_wins": 0
     },
     {
-      "detachment": "Wrath of the Rock (Dutiful Tenacity)",
-      "base_archetype": "Dark Angels \u2014 Wrath of the Rock (Dutiful Tenacity)",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 4.5,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
       "detachment": "Interrogation Conclave + Unforgiven Task Force",
       "base_archetype": "Dark Angels \u2014 Interrogation Conclave + Unforgiven Task Force",
       "lists": 1,
@@ -174,6 +163,89 @@
       "games": 5
     }
   ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 26,
+      "wins": 11,
+      "win_rate": 42.3
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 25,
+      "wins": 15,
+      "win_rate": 62.0
+    },
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 23,
+      "wins": 17,
+      "win_rate": 73.9
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 19,
+      "wins": 9,
+      "win_rate": 47.4
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 13,
+      "wins": 6,
+      "win_rate": 50.0
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Purge the Foe",
+      "games": 10,
+      "wins": 8,
+      "win_rate": 80.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Disruption",
+      "games": 10,
+      "wins": 6,
+      "win_rate": 65.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Priority Assets",
+      "games": 8,
+      "wins": 2,
+      "win_rate": 31.2
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Priority Assets",
+      "games": 11,
+      "wins": 6,
+      "win_rate": 54.5
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Take and Hold",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 42.9
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Purge the Foe",
+      "games": 7,
+      "wins": 5,
+      "win_rate": 71.4
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Disruption",
+      "games": 7,
+      "wins": 6,
+      "win_rate": 85.7
+    }
+  ],
   "top_players": [
     {
       "player_name": "Kyle McCord",
@@ -190,7 +262,7 @@
     {
       "player_name": "Luka Dragacevic",
       "detachment": "Company Of Hunters + Darkflight Pursuit",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/wejYx1Xsijv6",
       "source": "bcp",
       "wins": 5,
@@ -214,7 +286,7 @@
     {
       "player_name": "John Trotter",
       "detachment": "Company Of Hunters + Darkflight Pursuit",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/Cgc2klAPAOvr",
       "source": "bcp",
       "wins": 4,
@@ -226,7 +298,7 @@
     {
       "player_name": "Dan Meloro",
       "detachment": "Dark Age Arsenal + Ironstorm Spearhead",
-      "disposition": "Priority Assets, Purge the Foe",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/f8dmhbdmim82",
       "source": "bcp",
       "wins": 4,
@@ -250,7 +322,7 @@
     {
       "player_name": "Christian Bailey",
       "detachment": "No Detachment",
-      "disposition": "",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/mG37z2utr8sM",
       "source": "bcp",
       "wins": 2,
@@ -262,7 +334,7 @@
     {
       "player_name": "Killian Minton",
       "detachment": "Dark Age Arsenal + Darkflight Pursuit + Fulguris Task Force",
-      "disposition": "Disruption, Priority Assets, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/zynlIrh5tnyj",
       "source": "bcp",
       "wins": 3,
@@ -274,7 +346,7 @@
     {
       "player_name": "Jarec Turner",
       "detachment": "Company Of Hunters + Darkflight Pursuit",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/VqwZmWgCMlfe",
       "source": "bcp",
       "wins": 2,
@@ -285,8 +357,8 @@
     },
     {
       "player_name": "Todd Spencer",
-      "detachment": "Wrath of the Rock (Dutiful Tenacity)",
-      "disposition": "",
+      "detachment": "Wrath Of The Rock",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/66oCniuIwjsg",
       "source": "bcp",
       "wins": 3,
@@ -310,7 +382,7 @@
     {
       "player_name": "Brittany Landon",
       "detachment": "Inner Circle Task Force + Interrogation Conclave",
-      "disposition": "Priority Assets, Purge the Foe",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/GiPbzAiX6Trq",
       "source": "bcp",
       "wins": 2,
@@ -334,7 +406,7 @@
     {
       "player_name": "Carl Loskill",
       "detachment": "Company Of Hunters + Darkflight Pursuit",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/MvOBMiIYE9HV",
       "source": "bcp",
       "wins": 2,
@@ -358,7 +430,7 @@
     {
       "player_name": "Mike Bridgmon",
       "detachment": "Company Of Hunters + Darkflight Pursuit",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/OCSW3e0ZEZJD",
       "source": "bcp",
       "wins": 2,
@@ -370,7 +442,7 @@
     {
       "player_name": "Samuel Baker",
       "detachment": "Dark Age Arsenal + Darkflight Pursuit + Fulguris Task Force",
-      "disposition": "Disruption, Priority Assets, Reconnaissance",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/EPFXibOGRce8",
       "source": "bcp",
       "wins": 2,
@@ -382,7 +454,7 @@
     {
       "player_name": "Ryan McDonald",
       "detachment": "Company Of Hunters + Darkflight Pursuit",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/anbIjTbTvGcR",
       "source": "bcp",
       "wins": 1,
@@ -406,7 +478,7 @@
     {
       "player_name": "Thomas Congdon",
       "detachment": "Company Of Hunters + Darkflight Pursuit",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/wlgRfBtHpQst",
       "source": "bcp",
       "wins": 1,

@@ -1,7 +1,7 @@
 {
   "faction": "Imperial Knights",
   "slug": "imperial_knights",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 60,
   "event_type": "team",
   "lists": 37,
@@ -74,10 +74,10 @@
     {
       "detachment": "Gate Warden Lance",
       "base_archetype": "Imperial Knights \u2014 Gate Warden Lance",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 2.7,
-      "win_rate": 70.0,
+      "lists": 2,
+      "games": 10,
+      "play_rate": 5.4,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -111,17 +111,6 @@
       "games": 5,
       "play_rate": 2.7,
       "win_rate": 40.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Gate Warden Lance (Dauntless Defenders)",
-      "base_archetype": "Imperial Knights \u2014 Gate Warden Lance (Dauntless Defenders)",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 2.7,
-      "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -174,6 +163,131 @@
       "games": 5
     }
   ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 47,
+      "wins": 22,
+      "win_rate": 47.9
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 38,
+      "wins": 20,
+      "win_rate": 53.9
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 35,
+      "wins": 21,
+      "win_rate": 60.0
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 34,
+      "wins": 16,
+      "win_rate": 48.5
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 25,
+      "wins": 13,
+      "win_rate": 54.0
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Purge the Foe",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 20.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Take and Hold",
+      "games": 14,
+      "wins": 8,
+      "win_rate": 60.7
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Purge the Foe",
+      "games": 14,
+      "wins": 6,
+      "win_rate": 42.9
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Priority Assets",
+      "games": 12,
+      "wins": 3,
+      "win_rate": 25.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Reconnaissance",
+      "games": 8,
+      "wins": 3,
+      "win_rate": 43.8
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Disruption",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Purge the Foe",
+      "games": 22,
+      "wins": 12,
+      "win_rate": 56.8
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Disruption",
+      "games": 21,
+      "wins": 12,
+      "win_rate": 59.5
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Take and Hold",
+      "games": 21,
+      "wins": 12,
+      "win_rate": 57.1
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Priority Assets",
+      "games": 20,
+      "wins": 11,
+      "win_rate": 57.5
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Reconnaissance",
+      "games": 14,
+      "wins": 9,
+      "win_rate": 64.3
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Disruption",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 75.0
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Purge the Foe",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0
+    }
+  ],
   "top_players": [
     {
       "player_name": "Justin  Cramer",
@@ -190,7 +304,7 @@
     {
       "player_name": "Marko Milijanovi\u0107",
       "detachment": "Dominus Foebreakers + Gate Warden Lance",
-      "disposition": "Priority Assets, Purge the Foe",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/9SLSaIfIALhu",
       "source": "bcp",
       "wins": 5,
@@ -214,7 +328,7 @@
     {
       "player_name": "Minchul Kim",
       "detachment": "Dominus Foebreakers + Gate Warden Lance",
-      "disposition": "Priority Assets, Purge the Foe",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/YQpQQbYX5Uru",
       "source": "bcp",
       "wins": 4,
@@ -262,7 +376,7 @@
     {
       "player_name": "Daniel Knight",
       "detachment": "Gate Warden Lance + Questor Forgepact",
-      "disposition": "Disruption, Priority Assets",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/JUJrDKgYWcVG",
       "source": "bcp",
       "wins": 3,
@@ -274,7 +388,7 @@
     {
       "player_name": "David Purcell",
       "detachment": "Gate Warden Lance",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/K9GwhnLqHb8W",
       "source": "bcp",
       "wins": 3,
@@ -286,7 +400,7 @@
     {
       "player_name": "Andrew Graves",
       "detachment": "Dominus Foebreakers + Gate Warden Lance",
-      "disposition": "Priority Assets, Purge the Foe",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/ulXTBM3wspb7",
       "source": "bcp",
       "wins": 3,
@@ -298,7 +412,7 @@
     {
       "player_name": "Joey Jonas",
       "detachment": "Dominus Foebreakers + Gate Warden Lance",
-      "disposition": "Priority Assets, Purge the Foe",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/Nci5dX9QMnf1",
       "source": "bcp",
       "wins": 3,
@@ -322,7 +436,7 @@
     {
       "player_name": "Mario Rodriguez",
       "detachment": "Dominus Foebreakers + Gate Warden Lance",
-      "disposition": "Priority Assets, Purge the Foe",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/eKLmTG22c12h",
       "source": "bcp",
       "wins": 3,
@@ -334,7 +448,7 @@
     {
       "player_name": "Stuart King",
       "detachment": "Dominus Foebreakers + Gate Warden Lance",
-      "disposition": "Priority Assets, Purge the Foe",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/EIoA3h9C07NY",
       "source": "bcp",
       "wins": 3,
@@ -382,7 +496,7 @@
     {
       "player_name": "Samuel Godding",
       "detachment": "Gate Warden Lance + Throne-Bonded Outriders",
-      "disposition": "Priority Assets, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/QOSjRKoijJGQ",
       "source": "bcp",
       "wins": 3,
@@ -394,7 +508,7 @@
     {
       "player_name": "Don Plum",
       "detachment": "Dominus Foebreakers + Gate Warden Lance",
-      "disposition": "",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/x1JEQoI98Dmg",
       "source": "bcp",
       "wins": 2,

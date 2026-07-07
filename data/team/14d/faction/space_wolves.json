@@ -1,7 +1,7 @@
 {
   "faction": "Space Wolves",
   "slug": "space_wolves",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 14,
   "event_type": "team",
   "lists": 10,
@@ -132,11 +132,61 @@
       "games": 5
     }
   ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 13,
+      "wins": 7,
+      "win_rate": 57.7
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 13,
+      "wins": 6,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 11,
+      "wins": 6,
+      "win_rate": 59.1
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Purge the Foe",
+      "games": 9,
+      "wins": 4,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Priority Assets",
+      "games": 8,
+      "wins": 3,
+      "win_rate": 37.5
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Take and Hold",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 42.9
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Disruption",
+      "games": 5,
+      "wins": 4,
+      "win_rate": 80.0
+    }
+  ],
   "top_players": [
     {
       "player_name": "Jonah Burden",
       "detachment": "Saga Of The Beastslayer + Veterans Of The Fang",
-      "disposition": "Disruption, Purge the Foe",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/Ai50twR4z7ci",
       "source": "bcp",
       "wins": 5,
@@ -160,7 +210,7 @@
     {
       "player_name": "Razvan Coman",
       "detachment": "Bastion Task Force",
-      "disposition": "",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/JWzlUYhIGu6u",
       "source": "bcp",
       "wins": 4,
@@ -196,7 +246,7 @@
     {
       "player_name": "Cody Keim",
       "detachment": "Saga of the Great Wolf",
-      "disposition": "",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/H2wgJk58yIDH",
       "source": "bcp",
       "wins": 3,
@@ -220,7 +270,7 @@
     {
       "player_name": "Adam Richardson",
       "detachment": "Saga Of The Great Wolf + Veterans Of The Fang",
-      "disposition": "Disruption, Take and Hold",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/wA3dW59btZVg",
       "source": "bcp",
       "wins": 0,
@@ -232,7 +282,7 @@
     {
       "player_name": "Nick Pacilio",
       "detachment": "Saga Of The Great Wolf + Veterans Of The Fang",
-      "disposition": "Disruption, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/JwKLmrRxNfBX",
       "source": "bcp",
       "wins": 1,

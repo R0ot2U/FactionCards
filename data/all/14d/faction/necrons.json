@@ -1,30 +1,41 @@
 {
   "faction": "Necrons",
   "slug": "necrons",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 14,
   "event_type": "all",
-  "lists": 127,
-  "games": 620,
-  "play_rate": 7.3,
-  "win_rate": 55.5,
-  "trend_delta": 9.5,
+  "lists": 141,
+  "games": 680,
+  "play_rate": 7.5,
+  "win_rate": 54.9,
+  "trend_delta": 8.9,
   "top_detachment": "Awakened Dynasty",
-  "ci_lower": 51.5,
+  "ci_lower": 51.2,
   "meta_health": "slightly_over",
-  "x0_pct": 5.5,
-  "x1_pct": 20.5,
+  "x0_pct": 5.0,
+  "x1_pct": 20.6,
   "tournament_wins": 3,
   "detachments": [
     {
       "detachment": "Awakened Dynasty",
       "base_archetype": "Necrons \u2014 Awakened Dynasty",
-      "lists": 42,
-      "games": 209,
-      "play_rate": 33.1,
-      "win_rate": 56.5,
-      "x0_pct": 2.4,
-      "x1_pct": 23.8,
+      "lists": 52,
+      "games": 251,
+      "play_rate": 36.9,
+      "win_rate": 57.0,
+      "x0_pct": 3.9,
+      "x1_pct": 23.5,
+      "tournament_wins": 1
+    },
+    {
+      "detachment": "Cursed Legion + Skyshroud Spearhead",
+      "base_archetype": "Necrons \u2014 Cursed Legion + Skyshroud Spearhead",
+      "lists": 22,
+      "games": 105,
+      "play_rate": 15.6,
+      "win_rate": 48.6,
+      "x0_pct": 4.5,
+      "x1_pct": 9.1,
       "tournament_wins": 0
     },
     {
@@ -32,29 +43,18 @@
       "base_archetype": "Necrons \u2014 Starshatter Arsenal",
       "lists": 20,
       "games": 98,
-      "play_rate": 15.7,
+      "play_rate": 14.2,
       "win_rate": 64.3,
       "x0_pct": 10.0,
       "x1_pct": 40.0,
       "tournament_wins": 1
     },
     {
-      "detachment": "Cursed Legion + Skyshroud Spearhead",
-      "base_archetype": "Necrons \u2014 Cursed Legion + Skyshroud Spearhead",
-      "lists": 19,
-      "games": 90,
-      "play_rate": 15.0,
-      "win_rate": 48.9,
-      "x0_pct": 5.3,
-      "x1_pct": 10.5,
-      "tournament_wins": 0
-    },
-    {
       "detachment": "No Detachment",
       "base_archetype": "Necrons \u2014 No Detachment",
       "lists": 12,
       "games": 55,
-      "play_rate": 9.4,
+      "play_rate": 8.5,
       "win_rate": 54.5,
       "x0_pct": 8.3,
       "x1_pct": 16.7,
@@ -65,7 +65,7 @@
       "base_archetype": "Necrons \u2014 Cursed Legion + Hand Of The Dynasty",
       "lists": 5,
       "games": 24,
-      "play_rate": 3.9,
+      "play_rate": 3.5,
       "win_rate": 35.4,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -76,18 +76,40 @@
       "base_archetype": "Necrons \u2014 Cursed Legion + The Phaeron'S Armoury",
       "lists": 5,
       "games": 25,
-      "play_rate": 3.9,
+      "play_rate": 3.5,
       "win_rate": 64.0,
       "x0_pct": 20.0,
       "x1_pct": 0.0,
       "tournament_wins": 1
     },
     {
+      "detachment": "Hypercrypt Legion + Skyshroud Spearhead",
+      "base_archetype": "Necrons \u2014 Hypercrypt Legion + Skyshroud Spearhead",
+      "lists": 3,
+      "games": 14,
+      "play_rate": 2.1,
+      "win_rate": 42.9,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Obeisance Phalanx + The Phaeron'S Armoury",
+      "base_archetype": "Necrons \u2014 Obeisance Phalanx + The Phaeron'S Armoury",
+      "lists": 3,
+      "games": 15,
+      "play_rate": 2.1,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "tournament_wins": 0
+    },
+    {
       "detachment": "Cryptek Conclave + Hand Of The Dynasty",
       "base_archetype": "Necrons \u2014 Cryptek Conclave + Hand Of The Dynasty",
       "lists": 3,
       "games": 15,
-      "play_rate": 2.4,
+      "play_rate": 2.1,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -98,8 +120,19 @@
       "base_archetype": "Necrons \u2014 Hand Of The Dynasty + Obeisance Phalanx",
       "lists": 3,
       "games": 15,
-      "play_rate": 2.4,
+      "play_rate": 2.1,
       "win_rate": 66.7,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Hand Of The Dynasty + Hypercrypt Legion",
+      "base_archetype": "Necrons \u2014 Hand Of The Dynasty + Hypercrypt Legion",
+      "lists": 3,
+      "games": 13,
+      "play_rate": 2.1,
+      "win_rate": 19.2,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -109,32 +142,10 @@
       "base_archetype": "Necrons \u2014 Canoptek Court",
       "lists": 3,
       "games": 15,
-      "play_rate": 2.4,
+      "play_rate": 2.1,
       "win_rate": 73.3,
       "x0_pct": 0.0,
       "x1_pct": 66.7,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Hypercrypt Legion + Skyshroud Spearhead",
-      "base_archetype": "Necrons \u2014 Hypercrypt Legion + Skyshroud Spearhead",
-      "lists": 2,
-      "games": 9,
-      "play_rate": 1.6,
-      "win_rate": 55.6,
-      "x0_pct": 0.0,
-      "x1_pct": 50.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Obeisance Phalanx + The Phaeron'S Armoury",
-      "base_archetype": "Necrons \u2014 Obeisance Phalanx + The Phaeron'S Armoury",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 1.6,
-      "win_rate": 70.0,
-      "x0_pct": 0.0,
-      "x1_pct": 50.0,
       "tournament_wins": 0
     },
     {
@@ -142,52 +153,19 @@
       "base_archetype": "Necrons \u2014 Cursed Legion",
       "lists": 2,
       "games": 10,
-      "play_rate": 1.6,
+      "play_rate": 1.4,
       "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
-      "detachment": "Hand Of The Dynasty + Hypercrypt Legion",
-      "base_archetype": "Necrons \u2014 Hand Of The Dynasty + Hypercrypt Legion",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 1.6,
-      "win_rate": 15.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Awakened Dynasty (Command Protocols)",
-      "base_archetype": "Necrons \u2014 Awakened Dynasty (Command Protocols)",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 1.6,
-      "win_rate": 85.0,
-      "x0_pct": 50.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 1
-    },
-    {
       "detachment": "Cryptek Conclave",
       "base_archetype": "Necrons \u2014 Cryptek Conclave",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.8,
+      "play_rate": 0.7,
       "win_rate": 40.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "(Main choice)Cursed Legion + Skyshroud Spearhead",
-      "base_archetype": "Necrons \u2014 (Main choice)Cursed Legion + Skyshroud Spearhead",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 0.8,
-      "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -197,7 +175,7 @@
       "base_archetype": "Necrons \u2014 Pantheon Of Woe + The Phaeron'S Armoury",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.8,
+      "play_rate": 0.7,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -208,19 +186,30 @@
       "base_archetype": "Necrons \u2014 Starshater Arsenal",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.8,
+      "play_rate": 0.7,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
-      "detachment": "Awakened Dynasty (3/3 Detachment Points)",
-      "base_archetype": "Necrons \u2014 Awakened Dynasty (3/3 Detachment Points)",
+      "detachment": "Obeisance Phalanx + Skyshroud Spearhead",
+      "base_archetype": "Necrons \u2014 Obeisance Phalanx + Skyshroud Spearhead",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.8,
-      "win_rate": 40.0,
+      "play_rate": 0.7,
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0
+    },
+    {
+      "detachment": "Annihilation Legion + Hand Of The Dynasty",
+      "base_archetype": "Necrons \u2014 Annihilation Legion + Hand Of The Dynasty",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 0.7,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -229,48 +218,229 @@
   "dispositions": [
     {
       "disposition": "Take and Hold",
-      "lists": 59,
-      "play_rate": 46.5,
-      "win_rate": 58.9,
-      "x0_pct": 5.1,
-      "x1_pct": 22.0,
-      "games": 293
+      "lists": 68,
+      "play_rate": 48.2,
+      "win_rate": 58.2,
+      "x0_pct": 4.4,
+      "x1_pct": 22.1,
+      "games": 328
     },
     {
       "disposition": "Purge the Foe",
-      "lists": 29,
-      "play_rate": 22.8,
-      "win_rate": 49.6,
-      "x0_pct": 6.9,
-      "x1_pct": 6.9,
-      "games": 137
+      "lists": 30,
+      "play_rate": 21.3,
+      "win_rate": 48.6,
+      "x0_pct": 6.7,
+      "x1_pct": 6.7,
+      "games": 142
     },
     {
       "disposition": "Priority Assets",
-      "lists": 25,
-      "play_rate": 19.7,
-      "win_rate": 60.2,
-      "x0_pct": 8.0,
-      "x1_pct": 32.0,
-      "games": 123
+      "lists": 26,
+      "play_rate": 18.4,
+      "win_rate": 59.4,
+      "x0_pct": 7.7,
+      "x1_pct": 30.8,
+      "games": 128
     },
     {
       "disposition": "Reconnaissance",
-      "lists": 10,
-      "play_rate": 7.9,
-      "win_rate": 41.8,
+      "lists": 13,
+      "play_rate": 9.2,
+      "win_rate": 44.5,
       "x0_pct": 0.0,
-      "x1_pct": 20.0,
-      "games": 49
+      "x1_pct": 23.1,
+      "games": 64
     },
     {
       "disposition": "Disruption",
       "lists": 3,
-      "play_rate": 2.4,
+      "play_rate": 2.1,
       "win_rate": 53.3,
       "x0_pct": 0.0,
       "x1_pct": 33.3,
       "games": 15
+    }
+  ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 208,
+      "wins": 116,
+      "win_rate": 56.0
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 154,
+      "wins": 76,
+      "win_rate": 49.4
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 129,
+      "wins": 74,
+      "win_rate": 57.8
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 104,
+      "wins": 56,
+      "win_rate": 54.3
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 76,
+      "wins": 41,
+      "win_rate": 54.6
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Take and Hold",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Purge the Foe",
+      "games": 34,
+      "wins": 20,
+      "win_rate": 58.8
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Take and Hold",
+      "games": 28,
+      "wins": 13,
+      "win_rate": 48.2
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Priority Assets",
+      "games": 25,
+      "wins": 17,
+      "win_rate": 70.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Reconnaissance",
+      "games": 24,
+      "wins": 15,
+      "win_rate": 64.6
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Disruption",
+      "games": 15,
+      "wins": 7,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Purge the Foe",
+      "games": 42,
+      "wins": 18,
+      "win_rate": 44.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Take and Hold",
+      "games": 34,
+      "wins": 15,
+      "win_rate": 45.6
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Reconnaissance",
+      "games": 26,
+      "wins": 14,
+      "win_rate": 55.8
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Priority Assets",
+      "games": 23,
+      "wins": 11,
+      "win_rate": 47.8
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Disruption",
+      "games": 12,
+      "wins": 5,
+      "win_rate": 45.8
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Purge the Foe",
+      "games": 22,
+      "wins": 13,
+      "win_rate": 61.4
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Take and Hold",
+      "games": 14,
+      "wins": 6,
+      "win_rate": 42.9
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Priority Assets",
+      "games": 13,
+      "wins": 5,
+      "win_rate": 38.5
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Reconnaissance",
+      "games": 10,
+      "wins": 2,
+      "win_rate": 20.0
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Disruption",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Purge the Foe",
+      "games": 105,
+      "wins": 61,
+      "win_rate": 58.6
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Take and Hold",
+      "games": 69,
+      "wins": 37,
+      "win_rate": 53.6
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Priority Assets",
+      "games": 65,
+      "wins": 40,
+      "win_rate": 61.5
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Reconnaissance",
+      "games": 43,
+      "wins": 23,
+      "win_rate": 54.7
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Disruption",
+      "games": 39,
+      "wins": 24,
+      "win_rate": 62.8
     }
   ],
   "top_players": [
@@ -289,7 +459,7 @@
     {
       "player_name": "Walter Langendorf",
       "detachment": "Cursed Legion + Skyshroud Spearhead",
-      "disposition": "Purge the Foe, Reconnaissance",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/7sWRC5hhDTlq",
       "source": "bcp",
       "wins": 5,
@@ -313,7 +483,7 @@
     {
       "player_name": "Alex Boxx-Hampton",
       "detachment": "No Detachment",
-      "disposition": "",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/y26sDqIOBUGm",
       "source": "bcp",
       "wins": 5,
@@ -348,8 +518,8 @@
     },
     {
       "player_name": "Bj\u00f8rn Olsen",
-      "detachment": "Awakened Dynasty (Command Protocols)",
-      "disposition": "",
+      "detachment": "Awakened Dynasty",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/APOgUxjdsOBw",
       "source": "bcp",
       "wins": 5,
@@ -373,7 +543,7 @@
     {
       "player_name": "Ludwig Robert",
       "detachment": "Awakened Dynasty",
-      "disposition": "",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/RQXx2qC7W5t6",
       "source": "bcp",
       "wins": 4,
@@ -397,7 +567,7 @@
     {
       "player_name": "Juan Lopez",
       "detachment": "No Detachment",
-      "disposition": "",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/Q8PmImHJWVNu",
       "source": "bcp",
       "wins": 4,
@@ -421,7 +591,7 @@
     {
       "player_name": "Joonas Neva",
       "detachment": "Obeisance Phalanx + The Phaeron'S Armoury",
-      "disposition": "Disruption, Priority Assets",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/fQ310Egjo88C",
       "source": "bcp",
       "wins": 4,
@@ -457,7 +627,7 @@
     {
       "player_name": "Austin Howald",
       "detachment": "No Detachment",
-      "disposition": "",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/UasFzat2UcYk",
       "source": "bcp",
       "wins": 4,
@@ -518,45 +688,51 @@
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 66,
-      "wins": 35,
-      "win_rate": 53.8
+      "games": 81,
+      "wins": 40,
+      "win_rate": 50.0
     },
     {
       "opponent_faction": "T'au Empire",
-      "games": 47,
-      "wins": 26,
-      "win_rate": 56.4
+      "games": 51,
+      "wins": 27,
+      "win_rate": 53.9
     },
     {
       "opponent_faction": "Tyranids",
-      "games": 45,
-      "wins": 23,
-      "win_rate": 52.2
+      "games": 49,
+      "wins": 25,
+      "win_rate": 52.0
     },
     {
       "opponent_faction": "Adeptus Custodes",
-      "games": 35,
-      "wins": 20,
-      "win_rate": 58.6
+      "games": 40,
+      "wins": 21,
+      "win_rate": 53.8
     },
     {
       "opponent_faction": "Thousand Sons",
+      "games": 36,
+      "wins": 20,
+      "win_rate": 55.6
+    },
+    {
+      "opponent_faction": "Emperor's Children",
       "games": 33,
       "wins": 19,
       "win_rate": 57.6
     },
     {
-      "opponent_faction": "Emperor's Children",
-      "games": 32,
-      "wins": 19,
-      "win_rate": 59.4
+      "opponent_faction": "Chaos Daemons",
+      "games": 33,
+      "wins": 14,
+      "win_rate": 42.4
     },
     {
-      "opponent_faction": "Chaos Daemons",
-      "games": 32,
-      "wins": 14,
-      "win_rate": 43.8
+      "opponent_faction": "Astra Militarum",
+      "games": 26,
+      "wins": 18,
+      "win_rate": 71.2
     },
     {
       "opponent_faction": "Chaos Space Marines",
@@ -566,33 +742,33 @@
     },
     {
       "opponent_faction": "Death Guard",
-      "games": 23,
+      "games": 24,
       "wins": 14,
-      "win_rate": 63.0
-    },
-    {
-      "opponent_faction": "Astra Militarum",
-      "games": 23,
-      "wins": 15,
-      "win_rate": 67.4
+      "win_rate": 60.4
     },
     {
       "opponent_faction": "Aeldari",
-      "games": 22,
-      "wins": 14,
-      "win_rate": 63.6
-    },
-    {
-      "opponent_faction": "Orks",
-      "games": 21,
-      "wins": 7,
-      "win_rate": 33.3
+      "games": 24,
+      "wins": 16,
+      "win_rate": 66.7
     },
     {
       "opponent_faction": "Leagues of Votann",
+      "games": 23,
+      "wins": 10,
+      "win_rate": 43.5
+    },
+    {
+      "opponent_faction": "Orks",
+      "games": 22,
+      "wins": 7,
+      "win_rate": 31.8
+    },
+    {
+      "opponent_faction": "Imperial Knights",
       "games": 21,
-      "wins": 9,
-      "win_rate": 42.9
+      "wins": 10,
+      "win_rate": 47.6
     },
     {
       "opponent_faction": "World Eaters",
@@ -601,43 +777,37 @@
       "win_rate": 73.8
     },
     {
-      "opponent_faction": "Imperial Knights",
-      "games": 19,
-      "wins": 9,
-      "win_rate": 47.4
+      "opponent_faction": "Drukhari",
+      "games": 18,
+      "wins": 10,
+      "win_rate": 55.6
     },
     {
       "opponent_faction": "Adepta Sororitas",
-      "games": 16,
-      "wins": 9,
-      "win_rate": 56.2
-    },
-    {
-      "opponent_faction": "Drukhari",
-      "games": 13,
-      "wins": 5,
-      "win_rate": 38.5
-    },
-    {
-      "opponent_faction": "Genestealer Cults",
-      "games": 12,
-      "wins": 9,
-      "win_rate": 75.0
+      "games": 17,
+      "wins": 10,
+      "win_rate": 58.8
     },
     {
       "opponent_faction": "Chaos Knights",
-      "games": 12,
-      "wins": 8,
-      "win_rate": 66.7
-    },
-    {
-      "opponent_faction": "Blood Angels",
-      "games": 12,
-      "wins": 7,
-      "win_rate": 62.5
+      "games": 15,
+      "wins": 10,
+      "win_rate": 70.0
     },
     {
       "opponent_faction": "Grey Knights",
+      "games": 14,
+      "wins": 8,
+      "win_rate": 60.7
+    },
+    {
+      "opponent_faction": "Genestealer Cults",
+      "games": 13,
+      "wins": 10,
+      "win_rate": 76.9
+    },
+    {
+      "opponent_faction": "Blood Angels",
       "games": 12,
       "wins": 7,
       "win_rate": 62.5
@@ -666,11 +836,11 @@
     },
     {
       "week": "2026-W26",
-      "lists": 34,
-      "games": 164,
-      "win_rate": 56.1,
-      "total_lists": 484,
-      "play_rate": 7.0
+      "lists": 48,
+      "games": 224,
+      "win_rate": 54.2,
+      "total_lists": 625,
+      "play_rate": 7.7
     }
   ]
 }

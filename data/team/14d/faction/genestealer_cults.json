@@ -1,7 +1,7 @@
 {
   "faction": "Genestealer Cults",
   "slug": "genestealer_cults",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 14,
   "event_type": "team",
   "lists": 15,
@@ -163,11 +163,67 @@
       "games": 5
     }
   ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Disruption",
+      "games": 21,
+      "wins": 10,
+      "win_rate": 50.0
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 16,
+      "wins": 7,
+      "win_rate": 43.8
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 15,
+      "wins": 6,
+      "win_rate": 40.0
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 14,
+      "wins": 6,
+      "win_rate": 42.9
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Reconnaissance",
+      "games": 11,
+      "wins": 4,
+      "win_rate": 40.9
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Disruption",
+      "games": 10,
+      "wins": 6,
+      "win_rate": 60.0
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Take and Hold",
+      "games": 9,
+      "wins": 4,
+      "win_rate": 44.4
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Priority Assets",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 50.0
+    }
+  ],
   "top_players": [
     {
       "player_name": "Tucker Rickey",
       "detachment": "Biosanctic Broodsurge + Xenocult Masses",
-      "disposition": "Disruption, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/cu4UKIXiNgSS",
       "source": "bcp",
       "wins": 4,
@@ -191,7 +247,7 @@
     {
       "player_name": "Jake Reuser",
       "detachment": "Outlander Claw + Xenocult Masses",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/IyiMn84G60y8",
       "source": "bcp",
       "wins": 3,
@@ -215,7 +271,7 @@
     {
       "player_name": "Kevin Manning",
       "detachment": "Heroes Of The Uprising + Purestrain Broodswarm + Xenocult Masses",
-      "disposition": "Disruption, Priority Assets, Purge the Foe",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/3SCAjJwyOn2D",
       "source": "bcp",
       "wins": 2,
@@ -251,7 +307,7 @@
     {
       "player_name": "Paul Reynolds",
       "detachment": "Final Day",
-      "disposition": "",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/oiYEHObGXwXS",
       "source": "bcp",
       "wins": 1,
@@ -263,7 +319,7 @@
     {
       "player_name": "Sasa Lalic",
       "detachment": "Final Day + Xenocult Masses",
-      "disposition": "Disruption, Purge the Foe",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/D418l5TH1MXJ",
       "source": "bcp",
       "wins": 1,
@@ -275,7 +331,7 @@
     {
       "player_name": "David Ivings",
       "detachment": "Final Day + Xenocult Masses",
-      "disposition": "Disruption, Purge the Foe",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/Bfp6dO0Bd5XW",
       "source": "bcp",
       "wins": 1,
@@ -287,7 +343,7 @@
     {
       "player_name": "Zachary Shinkle",
       "detachment": "Final Day + Purestrain Broodswarm",
-      "disposition": "Priority Assets, Purge the Foe",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/iLIJl8SvdJWd",
       "source": "bcp",
       "wins": 1,
@@ -299,7 +355,7 @@
     {
       "player_name": "Allan Yepez",
       "detachment": "Biosanctic Broodsurge + Xenocult Masses",
-      "disposition": "Disruption, Take and Hold",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/mMMqIOciZOVD",
       "source": "bcp",
       "wins": 1,
@@ -311,7 +367,7 @@
     {
       "player_name": "Erik Cipriani",
       "detachment": "Final Day",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/mMeKRkrbzMDF",
       "source": "bcp",
       "wins": 1,
@@ -323,7 +379,7 @@
     {
       "player_name": "Kory Lance",
       "detachment": "Heroes Of The Uprising + Purestrain Broodswarm + and Xenocult Masses",
-      "disposition": "Disruption, Priority Assets, Purge the Foe",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/l9O1eLAZpXGd",
       "source": "bcp",
       "wins": 1,
@@ -335,7 +391,7 @@
     {
       "player_name": "Chris Overstreet",
       "detachment": "Heroes Of The Uprising + Outlander Claw",
-      "disposition": "Purge the Foe, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/p5p0vg8QsxjE",
       "source": "bcp",
       "wins": 1,

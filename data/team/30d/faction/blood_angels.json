@@ -1,7 +1,7 @@
 {
   "faction": "Blood Angels",
   "slug": "blood_angels",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 30,
   "event_type": "team",
   "lists": 16,
@@ -123,11 +123,95 @@
       "games": 25
     }
   ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 22,
+      "wins": 8,
+      "win_rate": 36.4
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 22,
+      "wins": 11,
+      "win_rate": 52.3
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 13,
+      "wins": 8,
+      "win_rate": 61.5
+    },
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 13,
+      "wins": 10,
+      "win_rate": 80.8
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Priority Assets",
+      "games": 9,
+      "wins": 6,
+      "win_rate": 66.7
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Take and Hold",
+      "games": 8,
+      "wins": 3,
+      "win_rate": 37.5
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Purge the Foe",
+      "games": 8,
+      "wins": 5,
+      "win_rate": 68.8
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Priority Assets",
+      "games": 8,
+      "wins": 2,
+      "win_rate": 31.2
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Take and Hold",
+      "games": 7,
+      "wins": 2,
+      "win_rate": 28.6
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Take and Hold",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 42.9
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Reconnaissance",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 75.0
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Priority Assets",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0
+    }
+  ],
   "top_players": [
     {
       "player_name": "Rielle Long",
       "detachment": "Bastion Task Force + Legacy Of Grace",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/Smt3RYRMiPJd",
       "source": "bcp",
       "wins": 5,
@@ -199,7 +283,7 @@
     {
       "player_name": "Blake Sawyer",
       "detachment": "Legacy Of Grace + Stormlance Task Force",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/dBhlJUaHVFXW",
       "source": "bcp",
       "wins": 3,
@@ -223,7 +307,7 @@
     {
       "player_name": "Kyle Jackling",
       "detachment": "Rage-Cursed Onslaught",
-      "disposition": "",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/mZqnBuFUmCVw",
       "source": "bcp",
       "wins": 3,
@@ -259,7 +343,7 @@
     {
       "player_name": "Trinity Allen",
       "detachment": "The Angelic Host + Wrath Of The Doomed",
-      "disposition": "Disruption, Purge the Foe",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/OYtdvaik1jOv",
       "source": "bcp",
       "wins": 2,

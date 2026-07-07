@@ -1,7 +1,7 @@
 {
   "faction": "Chaos Knights",
   "slug": "chaos_knights",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 60,
   "event_type": "team",
   "lists": 28,
@@ -196,11 +196,136 @@
       "games": 10
     }
   ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 32,
+      "wins": 14,
+      "win_rate": 43.8
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 30,
+      "wins": 9,
+      "win_rate": 30.0
+    },
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 26,
+      "wins": 8,
+      "win_rate": 30.8
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 25,
+      "wins": 9,
+      "win_rate": 38.0
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 22,
+      "wins": 7,
+      "win_rate": 34.1
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Reconnaissance",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 33.3
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Priority Assets",
+      "games": 6,
+      "wins": 1,
+      "win_rate": 25.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Purge the Foe",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 20.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Disruption",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Reconnaissance",
+      "games": 10,
+      "wins": 3,
+      "win_rate": 35.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Take and Hold",
+      "games": 10,
+      "wins": 2,
+      "win_rate": 25.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Disruption",
+      "games": 7,
+      "wins": 2,
+      "win_rate": 28.6
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Priority Assets",
+      "games": 6,
+      "wins": 1,
+      "win_rate": 25.0
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Priority Assets",
+      "games": 11,
+      "wins": 7,
+      "win_rate": 63.6
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Purge the Foe",
+      "games": 8,
+      "wins": 3,
+      "win_rate": 43.8
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Take and Hold",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Take and Hold",
+      "games": 11,
+      "wins": 4,
+      "win_rate": 36.4
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Purge the Foe",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 33.3
+    }
+  ],
   "top_players": [
     {
       "player_name": "justin cortese",
       "detachment": "Hunting Warpack + Traitoris Lance",
-      "disposition": "Purge the Foe, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/YDk3GHQPMrDm",
       "source": "bcp",
       "wins": 5,
@@ -260,7 +385,7 @@
     {
       "player_name": "David Hisel",
       "detachment": "Iconoclast Fiefdom + Lords Of Dread",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/c4PHXZwDzJKB",
       "source": "bcp",
       "wins": 2,
@@ -272,7 +397,7 @@
     {
       "player_name": "Alex Scharfe",
       "detachment": "Helhunt Lance",
-      "disposition": "",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/KZM83KeAKHAh",
       "source": "bcp",
       "wins": 3,
@@ -284,7 +409,7 @@
     {
       "player_name": "Breno Fleury",
       "detachment": "Houndpack Lance + Iconoclast Fiefdom",
-      "disposition": "Reconnaissance, Take and Hold",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/XtjqOatICZ91",
       "source": "bcp",
       "wins": 2,
@@ -296,7 +421,7 @@
     {
       "player_name": "Brian Byrd",
       "detachment": "Hunting Warpack + Lords Of Dread",
-      "disposition": "Priority Assets, Reconnaissance",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/WHmf4NgLDKIr",
       "source": "bcp",
       "wins": 2,
@@ -308,7 +433,7 @@
     {
       "player_name": "Matthew Dean",
       "detachment": "Houndpack Lance + Iconoclast Fiefdom",
-      "disposition": "",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/BoxmLnWUlwHI",
       "source": "bcp",
       "wins": 2,
@@ -332,7 +457,7 @@
     {
       "player_name": "Werner Born",
       "detachment": "Hunting Warpack + Lords Of Dread",
-      "disposition": "Priority Assets, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/zqM80XXzJJTI",
       "source": "bcp",
       "wins": 1,
@@ -344,7 +469,7 @@
     {
       "player_name": "Alex Veinberg",
       "detachment": "Bastions Of Tyranny + Houndpack Lance",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/wYkA61m4QYF3",
       "source": "bcp",
       "wins": 2,
@@ -356,7 +481,7 @@
     {
       "player_name": "Cameron Zareie",
       "detachment": "Houndpack Lance + Iconoclast Fiefdom",
-      "disposition": "Reconnaissance, Take and Hold",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/YBh5nk23whUg",
       "source": "bcp",
       "wins": 2,
@@ -380,7 +505,7 @@
     {
       "player_name": "Christopher Montalvo",
       "detachment": "Helhunt Lance + Iconoclast Fiefdom",
-      "disposition": "Disruption, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/2XqHa3LVcX5C",
       "source": "bcp",
       "wins": 1,
@@ -416,7 +541,7 @@
     {
       "player_name": "Bogdan Brustureanu",
       "detachment": "Bastions Of Tyranny + Lords Of Dread",
-      "disposition": "Disruption, Priority Assets",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/rCiJZBMWAhUg",
       "source": "bcp",
       "wins": 1,

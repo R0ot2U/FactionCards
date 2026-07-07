@@ -1,7 +1,7 @@
 {
   "faction": "Adeptus Mechanicus",
   "slug": "adeptus_mechanicus",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 60,
   "event_type": "team",
   "lists": 13,
@@ -9,13 +9,24 @@
   "play_rate": 1.5,
   "win_rate": 43.0,
   "trend_delta": null,
-  "top_detachment": "Lords Of The Forge + Skitarii Hunter Cohort",
+  "top_detachment": "Cohort Cybernetica + Lords Of The Forge",
   "ci_lower": 31.6,
   "meta_health": "strongly_under",
   "x0_pct": 7.7,
   "x1_pct": 7.7,
   "tournament_wins": 0,
   "detachments": [
+    {
+      "detachment": "Cohort Cybernetica + Lords Of The Forge",
+      "base_archetype": "Adeptus Mechanicus \u2014 Cohort Cybernetica + Lords Of The Forge",
+      "lists": 5,
+      "games": 25,
+      "play_rate": 38.5,
+      "win_rate": 36.0,
+      "x0_pct": 20.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
     {
       "detachment": "Lords Of The Forge + Skitarii Hunter Cohort",
       "base_archetype": "Adeptus Mechanicus \u2014 Lords Of The Forge + Skitarii Hunter Cohort",
@@ -25,17 +36,6 @@
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 25.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Cohort Cybernetica + Lords Of The Forge",
-      "base_archetype": "Adeptus Mechanicus \u2014 Cohort Cybernetica + Lords Of The Forge",
-      "lists": 4,
-      "games": 20,
-      "play_rate": 30.8,
-      "win_rate": 37.5,
-      "x0_pct": 25.0,
-      "x1_pct": 0.0,
       "tournament_wins": 0
     },
     {
@@ -50,19 +50,8 @@
       "tournament_wins": 0
     },
     {
-      "detachment": "Cohort Acquisitus + Skitarii Hunter Cohort (Noospheric Recon)",
-      "base_archetype": "Adeptus Mechanicus \u2014 Cohort Acquisitus + Skitarii Hunter Cohort (Noospheric Recon)",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 7.7,
-      "win_rate": 30.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Cohort Cybernetica + Lords of the Forge (Cyber Psalm-Programming)",
-      "base_archetype": "Adeptus Mechanicus \u2014 Cohort Cybernetica + Lords of the Forge (Cyber Psalm-Programming)",
+      "detachment": "Cohort Acquisitus + Skitarii Hunter Cohort",
+      "base_archetype": "Adeptus Mechanicus \u2014 Cohort Acquisitus + Skitarii Hunter Cohort",
       "lists": 1,
       "games": 5,
       "play_rate": 7.7,
@@ -101,11 +90,81 @@
       "games": 10
     }
   ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 15,
+      "wins": 7,
+      "win_rate": 46.7
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 13,
+      "wins": 4,
+      "win_rate": 30.8
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 13,
+      "wins": 5,
+      "win_rate": 42.3
+    },
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 10,
+      "wins": 3,
+      "win_rate": 35.0
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Priority Assets",
+      "games": 9,
+      "wins": 4,
+      "win_rate": 44.4
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Reconnaissance",
+      "games": 8,
+      "wins": 3,
+      "win_rate": 37.5
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Disruption",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 70.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Take and Hold",
+      "games": 5,
+      "wins": 0,
+      "win_rate": 0.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Purge the Foe",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 20.0
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Take and Hold",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0
+    }
+  ],
   "top_players": [
     {
       "player_name": "Gabriel Nixon",
       "detachment": "Cohort Cybernetica + Lords Of The Forge",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/eVJP4sgc9Wdt",
       "source": "bcp",
       "wins": 5,
@@ -117,7 +176,7 @@
     {
       "player_name": "Chase Jones",
       "detachment": "Lords Of The Forge + Skitarii Hunter Cohort",
-      "disposition": "Priority Assets, Reconnaissance",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/yEkq9Lxtx6F0",
       "source": "bcp",
       "wins": 4,
@@ -141,7 +200,7 @@
     {
       "player_name": "Spencer Feuerstein",
       "detachment": "Lords Of The Forge + Skitarii Hunter Cohort",
-      "disposition": "Priority Assets, Reconnaissance",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/VfPYCv8CHcFh",
       "source": "bcp",
       "wins": 2,
@@ -153,7 +212,7 @@
     {
       "player_name": "Seth Yeo",
       "detachment": "Lords Of The Forge + Rad-Zone Corps",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/Q2JvjPp1vrGM",
       "source": "bcp",
       "wins": 3,
@@ -164,8 +223,8 @@
     },
     {
       "player_name": "Brent Loree",
-      "detachment": "Cohort Acquisitus + Skitarii Hunter Cohort (Noospheric Recon)",
-      "disposition": "",
+      "detachment": "Cohort Acquisitus + Skitarii Hunter Cohort",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/fvwgaoDdk8Ut",
       "source": "bcp",
       "wins": 1,
@@ -177,7 +236,7 @@
     {
       "player_name": "Robert Red",
       "detachment": "Cohort Cybernetica + Lords Of The Forge",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/dQYwlAYHfKKX",
       "source": "bcp",
       "wins": 1,
@@ -188,7 +247,7 @@
     },
     {
       "player_name": "Josh Ludwigsen",
-      "detachment": "Cohort Cybernetica + Lords of the Forge (Cyber Psalm-Programming)",
+      "detachment": "Cohort Cybernetica + Lords Of The Forge",
       "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/pUM9WXVLdfTc",
       "source": "bcp",
@@ -201,7 +260,7 @@
     {
       "player_name": "Max Harding",
       "detachment": "No Detachment",
-      "disposition": "",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/3XXA4L7STtld",
       "source": "bcp",
       "wins": 1,
@@ -213,7 +272,7 @@
     {
       "player_name": "Nathaniel Larson",
       "detachment": "Lords Of The Forge + Skitarii Hunter Cohort",
-      "disposition": "Priority Assets, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/kRA6agRM1zTE",
       "source": "bcp",
       "wins": 0,
@@ -225,7 +284,7 @@
     {
       "player_name": "Justin Alexander",
       "detachment": "Lords Of The Forge + Rad-Zone Corps",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/UHZQQkHXDJsU",
       "source": "bcp",
       "wins": 1,
@@ -237,7 +296,7 @@
     {
       "player_name": "Brody Martin",
       "detachment": "Cohort Cybernetica + Lords Of The Forge",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/INwUDPPslQdX",
       "source": "bcp",
       "wins": 1,

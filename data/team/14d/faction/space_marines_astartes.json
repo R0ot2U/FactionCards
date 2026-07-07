@@ -1,7 +1,7 @@
 {
   "faction": "Space Marines (Astartes)",
   "slug": "space_marines_astartes",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 14,
   "event_type": "team",
   "lists": 46,
@@ -295,6 +295,187 @@
       "games": 25
     }
   ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Disruption",
+      "games": 54,
+      "wins": 33,
+      "win_rate": 62.0
+    },
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 52,
+      "wins": 23,
+      "win_rate": 44.2
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 49,
+      "wins": 24,
+      "win_rate": 49.0
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 39,
+      "wins": 25,
+      "win_rate": 64.1
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 32,
+      "wins": 11,
+      "win_rate": 34.4
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Disruption",
+      "games": 11,
+      "wins": 8,
+      "win_rate": 72.7
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Reconnaissance",
+      "games": 10,
+      "wins": 2,
+      "win_rate": 20.0
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Take and Hold",
+      "games": 9,
+      "wins": 3,
+      "win_rate": 38.9
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Purge the Foe",
+      "games": 8,
+      "wins": 2,
+      "win_rate": 25.0
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Priority Assets",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 70.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Take and Hold",
+      "games": 21,
+      "wins": 12,
+      "win_rate": 57.1
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Purge the Foe",
+      "games": 19,
+      "wins": 10,
+      "win_rate": 52.6
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Priority Assets",
+      "games": 19,
+      "wins": 10,
+      "win_rate": 52.6
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Disruption",
+      "games": 17,
+      "wins": 10,
+      "win_rate": 58.8
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Reconnaissance",
+      "games": 11,
+      "wins": 3,
+      "win_rate": 31.8
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Purge the Foe",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 41.7
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Priority Assets",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 75.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Disruption",
+      "games": 5,
+      "wins": 4,
+      "win_rate": 80.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Take and Hold",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Purge the Foe",
+      "games": 9,
+      "wins": 6,
+      "win_rate": 72.2
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Disruption",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 41.7
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Priority Assets",
+      "games": 5,
+      "wins": 4,
+      "win_rate": 80.0
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Take and Hold",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Disruption",
+      "games": 13,
+      "wins": 8,
+      "win_rate": 61.5
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Purge the Foe",
+      "games": 10,
+      "wins": 2,
+      "win_rate": 20.0
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Take and Hold",
+      "games": 9,
+      "wins": 4,
+      "win_rate": 44.4
+    }
+  ],
   "top_players": [
     {
       "player_name": "Brendan Roy",
@@ -335,7 +516,7 @@
     {
       "player_name": "Luke Henderson",
       "detachment": "Ceramite Sentinels",
-      "disposition": "",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/8QSYMDAfhCux",
       "source": "bcp",
       "wins": 4,
@@ -383,7 +564,7 @@
     {
       "player_name": "Randy Escobar",
       "detachment": "Forgefather's Seekers + Subversion Assets",
-      "disposition": "Purge the Foe, Reconnaissance",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/H809fYhaggjc",
       "source": "bcp",
       "wins": 4,
@@ -407,7 +588,7 @@
     {
       "player_name": "Ryan Averill",
       "detachment": "Librarius Conclave + Reclamation Force",
-      "disposition": "Reconnaissance, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/67JsyOn4ltUw",
       "source": "bcp",
       "wins": 4,
@@ -455,7 +636,7 @@
     {
       "player_name": "Marcus Johnson",
       "detachment": "Librarius Conclave",
-      "disposition": "",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/7jQQfEhwPnkZ",
       "source": "bcp",
       "wins": 3,
@@ -491,7 +672,7 @@
     {
       "player_name": "Julian Cuebas",
       "detachment": "Sage of the Greatwolf 2DP Champions of Fenris 1 DP",
-      "disposition": "Purge the Foe, Take and Hold",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/5Bo0XoHev62x",
       "source": "bcp",
       "wins": 3,
@@ -503,7 +684,7 @@
     {
       "player_name": "anthony fitzgerald",
       "detachment": "Gladius Task Force",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/Q3sMjO6P7F4M",
       "source": "bcp",
       "wins": 3,

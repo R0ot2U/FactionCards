@@ -1,7 +1,7 @@
 {
   "faction": "Death Guard",
   "slug": "death_guard",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 14,
   "event_type": "team",
   "lists": 36,
@@ -196,6 +196,124 @@
       "games": 5
     }
   ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 45,
+      "wins": 21,
+      "win_rate": 46.7
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 43,
+      "wins": 20,
+      "win_rate": 46.5
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 29,
+      "wins": 11,
+      "win_rate": 37.9
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 29,
+      "wins": 18,
+      "win_rate": 62.1
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 25,
+      "wins": 8,
+      "win_rate": 34.0
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Disruption",
+      "games": 8,
+      "wins": 6,
+      "win_rate": 75.0
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Purge the Foe",
+      "games": 6,
+      "wins": 1,
+      "win_rate": 25.0
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Take and Hold",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 20.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Priority Assets",
+      "games": 9,
+      "wins": 5,
+      "win_rate": 55.6
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Purge the Foe",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Priority Assets",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 20.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Reconnaissance",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 30.0
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Purge the Foe",
+      "games": 28,
+      "wins": 13,
+      "win_rate": 48.2
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Priority Assets",
+      "games": 25,
+      "wins": 12,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Take and Hold",
+      "games": 16,
+      "wins": 6,
+      "win_rate": 40.6
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Reconnaissance",
+      "games": 12,
+      "wins": 4,
+      "win_rate": 37.5
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Disruption",
+      "games": 12,
+      "wins": 6,
+      "win_rate": 50.0
+    }
+  ],
   "top_players": [
     {
       "player_name": "Ryan Schaum",
@@ -212,7 +330,7 @@
     {
       "player_name": "Josh Delashmitt",
       "detachment": "Flyblown Host + Tallyband Summoners",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/eooMgp29sZSz",
       "source": "bcp",
       "wins": 4,
@@ -260,7 +378,7 @@
     {
       "player_name": "Eric Andrews",
       "detachment": "Champions Of Contagion + Paragons Of Putrescence",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/ltfiXHfTaOx8",
       "source": "bcp",
       "wins": 3,
@@ -284,7 +402,7 @@
     {
       "player_name": "Schuyler Quinn",
       "detachment": "Champions Of Contagion + Paragons Of Putrescence",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/auAjMWNbVBT6",
       "source": "bcp",
       "wins": 2,
@@ -296,7 +414,7 @@
     {
       "player_name": "Braden M",
       "detachment": "Virulent Vectorium",
-      "disposition": "",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/clyMp72OLBxi",
       "source": "bcp",
       "wins": 3,
@@ -308,7 +426,7 @@
     {
       "player_name": "Ben Burnside",
       "detachment": "Tallyband Summoners",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/124hj7JTa3rq",
       "source": "bcp",
       "wins": 2,
@@ -344,7 +462,7 @@
     {
       "player_name": "Trenton Heidorn",
       "detachment": "Paragons Of Putrescence + Shamblerot Vectorium",
-      "disposition": "Disruption, Priority Assets",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/BmCW19Av3tPG",
       "source": "bcp",
       "wins": 2,
@@ -356,7 +474,7 @@
     {
       "player_name": "Phillip Schwan",
       "detachment": "No Detachment",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/Rf45JAiwdbI9",
       "source": "bcp",
       "wins": 2,
@@ -368,7 +486,7 @@
     {
       "player_name": "Aaron Hermstedt",
       "detachment": "Champions Of Contagion + Paragons Of Putrescence",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/PhU32LF0eGLS",
       "source": "bcp",
       "wins": 2,
@@ -392,7 +510,7 @@
     {
       "player_name": "David DeBruin",
       "detachment": "Flyblown Host + Tallyband Summoners",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/vT7OXmwHKXGF",
       "source": "bcp",
       "wins": 2,
@@ -404,7 +522,7 @@
     {
       "player_name": "Caleb Smith",
       "detachment": "No Detachment",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/zTSPur95jgdM",
       "source": "bcp",
       "wins": 3,
@@ -416,7 +534,7 @@
     {
       "player_name": "Ben McCormick",
       "detachment": "Champions Of Contagion + Paragons Of Putrescence",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/O0UO5iMKWuNi",
       "source": "bcp",
       "wins": 1,

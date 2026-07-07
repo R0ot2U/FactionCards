@@ -1,7 +1,7 @@
 {
   "faction": "World Eaters",
   "slug": "world_eaters",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 60,
   "event_type": "team",
   "lists": 29,
@@ -163,11 +163,101 @@
       "games": 5
     }
   ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 38,
+      "wins": 14,
+      "win_rate": 38.2
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 32,
+      "wins": 15,
+      "win_rate": 46.9
+    },
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 26,
+      "wins": 10,
+      "win_rate": 40.4
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 22,
+      "wins": 6,
+      "win_rate": 29.5
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 20,
+      "wins": 8,
+      "win_rate": 40.0
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Reconnaissance",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 20.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Take and Hold",
+      "games": 24,
+      "wins": 10,
+      "win_rate": 41.7
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Reconnaissance",
+      "games": 21,
+      "wins": 10,
+      "win_rate": 47.6
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Priority Assets",
+      "games": 17,
+      "wins": 5,
+      "win_rate": 29.4
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Purge the Foe",
+      "games": 15,
+      "wins": 7,
+      "win_rate": 46.7
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Disruption",
+      "games": 13,
+      "wins": 4,
+      "win_rate": 34.6
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Take and Hold",
+      "games": 7,
+      "wins": 2,
+      "win_rate": 35.7
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Purge the Foe",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 30.0
+    }
+  ],
   "top_players": [
     {
       "player_name": "Austin Roy-Stewart",
       "detachment": "Berzerker Warband",
-      "disposition": "",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/LH88qK0PqYEG",
       "source": "bcp",
       "wins": 5,
@@ -203,7 +293,7 @@
     {
       "player_name": "Dave Weinberger",
       "detachment": "Goretrack Onslaught + Vessels Of Wrath",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/x7vZWdFlb9mz",
       "source": "bcp",
       "wins": 3,
@@ -215,7 +305,7 @@
     {
       "player_name": "Luca Smith",
       "detachment": "No Detachment",
-      "disposition": "",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/II5W0PBixmyH",
       "source": "bcp",
       "wins": 2,
@@ -227,7 +317,7 @@
     {
       "player_name": "Max Saylor",
       "detachment": "Khorne Daemonkin",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/hji9bI4Ptgl4",
       "source": "bcp",
       "wins": 3,
@@ -239,7 +329,7 @@
     {
       "player_name": "Matthew Rogers",
       "detachment": "Goretrack Onslaught + Vessels Of Wrath",
-      "disposition": "",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/1qKiSPR4LzTR",
       "source": "bcp",
       "wins": 3,
@@ -251,7 +341,7 @@
     {
       "player_name": "JD Tatum",
       "detachment": "Brazen Engines + Khorne Daemonkin",
-      "disposition": "Purge the Foe, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/oQ8KBcW0a5cW",
       "source": "bcp",
       "wins": 3,
@@ -263,7 +353,7 @@
     {
       "player_name": "Andrew Stallworth",
       "detachment": "Berzerker Warband",
-      "disposition": "",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/TjOG0BkLg3Wz",
       "source": "bcp",
       "wins": 3,
@@ -287,7 +377,7 @@
     {
       "player_name": "Josh Cook",
       "detachment": "Brazen Engines + Butchers Of Khorne + Vessels Of Wrath",
-      "disposition": "Disruption, Priority Assets, Purge the Foe",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/WwYHgZKma5W5",
       "source": "bcp",
       "wins": 3,
@@ -335,7 +425,7 @@
     {
       "player_name": "Dakota Freeman",
       "detachment": "Butchers Of Khorne + Cult Of Blood",
-      "disposition": "Disruption, Priority Assets",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/GY8OE5IsKi3E",
       "source": "bcp",
       "wins": 1,
@@ -371,7 +461,7 @@
     {
       "player_name": "Michael Black",
       "detachment": "Brazen Engines + Cult Of Blood",
-      "disposition": "Priority Assets, Purge the Foe",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/VNQ3QMsn1oXx",
       "source": "bcp",
       "wins": 1,
@@ -383,7 +473,7 @@
     {
       "player_name": "Tommy Burgess",
       "detachment": "Brazen Engines + Khorne Daemonkin",
-      "disposition": "Purge the Foe, Reconnaissance",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/8It7MwnTY3SY",
       "source": "bcp",
       "wins": 1,

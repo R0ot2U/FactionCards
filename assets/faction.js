@@ -82,6 +82,13 @@ function renderFactionPage(result) {
        </div>`
     : '';
 
+  // Debug logging
+  console.log('[Faction Page Debug]');
+  console.log('data.dispositions:', data.dispositions?.length);
+  console.log('data.disposition_matchups:', data.disposition_matchups?.length);
+  console.log('data.disposition_cross:', data.disposition_cross?.length);
+  console.log('Condition (disposition_matchups):', data.disposition_matchups && data.disposition_matchups.length > 0);
+
   content.innerHTML = `
     ${fallbackWarning}
     ${heroHtml(data)}
@@ -129,6 +136,28 @@ function renderFactionPage(result) {
     </div>
     ` : ''}
 
+    ${data.disposition_matchups && data.disposition_matchups.length > 0 ? `
+    <p class="section-title">Disposition Matchups <span style="color:var(--dim);font-size:0.85rem;font-weight:normal;">(11th Edition)</span></p>
+    <div class="two-col">
+      <div class="panel">
+        <div class="panel-title">Win Rate vs Opponent Disposition <span class="panel-note">(min 10 games)</span></div>
+        <div class="table-wrap">${dispMatchupsTable(data.disposition_matchups)}</div>
+      </div>
+      <div class="chart-wrap">
+        <div class="panel-title">Win Rate into Opponent Disposition</div>
+        <div id="chart-disp-matchup" class="chart-disp-matchup"></div>
+      </div>
+    </div>
+    ` : ''}
+
+    ${data.disposition_cross && data.disposition_cross.length > 0 ? `
+    <p class="section-title">Disposition-Specific Matchups <span style="color:var(--dim);font-size:0.85rem;font-weight:normal;">(11th Edition)</span></p>
+    <div class="panel">
+      <div class="panel-title">Faction-Disposition vs Opponent Disposition <span class="panel-note">(min 5 games, mirrors excluded)</span></div>
+      <div id="matchup-tables" class="matchup-tables">${dispCrossTables(data.disposition_cross)}</div>
+    </div>
+    ` : ''}
+
     <p class="section-title">Matchups vs All Factions</p>
     <div class="chart-wrap">
       <div class="panel-title">Win Rate into Opponent <span class="panel-note">(min 5 games)</span></div>
@@ -173,6 +202,10 @@ function renderFactionPage(result) {
     if (data.dispositions && data.dispositions.length > 0) {
       renderDispChart(data.dispositions);
     }
+    if (data.disposition_matchups && data.disposition_matchups.length > 0) {
+      renderDispMatchupChart(data.disposition_matchups);
+    }
+    // disposition_cross is rendered as static expandable tables, no chart needed
     renderMatchupChart(data.matchups);
     renderTimeline(data.timeline);
     if (mapData && mapData.length > 0) {
@@ -404,6 +437,25 @@ function dispositionTable(disps) {
     </table>`;
 }
 
+function dispMatchupsTable(matchups) {
+  if (!matchups || !matchups.length) return `<p class="empty">No disposition matchup data.</p>`;
+  const rows = matchups.map(d => `
+    <tr>
+      <td>${d.opponent_disposition || "—"}</td>
+      <td data-sort="${d.games}">${d.games}</td>
+      <td data-sort="${d.win_rate}"><span class="${wrClass(d.win_rate)}">${d.win_rate.toFixed(1)}%</span></td>
+    </tr>`).join("");
+  return `
+    <table>
+      <thead><tr>
+        <th>Opponent Disposition</th>
+        <th title="Total games facing this disposition">Games</th>
+        <th title="Win rate facing this disposition">Win %</th>
+      </tr></thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+}
+
 function playersTable(players) {
   if (!players || !players.length) return `<p class="empty">No player data available (min 3 games required).</p>`;
   // Check if any player has dispositions (11th edition only)
@@ -500,6 +552,79 @@ function renderDispChart(disps) {
     cliponaxis: false,
     hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
   }], darkLayout({ margin: { t: 20, r: 80, b: 30, l: 180 } }), plotlyConfig());
+}
+
+function renderDispMatchupChart(matchups) {
+  if (typeof Plotly === "undefined" || !matchups || !matchups.length) return;
+  const sorted = [...matchups].sort((a, b) => b.win_rate - a.win_rate);
+  Plotly.react("chart-disp-matchup", [{
+    type: "bar",
+    orientation: "h",
+    y: sorted.map(m => m.opponent_disposition).reverse(),
+    x: sorted.map(m => m.win_rate).reverse(),
+    marker: { color: sorted.map(m => plotlyWrColor(m.win_rate)).reverse() },
+    text: sorted.map(m => `${m.win_rate.toFixed(1)}% (n=${m.games})`).reverse(),
+    textposition: "outside",
+    cliponaxis: false,
+    hovertemplate: "vs %{y}: %{x:.1f}%<extra></extra>",
+  }], darkLayout({
+    margin: { t: 20, r: 120, b: 30, l: 180 },
+    xaxis: {
+      range: [0, 95],
+      gridcolor: "#2a2a4a",
+      zerolinecolor: "#2a2a4a",
+    },
+    shapes: [{ type: "line", x0: 50, x1: 50, y0: -0.5, y1: sorted.length - 0.5,
+               line: { color: "#555", width: 1, dash: "dot" } }],
+  }), plotlyConfig());
+}
+
+function dispCrossTables(cross) {
+  if (!cross || !cross.length) return `<p class="empty">No disposition cross-matchup data.</p>`;
+
+  const DISPOSITIONS = ["Purge the Foe", "Take and Hold", "Priority Assets", "Disruption", "Reconnaissance"];
+
+  // Group by player disposition
+  const grouped = new Map();
+  DISPOSITIONS.forEach(d => grouped.set(d, []));
+  cross.forEach(c => {
+    if (grouped.has(c.disposition)) grouped.get(c.disposition).push(c);
+  });
+
+  // Build expandable sections (show all 5 dispositions)
+  return DISPOSITIONS.map(disp => {
+    const rows = grouped.get(disp) || [];
+
+    if (!rows.length) {
+      return `<details class="matchup-details">
+        <summary>${disp} <span class="panel-note">(no data)</span></summary>
+        <div class="empty">This faction does not play ${disp}, or insufficient games recorded.</div>
+      </details>`;
+    }
+
+    rows.sort((a, b) => (b.win_rate ?? -1) - (a.win_rate ?? -1));
+    const body = rows.map(r => {
+      const wrCls = r.win_rate != null ? wrClass(r.win_rate) : "";
+      const wr = r.win_rate != null ? `<span class="${wrCls}">${r.win_rate.toFixed(1)}%</span>` : "—";
+      return `<tr>
+        <td>${r.opponent_disposition}</td>
+        <td data-sort="${r.games}">${(r.games ?? 0).toLocaleString()}</td>
+        <td data-sort="${r.win_rate ?? -1}">${wr}</td>
+      </tr>`;
+    }).join("");
+
+    return `<details class="matchup-details">
+      <summary>${disp} <span class="panel-note">(${rows.length} matchups)</span></summary>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>vs Opponent Disposition</th><th>Games</th><th>Win %</th></tr>
+          </thead>
+          <tbody>${body}</tbody>
+        </table>
+      </div>
+    </details>`;
+  }).join("");
 }
 
 function renderMatchupChart(matchups) {

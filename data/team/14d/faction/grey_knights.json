@@ -1,7 +1,7 @@
 {
   "faction": "Grey Knights",
   "slug": "grey_knights",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 14,
   "event_type": "team",
   "lists": 7,
@@ -79,6 +79,37 @@
       "games": 5
     }
   ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 10,
+      "wins": 6,
+      "win_rate": 65.0
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Disruption",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Take and Hold",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 70.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Purge the Foe",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0
+    }
+  ],
   "top_players": [
     {
       "player_name": "Ken Bush",
@@ -107,7 +138,7 @@
     {
       "player_name": "Donovan Sailo",
       "detachment": "Banishers",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/oHUdgkOCHbtn",
       "source": "bcp",
       "wins": 4,
@@ -119,7 +150,7 @@
     {
       "player_name": "Jared Hughes",
       "detachment": "Argent Assault + Banishers",
-      "disposition": "Disruption, Purge the Foe",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/IqP7eJRmOSVx",
       "source": "bcp",
       "wins": 2,
@@ -143,7 +174,7 @@
     {
       "player_name": "Derek Brannon",
       "detachment": "Argent Assault + Banishers",
-      "disposition": "Disruption, Purge the Foe",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/yLAcRUOuBAYz",
       "source": "bcp",
       "wins": 2,
@@ -155,7 +186,7 @@
     {
       "player_name": "Henry Slater",
       "detachment": "Banishers + Immaterial Interdiction",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/3QS616XTEiJR",
       "source": "bcp",
       "wins": 0,

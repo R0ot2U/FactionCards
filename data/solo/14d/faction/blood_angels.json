@@ -1,16 +1,16 @@
 {
   "faction": "Blood Angels",
   "slug": "blood_angels",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 14,
   "event_type": "solo",
   "lists": 23,
-  "games": 102,
-  "play_rate": 2.4,
-  "win_rate": 47.1,
-  "trend_delta": 2.1,
+  "games": 97,
+  "play_rate": 2.1,
+  "win_rate": 48.5,
+  "trend_delta": 3.5,
   "top_detachment": "Liberator Assault Group",
-  "ci_lower": 37.7,
+  "ci_lower": 38.8,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
   "x1_pct": 13.0,
@@ -19,21 +19,21 @@
     {
       "detachment": "Liberator Assault Group",
       "base_archetype": "Blood Angels \u2014 Liberator Assault Group",
-      "lists": 7,
-      "games": 35,
-      "play_rate": 30.4,
-      "win_rate": 55.7,
+      "lists": 9,
+      "games": 42,
+      "play_rate": 39.1,
+      "win_rate": 53.6,
       "x0_pct": 0.0,
-      "x1_pct": 14.3,
+      "x1_pct": 22.2,
       "tournament_wins": 0
     },
     {
       "detachment": "Rage-Cursed Onslaught",
       "base_archetype": "Blood Angels \u2014 Rage-Cursed Onslaught",
       "lists": 7,
-      "games": 30,
+      "games": 25,
       "play_rate": 30.4,
-      "win_rate": 48.3,
+      "win_rate": 54.0,
       "x0_pct": 0.0,
       "x1_pct": 16.7,
       "tournament_wins": 0
@@ -56,17 +56,6 @@
       "games": 5,
       "play_rate": 4.3,
       "win_rate": 20.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Liberator Assault Group (The Red Thirst)",
-      "base_archetype": "Blood Angels \u2014 Liberator Assault Group (The Red Thirst)",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 4.3,
-      "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -105,8 +94,8 @@
       "tournament_wins": 0
     },
     {
-      "detachment": "Encarmine Speartip + Vanguard Spearhead (Shadow Masters)",
-      "base_archetype": "Blood Angels \u2014 Encarmine Speartip + Vanguard Spearhead (Shadow Masters)",
+      "detachment": "Encarmine Speartip + Vanguard Spearhead",
+      "base_archetype": "Blood Angels \u2014 Encarmine Speartip + Vanguard Spearhead",
       "lists": 1,
       "games": 5,
       "play_rate": 4.3,
@@ -130,10 +119,10 @@
       "disposition": "Purge the Foe",
       "lists": 8,
       "play_rate": 34.8,
-      "win_rate": 50.0,
+      "win_rate": 55.0,
       "x0_pct": 0.0,
       "x1_pct": 12.5,
-      "games": 35
+      "games": 30
     },
     {
       "disposition": "Priority Assets",
@@ -152,6 +141,96 @@
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "games": 10
+    }
+  ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 36,
+      "wins": 15,
+      "win_rate": 41.7
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 18,
+      "wins": 7,
+      "win_rate": 38.9
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 15,
+      "wins": 8,
+      "win_rate": 53.3
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 14,
+      "wins": 8,
+      "win_rate": 57.1
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 14,
+      "wins": 9,
+      "win_rate": 64.3
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Purge the Foe",
+      "games": 11,
+      "wins": 5,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Priority Assets",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Reconnaissance",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Take and Hold",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Purge the Foe",
+      "games": 19,
+      "wins": 8,
+      "win_rate": 44.7
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Reconnaissance",
+      "games": 8,
+      "wins": 3,
+      "win_rate": 37.5
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Priority Assets",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 66.7
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Take and Hold",
+      "games": 6,
+      "wins": 5,
+      "win_rate": 83.3
     }
   ],
   "top_players": [
@@ -218,7 +297,7 @@
     {
       "player_name": "William Nicholl",
       "detachment": "Rage-Cursed Onslaught",
-      "disposition": "",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/Mb8y2e4lhvSo",
       "source": "bcp",
       "wins": 3,
@@ -242,7 +321,7 @@
     {
       "player_name": "Doug Weismantle",
       "detachment": "Encarmine Speartip + Legacy Of Grace + and Wrath of the Doomed",
-      "disposition": "Disruption, Priority Assets, Purge the Foe",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/wncnVwdpEucv",
       "source": "bcp",
       "wins": 3,
@@ -288,6 +367,18 @@
       "win_rate": 50.0
     },
     {
+      "player_name": "Hanna Haigh",
+      "detachment": "Rage-Cursed Onslaught",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/PPEYrQ0yykls",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 6,
+      "draws": 0,
+      "games": 10,
+      "win_rate": 40.0
+    },
+    {
       "player_name": "Jimmy Nicholas",
       "detachment": "Liberator Assault Group",
       "disposition": "Take and Hold",
@@ -313,8 +404,8 @@
     },
     {
       "player_name": "Martin Kragh Nielsen",
-      "detachment": "Liberator Assault Group (The Red Thirst)",
-      "disposition": "",
+      "detachment": "Liberator Assault Group",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/GSk58uZkRMFw",
       "source": "bcp",
       "wins": 2,
@@ -362,20 +453,8 @@
     {
       "player_name": "Keenan Flight",
       "detachment": "Legacy Of Grace + Stormlance Task Force",
-      "disposition": "Disruption, Priority Assets",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/OPj9m38et9T8",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 4,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 20.0
-    },
-    {
-      "player_name": "Hanna Haigh",
-      "detachment": "Rage-Cursed Onslaught",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/PPEYrQ0yykls",
       "source": "bcp",
       "wins": 1,
       "losses": 4,
@@ -399,9 +478,9 @@
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 13,
-      "wins": 9,
-      "win_rate": 69.2
+      "games": 11,
+      "wins": 8,
+      "win_rate": 72.7
     },
     {
       "opponent_faction": "Emperor's Children",
@@ -422,12 +501,6 @@
       "win_rate": 25.0
     },
     {
-      "opponent_faction": "Tyranids",
-      "games": 6,
-      "wins": 4,
-      "win_rate": 66.7
-    },
-    {
       "opponent_faction": "T'au Empire",
       "games": 6,
       "wins": 3,
@@ -440,12 +513,6 @@
       "win_rate": 20.0
     },
     {
-      "opponent_faction": "World Eaters",
-      "games": 5,
-      "wins": 4,
-      "win_rate": 80.0
-    },
-    {
       "opponent_faction": "Chaos Daemons",
       "games": 5,
       "wins": 3,
@@ -456,14 +523,20 @@
       "games": 5,
       "wins": 3,
       "win_rate": 60.0
+    },
+    {
+      "opponent_faction": "Tyranids",
+      "games": 5,
+      "wins": 4,
+      "win_rate": 80.0
     }
   ],
   "timeline": [
     {
       "week": "2026-W25",
       "lists": 12,
-      "games": 55,
-      "win_rate": 50.0,
+      "games": 50,
+      "win_rate": 53.0,
       "total_lists": 494,
       "play_rate": 2.4
     },
@@ -472,8 +545,8 @@
       "lists": 11,
       "games": 47,
       "win_rate": 43.6,
-      "total_lists": 484,
-      "play_rate": 2.3
+      "total_lists": 625,
+      "play_rate": 1.8
     }
   ]
 }

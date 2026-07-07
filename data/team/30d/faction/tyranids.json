@@ -1,7 +1,7 @@
 {
   "faction": "Tyranids",
   "slug": "tyranids",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 30,
   "event_type": "team",
   "lists": 52,
@@ -52,12 +52,12 @@
     {
       "detachment": "Subterranean Assault",
       "base_archetype": "Tyranids \u2014 Subterranean Assault",
-      "lists": 7,
-      "games": 35,
-      "play_rate": 13.5,
+      "lists": 8,
+      "games": 40,
+      "play_rate": 15.4,
       "win_rate": 50.0,
       "x0_pct": 0.0,
-      "x1_pct": 14.3,
+      "x1_pct": 12.5,
       "tournament_wins": 0
     },
     {
@@ -111,17 +111,6 @@
       "games": 5,
       "play_rate": 1.9,
       "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Subterranean Assault (Keywords)",
-      "base_archetype": "Tyranids \u2014 Subterranean Assault (Keywords)",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 1.9,
-      "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -196,6 +185,187 @@
       "games": 15
     }
   ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 53,
+      "wins": 17,
+      "win_rate": 33.0
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 51,
+      "wins": 27,
+      "win_rate": 52.9
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 50,
+      "wins": 24,
+      "win_rate": 49.0
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 48,
+      "wins": 27,
+      "win_rate": 56.2
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 40,
+      "wins": 18,
+      "win_rate": 46.2
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Reconnaissance",
+      "games": 19,
+      "wins": 11,
+      "win_rate": 60.5
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Purge the Foe",
+      "games": 18,
+      "wins": 4,
+      "win_rate": 25.0
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Priority Assets",
+      "games": 16,
+      "wins": 6,
+      "win_rate": 40.6
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Take and Hold",
+      "games": 16,
+      "wins": 11,
+      "win_rate": 68.8
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Disruption",
+      "games": 11,
+      "wins": 6,
+      "win_rate": 54.5
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Purge the Foe",
+      "games": 10,
+      "wins": 3,
+      "win_rate": 35.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Take and Hold",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 33.3
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Reconnaissance",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Disruption",
+      "games": 6,
+      "wins": 1,
+      "win_rate": 16.7
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Priority Assets",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Take and Hold",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Priority Assets",
+      "games": 12,
+      "wins": 5,
+      "win_rate": 45.8
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Purge the Foe",
+      "games": 11,
+      "wins": 3,
+      "win_rate": 27.3
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Take and Hold",
+      "games": 9,
+      "wins": 4,
+      "win_rate": 44.4
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Disruption",
+      "games": 9,
+      "wins": 6,
+      "win_rate": 72.2
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Reconnaissance",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Take and Hold",
+      "games": 15,
+      "wins": 7,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Priority Assets",
+      "games": 13,
+      "wins": 7,
+      "win_rate": 57.7
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Disruption",
+      "games": 12,
+      "wins": 4,
+      "win_rate": 33.3
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Purge the Foe",
+      "games": 10,
+      "wins": 4,
+      "win_rate": 45.0
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Reconnaissance",
+      "games": 9,
+      "wins": 5,
+      "win_rate": 61.1
+    }
+  ],
   "top_players": [
     {
       "player_name": "Charles Barber",
@@ -212,7 +382,7 @@
     {
       "player_name": "Sebastian Arias",
       "detachment": "Ambush Predators + Vanguard Onslaught",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/zelGtWGZZuNA",
       "source": "bcp",
       "wins": 5,
@@ -224,7 +394,7 @@
     {
       "player_name": "Stephen Fore",
       "detachment": "Crusher Stampede + Talons Of The Norn Queen",
-      "disposition": "Purge the Foe, Take and Hold",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/9I1bB5QbW4GP",
       "source": "bcp",
       "wins": 4,
@@ -248,7 +418,7 @@
     {
       "player_name": "Pedro Reyes",
       "detachment": "Ambush Predators + Vanguard Onslaught",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/up5UAIcLKACt",
       "source": "bcp",
       "wins": 4,
@@ -272,7 +442,7 @@
     {
       "player_name": "Charlie Andre",
       "detachment": "Crusher Stampede + Talons Of The Norn Queen",
-      "disposition": "Purge the Foe, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/LLMhP41en3fo",
       "source": "bcp",
       "wins": 3,
@@ -284,7 +454,7 @@
     {
       "player_name": "Jordan Mattheus",
       "detachment": "Ambush Predators + Vanguard Onslaught",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/2jiqueDKdyE2",
       "source": "bcp",
       "wins": 4,
@@ -308,7 +478,7 @@
     {
       "player_name": "Chalan Kelly-Irvin",
       "detachment": "Ambush Predators + Vanguard Onslaught",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/jUTgHQ6rv9DI",
       "source": "bcp",
       "wins": 3,
@@ -332,7 +502,7 @@
     {
       "player_name": "Jordan Galaugher",
       "detachment": "Assimilation Swarm + Talons Of The Norn Queen",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/nQkwluDZAqGF",
       "source": "bcp",
       "wins": 3,
@@ -344,7 +514,7 @@
     {
       "player_name": "Torin Holmes",
       "detachment": "Synaptic Nexus + Talons Of The Norn Queen",
-      "disposition": "",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/tGnQs1Q3KtIt",
       "source": "bcp",
       "wins": 3,
@@ -368,7 +538,7 @@
     {
       "player_name": "Chris Lanier",
       "detachment": "Ambush Predators + Vanguard Onslaught",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/D4D4qXFemBsL",
       "source": "bcp",
       "wins": 3,
@@ -380,7 +550,7 @@
     {
       "player_name": "Ryan Verbeck",
       "detachment": "Ambush Predators + Vanguard Onslaught",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/L80DXeaLj1h8",
       "source": "bcp",
       "wins": 3,
@@ -392,7 +562,7 @@
     {
       "player_name": "Axl Bryant",
       "detachment": "Invasion Fleet",
-      "disposition": "",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/lEWb4aR8nr3q",
       "source": "bcp",
       "wins": 3,
@@ -404,7 +574,7 @@
     {
       "player_name": "Tyler Planto",
       "detachment": "Ambush Predators + Crusher Stampede",
-      "disposition": "Disruption, Purge the Foe",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/yuCbVNFbItEZ",
       "source": "bcp",
       "wins": 3,
@@ -416,7 +586,7 @@
     {
       "player_name": "Christian Snow",
       "detachment": "Warrior Bioform Onslaught",
-      "disposition": "",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/HXoiRalJnHlN",
       "source": "bcp",
       "wins": 3,

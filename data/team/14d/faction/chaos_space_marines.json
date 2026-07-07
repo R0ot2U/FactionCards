@@ -1,7 +1,7 @@
 {
   "faction": "Chaos Space Marines",
   "slug": "chaos_space_marines",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 14,
   "event_type": "team",
   "lists": 39,
@@ -94,6 +94,17 @@
       "tournament_wins": 0
     },
     {
+      "detachment": "Devotees Of Destruction + Nightmare Hunt",
+      "base_archetype": "Chaos Space Marines \u2014 Devotees Of Destruction + Nightmare Hunt",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 5.1,
+      "win_rate": 30.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0
+    },
+    {
       "detachment": "Huron's Marauders",
       "base_archetype": "Chaos Space Marines \u2014 Huron's Marauders",
       "lists": 1,
@@ -138,17 +149,6 @@
       "tournament_wins": 0
     },
     {
-      "detachment": "Devotees Of Destruction + Nightmare Hunt",
-      "base_archetype": "Chaos Space Marines \u2014 Devotees Of Destruction + Nightmare Hunt",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 2.6,
-      "win_rate": 50.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
       "detachment": "Creations Of Bile",
       "base_archetype": "Chaos Space Marines \u2014 Creations Of Bile",
       "lists": 1,
@@ -188,17 +188,6 @@
       "games": 5,
       "play_rate": 2.6,
       "win_rate": 30.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Devotees Of Destruction + Nightmare Hunt (Rain of Ruin)",
-      "base_archetype": "Chaos Space Marines \u2014 Devotees Of Destruction + Nightmare Hunt (Rain of Ruin)",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 2.6,
-      "win_rate": 10.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0
@@ -273,6 +262,194 @@
       "games": 25
     }
   ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 44,
+      "wins": 21,
+      "win_rate": 48.9
+    },
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 41,
+      "wins": 22,
+      "win_rate": 54.9
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 39,
+      "wins": 22,
+      "win_rate": 56.4
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 36,
+      "wins": 16,
+      "win_rate": 44.4
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 31,
+      "wins": 16,
+      "win_rate": 51.6
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Reconnaissance",
+      "games": 12,
+      "wins": 5,
+      "win_rate": 41.7
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Disruption",
+      "games": 10,
+      "wins": 6,
+      "win_rate": 60.0
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Take and Hold",
+      "games": 9,
+      "wins": 5,
+      "win_rate": 61.1
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Purge the Foe",
+      "games": 9,
+      "wins": 3,
+      "win_rate": 38.9
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Priority Assets",
+      "games": 8,
+      "wins": 6,
+      "win_rate": 75.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Priority Assets",
+      "games": 11,
+      "wins": 5,
+      "win_rate": 45.5
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Disruption",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 20.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Priority Assets",
+      "games": 14,
+      "wins": 7,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Purge the Foe",
+      "games": 12,
+      "wins": 7,
+      "win_rate": 62.5
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Reconnaissance",
+      "games": 8,
+      "wins": 3,
+      "win_rate": 37.5
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Disruption",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 57.1
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Take and Hold",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 42.9
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Disruption",
+      "games": 10,
+      "wins": 9,
+      "win_rate": 90.0
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Purge the Foe",
+      "games": 10,
+      "wins": 3,
+      "win_rate": 35.0
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Reconnaissance",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 57.1
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Take and Hold",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 58.3
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Priority Assets",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 30.0
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Purge the Foe",
+      "games": 8,
+      "wins": 6,
+      "win_rate": 75.0
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Priority Assets",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 33.3
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Take and Hold",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Disruption",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 20.0
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Reconnaissance",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 50.0
+    }
+  ],
   "top_players": [
     {
       "player_name": "Conner MacKenzie",
@@ -289,7 +466,7 @@
     {
       "player_name": "Tyler Hayes",
       "detachment": "Cabal Of Chaos + Fellhammer Siege-Host",
-      "disposition": "Disruption, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/EGQql70JisGW",
       "source": "bcp",
       "wins": 5,
@@ -337,7 +514,7 @@
     {
       "player_name": "Xavier Michel",
       "detachment": "Murdertalon Raiders + Veterans Of The Long War",
-      "disposition": "Purge the Foe, Take and Hold",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/xL5NZhYFAuR3",
       "source": "bcp",
       "wins": 4,
@@ -349,7 +526,7 @@
     {
       "player_name": "Anthony LoGrande",
       "detachment": "Murdertalon Raiders + Veterans Of The Long War",
-      "disposition": "Purge the Foe, Take and Hold",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/YPqMW8FSRCM7",
       "source": "bcp",
       "wins": 4,
@@ -373,7 +550,7 @@
     {
       "player_name": "Jon Ham",
       "detachment": "Cabal Of Chaos + Soulforged Warpack",
-      "disposition": "Disruption, Purge the Foe",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/hFh0uqyt9t56",
       "source": "bcp",
       "wins": 3,
@@ -409,7 +586,7 @@
     {
       "player_name": "Brian Schwinger Sr.",
       "detachment": "Fellhammer Siege-Host + Murdertalon Raiders",
-      "disposition": "Purge the Foe, Take and Hold",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/qc7YceuWvj0R",
       "source": "bcp",
       "wins": 3,
@@ -421,7 +598,7 @@
     {
       "player_name": "Tony Kopach",
       "detachment": "Cabal Of Chaos + Fellhammer Siege-Host",
-      "disposition": "Disruption, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/lv44zvAA03xt",
       "source": "bcp",
       "wins": 2,
@@ -445,7 +622,7 @@
     {
       "player_name": "Nick Antzoulatos",
       "detachment": "Cabal Of Chaos + Soulforged Warpack",
-      "disposition": "Disruption, Purge the Foe",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/dRErERuO2V1W",
       "source": "bcp",
       "wins": 3,
@@ -481,7 +658,7 @@
     {
       "player_name": "Alex Dobre",
       "detachment": "Cabal Of Chaos + Veterans Of The Long War",
-      "disposition": "Disruption, Take and Hold",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/La6Uvcn76adO",
       "source": "bcp",
       "wins": 3,
@@ -493,7 +670,7 @@
     {
       "player_name": "Alexandru Fuia",
       "detachment": "Veterans of the Long War",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/3ostaZKSFvHR",
       "source": "bcp",
       "wins": 3,

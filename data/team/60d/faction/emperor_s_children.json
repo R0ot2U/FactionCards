@@ -1,7 +1,7 @@
 {
   "faction": "Emperor's Children",
   "slug": "emperor_s_children",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 60,
   "event_type": "team",
   "lists": 21,
@@ -174,11 +174,115 @@
       "games": 5
     }
   ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 26,
+      "wins": 14,
+      "win_rate": 55.8
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 22,
+      "wins": 15,
+      "win_rate": 70.5
+    },
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 20,
+      "wins": 11,
+      "win_rate": 55.0
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 20,
+      "wins": 11,
+      "win_rate": 55.0
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 16,
+      "wins": 10,
+      "win_rate": 65.6
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Take and Hold",
+      "games": 8,
+      "wins": 6,
+      "win_rate": 75.0
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Priority Assets",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 57.1
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Take and Hold",
+      "games": 8,
+      "wins": 6,
+      "win_rate": 81.2
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Disruption",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 57.1
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Reconnaissance",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 41.7
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Purge the Foe",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 75.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Purge the Foe",
+      "games": 10,
+      "wins": 5,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Take and Hold",
+      "games": 8,
+      "wins": 1,
+      "win_rate": 12.5
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Priority Assets",
+      "games": 7,
+      "wins": 5,
+      "win_rate": 71.4
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Reconnaissance",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 66.7
+    }
+  ],
   "top_players": [
     {
       "player_name": "Jane Vader",
       "detachment": "Carnival Of Excess + Elegant Brutes",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/BtICWqxqv2PS",
       "source": "bcp",
       "wins": 5,
@@ -190,7 +294,7 @@
     {
       "player_name": "Collin Cochran",
       "detachment": "Court Of The Phoenician + Frenzied Host",
-      "disposition": "",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/HUGa0vW3O7Wu",
       "source": "bcp",
       "wins": 5,
@@ -202,7 +306,7 @@
     {
       "player_name": "Taylor Hudson",
       "detachment": "Coterie of the Conceited",
-      "disposition": "",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/P9fyTh1vyYPd",
       "source": "bcp",
       "wins": 5,
@@ -214,7 +318,7 @@
     {
       "player_name": "Shaun Simmons",
       "detachment": "Peerless Bladesmen + Spectacle Of Slaughter",
-      "disposition": "Priority Assets, Purge the Foe",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/Y6wzvW5rFURq",
       "source": "bcp",
       "wins": 5,
@@ -226,7 +330,7 @@
     {
       "player_name": "Trenton Bates",
       "detachment": "Carnival Of Excess + Frenzied Host",
-      "disposition": "Disruption, Priority Assets",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/WFLTyoMtv30F",
       "source": "bcp",
       "wins": 4,
@@ -238,7 +342,7 @@
     {
       "player_name": "Mark Aescht",
       "detachment": "Peerless Bladesmen + Spectacle Of Slaughter",
-      "disposition": "Priority Assets, Purge the Foe",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/GEIs5N3Z6H2m",
       "source": "bcp",
       "wins": 4,
@@ -250,7 +354,7 @@
     {
       "player_name": "Jack  Murphy",
       "detachment": "Carnival Of Excess + Frenzied Host",
-      "disposition": "Disruption, Priority Assets",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/JbUukSfgtB4G",
       "source": "bcp",
       "wins": 4,
@@ -262,7 +366,7 @@
     {
       "player_name": "Juice Sexton",
       "detachment": "Carnival Of Excess + Frenzied Host",
-      "disposition": "Disruption, Priority Assets",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/HpL2JkjVYdkD",
       "source": "bcp",
       "wins": 2,
@@ -346,7 +450,7 @@
     {
       "player_name": "Kyle Rakers",
       "detachment": "Peerless Bladesmen",
-      "disposition": "",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/rSLe9saysNHN",
       "source": "bcp",
       "wins": 2,
@@ -370,7 +474,7 @@
     {
       "player_name": "Ognjen Todorovic",
       "detachment": "Elegant Brutes + Peerless Blademan",
-      "disposition": "Purge the Foe, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/IeoG4cz97BWC",
       "source": "bcp",
       "wins": 2,
@@ -382,7 +486,7 @@
     {
       "player_name": "Dorin Majorosi",
       "detachment": "Court Of The Phoenician + Frenzied Host",
-      "disposition": "Disruption, Purge the Foe",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/xk9N3nIhqUsl",
       "source": "bcp",
       "wins": 1,
@@ -394,7 +498,7 @@
     {
       "player_name": "Joe Martinez",
       "detachment": "Carnival Of Excess + Spectacle Of Slaughter",
-      "disposition": "Priority Assets, Purge the Foe",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/Xkpusq0mAwBc",
       "source": "bcp",
       "wins": 1,

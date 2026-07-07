@@ -1,7 +1,7 @@
 {
   "faction": "Thousand Sons",
   "slug": "thousand_sons",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "window_days": 60,
   "event_type": "team",
   "lists": 45,
@@ -207,11 +207,157 @@
       "games": 10
     }
   ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 52,
+      "wins": 32,
+      "win_rate": 61.5
+    },
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 51,
+      "wins": 27,
+      "win_rate": 52.9
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 44,
+      "wins": 24,
+      "win_rate": 55.7
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 40,
+      "wins": 23,
+      "win_rate": 57.5
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 32,
+      "wins": 22,
+      "win_rate": 68.8
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Disruption",
+      "games": 9,
+      "wins": 4,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Purge the Foe",
+      "games": 9,
+      "wins": 2,
+      "win_rate": 22.2
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Priority Assets",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 56.2
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Take and Hold",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Take and Hold",
+      "games": 14,
+      "wins": 11,
+      "win_rate": 78.6
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Reconnaissance",
+      "games": 13,
+      "wins": 9,
+      "win_rate": 69.2
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Purge the Foe",
+      "games": 12,
+      "wins": 9,
+      "win_rate": 75.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Disruption",
+      "games": 10,
+      "wins": 8,
+      "win_rate": 80.0
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Priority Assets",
+      "games": 9,
+      "wins": 7,
+      "win_rate": 77.8
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Take and Hold",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 56.2
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Purge the Foe",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 50.0
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Take and Hold",
+      "games": 23,
+      "wins": 12,
+      "win_rate": 54.3
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Priority Assets",
+      "games": 20,
+      "wins": 9,
+      "win_rate": 45.0
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Purge the Foe",
+      "games": 18,
+      "wins": 9,
+      "win_rate": 52.8
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Disruption",
+      "games": 17,
+      "wins": 6,
+      "win_rate": 38.2
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Reconnaissance",
+      "games": 15,
+      "wins": 11,
+      "win_rate": 76.7
+    }
+  ],
   "top_players": [
     {
       "player_name": "Colin McCain",
       "detachment": "Servants Of Change + Warpforged Cabal",
-      "disposition": "Disruption, Reconnaissance",
+      "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/6Z0wtJTBqXbm",
       "source": "bcp",
       "wins": 5,
@@ -223,7 +369,7 @@
     {
       "player_name": "Malaki Fowler",
       "detachment": "Hexwarp Thrallband + Sekhetar Cohort",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/qO0LZwFyCDLs",
       "source": "bcp",
       "wins": 5,
@@ -259,7 +405,7 @@
     {
       "player_name": "TJ Lanigan",
       "detachment": "Hexwarp Thrallband",
-      "disposition": "",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/h3ReRb1yksZt",
       "source": "bcp",
       "wins": 4,
@@ -295,7 +441,7 @@
     {
       "player_name": "Clay Plumridge",
       "detachment": "No Detachment",
-      "disposition": "",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/KTCQXHRRgae1",
       "source": "bcp",
       "wins": 3,
@@ -319,7 +465,7 @@
     {
       "player_name": "Scott Beilby",
       "detachment": "Ritual Of Regeneration + Warpforged Cabal",
-      "disposition": "Disruption, Purge the Foe",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/3iSDVOgZIlbJ",
       "source": "bcp",
       "wins": 3,
@@ -331,7 +477,7 @@
     {
       "player_name": "Isaac Clark",
       "detachment": "Hexwarp Thrallband + Sekhetar Cohort",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/lbBpkU1xmqEp",
       "source": "bcp",
       "wins": 4,
@@ -343,7 +489,7 @@
     {
       "player_name": "Dustin Hammond",
       "detachment": "Sekhetar Cohort + Warpforged Cabal",
-      "disposition": "Disruption, Priority Assets",
+      "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/ut0HZcU3Ce3C",
       "source": "bcp",
       "wins": 4,
@@ -355,7 +501,7 @@
     {
       "player_name": "Zak Engelbrecht",
       "detachment": "Hexwarp Thrallband + Sekhetar Cohort",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/uh6dBm8ruxAn",
       "source": "bcp",
       "wins": 4,
@@ -379,7 +525,7 @@
     {
       "player_name": "Ally Huang",
       "detachment": "Hexwarp Thrallband + Sekhetar Cohort",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/rBSCvPSnbTtW",
       "source": "bcp",
       "wins": 4,
@@ -391,7 +537,7 @@
     {
       "player_name": "John Stokes",
       "detachment": "Hexwarp Thrallband + Ritual Of Regeneration",
-      "disposition": "Purge the Foe, Take and Hold",
+      "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/yq8podFGEaO2",
       "source": "bcp",
       "wins": 3,
@@ -403,7 +549,7 @@
     {
       "player_name": "Tom Cohen",
       "detachment": "Hexwarp Thrallband + Sekhetar Cohort",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/pQKx7aEMREW7",
       "source": "bcp",
       "wins": 3,
@@ -415,7 +561,7 @@
     {
       "player_name": "Joe MacMillan",
       "detachment": "Hexwarp Thrallband + Sekhetar Cohort",
-      "disposition": "Priority Assets, Take and Hold",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/Z5nLwtyigiRC",
       "source": "bcp",
       "wins": 3,
@@ -439,7 +585,7 @@
     {
       "player_name": "Kris Ku",
       "detachment": "Sekhetar Cohort + Warpforged Cabal",
-      "disposition": "Disruption, Priority Assets",
+      "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/8jSBdk54F8CH",
       "source": "bcp",
       "wins": 3,
