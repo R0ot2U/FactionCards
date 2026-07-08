@@ -77,8 +77,9 @@ function renderOverviewChart() {
     cliponaxis: false,
     hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
   }], darkLayout({
-    margin: { t: 20, r: isMobile ? 50 : 120, b: 30, l: isMobile ? 150 : 180 },
+    margin: { t: 20, r: isMobile ? 50 : 120, b: 30, l: isMobile ? 150 : 200 },
     xaxis: { range: [0, 80], gridcolor: "#2a2a4a", zerolinecolor: "#2a2a4a" },
+    yaxis: { tickfont: { size: 11 } },
     shapes: [{
       type: "line", x0: 50, x1: 50,
       y0: -0.5, y1: rows.length - 0.5,

@@ -525,17 +525,22 @@ function timelineTable(timeline) {
 function renderDetChart(dets) {
   if (typeof Plotly === "undefined" || !dets || !dets.length) return;
   const top = [...dets].sort((a, b) => b.play_rate - a.play_rate).slice(0, 15);
+  const truncate = (s, max = 28) => s.length > max ? s.substring(0, max - 1) + '…' : s;
+
   Plotly.react("chart-det", [{
     type: "bar",
     orientation: "h",
-    y: top.map(d => (d.detachment || "Unknown").replace(/^.+ — /, "")).reverse(),
+    y: top.map(d => truncate((d.detachment || "Unknown").replace(/^.+ — /, ""))).reverse(),
     x: top.map(d => d.play_rate).reverse(),
     marker: { color: "#1565c0" },
     text: top.map(d => `${d.play_rate.toFixed(1)}%`).reverse(),
     textposition: "outside",
     cliponaxis: false,
     hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
-  }], darkLayout({ margin: { t: 20, r: 80, b: 30, l: 180 } }), plotlyConfig());
+  }], darkLayout({
+    margin: { t: 20, r: 80, b: 30, l: 240 },
+    yaxis: { tickfont: { size: 11 } }
+  }), plotlyConfig());
 }
 
 function renderDispChart(disps) {
@@ -551,7 +556,10 @@ function renderDispChart(disps) {
     textposition: "outside",
     cliponaxis: false,
     hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
-  }], darkLayout({ margin: { t: 20, r: 80, b: 30, l: 180 } }), plotlyConfig());
+  }], darkLayout({
+    margin: { t: 20, r: 80, b: 30, l: 200 },
+    yaxis: { tickfont: { size: 11 } }
+  }), plotlyConfig());
 }
 
 function renderDispMatchupChart(matchups) {
@@ -568,12 +576,13 @@ function renderDispMatchupChart(matchups) {
     cliponaxis: false,
     hovertemplate: "vs %{y}: %{x:.1f}%<extra></extra>",
   }], darkLayout({
-    margin: { t: 20, r: 120, b: 30, l: 180 },
+    margin: { t: 20, r: 120, b: 30, l: 200 },
     xaxis: {
       range: [0, 95],
       gridcolor: "#2a2a4a",
       zerolinecolor: "#2a2a4a",
     },
+    yaxis: { tickfont: { size: 11 } },
     shapes: [{ type: "line", x0: 50, x1: 50, y0: -0.5, y1: sorted.length - 0.5,
                line: { color: "#555", width: 1, dash: "dot" } }],
   }), plotlyConfig());
@@ -641,12 +650,13 @@ function renderMatchupChart(matchups) {
     cliponaxis: false,
     hovertemplate: "vs %{y}: %{x:.1f}%<extra></extra>",
   }], darkLayout({
-    margin: { t: 20, r: 120, b: 30, l: 200 },
+    margin: { t: 20, r: 120, b: 30, l: 220 },
     xaxis: {
       range: [0, 95],
       gridcolor: "#2a2a4a",
       zerolinecolor: "#2a2a4a",
     },
+    yaxis: { tickfont: { size: 11 } },
     shapes: [{ type: "line", x0: 50, x1: 50, y0: -0.5, y1: sorted.length - 0.5,
                line: { color: "#555", width: 1, dash: "dot" } }],
   }), plotlyConfig());
@@ -655,41 +665,67 @@ function renderMatchupChart(matchups) {
 function renderDetPieChart(dets, metric = 'lists') {
   if (typeof Plotly === "undefined" || !dets || !dets.length) return;
 
-  // Define metric configurations
-  const metrics = {
+  // Sort and take top 10
+  const sorted = [...dets].sort((a, b) => {
+    if (metric === 'win_rate') return b.win_rate - a.win_rate;
+    if (metric === 'play_rate') return b.play_rate - a.play_rate;
+    if (metric === 'tournament_wins') return (b.tournament_wins || 0) - (a.tournament_wins || 0);
+    return b.lists - a.lists;
+  });
+  const top = sorted.slice(0, 10);
+
+  // Win rate uses horizontal bar chart (not a pie)
+  if (metric === 'win_rate') {
+    // Truncate long detachment names for display
+    const truncate = (s, max = 28) => s.length > max ? s.substring(0, max - 1) + '…' : s;
+
+    Plotly.react("chart-det-pie", [{
+      type: "bar",
+      orientation: "h",
+      y: top.map(d => truncate((d.detachment || "Unknown").replace(/^.+ — /, ""))).reverse(),
+      x: top.map(d => d.win_rate).reverse(),
+      marker: { color: top.map(d => plotlyWrColor(d.win_rate)).reverse() },
+      text: top.map(d => `${d.win_rate.toFixed(1)}%`).reverse(),
+      textposition: "outside",
+      cliponaxis: false,
+      hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
+    }], darkLayout({
+      margin: { t: 20, r: 80, b: 30, l: 240 },
+      xaxis: {
+        range: [0, 95],
+        gridcolor: "#2a2a4a",
+        zerolinecolor: "#2a2a4a",
+      },
+      yaxis: {
+        tickfont: { size: 11 }
+      },
+      shapes: [{
+        type: "line",
+        x0: 50, x1: 50,
+        y0: -0.5, y1: top.length - 0.5,
+        line: { color: "#555", width: 1, dash: "dot" }
+      }],
+    }), plotlyConfig());
+    return;
+  }
+
+  // Other metrics use pie chart
+  const pieMetrics = {
     lists: {
-      label: 'Lists',
       getValue: d => d.lists,
       hoverTemplate: "%{label}<br>%{value} lists (%{percent})<extra></extra>",
-      sortDesc: true
     },
     play_rate: {
-      label: 'Play Rate',
       getValue: d => d.play_rate,
       hoverTemplate: "%{label}<br>%{value:.1f}% (%{percent})<extra></extra>",
-      sortDesc: true
-    },
-    win_rate: {
-      label: 'Win Rate',
-      getValue: d => d.win_rate,
-      hoverTemplate: "%{label}<br>%{value:.1f}% WR (%{percent})<extra></extra>",
-      sortDesc: true
     },
     tournament_wins: {
-      label: 'Tournament Wins',
       getValue: d => d.tournament_wins || 0,
       hoverTemplate: "%{label}<br>%{value} wins (%{percent})<extra></extra>",
-      sortDesc: true
     }
   };
 
-  const config = metrics[metric] || metrics.lists;
-  const sorted = [...dets].sort((a, b) =>
-    config.sortDesc
-      ? config.getValue(b) - config.getValue(a)
-      : config.getValue(a) - config.getValue(b)
-  );
-  const top = sorted.slice(0, 10);
+  const config = pieMetrics[metric] || pieMetrics.lists;
 
   Plotly.react("chart-det-pie", [{
     type: "pie",

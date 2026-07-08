@@ -448,7 +448,10 @@ function renderCharts() {
     textposition: "outside",
     cliponaxis: false,
     hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
-  }], darkLayout({ margin: { t: 20, r: 80, b: 30, l: 180 } }), plotlyConfig());
+  }], darkLayout({
+    margin: { t: 20, r: 80, b: 30, l: 220 },
+    yaxis: { tickfont: { size: 11 } }
+  }), plotlyConfig());
 
   // Win rate bar — sorted by win rate desc
   const wrRows = [...rows].sort((a, b) => b.win_rate - a.win_rate).slice(0, 28);
@@ -463,8 +466,9 @@ function renderCharts() {
     cliponaxis: false,
     hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
   }], darkLayout({
-    margin: { t: 20, r: 80, b: 30, l: 180 },
+    margin: { t: 20, r: 80, b: 30, l: 220 },
     xaxis: { range: [0, 80], gridcolor: "#2a2a4a", zerolinecolor: "#2a2a4a" },
+    yaxis: { tickfont: { size: 11 } },
     shapes: [{ type: "line", x0: 50, x1: 50, y0: -0.5, y1: wrRows.length - 0.5,
                line: { color: "#555", width: 1, dash: "dot" } }],
   }), plotlyConfig());
@@ -486,8 +490,9 @@ function renderCharts() {
       cliponaxis: false,
       hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
     }], darkLayout({
-      margin: { t: 20, r: 120, b: 30, l: 180 },
+      margin: { t: 20, r: 120, b: 30, l: 200 },
       xaxis: { range: [0, 80], gridcolor: "#2a2a4a", zerolinecolor: "#2a2a4a" },
+      yaxis: { tickfont: { size: 11 } },
       shapes: [{ type: "line", x0: 50, x1: 50, y0: -0.5, y1: disps.length - 0.5,
                  line: { color: "#555", width: 1, dash: "dot" } }],
     }), plotlyConfig());
