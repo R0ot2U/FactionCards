@@ -66,18 +66,23 @@ function renderOverviewChart() {
     return;
   }
   const isMobile = window.innerWidth <= 600;
+  const title = `Force Disposition Win Rate${turnLabel()}`;
   Plotly.react("chart-disposition-overview", [{
     type: "bar",
     orientation: "h",
     y: rows.map(r => r.disposition).reverse(),
-    x: rows.map(r => r.win_rate).reverse(),
-    marker: { color: rows.map(r => plotlyWrColor(r.win_rate)).reverse() },
-    text: rows.map(r => `${r.win_rate.toFixed(1)}% (n=${r.games ?? 0})`).reverse(),
+    x: rows.map(r => ftWinRate(r)).reverse(),
+    marker: { color: rows.map(r => plotlyWrColor(ftWinRate(r))).reverse() },
+    text: rows.map(r => {
+      const wr = ftWinRate(r);
+      return wr != null ? `${wr.toFixed(1)}% (n=${ftGames(r)})` : `—% (n=${ftGames(r)})`;
+    }).reverse(),
     textposition: "outside",
     cliponaxis: false,
     hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
   }], darkLayout({
-    margin: { t: 20, r: isMobile ? 50 : 120, b: 30, l: isMobile ? 150 : 200 },
+    title: title,
+    margin: { t: 40, r: isMobile ? 50 : 120, b: 30, l: isMobile ? 150 : 200 },
     xaxis: { range: [0, 80], gridcolor: "#2a2a4a", zerolinecolor: "#2a2a4a" },
     yaxis: { tickfont: { size: 11 } },
     shapes: [{
@@ -121,10 +126,10 @@ function renderMatchupHeatmap() {
         tRow.push("");
       } else {
         const m = lookup.get(`${DISPOSITIONS[i]}|${DISPOSITIONS[j]}`);
-        if (m && m.win_rate != null) {
-          zRow.push(m.win_rate);
-          const games = m.games != null ? ` (n=${m.games})` : "";
-          tRow.push(`${m.win_rate.toFixed(1)}%${games}`);
+        if (m && ftWinRate(m) != null) {
+          zRow.push(ftWinRate(m));
+          const games = ftGames(m) != null ? ` (n=${ftGames(m)})` : "";
+          tRow.push(`${ftWinRate(m).toFixed(1)}%${games}`);
         } else {
           zRow.push(null);
           tRow.push("");
@@ -184,13 +189,14 @@ function renderMatchupTables() {
       return `<details class="matchup-details"><summary>${disp}</summary>
         <div class="empty">No matchups recorded.</div></details>`;
     }
-    rows.sort((a, b) => (b.win_rate ?? -1) - (a.win_rate ?? -1));
+    rows.sort((a, b) => (ftWinRate(b) ?? -1) - (ftWinRate(a) ?? -1));
     const body = rows.map(r => {
-      const wrCls = r.win_rate != null ? wrClass(r.win_rate) : "";
-      const wr = r.win_rate != null ? `<span class="${wrCls}">${r.win_rate.toFixed(1)}%</span>` : "—";
+      const wrVal = ftWinRate(r);
+      const wrCls = wrVal != null ? wrClass(wrVal) : "";
+      const wr = wrVal != null ? `<span class="${wrCls}">${wrVal.toFixed(1)}%</span>` : "—";
       return `<tr>
         <td>${r.opponent}</td>
-        <td>${(r.games ?? 0).toLocaleString()}</td>
+        <td>${ftGames(r).toLocaleString()}</td>
         <td>${wr}</td>
       </tr>`;
     }).join("");
@@ -258,13 +264,14 @@ function renderTopArmiesDetachments() {
   });
 
   const rows = sorted.slice(0, 5).map(r => {
-    const wrCls = r.win_rate != null ? wrClass(r.win_rate) : "";
-    const wr = r.win_rate != null ? `<span class="${wrCls}">${r.win_rate.toFixed(1)}%</span>` : "—";
+    const wrVal = ftWinRate(r);
+    const wrCls = wrVal != null ? wrClass(wrVal) : "";
+    const wr = wrVal != null ? `<span class="${wrCls}">${wrVal.toFixed(1)}%</span>` : "—";
     const x0 = r.x0_pct != null ? `${r.x0_pct.toFixed(1)}%` : "—";
     return `<tr>
       <td>${r.faction || r.base_archetype || r.name || "—"}</td>
       <td>${(r.lists ?? 0).toLocaleString()}</td>
-      <td>${(r.games ?? 0).toLocaleString()}</td>
+      <td>${ftGames(r).toLocaleString()}</td>
       <td>${wr}</td>
       <td>${x0}</td>
     </tr>`;
@@ -313,6 +320,9 @@ function syncFilterButtons() {
   document.querySelectorAll("#window-btns .btn").forEach(b => {
     b.classList.toggle("active", b.dataset.val === currentWindow);
   });
+  document.querySelectorAll("#first-turn-btns .btn").forEach(b => {
+    b.classList.toggle("active", b.dataset.val === turnFilter);
+  });
 }
 
 function wireFilterButtons() {
@@ -345,6 +355,16 @@ function wireFilterButtons() {
       syncHeaderMeta();
       render();
       renderFooter(manifest);
+    });
+  });
+
+  document.querySelectorAll("#first-turn-btns .btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      setTurnFilter(btn.dataset.val);
+      document.querySelectorAll("#first-turn-btns .btn").forEach(b => {
+        b.classList.toggle("active", b.dataset.val === turnFilter);
+      });
+      render();
     });
   });
 }

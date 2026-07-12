@@ -34,6 +34,47 @@ function getWindow() {
   return SUPPORTED_WINDOWS.includes(w) ? w : DEFAULT_WINDOW;
 }
 
+// Turn filter state (all | first | second)
+let turnFilter = getTurnFilter();
+
+function getTurnFilter() {
+  const params = new URLSearchParams(window.location.search);
+  const t = params.get("turn");
+  return ["first", "second"].includes(t) ? t : "all";
+}
+
+function setTurnFilter(val) {
+  if (!["all", "first", "second"].includes(val)) return;
+  turnFilter = val;
+  const params = new URLSearchParams(window.location.search);
+  if (val === "all") {
+    params.delete("turn");
+  } else {
+    params.set("turn", val);
+  }
+  const newUrl = params.toString() ? `?${params}` : window.location.pathname;
+  history.replaceState(null, "", newUrl);
+}
+
+// Helper functions to resolve first-turn/second-turn values
+function ftWinRate(obj) {
+  if (turnFilter === "first") return obj.first_turn?.win_rate;
+  if (turnFilter === "second") return obj.second_turn?.win_rate;
+  return obj.win_rate;
+}
+
+function ftGames(obj) {
+  if (turnFilter === "first") return obj.first_turn?.games;
+  if (turnFilter === "second") return obj.second_turn?.games;
+  return obj.games;
+}
+
+function turnLabel() {
+  if (turnFilter === "first") return " (Went First)";
+  if (turnFilter === "second") return " (Went Second)";
+  return "";
+}
+
 function dataRoot(eventType, window) {
   const et = eventType || getEventType();
   const w = window || getWindow();

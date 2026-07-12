@@ -40,6 +40,11 @@
       <button class="btn" data-val="solo">Singles</button>
       <button class="btn" data-val="team">Teams</button>
     </div>
+    <div class="btn-group" id="turn-btns" role="group" aria-label="Turn filter">
+      <button class="btn active" data-val="all">All Turns</button>
+      <button class="btn" data-val="first">Went First</button>
+      <button class="btn" data-val="second">Went Second</button>
+    </div>
     <span id="row-count" style="color:var(--dim);font-size:0.8rem;margin-left:4px;"></span>
   </div>
 
@@ -78,14 +83,14 @@
       <div id="chart-play"></div>
     </div>
     <div class="chart-wrap">
-      <div class="panel-title">Win Rate % <span class="panel-note">(top 28)</span></div>
+      <div class="panel-title" id="chart-wr-title">Win Rate % <span class="panel-note">(top 28)</span></div>
       <div id="chart-wr"></div>
     </div>
   </div>
 
   <div id="disposition-chart-section" style="margin-top:8px;display:none;">
     <div class="chart-wrap">
-      <div class="panel-title">Force Disposition Win Rate <span style="color:var(--dim);font-size:0.85rem;font-weight:normal;">(11th Edition)</span></div>
+      <div class="panel-title" id="chart-disposition-title">Force Disposition Win Rate <span style="color:var(--dim);font-size:0.85rem;font-weight:normal;">(11th Edition)</span></div>
       <div id="chart-disposition"></div>
     </div>
   </div>

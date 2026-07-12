@@ -1,7 +1,7 @@
 {
   "faction": "Imperial Agents",
   "slug": "imperial_agents",
-  "as_of": "2026-07-08",
+  "as_of": "2026-07-04",
   "window_days": 60,
   "event_type": "all",
   "lists": 6,
@@ -15,6 +15,14 @@
   "x0_pct": 0.0,
   "x1_pct": 33.3,
   "tournament_wins": 0,
+  "first_turn": {
+    "win_rate": 65.9,
+    "games": 22
+  },
+  "second_turn": {
+    "win_rate": 38.5,
+    "games": 13
+  },
   "detachments": [
     {
       "detachment": "Imperialis Fleet",
@@ -25,7 +33,15 @@
       "win_rate": 45.0,
       "x0_pct": 0.0,
       "x1_pct": 66.7,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 65.0,
+        "games": 10
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 5
+      }
     },
     {
       "detachment": "No Detachment",
@@ -36,7 +52,15 @@
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
     },
     {
       "detachment": "Ordo Hereticus + Purgation Force",
@@ -47,7 +71,15 @@
       "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      }
     },
     {
       "detachment": "Lions Of The Emperor + Silent Hunters",
@@ -58,7 +90,15 @@
       "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 16.7,
+        "games": 3
+      }
     }
   ],
   "dispositions": [
@@ -69,7 +109,15 @@
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 50.0,
-      "games": 15.0
+      "games": 15.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 8
+      },
+      "second_turn": {
+        "win_rate": 28.6,
+        "games": 7
+      }
     },
     {
       "disposition": "Purge the Foe",
@@ -78,7 +126,15 @@
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 10.0
+      "games": 10.0,
+      "first_turn": {
+        "win_rate": 57.1,
+        "games": 7
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 3
+      }
     }
   ],
   "disposition_matchups": [],
@@ -88,7 +144,15 @@
       "opponent_disposition": "Purge the Foe",
       "games": 5,
       "wins": 2,
-      "win_rate": 50.0
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 3
+      }
     }
   ],
   "top_players": [
@@ -170,7 +234,15 @@
       "opponent_faction": "Space Marines (Astartes)",
       "games": 8,
       "wins": 2,
-      "win_rate": 31.2
+      "win_rate": 31.2,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 3
+      }
     }
   ],
   "timeline": [
@@ -180,15 +252,31 @@
       "games": 20,
       "win_rate": 30.0,
       "total_lists": 1259,
-      "play_rate": 0.4
+      "play_rate": 0.4,
+      "first_turn": {
+        "win_rate": 45.5,
+        "games": 11
+      },
+      "second_turn": {
+        "win_rate": 11.1,
+        "games": 9
+      }
     },
     {
       "week": "2026-W26",
       "lists": 1,
       "games": 5,
       "win_rate": 80.0,
-      "total_lists": 625,
-      "play_rate": 0.2
+      "total_lists": 703,
+      "play_rate": 0.1,
+      "first_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      }
     }
   ]
 }

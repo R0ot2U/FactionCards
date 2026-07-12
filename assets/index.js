@@ -266,6 +266,9 @@ async function init() {
   document.querySelectorAll("#window-btns .btn").forEach(b => {
     b.classList.toggle("active", b.dataset.val === currentWindow);
   });
+  document.querySelectorAll("#turn-btns .btn").forEach(b => {
+    b.classList.toggle("active", b.dataset.val === turnFilter);
+  });
 
   renderTable();
   renderCharts();
@@ -333,6 +336,21 @@ async function init() {
         `${manifest.window_days}-day window · as of ${manifest.as_of}`;
       document.getElementById("build-info").textContent =
         `${manifest.total_tournaments.toLocaleString()} tournaments · ${manifest.total_lists.toLocaleString()} players · ${manifest.total_games.toLocaleString()} games`;
+    });
+  });
+
+  // Turn filter buttons — update filter and re-render (no new data needed)
+  document.querySelectorAll("#turn-btns .btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const newTurn = btn.dataset.val;
+      if (newTurn === turnFilter) return;
+
+      document.querySelectorAll("#turn-btns .btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      setTurnFilter(newTurn);
+
+      renderTable();
+      renderCharts();
     });
   });
 }
@@ -403,7 +421,8 @@ function renderTable() {
   }
 
   tbody.innerHTML = rows.map(r => {
-    const wrCls = wrClass(r.win_rate);
+    const wr = ftWinRate(r) ?? r.win_rate;
+    const wrCls = wrClass(wr);
     const slug = r.slug || factionSlug(r.faction);
     const x0_pct = r.x0_pct != null ? r.x0_pct.toFixed(1) + '%' : '—';
     const x1_pct = r.x1_pct != null ? r.x1_pct.toFixed(1) + '%' : '—';
@@ -412,7 +431,7 @@ function renderTable() {
         <td><a class="faction-link" href="${factionHref(slug)}">${r.faction}</a></td>
         <td data-sort="${r.lists}">${r.lists.toLocaleString()}</td>
         <td data-sort="${r.play_rate}" title="Share of all players in the window using this faction">${r.play_rate.toFixed(1)}%</td>
-        <td data-sort="${r.win_rate}" title="Win rate across all games in the window (draw = 0.5 win)">${'<span class="' + wrCls + '">' + r.win_rate.toFixed(1) + '%</span>'}</td>
+        <td data-sort="${wr}" title="Win rate across all games in the window (draw = 0.5 win)">${'<span class="' + wrCls + '">' + wr.toFixed(1) + '%</span>'}</td>
         <td data-sort="${r.x0_pct ?? -999}" title="Percentage of players going undefeated">${x0_pct}</td>
         <td data-sort="${r.x1_pct ?? -999}" title="Percentage of players with exactly 1 loss">${x1_pct}</td>
         <td data-sort="${r.trend_delta ?? -999}" title="Win-rate change vs the previous ${manifest.window_days}-day window">${trendHtml(r.trend_delta)}</td>
@@ -436,6 +455,12 @@ function renderCharts() {
   const rows = filteredFactions();
   if (!rows.length) return;
 
+  // Update chart titles with turn label
+  const wrTitleEl = document.getElementById("chart-wr-title");
+  if (wrTitleEl) {
+    wrTitleEl.innerHTML = `Win Rate %${turnLabel()} <span class="panel-note">(top 28)</span>`;
+  }
+
   // Play rate bar — sorted by play rate desc
   const playRows = [...rows].sort((a, b) => b.play_rate - a.play_rate).slice(0, 28);
   Plotly.react("chart-play", [{
@@ -454,14 +479,18 @@ function renderCharts() {
   }), plotlyConfig());
 
   // Win rate bar — sorted by win rate desc
-  const wrRows = [...rows].sort((a, b) => b.win_rate - a.win_rate).slice(0, 28);
+  const wrRows = [...rows].sort((a, b) => {
+    const aWr = ftWinRate(a) ?? a.win_rate;
+    const bWr = ftWinRate(b) ?? b.win_rate;
+    return bWr - aWr;
+  }).slice(0, 28);
   Plotly.react("chart-wr", [{
     type: "bar",
     orientation: "h",
     y: wrRows.map(r => r.faction).reverse(),
-    x: wrRows.map(r => r.win_rate).reverse(),
-    marker: { color: wrRows.map(r => plotlyWrColor(r.win_rate)).reverse() },
-    text: wrRows.map(r => `${r.win_rate.toFixed(1)}%`).reverse(),
+    x: wrRows.map(r => ftWinRate(r) ?? r.win_rate).reverse(),
+    marker: { color: wrRows.map(r => plotlyWrColor(ftWinRate(r) ?? r.win_rate)).reverse() },
+    text: wrRows.map(r => `${(ftWinRate(r) ?? r.win_rate).toFixed(1)}%`).reverse(),
     textposition: "outside",
     cliponaxis: false,
     hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
@@ -478,14 +507,24 @@ function renderCharts() {
     const dispSection = document.getElementById("disposition-chart-section");
     if (dispSection) dispSection.style.display = "block";
 
+    // Update disposition chart title with turn label
+    const dispTitleEl = document.getElementById("chart-disposition-title");
+    if (dispTitleEl) {
+      dispTitleEl.innerHTML = `Force Disposition Win Rate${turnLabel()} <span style="color:var(--dim);font-size:0.85rem;font-weight:normal;">(11th Edition)</span>`;
+    }
+
     const disps = manifest.dispositions;
     Plotly.react("chart-disposition", [{
       type: "bar",
       orientation: "h",
       y: disps.map(d => d.disposition).reverse(),
-      x: disps.map(d => d.win_rate).reverse(),
-      marker: { color: disps.map(d => plotlyWrColor(d.win_rate)).reverse() },
-      text: disps.map(d => `${d.win_rate.toFixed(1)}% (n=${d.games})`).reverse(),
+      x: disps.map(d => ftWinRate(d) ?? d.win_rate).reverse(),
+      marker: { color: disps.map(d => plotlyWrColor(ftWinRate(d) ?? d.win_rate)).reverse() },
+      text: disps.map(d => {
+        const wr = ftWinRate(d) ?? d.win_rate;
+        const games = ftGames(d) ?? d.games;
+        return `${wr.toFixed(1)}% (n=${games})`;
+      }).reverse(),
       textposition: "outside",
       cliponaxis: false,
       hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",

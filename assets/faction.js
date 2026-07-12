@@ -3,6 +3,7 @@
 let currentSlug = "";
 let currentEventType = getEventType();
 let currentWindow = getWindow();
+let currentTurnFilter = getTurnFilter();
 
 async function loadFactionData(slug, eventType, windowDays) {
   const backUrl = `index.html?event_type=${encodeURIComponent(eventType)}&window=${encodeURIComponent(windowDays)}`;
@@ -70,7 +71,7 @@ function renderFactionPage(result) {
   document.title = `${data.faction} — Informed Crusader`;
   document.getElementById("breadcrumb-faction").textContent = data.faction;
   document.getElementById("window-label").textContent =
-    `${data.faction} · ${data.window_days}-day window · as of ${data.as_of}`;
+    `${data.faction} · ${data.window_days}-day window · ${turnLabel()} · as of ${data.as_of}`;
 
   // Build content
   const content = document.getElementById("content");
@@ -166,7 +167,7 @@ function renderFactionPage(result) {
 
     <p class="section-title">Top Players</p>
     <div class="panel">
-      <div class="panel-title">Top 20 Players by Win Rate <span class="panel-note">(min 3 games)</span></div>
+      <div class="panel-title">Top 20 Players by Win Rate <span class="panel-note">(min 3 games, not affected by Turn filter)</span></div>
       <div class="table-wrap">${playersTable(data.top_players)}</div>
     </div>
 
@@ -252,6 +253,9 @@ async function init() {
   document.querySelectorAll("#window-btns .btn").forEach(b => {
     b.classList.toggle("active", b.dataset.val === currentWindow);
   });
+  document.querySelectorAll("#turn-filter-btns .btn").forEach(b => {
+    b.classList.toggle("active", b.dataset.val === currentTurnFilter);
+  });
 
   // Set up filter button handlers (once)
   setupFilterButtons();
@@ -300,6 +304,24 @@ function setupFilterButtons() {
     });
   });
 
+  // Turn filter buttons — re-render without fetching new data
+  document.querySelectorAll("#turn-filter-btns .btn").forEach(btn => {
+    btn.addEventListener("click", async () => {
+      const newFilter = btn.dataset.val;
+      if (newFilter === currentTurnFilter) return;
+
+      document.querySelectorAll("#turn-filter-btns .btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+
+      setTurnFilter(newFilter);
+      currentTurnFilter = newFilter;
+
+      // Re-render with current data (no fetch needed)
+      const result = await loadFactionData(currentSlug, currentEventType, currentWindow);
+      renderFactionPage(result);
+    });
+  });
+
 }
 
 function metaHealthBadge(data) {
@@ -337,7 +359,7 @@ function heroHtml(data) {
       </div>
       <div class="hero-stats">
         <div class="stat-box">
-          <div class="val"><span class="${wrCls}">${data.win_rate.toFixed(1)}%</span></div>
+          <div class="val"><span class="${wrCls}">${ftWinRate(data) != null ? ftWinRate(data).toFixed(1) : '—'}%</span></div>
           <div class="lbl" title="Win rate across all games in the window (draw = 0.5 win)">Win Rate</div>
         </div>
         ${metaHealthBadge(data)}
@@ -350,7 +372,7 @@ function heroHtml(data) {
           <div class="lbl">Lists</div>
         </div>
         <div class="stat-box">
-          <div class="val">${data.games.toLocaleString()}</div>
+          <div class="val">${ftGames(data).toLocaleString()}</div>
           <div class="lbl">Games</div>
         </div>
         <div class="stat-box">
@@ -359,11 +381,11 @@ function heroHtml(data) {
         </div>
         <div class="stat-box">
           <div class="val">${(data.x0_pct || 0).toFixed(1)}%</div>
-          <div class="lbl" title="% of lists that went undefeated (0 losses, 0 draws)">X-0 Rate</div>
+          <div class="lbl" title="% of lists that went undefeated (0 losses, 0 draws). Not affected by Turn filter.">X-0 Rate</div>
         </div>
         <div class="stat-box">
           <div class="val">${(data.x1_pct || 0).toFixed(1)}%</div>
-          <div class="lbl" title="% of lists with exactly 1 loss">X-1 Rate</div>
+          <div class="lbl" title="% of lists with exactly 1 loss. Not affected by Turn filter.">X-1 Rate</div>
         </div>
         <div class="stat-box">
           <div class="val">${data.tournament_wins || 0}</div>
@@ -378,15 +400,18 @@ function detachmentTable(dets) {
   const rows = dets.map(d => {
     const x0_pct = d.x0_pct != null ? d.x0_pct.toFixed(1) + '%' : '—';
     const x1_pct = d.x1_pct != null ? d.x1_pct.toFixed(1) + '%' : '—';
+    const wr = ftWinRate(d);
+    const wrDisplay = wr != null ? wr.toFixed(1) + '%' : '—';
+    const games = ftGames(d);
     return `
     <tr>
       <td>${d.detachment || d.base_archetype || "—"}</td>
       <td data-sort="${d.lists}">${d.lists}</td>
       <td data-sort="${d.play_rate}" title="Share of this faction's players using this detachment">${d.play_rate.toFixed(1)}%</td>
-      <td data-sort="${d.win_rate}"><span class="${wrClass(d.win_rate)}">${d.win_rate.toFixed(1)}%</span></td>
-      <td data-sort="${d.x0_pct ?? -999}" title="Percentage of players going undefeated with this detachment">${x0_pct}</td>
-      <td data-sort="${d.x1_pct ?? -999}" title="Percentage of players with exactly 1 loss using this detachment">${x1_pct}</td>
-      <td data-sort="${d.games}">${d.games}</td>
+      <td data-sort="${wr ?? -999}"><span class="${wrClass(wr)}">${wrDisplay}</span></td>
+      <td data-sort="${d.x0_pct ?? -999}" title="Percentage of players going undefeated with this detachment. Not affected by Turn filter.">${x0_pct}</td>
+      <td data-sort="${d.x1_pct ?? -999}" title="Percentage of players with exactly 1 loss using this detachment. Not affected by Turn filter.">${x1_pct}</td>
+      <td data-sort="${games}">${games}</td>
       <td data-sort="${d.tournament_wins || 0}">${d.tournament_wins || 0}</td>
     </tr>`;
   }).join("");
@@ -397,8 +422,8 @@ function detachmentTable(dets) {
         <th title="Number of players using this detachment in the window">Players</th>
         <th title="Share of this faction's players using this detachment">Play %</th>
         <th title="Win rate for this detachment (draw = 0.5 win)">Win %</th>
-        <th title="Percentage of players going undefeated with this detachment">X-0 %</th>
-        <th title="Percentage of players with exactly 1 loss using this detachment">X-1 %</th>
+        <th title="Percentage of players going undefeated with this detachment. Not affected by Turn filter.">X-0 %</th>
+        <th title="Percentage of players with exactly 1 loss using this detachment. Not affected by Turn filter.">X-1 %</th>
         <th title="Total games played with this detachment">Games</th>
         <th title="Number of tournament wins (1st place) with this detachment">T.Wins</th>
       </tr></thead>
@@ -411,15 +436,17 @@ function dispositionTable(disps) {
   const rows = disps.map(d => {
     const x0_pct = d.x0_pct != null ? d.x0_pct.toFixed(1) + '%' : '—';
     const x1_pct = d.x1_pct != null ? d.x1_pct.toFixed(1) + '%' : '—';
+    const wr = ftWinRate(d);
+    const games = ftGames(d);
     return `
     <tr>
       <td>${d.disposition || "—"}</td>
       <td data-sort="${d.lists}">${d.lists}</td>
       <td data-sort="${d.play_rate}" title="Share of this faction's players using this disposition">${d.play_rate.toFixed(1)}%</td>
-      <td data-sort="${d.win_rate}"><span class="${wrClass(d.win_rate)}">${d.win_rate.toFixed(1)}%</span></td>
-      <td data-sort="${d.x0_pct ?? -999}" title="Percentage of players going undefeated with this disposition">${x0_pct}</td>
-      <td data-sort="${d.x1_pct ?? -999}" title="Percentage of players with exactly 1 loss using this disposition">${x1_pct}</td>
-      <td data-sort="${d.games}">${d.games}</td>
+      <td data-sort="${wr}"><span class="${wrClass(wr)}">${wr.toFixed(1)}%</span></td>
+      <td data-sort="${d.x0_pct ?? -999}" title="Percentage of players going undefeated with this disposition. Not affected by Turn filter.">${x0_pct}</td>
+      <td data-sort="${d.x1_pct ?? -999}" title="Percentage of players with exactly 1 loss using this disposition. Not affected by Turn filter.">${x1_pct}</td>
+      <td data-sort="${games}">${games}</td>
     </tr>`;
   }).join("");
   return `
@@ -429,8 +456,8 @@ function dispositionTable(disps) {
         <th title="Number of players using this disposition in the window">Players</th>
         <th title="Share of this faction's players using this disposition">Play %</th>
         <th title="Win rate for this disposition (draw = 0.5 win)">Win %</th>
-        <th title="Percentage of players going undefeated with this disposition">X-0 %</th>
-        <th title="Percentage of players with exactly 1 loss using this disposition">X-1 %</th>
+        <th title="Percentage of players going undefeated with this disposition. Not affected by Turn filter.">X-0 %</th>
+        <th title="Percentage of players with exactly 1 loss using this disposition. Not affected by Turn filter.">X-1 %</th>
         <th title="Total games played with this disposition">Games</th>
       </tr></thead>
       <tbody>${rows}</tbody>
@@ -439,12 +466,16 @@ function dispositionTable(disps) {
 
 function dispMatchupsTable(matchups) {
   if (!matchups || !matchups.length) return `<p class="empty">No disposition matchup data.</p>`;
-  const rows = matchups.map(d => `
+  const rows = matchups.map(d => {
+    const wr = ftWinRate(d);
+    const games = ftGames(d);
+    return `
     <tr>
       <td>${d.opponent_disposition || "—"}</td>
-      <td data-sort="${d.games}">${d.games}</td>
-      <td data-sort="${d.win_rate}"><span class="${wrClass(d.win_rate)}">${d.win_rate.toFixed(1)}%</span></td>
-    </tr>`).join("");
+      <td data-sort="${games}">${games}</td>
+      <td data-sort="${wr}"><span class="${wrClass(wr)}">${wr.toFixed(1)}%</span></td>
+    </tr>`;
+  }).join("");
   return `
     <table>
       <thead><tr>
@@ -501,20 +532,24 @@ function playersTable(players) {
 
 function timelineTable(timeline) {
   if (!timeline || !timeline.length) return '<p class="empty">No timeline data.</p>';
-  const rows = timeline.map(t => `
+  const rows = timeline.map(t => {
+    const wr = ftWinRate(t);
+    const wrSpan = wr !== null ? `<span class="${wrClass(wr)}">${wr.toFixed(1)}%</span>` : '—';
+    return `
     <tr>
       <td>${t.week}</td>
       <td data-sort="${t.lists}">${t.lists}</td>
       <td data-sort="${t.play_rate || 0}">${t.play_rate != null ? t.play_rate.toFixed(1) + '%' : '—'}</td>
-      <td data-sort="${t.win_rate || 0}"><span class="${t.win_rate != null ? wrClass(t.win_rate) : ''}">${t.win_rate != null ? t.win_rate.toFixed(1) + '%' : '—'}</span></td>
-      <td data-sort="${t.games}">${t.games}</td>
-    </tr>`).join('');
+      <td data-sort="${wr ?? -1}">${wrSpan}</td>
+      <td data-sort="${ftGames(t)}">${ftGames(t)}</td>
+    </tr>`;
+  }).join('');
   return `
     <table>
       <thead><tr>
         <th>Week</th>
-        <th title="Number of lists played this week">Lists</th>
-        <th title="Share of all lists this week">Rep %</th>
+        <th title="Number of lists played this week. Not affected by Turn filter.">Lists</th>
+        <th title="Share of all lists this week. Not affected by Turn filter.">Rep %</th>
         <th title="Win rate this week">Win %</th>
         <th title="Total games this week">Games</th>
       </tr></thead>
@@ -564,14 +599,17 @@ function renderDispChart(disps) {
 
 function renderDispMatchupChart(matchups) {
   if (typeof Plotly === "undefined" || !matchups || !matchups.length) return;
-  const sorted = [...matchups].sort((a, b) => b.win_rate - a.win_rate);
+  const sorted = [...matchups].sort((a, b) => ftWinRate(b) - ftWinRate(a));
   Plotly.react("chart-disp-matchup", [{
     type: "bar",
     orientation: "h",
     y: sorted.map(m => m.opponent_disposition).reverse(),
-    x: sorted.map(m => m.win_rate).reverse(),
-    marker: { color: sorted.map(m => plotlyWrColor(m.win_rate)).reverse() },
-    text: sorted.map(m => `${m.win_rate.toFixed(1)}% (n=${m.games})`).reverse(),
+    x: sorted.map(m => ftWinRate(m)).reverse(),
+    marker: { color: sorted.map(m => plotlyWrColor(ftWinRate(m))).reverse() },
+    text: sorted.map(m => {
+      const wr = ftWinRate(m);
+      return wr != null ? `${wr.toFixed(1)}% (n=${ftGames(m)})` : `—% (n=${ftGames(m)})`;
+    }).reverse(),
     textposition: "outside",
     cliponaxis: false,
     hovertemplate: "vs %{y}: %{x:.1f}%<extra></extra>",
@@ -611,14 +649,19 @@ function dispCrossTables(cross) {
       </details>`;
     }
 
-    rows.sort((a, b) => (b.win_rate ?? -1) - (a.win_rate ?? -1));
+    rows.sort((a, b) => {
+      const awr = ftWinRate(a);
+      const bwr = ftWinRate(b);
+      return bwr - awr;
+    });
     const body = rows.map(r => {
-      const wrCls = r.win_rate != null ? wrClass(r.win_rate) : "";
-      const wr = r.win_rate != null ? `<span class="${wrCls}">${r.win_rate.toFixed(1)}%</span>` : "—";
+      const wr = ftWinRate(r);
+      const wrCls = wrClass(wr);
+      const games = ftGames(r);
       return `<tr>
         <td>${r.opponent_disposition}</td>
-        <td data-sort="${r.games}">${(r.games ?? 0).toLocaleString()}</td>
-        <td data-sort="${r.win_rate ?? -1}">${wr}</td>
+        <td data-sort="${games}">${games.toLocaleString()}</td>
+        <td data-sort="${wr}"><span class="${wrCls}">${wr.toFixed(1)}%</span></td>
       </tr>`;
     }).join("");
 
@@ -638,14 +681,17 @@ function dispCrossTables(cross) {
 
 function renderMatchupChart(matchups) {
   if (typeof Plotly === "undefined" || !matchups || !matchups.length) return;
-  const sorted = [...matchups].sort((a, b) => b.win_rate - a.win_rate);
+  const sorted = [...matchups].sort((a, b) => ftWinRate(b) - ftWinRate(a));
   Plotly.react("chart-matchup", [{
     type: "bar",
     orientation: "h",
     y: sorted.map(m => m.opponent_faction).reverse(),
-    x: sorted.map(m => m.win_rate).reverse(),
-    marker: { color: sorted.map(m => plotlyWrColor(m.win_rate)).reverse() },
-    text: sorted.map(m => `${m.win_rate.toFixed(1)}% (n=${m.games})`).reverse(),
+    x: sorted.map(m => ftWinRate(m)).reverse(),
+    marker: { color: sorted.map(m => plotlyWrColor(ftWinRate(m))).reverse() },
+    text: sorted.map(m => {
+      const wr = ftWinRate(m);
+      return wr != null ? `${wr.toFixed(1)}% (n=${ftGames(m)})` : `—% (n=${ftGames(m)})`;
+    }).reverse(),
     textposition: "outside",
     cliponaxis: false,
     hovertemplate: "vs %{y}: %{x:.1f}%<extra></extra>",
@@ -756,6 +802,7 @@ function renderDetPieChart(dets, metric = 'lists') {
 function renderTimeline(timeline) {
   if (typeof Plotly === "undefined" || !timeline || !timeline.length) return;
 
+  // Lists chart NOT affected by turn filter - always uses .lists
   Plotly.react("chart-lists", [{
     type: "scatter", mode: "lines+markers",
     x: timeline.map(t => t.week),
@@ -764,10 +811,12 @@ function renderTimeline(timeline) {
     hovertemplate: "%{x}: %{y} lists<extra></extra>",
   }], darkLayout({ margin: { t: 10, r: 20, b: 40, l: 50 } }), plotlyConfig());
 
+  // Win rate chart uses ftWinRate helper (turn-filtered)
+  const validWeeks = timeline.filter(t => ftWinRate(t) !== null);
   Plotly.react("chart-wr-timeline", [{
     type: "scatter", mode: "lines+markers",
-    x: timeline.filter(t => t.win_rate !== null).map(t => t.week),
-    y: timeline.filter(t => t.win_rate !== null).map(t => t.win_rate),
+    x: validWeeks.map(t => t.week),
+    y: validWeeks.map(t => ftWinRate(t)),
     line: { color: "#e94560" },
     hovertemplate: "%{x}: %{y:.1f}%<extra></extra>",
   }], darkLayout({

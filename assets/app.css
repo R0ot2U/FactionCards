@@ -621,3 +621,20 @@ footer {
     height: clamp(450px, 55vh, 600px) !important;
   }
 }
+
+/* ── Turn filter buttons ────────────────────────────────────── */
+#first-turn-btns .btn.active[data-val="first"] {
+  background: var(--green);
+  border-color: var(--green);
+}
+
+#first-turn-btns .btn.active[data-val="second"] {
+  background: #e94560;
+  border-color: #e94560;
+}
+
+.ft-no-data {
+  color: var(--dim);
+  font-size: 0.75rem;
+  font-style: italic;
+}
