@@ -1,114 +1,249 @@
 {
   "faction": "Grey Knights",
   "slug": "grey_knights",
-  "as_of": "2026-06-28",
+  "as_of": "2026-07-12",
   "window_days": 7,
   "event_type": "team",
-  "lists": 7,
-  "games": 34,
-  "play_rate": 0.9,
-  "win_rate": 60.3,
+  "lists": 9,
+  "games": 45,
+  "play_rate": 5.1,
+  "win_rate": 55.6,
   "trend_delta": null,
   "top_detachment": "Argent Assault + Banishers",
-  "ci_lower": 43.6,
+  "ci_lower": 41.2,
   "meta_health": "strongly_under",
-  "x0_pct": 28.6,
-  "x1_pct": 14.3,
-  "tournament_wins": 1,
+  "x0_pct": 11.1,
+  "x1_pct": 22.2,
+  "tournament_wins": 0,
+  "first_turn": {
+    "win_rate": 61.8,
+    "games": 17
+  },
+  "second_turn": {
+    "win_rate": 51.8,
+    "games": 28
+  },
   "detachments": [
     {
       "detachment": "Argent Assault + Banishers",
       "base_archetype": "Grey Knights \u2014 Argent Assault + Banishers",
-      "lists": 4,
-      "games": 20,
-      "play_rate": 57.1,
-      "win_rate": 72.5,
-      "x0_pct": 50.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 1
+      "lists": 6,
+      "games": 30,
+      "play_rate": 66.7,
+      "win_rate": 48.3,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 57.7,
+        "games": 13
+      },
+      "second_turn": {
+        "win_rate": 41.2,
+        "games": 17
+      }
     },
     {
-      "detachment": "Banishers + Immaterial Interdiction",
-      "base_archetype": "Grey Knights \u2014 Banishers + Immaterial Interdiction",
+      "detachment": "Brotherhood Strike + Fires Of Purgation",
+      "base_archetype": "Grey Knights \u2014 Brotherhood Strike + Fires Of Purgation",
       "lists": 1,
       "games": 5,
-      "play_rate": 14.3,
-      "win_rate": 0.0,
+      "play_rate": 11.1,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 3
+      }
     },
     {
-      "detachment": "Banishers",
-      "base_archetype": "Grey Knights \u2014 Banishers",
+      "detachment": "Warpbane Task Force",
+      "base_archetype": "Grey Knights \u2014 Warpbane Task Force",
       "lists": 1,
       "games": 5,
-      "play_rate": 14.3,
-      "win_rate": 80.0,
+      "play_rate": 11.1,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
-      "x1_pct": 100.0,
-      "tournament_wins": 0
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      }
+    },
+    {
+      "detachment": "Argent Assault + Brotherhood Strike",
+      "base_archetype": "Grey Knights \u2014 Argent Assault + Brotherhood Strike",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 11.1,
+      "win_rate": 100.0,
+      "x0_pct": 100.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 4
+      }
     }
   ],
   "dispositions": [
     {
       "disposition": "Purge the Foe",
-      "lists": 4,
-      "play_rate": 57.1,
-      "win_rate": 60.5,
-      "x0_pct": 25.0,
-      "x1_pct": 0.0,
-      "games": 19
-    },
-    {
-      "disposition": "Priority Assets",
-      "lists": 2,
-      "play_rate": 28.6,
-      "win_rate": 40.0,
-      "x0_pct": 0.0,
-      "x1_pct": 50.0,
-      "games": 10
+      "lists": 6,
+      "play_rate": 66.7,
+      "win_rate": 71.7,
+      "x0_pct": 16.7,
+      "x1_pct": 33.3,
+      "games": 30.0,
+      "first_turn": {
+        "win_rate": 79.2,
+        "games": 12
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 18
+      }
     },
     {
       "disposition": "Disruption",
-      "lists": 1,
-      "play_rate": 14.3,
-      "win_rate": 100.0,
-      "x0_pct": 100.0,
+      "lists": 3,
+      "play_rate": 33.3,
+      "win_rate": 23.3,
+      "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 5
+      "games": 15.0,
+      "first_turn": {
+        "win_rate": 20.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 10
+      }
+    }
+  ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 23,
+      "wins": 13,
+      "win_rate": 56.5,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 9
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 14
+      }
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 10,
+      "wins": 4,
+      "win_rate": 45.0,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 7
+      }
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Purge the Foe",
+      "games": 9,
+      "wins": 3,
+      "win_rate": 33.3,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 31.2,
+        "games": 8
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Purge the Foe",
+      "games": 14,
+      "wins": 10,
+      "win_rate": 71.4,
+      "first_turn": {
+        "win_rate": 68.8,
+        "games": 8
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 6
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Take and Hold",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 56.2,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 7
+      }
     }
   ],
   "top_players": [
     {
-      "player_name": "Ken Bush",
+      "player_name": "Oliver Sterr",
+      "detachment": "Argent Assault + Brotherhood Strike",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/svXXYFcvBir2",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Ben H",
       "detachment": "Argent Assault + Banishers",
       "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/mdZxjlENbu6Z",
+      "list_url": "https://www.bestcoastpairings.com/list/LEoCvsc2EGW0",
       "source": "bcp",
-      "wins": 5,
+      "wins": 4,
       "losses": 0,
-      "draws": 0,
+      "draws": 1,
       "games": 5,
-      "win_rate": 100.0
+      "win_rate": 90.0
     },
     {
-      "player_name": "Alexander Silman",
+      "player_name": "Aster Narciso",
       "detachment": "Argent Assault + Banishers",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/OdHHpHeuGUk0",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Donovan Sailo",
-      "detachment": "Banishers",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/oHUdgkOCHbtn",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/t5PfHGOwHhfU",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -117,34 +252,46 @@
       "win_rate": 80.0
     },
     {
-      "player_name": "Jared Hughes",
-      "detachment": "Argent Assault + Banishers",
-      "disposition": "Disruption, Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/IqP7eJRmOSVx",
+      "player_name": "Sam Retford",
+      "detachment": "Warpbane Task Force",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/anju0CQ3Mc4l",
       "source": "bcp",
       "wins": 2,
-      "losses": 2,
-      "draws": 1,
+      "losses": 1,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Ash Power",
+      "detachment": "Argent Assault + Banishers",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/VaMopK0y6m4P",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 1,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Jack JC Chapman",
+      "detachment": "Brotherhood Strike + Fires Of Purgation",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/i1mcRZZb7VpS",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 1,
+      "draws": 3,
       "games": 5,
       "win_rate": 50.0
     },
     {
-      "player_name": "Byron Reynolds",
-      "detachment": "Warpbane Task Force",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/wfYRqz7PtqWb",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 0,
-      "games": 4,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "Derek Brannon",
+      "player_name": "Daddy O",
       "detachment": "Argent Assault + Banishers",
-      "disposition": "Disruption, Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/yLAcRUOuBAYz",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/4wI26steFKCd",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -153,10 +300,22 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Henry Slater",
-      "detachment": "Banishers + Immaterial Interdiction",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/3QS616XTEiJR",
+      "player_name": "Sam Cottle",
+      "detachment": "Argent Assault + Banishers",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/Lnfd4F8CWScO",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Daniel Surenjan",
+      "detachment": "Argent Assault + Banishers",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/D6JANkUrghl7",
       "source": "bcp",
       "wins": 0,
       "losses": 5,
@@ -165,15 +324,52 @@
       "win_rate": 0.0
     }
   ],
-  "matchups": [],
+  "matchups": [
+    {
+      "opponent_faction": "T'au Empire",
+      "games": 7,
+      "wins": 2,
+      "win_rate": 35.7,
+      "first_turn": {
+        "win_rate": 16.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      }
+    },
+    {
+      "opponent_faction": "Aeldari",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 33.3,
+      "first_turn": {
+        "win_rate": 25.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 37.5,
+        "games": 4
+      }
+    }
+  ],
   "timeline": [
     {
-      "week": "2026-W25",
-      "lists": 7,
-      "games": 34,
-      "win_rate": 60.3,
-      "total_lists": 765,
-      "play_rate": 0.9
+      "week": "2026-W27",
+      "lists": 9,
+      "games": 45,
+      "win_rate": 55.6,
+      "total_lists": 176,
+      "play_rate": 5.1,
+      "first_turn": {
+        "win_rate": 61.8,
+        "games": 17
+      },
+      "second_turn": {
+        "win_rate": 51.8,
+        "games": 28
+      }
     }
   ]
 }

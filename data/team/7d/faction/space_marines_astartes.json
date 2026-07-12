@@ -1,67 +1,890 @@
 {
   "faction": "Space Marines (Astartes)",
   "slug": "space_marines_astartes",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-12",
   "window_days": 7,
   "event_type": "team",
-  "lists": 1,
-  "games": 5,
-  "play_rate": 10.0,
-  "win_rate": 90.0,
-  "trend_delta": 37.3,
-  "top_detachment": "Blade of Smurf Village",
-  "ci_lower": 46.3,
-  "meta_health": "slightly_under",
-  "x0_pct": 0.0,
-  "x1_pct": 100.0,
-  "tournament_wins": 0,
+  "lists": 18,
+  "games": 88,
+  "play_rate": 10.2,
+  "win_rate": 50.0,
+  "trend_delta": null,
+  "top_detachment": "Blade Of Ultramar",
+  "ci_lower": 39.8,
+  "meta_health": "strongly_under",
+  "x0_pct": 5.6,
+  "x1_pct": 22.2,
+  "tournament_wins": 1,
+  "first_turn": {
+    "win_rate": 44.1,
+    "games": 59
+  },
+  "second_turn": {
+    "win_rate": 46.5,
+    "games": 57
+  },
   "detachments": [
     {
-      "detachment": "Blade of Smurf Village",
-      "base_archetype": "Space Marines (Astartes) \u2014 Blade of Smurf Village",
+      "detachment": "Blade Of Ultramar",
+      "base_archetype": "Space Marines (Astartes) \u2014 Blade Of Ultramar",
+      "lists": 3,
+      "games": 13,
+      "play_rate": 16.7,
+      "win_rate": 34.6,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 32.1,
+        "games": 14
+      }
+    },
+    {
+      "detachment": "Forgefather's Seekers + Librarius Conclave",
+      "base_archetype": "Space Marines (Astartes) \u2014 Forgefather's Seekers + Librarius Conclave",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 11.1,
+      "win_rate": 75.0,
+      "x0_pct": 0.0,
+      "x1_pct": 50.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 72.2,
+        "games": 9
+      }
+    },
+    {
+      "detachment": "Librarius Conclave",
+      "base_archetype": "Space Marines (Astartes) \u2014 Librarius Conclave",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 11.1,
+      "win_rate": 60.0,
+      "x0_pct": 50.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 1,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      }
+    },
+    {
+      "detachment": "Forgefather's Seekers",
+      "base_archetype": "Space Marines (Astartes) \u2014 Forgefather's Seekers",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 11.1,
+      "win_rate": 25.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 31.2,
+        "games": 8
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      }
+    },
+    {
+      "detachment": "Blade of Ultramar",
+      "base_archetype": "Space Marines (Astartes) \u2014 Blade of Ultramar",
       "lists": 1,
       "games": 5,
-      "play_rate": 100.0,
+      "play_rate": 5.6,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
+    },
+    {
+      "detachment": "Stormlance Task Force",
+      "base_archetype": "Space Marines (Astartes) \u2014 Stormlance Task Force",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.6,
+      "win_rate": 70.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 83.3,
+        "games": 3
+      }
+    },
+    {
+      "detachment": "Fulguris Task Force + Hammer Of Avernii",
+      "base_archetype": "Space Marines (Astartes) \u2014 Fulguris Task Force + Hammer Of Avernii",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.6,
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      }
+    },
+    {
+      "detachment": "Fulguris Task Force + Headhunter Task Force",
+      "base_archetype": "Space Marines (Astartes) \u2014 Fulguris Task Force + Headhunter Task Force",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.6,
+      "win_rate": 30.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 30.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
+    },
+    {
+      "detachment": "Firestorm Assault Force + Librarius Conclave",
+      "base_archetype": "Space Marines (Astartes) \u2014 Firestorm Assault Force + Librarius Conclave",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.6,
       "win_rate": 90.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 1
+      }
+    },
+    {
+      "detachment": "Emperor's Shield + Librarius Conclave",
+      "base_archetype": "Space Marines (Astartes) \u2014 Emperor's Shield + Librarius Conclave",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.6,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 4
+      }
+    },
+    {
+      "detachment": "Hammer Of Avernii + Librarius Conclave",
+      "base_archetype": "Space Marines (Astartes) \u2014 Hammer Of Avernii + Librarius Conclave",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.6,
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
+    },
+    {
+      "detachment": "Shadowmark Talon + Subversion Assets",
+      "base_archetype": "Space Marines (Astartes) \u2014 Shadowmark Talon + Subversion Assets",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.6,
+      "win_rate": 0.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
+    },
+    {
+      "detachment": "No Detachment",
+      "base_archetype": "Space Marines (Astartes) \u2014 No Detachment",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.6,
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
     }
   ],
   "dispositions": [
     {
       "disposition": "Priority Assets",
-      "lists": 1,
-      "play_rate": 100.0,
-      "win_rate": 90.0,
+      "lists": 7,
+      "play_rate": 38.9,
+      "win_rate": 43.9,
       "x0_pct": 0.0,
-      "x1_pct": 100.0,
-      "games": 5
+      "x1_pct": 14.3,
+      "games": 33.0,
+      "first_turn": {
+        "win_rate": 60.0,
+        "games": 10
+      },
+      "second_turn": {
+        "win_rate": 37.0,
+        "games": 23
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "lists": 3,
+      "play_rate": 16.7,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "games": 15.0,
+      "first_turn": {
+        "win_rate": 12.5,
+        "games": 8
+      },
+      "second_turn": {
+        "win_rate": 92.9,
+        "games": 7
+      }
+    },
+    {
+      "disposition": "Disruption",
+      "lists": 3,
+      "play_rate": 16.7,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "games": 15.0,
+      "first_turn": {
+        "win_rate": 55.0,
+        "games": 10
+      },
+      "second_turn": {
+        "win_rate": 70.0,
+        "games": 5
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "lists": 3,
+      "play_rate": 16.7,
+      "win_rate": 46.7,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "games": 15.0,
+      "first_turn": {
+        "win_rate": 59.1,
+        "games": 11
+      },
+      "second_turn": {
+        "win_rate": 12.5,
+        "games": 4
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "lists": 1,
+      "play_rate": 5.6,
+      "win_rate": 100.0,
+      "x0_pct": 100.0,
+      "x1_pct": 0.0,
+      "games": 5.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      }
+    }
+  ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 33,
+      "wins": 15,
+      "win_rate": 47.0,
+      "first_turn": {
+        "win_rate": 35.7,
+        "games": 14
+      },
+      "second_turn": {
+        "win_rate": 55.3,
+        "games": 19
+      }
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 20,
+      "wins": 9,
+      "win_rate": 45.0,
+      "first_turn": {
+        "win_rate": 54.5,
+        "games": 11
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 9
+      }
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 12,
+      "wins": 6,
+      "win_rate": 54.2,
+      "first_turn": {
+        "win_rate": 40.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 64.3,
+        "games": 7
+      }
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 12,
+      "wins": 6,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 60.0,
+        "games": 10
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      }
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Purge the Foe",
+      "games": 7,
+      "wins": 5,
+      "win_rate": 71.4,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 87.5,
+        "games": 4
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Purge the Foe",
+      "games": 11,
+      "wins": 4,
+      "win_rate": 36.4,
+      "first_turn": {
+        "win_rate": 25.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 42.9,
+        "games": 7
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Take and Hold",
+      "games": 10,
+      "wins": 4,
+      "win_rate": 40.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 9
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Purge the Foe",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 33.3,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 16.7,
+        "games": 3
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Take and Hold",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0,
+      "first_turn": {
+        "win_rate": 60.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Purge the Foe",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 75.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 87.5,
+        "games": 4
+      }
     }
   ],
   "top_players": [
     {
-      "player_name": "Darek Nik",
-      "detachment": "Blade of Smurf Village",
-      "disposition": "",
-      "list_url": "https://www.bestcoastpairings.com/list/gmuYMKH8g7WY",
+      "player_name": "chloe chippindale",
+      "detachment": "Librarius Conclave",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/CVOKEjEbV46t",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Gerard Purcell",
+      "detachment": "Forgefather's Seekers + Librarius Conclave",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/kA46KwxZcVXr",
       "source": "bcp",
       "wins": 4,
       "losses": 0,
       "draws": 1,
       "games": 5,
       "win_rate": 90.0
+    },
+    {
+      "player_name": "Boris Banovic",
+      "detachment": "Firestorm Assault Force + Librarius Conclave",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/Im2jgFrAJu67",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "Brian Elliott",
+      "detachment": "Fulguris Task Force + Hammer Of Avernii",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/edSzammt7xNa",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Konrad Schmuck",
+      "detachment": "No Detachment",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/COqArVsTf8uY",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Shane Sheppard",
+      "detachment": "Stormlance Task Force",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/Mz6kuBaDDddB",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Dean Goldhawk",
+      "detachment": "Blade of Ultramar",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/djbB1VlyrwQU",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Davide Simonetti",
+      "detachment": "Forgefather's Seekers + Librarius Conclave",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/teQcENxWitco",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Sebastian M\u00fchling",
+      "detachment": "Blade Of Ultramar",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/klJDN5xhU6Pe",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 2,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 50.0
+    },
+    {
+      "player_name": "Lukas L\u00f6sel",
+      "detachment": "Emperor's Shield + Librarius Conclave",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/4YepSE6U6wk9",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Christopher Sigmund",
+      "detachment": "Blade Of Ultramar",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/ek004csun8vr",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Michael Reslewic",
+      "detachment": "Forgefather's Seekers",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/cGscAJxtDTCU",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
+      "player_name": "Antonio Napoli",
+      "detachment": "Fulguris Task Force + Headhunter Task Force",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/IjQHyEaSJU1J",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
+      "player_name": "Benjamin Tweed",
+      "detachment": "Librarius Conclave",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/wc6ZUciFhUcf",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Tomas  Quinones",
+      "detachment": "Forgefather's Seekers",
+      "disposition": null,
+      "list_url": "https://www.bestcoastpairings.com/list/JgbtkoNZMeMC",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Tom\u00e1\u0161  \"Charon \" Fr\u00fddl",
+      "detachment": "Hammer Of Avernii + Librarius Conclave",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/rkipZS6lJ4e1",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Lukas Wiesner",
+      "detachment": "Shadowmark Talon + Subversion Assets",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/fyQb81rSoLgW",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 5,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 0.0
+    },
+    {
+      "player_name": "Richard Whitehouse",
+      "detachment": "Blade Of Ultramar",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/v8KZriUkwetx",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 3,
+      "draws": 0,
+      "games": 3,
+      "win_rate": 0.0
     }
   ],
-  "matchups": [],
+  "matchups": [
+    {
+      "opponent_faction": "Emperor's Children",
+      "games": 10,
+      "wins": 3,
+      "win_rate": 30.0,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 28.6,
+        "games": 7
+      }
+    },
+    {
+      "opponent_faction": "Death Guard",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 57.1,
+      "first_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
+    },
+    {
+      "opponent_faction": "Imperial Knights",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 3
+      }
+    },
+    {
+      "opponent_faction": "Tyranids",
+      "games": 7,
+      "wins": 1,
+      "win_rate": 14.3,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
+    },
+    {
+      "opponent_faction": "Necrons",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 66.7,
+      "first_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      }
+    },
+    {
+      "opponent_faction": "Aeldari",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      }
+    },
+    {
+      "opponent_faction": "Chaos Knights",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      }
+    },
+    {
+      "opponent_faction": "Orks",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      }
+    },
+    {
+      "opponent_faction": "Thousand Sons",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 1
+      }
+    },
+    {
+      "opponent_faction": "T'au Empire",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 25.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      }
+    }
+  ],
   "timeline": [
     {
-      "week": "2026-W26",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 90.0,
-      "total_lists": 10,
-      "play_rate": 10.0
+      "week": "2026-W27",
+      "lists": 18,
+      "games": 88,
+      "win_rate": 50.0,
+      "total_lists": 176,
+      "play_rate": 10.2,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 46
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 42
+      }
     }
   ]
 }

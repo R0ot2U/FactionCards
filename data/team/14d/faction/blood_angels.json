@@ -1,264 +1,112 @@
 {
   "faction": "Blood Angels",
   "slug": "blood_angels",
-  "as_of": "2026-07-08",
+  "as_of": "2026-07-12",
   "window_days": 14,
   "event_type": "team",
-  "lists": 15,
-  "games": 75,
-  "play_rate": 2.0,
-  "win_rate": 56.7,
-  "trend_delta": null,
-  "top_detachment": "Rage-Cursed Onslaught",
-  "ci_lower": 45.4,
-  "meta_health": "slightly_under",
-  "x0_pct": 6.7,
-  "x1_pct": 26.7,
+  "lists": 2,
+  "games": 10,
+  "play_rate": 1.1,
+  "win_rate": 55.0,
+  "trend_delta": -1.4,
+  "top_detachment": "Legacy Of Grace + Stormlance Task Force",
+  "ci_lower": 27.4,
+  "meta_health": "strongly_under",
+  "x0_pct": 0.0,
+  "x1_pct": 0.0,
   "tournament_wins": 0,
+  "first_turn": {
+    "win_rate": 100.0,
+    "games": 1
+  },
+  "second_turn": {
+    "win_rate": 62.5,
+    "games": 4
+  },
   "detachments": [
-    {
-      "detachment": "Rage-Cursed Onslaught",
-      "base_archetype": "Blood Angels \u2014 Rage-Cursed Onslaught",
-      "lists": 5,
-      "games": 25,
-      "play_rate": 33.3,
-      "win_rate": 50.0,
-      "x0_pct": 0.0,
-      "x1_pct": 20.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Liberator Assault Group",
-      "base_archetype": "Blood Angels \u2014 Liberator Assault Group",
-      "lists": 4,
-      "games": 20,
-      "play_rate": 26.7,
-      "win_rate": 75.0,
-      "x0_pct": 0.0,
-      "x1_pct": 50.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Angelic Inheritors",
-      "base_archetype": "Blood Angels \u2014 Angelic Inheritors",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 13.3,
-      "win_rate": 40.0,
-      "x0_pct": 0.0,
-      "x1_pct": 50.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Bastion Task Force + Legacy Of Grace",
-      "base_archetype": "Blood Angels \u2014 Bastion Task Force + Legacy Of Grace",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 6.7,
-      "win_rate": 100.0,
-      "x0_pct": 100.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
     {
       "detachment": "Legacy Of Grace + Stormlance Task Force",
       "base_archetype": "Blood Angels \u2014 Legacy Of Grace + Stormlance Task Force",
       "lists": 1,
       "games": 5,
-      "play_rate": 6.7,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "The Angelic Host + Wrath Of The Doomed",
-      "base_archetype": "Blood Angels \u2014 The Angelic Host + Wrath Of The Doomed",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 6.7,
+      "play_rate": 50.0,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
     },
     {
-      "detachment": "Legacy Of Grace + The Angelic Host",
-      "base_archetype": "Blood Angels \u2014 Legacy Of Grace + The Angelic Host",
+      "detachment": "Rage-Cursed Onslaught",
+      "base_archetype": "Blood Angels \u2014 Rage-Cursed Onslaught",
       "lists": 1,
       "games": 5,
-      "play_rate": 6.7,
-      "win_rate": 20.0,
+      "play_rate": 50.0,
+      "win_rate": 70.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 62.5,
+        "games": 4
+      }
     }
   ],
   "dispositions": [
     {
-      "disposition": "Purge the Foe",
-      "lists": 6,
-      "play_rate": 40.0,
-      "win_rate": 48.3,
+      "disposition": "Priority Assets",
+      "lists": 1,
+      "play_rate": 50.0,
+      "win_rate": 40.0,
       "x0_pct": 0.0,
-      "x1_pct": 16.7,
-      "games": 30.0
+      "x1_pct": 0.0,
+      "games": 5.0,
+      "first_turn": {
+        "win_rate": 40.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
     },
     {
-      "disposition": "Priority Assets",
-      "lists": 5,
-      "play_rate": 33.3,
-      "win_rate": 52.0,
-      "x0_pct": 20.0,
-      "x1_pct": 20.0,
-      "games": 25.0
-    },
-    {
-      "disposition": "Take and Hold",
-      "lists": 4,
-      "play_rate": 26.7,
-      "win_rate": 75.0,
+      "disposition": "Purge the Foe",
+      "lists": 1,
+      "play_rate": 50.0,
+      "win_rate": 70.0,
       "x0_pct": 0.0,
-      "x1_pct": 50.0,
-      "games": 20.0
+      "x1_pct": 0.0,
+      "games": 5.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 62.5,
+        "games": 4
+      }
     }
   ],
-  "disposition_matchups": [
-    {
-      "opponent_disposition": "Priority Assets",
-      "games": 21,
-      "wins": 11,
-      "win_rate": 54.8
-    },
-    {
-      "opponent_disposition": "Take and Hold",
-      "games": 19,
-      "wins": 8,
-      "win_rate": 42.1
-    },
-    {
-      "opponent_disposition": "Reconnaissance",
-      "games": 13,
-      "wins": 8,
-      "win_rate": 61.5
-    },
-    {
-      "opponent_disposition": "Purge the Foe",
-      "games": 13,
-      "wins": 10,
-      "win_rate": 80.8
-    }
-  ],
-  "disposition_cross": [
-    {
-      "disposition": "Priority Assets",
-      "opponent_disposition": "Priority Assets",
-      "games": 9,
-      "wins": 6,
-      "win_rate": 66.7
-    },
-    {
-      "disposition": "Priority Assets",
-      "opponent_disposition": "Take and Hold",
-      "games": 8,
-      "wins": 3,
-      "win_rate": 37.5
-    },
-    {
-      "disposition": "Purge the Foe",
-      "opponent_disposition": "Purge the Foe",
-      "games": 8,
-      "wins": 5,
-      "win_rate": 68.8
-    },
-    {
-      "disposition": "Purge the Foe",
-      "opponent_disposition": "Priority Assets",
-      "games": 8,
-      "wins": 2,
-      "win_rate": 31.2
-    },
-    {
-      "disposition": "Purge the Foe",
-      "opponent_disposition": "Take and Hold",
-      "games": 7,
-      "wins": 2,
-      "win_rate": 28.6
-    },
-    {
-      "disposition": "Take and Hold",
-      "opponent_disposition": "Reconnaissance",
-      "games": 6,
-      "wins": 4,
-      "win_rate": 75.0
-    }
-  ],
+  "disposition_matchups": [],
+  "disposition_cross": [],
   "top_players": [
     {
-      "player_name": "Rielle Long",
-      "detachment": "Bastion Task Force + Legacy Of Grace",
-      "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/Smt3RYRMiPJd",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Chris Green",
-      "detachment": "Liberator Assault Group",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/gPmckmS8UurD",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 0,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Paul Murphy",
+      "player_name": "Jay Middlecote",
       "detachment": "Rage-Cursed Onslaught",
       "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/QTXI0fwKeeYA",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Terrell McClard",
-      "detachment": "Liberator Assault Group",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/LS8SGvLiRMwj",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Jack Harpster",
-      "detachment": "Angelic Inheritors",
-      "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/Gv7xFx9rMIff",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Richard Forrest",
-      "detachment": "Liberator Assault Group",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/8dGvVXo2RjcO",
+      "list_url": "https://www.bestcoastpairings.com/list/zvz2Bdu93oIw",
       "source": "bcp",
       "wins": 3,
       "losses": 1,
@@ -267,148 +115,35 @@
       "win_rate": 70.0
     },
     {
-      "player_name": "Blake Sawyer",
+      "player_name": "Matthew Andrews",
       "detachment": "Legacy Of Grace + Stormlance Task Force",
       "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/dBhlJUaHVFXW",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Clinton Williams",
-      "detachment": "Rage-Cursed Onslaught",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/PKSfyqgRtxyJ",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 0,
-      "draws": 4,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Kyle Jackling",
-      "detachment": "Rage-Cursed Onslaught",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/mZqnBuFUmCVw",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Michael Labrow",
-      "detachment": "Liberator Assault Group",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/flG93dw3fd36",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Chris Chance",
-      "detachment": "Rage-Cursed Onslaught",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/A3Wh5OCJ0Kjt",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "Trinity Allen",
-      "detachment": "The Angelic Host + Wrath Of The Doomed",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/OYtdvaik1jOv",
+      "list_url": "https://www.bestcoastpairings.com/list/Y9MygQiIv4us",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
       "draws": 0,
       "games": 5,
       "win_rate": 40.0
-    },
-    {
-      "player_name": "Anthony Sargent",
-      "detachment": "Legacy Of Grace + The Angelic Host",
-      "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/KGRjpYVcpWat",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 4,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 20.0
-    },
-    {
-      "player_name": "Blake Law",
-      "detachment": "Angelic Inheritors",
-      "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/jiTaVSTqg1v2",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 5,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 0.0
-    },
-    {
-      "player_name": "Olivier Philippe",
-      "detachment": "Rage-Cursed Onslaught",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/vPxLgTOkI7pA",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 5,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 0.0
     }
   ],
-  "matchups": [
-    {
-      "opponent_faction": "Chaos Space Marines",
-      "games": 6,
-      "wins": 4,
-      "win_rate": 75.0
-    },
-    {
-      "opponent_faction": "Orks",
-      "games": 6,
-      "wins": 3,
-      "win_rate": 50.0
-    },
-    {
-      "opponent_faction": "Thousand Sons",
-      "games": 5,
-      "wins": 2,
-      "win_rate": 40.0
-    },
-    {
-      "opponent_faction": "Space Marines (Astartes)",
-      "games": 5,
-      "wins": 3,
-      "win_rate": 60.0
-    }
-  ],
+  "matchups": [],
   "timeline": [
     {
-      "week": "2026-W25",
-      "lists": 15,
-      "games": 75,
-      "win_rate": 56.7,
-      "total_lists": 765,
-      "play_rate": 2.0
+      "week": "2026-W27",
+      "lists": 2,
+      "games": 10,
+      "win_rate": 55.0,
+      "total_lists": 176,
+      "play_rate": 1.1,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 62.5,
+        "games": 4
+      }
     }
   ]
 }
