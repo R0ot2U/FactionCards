@@ -419,14 +419,21 @@ function renderTable() {
     const isExpanded = expandedRows.has(r.event_id);
     const expandIcon = isExpanded ? "▼" : "▶";
 
-    // Main row
+    // Main row (expandable with tournament link to BCP/NR)
+    const eventLink = r.event_url
+      ? `<a href="${r.event_url}" target="_blank" rel="noopener" style="color:var(--text);" onclick="event.stopPropagation();">${r.event_name} ↗</a>`
+      : r.event_name;
+
     htmlRows.push(`
-      <tr class="tournament-row" onclick="toggleExpanded('${r.event_id}')" style="cursor:pointer;">
-        <td><span style="color:var(--dim);margin-right:0.5rem;">${expandIcon}</span>${r.event_name}</td>
-        <td data-sort="${r.date}">${r.date}</td>
-        <td data-sort="${r.players}">${r.players || '—'}</td>
-        <td data-sort="${r.rounds}">${r.rounds || '—'}</td>
-        <td style="color:var(--dim);font-size:0.8rem">${r.location}</td>
+      <tr class="tournament-row" style="cursor:pointer;">
+        <td onclick="toggleExpanded('${r.event_id}')">
+          <span style="color:var(--dim);margin-right:0.5rem;">${expandIcon}</span>
+          ${eventLink}
+        </td>
+        <td data-sort="${r.date}" onclick="toggleExpanded('${r.event_id}')">${r.date}</td>
+        <td data-sort="${r.players}" onclick="toggleExpanded('${r.event_id}')">${r.players || '—'}</td>
+        <td data-sort="${r.rounds}" onclick="toggleExpanded('${r.event_id}')">${r.rounds || '—'}</td>
+        <td style="color:var(--dim);font-size:0.8rem" onclick="toggleExpanded('${r.event_id}')">${r.location}</td>
       </tr>
     `);
 
@@ -459,11 +466,15 @@ function renderTable() {
                   const dispCell = hasDispositions
                     ? `<td style="padding:0.25rem 0.5rem;color:var(--dim);font-size:0.75rem;">${p.disposition || '—'}</td>`
                     : '';
+                  const factionSlug = (p.faction || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+                  const factionUrl = `/faction.html?faction=${encodeURIComponent(factionSlug)}`;
                   return `
                   <tr style="font-size:0.9rem;">
                     <td style="padding:0.25rem 0.5rem;color:var(--dim);">${p.place}</td>
                     <td style="padding:0.25rem 0.5rem;">${p.player_name}</td>
-                    <td style="padding:0.25rem 0.5rem;color:var(--dim);font-size:0.8rem;">${p.faction}</td>
+                    <td style="padding:0.25rem 0.5rem;color:var(--dim);font-size:0.8rem;">
+                      <a href="${factionUrl}" style="color:var(--dim);">${p.faction}</a>
+                    </td>
                     ${dispCell}
                     <td style="padding:0.25rem 0.5rem;">${p.record}</td>
                     <td style="padding:0.25rem 0.5rem;">

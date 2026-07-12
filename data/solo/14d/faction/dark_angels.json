@@ -1,356 +1,574 @@
 {
   "faction": "Dark Angels",
   "slug": "dark_angels",
-  "as_of": "2026-07-08",
+  "as_of": "2026-07-12",
   "window_days": 14,
   "event_type": "solo",
-  "lists": 30,
-  "games": 136,
-  "play_rate": 2.7,
-  "win_rate": 50.7,
-  "trend_delta": -9.3,
-  "top_detachment": "Dark Age Arsenal + Unforgiven Task Force",
-  "ci_lower": 42.4,
-  "meta_health": "strongly_under",
-  "x0_pct": 3.3,
-  "x1_pct": 20.0,
+  "lists": 22,
+  "games": 97,
+  "play_rate": 3.1,
+  "win_rate": 56.2,
+  "trend_delta": -3.8,
+  "top_detachment": "Company Of Hunters + Darkflight Pursuit",
+  "ci_lower": 46.3,
+  "meta_health": "slightly_under",
+  "x0_pct": 0.0,
+  "x1_pct": 27.3,
   "tournament_wins": 1,
+  "first_turn": {
+    "win_rate": 100.0,
+    "games": 4
+  },
+  "second_turn": {
+    "win_rate": 62.5,
+    "games": 16
+  },
   "detachments": [
-    {
-      "detachment": "Dark Age Arsenal + Unforgiven Task Force",
-      "base_archetype": "Dark Angels \u2014 Dark Age Arsenal + Unforgiven Task Force",
-      "lists": 4,
-      "games": 13,
-      "play_rate": 13.3,
-      "win_rate": 38.5,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
     {
       "detachment": "Company Of Hunters + Darkflight Pursuit",
       "base_archetype": "Dark Angels \u2014 Company Of Hunters + Darkflight Pursuit",
       "lists": 4,
       "games": 20,
-      "play_rate": 13.3,
+      "play_rate": 18.2,
       "win_rate": 72.5,
       "x0_pct": 0.0,
       "x1_pct": 50.0,
-      "tournament_wins": 1
-    },
-    {
-      "detachment": "Dark Age Arsenal + Darkflight Pursuit + Librarius Conclave",
-      "base_archetype": "Dark Angels \u2014 Dark Age Arsenal + Darkflight Pursuit + Librarius Conclave",
-      "lists": 3,
-      "games": 10,
-      "play_rate": 10.0,
-      "win_rate": 65.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
+      "tournament_wins": 1,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": 90.0,
+        "games": 5
+      }
     },
     {
       "detachment": "Wrath Of The Rock",
       "base_archetype": "Dark Angels \u2014 Wrath Of The Rock",
-      "lists": 2,
-      "games": 9,
-      "play_rate": 6.7,
-      "win_rate": 44.4,
+      "lists": 3,
+      "games": 14,
+      "play_rate": 13.6,
+      "win_rate": 53.6,
       "x0_pct": 0.0,
-      "x1_pct": 50.0,
-      "tournament_wins": 0
+      "x1_pct": 33.3,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
+    },
+    {
+      "detachment": "Dark Age Arsenal + Darkflight Pursuit + Librarius Conclave",
+      "base_archetype": "Dark Angels \u2014 Dark Age Arsenal + Darkflight Pursuit + Librarius Conclave",
+      "lists": 2,
+      "games": 5,
+      "play_rate": 9.1,
+      "win_rate": 70.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
+    },
+    {
+      "detachment": "Inner Circle Task Force + Interrogation Conclave",
+      "base_archetype": "Dark Angels \u2014 Inner Circle Task Force + Interrogation Conclave",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 9.1,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
     },
     {
       "detachment": "Inner Circle Task Force + Librarius Conclave",
       "base_archetype": "Dark Angels \u2014 Inner Circle Task Force + Librarius Conclave",
-      "lists": 2,
-      "games": 8,
-      "play_rate": 6.7,
-      "win_rate": 31.2,
+      "lists": 1,
+      "games": 5,
+      "play_rate": 4.5,
+      "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
     },
     {
       "detachment": "Company Of Hunters + Dark Age Arsenal",
       "base_archetype": "Dark Angels \u2014 Company Of Hunters + Dark Age Arsenal",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 6.7,
-      "win_rate": 60.0,
-      "x0_pct": 50.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Darkflight Pursuit + Fulguris Task Force + Librarius Conclave",
-      "base_archetype": "Dark Angels \u2014 Darkflight Pursuit + Fulguris Task Force + Librarius Conclave",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 6.7,
-      "win_rate": 65.0,
-      "x0_pct": 0.0,
-      "x1_pct": 50.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Librarius Conclave + Unforgiven Task Force",
-      "base_archetype": "Dark Angels \u2014 Librarius Conclave + Unforgiven Task Force",
       "lists": 1,
       "games": 5,
-      "play_rate": 3.3,
+      "play_rate": 4.5,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Darkflight Pursuit + Unforgiven Task Force",
-      "base_archetype": "Dark Angels \u2014 Darkflight Pursuit + Unforgiven Task Force",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 3.3,
-      "win_rate": 50.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
     },
     {
       "detachment": "Dark Age Arsenal + Interrogation Conclave + Subversion Assets",
       "base_archetype": "Dark Angels \u2014 Dark Age Arsenal + Interrogation Conclave + Subversion Assets",
       "lists": 1,
-      "games": 10,
-      "play_rate": 3.3,
-      "win_rate": 50.0,
+      "games": 5,
+      "play_rate": 4.5,
+      "win_rate": 80.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
     },
     {
       "detachment": "Dark Age Arsenal + Lion's Blade Task Force",
       "base_archetype": "Dark Angels \u2014 Dark Age Arsenal + Lion's Blade Task Force",
       "lists": 1,
       "games": 5,
-      "play_rate": 3.3,
+      "play_rate": 4.5,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
     },
     {
       "detachment": "Bastion Task Force + Interrogation Conclave",
       "base_archetype": "Dark Angels \u2014 Bastion Task Force + Interrogation Conclave",
       "lists": 1,
       "games": 5,
-      "play_rate": 3.3,
+      "play_rate": 4.5,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "tournament_wins": 0
-    },
-    {
-      "detachment": "Dark Age Arsenal + Firestorm Assault Force",
-      "base_archetype": "Dark Angels \u2014 Dark Age Arsenal + Firestorm Assault Force",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 3.3,
-      "win_rate": 0.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
     },
     {
       "detachment": "No Detachment",
       "base_archetype": "Dark Angels \u2014 No Detachment",
       "lists": 1,
       "games": 5,
-      "play_rate": 3.3,
+      "play_rate": 4.5,
       "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
     },
     {
       "detachment": "Company Of Hunters + Interrogation Conclave",
       "base_archetype": "Dark Angels \u2014 Company Of Hunters + Interrogation Conclave",
       "lists": 1,
       "games": 5,
-      "play_rate": 3.3,
+      "play_rate": 4.5,
       "win_rate": 80.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      }
     },
     {
       "detachment": "Interrogation Conclave + Vanguard Spearhead",
       "base_archetype": "Dark Angels \u2014 Interrogation Conclave + Vanguard Spearhead",
       "lists": 1,
       "games": 5,
-      "play_rate": 3.3,
+      "play_rate": 4.5,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
+    },
+    {
+      "detachment": "Wrath of the Rock// Priority Assets",
+      "base_archetype": "Dark Angels \u2014 Wrath of the Rock// Priority Assets",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 4.5,
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      }
     }
   ],
   "dispositions": [
     {
-      "disposition": "Reconnaissance",
-      "lists": 9,
-      "play_rate": 30.0,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 22.2,
-      "games": 40.0
-    },
-    {
       "disposition": "Priority Assets",
-      "lists": 7,
-      "play_rate": 23.3,
-      "win_rate": 41.4,
+      "lists": 8,
+      "play_rate": 36.4,
+      "win_rate": 54.1,
       "x0_pct": 0.0,
-      "x1_pct": 28.6,
-      "games": 35.0
+      "x1_pct": 37.5,
+      "games": 37.0,
+      "first_turn": {
+        "win_rate": 30.0,
+        "games": 15
+      },
+      "second_turn": {
+        "win_rate": 70.5,
+        "games": 22
+      }
     },
     {
-      "disposition": "Take and Hold",
-      "lists": 6,
-      "play_rate": 20.0,
-      "win_rate": 45.7,
+      "disposition": "Reconnaissance",
+      "lists": 5,
+      "play_rate": 22.7,
+      "win_rate": 67.5,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 23.0
+      "x1_pct": 20.0,
+      "games": 20.0,
+      "first_turn": {
+        "win_rate": 40.9,
+        "games": 11
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 9
+      }
     },
     {
       "disposition": "Purge the Foe",
       "lists": 4,
-      "play_rate": 13.3,
-      "win_rate": 44.4,
+      "play_rate": 18.2,
+      "win_rate": 55.0,
       "x0_pct": 0.0,
       "x1_pct": 25.0,
-      "games": 18.0
+      "games": 20.0,
+      "first_turn": {
+        "win_rate": 65.0,
+        "games": 10
+      },
+      "second_turn": {
+        "win_rate": 45.0,
+        "games": 10
+      }
     },
     {
       "disposition": "Disruption",
-      "lists": 4,
-      "play_rate": 13.3,
+      "lists": 3,
+      "play_rate": 13.6,
+      "win_rate": 46.7,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "games": 15.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 46.2,
+        "games": 13
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "lists": 2,
+      "play_rate": 9.1,
       "win_rate": 60.0,
-      "x0_pct": 25.0,
-      "x1_pct": 25.0,
-      "games": 20.0
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
     }
   ],
   "disposition_matchups": [
     {
       "opponent_disposition": "Purge the Foe",
-      "games": 65,
-      "wins": 33,
-      "win_rate": 51.5
+      "games": 33,
+      "wins": 19,
+      "win_rate": 59.1,
+      "first_turn": {
+        "win_rate": 54.5,
+        "games": 11
+      },
+      "second_turn": {
+        "win_rate": 61.4,
+        "games": 22
+      }
     },
     {
       "opponent_disposition": "Take and Hold",
-      "games": 26,
-      "wins": 11,
-      "win_rate": 44.2
+      "games": 22,
+      "wins": 15,
+      "win_rate": 68.2,
+      "first_turn": {
+        "win_rate": 38.9,
+        "games": 9
+      },
+      "second_turn": {
+        "win_rate": 88.5,
+        "games": 13
+      }
     },
     {
       "opponent_disposition": "Priority Assets",
-      "games": 19,
+      "games": 16,
       "wins": 7,
-      "win_rate": 36.8
+      "win_rate": 46.9,
+      "first_turn": {
+        "win_rate": 27.8,
+        "games": 9
+      },
+      "second_turn": {
+        "win_rate": 71.4,
+        "games": 7
+      }
     },
     {
       "opponent_disposition": "Reconnaissance",
-      "games": 15,
-      "wins": 9,
-      "win_rate": 63.3
+      "games": 13,
+      "wins": 6,
+      "win_rate": 46.2,
+      "first_turn": {
+        "win_rate": 60.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 37.5,
+        "games": 8
+      }
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 12,
+      "wins": 5,
+      "win_rate": 45.8,
+      "first_turn": {
+        "win_rate": 58.3,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 6
+      }
     }
   ],
   "disposition_cross": [
     {
       "disposition": "Disruption",
       "opponent_disposition": "Purge the Foe",
-      "games": 8,
-      "wins": 5,
-      "win_rate": 62.5
-    },
-    {
-      "disposition": "Priority Assets",
-      "opponent_disposition": "Purge the Foe",
-      "games": 13,
-      "wins": 4,
-      "win_rate": 30.8
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 6
+      }
     },
     {
       "disposition": "Priority Assets",
       "opponent_disposition": "Take and Hold",
+      "games": 12,
+      "wins": 9,
+      "win_rate": 75.0,
+      "first_turn": {
+        "win_rate": 37.5,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 93.8,
+        "games": 8
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Purge the Foe",
       "games": 10,
-      "wins": 4,
-      "win_rate": 45.0
+      "wins": 5,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 62.5,
+        "games": 8
+      }
     },
     {
       "disposition": "Priority Assets",
       "opponent_disposition": "Priority Assets",
-      "games": 6,
-      "wins": 2,
-      "win_rate": 33.3
+      "games": 9,
+      "wins": 4,
+      "win_rate": 44.4,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      }
     },
     {
       "disposition": "Purge the Foe",
       "opponent_disposition": "Reconnaissance",
-      "games": 5,
-      "wins": 4,
-      "win_rate": 80.0
+      "games": 6,
+      "wins": 3,
+      "win_rate": 58.3,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 37.5,
+        "games": 4
+      }
     },
     {
       "disposition": "Purge the Foe",
-      "opponent_disposition": "Take and Hold",
+      "opponent_disposition": "Disruption",
       "games": 5,
       "wins": 2,
-      "win_rate": 40.0
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 2
+      }
     },
     {
       "disposition": "Reconnaissance",
       "opponent_disposition": "Purge the Foe",
-      "games": 24,
-      "wins": 15,
-      "win_rate": 62.5
-    },
-    {
-      "disposition": "Reconnaissance",
-      "opponent_disposition": "Priority Assets",
-      "games": 6,
-      "wins": 4,
-      "win_rate": 66.7
+      "games": 8,
+      "wins": 6,
+      "win_rate": 75.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 4
+      }
     },
     {
       "disposition": "Reconnaissance",
       "opponent_disposition": "Take and Hold",
-      "games": 6,
-      "wins": 2,
-      "win_rate": 33.3
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      }
     },
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Purge the Foe",
-      "games": 17,
-      "wins": 7,
-      "win_rate": 44.1
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
     }
   ],
   "top_players": [
-    {
-      "player_name": "Nicolas Chesnick",
-      "detachment": "Company Of Hunters + Dark Age Arsenal",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/UusfJEVO242y",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
     {
       "player_name": "DreameLy Telgarin",
       "detachment": "Company Of Hunters + Darkflight Pursuit",
@@ -362,6 +580,18 @@
       "draws": 1,
       "games": 5,
       "win_rate": 90.0
+    },
+    {
+      "player_name": "Mikel Giles",
+      "detachment": "Dark Age Arsenal + Interrogation Conclave + Subversion Assets",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/lNzHiKyW8EYD",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
     },
     {
       "player_name": "Paul Clifton",
@@ -388,10 +618,10 @@
       "win_rate": 80.0
     },
     {
-      "player_name": "Chris Lewis",
-      "detachment": "Darkflight Pursuit + Fulguris Task Force + Librarius Conclave",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/B2rOtnIzxDKI",
+      "player_name": "Jind\u0159ich \u010cad\u00edk",
+      "detachment": "Wrath of the Rock// Priority Assets",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/eMCz093IB0RX",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -412,40 +642,16 @@
       "win_rate": 75.0
     },
     {
-      "player_name": "Alexander F\u00e4lt Dzougov",
+      "player_name": "\u0160t\u011bp\u00e1n Halla",
       "detachment": "Dark Age Arsenal + Darkflight Pursuit + Librarius Conclave",
       "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/9khd3pxUrBTQ",
+      "list_url": "https://www.bestcoastpairings.com/list/z7Pmo15BrXCG",
       "source": "bcp",
       "wins": 3,
       "losses": 1,
       "draws": 1,
       "games": 5,
       "win_rate": 70.0
-    },
-    {
-      "player_name": "Foster Weiss",
-      "detachment": "Dark Age Arsenal + Unforgiven Task Force",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/fKHEqpWdnH16",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Keith Peck",
-      "detachment": "Dark Age Arsenal + Darkflight Pursuit + Librarius Conclave",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/eFZmUssXkr2H",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
     },
     {
       "player_name": "Ashley Farn",
@@ -496,52 +702,28 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Mikel Giles",
-      "detachment": "Dark Age Arsenal + Interrogation Conclave + Subversion Assets",
+      "player_name": "Ond\u0159ej Land raider king Sekanina",
+      "detachment": "Inner Circle Task Force + Interrogation Conclave",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/wEl1GTGvTcSn",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 1,
+      "draws": 3,
+      "games": 5,
+      "win_rate": 50.0
+    },
+    {
+      "player_name": "Ji\u0159\u00ed Drex",
+      "detachment": "Wrath Of The Rock",
       "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/lNzHiKyW8EYD",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 5,
-      "draws": 0,
-      "games": 10,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "Matt Cahill",
-      "detachment": "Darkflight Pursuit + Fulguris Task Force + Librarius Conclave",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/pHswENRJEOrc",
+      "list_url": "https://www.bestcoastpairings.com/list/CAc6bb0ZZlAk",
       "source": "bcp",
       "wins": 2,
       "losses": 2,
       "draws": 1,
       "games": 5,
       "win_rate": 50.0
-    },
-    {
-      "player_name": "Matt Barney",
-      "detachment": "Darkflight Pursuit + Unforgiven Task Force",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/7GT8sKmk9yRS",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "Davis Gonzalez",
-      "detachment": "Dark Age Arsenal + Unforgiven Task Force",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/0jtiQvkwUPhh",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
     },
     {
       "player_name": "Gage Kohl",
@@ -556,10 +738,22 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Nicolai Rinde",
-      "detachment": "Inner Circle Task Force + Librarius Conclave",
+      "player_name": "Tobi\u00e1\u0161 Veska",
+      "detachment": "Wrath Of The Rock",
       "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/d4X1Z1wiMAs9",
+      "list_url": "https://www.bestcoastpairings.com/list/mJr4quIx2TQz",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Jack Wolthers",
+      "detachment": "Dark Age Arsenal + Darkflight Pursuit + Fulguris Task Force",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/u4ck6FrXvw4H",
       "source": "bcp",
       "wins": 1,
       "losses": 2,
@@ -568,126 +762,200 @@
       "win_rate": 33.3
     },
     {
-      "player_name": "Scott Ferguson",
-      "detachment": "Inner Circle Task Force + Interrogation Conclave",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/7XiqEHc40gRp",
+      "player_name": "Javi Soto",
+      "detachment": "Inner Circle Task Force + Librarius Conclave",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/EXcf4wu1v9HH",
       "source": "bcp",
       "wins": 1,
-      "losses": 2,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
+      "player_name": "Vladislav Shapchits",
+      "detachment": "No Detachment",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/JDQD3UphlfP7",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
+      "player_name": "Luk\u00e1\u0161 Grunt",
+      "detachment": "Inner Circle Task Force + Interrogation Conclave",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/C3g15krodNdV",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
+      "player_name": "Bronislav Popelka",
+      "detachment": "Company Of Hunters + Dark Age Arsenal",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/zD3O6v4EKUKr",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
       "draws": 0,
-      "games": 3,
-      "win_rate": 33.3
+      "games": 5,
+      "win_rate": 20.0
     }
   ],
   "matchups": [
     {
-      "opponent_faction": "Space Marines (Astartes)",
-      "games": 12,
-      "wins": 3,
-      "win_rate": 25.0
-    },
-    {
       "opponent_faction": "Necrons",
       "games": 11,
       "wins": 3,
-      "win_rate": 27.3
-    },
-    {
-      "opponent_faction": "Chaos Daemons",
-      "games": 10,
-      "wins": 4,
-      "win_rate": 40.0
-    },
-    {
-      "opponent_faction": "Imperial Knights",
-      "games": 9,
-      "wins": 5,
-      "win_rate": 55.6
-    },
-    {
-      "opponent_faction": "T'au Empire",
-      "games": 9,
-      "wins": 5,
-      "win_rate": 55.6
-    },
-    {
-      "opponent_faction": "Aeldari",
-      "games": 8,
-      "wins": 6,
-      "win_rate": 75.0
-    },
-    {
-      "opponent_faction": "Death Guard",
-      "games": 8,
-      "wins": 2,
-      "win_rate": 25.0
+      "win_rate": 27.3,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 42.9,
+        "games": 7
+      }
     },
     {
       "opponent_faction": "Tyranids",
-      "games": 7,
-      "wins": 4,
-      "win_rate": 57.1
+      "games": 10,
+      "wins": 6,
+      "win_rate": 65.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 6
+      }
     },
     {
-      "opponent_faction": "World Eaters",
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 56.2,
+      "first_turn": {
+        "win_rate": 37.5,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      }
+    },
+    {
+      "opponent_faction": "Imperial Knights",
       "games": 7,
       "wins": 4,
-      "win_rate": 57.1
+      "win_rate": 57.1,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 80.0,
+        "games": 5
+      }
     },
     {
       "opponent_faction": "Thousand Sons",
       "games": 7,
-      "wins": 4,
-      "win_rate": 57.1
+      "wins": 5,
+      "win_rate": 71.4,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      }
     },
     {
       "opponent_faction": "Drukhari",
-      "games": 6,
+      "games": 7,
       "wins": 4,
-      "win_rate": 66.7
+      "win_rate": 57.1,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      }
     },
     {
-      "opponent_faction": "Leagues of Votann",
-      "games": 5,
-      "wins": 4,
-      "win_rate": 80.0
+      "opponent_faction": "T'au Empire",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 42.9,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
     },
     {
-      "opponent_faction": "Orks",
-      "games": 5,
-      "wins": 1,
-      "win_rate": 20.0
-    },
-    {
-      "opponent_faction": "Adeptus Custodes",
-      "games": 5,
+      "opponent_faction": "Chaos Daemons",
+      "games": 7,
       "wins": 4,
-      "win_rate": 80.0
-    },
-    {
-      "opponent_faction": "Chaos Knights",
-      "games": 5,
-      "wins": 4,
-      "win_rate": 80.0
+      "win_rate": 57.1,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 6
+      }
     }
   ],
   "timeline": [
     {
       "week": "2026-W25",
-      "lists": 15,
-      "games": 73,
-      "win_rate": 45.9,
-      "total_lists": 494,
-      "play_rate": 3.0
+      "lists": 1,
+      "games": 4,
+      "win_rate": 75.0,
+      "total_lists": 15,
+      "play_rate": 6.7,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      }
     },
     {
       "week": "2026-W26",
-      "lists": 15,
-      "games": 63,
-      "win_rate": 56.3,
-      "total_lists": 625,
-      "play_rate": 2.4
+      "lists": 21,
+      "games": 93,
+      "win_rate": 55.4,
+      "total_lists": 703,
+      "play_rate": 3.0,
+      "first_turn": {
+        "win_rate": 46.1,
+        "games": 38
+      },
+      "second_turn": {
+        "win_rate": 61.8,
+        "games": 55
+      }
     }
   ]
 }

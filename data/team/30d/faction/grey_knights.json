@@ -1,7 +1,7 @@
 {
   "faction": "Grey Knights",
   "slug": "grey_knights",
-  "as_of": "2026-07-08",
+  "as_of": "2026-07-12",
   "window_days": 30,
   "event_type": "team",
   "lists": 8,
@@ -15,6 +15,14 @@
   "x0_pct": 25.0,
   "x1_pct": 12.5,
   "tournament_wins": 1,
+  "first_turn": {
+    "win_rate": 57.5,
+    "games": 20
+  },
+  "second_turn": {
+    "win_rate": 55.3,
+    "games": 19
+  },
   "detachments": [
     {
       "detachment": "Argent Assault + Banishers",
@@ -25,7 +33,15 @@
       "win_rate": 72.5,
       "x0_pct": 50.0,
       "x1_pct": 0.0,
-      "tournament_wins": 1
+      "tournament_wins": 1,
+      "first_turn": {
+        "win_rate": 62.5,
+        "games": 12
+      },
+      "second_turn": {
+        "win_rate": 87.5,
+        "games": 8
+      }
     },
     {
       "detachment": "Banishers + Immaterial Interdiction",
@@ -36,7 +52,15 @@
       "win_rate": 0.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 3
+      }
     },
     {
       "detachment": "Banishers",
@@ -47,7 +71,15 @@
       "win_rate": 80.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      }
     },
     {
       "detachment": "Brotherhood Strike + Immaterial Interdiction",
@@ -58,7 +90,15 @@
       "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 2
+      }
     }
   ],
   "dispositions": [
@@ -69,7 +109,15 @@
       "win_rate": 54.2,
       "x0_pct": 20.0,
       "x1_pct": 0.0,
-      "games": 24.0
+      "games": 24.0,
+      "first_turn": {
+        "win_rate": 45.8,
+        "games": 12
+      },
+      "second_turn": {
+        "win_rate": 62.5,
+        "games": 12
+      }
     },
     {
       "disposition": "Priority Assets",
@@ -78,7 +126,15 @@
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 50.0,
-      "games": 10.0
+      "games": 10.0,
+      "first_turn": {
+        "win_rate": 60.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 20.0,
+        "games": 5
+      }
     },
     {
       "disposition": "Disruption",
@@ -87,7 +143,15 @@
       "win_rate": 100.0,
       "x0_pct": 100.0,
       "x1_pct": 0.0,
-      "games": 5.0
+      "games": 5.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      }
     }
   ],
   "disposition_matchups": [
@@ -95,13 +159,29 @@
       "opponent_disposition": "Take and Hold",
       "games": 12,
       "wins": 7,
-      "win_rate": 62.5
+      "win_rate": 62.5,
+      "first_turn": {
+        "win_rate": 75.0,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 6
+      }
     },
     {
       "opponent_disposition": "Purge the Foe",
       "games": 10,
       "wins": 5,
-      "win_rate": 50.0
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 40.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 60.0,
+        "games": 5
+      }
     }
   ],
   "disposition_cross": [
@@ -110,21 +190,45 @@
       "opponent_disposition": "Disruption",
       "games": 7,
       "wins": 3,
-      "win_rate": 50.0
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 3
+      }
     },
     {
       "disposition": "Purge the Foe",
       "opponent_disposition": "Take and Hold",
       "games": 7,
       "wins": 4,
-      "win_rate": 64.3
+      "win_rate": 64.3,
+      "first_turn": {
+        "win_rate": 83.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      }
     },
     {
       "disposition": "Purge the Foe",
       "opponent_disposition": "Purge the Foe",
       "games": 6,
       "wins": 3,
-      "win_rate": 50.0
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      }
     }
   ],
   "top_players": [
@@ -230,7 +334,15 @@
       "opponent_faction": "Space Marines (Astartes)",
       "games": 5,
       "wins": 3,
-      "win_rate": 60.0
+      "win_rate": 60.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      }
     }
   ],
   "timeline": [
@@ -240,7 +352,15 @@
       "games": 5,
       "win_rate": 30.0,
       "total_lists": 99,
-      "play_rate": 1.0
+      "play_rate": 1.0,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 2
+      }
     },
     {
       "week": "2026-W25",
@@ -248,7 +368,15 @@
       "games": 34,
       "win_rate": 60.3,
       "total_lists": 765,
-      "play_rate": 0.9
+      "play_rate": 0.9,
+      "first_turn": {
+        "win_rate": 61.8,
+        "games": 17
+      },
+      "second_turn": {
+        "win_rate": 58.8,
+        "games": 17
+      }
     }
   ]
 }

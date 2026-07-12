@@ -168,6 +168,18 @@ function renderTable() {
     // Rank is pre-computed by build script
     const rank = r.rank || '—';
 
+    // Create faction links
+    const factionsText = r.factions || 'Unknown';
+    let factionsCell = factionsText;
+    if (factionsText !== 'Unknown') {
+      const factionList = factionsText.split(',').map(f => f.trim());
+      factionsCell = factionList.map(faction => {
+        const factionSlug = faction.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+        const factionUrl = `/faction.html?faction=${encodeURIComponent(factionSlug)}`;
+        return `<a href="${factionUrl}" style="color:var(--dim);">${faction}</a>`;
+      }).join(', ');
+    }
+
     return `
       <tr>
         <td style="color:var(--dim);font-size:0.9rem">${rank}</td>
@@ -176,7 +188,7 @@ function renderTable() {
         <td data-sort="${r.peak_rating || 0}" style="color:var(--dim);font-size:0.9rem">${Math.round(r.peak_rating || 0)}</td>
         <td data-sort="${r.games || 0}">${r.games || 0}</td>
         <td data-sort="${r.win_rate || 0}" title="${record}"><span class="${wrCls}">${(r.win_rate || 0).toFixed(1)}%</span></td>
-        <td style="color:var(--dim);font-size:0.75rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="${r.factions || 'Unknown'}">${r.factions || 'Unknown'}</td>
+        <td style="color:var(--dim);font-size:0.75rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="${r.factions || 'Unknown'}">${factionsCell}</td>
         <td data-sort="${r.trend_delta ?? -999}">${ratingTrendHtml(r.trend_delta)}</td>
         <td data-sort="${r.total_games || 0}" style="color:var(--dim);font-size:0.9rem">${r.total_games || 0}</td>
         <td data-sort="${r.k_factor || 32}"><span class="${kCls}">${r.k_factor || 32}</span></td>

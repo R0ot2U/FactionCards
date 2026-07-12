@@ -64,9 +64,10 @@ function ftWinRate(obj) {
 }
 
 function ftGames(obj) {
-  if (turnFilter === "first") return obj.first_turn?.games;
-  if (turnFilter === "second") return obj.second_turn?.games;
-  return obj.games;
+  if (!obj) return 0;
+  if (turnFilter === "first") return obj.first_turn?.games ?? 0;
+  if (turnFilter === "second") return obj.second_turn?.games ?? 0;
+  return obj.games ?? 0;
 }
 
 function turnLabel() {

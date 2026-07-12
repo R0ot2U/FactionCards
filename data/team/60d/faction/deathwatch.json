@@ -1,7 +1,7 @@
 {
   "faction": "Deathwatch",
   "slug": "deathwatch",
-  "as_of": "2026-07-08",
+  "as_of": "2026-07-12",
   "window_days": 60,
   "event_type": "team",
   "lists": 3,
@@ -15,6 +15,14 @@
   "x0_pct": 33.3,
   "x1_pct": 0.0,
   "tournament_wins": 0,
+  "first_turn": {
+    "win_rate": 41.7,
+    "games": 6
+  },
+  "second_turn": {
+    "win_rate": 55.6,
+    "games": 9
+  },
   "detachments": [
     {
       "detachment": "Black Spear Task Force",
@@ -25,7 +33,15 @@
       "win_rate": 25.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 12.5,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 6
+      }
     },
     {
       "detachment": "No Detachment",
@@ -36,7 +52,15 @@
       "win_rate": 100.0,
       "x0_pct": 100.0,
       "x1_pct": 0.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
     }
   ],
   "dispositions": [
@@ -47,7 +71,15 @@
       "win_rate": 25.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 10.0
+      "games": 10.0,
+      "first_turn": {
+        "win_rate": 12.5,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 6
+      }
     },
     {
       "disposition": "Reconnaissance",
@@ -56,7 +88,15 @@
       "win_rate": 100.0,
       "x0_pct": 100.0,
       "x1_pct": 0.0,
-      "games": 5.0
+      "games": 5.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      }
     }
   ],
   "disposition_matchups": [],
@@ -107,7 +147,15 @@
       "games": 15,
       "win_rate": 50.0,
       "total_lists": 765,
-      "play_rate": 0.4
+      "play_rate": 0.4,
+      "first_turn": {
+        "win_rate": 41.7,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 55.6,
+        "games": 9
+      }
     }
   ]
 }

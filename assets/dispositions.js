@@ -268,8 +268,18 @@ function renderTopArmiesDetachments() {
     const wrCls = wrVal != null ? wrClass(wrVal) : "";
     const wr = wrVal != null ? `<span class="${wrCls}">${wrVal.toFixed(1)}%</span>` : "—";
     const x0 = r.x0_pct != null ? `${r.x0_pct.toFixed(1)}%` : "—";
+    const name = r.faction || r.base_archetype || r.name || "—";
+    // Link to faction page if this is an army
+    let nameCell;
+    if (currentArmiesDetachmentsMode === "armies" && r.faction) {
+      const factionSlug = r.faction.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+      const factionUrl = `/faction.html?faction=${encodeURIComponent(factionSlug)}`;
+      nameCell = `<a href="${factionUrl}" style="color:var(--text);">${name}</a>`;
+    } else {
+      nameCell = name;
+    }
     return `<tr>
-      <td>${r.faction || r.base_archetype || r.name || "—"}</td>
+      <td>${nameCell}</td>
       <td>${(r.lists ?? 0).toLocaleString()}</td>
       <td>${ftGames(r).toLocaleString()}</td>
       <td>${wr}</td>

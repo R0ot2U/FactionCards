@@ -1,7 +1,7 @@
 {
   "faction": "Adeptus Mechanicus",
   "slug": "adeptus_mechanicus",
-  "as_of": "2026-07-08",
+  "as_of": "2026-07-12",
   "window_days": 30,
   "event_type": "team",
   "lists": 13,
@@ -15,6 +15,14 @@
   "x0_pct": 7.7,
   "x1_pct": 7.7,
   "tournament_wins": 0,
+  "first_turn": {
+    "win_rate": 45.3,
+    "games": 32
+  },
+  "second_turn": {
+    "win_rate": 40.6,
+    "games": 32
+  },
   "detachments": [
     {
       "detachment": "Cohort Cybernetica + Lords Of The Forge",
@@ -25,7 +33,15 @@
       "win_rate": 36.0,
       "x0_pct": 20.0,
       "x1_pct": 0.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 30.0,
+        "games": 15
+      },
+      "second_turn": {
+        "win_rate": 45.0,
+        "games": 10
+      }
     },
     {
       "detachment": "Lords Of The Forge + Skitarii Hunter Cohort",
@@ -36,7 +52,15 @@
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 25.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 70.0,
+        "games": 10
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 10
+      }
     },
     {
       "detachment": "Lords Of The Forge + Rad-Zone Corps",
@@ -47,7 +71,15 @@
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      }
     },
     {
       "detachment": "Cohort Acquisitus + Skitarii Hunter Cohort",
@@ -58,7 +90,15 @@
       "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "tournament_wins": 0
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 12.5,
+        "games": 4
+      }
     }
   ],
   "dispositions": [
@@ -69,7 +109,15 @@
       "win_rate": 41.4,
       "x0_pct": 0.0,
       "x1_pct": 14.3,
-      "games": 35.0
+      "games": 35.0,
+      "first_turn": {
+        "win_rate": 36.8,
+        "games": 19
+      },
+      "second_turn": {
+        "win_rate": 46.9,
+        "games": 16
+      }
     },
     {
       "disposition": "Reconnaissance",
@@ -78,7 +126,15 @@
       "win_rate": 36.8,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 19.0
+      "games": 19.0,
+      "first_turn": {
+        "win_rate": 75.0,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 19.2,
+        "games": 13
+      }
     },
     {
       "disposition": "Take and Hold",
@@ -87,7 +143,15 @@
       "win_rate": 60.0,
       "x0_pct": 50.0,
       "x1_pct": 0.0,
-      "games": 10.0
+      "games": 10.0,
+      "first_turn": {
+        "win_rate": 42.9,
+        "games": 7
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      }
     }
   ],
   "disposition_matchups": [
@@ -95,25 +159,57 @@
       "opponent_disposition": "Priority Assets",
       "games": 15,
       "wins": 7,
-      "win_rate": 46.7
+      "win_rate": 46.7,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 9
+      },
+      "second_turn": {
+        "win_rate": 16.7,
+        "games": 6
+      }
     },
     {
       "opponent_disposition": "Take and Hold",
       "games": 13,
       "wins": 4,
-      "win_rate": 30.8
+      "win_rate": 30.8,
+      "first_turn": {
+        "win_rate": 21.4,
+        "games": 7
+      },
+      "second_turn": {
+        "win_rate": 41.7,
+        "games": 6
+      }
     },
     {
       "opponent_disposition": "Reconnaissance",
       "games": 13,
       "wins": 5,
-      "win_rate": 42.3
+      "win_rate": 42.3,
+      "first_turn": {
+        "win_rate": 25.0,
+        "games": 8
+      },
+      "second_turn": {
+        "win_rate": 70.0,
+        "games": 5
+      }
     },
     {
       "opponent_disposition": "Purge the Foe",
       "games": 10,
       "wins": 3,
-      "win_rate": 35.0
+      "win_rate": 35.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 6
+      }
     }
   ],
   "disposition_cross": [
@@ -122,42 +218,90 @@
       "opponent_disposition": "Priority Assets",
       "games": 9,
       "wins": 4,
-      "win_rate": 44.4
+      "win_rate": 44.4,
+      "first_turn": {
+        "win_rate": 60.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 4
+      }
     },
     {
       "disposition": "Priority Assets",
       "opponent_disposition": "Reconnaissance",
       "games": 8,
       "wins": 3,
-      "win_rate": 37.5
+      "win_rate": 37.5,
+      "first_turn": {
+        "win_rate": 16.7,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      }
     },
     {
       "disposition": "Priority Assets",
       "opponent_disposition": "Disruption",
       "games": 5,
       "wins": 3,
-      "win_rate": 70.0
+      "win_rate": 70.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 62.5,
+        "games": 4
+      }
     },
     {
       "disposition": "Priority Assets",
       "opponent_disposition": "Take and Hold",
       "games": 5,
       "wins": 0,
-      "win_rate": 0.0
+      "win_rate": 0.0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      }
     },
     {
       "disposition": "Priority Assets",
       "opponent_disposition": "Purge the Foe",
       "games": 5,
       "wins": 1,
-      "win_rate": 20.0
+      "win_rate": 20.0,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      }
     },
     {
       "disposition": "Reconnaissance",
       "opponent_disposition": "Take and Hold",
       "games": 6,
       "wins": 3,
-      "win_rate": 50.0
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 3
+      }
     }
   ],
   "top_players": [
@@ -323,25 +467,57 @@
       "opponent_faction": "Astra Militarum",
       "games": 6,
       "wins": 3,
-      "win_rate": 58.3
+      "win_rate": 58.3,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      }
     },
     {
       "opponent_faction": "Adeptus Custodes",
       "games": 5,
       "wins": 1,
-      "win_rate": 30.0
+      "win_rate": 30.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 16.7,
+        "games": 3
+      }
     },
     {
       "opponent_faction": "Space Marines (Astartes)",
       "games": 5,
       "wins": 2,
-      "win_rate": 50.0
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 1
+      }
     },
     {
       "opponent_faction": "T'au Empire",
       "games": 5,
       "wins": 2,
-      "win_rate": 40.0
+      "win_rate": 40.0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      }
     }
   ],
   "timeline": [
@@ -351,7 +527,15 @@
       "games": 10,
       "win_rate": 10.0,
       "total_lists": 99,
-      "play_rate": 2.0
+      "play_rate": 2.0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 4
+      }
     },
     {
       "week": "2026-W25",
@@ -359,7 +543,15 @@
       "games": 54,
       "win_rate": 49.1,
       "total_lists": 765,
-      "play_rate": 1.4
+      "play_rate": 1.4,
+      "first_turn": {
+        "win_rate": 55.8,
+        "games": 26
+      },
+      "second_turn": {
+        "win_rate": 42.9,
+        "games": 28
+      }
     }
   ]
 }
