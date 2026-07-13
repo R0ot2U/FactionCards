@@ -1,46 +1,46 @@
 {
   "faction": "Imperial Agents",
   "slug": "imperial_agents",
-  "as_of": "2026-07-12",
+  "as_of": "2026-07-13",
   "window_days": 60,
   "event_type": "solo",
-  "lists": 3,
-  "games": 15,
+  "lists": 6,
+  "games": 26,
   "play_rate": 0.2,
-  "win_rate": 53.3,
+  "win_rate": 50.0,
   "trend_delta": null,
   "top_detachment": "Imperialis Fleet",
-  "ci_lower": 30.1,
+  "ci_lower": 32.1,
   "meta_health": "strongly_under",
-  "x0_pct": 0.0,
-  "x1_pct": 33.3,
+  "x0_pct": 16.7,
+  "x1_pct": 16.7,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 63.6,
-    "games": 11
+    "win_rate": 60.0,
+    "games": 15
   },
   "second_turn": {
-    "win_rate": 25.0,
-    "games": 4
+    "win_rate": 42.9,
+    "games": 14
   },
   "detachments": [
     {
       "detachment": "Imperialis Fleet",
       "base_archetype": "Imperial Agents \u2014 Imperialis Fleet",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 33.3,
-      "win_rate": 80.0,
-      "x0_pct": 0.0,
-      "x1_pct": 100.0,
+      "lists": 3,
+      "games": 11,
+      "play_rate": 50.0,
+      "win_rate": 72.7,
+      "x0_pct": 33.3,
+      "x1_pct": 33.3,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 75.0,
-        "games": 4
+        "win_rate": 66.7,
+        "games": 6
       },
       "second_turn": {
-        "win_rate": 100.0,
-        "games": 1
+        "win_rate": 80.0,
+        "games": 5
       }
     },
     {
@@ -48,7 +48,7 @@
       "base_archetype": "Imperial Agents \u2014 No Detachment",
       "lists": 1,
       "games": 5,
-      "play_rate": 33.3,
+      "play_rate": 16.7,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -67,7 +67,7 @@
       "base_archetype": "Imperial Agents \u2014 Ordo Hereticus + Purgation Force",
       "lists": 1,
       "games": 5,
-      "play_rate": 33.3,
+      "play_rate": 16.7,
       "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -80,13 +80,49 @@
         "win_rate": 0.0,
         "games": 2
       }
+    },
+    {
+      "detachment": "Veiled Blade Elimination Force",
+      "base_archetype": "Imperial Agents \u2014 Veiled Blade Elimination Force",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 16.7,
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 4
+      }
     }
   ],
   "dispositions": [
     {
+      "disposition": "Disruption",
+      "lists": 3,
+      "play_rate": 50.0,
+      "win_rate": 72.7,
+      "x0_pct": 33.3,
+      "x1_pct": 33.3,
+      "games": 11.0,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 80.0,
+        "games": 5
+      }
+    },
+    {
       "disposition": "Purge the Foe",
       "lists": 2,
-      "play_rate": 66.7,
+      "play_rate": 33.3,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -101,20 +137,20 @@
       }
     },
     {
-      "disposition": "Disruption",
+      "disposition": "Reconnaissance",
       "lists": 1,
-      "play_rate": 33.3,
-      "win_rate": 80.0,
+      "play_rate": 16.7,
+      "win_rate": 20.0,
       "x0_pct": 0.0,
-      "x1_pct": 100.0,
+      "x1_pct": 0.0,
       "games": 5.0,
       "first_turn": {
-        "win_rate": 75.0,
-        "games": 4
+        "win_rate": 0.0,
+        "games": 1
       },
       "second_turn": {
-        "win_rate": 100.0,
-        "games": 1
+        "win_rate": 25.0,
+        "games": 4
       }
     }
   ],
@@ -132,6 +168,18 @@
       "draws": 0,
       "games": 5,
       "win_rate": 80.0
+    },
+    {
+      "player_name": "Th\u00e9o Ozenda",
+      "detachment": "Imperialis Fleet",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/o9ykzRxSa93Z",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
     },
     {
       "player_name": "Matt Stadnik",
@@ -156,21 +204,33 @@
       "draws": 1,
       "games": 5,
       "win_rate": 30.0
+    },
+    {
+      "player_name": "Nathan Schmidt",
+      "detachment": "Veiled Blade Elimination Force",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/rtgZBC8IzX3q",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 7,
-      "wins": 2,
-      "win_rate": 35.7,
+      "games": 12,
+      "wins": 3,
+      "win_rate": 29.2,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 5
+        "win_rate": 35.7,
+        "games": 7
       },
       "second_turn": {
-        "win_rate": 0.0,
-        "games": 2
+        "win_rate": 20.0,
+        "games": 5
       }
     }
   ],
@@ -205,6 +265,22 @@
       "second_turn": {
         "win_rate": 100.0,
         "games": 1
+      }
+    },
+    {
+      "week": "2026-W27",
+      "lists": 3,
+      "games": 11,
+      "win_rate": 45.5,
+      "total_lists": 1274,
+      "play_rate": 0.2,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 8
       }
     }
   ]

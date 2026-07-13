@@ -1,45 +1,64 @@
 {
   "faction": "Chaos Space Marines",
   "slug": "chaos_space_marines",
-  "as_of": "2026-07-12",
+  "as_of": "2026-07-13",
   "window_days": 14,
   "event_type": "team",
-  "lists": 6,
-  "games": 30,
-  "play_rate": 3.4,
-  "win_rate": 51.7,
-  "trend_delta": -0.7,
+  "lists": 9,
+  "games": 40,
+  "play_rate": 2.8,
+  "win_rate": 51.2,
+  "trend_delta": -1.2,
   "top_detachment": "Renegade Raiders",
-  "ci_lower": 34.6,
+  "ci_lower": 36.3,
   "meta_health": "strongly_under",
-  "x0_pct": 16.7,
+  "x0_pct": 11.1,
   "x1_pct": 0.0,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 47.5,
-    "games": 20
+    "win_rate": 46.2,
+    "games": 26
   },
   "second_turn": {
-    "win_rate": 60.0,
-    "games": 10
+    "win_rate": 60.7,
+    "games": 14
   },
   "detachments": [
     {
       "detachment": "Renegade Raiders",
       "base_archetype": "Chaos Space Marines \u2014 Renegade Raiders",
-      "lists": 2,
-      "games": 10,
+      "lists": 3,
+      "games": 15,
       "play_rate": 33.3,
-      "win_rate": 75.0,
-      "x0_pct": 50.0,
+      "win_rate": 66.7,
+      "x0_pct": 33.3,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 64.3,
-        "games": 7
+        "win_rate": 59.1,
+        "games": 11
       },
       "second_turn": {
-        "win_rate": 100.0,
+        "win_rate": 87.5,
+        "games": 4
+      }
+    },
+    {
+      "detachment": "Cabal Of Chaos + Veterans Of The Long War",
+      "base_archetype": "Chaos Space Marines \u2014 Cabal Of Chaos + Veterans Of The Long War",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 11.1,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 25.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 66.7,
         "games": 3
       }
     },
@@ -48,7 +67,7 @@
       "base_archetype": "Chaos Space Marines \u2014 Murdertalon Raiders + Veterans Of The Long War",
       "lists": 1,
       "games": 5,
-      "play_rate": 16.7,
+      "play_rate": 11.1,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -67,7 +86,7 @@
       "base_archetype": "Chaos Space Marines \u2014 Murdertalon Raiders + Soulforged Warpack",
       "lists": 1,
       "games": 5,
-      "play_rate": 16.7,
+      "play_rate": 11.1,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -86,7 +105,7 @@
       "base_archetype": "Chaos Space Marines \u2014 Nightmare Hunt",
       "lists": 1,
       "games": 5,
-      "play_rate": 16.7,
+      "play_rate": 11.1,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -105,7 +124,7 @@
       "base_archetype": "Chaos Space Marines \u2014 No Detachment",
       "lists": 1,
       "games": 5,
-      "play_rate": 16.7,
+      "play_rate": 11.1,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -122,8 +141,25 @@
   ],
   "dispositions": [
     {
+      "disposition": "Reconnaissance",
+      "lists": 3,
+      "play_rate": 33.3,
+      "win_rate": 66.7,
+      "x0_pct": 33.3,
+      "x1_pct": 0.0,
+      "games": 15.0,
+      "first_turn": {
+        "win_rate": 59.1,
+        "games": 11
+      },
+      "second_turn": {
+        "win_rate": 87.5,
+        "games": 4
+      }
+    },
+    {
       "disposition": "Purge the Foe",
-      "lists": 2,
+      "lists": 3,
       "play_rate": 33.3,
       "win_rate": 40.0,
       "x0_pct": 0.0,
@@ -139,26 +175,26 @@
       }
     },
     {
-      "disposition": "Reconnaissance",
+      "disposition": "Take and Hold",
       "lists": 2,
-      "play_rate": 33.3,
-      "win_rate": 75.0,
-      "x0_pct": 50.0,
+      "play_rate": 22.2,
+      "win_rate": 55.0,
+      "x0_pct": 0.0,
       "x1_pct": 0.0,
       "games": 10.0,
       "first_turn": {
-        "win_rate": 64.3,
-        "games": 7
+        "win_rate": 37.5,
+        "games": 4
       },
       "second_turn": {
-        "win_rate": 100.0,
-        "games": 3
+        "win_rate": 66.7,
+        "games": 6
       }
     },
     {
       "disposition": "Disruption",
       "lists": 1,
-      "play_rate": 16.7,
+      "play_rate": 11.1,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -171,27 +207,41 @@
         "win_rate": 33.3,
         "games": 3
       }
-    },
+    }
+  ],
+  "disposition_matchups": [
     {
-      "disposition": "Take and Hold",
-      "lists": 1,
-      "play_rate": 16.7,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 5.0,
+      "opponent_disposition": "Purge the Foe",
+      "games": 12,
+      "wins": 7,
+      "win_rate": 58.3,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 2
+        "win_rate": 64.3,
+        "games": 7
       },
       "second_turn": {
-        "win_rate": 66.7,
-        "games": 3
+        "win_rate": 50.0,
+        "games": 5
       }
     }
   ],
-  "disposition_matchups": [],
-  "disposition_cross": [],
+  "disposition_cross": [
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Purge the Foe",
+      "games": 5,
+      "wins": 4,
+      "win_rate": 90.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 2
+      }
+    }
+  ],
   "top_players": [
     {
       "player_name": "Jakub Jansa",
@@ -230,6 +280,30 @@
       "win_rate": 60.0
     },
     {
+      "player_name": "Guillaume Moisan",
+      "detachment": "Cabal Of Chaos + Veterans Of The Long War",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/cYDi75ccpSFF",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 2,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 50.0
+    },
+    {
+      "player_name": "Emma Dillow",
+      "detachment": "Renegade Raiders",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/gpRt9krGYCjG",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 2,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 50.0
+    },
+    {
       "player_name": "Peter Timko",
       "detachment": "Renegade Raiders",
       "disposition": "Reconnaissance",
@@ -266,22 +340,37 @@
       "win_rate": 20.0
     }
   ],
-  "matchups": [],
+  "matchups": [
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 33.3,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      }
+    }
+  ],
   "timeline": [
     {
       "week": "2026-W27",
-      "lists": 6,
-      "games": 30,
-      "win_rate": 51.7,
-      "total_lists": 176,
-      "play_rate": 3.4,
+      "lists": 9,
+      "games": 40,
+      "win_rate": 51.2,
+      "total_lists": 316,
+      "play_rate": 2.8,
       "first_turn": {
-        "win_rate": 47.5,
-        "games": 20
+        "win_rate": 46.2,
+        "games": 26
       },
       "second_turn": {
-        "win_rate": 60.0,
-        "games": 10
+        "win_rate": 60.7,
+        "games": 14
       }
     }
   ]

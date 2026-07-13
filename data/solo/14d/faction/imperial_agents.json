@@ -1,65 +1,101 @@
 {
   "faction": "Imperial Agents",
   "slug": "imperial_agents",
-  "as_of": "2026-07-12",
+  "as_of": "2026-07-13",
   "window_days": 14,
   "event_type": "solo",
-  "lists": 1,
-  "games": 5,
-  "play_rate": 0.1,
-  "win_rate": 80.0,
-  "trend_delta": 40.0,
+  "lists": 4,
+  "games": 16,
+  "play_rate": 0.2,
+  "win_rate": 56.2,
+  "trend_delta": 16.2,
   "top_detachment": "Imperialis Fleet",
-  "ci_lower": 37.6,
+  "ci_lower": 33.2,
   "meta_health": "strongly_under",
-  "x0_pct": 0.0,
-  "x1_pct": 100.0,
+  "x0_pct": 25.0,
+  "x1_pct": 25.0,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 75.0,
-    "games": 4
+    "win_rate": 62.5,
+    "games": 8
   },
   "second_turn": {
-    "win_rate": 100.0,
-    "games": 1
+    "win_rate": 54.5,
+    "games": 11
   },
   "detachments": [
     {
       "detachment": "Imperialis Fleet",
       "base_archetype": "Imperial Agents \u2014 Imperialis Fleet",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 100.0,
-      "win_rate": 80.0,
-      "x0_pct": 0.0,
-      "x1_pct": 100.0,
+      "lists": 3,
+      "games": 11,
+      "play_rate": 75.0,
+      "win_rate": 72.7,
+      "x0_pct": 33.3,
+      "x1_pct": 33.3,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 75.0,
-        "games": 4
+        "win_rate": 66.7,
+        "games": 6
       },
       "second_turn": {
-        "win_rate": 100.0,
+        "win_rate": 80.0,
+        "games": 5
+      }
+    },
+    {
+      "detachment": "Veiled Blade Elimination Force",
+      "base_archetype": "Imperial Agents \u2014 Veiled Blade Elimination Force",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 25.0,
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 0.0,
         "games": 1
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 4
       }
     }
   ],
   "dispositions": [
     {
       "disposition": "Disruption",
-      "lists": 1,
-      "play_rate": 100.0,
-      "win_rate": 80.0,
-      "x0_pct": 0.0,
-      "x1_pct": 100.0,
-      "games": 5.0,
+      "lists": 3,
+      "play_rate": 75.0,
+      "win_rate": 72.7,
+      "x0_pct": 33.3,
+      "x1_pct": 33.3,
+      "games": 11.0,
       "first_turn": {
-        "win_rate": 75.0,
-        "games": 4
+        "win_rate": 66.7,
+        "games": 6
       },
       "second_turn": {
-        "win_rate": 100.0,
+        "win_rate": 80.0,
+        "games": 5
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "lists": 1,
+      "play_rate": 25.0,
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5.0,
+      "first_turn": {
+        "win_rate": 0.0,
         "games": 1
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 4
       }
     }
   ],
@@ -77,9 +113,48 @@
       "draws": 0,
       "games": 5,
       "win_rate": 80.0
+    },
+    {
+      "player_name": "Th\u00e9o Ozenda",
+      "detachment": "Imperialis Fleet",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/o9ykzRxSa93Z",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Nathan Schmidt",
+      "detachment": "Veiled Blade Elimination Force",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/rtgZBC8IzX3q",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
     }
   ],
-  "matchups": [],
+  "matchups": [
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 42.9,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
+    }
+  ],
   "timeline": [
     {
       "week": "2026-W26",
@@ -95,6 +170,22 @@
       "second_turn": {
         "win_rate": 100.0,
         "games": 1
+      }
+    },
+    {
+      "week": "2026-W27",
+      "lists": 3,
+      "games": 11,
+      "win_rate": 45.5,
+      "total_lists": 1274,
+      "play_rate": 0.2,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 8
       }
     }
   ]

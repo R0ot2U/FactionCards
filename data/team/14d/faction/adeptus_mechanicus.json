@@ -1,35 +1,54 @@
 {
   "faction": "Adeptus Mechanicus",
   "slug": "adeptus_mechanicus",
-  "as_of": "2026-07-12",
+  "as_of": "2026-07-13",
   "window_days": 14,
   "event_type": "team",
-  "lists": 4,
-  "games": 20,
-  "play_rate": 2.3,
-  "win_rate": 7.5,
-  "trend_delta": -35.5,
-  "top_detachment": "Cohort Cybernetica + Lords Of The Forge",
-  "ci_lower": 1.8,
+  "lists": 6,
+  "games": 30,
+  "play_rate": 1.9,
+  "win_rate": 25.0,
+  "trend_delta": -18.0,
+  "top_detachment": "Lords Of The Forge + Rad-Zone Corps",
+  "ci_lower": 13.0,
   "meta_health": "strongly_under",
-  "x0_pct": 0.0,
+  "x0_pct": 16.7,
   "x1_pct": 0.0,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 4.5,
-    "games": 11
+    "win_rate": 25.0,
+    "games": 14
   },
   "second_turn": {
-    "win_rate": 11.1,
-    "games": 9
+    "win_rate": 25.0,
+    "games": 16
   },
   "detachments": [
+    {
+      "detachment": "Lords Of The Forge + Rad-Zone Corps",
+      "base_archetype": "Adeptus Mechanicus \u2014 Lords Of The Forge + Rad-Zone Corps",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 33.3,
+      "win_rate": 55.0,
+      "x0_pct": 50.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 60.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 5
+      }
+    },
     {
       "detachment": "Cohort Cybernetica + Lords Of The Forge",
       "base_archetype": "Adeptus Mechanicus \u2014 Cohort Cybernetica + Lords Of The Forge",
       "lists": 2,
       "games": 10,
-      "play_rate": 50.0,
+      "play_rate": 33.3,
       "win_rate": 5.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -44,12 +63,12 @@
       }
     },
     {
-      "detachment": "Rad-Zone Corps",
-      "base_archetype": "Adeptus Mechanicus \u2014 Rad-Zone Corps",
+      "detachment": "Lords Of The Forge + Skitarii Hunter Cohort",
+      "base_archetype": "Adeptus Mechanicus \u2014 Lords Of The Forge + Skitarii Hunter Cohort",
       "lists": 1,
       "games": 5,
-      "play_rate": 25.0,
-      "win_rate": 10.0,
+      "play_rate": 16.7,
+      "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
@@ -58,8 +77,8 @@
         "games": 0
       },
       "second_turn": {
-        "win_rate": null,
-        "games": 0
+        "win_rate": 20.0,
+        "games": 5
       }
     },
     {
@@ -67,7 +86,7 @@
       "base_archetype": "Adeptus Mechanicus \u2014 Cohort Acquisitus + Explorator Maniple",
       "lists": 1,
       "games": 5,
-      "play_rate": 25.0,
+      "play_rate": 16.7,
       "win_rate": 10.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -85,25 +104,25 @@
   "dispositions": [
     {
       "disposition": "Priority Assets",
-      "lists": 2,
-      "play_rate": 50.0,
-      "win_rate": 10.0,
-      "x0_pct": 0.0,
+      "lists": 4,
+      "play_rate": 66.7,
+      "win_rate": 35.0,
+      "x0_pct": 25.0,
       "x1_pct": 0.0,
-      "games": 10.0,
+      "games": 20.0,
       "first_turn": {
-        "win_rate": 7.1,
-        "games": 7
+        "win_rate": 35.0,
+        "games": 10
       },
       "second_turn": {
-        "win_rate": 16.7,
-        "games": 3
+        "win_rate": 35.0,
+        "games": 10
       }
     },
     {
       "disposition": "Take and Hold",
       "lists": 1,
-      "play_rate": 25.0,
+      "play_rate": 16.7,
       "win_rate": 0.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -120,7 +139,7 @@
     {
       "disposition": "Reconnaissance",
       "lists": 1,
-      "play_rate": 25.0,
+      "play_rate": 16.7,
       "win_rate": 10.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -136,11 +155,51 @@
     }
   ],
   "disposition_matchups": [],
-  "disposition_cross": [],
+  "disposition_cross": [
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Take and Hold",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 40.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      }
+    }
+  ],
   "top_players": [
     {
+      "player_name": "Quentin Tridon",
+      "detachment": "Lords Of The Forge + Rad-Zone Corps",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/OKmORABmgzth",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Antoni Rivard",
+      "detachment": "Lords Of The Forge + Skitarii Hunter Cohort",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/OUzNOD3iZLRP",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
       "player_name": "Ian Crew",
-      "detachment": "Rad-Zone Corps",
+      "detachment": "Lords Of The Forge + Rad-Zone Corps",
       "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/aY6s903pD0GN",
       "source": "bcp",
@@ -187,22 +246,37 @@
       "win_rate": 0.0
     }
   ],
-  "matchups": [],
+  "matchups": [
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 33.3,
+      "first_turn": {
+        "win_rate": 25.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      }
+    }
+  ],
   "timeline": [
     {
       "week": "2026-W27",
-      "lists": 4,
-      "games": 20,
-      "win_rate": 7.5,
-      "total_lists": 176,
-      "play_rate": 2.3,
+      "lists": 6,
+      "games": 30,
+      "win_rate": 25.0,
+      "total_lists": 316,
+      "play_rate": 1.9,
       "first_turn": {
-        "win_rate": 4.5,
-        "games": 11
+        "win_rate": 25.0,
+        "games": 14
       },
       "second_turn": {
-        "win_rate": 11.1,
-        "games": 9
+        "win_rate": 25.0,
+        "games": 16
       }
     }
   ]

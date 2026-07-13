@@ -1,46 +1,65 @@
 {
   "faction": "Drukhari",
   "slug": "drukhari",
-  "as_of": "2026-07-12",
+  "as_of": "2026-07-13",
   "window_days": 7,
   "event_type": "team",
-  "lists": 4,
-  "games": 18,
-  "play_rate": 2.3,
-  "win_rate": 50.0,
+  "lists": 8,
+  "games": 33,
+  "play_rate": 2.5,
+  "win_rate": 48.5,
   "trend_delta": null,
   "top_detachment": "Exhibition Of Slaughter + Skysplinter Assault",
-  "ci_lower": 29.0,
+  "ci_lower": 32.5,
   "meta_health": "strongly_under",
-  "x0_pct": 0.0,
-  "x1_pct": 50.0,
+  "x0_pct": 12.5,
+  "x1_pct": 25.0,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 54.5,
-    "games": 11
+    "win_rate": 53.3,
+    "games": 15
   },
   "second_turn": {
-    "win_rate": 42.9,
-    "games": 7
+    "win_rate": 44.4,
+    "games": 18
   },
   "detachments": [
     {
       "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
       "base_archetype": "Drukhari \u2014 Exhibition Of Slaughter + Skysplinter Assault",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 25.0,
-      "win_rate": 80.0,
+      "lists": 3,
+      "games": 15,
+      "play_rate": 37.5,
+      "win_rate": 40.0,
       "x0_pct": 0.0,
-      "x1_pct": 100.0,
+      "x1_pct": 33.3,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 66.7,
-        "games": 3
+        "win_rate": 40.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 40.0,
+        "games": 10
+      }
+    },
+    {
+      "detachment": "Kabalite Agonysts + Skysplinter Assault",
+      "base_archetype": "Drukhari \u2014 Kabalite Agonysts + Skysplinter Assault",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 25.0,
+      "win_rate": 70.0,
+      "x0_pct": 50.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 57.1,
+        "games": 7
       },
       "second_turn": {
         "win_rate": 100.0,
-        "games": 2
+        "games": 3
       }
     },
     {
@@ -48,7 +67,7 @@
       "base_archetype": "Drukhari \u2014 Kabalite Cartel + Tools Of Torment",
       "lists": 1,
       "games": 5,
-      "play_rate": 25.0,
+      "play_rate": 12.5,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -61,52 +80,33 @@
         "win_rate": 0.0,
         "games": 3
       }
-    },
-    {
-      "detachment": "Kabalite Agonysts + Skysplinter Assault",
-      "base_archetype": "Drukhari \u2014 Kabalite Agonysts + Skysplinter Assault",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 25.0,
-      "win_rate": 40.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 40.0,
-        "games": 5
-      },
-      "second_turn": {
-        "win_rate": null,
-        "games": 0
-      }
     }
   ],
   "dispositions": [
     {
       "disposition": "Reconnaissance",
-      "lists": 2,
-      "play_rate": 50.0,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 50.0,
-      "games": 10.0,
+      "lists": 5,
+      "play_rate": 62.5,
+      "win_rate": 52.0,
+      "x0_pct": 20.0,
+      "x1_pct": 20.0,
+      "games": 25.0,
       "first_turn": {
         "win_rate": 50.0,
-        "games": 8
+        "games": 12
       },
       "second_turn": {
-        "win_rate": 100.0,
-        "games": 2
+        "win_rate": 53.8,
+        "games": 13
       }
     },
     {
       "disposition": "Disruption",
-      "lists": 2,
-      "play_rate": 50.0,
+      "lists": 3,
+      "play_rate": 37.5,
       "win_rate": 37.5,
       "x0_pct": 0.0,
-      "x1_pct": 50.0,
+      "x1_pct": 33.3,
       "games": 8.0,
       "first_turn": {
         "win_rate": 66.7,
@@ -119,8 +119,66 @@
     }
   ],
   "disposition_matchups": [],
-  "disposition_cross": [],
+  "disposition_cross": [
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Priority Assets",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 6
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Reconnaissance",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Take and Hold",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 20.0,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      }
+    }
+  ],
   "top_players": [
+    {
+      "player_name": "Jonathon Betteridge",
+      "detachment": "Kabalite Agonysts + Skysplinter Assault",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/31f9Hg7DS3pa",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
     {
       "player_name": "Jake Dinner",
       "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
@@ -146,6 +204,18 @@
       "win_rate": 66.7
     },
     {
+      "player_name": "Armon Pollack",
+      "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/0lyMx1CWvd2i",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
       "player_name": "Rainer Brandstaetter",
       "detachment": "Kabalite Agonysts + Skysplinter Assault",
       "disposition": "Reconnaissance",
@@ -168,24 +238,51 @@
       "draws": 0,
       "games": 5,
       "win_rate": 20.0
+    },
+    {
+      "player_name": "Gabriel Lamotte",
+      "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/x9O1iNqiT7SA",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 5,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 0.0
     }
   ],
-  "matchups": [],
+  "matchups": [
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
+    }
+  ],
   "timeline": [
     {
       "week": "2026-W27",
-      "lists": 4,
-      "games": 18,
-      "win_rate": 50.0,
-      "total_lists": 176,
-      "play_rate": 2.3,
+      "lists": 8,
+      "games": 33,
+      "win_rate": 48.5,
+      "total_lists": 316,
+      "play_rate": 2.5,
       "first_turn": {
-        "win_rate": 54.5,
-        "games": 11
+        "win_rate": 53.3,
+        "games": 15
       },
       "second_turn": {
-        "win_rate": 42.9,
-        "games": 7
+        "win_rate": 44.4,
+        "games": 18
       }
     }
   ]
