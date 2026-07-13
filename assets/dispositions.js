@@ -272,8 +272,8 @@ function renderTopArmiesDetachments() {
     // Link to faction page if this is an army
     let nameCell;
     if (currentArmiesDetachmentsMode === "armies" && r.faction) {
-      const factionSlug = r.faction.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-      const factionUrl = `/faction.html?faction=${encodeURIComponent(factionSlug)}`;
+      const factionSlug = r.faction.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
+      const factionUrl = `https://r0ot2u.github.io/FactionCards/faction.html?faction=${encodeURIComponent(factionSlug)}`;
       nameCell = `<a href="${factionUrl}" style="color:var(--text);">${name}</a>`;
     } else {
       nameCell = name;
