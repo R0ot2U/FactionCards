@@ -4,15 +4,15 @@
   "as_of": "2026-07-13",
   "window_days": 14,
   "event_type": "team",
-  "lists": 15,
+  "lists": 13,
   "games": 65,
-  "play_rate": 4.7,
+  "play_rate": 4.9,
   "win_rate": 56.2,
   "trend_delta": 17.2,
   "top_detachment": "Path Of The Outcast + Seer Council",
   "ci_lower": 44.1,
   "meta_health": "strongly_under",
-  "x0_pct": 13.3,
+  "x0_pct": 15.4,
   "x1_pct": 0.0,
   "tournament_wins": 0,
   "first_turn": {
@@ -29,7 +29,7 @@
       "base_archetype": "Aeldari \u2014 Path Of The Outcast + Seer Council",
       "lists": 5,
       "games": 25,
-      "play_rate": 33.3,
+      "play_rate": 38.5,
       "win_rate": 44.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -48,7 +48,7 @@
       "base_archetype": "Aeldari \u2014 Armoured Warhost + Seer Council",
       "lists": 3,
       "games": 15,
-      "play_rate": 20.0,
+      "play_rate": 23.1,
       "win_rate": 63.3,
       "x0_pct": 33.3,
       "x1_pct": 0.0,
@@ -63,30 +63,11 @@
       }
     },
     {
-      "detachment": "Path Of The Outcast + Windrider Host",
-      "base_archetype": "Aeldari \u2014 Path Of The Outcast + Windrider Host",
-      "lists": 2,
-      "games": 5,
-      "play_rate": 13.3,
-      "win_rate": 70.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 75.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 66.7,
-        "games": 3
-      }
-    },
-    {
       "detachment": "Armoured Warhost + Guardian Battlehost",
       "base_archetype": "Aeldari \u2014 Armoured Warhost + Guardian Battlehost",
       "lists": 2,
       "games": 10,
-      "play_rate": 13.3,
+      "play_rate": 15.4,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -101,11 +82,30 @@
       }
     },
     {
+      "detachment": "Path Of The Outcast + Windrider Host",
+      "base_archetype": "Aeldari \u2014 Path Of The Outcast + Windrider Host",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 7.7,
+      "win_rate": 70.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 75.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      }
+    },
+    {
       "detachment": "Armoured Warhost + Serpent's Brood",
       "base_archetype": "Aeldari \u2014 Armoured Warhost + Serpent's Brood",
       "lists": 1,
       "games": 5,
-      "play_rate": 6.7,
+      "play_rate": 7.7,
       "win_rate": 100.0,
       "x0_pct": 100.0,
       "x1_pct": 0.0,
@@ -124,7 +124,7 @@
       "base_archetype": "Aeldari \u2014 Aspect Host",
       "lists": 1,
       "games": 5,
-      "play_rate": 6.7,
+      "play_rate": 7.7,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -142,8 +142,8 @@
   "dispositions": [
     {
       "disposition": "Reconnaissance",
-      "lists": 9,
-      "play_rate": 60.0,
+      "lists": 8,
+      "play_rate": 61.5,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -160,7 +160,7 @@
     {
       "disposition": "Priority Assets",
       "lists": 2,
-      "play_rate": 13.3,
+      "play_rate": 15.4,
       "win_rate": 70.0,
       "x0_pct": 50.0,
       "x1_pct": 0.0,
@@ -175,26 +175,9 @@
       }
     },
     {
-      "disposition": "Disruption",
-      "lists": 2,
-      "play_rate": 13.3,
-      "win_rate": 50.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 5.0,
-      "first_turn": {
-        "win_rate": 25.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 66.7,
-        "games": 3
-      }
-    },
-    {
       "disposition": "Take and Hold",
       "lists": 1,
-      "play_rate": 6.7,
+      "play_rate": 7.7,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -211,7 +194,7 @@
     {
       "disposition": "Purge the Foe",
       "lists": 1,
-      "play_rate": 6.7,
+      "play_rate": 7.7,
       "win_rate": 100.0,
       "x0_pct": 100.0,
       "x1_pct": 0.0,
@@ -222,6 +205,23 @@
       },
       "second_turn": {
         "win_rate": 100.0,
+        "games": 3
+      }
+    },
+    {
+      "disposition": "Disruption",
+      "lists": 1,
+      "play_rate": 7.7,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5.0,
+      "first_turn": {
+        "win_rate": 25.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 66.7,
         "games": 3
       }
     }
@@ -551,11 +551,11 @@
   "timeline": [
     {
       "week": "2026-W27",
-      "lists": 15,
+      "lists": 13,
       "games": 65,
       "win_rate": 56.2,
-      "total_lists": 316,
-      "play_rate": 4.7,
+      "total_lists": 266,
+      "play_rate": 4.9,
       "first_turn": {
         "win_rate": 47.1,
         "games": 35

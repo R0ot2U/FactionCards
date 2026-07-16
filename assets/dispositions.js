@@ -8,6 +8,14 @@ const DISPOSITIONS = [
   "Reconnaissance",
 ];
 
+const DISPOSITION_COLORS = {
+  "Purge the Foe": "#e53935",      // red
+  "Take and Hold": "#4caf50",      // green
+  "Priority Assets": "#ffb300",    // amber
+  "Disruption": "#9c27b0",         // purple
+  "Reconnaissance": "#2196f3",     // blue
+};
+
 let allData = null;
 let manifest = {};
 let currentEventType = getEventType();
@@ -15,6 +23,7 @@ let currentWindow = getWindow();
 let currentDispositionTab = DISPOSITIONS[0];
 let currentArmiesDetachmentsMode = "armies";
 let currentTopSortBy = "win_rate";
+let currentFactionDispMode = "count";
 
 async function loadData(eventType, window) {
   const root = dataRoot(eventType, window);
@@ -54,6 +63,133 @@ function overviewByDisposition() {
   const list = (allData && allData.overview) || [];
   list.forEach(o => map.set(o.disposition, o));
   return map;
+}
+
+function pivotFactionDispositions() {
+  // Build { faction -> { disposition -> lists }, total }
+  if (!allData || !allData.top_armies) return [];
+
+  const factionData = new Map();
+
+  // Iterate top_armies[disposition] to collect per-faction counts
+  for (const [disp, factions] of Object.entries(allData.top_armies)) {
+    for (const f of factions) {
+      const faction = f.faction;
+      if (!faction) continue;
+      if (!factionData.has(faction)) {
+        factionData.set(faction, { dispositions: {}, total: 0 });
+      }
+      const entry = factionData.get(faction);
+      entry.dispositions[disp] = f.lists || 0;
+      entry.total += f.lists || 0;
+    }
+  }
+
+  // Convert to array and sort by total descending
+  return Array.from(factionData.entries())
+    .map(([faction, data]) => ({ faction, ...data }))
+    .sort((a, b) => b.total - a.total);
+}
+
+function renderFactionDispositionChart() {
+  if (typeof Plotly === "undefined") return;
+  const container = document.getElementById("chart-faction-disposition");
+  if (!container) return;
+
+  const factions = pivotFactionDispositions();
+  if (!factions.length) {
+    container.innerHTML = `<div class="empty">No faction disposition data.</div>`;
+    return;
+  }
+
+  const factionNames = factions.map(f => f.faction);
+  const isShare = currentFactionDispMode === "share";
+  const isMobile = window.innerWidth <= 600;
+
+  // Build one trace per disposition
+  const traces = DISPOSITIONS.map(disp => {
+    const values = factions.map(f => {
+      const count = f.dispositions[disp] || 0;
+      return isShare ? (count / f.total * 100) : count;
+    });
+
+    // Build text labels for each segment (show only if value >= threshold)
+    const textLabels = factions.map(f => {
+      const count = f.dispositions[disp] || 0;
+      if (count === 0) return "";
+
+      if (isShare) {
+        const pct = (count / f.total * 100);
+        // Only show if >= 3% to avoid cluttering tiny segments
+        return pct >= 3 ? `${pct.toFixed(0)}%` : "";
+      } else {
+        // Only show if >= 2 to avoid cluttering single-list segments
+        return count >= 2 ? count.toString() : "";
+      }
+    });
+
+    return {
+      type: "bar",
+      orientation: "h",
+      name: disp,
+      x: values,
+      y: factionNames,
+      text: textLabels,
+      textposition: "inside",
+      textangle: 0,
+      textfont: {
+        size: isMobile ? 10 : 11,
+        color: "#ffffff",
+        family: "Arial, sans-serif",
+        weight: "bold"
+      },
+      insidetextanchor: "middle",
+      marker: { color: DISPOSITION_COLORS[disp] || "#888" },
+      hovertemplate: isShare
+        ? `%{y} — ${disp}: %{x:.1f}%<extra></extra>`
+        : `%{y} — ${disp}: %{x}<extra></extra>`,
+    };
+  });
+
+  const height = Math.max(400, factionNames.length * 22);
+
+  // Build annotations showing total at end of each bar
+  const annotations = factions.map((f, i) => ({
+    x: isShare ? 100 : f.total,
+    y: f.faction,
+    text: `<b>${f.total}</b>`,
+    xanchor: "left",
+    yanchor: "middle",
+    xshift: 5,
+    showarrow: false,
+    font: { size: isMobile ? 9 : 10, color: "#eaeaea" },
+  }));
+
+  Plotly.react("chart-faction-disposition", traces, darkLayout({
+    barmode: "stack",
+    height: height,
+    margin: { t: 40, r: isMobile ? 60 : 80, b: 40, l: isMobile ? 120 : 180 },
+    xaxis: {
+      title: isShare ? "Share (%)" : "Lists",
+      gridcolor: "#2a2a4a",
+      zerolinecolor: "#2a2a4a",
+      range: isShare ? [0, 100] : undefined,
+    },
+    yaxis: {
+      autorange: "reversed",
+      tickfont: { size: isMobile ? 9 : 10 },
+    },
+    showlegend: true,
+    legend: {
+      orientation: isMobile ? "h" : "v",
+      x: isMobile ? 0 : 1.02,
+      y: isMobile ? -0.1 : 1,
+      xanchor: isMobile ? "left" : "left",
+      yanchor: isMobile ? "top" : "top",
+      font: { size: isMobile ? 9 : 10 },
+    },
+    annotations: annotations,
+  }), plotlyConfig());
 }
 
 function renderOverviewChart() {
@@ -304,6 +440,7 @@ function renderTopArmiesDetachments() {
 }
 
 function render() {
+  renderFactionDispositionChart();
   renderOverviewChart();
   renderMatchupHeatmap();
   renderMatchupTables();
@@ -336,6 +473,17 @@ function syncFilterButtons() {
 }
 
 function wireFilterButtons() {
+  // Wire faction disposition mode toggle
+  document.querySelectorAll("#faction-disp-mode-toggle .btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      currentFactionDispMode = btn.dataset.val;
+      document.querySelectorAll("#faction-disp-mode-toggle .btn").forEach(b => {
+        b.classList.toggle("active", b.dataset.val === currentFactionDispMode);
+      });
+      renderFactionDispositionChart();
+    });
+  });
+
   document.querySelectorAll("#window-btns .btn").forEach(btn => {
     btn.addEventListener("click", async () => {
       const newWindow = btn.dataset.val;

@@ -4,24 +4,24 @@
   "as_of": "2026-07-13",
   "window_days": 14,
   "event_type": "team",
-  "lists": 6,
-  "games": 28,
+  "lists": 5,
+  "games": 25,
   "play_rate": 1.9,
-  "win_rate": 28.6,
-  "trend_delta": -8.8,
+  "win_rate": 24.0,
+  "trend_delta": -13.4,
   "top_detachment": "No Detachment",
-  "ci_lower": 15.3,
+  "ci_lower": 11.5,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
   "x1_pct": 0.0,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 20.8,
-    "games": 12
+    "win_rate": 15.0,
+    "games": 10
   },
   "second_turn": {
-    "win_rate": 34.4,
-    "games": 16
+    "win_rate": 30.0,
+    "games": 15
   },
   "detachments": [
     {
@@ -29,7 +29,7 @@
       "base_archetype": "Chaos Knights \u2014 No Detachment",
       "lists": 2,
       "games": 10,
-      "play_rate": 33.3,
+      "play_rate": 40.0,
       "win_rate": 10.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -44,30 +44,11 @@
       }
     },
     {
-      "detachment": "Infernal Lance",
-      "base_archetype": "Chaos Knights \u2014 Infernal Lance",
-      "lists": 2,
-      "games": 8,
-      "play_rate": 33.3,
-      "win_rate": 62.5,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 33.3,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 80.0,
-        "games": 5
-      }
-    },
-    {
       "detachment": "Houndpack Lance + Iconoclast Fiefdom",
       "base_archetype": "Chaos Knights \u2014 Houndpack Lance + Iconoclast Fiefdom",
       "lists": 1,
       "games": 5,
-      "play_rate": 16.7,
+      "play_rate": 20.0,
       "win_rate": 10.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -86,7 +67,7 @@
       "base_archetype": "Chaos Knights \u2014 Helhunt Lance + Hunting Warpack",
       "lists": 1,
       "games": 5,
-      "play_rate": 16.7,
+      "play_rate": 20.0,
       "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -99,13 +80,32 @@
         "win_rate": 25.0,
         "games": 4
       }
+    },
+    {
+      "detachment": "Infernal Lance",
+      "base_archetype": "Chaos Knights \u2014 Infernal Lance",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 20.0,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      }
     }
   ],
   "dispositions": [
     {
       "disposition": "Reconnaissance",
       "lists": 3,
-      "play_rate": 50.0,
+      "play_rate": 60.0,
       "win_rate": 10.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -120,26 +120,9 @@
       }
     },
     {
-      "disposition": "Purge the Foe",
-      "lists": 2,
-      "play_rate": 33.3,
-      "win_rate": 62.5,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 8.0,
-      "first_turn": {
-        "win_rate": 33.3,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 80.0,
-        "games": 5
-      }
-    },
-    {
       "disposition": "Disruption",
       "lists": 1,
-      "play_rate": 16.7,
+      "play_rate": 20.0,
       "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -150,6 +133,23 @@
       },
       "second_turn": {
         "win_rate": 25.0,
+        "games": 4
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "lists": 1,
+      "play_rate": 20.0,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5.0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 75.0,
         "games": 4
       }
     }
@@ -173,18 +173,6 @@
     }
   ],
   "top_players": [
-    {
-      "player_name": "Ben Hocking",
-      "detachment": "Infernal Lance",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/66sxDBdW6fvU",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 1,
-      "draws": 0,
-      "games": 3,
-      "win_rate": 66.7
-    },
     {
       "player_name": "Thomas Anger",
       "detachment": "Infernal Lance",
@@ -248,20 +236,6 @@
   ],
   "matchups": [
     {
-      "opponent_faction": "Emperor's Children",
-      "games": 6,
-      "wins": 2,
-      "win_rate": 33.3,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 25.0,
-        "games": 4
-      }
-    },
-    {
       "opponent_faction": "Space Marines (Astartes)",
       "games": 6,
       "wins": 2,
@@ -293,18 +267,18 @@
   "timeline": [
     {
       "week": "2026-W27",
-      "lists": 6,
-      "games": 28,
-      "win_rate": 28.6,
-      "total_lists": 316,
+      "lists": 5,
+      "games": 25,
+      "win_rate": 24.0,
+      "total_lists": 266,
       "play_rate": 1.9,
       "first_turn": {
-        "win_rate": 20.8,
-        "games": 12
+        "win_rate": 15.0,
+        "games": 10
       },
       "second_turn": {
-        "win_rate": 34.4,
-        "games": 16
+        "win_rate": 30.0,
+        "games": 15
       }
     }
   ]

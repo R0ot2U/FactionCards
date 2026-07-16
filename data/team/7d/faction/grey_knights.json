@@ -4,7 +4,7 @@
   "as_of": "2026-07-13",
   "window_days": 7,
   "event_type": "team",
-  "lists": 12,
+  "lists": 10,
   "games": 50,
   "play_rate": 3.8,
   "win_rate": 54.0,
@@ -12,8 +12,8 @@
   "top_detachment": "Argent Assault + Banishers",
   "ci_lower": 40.4,
   "meta_health": "strongly_under",
-  "x0_pct": 8.3,
-  "x1_pct": 16.7,
+  "x0_pct": 10.0,
+  "x1_pct": 20.0,
   "tournament_wins": 0,
   "first_turn": {
     "win_rate": 60.5,
@@ -29,7 +29,7 @@
       "base_archetype": "Grey Knights \u2014 Argent Assault + Banishers",
       "lists": 6,
       "games": 30,
-      "play_rate": 50.0,
+      "play_rate": 60.0,
       "win_rate": 48.3,
       "x0_pct": 0.0,
       "x1_pct": 33.3,
@@ -48,7 +48,7 @@
       "base_archetype": "Grey Knights \u2014 Warpbane Task Force",
       "lists": 2,
       "games": 10,
-      "play_rate": 16.7,
+      "play_rate": 20.0,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -63,30 +63,11 @@
       }
     },
     {
-      "detachment": "Argent Assault + Brotherhood Strike",
-      "base_archetype": "Grey Knights \u2014 Argent Assault + Brotherhood Strike",
-      "lists": 2,
-      "games": 5,
-      "play_rate": 16.7,
-      "win_rate": 100.0,
-      "x0_pct": 100.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 100.0,
-        "games": 1
-      },
-      "second_turn": {
-        "win_rate": 100.0,
-        "games": 4
-      }
-    },
-    {
       "detachment": "Brotherhood Strike + Fires Of Purgation",
       "base_archetype": "Grey Knights \u2014 Brotherhood Strike + Fires Of Purgation",
       "lists": 1,
       "games": 5,
-      "play_rate": 8.3,
+      "play_rate": 10.0,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -99,16 +80,35 @@
         "win_rate": 50.0,
         "games": 3
       }
+    },
+    {
+      "detachment": "Argent Assault + Brotherhood Strike",
+      "base_archetype": "Grey Knights \u2014 Argent Assault + Brotherhood Strike",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 10.0,
+      "win_rate": 100.0,
+      "x0_pct": 100.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 4
+      }
     }
   ],
   "dispositions": [
     {
       "disposition": "Purge the Foe",
-      "lists": 8,
-      "play_rate": 66.7,
+      "lists": 7,
+      "play_rate": 70.0,
       "win_rate": 67.1,
-      "x0_pct": 12.5,
-      "x1_pct": 25.0,
+      "x0_pct": 14.3,
+      "x1_pct": 28.6,
       "games": 35.0,
       "first_turn": {
         "win_rate": 75.0,
@@ -122,7 +122,7 @@
     {
       "disposition": "Disruption",
       "lists": 3,
-      "play_rate": 25.0,
+      "play_rate": 30.0,
       "win_rate": 23.3,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -134,23 +134,6 @@
       "second_turn": {
         "win_rate": 25.0,
         "games": 10
-      }
-    },
-    {
-      "disposition": "Priority Assets",
-      "lists": 1,
-      "play_rate": 8.3,
-      "win_rate": 0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 0.0,
-      "first_turn": {
-        "win_rate": null,
-        "games": 0
-      },
-      "second_turn": {
-        "win_rate": null,
-        "games": 0
       }
     }
   ],
@@ -386,10 +369,10 @@
   "timeline": [
     {
       "week": "2026-W27",
-      "lists": 12,
+      "lists": 10,
       "games": 50,
       "win_rate": 54.0,
-      "total_lists": 316,
+      "total_lists": 266,
       "play_rate": 3.8,
       "first_turn": {
         "win_rate": 60.5,

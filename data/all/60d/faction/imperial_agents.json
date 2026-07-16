@@ -5,42 +5,42 @@
   "window_days": 60,
   "event_type": "all",
   "lists": 9,
-  "games": 31,
-  "play_rate": 0.2,
-  "win_rate": 43.5,
+  "games": 35,
+  "play_rate": 0.3,
+  "win_rate": 44.3,
   "trend_delta": null,
   "top_detachment": "Imperialis Fleet",
-  "ci_lower": 27.8,
+  "ci_lower": 29.2,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
   "x1_pct": 22.2,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 63.5,
-    "games": 26
+    "win_rate": 58.0,
+    "games": 25
   },
   "second_turn": {
-    "win_rate": 43.5,
-    "games": 23
+    "win_rate": 48.0,
+    "games": 25
   },
   "detachments": [
     {
       "detachment": "Imperialis Fleet",
       "base_archetype": "Imperial Agents \u2014 Imperialis Fleet",
       "lists": 5,
-      "games": 16,
+      "games": 20,
       "play_rate": 55.6,
-      "win_rate": 53.1,
+      "win_rate": 52.5,
       "x0_pct": 0.0,
       "x1_pct": 40.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 62.5,
+        "win_rate": 54.2,
         "games": 12
       },
       "second_turn": {
-        "win_rate": 61.1,
-        "games": 9
+        "win_rate": 65.4,
+        "games": 13
       }
     },
     {
@@ -106,17 +106,17 @@
       "disposition": "Disruption",
       "lists": 6,
       "play_rate": 66.7,
-      "win_rate": 53.1,
+      "win_rate": 52.5,
       "x0_pct": 0.0,
       "x1_pct": 33.3,
-      "games": 16.0,
+      "games": 20.0,
       "first_turn": {
-        "win_rate": 50.0,
+        "win_rate": 37.5,
         "games": 8
       },
       "second_turn": {
-        "win_rate": 56.2,
-        "games": 8
+        "win_rate": 62.5,
+        "games": 12
       }
     },
     {
@@ -154,21 +154,51 @@
       }
     }
   ],
-  "disposition_matchups": [],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 10,
+      "wins": 6,
+      "win_rate": 65.0,
+      "first_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 58.3,
+        "games": 6
+      }
+    }
+  ],
   "disposition_cross": [
     {
       "disposition": "Disruption",
-      "opponent_disposition": "Take and Hold",
-      "games": 5,
+      "opponent_disposition": "Reconnaissance",
+      "games": 6,
       "wins": 3,
-      "win_rate": 70.0,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      }
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Take and Hold",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 75.0,
       "first_turn": {
         "win_rate": 100.0,
         "games": 2
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 3
+        "win_rate": 62.5,
+        "games": 4
       }
     }
   ],
@@ -203,10 +233,10 @@
       "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/o9ykzRxSa93Z",
       "source": "bcp",
-      "wins": 3,
-      "losses": 2,
+      "wins": 6,
+      "losses": 4,
       "draws": 0,
-      "games": 5,
+      "games": 10,
       "win_rate": 60.0
     },
     {
@@ -273,16 +303,16 @@
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 12,
-      "wins": 3,
-      "win_rate": 29.2,
+      "games": 14,
+      "wins": 4,
+      "win_rate": 32.1,
       "first_turn": {
-        "win_rate": 35.7,
-        "games": 7
+        "win_rate": 31.2,
+        "games": 8
       },
       "second_turn": {
-        "win_rate": 20.0,
-        "games": 5
+        "win_rate": 33.3,
+        "games": 6
       }
     }
   ],
@@ -292,7 +322,7 @@
       "lists": 5,
       "games": 15,
       "win_rate": 30.0,
-      "total_lists": 1259,
+      "total_lists": 1176,
       "play_rate": 0.4,
       "first_turn": {
         "win_rate": 44.4,
@@ -308,7 +338,7 @@
       "lists": 1,
       "games": 5,
       "win_rate": 80.0,
-      "total_lists": 703,
+      "total_lists": 682,
       "play_rate": 0.1,
       "first_turn": {
         "win_rate": 75.0,
@@ -322,17 +352,17 @@
     {
       "week": "2026-W27",
       "lists": 3,
-      "games": 11,
-      "win_rate": 45.5,
-      "total_lists": 1590,
+      "games": 15,
+      "win_rate": 46.7,
+      "total_lists": 1314,
       "play_rate": 0.2,
       "first_turn": {
-        "win_rate": 33.3,
+        "win_rate": 0.0,
         "games": 3
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 8
+        "win_rate": 58.3,
+        "games": 12
       }
     }
   ]

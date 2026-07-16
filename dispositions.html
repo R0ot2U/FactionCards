@@ -50,6 +50,17 @@
   <div id="status" class="loading" style="display:none;">Loading data…</div>
 
   <div class="chart-wrap">
+    <div class="panel-title">Faction Disposition Mix <span class="panel-note">(list distribution across the 5 dispositions)</span></div>
+    <div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px;">
+      <div class="btn-group" id="faction-disp-mode-toggle" role="group" aria-label="Count or share">
+        <button class="btn active" data-val="count">Count</button>
+        <button class="btn" data-val="share">Share (%)</button>
+      </div>
+    </div>
+    <div id="chart-faction-disposition"></div>
+  </div>
+
+  <div class="chart-wrap">
     <div class="panel-title">Force Disposition Win Rate <span class="panel-note">(11th Edition · 5 canonical dispositions)</span></div>
     <div id="chart-disposition-overview"></div>
   </div>
