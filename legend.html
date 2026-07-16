@@ -128,6 +128,11 @@
     <p>The Dispositions page (11th Edition only) shows performance across the five canonical Force Dispositions: <strong>Purge the Foe</strong>, <strong>Take and Hold</strong>, <strong>Priority Assets</strong>, <strong>Disruption</strong>, and <strong>Reconnaissance</strong>. Force Dispositions determine which secondary objectives are available during games.</p>
     <div class="legend-grid">
       <div class="legend-card">
+        <div class="legend-term">Faction Disposition Mix</div>
+        <p>Stacked horizontal bar chart showing how each faction's lists distribute across the five dispositions. Each bar represents one faction, divided into colored segments for each disposition.</p>
+        <p class="legend-note"><strong>Count mode:</strong> Shows raw list counts per segment (e.g., "Tau: Purge 149, Recon 70"). <strong>Share mode:</strong> Shows percentages (e.g., "57%, 27%"). Numbers appear inside segments when large enough. Total list count shown at the end of each bar. Factions sorted by total list count (largest at top).</p>
+      </div>
+      <div class="legend-card">
         <div class="legend-term">Force Disposition Win Rate</div>
         <p>Overall win rate for all lists using each disposition. Shows which dispositions are performing best across the meta. Horizontal bar chart, sorted by play rate (most popular at top).</p>
       </div>
@@ -274,6 +279,7 @@
     <h2 class="legend-heading">Data Sources &amp; Caveats</h2>
     <ul class="legend-list">
       <li><strong>Sources:</strong> Best Coast Pairings (BCP) and New Recruit tournament platforms. Data covers GT-level and above events in the window.</li>
+      <li><strong>Event quality filtering:</strong> All data on this site is filtered to include only <strong>competitive-sized tournaments</strong>: events with <strong>20+ players</strong> AND <strong>5+ rounds</strong>. This ensures meaningful competitive context and reduces noise from small or casual events. Events below these thresholds are excluded from all statistics, win rates, matchup data, and meta trends across all pages and time windows.</li>
       <li><strong>Army list parsing:</strong> Player lists are parsed from BCP and New Recruit export formats. Faction and detachment are extracted from the list text, not the BCP roster (which can be inaccurate for some factions).</li>
       <li><strong>Sample sizes &amp; filters:</strong> Win rates for factions or detachments with small samples (&lt; 20 games) should be treated with caution. The following minimum thresholds are applied:
         <ul style="margin-top:0.5rem;">
