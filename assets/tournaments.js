@@ -186,7 +186,7 @@ function renderMap(events) {
   };
 
   const config = plotlyConfig({
-    scrollZoom: true,  // Only enabled on desktop via plotlyConfig()
+    // scrollZoom handled by plotlyConfig() mobile branch (false on mobile, false on desktop by default)
     toImageButtonOptions: {
       format: 'png',
       filename: 'tournament_locations',

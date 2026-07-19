@@ -296,11 +296,8 @@ tbody td { padding: 8px 10px; vertical-align: middle; }
   fill: var(--accent) !important;
 }
 
-/* Landing page bar charts — each lives in a ~50% column; give them generous height */
-#chart-play,
-#chart-wr {
-  height: clamp(360px, 40vw, 800px);
-}
+/* Landing page bar charts — height set by JS based on row count (mobile-aware) */
+/* Removed: height: clamp(360px, 40vw, 800px) — was overriding JS heights */
 
 /* Disposition charts default heights (mobile overrides below) */
 #chart-disposition-overview {
@@ -551,13 +548,14 @@ footer {
   .hero-stats { justify-content: flex-start; }
   .three-col { grid-template-columns: 1fr; }
 
-  /* Responsive chart heights — use viewport height for better mobile fit */
-  .chart-wrap [id^="chart-"],
-  .chart-wrap [id^="matchup-"] {
-    height: clamp(350px, 50vh, 600px) !important;
-  }
+  /* Tighter chart-wrap padding on mobile */
+  .chart-wrap { padding: 12px; }
 
-  /* Map specific height - larger for better geography visibility */
+  /* Let row-scaled charts grow tall on mobile — user scrolls the page.
+     JS now computes mobile-aware heights; don't override with !important.
+     No min-height needed — JS already sets appropriate heights. */
+
+  /* Keep fixed-aspect charts viewport-fit */
   .map-wrap #map-chart {
     min-height: 400px !important;
     height: clamp(400px, 50vh, 500px) !important;
@@ -565,7 +563,6 @@ footer {
 
   /* Charts that already use CSS classes */
   .chart-det-pie { height: clamp(320px, 45vh, 450px) !important; }
-  .chart-matchup { height: clamp(400px, 55vh, 550px) !important; }
   .chart-timeline { height: clamp(250px, 35vh, 350px) !important; }
 
   /* Force hide modebar on mobile - aggressive selectors to override Plotly inline styles */

@@ -184,7 +184,7 @@ function renderMap(events) {
   };
 
   const config = plotlyConfig({
-    scrollZoom: true,  // Only enabled on desktop via plotlyConfig()
+    // scrollZoom handled by plotlyConfig() mobile branch (false on mobile, false on desktop by default)
     toImageButtonOptions: {
       format: 'png',
       filename: 'tournament_locations',
@@ -461,8 +461,13 @@ function renderCharts() {
     wrTitleEl.innerHTML = `Win Rate %${turnLabel()} <span class="panel-note">(top 28)</span>`;
   }
 
+  // Mobile-aware sizing: bars need a taller per-row multiplier on narrow
+  // screens so the CSS height clamp (app.css) can't collapse them.
+  const isMobile = window.innerWidth <= 600;
+
   // Play rate bar — sorted by play rate desc
   const playRows = [...rows].sort((a, b) => b.play_rate - a.play_rate).slice(0, 28);
+  const playHeight = Math.max(isMobile ? 500 : 500, playRows.length * (isMobile ? 18 : 20));
   Plotly.react("chart-play", [{
     type: "bar",
     orientation: "h",
@@ -474,7 +479,8 @@ function renderCharts() {
     cliponaxis: false,
     hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
   }], darkLayout({
-    margin: { t: 20, r: 80, b: 30, l: 220 },
+    height: playHeight,
+    margin: { t: isMobile ? 20 : 40, r: isMobile ? 100 : 80, b: 40, l: isMobile ? 120 : 220 },
     yaxis: { tickfont: { size: 11 } }
   }), plotlyConfig());
 
@@ -484,6 +490,7 @@ function renderCharts() {
     const bWr = ftWinRate(b) ?? b.win_rate;
     return bWr - aWr;
   }).slice(0, 28);
+  const wrHeight = Math.max(isMobile ? 500 : 500, wrRows.length * (isMobile ? 18 : 20));
   Plotly.react("chart-wr", [{
     type: "bar",
     orientation: "h",
@@ -495,7 +502,8 @@ function renderCharts() {
     cliponaxis: false,
     hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
   }], darkLayout({
-    margin: { t: 20, r: 80, b: 30, l: 220 },
+    height: wrHeight,
+    margin: { t: isMobile ? 20 : 40, r: isMobile ? 100 : 80, b: 40, l: isMobile ? 120 : 220 },
     xaxis: { range: [0, 80], gridcolor: "#2a2a4a", zerolinecolor: "#2a2a4a" },
     yaxis: { tickfont: { size: 11 } },
     shapes: [{ type: "line", x0: 50, x1: 50, y0: -0.5, y1: wrRows.length - 0.5,
@@ -514,6 +522,7 @@ function renderCharts() {
     }
 
     const disps = manifest.dispositions;
+    const isMobile = window.innerWidth <= 600;
     Plotly.react("chart-disposition", [{
       type: "bar",
       orientation: "h",
@@ -529,7 +538,7 @@ function renderCharts() {
       cliponaxis: false,
       hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
     }], darkLayout({
-      margin: { t: 20, r: 120, b: 30, l: 200 },
+      margin: { t: isMobile ? 10 : 20, r: isMobile ? 100 : 120, b: 30, l: isMobile ? 120 : 200 },
       xaxis: { range: [0, 80], gridcolor: "#2a2a4a", zerolinecolor: "#2a2a4a" },
       yaxis: { tickfont: { size: 11 } },
       shapes: [{ type: "line", x0: 50, x1: 50, y0: -0.5, y1: disps.length - 0.5,

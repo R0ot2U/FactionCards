@@ -120,11 +120,11 @@ function renderFactionDispositionChart() {
 
       if (isShare) {
         const pct = (count / f.total * 100);
-        // Only show if >= 3% to avoid cluttering tiny segments
-        return pct >= 3 ? `${pct.toFixed(0)}%` : "";
+        // Lower threshold on mobile since bars are now taller
+        return pct >= (isMobile ? 2 : 3) ? `${pct.toFixed(0)}%` : "";
       } else {
-        // Only show if >= 2 to avoid cluttering single-list segments
-        return count >= 2 ? count.toString() : "";
+        // Show single-count segments on mobile now
+        return count >= (isMobile ? 1 : 2) ? count.toString() : "";
       }
     });
 
@@ -138,7 +138,7 @@ function renderFactionDispositionChart() {
       textposition: "inside",
       textangle: 0,
       textfont: {
-        size: isMobile ? 10 : 11,
+        size: isMobile ? 11 : 11,
         color: "#ffffff",
         family: "Arial, sans-serif",
         weight: "bold"
@@ -151,7 +151,7 @@ function renderFactionDispositionChart() {
     };
   });
 
-  const height = Math.max(400, factionNames.length * 22);
+  const height = Math.max(isMobile ? 500 : 400, factionNames.length * (isMobile ? 26 : 22));
 
   // Build annotations showing total at end of each bar
   const annotations = factions.map((f, i) => ({
@@ -168,7 +168,7 @@ function renderFactionDispositionChart() {
   Plotly.react("chart-faction-disposition", traces, darkLayout({
     barmode: "stack",
     height: height,
-    margin: { t: 40, r: isMobile ? 60 : 80, b: 40, l: isMobile ? 120 : 180 },
+    margin: { t: 40, r: isMobile ? 60 : 80, b: 40, l: isMobile ? 100 : 180 },
     xaxis: {
       title: isShare ? "Share (%)" : "Lists",
       gridcolor: "#2a2a4a",
@@ -218,7 +218,7 @@ function renderOverviewChart() {
     hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
   }], darkLayout({
     title: title,
-    margin: { t: 40, r: isMobile ? 50 : 120, b: 30, l: isMobile ? 150 : 200 },
+    margin: { t: 40, r: isMobile ? 50 : 120, b: 30, l: isMobile ? 120 : 200 },
     xaxis: { range: [0, 80], gridcolor: "#2a2a4a", zerolinecolor: "#2a2a4a" },
     yaxis: { tickfont: { size: 11 } },
     shapes: [{

@@ -1,65 +1,82 @@
 {
   "faction": "Dark Angels",
   "slug": "dark_angels",
-  "as_of": "2026-07-13",
+  "as_of": "2026-07-20",
   "window_days": 7,
   "event_type": "team",
-  "lists": 1,
-  "games": 5,
-  "play_rate": 0.4,
-  "win_rate": 70.0,
+  "lists": 2,
+  "games": 9,
+  "play_rate": 1.9,
+  "win_rate": 55.6,
   "trend_delta": null,
-  "top_detachment": "Company Of Hunters + Darkflight Pursuit",
-  "ci_lower": 29.9,
+  "top_detachment": "Wrath Of The Rock",
+  "ci_lower": 26.7,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
   "x1_pct": 0.0,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": null,
-    "games": 0
+    "win_rate": 0.0,
+    "games": 1
   },
   "second_turn": {
-    "win_rate": null,
-    "games": 0
+    "win_rate": 75.0,
+    "games": 4
   },
   "detachments": [
     {
-      "detachment": "Company Of Hunters + Darkflight Pursuit",
-      "base_archetype": "Dark Angels \u2014 Company Of Hunters + Darkflight Pursuit",
+      "detachment": "Wrath Of The Rock",
+      "base_archetype": "Dark Angels \u2014 Wrath Of The Rock",
       "lists": 1,
       "games": 5,
-      "play_rate": 100.0,
-      "win_rate": 70.0,
+      "play_rate": 50.0,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": null,
-        "games": 0
+        "win_rate": 0.0,
+        "games": 1
       },
       "second_turn": {
-        "win_rate": null,
-        "games": 0
+        "win_rate": 75.0,
+        "games": 4
       }
     }
   ],
   "dispositions": [
     {
-      "disposition": "Disruption",
+      "disposition": "Priority Assets",
       "lists": 1,
-      "play_rate": 100.0,
-      "win_rate": 70.0,
+      "play_rate": 50.0,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "games": 5.0,
       "first_turn": {
-        "win_rate": 100.0,
+        "win_rate": 0.0,
         "games": 1
       },
       "second_turn": {
-        "win_rate": 62.5,
+        "win_rate": 75.0,
         "games": 4
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "lists": 1,
+      "play_rate": 50.0,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 4.0,
+      "first_turn": {
+        "win_rate": 25.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 2
       }
     }
   ],
@@ -67,34 +84,46 @@
   "disposition_cross": [],
   "top_players": [
     {
-      "player_name": "Patrick Caic-Pr\u00f6ll",
-      "detachment": "Company Of Hunters + Darkflight Pursuit",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/97uV7AbWRhEu",
+      "player_name": "Tammy Lawn Stewart",
+      "detachment": "Wrath Of The Rock",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/AztQevakXh43",
       "source": "bcp",
       "wins": 3,
-      "losses": 1,
-      "draws": 1,
+      "losses": 2,
+      "draws": 0,
       "games": 5,
-      "win_rate": 70.0
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Michael Duff",
+      "detachment": "Company Of Hunters + Darkflight Pursuit",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/ivruFi9Iqlce",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 1,
+      "draws": 2,
+      "games": 4,
+      "win_rate": 50.0
     }
   ],
   "matchups": [],
   "timeline": [
     {
-      "week": "2026-W27",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 70.0,
-      "total_lists": 266,
-      "play_rate": 0.4,
+      "week": "2026-W28",
+      "lists": 2,
+      "games": 9,
+      "win_rate": 55.6,
+      "total_lists": 107,
+      "play_rate": 1.9,
       "first_turn": {
-        "win_rate": 100.0,
-        "games": 1
+        "win_rate": 16.7,
+        "games": 3
       },
       "second_turn": {
-        "win_rate": 62.5,
-        "games": 4
+        "win_rate": 75.0,
+        "games": 6
       }
     }
   ]

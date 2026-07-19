@@ -1,103 +1,65 @@
 {
   "faction": "Adeptus Custodes",
   "slug": "adeptus_custodes",
-  "as_of": "2026-07-13",
+  "as_of": "2026-07-20",
   "window_days": 7,
   "event_type": "team",
-  "lists": 14,
-  "games": 70,
-  "play_rate": 5.3,
-  "win_rate": 55.0,
-  "trend_delta": null,
+  "lists": 5,
+  "games": 25,
+  "play_rate": 4.7,
+  "win_rate": 56.0,
+  "trend_delta": 1.0,
   "top_detachment": "Lions Of The Emperor + Might Of The Moritoi",
-  "ci_lower": 43.4,
+  "ci_lower": 37.1,
   "meta_health": "strongly_under",
-  "x0_pct": 14.3,
-  "x1_pct": 14.3,
-  "tournament_wins": 1,
+  "x0_pct": 0.0,
+  "x1_pct": 0.0,
+  "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 51.4,
-    "games": 37
+    "win_rate": 58.3,
+    "games": 12
   },
   "second_turn": {
-    "win_rate": 59.1,
-    "games": 33
+    "win_rate": 58.3,
+    "games": 12
   },
   "detachments": [
     {
       "detachment": "Lions Of The Emperor + Might Of The Moritoi",
       "base_archetype": "Adeptus Custodes \u2014 Lions Of The Emperor + Might Of The Moritoi",
-      "lists": 8,
-      "games": 40,
-      "play_rate": 57.1,
-      "win_rate": 58.8,
-      "x0_pct": 12.5,
-      "x1_pct": 25.0,
-      "tournament_wins": 1,
+      "lists": 2,
+      "games": 10,
+      "play_rate": 40.0,
+      "win_rate": 55.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 54.3,
-        "games": 23
+        "win_rate": 66.7,
+        "games": 3
       },
       "second_turn": {
-        "win_rate": 64.7,
-        "games": 17
+        "win_rate": 50.0,
+        "games": 7
       }
     },
     {
       "detachment": "Lions Of The Emperor + Silent Hunters",
       "base_archetype": "Adeptus Custodes \u2014 Lions Of The Emperor + Silent Hunters",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 14.3,
-      "win_rate": 60.0,
-      "x0_pct": 50.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 30.0,
-        "games": 5
-      },
-      "second_turn": {
-        "win_rate": 90.0,
-        "games": 5
-      }
-    },
-    {
-      "detachment": "Shield Host + Tharanatoi Hammerblow",
-      "base_archetype": "Adeptus Custodes \u2014 Shield Host + Tharanatoi Hammerblow",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 14.3,
-      "win_rate": 40.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 25.0,
-        "games": 4
-      },
-      "second_turn": {
-        "win_rate": 50.0,
-        "games": 6
-      }
-    },
-    {
-      "detachment": "Talons Of The Emperor",
-      "base_archetype": "Adeptus Custodes \u2014 Talons Of The Emperor",
       "lists": 1,
       "games": 5,
-      "play_rate": 7.1,
-      "win_rate": 40.0,
+      "play_rate": 20.0,
+      "win_rate": 70.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 100.0,
-        "games": 2
+        "win_rate": 66.7,
+        "games": 3
       },
       "second_turn": {
-        "win_rate": 0.0,
-        "games": 3
+        "win_rate": 75.0,
+        "games": 2
       }
     },
     {
@@ -105,280 +67,108 @@
       "base_archetype": "Adeptus Custodes \u2014 Might Of The Moritoi + Shield Host",
       "lists": 1,
       "games": 5,
-      "play_rate": 7.1,
+      "play_rate": 20.0,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
+    },
+    {
+      "detachment": "Shield Host + Silent Hunters",
+      "base_archetype": "Adeptus Custodes \u2014 Shield Host + Silent Hunters",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 20.0,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 66.7,
-        "games": 3
-      },
-      "second_turn": {
         "win_rate": 50.0,
         "games": 2
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 3
       }
     }
   ],
   "dispositions": [
     {
       "disposition": "Purge the Foe",
-      "lists": 9,
-      "play_rate": 64.3,
-      "win_rate": 47.8,
-      "x0_pct": 0.0,
-      "x1_pct": 11.1,
-      "games": 45.0,
-      "first_turn": {
-        "win_rate": 38.6,
-        "games": 22
-      },
-      "second_turn": {
-        "win_rate": 56.5,
-        "games": 23
-      }
-    },
-    {
-      "disposition": "Disruption",
       "lists": 3,
-      "play_rate": 21.4,
-      "win_rate": 66.7,
-      "x0_pct": 33.3,
-      "x1_pct": 33.3,
-      "games": 15.0,
-      "first_turn": {
-        "win_rate": 62.5,
-        "games": 12
-      },
-      "second_turn": {
-        "win_rate": 83.3,
-        "games": 3
-      }
-    },
-    {
-      "disposition": "Reconnaissance",
-      "lists": 1,
-      "play_rate": 7.1,
-      "win_rate": 100.0,
-      "x0_pct": 100.0,
-      "x1_pct": 0.0,
-      "games": 5.0,
-      "first_turn": {
-        "win_rate": 100.0,
-        "games": 1
-      },
-      "second_turn": {
-        "win_rate": 100.0,
-        "games": 4
-      }
-    },
-    {
-      "disposition": "Take and Hold",
-      "lists": 1,
-      "play_rate": 7.1,
-      "win_rate": 40.0,
+      "play_rate": 60.0,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 5.0,
+      "games": 14.0,
       "first_turn": {
-        "win_rate": 100.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 0.0,
-        "games": 3
-      }
-    }
-  ],
-  "disposition_matchups": [
-    {
-      "opponent_disposition": "Take and Hold",
-      "games": 22,
-      "wins": 15,
-      "win_rate": 68.2,
-      "first_turn": {
-        "win_rate": 71.4,
+        "win_rate": 42.9,
         "games": 7
       },
       "second_turn": {
-        "win_rate": 66.7,
-        "games": 15
+        "win_rate": 57.1,
+        "games": 7
       }
     },
-    {
-      "opponent_disposition": "Purge the Foe",
-      "games": 18,
-      "wins": 7,
-      "win_rate": 38.9,
-      "first_turn": {
-        "win_rate": 37.5,
-        "games": 12
-      },
-      "second_turn": {
-        "win_rate": 41.7,
-        "games": 6
-      }
-    },
-    {
-      "opponent_disposition": "Disruption",
-      "games": 12,
-      "wins": 8,
-      "win_rate": 70.8,
-      "first_turn": {
-        "win_rate": 62.5,
-        "games": 8
-      },
-      "second_turn": {
-        "win_rate": 87.5,
-        "games": 4
-      }
-    },
-    {
-      "opponent_disposition": "Priority Assets",
-      "games": 10,
-      "wins": 6,
-      "win_rate": 65.0,
-      "first_turn": {
-        "win_rate": 58.3,
-        "games": 6
-      },
-      "second_turn": {
-        "win_rate": 75.0,
-        "games": 4
-      }
-    }
-  ],
-  "disposition_cross": [
     {
       "disposition": "Disruption",
-      "opponent_disposition": "Take and Hold",
-      "games": 5,
-      "wins": 5,
-      "win_rate": 100.0,
+      "lists": 2,
+      "play_rate": 40.0,
+      "win_rate": 70.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 10.0,
       "first_turn": {
-        "win_rate": 100.0,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 100.0,
-        "games": 2
-      }
-    },
-    {
-      "disposition": "Purge the Foe",
-      "opponent_disposition": "Take and Hold",
-      "games": 13,
-      "wins": 7,
-      "win_rate": 53.8,
-      "first_turn": {
-        "win_rate": 33.3,
-        "games": 3
+        "win_rate": 80.0,
+        "games": 5
       },
       "second_turn": {
         "win_rate": 60.0,
-        "games": 10
-      }
-    },
-    {
-      "disposition": "Purge the Foe",
-      "opponent_disposition": "Purge the Foe",
-      "games": 12,
-      "wins": 4,
-      "win_rate": 37.5,
-      "first_turn": {
-        "win_rate": 28.6,
-        "games": 7
-      },
-      "second_turn": {
-        "win_rate": 50.0,
         "games": 5
-      }
-    },
-    {
-      "disposition": "Purge the Foe",
-      "opponent_disposition": "Disruption",
-      "games": 8,
-      "wins": 4,
-      "win_rate": 56.2,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 6
-      },
-      "second_turn": {
-        "win_rate": 75.0,
-        "games": 2
-      }
-    },
-    {
-      "disposition": "Purge the Foe",
-      "opponent_disposition": "Priority Assets",
-      "games": 8,
-      "wins": 4,
-      "win_rate": 56.2,
-      "first_turn": {
-        "win_rate": 37.5,
-        "games": 4
-      },
-      "second_turn": {
-        "win_rate": 75.0,
-        "games": 4
       }
     }
   ],
+  "disposition_matchups": [],
+  "disposition_cross": [],
   "top_players": [
     {
-      "player_name": "Maxime Rampen",
+      "player_name": "Yilin Zhao",
       "detachment": "Lions Of The Emperor + Silent Hunters",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/3yBXJcrbcnAJ",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/mAjhPHOqimCt",
       "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
       "games": 5,
-      "win_rate": 100.0
+      "win_rate": 70.0
     },
     {
-      "player_name": "Thomas Cosgrove",
+      "player_name": "Matt van Wijk",
       "detachment": "Lions Of The Emperor + Might Of The Moritoi",
       "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/IVcDVXBPAf5x",
+      "list_url": "https://www.bestcoastpairings.com/list/btE1ozqkK6Q9",
       "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Sebastian Hebert",
-      "detachment": "Lions Of The Emperor + Might Of The Moritoi",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/t8rntEjny9Q1",
-      "source": "bcp",
-      "wins": 4,
+      "wins": 3,
       "losses": 1,
-      "draws": 0,
+      "draws": 1,
       "games": 5,
-      "win_rate": 80.0
+      "win_rate": 70.0
     },
     {
-      "player_name": "Matt McWatters",
-      "detachment": "Lions Of The Emperor + Might Of The Moritoi",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/YamnQNwX8I7T",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Gerhard Schwab",
-      "detachment": "Might Of The Moritoi + Shield Host",
+      "player_name": "Jez Morris",
+      "detachment": "Shield Host + Silent Hunters",
       "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/vfXYJwOigKsz",
+      "list_url": "https://www.bestcoastpairings.com/list/es9K0esbHIIH",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -387,173 +177,61 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Sabrina Savoie-Lapierre",
-      "detachment": "Lions Of The Emperor + Might Of The Moritoi",
+      "player_name": "Imam Asfi",
+      "detachment": "Might Of The Moritoi + Shield Host",
       "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/spo4WX8Llbz8",
+      "list_url": "https://www.bestcoastpairings.com/list/9j7h28gQYpm1",
       "source": "bcp",
       "wins": 2,
       "losses": 2,
-      "draws": 1,
-      "games": 5,
+      "draws": 0,
+      "games": 4,
       "win_rate": 50.0
     },
     {
-      "player_name": "Karl Sumner",
+      "player_name": "Corbyn Noble-May",
       "detachment": "Lions Of The Emperor + Might Of The Moritoi",
       "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/V08U2PPcfrlC",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "Luka Woodley",
-      "detachment": "Lions Of The Emperor + Might Of The Moritoi",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/RXQ7fDckLWBa",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "Jerad Berhow",
-      "detachment": "Shield Host + Tharanatoi Hammerblow",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/vP6TVsuBwsxZ",
+      "list_url": "https://www.bestcoastpairings.com/list/p9N7snwVixgd",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
       "draws": 0,
       "games": 5,
       "win_rate": 40.0
-    },
-    {
-      "player_name": "Lux Wohlers",
-      "detachment": "Lions Of The Emperor + Might Of The Moritoi",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/0UAezVq8dRHO",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Nicholas Connell",
-      "detachment": "Shield Host + Tharanatoi Hammerblow",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/VnAQxMDRL7IZ",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 2,
-      "draws": 2,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Norbert Klima",
-      "detachment": "Talons Of The Emperor",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/tduYlQ1t4FN4",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Nicholas Mazza",
-      "detachment": "Lions Of The Emperor + Might Of The Moritoi",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/Ojep4XoTdGOv",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 3,
-      "draws": 2,
-      "games": 5,
-      "win_rate": 20.0
-    },
-    {
-      "player_name": "James Kingsbury",
-      "detachment": "Lions Of The Emperor + Silent Hunters",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/2LYa5SWI7y7l",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 3,
-      "draws": 2,
-      "games": 5,
-      "win_rate": 20.0
     }
   ],
   "matchups": [
     {
-      "opponent_faction": "Space Marines (Astartes)",
-      "games": 9,
-      "wins": 6,
-      "win_rate": 66.7,
-      "first_turn": {
-        "win_rate": 80.0,
-        "games": 5
-      },
-      "second_turn": {
-        "win_rate": 50.0,
-        "games": 4
-      }
-    },
-    {
-      "opponent_faction": "Leagues of Votann",
-      "games": 6,
-      "wins": 4,
-      "win_rate": 66.7,
-      "first_turn": {
-        "win_rate": 60.0,
-        "games": 5
-      },
-      "second_turn": {
-        "win_rate": 100.0,
-        "games": 1
-      }
-    },
-    {
       "opponent_faction": "Necrons",
       "games": 5,
       "wins": 2,
-      "win_rate": 40.0,
+      "win_rate": 50.0,
       "first_turn": {
-        "win_rate": 0.0,
+        "win_rate": 50.0,
         "games": 2
       },
       "second_turn": {
-        "win_rate": 66.7,
+        "win_rate": 50.0,
         "games": 3
       }
     }
   ],
   "timeline": [
     {
-      "week": "2026-W27",
-      "lists": 14,
-      "games": 70,
-      "win_rate": 55.0,
-      "total_lists": 266,
-      "play_rate": 5.3,
+      "week": "2026-W28",
+      "lists": 5,
+      "games": 24,
+      "win_rate": 58.3,
+      "total_lists": 107,
+      "play_rate": 4.7,
       "first_turn": {
-        "win_rate": 51.4,
-        "games": 37
+        "win_rate": 58.3,
+        "games": 12
       },
       "second_turn": {
-        "win_rate": 59.1,
-        "games": 33
+        "win_rate": 58.3,
+        "games": 12
       }
     }
   ]

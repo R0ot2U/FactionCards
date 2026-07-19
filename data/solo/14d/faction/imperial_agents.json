@@ -1,46 +1,46 @@
 {
   "faction": "Imperial Agents",
   "slug": "imperial_agents",
-  "as_of": "2026-07-13",
+  "as_of": "2026-07-20",
   "window_days": 14,
   "event_type": "solo",
-  "lists": 4,
-  "games": 20,
-  "play_rate": 0.2,
-  "win_rate": 55.0,
-  "trend_delta": 15.0,
+  "lists": 6,
+  "games": 25,
+  "play_rate": 0.3,
+  "win_rate": 40.0,
+  "trend_delta": -13.3,
   "top_detachment": "Imperialis Fleet",
-  "ci_lower": 34.2,
+  "ci_lower": 23.4,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 25.0,
+  "x1_pct": 0.0,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 42.9,
+    "win_rate": 28.6,
     "games": 7
   },
   "second_turn": {
-    "win_rate": 61.5,
-    "games": 13
+    "win_rate": 47.1,
+    "games": 17
   },
   "detachments": [
     {
       "detachment": "Imperialis Fleet",
       "base_archetype": "Imperial Agents \u2014 Imperialis Fleet",
-      "lists": 3,
+      "lists": 4,
       "games": 15,
-      "play_rate": 75.0,
-      "win_rate": 66.7,
+      "play_rate": 66.7,
+      "win_rate": 46.7,
       "x0_pct": 0.0,
-      "x1_pct": 33.3,
+      "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 6
+        "win_rate": 0.0,
+        "games": 3
       },
       "second_turn": {
-        "win_rate": 77.8,
-        "games": 9
+        "win_rate": 63.6,
+        "games": 11
       }
     },
     {
@@ -48,7 +48,7 @@
       "base_archetype": "Imperial Agents \u2014 Veiled Blade Elimination Force",
       "lists": 1,
       "games": 5,
-      "play_rate": 25.0,
+      "play_rate": 16.7,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -61,30 +61,49 @@
         "win_rate": 25.0,
         "games": 4
       }
+    },
+    {
+      "detachment": "Ordo Hereticus + Purgation Force",
+      "base_archetype": "Imperial Agents \u2014 Ordo Hereticus + Purgation Force",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 16.7,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      }
     }
   ],
   "dispositions": [
     {
       "disposition": "Disruption",
-      "lists": 3,
-      "play_rate": 75.0,
-      "win_rate": 66.7,
+      "lists": 4,
+      "play_rate": 66.7,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
-      "x1_pct": 33.3,
-      "games": 15.0,
+      "x1_pct": 0.0,
+      "games": 14.0,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 6
+        "win_rate": 0.0,
+        "games": 3
       },
       "second_turn": {
-        "win_rate": 77.8,
-        "games": 9
+        "win_rate": 63.6,
+        "games": 11
       }
     },
     {
       "disposition": "Reconnaissance",
       "lists": 1,
-      "play_rate": 25.0,
+      "play_rate": 16.7,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -97,39 +116,28 @@
         "win_rate": 25.0,
         "games": 4
       }
-    }
-  ],
-  "disposition_matchups": [],
-  "disposition_cross": [
+    },
     {
-      "disposition": "Disruption",
-      "opponent_disposition": "Reconnaissance",
-      "games": 5,
-      "wins": 3,
-      "win_rate": 60.0,
+      "disposition": "Purge the Foe",
+      "lists": 1,
+      "play_rate": 16.7,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5.0,
       "first_turn": {
-        "win_rate": 33.3,
+        "win_rate": 66.7,
         "games": 3
       },
       "second_turn": {
-        "win_rate": 100.0,
+        "win_rate": 0.0,
         "games": 2
       }
     }
   ],
+  "disposition_matchups": [],
+  "disposition_cross": [],
   "top_players": [
-    {
-      "player_name": "Sam Young",
-      "detachment": "Imperialis Fleet",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/0F0TUwA0YASk",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
     {
       "player_name": "Th\u00e9o Ozenda",
       "detachment": "Imperialis Fleet",
@@ -141,6 +149,30 @@
       "draws": 0,
       "games": 10,
       "win_rate": 60.0
+    },
+    {
+      "player_name": "Tim \"Lord Sportsman\" Crowley",
+      "detachment": "Ordo Hereticus + Purgation Force",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/EdqzvREuynnd",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Arin Lavery",
+      "detachment": "Imperialis Fleet",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/BVUqSNXTWjNa",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 0,
+      "games": 4,
+      "win_rate": 25.0
     },
     {
       "player_name": "Nathan Schmidt",
@@ -159,35 +191,19 @@
     {
       "opponent_faction": "Space Marines (Astartes)",
       "games": 9,
-      "wins": 4,
-      "win_rate": 44.4,
+      "wins": 3,
+      "win_rate": 33.3,
       "first_turn": {
-        "win_rate": 40.0,
-        "games": 5
+        "win_rate": 0.0,
+        "games": 3
       },
       "second_turn": {
         "win_rate": 50.0,
-        "games": 4
+        "games": 6
       }
     }
   ],
   "timeline": [
-    {
-      "week": "2026-W26",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 80.0,
-      "total_lists": 682,
-      "play_rate": 0.1,
-      "first_turn": {
-        "win_rate": 75.0,
-        "games": 4
-      },
-      "second_turn": {
-        "win_rate": 100.0,
-        "games": 1
-      }
-    },
     {
       "week": "2026-W27",
       "lists": 3,
@@ -202,6 +218,22 @@
       "second_turn": {
         "win_rate": 58.3,
         "games": 12
+      }
+    },
+    {
+      "week": "2026-W28",
+      "lists": 3,
+      "games": 9,
+      "win_rate": 33.3,
+      "total_lists": 1072,
+      "play_rate": 0.3,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 20.0,
+        "games": 5
       }
     }
   ]

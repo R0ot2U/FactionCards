@@ -1,36 +1,36 @@
 {
   "faction": "Chaos Knights",
   "slug": "chaos_knights",
-  "as_of": "2026-07-13",
+  "as_of": "2026-07-20",
   "window_days": 7,
   "event_type": "team",
-  "lists": 5,
-  "games": 25,
+  "lists": 2,
+  "games": 10,
   "play_rate": 1.9,
-  "win_rate": 24.0,
-  "trend_delta": null,
-  "top_detachment": "No Detachment",
-  "ci_lower": 11.5,
+  "win_rate": 35.0,
+  "trend_delta": 11.0,
+  "top_detachment": "Helhunt Lance + Hunting Warpack",
+  "ci_lower": 13.7,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
   "x1_pct": 0.0,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 15.0,
-    "games": 10
+    "win_rate": 0.0,
+    "games": 1
   },
   "second_turn": {
-    "win_rate": 30.0,
-    "games": 15
+    "win_rate": 43.8,
+    "games": 8
   },
   "detachments": [
     {
-      "detachment": "No Detachment",
-      "base_archetype": "Chaos Knights \u2014 No Detachment",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 40.0,
-      "win_rate": 10.0,
+      "detachment": "Helhunt Lance + Hunting Warpack",
+      "base_archetype": "Chaos Knights \u2014 Helhunt Lance + Hunting Warpack",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 50.0,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
@@ -39,8 +39,8 @@
         "games": 0
       },
       "second_turn": {
-        "win_rate": null,
-        "games": 0
+        "win_rate": 60.0,
+        "games": 5
       }
     },
     {
@@ -48,136 +48,65 @@
       "base_archetype": "Chaos Knights \u2014 Houndpack Lance + Iconoclast Fiefdom",
       "lists": 1,
       "games": 5,
-      "play_rate": 20.0,
+      "play_rate": 50.0,
       "win_rate": 10.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
         "win_rate": 0.0,
-        "games": 2
+        "games": 1
       },
       "second_turn": {
         "win_rate": 16.7,
         "games": 3
       }
-    },
-    {
-      "detachment": "Helhunt Lance + Hunting Warpack",
-      "base_archetype": "Chaos Knights \u2014 Helhunt Lance + Hunting Warpack",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 20.0,
-      "win_rate": 30.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 1
-      },
-      "second_turn": {
-        "win_rate": 25.0,
-        "games": 4
-      }
-    },
-    {
-      "detachment": "Infernal Lance",
-      "base_archetype": "Chaos Knights \u2014 Infernal Lance",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 20.0,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 1
-      },
-      "second_turn": {
-        "win_rate": 75.0,
-        "games": 4
-      }
     }
   ],
   "dispositions": [
     {
-      "disposition": "Reconnaissance",
-      "lists": 3,
-      "play_rate": 60.0,
-      "win_rate": 10.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 15.0,
-      "first_turn": {
-        "win_rate": 12.5,
-        "games": 8
-      },
-      "second_turn": {
-        "win_rate": 7.1,
-        "games": 7
-      }
-    },
-    {
       "disposition": "Disruption",
       "lists": 1,
-      "play_rate": 20.0,
-      "win_rate": 30.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 5.0,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 1
-      },
-      "second_turn": {
-        "win_rate": 25.0,
-        "games": 4
-      }
-    },
-    {
-      "disposition": "Purge the Foe",
-      "lists": 1,
-      "play_rate": 20.0,
+      "play_rate": 50.0,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "games": 5.0,
       "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": 60.0,
+        "games": 5
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "lists": 1,
+      "play_rate": 50.0,
+      "win_rate": 12.5,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 4.0,
+      "first_turn": {
         "win_rate": 0.0,
         "games": 1
       },
       "second_turn": {
-        "win_rate": 75.0,
-        "games": 4
+        "win_rate": 16.7,
+        "games": 3
       }
     }
   ],
   "disposition_matchups": [],
-  "disposition_cross": [
-    {
-      "disposition": "Reconnaissance",
-      "opponent_disposition": "Take and Hold",
-      "games": 5,
-      "wins": 0,
-      "win_rate": 10.0,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 4
-      },
-      "second_turn": {
-        "win_rate": 50.0,
-        "games": 1
-      }
-    }
-  ],
+  "disposition_cross": [],
   "top_players": [
     {
-      "player_name": "Thomas Anger",
-      "detachment": "Infernal Lance",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/6vrFcOmdUiSK",
+      "player_name": "Lewis Fun-nell",
+      "detachment": "Helhunt Lance + Hunting Warpack",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/UKtppEhTN0xV",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -186,99 +115,34 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Finley Hitchings",
-      "detachment": "Helhunt Lance + Hunting Warpack",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/ajnXJvMgwPSk",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 2,
-      "draws": 3,
-      "games": 5,
-      "win_rate": 30.0
-    },
-    {
-      "player_name": "David Morales",
-      "detachment": "No Detachment",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/LORWi9iUFStI",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 4,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 20.0
-    },
-    {
-      "player_name": "Tony House-Corradine",
+      "player_name": "Keith Jones",
       "detachment": "Houndpack Lance + Iconoclast Fiefdom",
       "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/7ecPvoclUbuH",
+      "list_url": "https://www.bestcoastpairings.com/list/QagDlk9z7F9O",
       "source": "bcp",
       "wins": 0,
-      "losses": 4,
+      "losses": 3,
       "draws": 1,
-      "games": 5,
-      "win_rate": 10.0
-    },
-    {
-      "player_name": "Tristan Slimming",
-      "detachment": "No Detachment",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/Pjcs97odwWB7",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 5,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 0.0
+      "games": 4,
+      "win_rate": 12.5
     }
   ],
-  "matchups": [
-    {
-      "opponent_faction": "Space Marines (Astartes)",
-      "games": 6,
-      "wins": 2,
-      "win_rate": 33.3,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 66.7,
-        "games": 3
-      }
-    },
-    {
-      "opponent_faction": "Aeldari",
-      "games": 5,
-      "wins": 2,
-      "win_rate": 40.0,
-      "first_turn": {
-        "win_rate": 25.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 50.0,
-        "games": 3
-      }
-    }
-  ],
+  "matchups": [],
   "timeline": [
     {
-      "week": "2026-W27",
-      "lists": 5,
-      "games": 25,
-      "win_rate": 24.0,
-      "total_lists": 266,
+      "week": "2026-W28",
+      "lists": 2,
+      "games": 9,
+      "win_rate": 38.9,
+      "total_lists": 107,
       "play_rate": 1.9,
       "first_turn": {
-        "win_rate": 15.0,
-        "games": 10
+        "win_rate": 0.0,
+        "games": 1
       },
       "second_turn": {
-        "win_rate": 30.0,
-        "games": 15
+        "win_rate": 43.8,
+        "games": 8
       }
     }
   ]

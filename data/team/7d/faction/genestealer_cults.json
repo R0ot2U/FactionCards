@@ -1,101 +1,82 @@
 {
   "faction": "Genestealer Cults",
   "slug": "genestealer_cults",
-  "as_of": "2026-07-13",
+  "as_of": "2026-07-20",
   "window_days": 7,
   "event_type": "team",
   "lists": 2,
-  "games": 10,
-  "play_rate": 0.8,
-  "win_rate": 45.0,
-  "trend_delta": null,
-  "top_detachment": "Biosanctic Broodsurge + Xenocult Masses",
-  "ci_lower": 20.1,
+  "games": 9,
+  "play_rate": 1.9,
+  "win_rate": 72.2,
+  "trend_delta": 27.2,
+  "top_detachment": "Host Of Ascension",
+  "ci_lower": 40.2,
   "meta_health": "strongly_under",
-  "x0_pct": 0.0,
+  "x0_pct": 50.0,
   "x1_pct": 0.0,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 64.3,
-    "games": 7
+    "win_rate": 66.7,
+    "games": 3
   },
   "second_turn": {
-    "win_rate": 0.0,
-    "games": 3
+    "win_rate": 75.0,
+    "games": 6
   },
   "detachments": [
     {
-      "detachment": "Biosanctic Broodsurge + Xenocult Masses",
-      "base_archetype": "Genestealer Cults \u2014 Biosanctic Broodsurge + Xenocult Masses",
+      "detachment": "Host Of Ascension",
+      "base_archetype": "Genestealer Cults \u2014 Host Of Ascension",
       "lists": 1,
       "games": 5,
       "play_rate": 50.0,
-      "win_rate": 50.0,
-      "x0_pct": 0.0,
+      "win_rate": 100.0,
+      "x0_pct": 100.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 83.3,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 0.0,
+        "win_rate": 100.0,
         "games": 2
-      }
-    },
-    {
-      "detachment": "Outlander Claw + Purestrain Broodswarm",
-      "base_archetype": "Genestealer Cults \u2014 Outlander Claw + Purestrain Broodswarm",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 50.0,
-      "win_rate": 40.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 4
       },
       "second_turn": {
-        "win_rate": 0.0,
-        "games": 1
+        "win_rate": 100.0,
+        "games": 3
       }
     }
   ],
   "dispositions": [
     {
-      "disposition": "Take and Hold",
+      "disposition": "Disruption",
       "lists": 1,
       "play_rate": 50.0,
-      "win_rate": 50.0,
+      "win_rate": 37.5,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 5.0,
+      "games": 4.0,
       "first_turn": {
-        "win_rate": 83.3,
-        "games": 3
+        "win_rate": 0.0,
+        "games": 1
       },
       "second_turn": {
-        "win_rate": 0.0,
-        "games": 2
+        "win_rate": 50.0,
+        "games": 3
       }
     },
     {
-      "disposition": "Reconnaissance",
+      "disposition": "Take and Hold",
       "lists": 1,
       "play_rate": 50.0,
-      "win_rate": 40.0,
-      "x0_pct": 0.0,
+      "win_rate": 100.0,
+      "x0_pct": 100.0,
       "x1_pct": 0.0,
       "games": 5.0,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 4
+        "win_rate": 100.0,
+        "games": 2
       },
       "second_turn": {
-        "win_rate": 0.0,
-        "games": 1
+        "win_rate": 100.0,
+        "games": 3
       }
     }
   ],
@@ -103,46 +84,46 @@
   "disposition_cross": [],
   "top_players": [
     {
-      "player_name": "Chris Overstreet",
-      "detachment": "Biosanctic Broodsurge + Xenocult Masses",
+      "player_name": "Shane Meys",
+      "detachment": "Host Of Ascension",
       "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/vZ10ZNXbEldM",
+      "list_url": "https://www.bestcoastpairings.com/list/ZB1h7DNIEndi",
       "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "Devin Calpo",
-      "detachment": "Outlander Claw + Purestrain Broodswarm",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/li5aZ6Nh0wnm",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
+      "wins": 5,
+      "losses": 0,
       "draws": 0,
       "games": 5,
-      "win_rate": 40.0
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Matt Gill",
+      "detachment": "Heroes Of The Uprising + Purestrain Broodswarm + Xenocult Masses",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/QOB11ObuUltw",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 2,
+      "draws": 1,
+      "games": 4,
+      "win_rate": 37.5
     }
   ],
   "matchups": [],
   "timeline": [
     {
-      "week": "2026-W27",
+      "week": "2026-W28",
       "lists": 2,
-      "games": 10,
-      "win_rate": 45.0,
-      "total_lists": 266,
-      "play_rate": 0.8,
+      "games": 9,
+      "win_rate": 72.2,
+      "total_lists": 107,
+      "play_rate": 1.9,
       "first_turn": {
-        "win_rate": 64.3,
-        "games": 7
+        "win_rate": 66.7,
+        "games": 3
       },
       "second_turn": {
-        "win_rate": 0.0,
-        "games": 3
+        "win_rate": 75.0,
+        "games": 6
       }
     }
   ]

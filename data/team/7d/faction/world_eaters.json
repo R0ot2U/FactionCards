@@ -1,60 +1,41 @@
 {
   "faction": "World Eaters",
   "slug": "world_eaters",
-  "as_of": "2026-07-13",
+  "as_of": "2026-07-20",
   "window_days": 7,
   "event_type": "team",
-  "lists": 5,
-  "games": 25,
-  "play_rate": 1.9,
-  "win_rate": 20.0,
-  "trend_delta": null,
-  "top_detachment": "Berzerker Warband",
-  "ci_lower": 8.9,
+  "lists": 3,
+  "games": 14,
+  "play_rate": 2.8,
+  "win_rate": 28.6,
+  "trend_delta": 8.6,
+  "top_detachment": "Brazen Engines + Khorne Daemonkin",
+  "ci_lower": 11.7,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
   "x1_pct": 0.0,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 17.9,
-    "games": 14
+    "win_rate": 40.0,
+    "games": 10
   },
   "second_turn": {
-    "win_rate": 22.7,
-    "games": 11
+    "win_rate": 0.0,
+    "games": 4
   },
   "detachments": [
     {
-      "detachment": "Berzerker Warband",
-      "base_archetype": "World Eaters \u2014 Berzerker Warband",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 40.0,
+      "detachment": "Brazen Engines + Khorne Daemonkin",
+      "base_archetype": "World Eaters \u2014 Brazen Engines + Khorne Daemonkin",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 33.3,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 30.0,
-        "games": 5
-      },
-      "second_turn": {
         "win_rate": 50.0,
-        "games": 5
-      }
-    },
-    {
-      "detachment": "Butchers Of Khorne + Goretrack Onslaught",
-      "base_archetype": "World Eaters \u2014 Butchers Of Khorne + Goretrack Onslaught",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 20.0,
-      "win_rate": 10.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 12.5,
         "games": 4
       },
       "second_turn": {
@@ -63,90 +44,71 @@
       }
     },
     {
-      "detachment": "Goretrack Onslaught",
-      "base_archetype": "World Eaters \u2014 Goretrack Onslaught",
+      "detachment": "Butchers Of Khorne + Khorne Daemonkin",
+      "base_archetype": "World Eaters \u2014 Butchers Of Khorne + Khorne Daemonkin",
       "lists": 1,
       "games": 5,
-      "play_rate": 20.0,
-      "win_rate": 0.0,
+      "play_rate": 33.3,
+      "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 0.0,
+        "win_rate": 66.7,
         "games": 3
       },
       "second_turn": {
         "win_rate": 0.0,
         "games": 2
-      }
-    },
-    {
-      "detachment": "Butchers Of Khorne + Possessed Slaughterband",
-      "base_archetype": "World Eaters \u2014 Butchers Of Khorne + Possessed Slaughterband",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 20.0,
-      "win_rate": 10.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 25.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 0.0,
-        "games": 3
       }
     }
   ],
   "dispositions": [
     {
       "disposition": "Purge the Foe",
-      "lists": 3,
-      "play_rate": 60.0,
-      "win_rate": 30.0,
+      "lists": 2,
+      "play_rate": 66.7,
+      "win_rate": 22.2,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 15.0,
+      "games": 9.0,
       "first_turn": {
         "win_rate": 28.6,
         "games": 7
       },
       "second_turn": {
-        "win_rate": 31.2,
-        "games": 8
+        "win_rate": 0.0,
+        "games": 2
       }
     },
     {
-      "disposition": "Take and Hold",
-      "lists": 2,
-      "play_rate": 40.0,
-      "win_rate": 5.0,
+      "disposition": "Reconnaissance",
+      "lists": 1,
+      "play_rate": 33.3,
+      "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 10.0,
+      "games": 5.0,
       "first_turn": {
-        "win_rate": 7.1,
-        "games": 7
+        "win_rate": 66.7,
+        "games": 3
       },
       "second_turn": {
         "win_rate": 0.0,
-        "games": 3
+        "games": 2
       }
     }
   ],
   "disposition_matchups": [],
   "disposition_cross": [
     {
-      "disposition": "Take and Hold",
+      "disposition": "Purge the Foe",
       "opponent_disposition": "Purge the Foe",
       "games": 5,
-      "wins": 0,
-      "win_rate": 10.0,
+      "wins": 2,
+      "win_rate": 40.0,
       "first_turn": {
-        "win_rate": 12.5,
+        "win_rate": 50.0,
         "games": 4
       },
       "second_turn": {
@@ -157,82 +119,58 @@
   ],
   "top_players": [
     {
-      "player_name": "Vedran Krvavica",
-      "detachment": "Berzerker Warband",
+      "player_name": "Jack Mangin",
+      "detachment": "Brazen Engines + Khorne Daemonkin",
       "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/WESI4BpVbvFE",
+      "list_url": "https://www.bestcoastpairings.com/list/54prMQTKDFvW",
       "source": "bcp",
       "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "Jesse Linder",
-      "detachment": "Berzerker Warband",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/SAXhGNQyOiCj",
-      "source": "bcp",
-      "wins": 1,
       "losses": 3,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 30.0
-    },
-    {
-      "player_name": "Justin Gionet",
-      "detachment": "Butchers Of Khorne + Goretrack Onslaught",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/OOx569P7x5wN",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 4,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 10.0
-    },
-    {
-      "player_name": "Sebastian Gerik",
-      "detachment": "Butchers Of Khorne + Possessed Slaughterband",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/KVav3MdFZBWk",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 4,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 10.0
-    },
-    {
-      "player_name": "Will Dalkin",
-      "detachment": "Goretrack Onslaught",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/3uKb7DE4XZ9G",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 5,
       "draws": 0,
       "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Aaron Ewen",
+      "detachment": "Butchers Of Khorne + Khorne Daemonkin",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/GMB6nB7orHyy",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Jake Stapleton",
+      "detachment": "Berzerker Warband",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/Xm5w1nlf2IFi",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 4,
+      "draws": 0,
+      "games": 4,
       "win_rate": 0.0
     }
   ],
   "matchups": [],
   "timeline": [
     {
-      "week": "2026-W27",
-      "lists": 5,
-      "games": 25,
-      "win_rate": 20.0,
-      "total_lists": 266,
-      "play_rate": 1.9,
+      "week": "2026-W28",
+      "lists": 3,
+      "games": 14,
+      "win_rate": 28.6,
+      "total_lists": 107,
+      "play_rate": 2.8,
       "first_turn": {
-        "win_rate": 17.9,
-        "games": 14
+        "win_rate": 40.0,
+        "games": 10
       },
       "second_turn": {
-        "win_rate": 22.7,
-        "games": 11
+        "win_rate": 0.0,
+        "games": 4
       }
     }
   ]

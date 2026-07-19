@@ -562,6 +562,8 @@ function renderDetChart(dets) {
   const top = [...dets].sort((a, b) => b.play_rate - a.play_rate).slice(0, 15);
   const truncate = (s, max = 28) => s.length > max ? s.substring(0, max - 1) + '…' : s;
 
+  const isMobile = window.innerWidth <= 600;
+  const height = Math.max(isMobile ? 400 : 350, top.length * (isMobile ? 22 : 18));
   Plotly.react("chart-det", [{
     type: "bar",
     orientation: "h",
@@ -573,7 +575,8 @@ function renderDetChart(dets) {
     cliponaxis: false,
     hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
   }], darkLayout({
-    margin: { t: 20, r: 80, b: 30, l: 240 },
+    height: height,
+    margin: { t: 20, r: isMobile ? 80 : 80, b: 30, l: isMobile ? 120 : 240 },
     yaxis: { tickfont: { size: 11 } }
   }), plotlyConfig());
 }
@@ -581,6 +584,8 @@ function renderDetChart(dets) {
 function renderDispChart(disps) {
   if (typeof Plotly === "undefined" || !disps || !disps.length) return;
   const sorted = [...disps].sort((a, b) => b.play_rate - a.play_rate);
+  const isMobile = window.innerWidth <= 600;
+  const height = Math.max(isMobile ? 400 : 350, sorted.length * (isMobile ? 22 : 18));
   Plotly.react("chart-disp", [{
     type: "bar",
     orientation: "h",
@@ -592,7 +597,8 @@ function renderDispChart(disps) {
     cliponaxis: false,
     hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
   }], darkLayout({
-    margin: { t: 20, r: 80, b: 30, l: 200 },
+    height: height,
+    margin: { t: 20, r: isMobile ? 80 : 80, b: 30, l: isMobile ? 120 : 200 },
     yaxis: { tickfont: { size: 11 } }
   }), plotlyConfig());
 }
@@ -600,6 +606,8 @@ function renderDispChart(disps) {
 function renderDispMatchupChart(matchups) {
   if (typeof Plotly === "undefined" || !matchups || !matchups.length) return;
   const sorted = [...matchups].sort((a, b) => ftWinRate(b) - ftWinRate(a));
+  const isMobile = window.innerWidth <= 600;
+  const height = Math.max(isMobile ? 400 : 350, sorted.length * (isMobile ? 22 : 18));
   Plotly.react("chart-disp-matchup", [{
     type: "bar",
     orientation: "h",
@@ -614,7 +622,8 @@ function renderDispMatchupChart(matchups) {
     cliponaxis: false,
     hovertemplate: "vs %{y}: %{x:.1f}%<extra></extra>",
   }], darkLayout({
-    margin: { t: 20, r: 120, b: 30, l: 200 },
+    height: height,
+    margin: { t: 20, r: isMobile ? 100 : 120, b: 30, l: isMobile ? 120 : 200 },
     xaxis: {
       range: [0, 95],
       gridcolor: "#2a2a4a",
@@ -682,6 +691,8 @@ function dispCrossTables(cross) {
 function renderMatchupChart(matchups) {
   if (typeof Plotly === "undefined" || !matchups || !matchups.length) return;
   const sorted = [...matchups].sort((a, b) => ftWinRate(b) - ftWinRate(a));
+  const isMobile = window.innerWidth <= 600;
+  const height = Math.max(isMobile ? 400 : 350, sorted.length * (isMobile ? 22 : 18));
   Plotly.react("chart-matchup", [{
     type: "bar",
     orientation: "h",
@@ -696,7 +707,8 @@ function renderMatchupChart(matchups) {
     cliponaxis: false,
     hovertemplate: "vs %{y}: %{x:.1f}%<extra></extra>",
   }], darkLayout({
-    margin: { t: 20, r: 120, b: 30, l: 220 },
+    height: height,
+    margin: { t: 20, r: isMobile ? 100 : 120, b: 30, l: isMobile ? 120 : 220 },
     xaxis: {
       range: [0, 95],
       gridcolor: "#2a2a4a",
@@ -725,6 +737,8 @@ function renderDetPieChart(dets, metric = 'lists') {
     // Truncate long detachment names for display
     const truncate = (s, max = 28) => s.length > max ? s.substring(0, max - 1) + '…' : s;
 
+    const isMobile = window.innerWidth <= 600;
+    const height = Math.max(isMobile ? 400 : 350, top.length * (isMobile ? 22 : 18));
     Plotly.react("chart-det-pie", [{
       type: "bar",
       orientation: "h",
@@ -736,6 +750,7 @@ function renderDetPieChart(dets, metric = 'lists') {
       cliponaxis: false,
       hovertemplate: "%{y}: %{x:.1f}%<extra></extra>",
     }], darkLayout({
+      height: height,
       margin: { t: 20, r: 80, b: 30, l: 240 },
       xaxis: {
         range: [0, 95],
