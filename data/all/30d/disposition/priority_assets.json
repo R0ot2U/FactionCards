@@ -57,6 +57,14 @@
       "play_rate": 5.1
     },
     {
+      "faction": "Chaos Space Marines",
+      "lists": 42,
+      "games": 193,
+      "win_rate": 48.2,
+      "x0_pct": 2.4,
+      "play_rate": 4.9
+    },
+    {
       "faction": "Imperial Knights",
       "lists": 42,
       "games": 203,
@@ -69,14 +77,6 @@
       "lists": 41,
       "games": 184,
       "win_rate": 45.9,
-      "x0_pct": 2.4,
-      "play_rate": 4.8
-    },
-    {
-      "faction": "Chaos Space Marines",
-      "lists": 41,
-      "games": 188,
-      "win_rate": 48.7,
       "x0_pct": 2.4,
       "play_rate": 4.8
     },
@@ -177,14 +177,6 @@
       "play_rate": 1.4
     },
     {
-      "faction": "World Eaters",
-      "lists": 8,
-      "games": 39,
-      "win_rate": 38.5,
-      "x0_pct": 0.0,
-      "play_rate": 0.9
-    },
-    {
       "faction": "Orks",
       "lists": 7,
       "games": 33,
@@ -197,6 +189,14 @@
       "lists": 7,
       "games": 35,
       "win_rate": 35.7,
+      "x0_pct": 0.0,
+      "play_rate": 0.8
+    },
+    {
+      "faction": "World Eaters",
+      "lists": 7,
+      "games": 34,
+      "win_rate": 39.7,
       "x0_pct": 0.0,
       "play_rate": 0.8
     },
@@ -227,18 +227,18 @@
   ],
   "detachments": [
     {
+      "base_archetype": "Space Marines (Astartes) \u2014 Blade Of Ultramar",
+      "lists": 58,
+      "games": 276,
+      "win_rate": 55.3,
+      "x0_pct": 5.2
+    },
+    {
       "base_archetype": "Astra Militarum \u2014 Grizzled Company",
       "lists": 48,
       "games": 233,
       "win_rate": 39.9,
       "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Space Marines (Astartes) \u2014 Blade Of Ultramar",
-      "lists": 41,
-      "games": 200,
-      "win_rate": 58.5,
-      "x0_pct": 7.3
     },
     {
       "base_archetype": "Thousand Sons \u2014 Hexwarp Thrallband + Sekhetar Cohort",
@@ -276,17 +276,24 @@
       "x0_pct": 11.5
     },
     {
+      "base_archetype": "Imperial Knights \u2014 Dominus Foebreakers + Gate Warden Lance",
+      "lists": 23,
+      "games": 109,
+      "win_rate": 61.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Dark Angels \u2014 Wrath Of The Rock",
+      "lists": 23,
+      "games": 100,
+      "win_rate": 45.0,
+      "x0_pct": 4.3
+    },
+    {
       "base_archetype": "Tyranids \u2014 Assimilation Swarm + Talons Of The Norn Queen",
       "lists": 22,
       "games": 109,
       "win_rate": 48.6,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Imperial Knights \u2014 Dominus Foebreakers + Gate Warden Lance",
-      "lists": 22,
-      "games": 104,
-      "win_rate": 60.1,
       "x0_pct": 0.0
     },
     {
@@ -304,13 +311,6 @@
       "x0_pct": 5.0
     },
     {
-      "base_archetype": "Space Marines (Astartes) \u2014 Blade of Ultramar",
-      "lists": 19,
-      "games": 85,
-      "win_rate": 47.6,
-      "x0_pct": 0.0
-    },
-    {
       "base_archetype": "Adeptus Mechanicus \u2014 Cohort Cybernetica + Lords Of The Forge",
       "lists": 18,
       "games": 86,
@@ -323,6 +323,13 @@
       "games": 78,
       "win_rate": 50.6,
       "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Adeptus Mechanicus \u2014 Lords Of The Forge + Rad-Zone Corps",
+      "lists": 15,
+      "games": 72,
+      "win_rate": 54.2,
+      "x0_pct": 13.3
     },
     {
       "base_archetype": "Space Marines (Astartes) \u2014 Gladius Task Force",
@@ -360,13 +367,6 @@
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Dark Angels \u2014 Wrath of the Rock",
-      "lists": 13,
-      "games": 55,
-      "win_rate": 40.9,
-      "x0_pct": 0.0
-    },
-    {
       "base_archetype": "T'au Empire \u2014 Experimental Prototype Cadre + Kauyon",
       "lists": 12,
       "games": 57,
@@ -381,25 +381,11 @@
       "x0_pct": 8.3
     },
     {
-      "base_archetype": "Adeptus Mechanicus \u2014 Lords Of The Forge + Rad-Zone Corps",
-      "lists": 12,
-      "games": 58,
-      "win_rate": 53.4,
-      "x0_pct": 16.7
-    },
-    {
       "base_archetype": "Space Marines (Astartes) \u2014 No Detachment",
       "lists": 12,
       "games": 60,
       "win_rate": 40.8,
       "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Dark Angels \u2014 Wrath Of The Rock",
-      "lists": 12,
-      "games": 55,
-      "win_rate": 50.0,
-      "x0_pct": 8.3
     },
     {
       "base_archetype": "Death Guard \u2014 Champions Of Contagion + Paragons Of Putrescence",
@@ -479,6 +465,13 @@
       "x0_pct": 50.0
     },
     {
+      "base_archetype": "T'au Empire \u2014 No Detachment",
+      "lists": 6,
+      "games": 30,
+      "win_rate": 50.0,
+      "x0_pct": 0.0
+    },
+    {
       "base_archetype": "T'au Empire \u2014 Experimental Prototype Cadre + Kroot Hunting Pack",
       "lists": 6,
       "games": 30,
@@ -507,18 +500,18 @@
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "T'au Empire \u2014 No Detachment",
-      "lists": 5,
-      "games": 25,
-      "win_rate": 48.0,
-      "x0_pct": 0.0
-    },
-    {
       "base_archetype": "Blood Angels \u2014 Bastion Task Force + Legacy Of Grace",
       "lists": 5,
       "games": 25,
       "win_rate": 64.0,
       "x0_pct": 20.0
+    },
+    {
+      "base_archetype": "Thousand Sons \u2014 No Detachment",
+      "lists": 5,
+      "games": 24,
+      "win_rate": 45.8,
+      "x0_pct": 0.0
     },
     {
       "base_archetype": "World Eaters \u2014 Goretrack Onslaught + Vessels Of Wrath",
@@ -570,13 +563,6 @@
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Thousand Sons \u2014 No Detachment",
-      "lists": 4,
-      "games": 20,
-      "win_rate": 47.5,
-      "x0_pct": 0.0
-    },
-    {
       "base_archetype": "Necrons \u2014 Cryptek Conclave + Hand Of The Dynasty",
       "lists": 4,
       "games": 20,
@@ -588,13 +574,6 @@
       "lists": 4,
       "games": 20,
       "win_rate": 45.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Adeptus Mechanicus \u2014 Rad-Zone Corps",
-      "lists": 4,
-      "games": 19,
-      "win_rate": 52.6,
       "x0_pct": 0.0
     },
     {
@@ -731,17 +710,17 @@
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Imperial Knights \u2014 Gate Warden Lance",
-      "lists": 2,
-      "games": 10,
-      "win_rate": 75.0,
-      "x0_pct": 0.0
-    },
-    {
       "base_archetype": "Black Templars \u2014 Gladius Task Force",
       "lists": 2,
       "games": 10,
       "win_rate": 30.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Aeldari \u2014 No Detachment",
+      "lists": 2,
+      "games": 10,
+      "win_rate": 40.0,
       "x0_pct": 0.0
     },
     {
@@ -759,10 +738,24 @@
       "x0_pct": 0.0
     },
     {
+      "base_archetype": "Space Marines (Astartes) \u2014 Blade of Ultramar",
+      "lists": 2,
+      "games": 9,
+      "win_rate": 55.6,
+      "x0_pct": 0.0
+    },
+    {
       "base_archetype": "Imperial Knights \u2014 Gate Warden Lance + Questor Forgepact",
       "lists": 2,
       "games": 10,
       "win_rate": 55.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Dark Angels \u2014 Wrath of the Rock",
+      "lists": 2,
+      "games": 10,
+      "win_rate": 50.0,
       "x0_pct": 0.0
     },
     {
@@ -927,14 +920,14 @@
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Necrons \u2014 Cryptek Conclave",
+      "base_archetype": "Imperial Knights \u2014 Gate Warden Lance",
       "lists": 1,
       "games": 5,
-      "win_rate": 40.0,
+      "win_rate": 70.0,
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Aeldari \u2014 No Detachment",
+      "base_archetype": "Necrons \u2014 Cryptek Conclave",
       "lists": 1,
       "games": 5,
       "win_rate": 40.0,
@@ -1263,6 +1256,13 @@
       "x0_pct": 0.0
     },
     {
+      "base_archetype": "Adeptus Mechanicus \u2014 Rad-Zone Corps",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 40.0,
+      "x0_pct": 0.0
+    },
+    {
       "base_archetype": "Space Marines (Astartes) \u2014 Emperor's Shield + Fulguris Task Force",
       "lists": 1,
       "games": 5,
@@ -1305,7 +1305,7 @@
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Chaos Knights \u2014 Traitoris Lance",
+      "base_archetype": "Chaos Knights \u2014 Hunting Warpack + Traitoris Lance",
       "lists": 1,
       "games": 3,
       "win_rate": 33.3,
@@ -1354,7 +1354,7 @@
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "World Eaters \u2014 Brazen Engines + Butchers Of Khorne + and Vessels of Wrath",
+      "base_archetype": "Chaos Space Marines \u2014 Brazen Engines + Butchers Of Khorne + and Vessels of Wrath",
       "lists": 1,
       "games": 5,
       "win_rate": 30.0,
