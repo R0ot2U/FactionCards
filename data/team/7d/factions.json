@@ -2,20 +2,342 @@
   {
     "faction": "Necrons",
     "slug": "necrons",
-    "lists": 9,
-    "games": 42,
+    "lists": 14,
+    "games": 70,
     "play_rate": 8.4,
-    "win_rate": 61.9,
-    "trend_delta": 5.2,
-    "top_detachment": "Cursed Legion",
+    "win_rate": 55.7,
+    "trend_delta": -1.0,
+    "top_detachment": "Hand Of The Dynasty + Hypercrypt Legion",
     "top_disposition": "Purge the Foe",
-    "ci_lower": 46.8,
-    "x0_pct": 11.1,
-    "x1_pct": 11.1,
+    "ci_lower": 44.1,
+    "x0_pct": 7.1,
+    "x1_pct": 7.1,
     "tournament_wins": 1,
     "first_turn": {
+      "win_rate": 59.4,
+      "games": 48
+    },
+    "second_turn": {
+      "win_rate": 47.7,
+      "games": 22
+    }
+  },
+  {
+    "faction": "Orks",
+    "slug": "orks",
+    "lists": 13,
+    "games": 65,
+    "play_rate": 7.8,
+    "win_rate": 70.8,
+    "trend_delta": 17.9,
+    "top_detachment": "Green Tide + Taktikal Brigade",
+    "top_disposition": "Take and Hold",
+    "ci_lower": 58.8,
+    "x0_pct": 0.0,
+    "x1_pct": 0.0,
+    "tournament_wins": 2,
+    "first_turn": {
+      "win_rate": 82.8,
+      "games": 29
+    },
+    "second_turn": {
+      "win_rate": 61.1,
+      "games": 36
+    }
+  },
+  {
+    "faction": "Tyranids",
+    "slug": "tyranids",
+    "lists": 12,
+    "games": 60,
+    "play_rate": 7.2,
+    "win_rate": 55.0,
+    "trend_delta": -1.2,
+    "top_detachment": "Ambush Predators + Vanguard Onslaught",
+    "top_disposition": "Reconnaissance",
+    "ci_lower": 42.5,
+    "x0_pct": 0.0,
+    "x1_pct": 8.3,
+    "tournament_wins": 0,
+    "first_turn": {
+      "win_rate": 58.7,
+      "games": 23
+    },
+    "second_turn": {
+      "win_rate": 52.7,
+      "games": 37
+    }
+  },
+  {
+    "faction": "Imperial Knights",
+    "slug": "imperial_knights",
+    "lists": 10,
+    "games": 50,
+    "play_rate": 6.0,
+    "win_rate": 54.0,
+    "trend_delta": -1.0,
+    "top_detachment": "Dominus Foebreakers + Valourstrike Lance",
+    "top_disposition": "Purge the Foe",
+    "ci_lower": 40.4,
+    "x0_pct": 0.0,
+    "x1_pct": 0.0,
+    "tournament_wins": 0,
+    "first_turn": {
+      "win_rate": 57.4,
+      "games": 27
+    },
+    "second_turn": {
+      "win_rate": 50.0,
+      "games": 23
+    }
+  },
+  {
+    "faction": "T'au Empire",
+    "slug": "t_au_empire",
+    "lists": 9,
+    "games": 45,
+    "play_rate": 5.4,
+    "win_rate": 44.4,
+    "trend_delta": -9.5,
+    "top_detachment": "Mont'ka",
+    "top_disposition": "Purge the Foe",
+    "ci_lower": 30.9,
+    "x0_pct": 0.0,
+    "x1_pct": 0.0,
+    "tournament_wins": 0,
+    "first_turn": {
+      "win_rate": 36.8,
+      "games": 19
+    },
+    "second_turn": {
+      "win_rate": 50.0,
+      "games": 26
+    }
+  },
+  {
+    "faction": "Chaos Daemons",
+    "slug": "chaos_daemons",
+    "lists": 9,
+    "games": 45,
+    "play_rate": 5.4,
+    "win_rate": 43.3,
+    "trend_delta": -18.4,
+    "top_detachment": "Scintillating Legion + Warptide",
+    "top_disposition": "Priority Assets",
+    "ci_lower": 30.0,
+    "x0_pct": 0.0,
+    "x1_pct": 0.0,
+    "tournament_wins": 0,
+    "first_turn": {
+      "win_rate": 56.5,
+      "games": 23
+    },
+    "second_turn": {
+      "win_rate": 29.5,
+      "games": 22
+    }
+  },
+  {
+    "faction": "Thousand Sons",
+    "slug": "thousand_sons",
+    "lists": 9,
+    "games": 44,
+    "play_rate": 5.4,
+    "win_rate": 62.5,
+    "trend_delta": 5.6,
+    "top_detachment": "Hexwarp Thrallband + Sekhetar Cohort",
+    "top_disposition": "Priority Assets",
+    "ci_lower": 47.7,
+    "x0_pct": 0.0,
+    "x1_pct": 11.1,
+    "tournament_wins": 0,
+    "first_turn": {
+      "win_rate": 73.5,
+      "games": 17
+    },
+    "second_turn": {
+      "win_rate": 55.6,
+      "games": 27
+    }
+  },
+  {
+    "faction": "Space Marines (Astartes)",
+    "slug": "space_marines_astartes",
+    "lists": 8,
+    "games": 40,
+    "play_rate": 4.8,
+    "win_rate": 61.3,
+    "trend_delta": 11.0,
+    "top_detachment": "Forgefather's Seekers + Librarius Conclave",
+    "top_disposition": "Priority Assets",
+    "ci_lower": 45.8,
+    "x0_pct": 12.5,
+    "x1_pct": 12.5,
+    "tournament_wins": 1,
+    "first_turn": {
+      "win_rate": 55.6,
+      "games": 27
+    },
+    "second_turn": {
+      "win_rate": 65.8,
+      "games": 38
+    }
+  },
+  {
+    "faction": "Emperor's Children",
+    "slug": "emperor_s_children",
+    "lists": 8,
+    "games": 40,
+    "play_rate": 4.8,
+    "win_rate": 37.5,
+    "trend_delta": -15.1,
+    "top_detachment": "Coterie Of The Conceited",
+    "top_disposition": "Purge the Foe",
+    "ci_lower": 24.2,
+    "x0_pct": 0.0,
+    "x1_pct": 0.0,
+    "tournament_wins": 0,
+    "first_turn": {
+      "win_rate": 30.0,
+      "games": 20
+    },
+    "second_turn": {
+      "win_rate": 45.0,
+      "games": 20
+    }
+  },
+  {
+    "faction": "Adeptus Custodes",
+    "slug": "adeptus_custodes",
+    "lists": 7,
+    "games": 35,
+    "play_rate": 4.2,
+    "win_rate": 51.4,
+    "trend_delta": -3.6,
+    "top_detachment": "Lions Of The Emperor + Might Of The Moritoi",
+    "top_disposition": "Purge the Foe",
+    "ci_lower": 35.6,
+    "x0_pct": 0.0,
+    "x1_pct": 0.0,
+    "tournament_wins": 0,
+    "first_turn": {
+      "win_rate": 58.8,
+      "games": 17
+    },
+    "second_turn": {
+      "win_rate": 44.4,
+      "games": 18
+    }
+  },
+  {
+    "faction": "Blood Angels",
+    "slug": "blood_angels",
+    "lists": 7,
+    "games": 35,
+    "play_rate": 4.2,
+    "win_rate": 67.1,
+    "trend_delta": 10.4,
+    "top_detachment": "Liberator Assault Group",
+    "top_disposition": "Take and Hold",
+    "ci_lower": 50.6,
+    "x0_pct": 0.0,
+    "x1_pct": 14.3,
+    "tournament_wins": 0,
+    "first_turn": {
+      "win_rate": 70.0,
+      "games": 15
+    },
+    "second_turn": {
       "win_rate": 65.0,
-      "games": 30
+      "games": 20
+    }
+  },
+  {
+    "faction": "Chaos Space Marines",
+    "slug": "chaos_space_marines",
+    "lists": 6,
+    "games": 30,
+    "play_rate": 3.6,
+    "win_rate": 36.7,
+    "trend_delta": -14.5,
+    "top_detachment": "Pactbound Zealots",
+    "top_disposition": "Disruption",
+    "ci_lower": 21.9,
+    "x0_pct": 0.0,
+    "x1_pct": 0.0,
+    "tournament_wins": 0,
+    "first_turn": {
+      "win_rate": 44.7,
+      "games": 19
+    },
+    "second_turn": {
+      "win_rate": 22.7,
+      "games": 11
+    }
+  },
+  {
+    "faction": "Death Guard",
+    "slug": "death_guard",
+    "lists": 6,
+    "games": 30,
+    "play_rate": 3.6,
+    "win_rate": 18.3,
+    "trend_delta": -19.7,
+    "top_detachment": "Champions Of Contagion + Paragons Of Putrescence",
+    "top_disposition": "Priority Assets",
+    "ci_lower": 8.4,
+    "x0_pct": 0.0,
+    "x1_pct": 0.0,
+    "tournament_wins": 0,
+    "first_turn": {
+      "win_rate": 11.5,
+      "games": 13
+    },
+    "second_turn": {
+      "win_rate": 23.5,
+      "games": 17
+    }
+  },
+  {
+    "faction": "Adeptus Mechanicus",
+    "slug": "adeptus_mechanicus",
+    "lists": 6,
+    "games": 30,
+    "play_rate": 3.6,
+    "win_rate": 58.3,
+    "trend_delta": 33.3,
+    "top_detachment": "Cohort Acquisitus + Skitarii Hunter Cohort",
+    "top_disposition": "Disruption",
+    "ci_lower": 40.7,
+    "x0_pct": 0.0,
+    "x1_pct": 0.0,
+    "tournament_wins": 0,
+    "first_turn": {
+      "win_rate": 61.5,
+      "games": 13
+    },
+    "second_turn": {
+      "win_rate": 55.9,
+      "games": 17
+    }
+  },
+  {
+    "faction": "Astra Militarum",
+    "slug": "astra_militarum",
+    "lists": 6,
+    "games": 30,
+    "play_rate": 3.6,
+    "win_rate": 41.7,
+    "trend_delta": 1.7,
+    "top_detachment": "Grizzled Company",
+    "top_disposition": "Priority Assets",
+    "ci_lower": 26.0,
+    "x0_pct": 0.0,
+    "x1_pct": 0.0,
+    "tournament_wins": 0,
+    "first_turn": {
+      "win_rate": 31.6,
+      "games": 19
     },
     "second_turn": {
       "win_rate": 59.1,
@@ -23,453 +345,200 @@
     }
   },
   {
-    "faction": "Orks",
-    "slug": "orks",
-    "lists": 7,
-    "games": 32,
-    "play_rate": 6.5,
-    "win_rate": 67.2,
-    "trend_delta": 14.3,
-    "top_detachment": "Green Tide + Taktikal Brigade",
-    "top_disposition": "Take and Hold",
-    "ci_lower": 49.9,
-    "x0_pct": 0.0,
-    "x1_pct": 0.0,
-    "tournament_wins": 1,
-    "first_turn": {
-      "win_rate": 81.8,
-      "games": 11
-    },
-    "second_turn": {
-      "win_rate": 65.8,
-      "games": 19
-    }
-  },
-  {
-    "faction": "Imperial Knights",
-    "slug": "imperial_knights",
-    "lists": 7,
-    "games": 34,
-    "play_rate": 6.5,
-    "win_rate": 50.0,
-    "trend_delta": -5.0,
-    "top_detachment": "Dominus Foebreakers + Valourstrike Lance",
-    "top_disposition": "Purge the Foe",
-    "ci_lower": 34.1,
-    "x0_pct": 0.0,
-    "x1_pct": 0.0,
-    "tournament_wins": 0,
-    "first_turn": {
-      "win_rate": 55.3,
-      "games": 19
-    },
-    "second_turn": {
-      "win_rate": 43.3,
-      "games": 15
-    }
-  },
-  {
-    "faction": "Thousand Sons",
-    "slug": "thousand_sons",
-    "lists": 7,
-    "games": 32,
-    "play_rate": 6.5,
-    "win_rate": 65.6,
-    "trend_delta": 8.7,
-    "top_detachment": "Hexwarp Thrallband + Sekhetar Cohort",
-    "top_disposition": "Priority Assets",
-    "ci_lower": 48.3,
-    "x0_pct": 0.0,
-    "x1_pct": 14.3,
-    "tournament_wins": 0,
-    "first_turn": {
-      "win_rate": 67.9,
-      "games": 14
-    },
-    "second_turn": {
-      "win_rate": 63.9,
-      "games": 18
-    }
-  },
-  {
-    "faction": "Tyranids",
-    "slug": "tyranids",
-    "lists": 7,
-    "games": 33,
-    "play_rate": 6.5,
-    "win_rate": 54.5,
-    "trend_delta": -1.7,
-    "top_detachment": "Ambush Predators + Vanguard Onslaught",
-    "top_disposition": "Reconnaissance",
-    "ci_lower": 38.0,
-    "x0_pct": 0.0,
-    "x1_pct": 14.3,
-    "tournament_wins": 0,
-    "first_turn": {
-      "win_rate": 60.0,
-      "games": 10
-    },
-    "second_turn": {
-      "win_rate": 54.5,
-      "games": 22
-    }
-  },
-  {
     "faction": "Drukhari",
     "slug": "drukhari",
-    "lists": 5,
-    "games": 23,
-    "play_rate": 4.7,
-    "win_rate": 58.7,
-    "trend_delta": 12.0,
+    "lists": 6,
+    "games": 30,
+    "play_rate": 3.6,
+    "win_rate": 58.3,
+    "trend_delta": 11.6,
     "top_detachment": "Exhibition Of Slaughter + Skysplinter Assault",
     "top_disposition": "Reconnaissance",
-    "ci_lower": 38.8,
+    "ci_lower": 40.7,
     "x0_pct": 0.0,
     "x1_pct": 0.0,
     "tournament_wins": 0,
     "first_turn": {
-      "win_rate": 50.0,
-      "games": 11
+      "win_rate": 42.3,
+      "games": 13
     },
     "second_turn": {
-      "win_rate": 66.7,
-      "games": 12
-    }
-  },
-  {
-    "faction": "Chaos Daemons",
-    "slug": "chaos_daemons",
-    "lists": 5,
-    "games": 24,
-    "play_rate": 4.7,
-    "win_rate": 41.7,
-    "trend_delta": -20.0,
-    "top_detachment": "Shadow Legion + Warptide",
-    "top_disposition": "Reconnaissance",
-    "ci_lower": 24.5,
-    "x0_pct": 0.0,
-    "x1_pct": 0.0,
-    "tournament_wins": 0,
-    "first_turn": {
-      "win_rate": 55.6,
-      "games": 9
-    },
-    "second_turn": {
-      "win_rate": 35.7,
-      "games": 14
-    }
-  },
-  {
-    "faction": "Adeptus Custodes",
-    "slug": "adeptus_custodes",
-    "lists": 5,
-    "games": 25,
-    "play_rate": 4.7,
-    "win_rate": 56.0,
-    "trend_delta": 1.0,
-    "top_detachment": "Lions Of The Emperor + Might Of The Moritoi",
-    "top_disposition": "Purge the Foe",
-    "ci_lower": 37.1,
-    "x0_pct": 0.0,
-    "x1_pct": 0.0,
-    "tournament_wins": 0,
-    "first_turn": {
-      "win_rate": 58.3,
-      "games": 12
-    },
-    "second_turn": {
-      "win_rate": 58.3,
-      "games": 12
-    }
-  },
-  {
-    "faction": "Space Marines (Astartes)",
-    "slug": "space_marines_astartes",
-    "lists": 5,
-    "games": 25,
-    "play_rate": 4.7,
-    "win_rate": 52.0,
-    "trend_delta": 1.7,
-    "top_detachment": "Headhunter Task Force + Librarius Conclave",
-    "top_disposition": "Priority Assets",
-    "ci_lower": 33.5,
-    "x0_pct": 20.0,
-    "x1_pct": 20.0,
-    "tournament_wins": 1,
-    "first_turn": {
-      "win_rate": 50.0,
-      "games": 18
-    },
-    "second_turn": {
-      "win_rate": 67.4,
-      "games": 23
+      "win_rate": 70.6,
+      "games": 17
     }
   },
   {
     "faction": "Grey Knights",
     "slug": "grey_knights",
-    "lists": 4,
-    "games": 19,
-    "play_rate": 3.7,
-    "win_rate": 39.5,
-    "trend_delta": -14.5,
-    "top_detachment": "Argent Assault + Banishers",
+    "lists": 5,
+    "games": 25,
+    "play_rate": 3.0,
+    "win_rate": 36.0,
+    "trend_delta": -18.0,
+    "top_detachment": "Argent Assault + Sanctic Spearhead",
     "top_disposition": "Purge the Foe",
-    "ci_lower": 21.1,
+    "ci_lower": 20.2,
     "x0_pct": 0.0,
     "x1_pct": 0.0,
     "tournament_wins": 0,
     "first_turn": {
-      "win_rate": 40.9,
-      "games": 11
-    },
-    "second_turn": {
-      "win_rate": 37.5,
-      "games": 8
-    }
-  },
-  {
-    "faction": "Blood Angels",
-    "slug": "blood_angels",
-    "lists": 4,
-    "games": 20,
-    "play_rate": 3.7,
-    "win_rate": 62.5,
-    "trend_delta": 5.8,
-    "top_detachment": "Liberator Assault Group",
-    "top_disposition": "Take and Hold",
-    "ci_lower": 40.9,
-    "x0_pct": 0.0,
-    "x1_pct": 25.0,
-    "tournament_wins": 0,
-    "first_turn": {
-      "win_rate": 61.1,
-      "games": 9
-    },
-    "second_turn": {
-      "win_rate": 70.0,
-      "games": 10
-    }
-  },
-  {
-    "faction": "Death Guard",
-    "slug": "death_guard",
-    "lists": 4,
-    "games": 20,
-    "play_rate": 3.7,
-    "win_rate": 25.0,
-    "trend_delta": -13.0,
-    "top_detachment": "Champions Of Contagion + Paragons Of Putrescence",
-    "top_disposition": "Take and Hold",
-    "ci_lower": 11.2,
-    "x0_pct": 0.0,
-    "x1_pct": 0.0,
-    "tournament_wins": 0,
-    "first_turn": {
-      "win_rate": 16.7,
-      "games": 9
-    },
-    "second_turn": {
-      "win_rate": 35.0,
-      "games": 10
-    }
-  },
-  {
-    "faction": "T'au Empire",
-    "slug": "t_au_empire",
-    "lists": 4,
-    "games": 19,
-    "play_rate": 3.7,
-    "win_rate": 34.2,
-    "trend_delta": -19.7,
-    "top_detachment": "Advanced Acquisition Cadre + Retaliation Cadre",
-    "top_disposition": "Purge the Foe",
-    "ci_lower": 17.2,
-    "x0_pct": 0.0,
-    "x1_pct": 0.0,
-    "tournament_wins": 0,
-    "first_turn": {
-      "win_rate": 21.4,
-      "games": 7
-    },
-    "second_turn": {
-      "win_rate": 41.7,
-      "games": 12
-    }
-  },
-  {
-    "faction": "Emperor's Children",
-    "slug": "emperor_s_children",
-    "lists": 4,
-    "games": 18,
-    "play_rate": 3.7,
-    "win_rate": 33.3,
-    "trend_delta": -19.3,
-    "top_detachment": "Coterie Of The Conceited",
-    "top_disposition": "Purge the Foe",
-    "ci_lower": 16.3,
-    "x0_pct": 0.0,
-    "x1_pct": 0.0,
-    "tournament_wins": 0,
-    "first_turn": {
-      "win_rate": 31.2,
-      "games": 8
-    },
-    "second_turn": {
-      "win_rate": 38.9,
-      "games": 9
-    }
-  },
-  {
-    "faction": "Chaos Space Marines",
-    "slug": "chaos_space_marines",
-    "lists": 4,
-    "games": 20,
-    "play_rate": 3.7,
-    "win_rate": 40.0,
-    "trend_delta": -11.2,
-    "top_detachment": "Pactbound Zealots",
-    "top_disposition": "Priority Assets",
-    "ci_lower": 21.9,
-    "x0_pct": 0.0,
-    "x1_pct": 0.0,
-    "tournament_wins": 0,
-    "first_turn": {
-      "win_rate": 46.2,
+      "win_rate": 34.6,
       "games": 13
     },
     "second_turn": {
-      "win_rate": 28.6,
-      "games": 7
-    }
-  },
-  {
-    "faction": "Astra Militarum",
-    "slug": "astra_militarum",
-    "lists": 4,
-    "games": 19,
-    "play_rate": 3.7,
-    "win_rate": 34.2,
-    "trend_delta": -5.8,
-    "top_detachment": "Grizzled Company",
-    "top_disposition": "Priority Assets",
-    "ci_lower": 17.2,
-    "x0_pct": 0.0,
-    "x1_pct": 0.0,
-    "tournament_wins": 0,
-    "first_turn": {
-      "win_rate": 20.0,
-      "games": 10
-    },
-    "second_turn": {
-      "win_rate": 56.2,
-      "games": 8
+      "win_rate": 37.5,
+      "games": 12
     }
   },
   {
     "faction": "Aeldari",
     "slug": "aeldari",
-    "lists": 3,
-    "games": 15,
-    "play_rate": 2.8,
-    "win_rate": 46.7,
-    "trend_delta": -9.5,
+    "lists": 4,
+    "games": 20,
+    "play_rate": 2.4,
+    "win_rate": 52.5,
+    "trend_delta": -3.7,
     "top_detachment": "Path Of The Outcast + Seer Council",
     "top_disposition": "Reconnaissance",
-    "ci_lower": 24.8,
+    "ci_lower": 32.0,
     "x0_pct": 0.0,
-    "x1_pct": 33.3,
+    "x1_pct": 25.0,
     "tournament_wins": 0,
     "first_turn": {
       "win_rate": 50.0,
-      "games": 8
+      "games": 13
     },
     "second_turn": {
-      "win_rate": 50.0,
-      "games": 6
+      "win_rate": 57.1,
+      "games": 7
     }
   },
   {
     "faction": "World Eaters",
     "slug": "world_eaters",
-    "lists": 3,
-    "games": 14,
-    "play_rate": 2.8,
-    "win_rate": 28.6,
-    "trend_delta": 8.6,
-    "top_detachment": "Brazen Engines + Khorne Daemonkin",
+    "lists": 4,
+    "games": 20,
+    "play_rate": 2.4,
+    "win_rate": 30.0,
+    "trend_delta": 10.0,
+    "top_detachment": "Berzerker Warband",
     "top_disposition": "Purge the Foe",
-    "ci_lower": 11.7,
+    "ci_lower": 14.5,
     "x0_pct": 0.0,
     "x1_pct": 0.0,
     "tournament_wins": 0,
     "first_turn": {
-      "win_rate": 40.0,
-      "games": 10
+      "win_rate": 41.7,
+      "games": 12
     },
     "second_turn": {
-      "win_rate": 0.0,
-      "games": 4
+      "win_rate": 12.5,
+      "games": 8
+    }
+  },
+  {
+    "faction": "Chaos Knights",
+    "slug": "chaos_knights",
+    "lists": 4,
+    "games": 20,
+    "play_rate": 2.4,
+    "win_rate": 30.0,
+    "trend_delta": 6.0,
+    "top_detachment": "Helhunt Lance + Iconoclast Fiefdom",
+    "top_disposition": "Take and Hold",
+    "ci_lower": 14.5,
+    "x0_pct": 0.0,
+    "x1_pct": 0.0,
+    "tournament_wins": 0,
+    "first_turn": {
+      "win_rate": 33.3,
+      "games": 3
+    },
+    "second_turn": {
+      "win_rate": 29.4,
+      "games": 17
     }
   },
   {
     "faction": "Adepta Sororitas",
     "slug": "adepta_sororitas",
-    "lists": 3,
-    "games": 15,
-    "play_rate": 2.8,
-    "win_rate": 36.7,
-    "trend_delta": 9.2,
-    "top_detachment": "No Detachment",
+    "lists": 4,
+    "games": 20,
+    "play_rate": 2.4,
+    "win_rate": 47.5,
+    "trend_delta": 20.0,
+    "top_detachment": "Army Of Faith + Chorus Of Condemnation",
     "top_disposition": "Take and Hold",
-    "ci_lower": 17.5,
+    "ci_lower": 27.9,
     "x0_pct": 0.0,
-    "x1_pct": 33.3,
+    "x1_pct": 25.0,
     "tournament_wins": 0,
     "first_turn": {
-      "win_rate": 25.0,
-      "games": 8
-    },
-    "second_turn": {
-      "win_rate": 50.0,
-      "games": 7
-    }
-  },
-  {
-    "faction": "Adeptus Mechanicus",
-    "slug": "adeptus_mechanicus",
-    "lists": 3,
-    "games": 13,
-    "play_rate": 2.8,
-    "win_rate": 50.0,
-    "trend_delta": 25.0,
-    "top_detachment": "Lords Of The Forge + Rad-Zone Corps",
-    "top_disposition": "Priority Assets",
-    "ci_lower": 26.1,
-    "x0_pct": 0.0,
-    "x1_pct": 0.0,
-    "tournament_wins": 0,
-    "first_turn": {
-      "win_rate": 40.0,
-      "games": 5
+      "win_rate": 41.7,
+      "games": 12
     },
     "second_turn": {
       "win_rate": 56.2,
       "games": 8
+    }
+  },
+  {
+    "faction": "Leagues of Votann",
+    "slug": "leagues_of_votann",
+    "lists": 2,
+    "games": 10,
+    "play_rate": 1.2,
+    "win_rate": 35.0,
+    "trend_delta": -5.0,
+    "top_detachment": "D\u00ealve Assault Shift + Hearthguard Covenant",
+    "top_disposition": "Priority Assets",
+    "ci_lower": 13.7,
+    "x0_pct": 0.0,
+    "x1_pct": 0.0,
+    "tournament_wins": 0,
+    "first_turn": {
+      "win_rate": 50.0,
+      "games": 5
+    },
+    "second_turn": {
+      "win_rate": 20.0,
+      "games": 5
+    }
+  },
+  {
+    "faction": "Black Templars",
+    "slug": "black_templars",
+    "lists": 2,
+    "games": 10,
+    "play_rate": 1.2,
+    "win_rate": 75.0,
+    "trend_delta": null,
+    "top_detachment": "Companions Of Vehemence + Wrathful Procession",
+    "top_disposition": "Take and Hold",
+    "ci_lower": 44.2,
+    "x0_pct": 0.0,
+    "x1_pct": 50.0,
+    "tournament_wins": 0,
+    "first_turn": {
+      "win_rate": null,
+      "games": 0
+    },
+    "second_turn": {
+      "win_rate": null,
+      "games": 0
     }
   },
   {
     "faction": "Space Wolves",
     "slug": "space_wolves",
     "lists": 2,
-    "games": 9,
-    "play_rate": 1.9,
-    "win_rate": 55.6,
+    "games": 10,
+    "play_rate": 1.2,
+    "win_rate": 60.0,
     "trend_delta": null,
     "top_detachment": "Legends of Saga + Saga Of The Bold + Song",
     "top_disposition": "Priority Assets",
-    "ci_lower": 26.7,
+    "ci_lower": 31.3,
     "x0_pct": 0.0,
     "x1_pct": 0.0,
     "tournament_wins": 0,
@@ -480,42 +549,19 @@
     "second_turn": {
       "win_rate": null,
       "games": 0
-    }
-  },
-  {
-    "faction": "Chaos Knights",
-    "slug": "chaos_knights",
-    "lists": 2,
-    "games": 10,
-    "play_rate": 1.9,
-    "win_rate": 35.0,
-    "trend_delta": 11.0,
-    "top_detachment": "Helhunt Lance + Hunting Warpack",
-    "top_disposition": "Disruption",
-    "ci_lower": 13.7,
-    "x0_pct": 0.0,
-    "x1_pct": 0.0,
-    "tournament_wins": 0,
-    "first_turn": {
-      "win_rate": 0.0,
-      "games": 1
-    },
-    "second_turn": {
-      "win_rate": 43.8,
-      "games": 8
     }
   },
   {
     "faction": "Dark Angels",
     "slug": "dark_angels",
     "lists": 2,
-    "games": 9,
-    "play_rate": 1.9,
-    "win_rate": 55.6,
+    "games": 10,
+    "play_rate": 1.2,
+    "win_rate": 50.0,
     "trend_delta": null,
     "top_detachment": "Wrath Of The Rock",
     "top_disposition": "Priority Assets",
-    "ci_lower": 26.7,
+    "ci_lower": 23.7,
     "x0_pct": 0.0,
     "x1_pct": 0.0,
     "tournament_wins": 0,
@@ -532,69 +578,23 @@
     "faction": "Genestealer Cults",
     "slug": "genestealer_cults",
     "lists": 2,
-    "games": 9,
-    "play_rate": 1.9,
-    "win_rate": 72.2,
-    "trend_delta": 27.2,
-    "top_detachment": "Host Of Ascension",
+    "games": 10,
+    "play_rate": 1.2,
+    "win_rate": 75.0,
+    "trend_delta": 30.0,
+    "top_detachment": "Heroes Of The Uprising + Purestrain Broodswarm + Xenocult Masses",
     "top_disposition": "Disruption",
-    "ci_lower": 40.2,
+    "ci_lower": 44.2,
     "x0_pct": 50.0,
     "x1_pct": 0.0,
     "tournament_wins": 0,
     "first_turn": {
-      "win_rate": 66.7,
-      "games": 3
+      "win_rate": 75.0,
+      "games": 4
     },
     "second_turn": {
       "win_rate": 75.0,
       "games": 6
-    }
-  },
-  {
-    "faction": "Leagues of Votann",
-    "slug": "leagues_of_votann",
-    "lists": 1,
-    "games": 5,
-    "play_rate": 0.9,
-    "win_rate": 30.0,
-    "trend_delta": -10.0,
-    "top_detachment": "Hearthguard Covenant + Mercenary Oathband",
-    "top_disposition": "Priority Assets",
-    "ci_lower": 7.3,
-    "x0_pct": 0.0,
-    "x1_pct": 0.0,
-    "tournament_wins": 0,
-    "first_turn": {
-      "win_rate": 16.7,
-      "games": 3
-    },
-    "second_turn": {
-      "win_rate": 50.0,
-      "games": 2
-    }
-  },
-  {
-    "faction": "Black Templars",
-    "slug": "black_templars",
-    "lists": 1,
-    "games": 5,
-    "play_rate": 0.9,
-    "win_rate": 90.0,
-    "trend_delta": null,
-    "top_detachment": "Companions Of Vehemence + Wrathful Procession",
-    "top_disposition": "Purge the Foe",
-    "ci_lower": 46.3,
-    "x0_pct": 0.0,
-    "x1_pct": 100.0,
-    "tournament_wins": 0,
-    "first_turn": {
-      "win_rate": null,
-      "games": 0
-    },
-    "second_turn": {
-      "win_rate": null,
-      "games": 0
     }
   }
 ]

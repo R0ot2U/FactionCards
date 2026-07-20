@@ -4,43 +4,43 @@
   "as_of": "2026-07-20",
   "window_days": 7,
   "event_type": "team",
-  "lists": 5,
-  "games": 25,
-  "play_rate": 4.7,
-  "win_rate": 56.0,
-  "trend_delta": 1.0,
+  "lists": 7,
+  "games": 35,
+  "play_rate": 4.2,
+  "win_rate": 51.4,
+  "trend_delta": -3.6,
   "top_detachment": "Lions Of The Emperor + Might Of The Moritoi",
-  "ci_lower": 37.1,
+  "ci_lower": 35.6,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
   "x1_pct": 0.0,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 58.3,
-    "games": 12
+    "win_rate": 58.8,
+    "games": 17
   },
   "second_turn": {
-    "win_rate": 58.3,
-    "games": 12
+    "win_rate": 44.4,
+    "games": 18
   },
   "detachments": [
     {
       "detachment": "Lions Of The Emperor + Might Of The Moritoi",
       "base_archetype": "Adeptus Custodes \u2014 Lions Of The Emperor + Might Of The Moritoi",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 40.0,
-      "win_rate": 55.0,
+      "lists": 4,
+      "games": 20,
+      "play_rate": 57.1,
+      "win_rate": 45.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 66.7,
-        "games": 3
+        "win_rate": 62.5,
+        "games": 8
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 7
+        "win_rate": 33.3,
+        "games": 12
       }
     },
     {
@@ -48,7 +48,7 @@
       "base_archetype": "Adeptus Custodes \u2014 Lions Of The Emperor + Silent Hunters",
       "lists": 1,
       "games": 5,
-      "play_rate": 20.0,
+      "play_rate": 14.3,
       "win_rate": 70.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -67,8 +67,8 @@
       "base_archetype": "Adeptus Custodes \u2014 Might Of The Moritoi + Shield Host",
       "lists": 1,
       "games": 5,
-      "play_rate": 20.0,
-      "win_rate": 40.0,
+      "play_rate": 14.3,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
@@ -77,8 +77,8 @@
         "games": 4
       },
       "second_turn": {
-        "win_rate": null,
-        "games": 0
+        "win_rate": 50.0,
+        "games": 1
       }
     },
     {
@@ -86,7 +86,7 @@
       "base_archetype": "Adeptus Custodes \u2014 Shield Host + Silent Hunters",
       "lists": 1,
       "games": 5,
-      "play_rate": 20.0,
+      "play_rate": 14.3,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -104,41 +104,102 @@
   "dispositions": [
     {
       "disposition": "Purge the Foe",
-      "lists": 3,
-      "play_rate": 60.0,
+      "lists": 4,
+      "play_rate": 57.1,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 14.0,
+      "games": 20.0,
       "first_turn": {
-        "win_rate": 42.9,
-        "games": 7
+        "win_rate": 50.0,
+        "games": 10
       },
       "second_turn": {
-        "win_rate": 57.1,
-        "games": 7
+        "win_rate": 50.0,
+        "games": 10
       }
     },
     {
       "disposition": "Disruption",
-      "lists": 2,
-      "play_rate": 40.0,
-      "win_rate": 70.0,
+      "lists": 3,
+      "play_rate": 42.9,
+      "win_rate": 53.3,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 10.0,
+      "games": 15.0,
       "first_turn": {
-        "win_rate": 80.0,
-        "games": 5
+        "win_rate": 71.4,
+        "games": 7
       },
       "second_turn": {
-        "win_rate": 60.0,
-        "games": 5
+        "win_rate": 37.5,
+        "games": 8
       }
     }
   ],
-  "disposition_matchups": [],
-  "disposition_cross": [],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 10,
+      "wins": 5,
+      "win_rate": 55.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 35.7,
+        "games": 7
+      }
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Purge the Foe",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 30.0,
+        "games": 5
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Priority Assets",
+      "games": 5,
+      "wins": 4,
+      "win_rate": 80.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Reconnaissance",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      }
+    }
+  ],
   "top_players": [
     {
       "player_name": "Yilin Zhao",
@@ -177,6 +238,18 @@
       "win_rate": 60.0
     },
     {
+      "player_name": "Pat Giunti",
+      "detachment": "Lions Of The Emperor + Might Of The Moritoi",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/iSYFO82qs8v8",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 2,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 50.0
+    },
+    {
       "player_name": "Imam Asfi",
       "detachment": "Might Of The Moritoi + Shield Host",
       "disposition": "Purge the Foe",
@@ -184,8 +257,8 @@
       "source": "bcp",
       "wins": 2,
       "losses": 2,
-      "draws": 0,
-      "games": 4,
+      "draws": 1,
+      "games": 5,
       "win_rate": 50.0
     },
     {
@@ -199,6 +272,18 @@
       "draws": 0,
       "games": 5,
       "win_rate": 40.0
+    },
+    {
+      "player_name": "Cory Peterson",
+      "detachment": "Lions Of The Emperor + Might Of The Moritoi",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/3dX2ilFvKVxm",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
     }
   ],
   "matchups": [
@@ -220,18 +305,18 @@
   "timeline": [
     {
       "week": "2026-W28",
-      "lists": 5,
-      "games": 24,
-      "win_rate": 58.3,
-      "total_lists": 107,
-      "play_rate": 4.7,
+      "lists": 7,
+      "games": 35,
+      "win_rate": 51.4,
+      "total_lists": 167,
+      "play_rate": 4.2,
       "first_turn": {
-        "win_rate": 58.3,
-        "games": 12
+        "win_rate": 58.8,
+        "games": 17
       },
       "second_turn": {
-        "win_rate": 58.3,
-        "games": 12
+        "win_rate": 44.4,
+        "games": 18
       }
     }
   ]

@@ -4,58 +4,148 @@
   "as_of": "2026-07-20",
   "window_days": 7,
   "event_type": "team",
-  "lists": 4,
-  "games": 19,
-  "play_rate": 3.7,
-  "win_rate": 34.2,
-  "trend_delta": -19.7,
-  "top_detachment": "Advanced Acquisition Cadre + Retaliation Cadre",
-  "ci_lower": 17.2,
+  "lists": 9,
+  "games": 45,
+  "play_rate": 5.4,
+  "win_rate": 44.4,
+  "trend_delta": -9.5,
+  "top_detachment": "Mont'ka",
+  "ci_lower": 30.9,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
   "x1_pct": 0.0,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 21.4,
-    "games": 7
+    "win_rate": 36.8,
+    "games": 19
   },
   "second_turn": {
-    "win_rate": 41.7,
-    "games": 12
+    "win_rate": 50.0,
+    "games": 26
   },
   "detachments": [
     {
-      "detachment": "Advanced Acquisition Cadre + Retaliation Cadre",
-      "base_archetype": "T'au Empire \u2014 Advanced Acquisition Cadre + Retaliation Cadre",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 50.0,
-      "win_rate": 25.0,
+      "detachment": "Mont'ka",
+      "base_archetype": "T'au Empire \u2014 Mont'ka",
+      "lists": 4,
+      "games": 20,
+      "play_rate": 44.4,
+      "win_rate": 75.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 25.0,
-        "games": 6
+        "win_rate": 75.0,
+        "games": 4
       },
       "second_turn": {
-        "win_rate": 25.0,
-        "games": 4
+        "win_rate": 75.0,
+        "games": 16
       }
     },
     {
-      "detachment": "Mont'ka",
-      "base_archetype": "T'au Empire \u2014 Mont'ka",
-      "lists": 2,
-      "games": 9,
-      "play_rate": 50.0,
-      "win_rate": 44.4,
+      "detachment": "Advanced Acquisition Cadre + Retaliation Cadre",
+      "base_archetype": "T'au Empire \u2014 Advanced Acquisition Cadre + Retaliation Cadre",
+      "lists": 3,
+      "games": 15,
+      "play_rate": 33.3,
+      "win_rate": 23.3,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 31.2,
+        "games": 8
+      },
+      "second_turn": {
+        "win_rate": 14.3,
+        "games": 7
+      }
+    },
+    {
+      "detachment": "Advanced Acquisition Cadre + Kroot Hunting Pack",
+      "base_archetype": "T'au Empire \u2014 Advanced Acquisition Cadre + Kroot Hunting Pack",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 11.1,
+      "win_rate": 30.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 37.5,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 1
+      }
+    },
+    {
+      "detachment": "Advanced Acquisition Cadre + Kauyon",
+      "base_archetype": "T'au Empire \u2014 Advanced Acquisition Cadre + Kauyon",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 11.1,
+      "win_rate": 0.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
         "win_rate": 0.0,
-        "games": 1
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      }
+    }
+  ],
+  "dispositions": [
+    {
+      "disposition": "Purge the Foe",
+      "lists": 6,
+      "play_rate": 66.7,
+      "win_rate": 58.3,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 30.0,
+      "first_turn": {
+        "win_rate": 45.0,
+        "games": 10
+      },
+      "second_turn": {
+        "win_rate": 65.0,
+        "games": 20
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "lists": 3,
+      "play_rate": 33.3,
+      "win_rate": 16.7,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 15.0,
+      "first_turn": {
+        "win_rate": 27.8,
+        "games": 9
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 6
+      }
+    }
+  ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 12,
+      "wins": 6,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
       },
       "second_turn": {
         "win_rate": 50.0,
@@ -63,55 +153,104 @@
       }
     }
   ],
-  "dispositions": [
-    {
-      "disposition": "Purge the Foe",
-      "lists": 4,
-      "play_rate": 100.0,
-      "win_rate": 34.2,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 19.0,
-      "first_turn": {
-        "win_rate": 21.4,
-        "games": 7
-      },
-      "second_turn": {
-        "win_rate": 41.7,
-        "games": 12
-      }
-    }
-  ],
-  "disposition_matchups": [],
   "disposition_cross": [
     {
       "disposition": "Purge the Foe",
       "opponent_disposition": "Reconnaissance",
-      "games": 5,
-      "wins": 2,
-      "win_rate": 40.0,
+      "games": 8,
+      "wins": 5,
+      "win_rate": 62.5,
       "first_turn": {
-        "win_rate": 0.0,
-        "games": 1
+        "win_rate": 50.0,
+        "games": 2
       },
       "second_turn": {
-        "win_rate": 50.0,
+        "win_rate": 66.7,
+        "games": 6
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Disruption",
+      "games": 6,
+      "wins": 5,
+      "win_rate": 83.3,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 75.0,
         "games": 4
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Take and Hold",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 41.7,
+      "first_turn": {
+        "win_rate": 16.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Purge the Foe",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": 60.0,
+        "games": 5
       }
     }
   ],
   "top_players": [
+    {
+      "player_name": "Nick Gallagher",
+      "detachment": "Mont'ka",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/BRlFU5eK1M0J",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "David Dussiaume",
+      "detachment": "Mont'ka",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/wNCG07aWmL09",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
     {
       "player_name": "Fernando Soriano",
       "detachment": "Mont'ka",
       "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/p671PAdTkJDS",
       "source": "bcp",
-      "wins": 2,
+      "wins": 3,
       "losses": 2,
       "draws": 0,
-      "games": 4,
-      "win_rate": 50.0
+      "games": 5,
+      "win_rate": 60.0
     },
     {
       "player_name": "Sam Moore",
@@ -126,6 +265,18 @@
       "win_rate": 40.0
     },
     {
+      "player_name": "Konnor Hughes",
+      "detachment": "Advanced Acquisition Cadre + Kroot Hunting Pack",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/HGccalnHKXtg",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
       "player_name": "Tim Ho",
       "detachment": "Advanced Acquisition Cadre + Retaliation Cadre",
       "disposition": "Purge the Foe",
@@ -138,6 +289,18 @@
       "win_rate": 30.0
     },
     {
+      "player_name": "Wolfe Armstrong",
+      "detachment": "Advanced Acquisition Cadre + Retaliation Cadre",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/0dwIyzOsZnI0",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
       "player_name": "Heath Thompson",
       "detachment": "Advanced Acquisition Cadre + Retaliation Cadre",
       "disposition": "Purge the Foe",
@@ -148,24 +311,36 @@
       "draws": 0,
       "games": 5,
       "win_rate": 20.0
+    },
+    {
+      "player_name": "Keryl St Helene",
+      "detachment": "Advanced Acquisition Cadre + Kauyon",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/XPmiY2CxrUBl",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 5,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 0.0
     }
   ],
   "matchups": [],
   "timeline": [
     {
       "week": "2026-W28",
-      "lists": 4,
-      "games": 19,
-      "win_rate": 34.2,
-      "total_lists": 107,
-      "play_rate": 3.7,
+      "lists": 9,
+      "games": 45,
+      "win_rate": 44.4,
+      "total_lists": 167,
+      "play_rate": 5.4,
       "first_turn": {
-        "win_rate": 21.4,
-        "games": 7
+        "win_rate": 36.8,
+        "games": 19
       },
       "second_turn": {
-        "win_rate": 41.7,
-        "games": 12
+        "win_rate": 50.0,
+        "games": 26
       }
     }
   ]

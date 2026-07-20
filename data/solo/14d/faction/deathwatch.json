@@ -4,114 +4,184 @@
   "as_of": "2026-07-20",
   "window_days": 14,
   "event_type": "solo",
-  "lists": 5,
-  "games": 25,
+  "lists": 8,
+  "games": 44,
   "play_rate": 0.3,
-  "win_rate": 38.0,
-  "trend_delta": -6.0,
+  "win_rate": 40.9,
+  "trend_delta": -3.1,
   "top_detachment": "Black Spear Task Force",
-  "ci_lower": 21.8,
+  "ci_lower": 27.7,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 20.0,
+  "x1_pct": 12.5,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 40.0,
-    "games": 10
+    "win_rate": 45.0,
+    "games": 20
   },
   "second_turn": {
-    "win_rate": 36.7,
-    "games": 15
+    "win_rate": 37.5,
+    "games": 24
   },
   "detachments": [
     {
       "detachment": "Black Spear Task Force",
       "base_archetype": "Deathwatch \u2014 Black Spear Task Force",
-      "lists": 5,
-      "games": 25,
+      "lists": 8,
+      "games": 44,
       "play_rate": 100.0,
-      "win_rate": 38.0,
+      "win_rate": 40.9,
       "x0_pct": 0.0,
-      "x1_pct": 20.0,
+      "x1_pct": 12.5,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 40.0,
-        "games": 10
+        "win_rate": 45.0,
+        "games": 20
       },
       "second_turn": {
-        "win_rate": 36.7,
-        "games": 15
+        "win_rate": 37.5,
+        "games": 24
       }
     }
   ],
   "dispositions": [
     {
       "disposition": "Priority Assets",
-      "lists": 5,
+      "lists": 8,
       "play_rate": 100.0,
-      "win_rate": 38.0,
+      "win_rate": 40.9,
       "x0_pct": 0.0,
-      "x1_pct": 20.0,
-      "games": 25.0,
+      "x1_pct": 12.5,
+      "games": 44.0,
       "first_turn": {
-        "win_rate": 40.0,
-        "games": 10
+        "win_rate": 45.0,
+        "games": 20
       },
       "second_turn": {
-        "win_rate": 36.7,
-        "games": 15
+        "win_rate": 37.5,
+        "games": 24
       }
     }
   ],
-  "disposition_matchups": [],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 14,
+      "wins": 5,
+      "win_rate": 35.7,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 37.5,
+        "games": 8
+      }
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 12,
+      "wins": 3,
+      "win_rate": 25.0,
+      "first_turn": {
+        "win_rate": 16.7,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 6
+      }
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 10,
+      "wins": 6,
+      "win_rate": 65.0,
+      "first_turn": {
+        "win_rate": 80.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 5
+      }
+    }
+  ],
   "disposition_cross": [
     {
       "disposition": "Priority Assets",
       "opponent_disposition": "Purge the Foe",
-      "games": 7,
-      "wins": 2,
+      "games": 14,
+      "wins": 5,
       "win_rate": 35.7,
       "first_turn": {
         "win_rate": 33.3,
-        "games": 3
+        "games": 6
       },
       "second_turn": {
         "win_rate": 37.5,
-        "games": 4
+        "games": 8
       }
     },
     {
       "disposition": "Priority Assets",
       "opponent_disposition": "Priority Assets",
-      "games": 7,
-      "wins": 1,
-      "win_rate": 14.3,
+      "games": 12,
+      "wins": 3,
+      "win_rate": 25.0,
       "first_turn": {
-        "win_rate": 0.0,
-        "games": 3
+        "win_rate": 16.7,
+        "games": 6
       },
       "second_turn": {
-        "win_rate": 25.0,
-        "games": 4
+        "win_rate": 33.3,
+        "games": 6
       }
     },
     {
       "disposition": "Priority Assets",
       "opponent_disposition": "Take and Hold",
-      "games": 6,
-      "wins": 3,
-      "win_rate": 50.0,
+      "games": 10,
+      "wins": 6,
+      "win_rate": 65.0,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 2
+        "win_rate": 80.0,
+        "games": 5
       },
       "second_turn": {
         "win_rate": 50.0,
-        "games": 4
+        "games": 5
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Reconnaissance",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 2
       }
     }
   ],
   "top_players": [
+    {
+      "player_name": "Tim Royers",
+      "detachment": "Black Spear Task Force",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/lRKcucGxSl4z",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 0,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 80.0
+    },
     {
       "player_name": "Stephen Unger",
       "detachment": "Black Spear Task Force",
@@ -123,6 +193,18 @@
       "draws": 0,
       "games": 5,
       "win_rate": 80.0
+    },
+    {
+      "player_name": "Jordan Luksetich",
+      "detachment": "Black Spear Task Force",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/kjJKmtoBl7C5",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 4,
+      "draws": 0,
+      "games": 7,
+      "win_rate": 42.9
     },
     {
       "player_name": "Aaron Warren",
@@ -137,10 +219,10 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Jordan Luksetich",
+      "player_name": "Christopher Polly",
       "detachment": "Black Spear Task Force",
       "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/kjJKmtoBl7C5",
+      "list_url": "https://www.bestcoastpairings.com/list/STwDgVmCvYVI",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -166,14 +248,55 @@
       "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/D3jFwIKknlFy",
       "source": "bcp",
-      "wins": 0,
+      "wins": 1,
       "losses": 5,
       "draws": 0,
-      "games": 5,
-      "win_rate": 0.0
+      "games": 6,
+      "win_rate": 16.7
+    },
+    {
+      "player_name": "TJ Alexander",
+      "detachment": "Black Spear Task Force",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/PDMCwQXsQ2Rs",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 5,
+      "draws": 1,
+      "games": 6,
+      "win_rate": 8.3
     }
   ],
-  "matchups": [],
+  "matchups": [
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 41.7,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 2
+      }
+    },
+    {
+      "opponent_faction": "Chaos Space Marines",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 58.3,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 37.5,
+        "games": 4
+      }
+    }
+  ],
   "timeline": [
     {
       "week": "2026-W27",
@@ -193,18 +316,18 @@
     },
     {
       "week": "2026-W28",
-      "lists": 3,
-      "games": 15,
-      "win_rate": 26.7,
-      "total_lists": 1072,
-      "play_rate": 0.3,
+      "lists": 6,
+      "games": 34,
+      "win_rate": 36.8,
+      "total_lists": 1551,
+      "play_rate": 0.4,
       "first_turn": {
-        "win_rate": 33.3,
-        "games": 6
+        "win_rate": 43.8,
+        "games": 16
       },
       "second_turn": {
-        "win_rate": 22.2,
-        "games": 9
+        "win_rate": 30.6,
+        "games": 18
       }
     }
   ]
