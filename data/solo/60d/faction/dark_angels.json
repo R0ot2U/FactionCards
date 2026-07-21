@@ -1,7 +1,7 @@
 {
   "faction": "Dark Angels",
   "slug": "dark_angels",
-  "as_of": "2026-07-20",
+  "as_of": "2026-07-21",
   "window_days": 60,
   "event_type": "solo",
   "lists": 112,
@@ -9,11 +9,11 @@
   "play_rate": 3.1,
   "win_rate": 51.0,
   "trend_delta": null,
-  "top_detachment": "Wrath Of The Rock",
+  "top_detachment": "Company Of Hunters + Darkflight Pursuit",
   "ci_lower": 47.0,
   "meta_health": "slightly_under",
-  "x0_pct": 1.8,
-  "x1_pct": 9.8,
+  "x0_pct": 2.7,
+  "x1_pct": 10.7,
   "tournament_wins": 2,
   "first_turn": {
     "win_rate": 65.7,
@@ -24,25 +24,6 @@
     "games": 53
   },
   "detachments": [
-    {
-      "detachment": "Wrath Of The Rock",
-      "base_archetype": "Dark Angels \u2014 Wrath Of The Rock",
-      "lists": 21,
-      "games": 107,
-      "play_rate": 18.8,
-      "win_rate": 46.7,
-      "x0_pct": 0.0,
-      "x1_pct": 5.3,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 4
-      },
-      "second_turn": {
-        "win_rate": 33.3,
-        "games": 6
-      }
-    },
     {
       "detachment": "Company Of Hunters + Darkflight Pursuit",
       "base_archetype": "Dark Angels \u2014 Company Of Hunters + Darkflight Pursuit",
@@ -59,6 +40,25 @@
       },
       "second_turn": {
         "win_rate": 91.7,
+        "games": 6
+      }
+    },
+    {
+      "detachment": "Wrath Of The Rock",
+      "base_archetype": "Dark Angels \u2014 Wrath Of The Rock",
+      "lists": 15,
+      "games": 67,
+      "play_rate": 13.4,
+      "win_rate": 44.8,
+      "x0_pct": 0.0,
+      "x1_pct": 7.1,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 33.3,
         "games": 6
       }
     },
@@ -82,13 +82,32 @@
       }
     },
     {
+      "detachment": "Wrath of the Rock",
+      "base_archetype": "Dark Angels \u2014 Wrath of the Rock",
+      "lists": 8,
+      "games": 50,
+      "play_rate": 7.1,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      }
+    },
+    {
       "detachment": "Inner Circle Task Force + Librarius Conclave",
       "base_archetype": "Dark Angels \u2014 Inner Circle Task Force + Librarius Conclave",
       "lists": 8,
       "games": 40,
       "play_rate": 7.1,
       "win_rate": 45.0,
-      "x0_pct": 0.0,
+      "x0_pct": 12.5,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
@@ -222,29 +241,10 @@
       "play_rate": 2.7,
       "win_rate": 66.7,
       "x0_pct": 0.0,
-      "x1_pct": 33.3,
+      "x1_pct": 66.7,
       "tournament_wins": 0,
       "first_turn": {
         "win_rate": 83.3,
-        "games": 6
-      },
-      "second_turn": {
-        "win_rate": 75.0,
-        "games": 4
-      }
-    },
-    {
-      "detachment": "Wrath of the Rock",
-      "base_archetype": "Dark Angels \u2014 Wrath of the Rock",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 1.8,
-      "win_rate": 50.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 33.3,
         "games": 6
       },
       "second_turn": {
@@ -582,7 +582,7 @@
       "lists": 42,
       "play_rate": 37.5,
       "win_rate": 46.5,
-      "x0_pct": 0.0,
+      "x0_pct": 2.4,
       "x1_pct": 7.1,
       "games": 228.0,
       "first_turn": {
@@ -634,7 +634,7 @@
       "play_rate": 13.4,
       "win_rate": 47.7,
       "x0_pct": 0.0,
-      "x1_pct": 6.7,
+      "x1_pct": 13.3,
       "games": 65.0,
       "first_turn": {
         "win_rate": 47.2,
@@ -1295,7 +1295,7 @@
     },
     {
       "player_name": "Justin Fyn",
-      "detachment": "Wrath Of The Rock",
+      "detachment": "Wrath of the Rock",
       "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/mpgItvxlVCmU",
       "source": "bcp",

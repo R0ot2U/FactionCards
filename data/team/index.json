@@ -1,52 +1,92 @@
 {
-  "built_at": "2026-06-23T17:59:22.748948+00:00",
-  "as_of": "2026-06-20",
-  "window_days": 7,
+  "built_at": "2026-07-20T21:43:15.187624+00:00",
+  "as_of": "2026-07-20",
+  "window_days": 30,
   "event_type": "team",
   "source": "all",
   "edition": "11th",
-  "total_lists": 99,
-  "total_games": 500,
-  "total_tournaments": 1,
-  "bcp_lists": 99,
+  "total_lists": 1192,
+  "total_games": 6086,
+  "total_tournaments": 15,
+  "bcp_lists": 1192,
   "nr_lists": 0,
-  "factions": 25,
+  "factions": 28,
   "cards_url": "https://r0ot2u.github.io/FactionCards/cards.html",
   "dispositions": [
     {
       "disposition": "Purge the Foe",
-      "lists": 35,
-      "play_rate": 35.4,
-      "win_rate": 47.1,
-      "games": 175
+      "lists": 274,
+      "play_rate": 23.0,
+      "win_rate": 52.0,
+      "games": 1409,
+      "first_turn": {
+        "win_rate": 52.5,
+        "games": 688
+      },
+      "second_turn": {
+        "win_rate": 51.5,
+        "games": 721
+      }
     },
     {
       "disposition": "Take and Hold",
-      "lists": 29,
-      "play_rate": 29.3,
-      "win_rate": 48.6,
-      "games": 144
+      "lists": 257,
+      "play_rate": 21.6,
+      "win_rate": 52.9,
+      "games": 1319,
+      "first_turn": {
+        "win_rate": 50.2,
+        "games": 608
+      },
+      "second_turn": {
+        "win_rate": 55.2,
+        "games": 711
+      }
     },
     {
       "disposition": "Priority Assets",
-      "lists": 25,
-      "play_rate": 25.3,
-      "win_rate": 48.4,
-      "games": 124
-    },
-    {
-      "disposition": "Disruption",
-      "lists": 15,
-      "play_rate": 15.2,
-      "win_rate": 50.0,
-      "games": 75
+      "lists": 241,
+      "play_rate": 20.2,
+      "win_rate": 49.4,
+      "games": 1238,
+      "first_turn": {
+        "win_rate": 50.1,
+        "games": 619
+      },
+      "second_turn": {
+        "win_rate": 48.7,
+        "games": 619
+      }
     },
     {
       "disposition": "Reconnaissance",
-      "lists": 14,
-      "play_rate": 14.1,
-      "win_rate": 43.6,
-      "games": 70
+      "lists": 217,
+      "play_rate": 18.2,
+      "win_rate": 51.1,
+      "games": 1099,
+      "first_turn": {
+        "win_rate": 50.3,
+        "games": 531
+      },
+      "second_turn": {
+        "win_rate": 51.8,
+        "games": 568
+      }
+    },
+    {
+      "disposition": "Disruption",
+      "lists": 201,
+      "play_rate": 16.9,
+      "win_rate": 48.7,
+      "games": 1009,
+      "first_turn": {
+        "win_rate": 46.0,
+        "games": 501
+      },
+      "second_turn": {
+        "win_rate": 51.3,
+        "games": 508
+      }
     }
   ]
 }

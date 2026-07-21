@@ -85,11 +85,18 @@ function dataRoot(eventType, window) {
 }
 
 async function fetchJSON(path, cacheBust = false) {
+  // Check for nocache URL parameter to force fresh data
+  const params = new URLSearchParams(window.location.search);
+  const forceNoCache = params.has('nocache');
+
   // Use content-hash based cache busting for better invalidation
   const manifest = await loadCacheManifest();
 
   let url = path;
-  if (cacheBust && manifest && Object.keys(manifest).length > 0) {
+  if (forceNoCache) {
+    // Force fresh fetch with timestamp
+    url = `${path}?t=${Date.now()}`;
+  } else if (cacheBust && manifest && Object.keys(manifest).length > 0) {
     // Extract relative path from data/ directory
     const relPath = path.startsWith('data/') ? path.slice(5) : path;
     const hash = manifest[relPath];

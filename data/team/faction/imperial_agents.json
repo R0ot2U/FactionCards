@@ -1,45 +1,160 @@
 {
   "faction": "Imperial Agents",
   "slug": "imperial_agents",
-  "as_of": "2026-05-19",
+  "as_of": "2026-07-20",
   "window_days": 30,
   "event_type": "team",
-  "lists": 1,
-  "games": 5,
-  "play_rate": 0.0,
-  "win_rate": 80.0,
-  "trend_delta": 10.0,
-  "top_detachment": "Freeblade Company",
+  "lists": 3,
+  "games": 15,
+  "play_rate": 0.3,
+  "win_rate": 43.3,
+  "trend_delta": null,
+  "top_detachment": "Imperialis Fleet",
+  "ci_lower": 22.3,
+  "meta_health": "strongly_under",
+  "x0_pct": 0.0,
+  "x1_pct": 33.3,
+  "tournament_wins": 0,
+  "first_turn": {
+    "win_rate": 56.2,
+    "games": 8
+  },
+  "second_turn": {
+    "win_rate": 28.6,
+    "games": 7
+  },
   "detachments": [
     {
-      "detachment": "Freeblade Company",
-      "base_archetype": "Imperial Agents \u2014 Freeblade Company",
+      "detachment": "Imperialis Fleet",
+      "base_archetype": "Imperial Agents \u2014 Imperialis Fleet",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 66.7,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 50.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 58.3,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 37.5,
+        "games": 4
+      }
+    },
+    {
+      "detachment": "Lions Of The Emperor + Silent Hunters",
+      "base_archetype": "Imperial Agents \u2014 Lions Of The Emperor + Silent Hunters",
       "lists": 1,
       "games": 5,
+      "play_rate": 33.3,
+      "win_rate": 30.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 16.7,
+        "games": 3
+      }
+    }
+  ],
+  "dispositions": [
+    {
+      "disposition": "Disruption",
+      "lists": 3,
       "play_rate": 100.0,
-      "win_rate": 80.0
+      "win_rate": 43.3,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "games": 15.0,
+      "first_turn": {
+        "win_rate": 56.2,
+        "games": 8
+      },
+      "second_turn": {
+        "win_rate": 28.6,
+        "games": 7
+      }
+    }
+  ],
+  "disposition_matchups": [],
+  "disposition_cross": [
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Purge the Foe",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 2
+      }
     }
   ],
   "top_players": [
     {
-      "player_name": "Delilah Anderson",
-      "detachment": "Freeblade Company",
-      "list_url": "https://www.bestcoastpairings.com/list/DKWlN3FcfWPa",
+      "player_name": "Ross Tully",
+      "detachment": "Imperialis Fleet",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/JUGvZCsmx5Zk",
       "source": "bcp",
       "wins": 4,
-      "losses": 1,
-      "draws": 0,
+      "losses": 0,
+      "draws": 1,
       "games": 5,
-      "win_rate": 80.0
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "Vagasi Zsombor",
+      "detachment": "Lions Of The Emperor + Silent Hunters",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/SLEqBnMABDQs",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
+      "player_name": "Jake Peterson",
+      "detachment": "Imperialis Fleet",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/IEZaZ7yBcbFU",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 4,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 10.0
     }
   ],
   "matchups": [],
   "timeline": [
     {
-      "week": "2026-W19",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 80.0
+      "week": "2026-W25",
+      "lists": 3,
+      "games": 15,
+      "win_rate": 43.3,
+      "total_lists": 759,
+      "play_rate": 0.4,
+      "first_turn": {
+        "win_rate": 56.2,
+        "games": 8
+      },
+      "second_turn": {
+        "win_rate": 28.6,
+        "games": 7
+      }
     }
   ]
 }
