@@ -1,48 +1,29 @@
 {
   "faction": "Imperial Agents",
   "slug": "imperial_agents",
-  "as_of": "2026-07-21",
+  "as_of": "2026-07-27",
   "window_days": 30,
   "event_type": "team",
   "lists": 3,
   "games": 15,
   "play_rate": 0.3,
-  "win_rate": 43.3,
+  "win_rate": 46.7,
   "trend_delta": null,
-  "top_detachment": "Imperialis Fleet",
-  "ci_lower": 22.3,
+  "top_detachment": "Lions Of The Emperor + Silent Hunters",
+  "ci_lower": 24.8,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
   "x1_pct": 33.3,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 56.2,
-    "games": 8
+    "win_rate": 50.0,
+    "games": 9
   },
   "second_turn": {
-    "win_rate": 28.6,
-    "games": 7
+    "win_rate": 41.7,
+    "games": 6
   },
   "detachments": [
-    {
-      "detachment": "Imperialis Fleet",
-      "base_archetype": "Imperial Agents \u2014 Imperialis Fleet",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 66.7,
-      "win_rate": 50.0,
-      "x0_pct": 0.0,
-      "x1_pct": 50.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 58.3,
-        "games": 6
-      },
-      "second_turn": {
-        "win_rate": 37.5,
-        "games": 4
-      }
-    },
     {
       "detachment": "Lions Of The Emperor + Silent Hunters",
       "base_archetype": "Imperial Agents \u2014 Lions Of The Emperor + Silent Hunters",
@@ -61,45 +42,84 @@
         "win_rate": 16.7,
         "games": 3
       }
+    },
+    {
+      "detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
+      "base_archetype": "Imperial Agents \u2014 Imperialis Fleet + Veiled Blade Elimination Force",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 33.3,
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      }
+    },
+    {
+      "detachment": "Imperialis Fleet",
+      "base_archetype": "Imperial Agents \u2014 Imperialis Fleet",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 33.3,
+      "win_rate": 90.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 87.5,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      }
     }
   ],
   "dispositions": [
     {
       "disposition": "Disruption",
-      "lists": 3,
-      "play_rate": 100.0,
-      "win_rate": 43.3,
+      "lists": 2,
+      "play_rate": 66.7,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
-      "x1_pct": 33.3,
-      "games": 15.0,
+      "x1_pct": 50.0,
+      "games": 10.0,
       "first_turn": {
-        "win_rate": 56.2,
-        "games": 8
+        "win_rate": 75.0,
+        "games": 6
       },
       "second_turn": {
-        "win_rate": 28.6,
-        "games": 7
+        "win_rate": 37.5,
+        "games": 4
       }
-    }
-  ],
-  "disposition_matchups": [],
-  "disposition_cross": [
+    },
     {
-      "disposition": "Disruption",
-      "opponent_disposition": "Purge the Foe",
-      "games": 5,
-      "wins": 2,
-      "win_rate": 50.0,
+      "disposition": "Reconnaissance",
+      "lists": 1,
+      "play_rate": 33.3,
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5.0,
       "first_turn": {
-        "win_rate": 66.7,
+        "win_rate": 0.0,
         "games": 3
       },
       "second_turn": {
-        "win_rate": 25.0,
+        "win_rate": 50.0,
         "games": 2
       }
     }
   ],
+  "disposition_matchups": [],
+  "disposition_cross": [],
   "top_players": [
     {
       "player_name": "Ross Tully",
@@ -126,34 +146,50 @@
       "win_rate": 30.0
     },
     {
-      "player_name": "Jake Peterson",
-      "detachment": "Imperialis Fleet",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/IEZaZ7yBcbFU",
+      "player_name": "Dwayne Preston",
+      "detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/6dgpTGMzkspj",
       "source": "bcp",
-      "wins": 0,
+      "wins": 1,
       "losses": 4,
-      "draws": 1,
+      "draws": 0,
       "games": 5,
-      "win_rate": 10.0
+      "win_rate": 20.0
     }
   ],
   "matchups": [],
   "timeline": [
     {
       "week": "2026-W25",
-      "lists": 3,
-      "games": 15,
-      "win_rate": 43.3,
-      "total_lists": 759,
-      "play_rate": 0.4,
+      "lists": 2,
+      "games": 10,
+      "win_rate": 60.0,
+      "total_lists": 281,
+      "play_rate": 0.7,
       "first_turn": {
-        "win_rate": 56.2,
-        "games": 8
+        "win_rate": 75.0,
+        "games": 6
       },
       "second_turn": {
-        "win_rate": 28.6,
-        "games": 7
+        "win_rate": 37.5,
+        "games": 4
+      }
+    },
+    {
+      "week": "2026-W29",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 20.0,
+      "total_lists": 400,
+      "play_rate": 0.2,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 2
       }
     }
   ]

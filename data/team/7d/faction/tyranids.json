@@ -1,60 +1,98 @@
 {
   "faction": "Tyranids",
   "slug": "tyranids",
-  "as_of": "2026-07-21",
+  "as_of": "2026-07-27",
   "window_days": 7,
   "event_type": "team",
-  "lists": 12,
-  "games": 60,
-  "play_rate": 7.2,
-  "win_rate": 55.0,
-  "trend_delta": -1.2,
-  "top_detachment": "Ambush Predators + Vanguard Onslaught",
-  "ci_lower": 42.5,
-  "meta_health": "strongly_under",
-  "x0_pct": 0.0,
-  "x1_pct": 8.3,
+  "lists": 22,
+  "games": 110,
+  "play_rate": 5.5,
+  "win_rate": 54.5,
+  "trend_delta": -0.5,
+  "top_detachment": "Assimilation Swarm + Talons Of The Norn Queen",
+  "ci_lower": 45.2,
+  "meta_health": "slightly_under",
+  "x0_pct": 4.5,
+  "x1_pct": 22.7,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 58.7,
-    "games": 23
+    "win_rate": 54.3,
+    "games": 58
   },
   "second_turn": {
-    "win_rate": 52.7,
-    "games": 37
+    "win_rate": 54.8,
+    "games": 52
   },
   "detachments": [
     {
-      "detachment": "Ambush Predators + Vanguard Onslaught",
-      "base_archetype": "Tyranids \u2014 Ambush Predators + Vanguard Onslaught",
+      "detachment": "Assimilation Swarm + Talons Of The Norn Queen",
+      "base_archetype": "Tyranids \u2014 Assimilation Swarm + Talons Of The Norn Queen",
       "lists": 5,
       "games": 25,
-      "play_rate": 41.7,
-      "win_rate": 52.0,
+      "play_rate": 22.7,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 20.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 64.3,
-        "games": 7
+        "win_rate": 40.6,
+        "games": 16
       },
       "second_turn": {
-        "win_rate": 47.2,
-        "games": 18
+        "win_rate": 66.7,
+        "games": 9
+      }
+    },
+    {
+      "detachment": "Ambush Predators + Vanguard Onslaught",
+      "base_archetype": "Tyranids \u2014 Ambush Predators + Vanguard Onslaught",
+      "lists": 4,
+      "games": 20,
+      "play_rate": 18.2,
+      "win_rate": 57.5,
+      "x0_pct": 0.0,
+      "x1_pct": 25.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 45.5,
+        "games": 11
+      },
+      "second_turn": {
+        "win_rate": 72.2,
+        "games": 9
       }
     },
     {
       "detachment": "Subterranean Assault",
       "base_archetype": "Tyranids \u2014 Subterranean Assault",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 16.7,
-      "win_rate": 55.0,
-      "x0_pct": 0.0,
+      "lists": 3,
+      "games": 15,
+      "play_rate": 13.6,
+      "win_rate": 40.0,
+      "x0_pct": 33.3,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 50.0,
+        "win_rate": 71.4,
+        "games": 7
+      },
+      "second_turn": {
+        "win_rate": 12.5,
+        "games": 8
+      }
+    },
+    {
+      "detachment": "Invasion Fleet",
+      "base_archetype": "Tyranids \u2014 Invasion Fleet",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 9.1,
+      "win_rate": 65.0,
+      "x0_pct": 0.0,
+      "x1_pct": 50.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 83.3,
         "games": 3
       },
       "second_turn": {
@@ -65,20 +103,20 @@
     {
       "detachment": "Synaptic Nexus + Talons Of The Norn Queen",
       "base_archetype": "Tyranids \u2014 Synaptic Nexus + Talons Of The Norn Queen",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 8.3,
-      "win_rate": 60.0,
+      "lists": 2,
+      "games": 10,
+      "play_rate": 9.1,
+      "win_rate": 45.0,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
+      "x1_pct": 50.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 75.0,
+        "win_rate": 37.5,
         "games": 4
       },
       "second_turn": {
-        "win_rate": 0.0,
-        "games": 1
+        "win_rate": 50.0,
+        "games": 6
       }
     },
     {
@@ -86,172 +124,272 @@
       "base_archetype": "Tyranids \u2014 Crusher Stampede + Talons Of The Norn Queen",
       "lists": 1,
       "games": 5,
-      "play_rate": 8.3,
-      "win_rate": 60.0,
+      "play_rate": 4.5,
+      "win_rate": 90.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 75.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      }
+    },
+    {
+      "detachment": "Assimilation Swarm + Warrior Bioform Onslaught",
+      "base_archetype": "Tyranids \u2014 Assimilation Swarm + Warrior Bioform Onslaught",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 4.5,
+      "win_rate": 80.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 66.7,
+        "win_rate": 83.3,
         "games": 3
       },
       "second_turn": {
-        "win_rate": 50.0,
+        "win_rate": 75.0,
         "games": 2
       }
     },
     {
-      "detachment": "Vanguard Onslaught + Warrior Bioform Onslaught",
-      "base_archetype": "Tyranids \u2014 Vanguard Onslaught + Warrior Bioform Onslaught",
+      "detachment": "Talons Of The Norn Queen + Vanguard Onslaught",
+      "base_archetype": "Tyranids \u2014 Talons Of The Norn Queen + Vanguard Onslaught",
       "lists": 1,
       "games": 5,
-      "play_rate": 8.3,
+      "play_rate": 4.5,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 0.0,
-        "games": 2
+        "win_rate": 50.0,
+        "games": 4
       },
       "second_turn": {
-        "win_rate": 66.7,
-        "games": 3
+        "win_rate": 0.0,
+        "games": 1
       }
     },
     {
-      "detachment": "Assimilation Swarm + Talons Of The Norn Queen",
-      "base_archetype": "Tyranids \u2014 Assimilation Swarm + Talons Of The Norn Queen",
+      "detachment": "Vanguard Onslaught",
+      "base_archetype": "Tyranids \u2014 Vanguard Onslaught",
       "lists": 1,
       "games": 5,
-      "play_rate": 8.3,
+      "play_rate": 4.5,
       "win_rate": 70.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 1
-      },
-      "second_turn": {
         "win_rate": 75.0,
         "games": 4
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 1
       }
     },
     {
-      "detachment": "Invasion Fleet",
-      "base_archetype": "Tyranids \u2014 Invasion Fleet",
+      "detachment": "Synaptic Nexus + Warrior Bioform Onslaught",
+      "base_archetype": "Tyranids \u2014 Synaptic Nexus + Warrior Bioform Onslaught",
       "lists": 1,
       "games": 5,
-      "play_rate": 8.3,
+      "play_rate": 4.5,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 66.7,
-        "games": 3
-      },
-      "second_turn": {
         "win_rate": 50.0,
         "games": 2
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      }
+    },
+    {
+      "detachment": "Ambush Predators + Synaptic Nexus",
+      "base_archetype": "Tyranids \u2014 Ambush Predators + Synaptic Nexus",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 4.5,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
       }
     }
   ],
   "dispositions": [
     {
-      "disposition": "Reconnaissance",
-      "lists": 5,
-      "play_rate": 41.7,
-      "win_rate": 48.0,
+      "disposition": "Take and Hold",
+      "lists": 7,
+      "play_rate": 31.8,
+      "win_rate": 65.7,
       "x0_pct": 0.0,
-      "x1_pct": 20.0,
-      "games": 25.0,
+      "x1_pct": 42.9,
+      "games": 35.0,
       "first_turn": {
-        "win_rate": 43.8,
-        "games": 8
+        "win_rate": 58.3,
+        "games": 18
       },
       "second_turn": {
-        "win_rate": 50.0,
+        "win_rate": 73.5,
         "games": 17
       }
     },
     {
-      "disposition": "Disruption",
-      "lists": 4,
-      "play_rate": 33.3,
-      "win_rate": 57.5,
+      "disposition": "Reconnaissance",
+      "lists": 6,
+      "play_rate": 27.3,
+      "win_rate": 56.7,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 20.0,
+      "x1_pct": 16.7,
+      "games": 30.0,
       "first_turn": {
-        "win_rate": 68.8,
-        "games": 8
+        "win_rate": 52.6,
+        "games": 19
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 12
+        "win_rate": 63.6,
+        "games": 11
       }
     },
     {
-      "disposition": "Take and Hold",
-      "lists": 3,
-      "play_rate": 25.0,
-      "win_rate": 63.3,
-      "x0_pct": 0.0,
+      "disposition": "Disruption",
+      "lists": 6,
+      "play_rate": 27.3,
+      "win_rate": 38.3,
+      "x0_pct": 16.7,
       "x1_pct": 0.0,
-      "games": 15.0,
+      "games": 30.0,
       "first_turn": {
-        "win_rate": 64.3,
-        "games": 7
+        "win_rate": 57.7,
+        "games": 13
       },
       "second_turn": {
-        "win_rate": 62.5,
-        "games": 8
+        "win_rate": 23.5,
+        "games": 17
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "lists": 2,
+      "play_rate": 9.1,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 10.0,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "lists": 1,
+      "play_rate": 4.5,
+      "win_rate": 90.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "games": 5.0,
+      "first_turn": {
+        "win_rate": 75.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 3
       }
     }
   ],
   "disposition_matchups": [
     {
       "opponent_disposition": "Purge the Foe",
-      "games": 17,
-      "wins": 8,
-      "win_rate": 50.0,
+      "games": 30,
+      "wins": 13,
+      "win_rate": 45.0,
       "first_turn": {
-        "win_rate": 35.7,
-        "games": 7
+        "win_rate": 33.3,
+        "games": 12
       },
       "second_turn": {
-        "win_rate": 60.0,
-        "games": 10
+        "win_rate": 52.8,
+        "games": 18
       }
     },
     {
       "opponent_disposition": "Priority Assets",
-      "games": 12,
-      "wins": 8,
-      "win_rate": 70.8,
+      "games": 27,
+      "wins": 11,
+      "win_rate": 40.7,
       "first_turn": {
-        "win_rate": 80.0,
-        "games": 5
+        "win_rate": 41.2,
+        "games": 17
       },
       "second_turn": {
-        "win_rate": 64.3,
-        "games": 7
+        "win_rate": 40.0,
+        "games": 10
       }
     },
     {
       "opponent_disposition": "Reconnaissance",
-      "games": 12,
-      "wins": 6,
-      "win_rate": 50.0,
+      "games": 19,
+      "wins": 12,
+      "win_rate": 65.8,
       "first_turn": {
         "win_rate": 62.5,
-        "games": 4
+        "games": 8
       },
       "second_turn": {
-        "win_rate": 43.8,
-        "games": 8
+        "win_rate": 68.2,
+        "games": 11
+      }
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 17,
+      "wins": 13,
+      "win_rate": 76.5,
+      "first_turn": {
+        "win_rate": 90.9,
+        "games": 11
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 6
+      }
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 17,
+      "wins": 10,
+      "win_rate": 58.8,
+      "first_turn": {
+        "win_rate": 55.0,
+        "games": 10
+      },
+      "second_turn": {
+        "win_rate": 64.3,
+        "games": 7
       }
     }
   ],
@@ -259,85 +397,187 @@
     {
       "disposition": "Disruption",
       "opponent_disposition": "Purge the Foe",
-      "games": 7,
-      "wins": 5,
-      "win_rate": 71.4,
+      "games": 10,
+      "wins": 3,
+      "win_rate": 35.0,
       "first_turn": {
-        "win_rate": 75.0,
-        "games": 2
+        "win_rate": 37.5,
+        "games": 4
       },
       "second_turn": {
-        "win_rate": 70.0,
-        "games": 5
+        "win_rate": 33.3,
+        "games": 6
       }
     },
     {
       "disposition": "Disruption",
       "opponent_disposition": "Priority Assets",
-      "games": 5,
+      "games": 8,
       "wins": 3,
-      "win_rate": 70.0,
+      "win_rate": 37.5,
       "first_turn": {
-        "win_rate": 100.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 50.0,
-        "games": 3
-      }
-    },
-    {
-      "disposition": "Reconnaissance",
-      "opponent_disposition": "Purge the Foe",
-      "games": 7,
-      "wins": 1,
-      "win_rate": 21.4,
-      "first_turn": {
-        "win_rate": 0.0,
+        "win_rate": 66.7,
         "games": 3
       },
       "second_turn": {
-        "win_rate": 37.5,
-        "games": 4
-      }
-    },
-    {
-      "disposition": "Reconnaissance",
-      "opponent_disposition": "Reconnaissance",
-      "games": 7,
-      "wins": 4,
-      "win_rate": 57.1,
-      "first_turn": {
-        "win_rate": 75.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 50.0,
+        "win_rate": 20.0,
         "games": 5
+      }
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Take and Hold",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 60.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 1
       }
     },
     {
       "disposition": "Reconnaissance",
       "opponent_disposition": "Priority Assets",
-      "games": 5,
+      "games": 7,
       "wins": 3,
-      "win_rate": 60.0,
+      "win_rate": 42.9,
       "first_turn": {
+        "win_rate": 40.0,
+        "games": 5
+      },
+      "second_turn": {
         "win_rate": 50.0,
         "games": 2
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Purge the Foe",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 33.3,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Take and Hold",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 58.3,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 2
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Reconnaissance",
+      "games": 5,
+      "wins": 4,
+      "win_rate": 90.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 2
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Disruption",
+      "games": 10,
+      "wins": 9,
+      "win_rate": 90.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 7
       },
       "second_turn": {
         "win_rate": 66.7,
         "games": 3
       }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Purge the Foe",
+      "games": 10,
+      "wins": 6,
+      "win_rate": 60.0,
+      "first_turn": {
+        "win_rate": 16.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 78.6,
+        "games": 7
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Reconnaissance",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 66.7,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Priority Assets",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 33.3,
+      "first_turn": {
+        "win_rate": 40.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 1
+      }
     }
   ],
   "top_players": [
     {
-      "player_name": "Mitch Gleeson",
-      "detachment": "Ambush Predators + Vanguard Onslaught",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/vK2aW5ASm7w5",
+      "player_name": "Bodee Bignell",
+      "detachment": "Subterranean Assault",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/pZR23h8mKGmu",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Daire O'Mahony",
+      "detachment": "Crusher Stampede + Talons Of The Norn Queen",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/v6K5WYPAgdQm",
       "source": "bcp",
       "wins": 4,
       "losses": 0,
@@ -346,10 +586,22 @@
       "win_rate": 90.0
     },
     {
-      "player_name": "Logan Frech",
-      "detachment": "Ambush Predators + Vanguard Onslaught",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/uRAKsMv2Snm7",
+      "player_name": "Ben Keogh",
+      "detachment": "Assimilation Swarm + Warrior Bioform Onslaught",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/lcLLqa2apMUl",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 0,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Hugo Richardson",
+      "detachment": "Synaptic Nexus + Talons Of The Norn Queen",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/UPILxdEuH6sW",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -358,22 +610,46 @@
       "win_rate": 80.0
     },
     {
-      "player_name": "Richard Gauthier",
-      "detachment": "Subterranean Assault",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/kdjvemTre54D",
+      "player_name": "Joshua McAndrew",
+      "detachment": "Ambush Predators + Vanguard Onslaught",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/8r8RCojR4O7f",
       "source": "bcp",
-      "wins": 2,
-      "losses": 0,
-      "draws": 3,
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
       "games": 5,
-      "win_rate": 70.0
+      "win_rate": 80.0
     },
     {
-      "player_name": "Craig Hodgson",
+      "player_name": "Dan Nelson",
       "detachment": "Assimilation Swarm + Talons Of The Norn Queen",
       "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/Rd8wdgvaXaFx",
+      "list_url": "https://www.bestcoastpairings.com/list/wySMOcllLwrf",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Matt Dewar",
+      "detachment": "Invasion Fleet",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/I5NiHss76Non",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Filip Zakrocki",
+      "detachment": "Ambush Predators + Vanguard Onslaught",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/yLowPZBQHJ63",
       "source": "bcp",
       "wins": 3,
       "losses": 1,
@@ -382,34 +658,22 @@
       "win_rate": 70.0
     },
     {
-      "player_name": "Tieran Pauze",
-      "detachment": "Synaptic Nexus + Talons Of The Norn Queen",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/8kFcgcsPrqC8",
+      "player_name": "Scott Lawrence",
+      "detachment": "Vanguard Onslaught",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/OsWUDECmjmL3",
       "source": "bcp",
       "wins": 3,
-      "losses": 2,
-      "draws": 0,
+      "losses": 1,
+      "draws": 1,
       "games": 5,
-      "win_rate": 60.0
+      "win_rate": 70.0
     },
     {
-      "player_name": "Austin Bennett-Bigeau",
-      "detachment": "Crusher Stampede + Talons Of The Norn Queen",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/aoe02g2c35p7",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Stephan Bedford",
+      "player_name": "Mateusz Oswiecinski",
       "detachment": "Ambush Predators + Vanguard Onslaught",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/aBiXlHAy8nUp",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/LfGl1t7Mtg6A",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -418,22 +682,46 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Luke Beazley",
+      "player_name": "Sam Lemin",
+      "detachment": "Synaptic Nexus + Warrior Bioform Onslaught",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/Kc7FYdwsN76r",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Fraser Keetley",
+      "detachment": "Assimilation Swarm + Talons Of The Norn Queen",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/RTPdAOAis15D",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Fionn\u00e1n Mulvey",
       "detachment": "Invasion Fleet",
       "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/h1MxnrEVRdkH",
+      "list_url": "https://www.bestcoastpairings.com/list/sHU7SbLCjAFV",
       "source": "bcp",
-      "wins": 3,
+      "wins": 2,
       "losses": 2,
-      "draws": 0,
+      "draws": 1,
       "games": 5,
-      "win_rate": 60.0
+      "win_rate": 50.0
     },
     {
-      "player_name": "Harry Lees",
-      "detachment": "Subterranean Assault",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/sUlPxm1DkQSN",
+      "player_name": "Paul Maher",
+      "detachment": "Talons Of The Norn Queen + Vanguard Onslaught",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/PjfwuMYihe2A",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -442,87 +730,235 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Joshua A Bradwell",
-      "detachment": "Vanguard Onslaught + Warrior Bioform Onslaught",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/bFwI5tvhdonB",
+      "player_name": "Alexander Bedford",
+      "detachment": "Assimilation Swarm + Talons Of The Norn Queen",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/r4sFpt8on1Lv",
       "source": "bcp",
-      "wins": 1,
-      "losses": 2,
-      "draws": 2,
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
       "games": 5,
       "win_rate": 40.0
     },
     {
-      "player_name": "Mike Cosby",
+      "player_name": "Stephen Connors",
+      "detachment": "Ambush Predators + Synaptic Nexus",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/ktfBvQ8fszmg",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Gabe French",
+      "detachment": "Assimilation Swarm + Talons Of The Norn Queen",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/7wrek4rPZmA5",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Nick Kelly",
+      "detachment": "Assimilation Swarm + Talons Of The Norn Queen",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/icYoWTZsSuXI",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
+      "player_name": "Memphis Thorpe",
       "detachment": "Ambush Predators + Vanguard Onslaught",
       "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/02dru4aZFTN1",
+      "list_url": "https://www.bestcoastpairings.com/list/fd3OI4BSfcLq",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 3,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Mike Emery",
+      "detachment": "Subterranean Assault",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/WZdpvdBCwhvy",
       "source": "bcp",
       "wins": 1,
       "losses": 4,
       "draws": 0,
       "games": 5,
       "win_rate": 20.0
-    },
-    {
-      "player_name": "Ben Spiers",
-      "detachment": "Ambush Predators + Vanguard Onslaught",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/KaWFJcbRAFqB",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 4,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 10.0
     }
   ],
   "matchups": [
     {
-      "opponent_faction": "Necrons",
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 11,
+      "wins": 6,
+      "win_rate": 59.1,
+      "first_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 7
+      }
+    },
+    {
+      "opponent_faction": "Imperial Knights",
+      "games": 10,
+      "wins": 3,
+      "win_rate": 30.0,
+      "first_turn": {
+        "win_rate": 40.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 20.0,
+        "games": 5
+      }
+    },
+    {
+      "opponent_faction": "World Eaters",
+      "games": 8,
+      "wins": 2,
+      "win_rate": 25.0,
+      "first_turn": {
+        "win_rate": 20.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
+    },
+    {
+      "opponent_faction": "Adeptus Custodes",
+      "games": 8,
+      "wins": 5,
+      "win_rate": 62.5,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      }
+    },
+    {
+      "opponent_faction": "Death Guard",
+      "games": 8,
+      "wins": 7,
+      "win_rate": 87.5,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      }
+    },
+    {
+      "opponent_faction": "T'au Empire",
       "games": 7,
       "wins": 3,
       "win_rate": 42.9,
       "first_turn": {
-        "win_rate": 100.0,
-        "games": 1
+        "win_rate": 0.0,
+        "games": 2
       },
       "second_turn": {
-        "win_rate": 33.3,
-        "games": 6
+        "win_rate": 60.0,
+        "games": 5
       }
     },
     {
-      "opponent_faction": "Drukhari",
-      "games": 5,
-      "wins": 3,
-      "win_rate": 70.0,
+      "opponent_faction": "Chaos Space Marines",
+      "games": 7,
+      "wins": 5,
+      "win_rate": 71.4,
       "first_turn": {
-        "win_rate": null,
-        "games": 0
+        "win_rate": 100.0,
+        "games": 4
       },
       "second_turn": {
-        "win_rate": 70.0,
-        "games": 5
+        "win_rate": 33.3,
+        "games": 3
+      }
+    },
+    {
+      "opponent_faction": "Thousand Sons",
+      "games": 6,
+      "wins": 1,
+      "win_rate": 16.7,
+      "first_turn": {
+        "win_rate": 12.5,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 2
+      }
+    },
+    {
+      "opponent_faction": "Orks",
+      "games": 6,
+      "wins": 5,
+      "win_rate": 91.7,
+      "first_turn": {
+        "win_rate": 87.5,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      }
+    },
+    {
+      "opponent_faction": "Necrons",
+      "games": 5,
+      "wins": 4,
+      "win_rate": 80.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 3
       }
     }
   ],
   "timeline": [
     {
-      "week": "2026-W28",
-      "lists": 12,
-      "games": 60,
-      "win_rate": 55.0,
-      "total_lists": 167,
-      "play_rate": 7.2,
+      "week": "2026-W29",
+      "lists": 22,
+      "games": 110,
+      "win_rate": 54.5,
+      "total_lists": 400,
+      "play_rate": 5.5,
       "first_turn": {
-        "win_rate": 58.7,
-        "games": 23
+        "win_rate": 54.3,
+        "games": 58
       },
       "second_turn": {
-        "win_rate": 52.7,
-        "games": 37
+        "win_rate": 54.8,
+        "games": 52
       }
     }
   ]

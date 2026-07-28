@@ -1,38 +1,57 @@
 {
   "faction": "Black Templars",
   "slug": "black_templars",
-  "as_of": "2026-07-21",
+  "as_of": "2026-07-27",
   "window_days": 7,
   "event_type": "team",
   "lists": 2,
   "games": 10,
-  "play_rate": 1.2,
-  "win_rate": 75.0,
+  "play_rate": 0.5,
+  "win_rate": 35.0,
   "trend_delta": null,
-  "top_detachment": "Companions Of Vehemence + Wrathful Procession",
-  "ci_lower": 44.2,
+  "top_detachment": "Bastion Task Force",
+  "ci_lower": 13.7,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 50.0,
+  "x1_pct": 0.0,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": null,
-    "games": 0
+    "win_rate": 66.7,
+    "games": 3
   },
   "second_turn": {
-    "win_rate": null,
-    "games": 0
+    "win_rate": 75.0,
+    "games": 2
   },
   "detachments": [
     {
+      "detachment": "Bastion Task Force",
+      "base_archetype": "Black Templars \u2014 Bastion Task Force",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 50.0,
+      "win_rate": 70.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 2
+      }
+    },
+    {
       "detachment": "Companions Of Vehemence + Wrathful Procession",
       "base_archetype": "Black Templars \u2014 Companions Of Vehemence + Wrathful Procession",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 100.0,
-      "win_rate": 75.0,
+      "lists": 1,
+      "games": 5,
+      "play_rate": 50.0,
+      "win_rate": 0.0,
       "x0_pct": 0.0,
-      "x1_pct": 50.0,
+      "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
         "win_rate": null,
@@ -49,7 +68,24 @@
       "disposition": "Take and Hold",
       "lists": 1,
       "play_rate": 50.0,
-      "win_rate": 60.0,
+      "win_rate": 70.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5.0,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 2
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "lists": 1,
+      "play_rate": 50.0,
+      "win_rate": 0.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "games": 5.0,
@@ -58,25 +94,8 @@
         "games": 1
       },
       "second_turn": {
-        "win_rate": 75.0,
+        "win_rate": 0.0,
         "games": 4
-      }
-    },
-    {
-      "disposition": "Purge the Foe",
-      "lists": 1,
-      "play_rate": 50.0,
-      "win_rate": 90.0,
-      "x0_pct": 0.0,
-      "x1_pct": 100.0,
-      "games": 5.0,
-      "first_turn": {
-        "win_rate": 87.5,
-        "games": 4
-      },
-      "second_turn": {
-        "win_rate": 100.0,
-        "games": 1
       }
     }
   ],
@@ -84,46 +103,46 @@
   "disposition_cross": [],
   "top_players": [
     {
-      "player_name": "Kyle Hodson",
-      "detachment": "Companions Of Vehemence + Wrathful Procession",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/teBZUikderYy",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 0,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Preston Morrar",
-      "detachment": "Companions Of Vehemence + Wrathful Procession",
+      "player_name": "Shane Porter",
+      "detachment": "Bastion Task Force",
       "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/uynSF9tbduzU",
+      "list_url": "https://www.bestcoastpairings.com/list/x3QegfbVF2Cu",
       "source": "bcp",
       "wins": 3,
-      "losses": 2,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Alex McGinn",
+      "detachment": "Companions Of Vehemence + Wrathful Procession",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/I9VOHOIiRFL7",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 5,
       "draws": 0,
       "games": 5,
-      "win_rate": 60.0
+      "win_rate": 0.0
     }
   ],
   "matchups": [],
   "timeline": [
     {
-      "week": "2026-W28",
+      "week": "2026-W29",
       "lists": 2,
       "games": 10,
-      "win_rate": 75.0,
-      "total_lists": 167,
-      "play_rate": 1.2,
+      "win_rate": 35.0,
+      "total_lists": 400,
+      "play_rate": 0.5,
       "first_turn": {
-        "win_rate": 70.0,
-        "games": 5
+        "win_rate": 50.0,
+        "games": 4
       },
       "second_turn": {
-        "win_rate": 80.0,
-        "games": 5
+        "win_rate": 25.0,
+        "games": 6
       }
     }
   ]

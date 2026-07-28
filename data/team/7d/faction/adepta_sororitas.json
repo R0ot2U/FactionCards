@@ -1,99 +1,237 @@
 {
   "faction": "Adepta Sororitas",
   "slug": "adepta_sororitas",
-  "as_of": "2026-07-21",
+  "as_of": "2026-07-27",
   "window_days": 7,
   "event_type": "team",
-  "lists": 4,
-  "games": 20,
-  "play_rate": 2.4,
-  "win_rate": 47.5,
-  "trend_delta": 20.0,
+  "lists": 12,
+  "games": 60,
+  "play_rate": 3.0,
+  "win_rate": 36.7,
+  "trend_delta": -10.8,
   "top_detachment": "Army Of Faith + Chorus Of Condemnation",
-  "ci_lower": 27.9,
+  "ci_lower": 25.6,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 25.0,
+  "x1_pct": 0.0,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 41.7,
-    "games": 12
+    "win_rate": 38.9,
+    "games": 27
   },
   "second_turn": {
-    "win_rate": 56.2,
-    "games": 8
+    "win_rate": 34.8,
+    "games": 33
   },
   "detachments": [
     {
       "detachment": "Army Of Faith + Chorus Of Condemnation",
       "base_archetype": "Adepta Sororitas \u2014 Army Of Faith + Chorus Of Condemnation",
+      "lists": 4,
+      "games": 20,
+      "play_rate": 33.3,
+      "win_rate": 37.5,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 43.8,
+        "games": 8
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 12
+      }
+    },
+    {
+      "detachment": "Army Of Faith + Sacred Champions",
+      "base_archetype": "Adepta Sororitas \u2014 Army Of Faith + Sacred Champions",
       "lists": 2,
       "games": 10,
-      "play_rate": 50.0,
-      "win_rate": 80.0,
-      "x0_pct": 0.0,
-      "x1_pct": 50.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 66.7,
-        "games": 6
-      },
-      "second_turn": {
-        "win_rate": 100.0,
-        "games": 4
-      }
-    },
-    {
-      "detachment": "No Detachment",
-      "base_archetype": "Adepta Sororitas \u2014 No Detachment",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 25.0,
-      "win_rate": 30.0,
+      "play_rate": 16.7,
+      "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": null,
-        "games": 0
+        "win_rate": 20.0,
+        "games": 5
       },
       "second_turn": {
-        "win_rate": null,
-        "games": 0
+        "win_rate": 20.0,
+        "games": 5
       }
     },
     {
-      "detachment": "Penitent Host",
-      "base_archetype": "Adepta Sororitas \u2014 Penitent Host",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 25.0,
-      "win_rate": 0.0,
+      "detachment": "Bringers Of Flame + Chorus Of Condemnation",
+      "base_archetype": "Adepta Sororitas \u2014 Bringers Of Flame + Chorus Of Condemnation",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 16.7,
+      "win_rate": 45.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 0.0,
-        "games": 2
+        "win_rate": 42.9,
+        "games": 7
       },
       "second_turn": {
+        "win_rate": 50.0,
+        "games": 3
+      }
+    },
+    {
+      "detachment": "Hallowed Martyrs",
+      "base_archetype": "Adepta Sororitas \u2014 Hallowed Martyrs",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 16.7,
+      "win_rate": 25.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
         "win_rate": 0.0,
         "games": 3
+      },
+      "second_turn": {
+        "win_rate": 35.7,
+        "games": 7
+      }
+    },
+    {
+      "detachment": "Bringers Of Flame + Sanctified Orators",
+      "base_archetype": "Adepta Sororitas \u2014 Bringers Of Flame + Sanctified Orators",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 8.3,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": 40.0,
+        "games": 5
+      }
+    },
+    {
+      "detachment": "Chorus Of Condemnation + Sacred Champions + Sanctified Orators",
+      "base_archetype": "Adepta Sororitas \u2014 Chorus Of Condemnation + Sacred Champions + Sanctified Orators",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 8.3,
+      "win_rate": 70.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 1
       }
     }
   ],
   "dispositions": [
     {
+      "disposition": "Reconnaissance",
+      "lists": 5,
+      "play_rate": 41.7,
+      "win_rate": 36.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 25.0,
+      "first_turn": {
+        "win_rate": 39.3,
+        "games": 14
+      },
+      "second_turn": {
+        "win_rate": 31.8,
+        "games": 11
+      }
+    },
+    {
       "disposition": "Take and Hold",
       "lists": 3,
-      "play_rate": 75.0,
-      "win_rate": 36.7,
+      "play_rate": 25.0,
+      "win_rate": 33.3,
       "x0_pct": 0.0,
-      "x1_pct": 33.3,
+      "x1_pct": 0.0,
       "games": 15.0,
       "first_turn": {
-        "win_rate": 25.0,
-        "games": 8
+        "win_rate": 33.3,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 9
+      }
+    },
+    {
+      "disposition": "Disruption",
+      "lists": 2,
+      "play_rate": 16.7,
+      "win_rate": 55.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 10.0,
+      "first_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 41.7,
+        "games": 6
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "lists": 2,
+      "play_rate": 16.7,
+      "win_rate": 25.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 10.0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 35.7,
+        "games": 7
+      }
+    }
+  ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 15,
+      "wins": 7,
+      "win_rate": 46.7,
+      "first_turn": {
+        "win_rate": 83.3,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 22.2,
+        "games": 9
+      }
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 13,
+      "wins": 5,
+      "win_rate": 42.3,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 6
       },
       "second_turn": {
         "win_rate": 50.0,
@@ -101,71 +239,213 @@
       }
     },
     {
-      "disposition": "Reconnaissance",
-      "lists": 1,
-      "play_rate": 25.0,
-      "win_rate": 80.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 5.0,
+      "opponent_disposition": "Take and Hold",
+      "games": 12,
+      "wins": 2,
+      "win_rate": 20.8,
       "first_turn": {
-        "win_rate": 75.0,
-        "games": 4
+        "win_rate": 16.7,
+        "games": 6
       },
       "second_turn": {
-        "win_rate": 100.0,
-        "games": 1
+        "win_rate": 25.0,
+        "games": 6
+      }
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 11,
+      "wins": 4,
+      "win_rate": 36.4,
+      "first_turn": {
+        "win_rate": 20.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 6
       }
     }
   ],
-  "disposition_matchups": [],
   "disposition_cross": [
     {
-      "disposition": "Take and Hold",
+      "disposition": "Reconnaissance",
       "opponent_disposition": "Take and Hold",
-      "games": 5,
-      "wins": 0,
-      "win_rate": 0.0,
+      "games": 7,
+      "wins": 1,
+      "win_rate": 21.4,
       "first_turn": {
-        "win_rate": 0.0,
+        "win_rate": 25.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 16.7,
+        "games": 3
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Disruption",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 41.7,
+      "first_turn": {
+        "win_rate": 33.3,
         "games": 3
       },
       "second_turn": {
+        "win_rate": 50.0,
+        "games": 3
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Purge the Foe",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 75.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 3
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Priority Assets",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 41.7,
+      "first_turn": {
         "win_rate": 0.0,
         "games": 2
+      },
+      "second_turn": {
+        "win_rate": 62.5,
+        "games": 4
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Purge the Foe",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 41.7,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 12.5,
+        "games": 4
       }
     }
   ],
   "top_players": [
     {
-      "player_name": "Erich Kreutzmann",
+      "player_name": "Mathew Fenech",
+      "detachment": "Chorus Of Condemnation + Sacred Champions + Sanctified Orators",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/f8KwgAtxyT4F",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Aiden D",
+      "detachment": "Army Of Faith + Chorus Of Condemnation",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/vcvKH0kQvj5U",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Alex Crawford",
+      "detachment": "Bringers Of Flame + Chorus Of Condemnation",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/RrQknqODE6Ju",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 2,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 50.0
+    },
+    {
+      "player_name": "James Atchison",
+      "detachment": "Army Of Faith + Sacred Champions",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/kJD6KpTbvabU",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 2,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Peter Dunlea",
+      "detachment": "Bringers Of Flame + Sanctified Orators",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/U4CDBTIbfOfW",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Damien Barnett",
       "detachment": "Army Of Faith + Chorus Of Condemnation",
       "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/VNv6dxpdBeJY",
+      "list_url": "https://www.bestcoastpairings.com/list/vHJ3Ub0uhvk8",
       "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
+      "wins": 1,
+      "losses": 2,
+      "draws": 2,
       "games": 5,
-      "win_rate": 80.0
+      "win_rate": 40.0
     },
     {
-      "player_name": "Doug Tabor",
+      "player_name": "Kurt Macklin",
+      "detachment": "Hallowed Martyrs",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/30toD7vSjRR6",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Vincent Greensides",
+      "detachment": "Bringers Of Flame + Chorus Of Condemnation",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/srG7LGEUzBJz",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Chris Sloane",
       "detachment": "Army Of Faith + Chorus Of Condemnation",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/8dFdZezyHs2m",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Klimpen Halasz",
-      "detachment": "No Detachment",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/7QI3L1aKbOsp",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/yGbh1iamUYbm",
       "source": "bcp",
       "wins": 1,
       "losses": 3,
@@ -174,10 +454,34 @@
       "win_rate": 30.0
     },
     {
-      "player_name": "mitch barnden",
-      "detachment": "Penitent Host",
+      "player_name": "Andrew Lambert",
+      "detachment": "Army Of Faith + Chorus Of Condemnation",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/KiplzUtDEh5z",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Ciaran Deem",
+      "detachment": "Hallowed Martyrs",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/kCHadOZtxe43",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 4,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 10.0
+    },
+    {
+      "player_name": "Peteru Lesa",
+      "detachment": "Army Of Faith + Sacred Champions",
       "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/E2relRxh8qpp",
+      "list_url": "https://www.bestcoastpairings.com/list/T8lmwI7PnDuZ",
       "source": "bcp",
       "wins": 0,
       "losses": 5,
@@ -186,22 +490,65 @@
       "win_rate": 0.0
     }
   ],
-  "matchups": [],
-  "timeline": [
+  "matchups": [
     {
-      "week": "2026-W28",
-      "lists": 4,
-      "games": 20,
-      "win_rate": 47.5,
-      "total_lists": 167,
-      "play_rate": 2.4,
+      "opponent_faction": "Adeptus Custodes",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 42.9,
       "first_turn": {
-        "win_rate": 41.7,
-        "games": 12
+        "win_rate": 33.3,
+        "games": 3
       },
       "second_turn": {
-        "win_rate": 56.2,
-        "games": 8
+        "win_rate": 50.0,
+        "games": 4
+      }
+    },
+    {
+      "opponent_faction": "Imperial Knights",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
+    },
+    {
+      "opponent_faction": "Orks",
+      "games": 5,
+      "wins": 0,
+      "win_rate": 0.0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "week": "2026-W29",
+      "lists": 12,
+      "games": 60,
+      "win_rate": 36.7,
+      "total_lists": 400,
+      "play_rate": 3.0,
+      "first_turn": {
+        "win_rate": 38.9,
+        "games": 27
+      },
+      "second_turn": {
+        "win_rate": 34.8,
+        "games": 33
       }
     }
   ]

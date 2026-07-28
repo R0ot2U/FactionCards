@@ -4,6 +4,7 @@ let allTournaments = [];
 let mapData = [];
 let currentEventType = getEventType();
 let currentWindow = getWindow();
+let currentDataslateEra = getDataslateEra();
 let currentSortCol = 1;  // Default to date column
 let currentSortDir = -1; // -1 = desc, 1 = asc
 let manifest = {};
@@ -264,6 +265,9 @@ async function init() {
   document.querySelectorAll("#window-btns .btn").forEach(b => {
     b.classList.toggle("active", b.dataset.val === currentWindow);
   });
+  document.querySelectorAll("#dataslate-btns .btn").forEach(b => {
+    b.classList.toggle("active", b.dataset.val === currentDataslateEra);
+  });
 
   // Filter map data to match current window
   const tournamentIds = new Set(allTournaments.map(t => t.event_id));
@@ -347,12 +351,50 @@ async function init() {
     });
   });
 
+  // Dataslate era buttons — client-side filter (no new data fetch)
+  document.querySelectorAll("#dataslate-btns .btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const newEra = btn.dataset.val;
+      if (newEra === currentDataslateEra) return;
+
+      document.querySelectorAll("#dataslate-btns .btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      currentDataslateEra = newEra;
+
+      // Update URL without reload
+      const url = new URL(window.location);
+      if (newEra === "all") {
+        url.searchParams.delete("dataslate_era");
+      } else {
+        url.searchParams.set("dataslate_era", newEra);
+      }
+      history.replaceState(null, "", url);
+
+      expandedRows.clear(); // Reset expanded state
+
+      // Re-render table and map with filtered data
+      renderTable();
+
+      // Filter map data to match current filters
+      const rows = filteredTournaments();
+      const tournamentIds = new Set(rows.map(t => t.event_id));
+      const filteredMapData = mapData.filter(e => tournamentIds.has(e.event_id));
+      lazyRenderMap(filteredMapData);
+    });
+  });
+
 }
 
 function filteredTournaments() {
   const q = (document.getElementById("search").value || "").toLowerCase().trim();
   let rows = allTournaments;
   if (q) rows = rows.filter(r => r.event_name.toLowerCase().includes(q));
+
+  // Apply dataslate era filter
+  if (currentDataslateEra !== "all") {
+    rows = rows.filter(r => r.dataslate_era === currentDataslateEra);
+  }
+
   return sortRowsByColumn(rows);
 }
 
@@ -424,11 +466,16 @@ function renderTable() {
       ? `<a href="${r.event_url}" target="_blank" rel="noopener" style="color:var(--text);" onclick="event.stopPropagation();">${r.event_name} ↗</a>`
       : r.event_name;
 
+    // Dataslate era badge
+    const eraBadge = r.dataslate_era === "2026-07-22"
+      ? `<span style="display:inline-block;background:var(--accent);color:var(--bg);font-size:0.65rem;padding:0.15rem 0.35rem;border-radius:3px;margin-left:0.5rem;font-weight:600;vertical-align:middle;" title="First Dataslate (2026-07-22+)">DS1</span>`
+      : "";
+
     htmlRows.push(`
       <tr class="tournament-row" style="cursor:pointer;">
         <td onclick="toggleExpanded('${r.event_id}')">
           <span style="color:var(--dim);margin-right:0.5rem;">${expandIcon}</span>
-          ${eventLink}
+          ${eventLink}${eraBadge}
         </td>
         <td data-sort="${r.date}" onclick="toggleExpanded('${r.event_id}')">${r.date}</td>
         <td data-sort="${r.players}" onclick="toggleExpanded('${r.event_id}')">${r.players || '—'}</td>

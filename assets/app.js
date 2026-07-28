@@ -34,6 +34,12 @@ function getWindow() {
   return SUPPORTED_WINDOWS.includes(w) ? w : DEFAULT_WINDOW;
 }
 
+function getDataslateEra() {
+  const params = new URLSearchParams(window.location.search);
+  const era = params.get("dataslate_era") || "all";
+  return ["all", "launch", "2026-07-22"].includes(era) ? era : "all";
+}
+
 // Turn filter state (all | first | second)
 let turnFilter = getTurnFilter();
 

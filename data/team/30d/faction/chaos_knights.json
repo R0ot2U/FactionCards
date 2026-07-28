@@ -1,103 +1,84 @@
 {
   "faction": "Chaos Knights",
   "slug": "chaos_knights",
-  "as_of": "2026-07-21",
+  "as_of": "2026-07-27",
   "window_days": 30,
   "event_type": "team",
-  "lists": 34,
-  "games": 170,
+  "lists": 32,
+  "games": 160,
   "play_rate": 2.9,
-  "win_rate": 37.4,
-  "trend_delta": 33.8,
-  "top_detachment": "Infernal Lance",
-  "ci_lower": 30.4,
+  "win_rate": 31.9,
+  "trend_delta": -6.8,
+  "top_detachment": "Bastions Of Tyranny + Lords Of Dread",
+  "ci_lower": 25.2,
   "meta_health": "strongly_under",
-  "x0_pct": 2.9,
-  "x1_pct": 5.9,
+  "x0_pct": 0.0,
+  "x1_pct": 3.1,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 38.2,
-    "games": 72
+    "win_rate": 30.2,
+    "games": 81
   },
   "second_turn": {
-    "win_rate": 36.7,
-    "games": 98
+    "win_rate": 33.5,
+    "games": 79
   },
   "detachments": [
     {
-      "detachment": "Infernal Lance",
-      "base_archetype": "Chaos Knights \u2014 Infernal Lance",
+      "detachment": "Bastions Of Tyranny + Lords Of Dread",
+      "base_archetype": "Chaos Knights \u2014 Bastions Of Tyranny + Lords Of Dread",
       "lists": 7,
       "games": 35,
-      "play_rate": 20.6,
-      "win_rate": 40.0,
+      "play_rate": 21.9,
+      "win_rate": 41.4,
       "x0_pct": 0.0,
       "x1_pct": 14.3,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 33.3,
-        "games": 15
+        "win_rate": 38.9,
+        "games": 18
       },
       "second_turn": {
-        "win_rate": 45.0,
-        "games": 20
-      }
-    },
-    {
-      "detachment": "Houndpack Lance + Iconoclast Fiefdom",
-      "base_archetype": "Chaos Knights \u2014 Houndpack Lance + Iconoclast Fiefdom",
-      "lists": 5,
-      "games": 25,
-      "play_rate": 14.7,
-      "win_rate": 32.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 43.8,
-        "games": 8
-      },
-      "second_turn": {
-        "win_rate": 26.5,
+        "win_rate": 44.1,
         "games": 17
       }
     },
     {
-      "detachment": "Bastions Of Tyranny + Lords Of Dread",
-      "base_archetype": "Chaos Knights \u2014 Bastions Of Tyranny + Lords Of Dread",
-      "lists": 5,
-      "games": 25,
-      "play_rate": 14.7,
-      "win_rate": 38.0,
-      "x0_pct": 0.0,
-      "x1_pct": 20.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 36.4,
-        "games": 11
-      },
-      "second_turn": {
-        "win_rate": 39.3,
-        "games": 14
-      }
-    },
-    {
-      "detachment": "Hunting Warpack + Lords Of Dread",
-      "base_archetype": "Chaos Knights \u2014 Hunting Warpack + Lords Of Dread",
-      "lists": 3,
-      "games": 15,
-      "play_rate": 8.8,
+      "detachment": "Infernal Lance",
+      "base_archetype": "Chaos Knights \u2014 Infernal Lance",
+      "lists": 6,
+      "games": 30,
+      "play_rate": 18.8,
       "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 44.4,
-        "games": 9
+        "win_rate": 26.3,
+        "games": 19
       },
       "second_turn": {
-        "win_rate": 8.3,
-        "games": 6
+        "win_rate": 36.4,
+        "games": 11
+      }
+    },
+    {
+      "detachment": "Houndpack Lance + Iconoclast Fiefdom",
+      "base_archetype": "Chaos Knights \u2014 Houndpack Lance + Iconoclast Fiefdom",
+      "lists": 4,
+      "games": 20,
+      "play_rate": 12.5,
+      "win_rate": 27.5,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 10.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 15
       }
     },
     {
@@ -105,18 +86,37 @@
       "base_archetype": "Chaos Knights \u2014 Iconoclast Fiefdom + Lords Of Dread",
       "lists": 2,
       "games": 10,
-      "play_rate": 5.9,
+      "play_rate": 6.2,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 66.7,
-        "games": 6
+        "win_rate": 80.0,
+        "games": 5
       },
       "second_turn": {
-        "win_rate": 25.0,
-        "games": 4
+        "win_rate": 20.0,
+        "games": 5
+      }
+    },
+    {
+      "detachment": "Hunting Warpack + Traitoris Lance",
+      "base_archetype": "Chaos Knights \u2014 Hunting Warpack + Traitoris Lance",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 6.2,
+      "win_rate": 10.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 14.3,
+        "games": 7
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 3
       }
     },
     {
@@ -124,7 +124,7 @@
       "base_archetype": "Chaos Knights \u2014 No Detachment",
       "lists": 2,
       "games": 10,
-      "play_rate": 5.9,
+      "play_rate": 6.2,
       "win_rate": 10.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -136,25 +136,6 @@
       "second_turn": {
         "win_rate": null,
         "games": 0
-      }
-    },
-    {
-      "detachment": "Bastions Of Tyranny + Traitoris Lance",
-      "base_archetype": "Chaos Knights \u2014 Bastions Of Tyranny + Traitoris Lance",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 5.9,
-      "win_rate": 10.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 10.0,
-        "games": 5
-      },
-      "second_turn": {
-        "win_rate": 10.0,
-        "games": 5
       }
     },
     {
@@ -162,7 +143,7 @@
       "base_archetype": "Chaos Knights \u2014 Helhunt Lance + Iconoclast Fiefdom",
       "lists": 2,
       "games": 10,
-      "play_rate": 5.9,
+      "play_rate": 6.2,
       "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -181,7 +162,7 @@
       "base_archetype": "Chaos Knights \u2014 Helhunt Lance + Hunting Warpack",
       "lists": 2,
       "games": 10,
-      "play_rate": 5.9,
+      "play_rate": 6.2,
       "win_rate": 45.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -196,238 +177,257 @@
       }
     },
     {
-      "detachment": "Bastions Of Tyranny + Hunting Warpack + Iconoclast Fiefdom",
-      "base_archetype": "Chaos Knights \u2014 Bastions Of Tyranny + Hunting Warpack + Iconoclast Fiefdom",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 2.9,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 66.7,
-        "games": 3
-      }
-    },
-    {
-      "detachment": "Hunting Warpack + Traitoris Lance",
-      "base_archetype": "Chaos Knights \u2014 Hunting Warpack + Traitoris Lance",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 2.9,
-      "win_rate": 100.0,
-      "x0_pct": 100.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 100.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 100.0,
-        "games": 3
-      }
-    },
-    {
       "detachment": "Bastions Of Tyranny + Houndpack Lance",
       "base_archetype": "Chaos Knights \u2014 Bastions Of Tyranny + Houndpack Lance",
       "lists": 1,
       "games": 5,
-      "play_rate": 2.9,
-      "win_rate": 40.0,
+      "play_rate": 3.1,
+      "win_rate": 10.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 16.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      }
+    },
+    {
+      "detachment": "Bastions Of Tyranny + Traitoris Lance",
+      "base_archetype": "Chaos Knights \u2014 Bastions Of Tyranny + Traitoris Lance",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 3.1,
+      "win_rate": 10.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
         "win_rate": 0.0,
-        "games": 1
+        "games": 3
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 4
+        "win_rate": 25.0,
+        "games": 2
       }
     },
     {
-      "detachment": "Helhunt Lance",
-      "base_archetype": "Chaos Knights \u2014 Helhunt Lance",
+      "detachment": "Iconoclast Fiefdom + Traitoris Lance",
+      "base_archetype": "Chaos Knights \u2014 Iconoclast Fiefdom + Traitoris Lance",
       "lists": 1,
       "games": 5,
-      "play_rate": 2.9,
-      "win_rate": 60.0,
+      "play_rate": 3.1,
+      "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 50.0,
+        "win_rate": 33.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 25.0,
         "games": 2
+      }
+    },
+    {
+      "detachment": "Hunting Warpack + Lords Of Dread",
+      "base_archetype": "Chaos Knights \u2014 Hunting Warpack + Lords Of Dread",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 3.1,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 42.9,
+        "games": 7
       },
       "second_turn": {
         "win_rate": 66.7,
         "games": 3
       }
+    },
+    {
+      "detachment": "Lords of Dread",
+      "base_archetype": "Chaos Knights \u2014 Lords of Dread",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 3.1,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
     }
   ],
   "dispositions": [
     {
-      "disposition": "Reconnaissance",
+      "disposition": "Priority Assets",
       "lists": 10,
-      "play_rate": 29.4,
-      "win_rate": 36.0,
-      "x0_pct": 10.0,
-      "x1_pct": 0.0,
+      "play_rate": 31.2,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 10.0,
       "games": 50.0,
       "first_turn": {
-        "win_rate": 40.0,
-        "games": 20
+        "win_rate": 41.9,
+        "games": 31
       },
       "second_turn": {
-        "win_rate": 33.3,
-        "games": 30
+        "win_rate": 36.8,
+        "games": 19
       }
     },
     {
       "disposition": "Purge the Foe",
-      "lists": 8,
-      "play_rate": 23.5,
-      "win_rate": 36.2,
+      "lists": 7,
+      "play_rate": 21.9,
+      "win_rate": 22.9,
       "x0_pct": 0.0,
-      "x1_pct": 12.5,
-      "games": 40.0,
+      "x1_pct": 0.0,
+      "games": 35.0,
       "first_turn": {
-        "win_rate": 27.8,
-        "games": 18
+        "win_rate": 17.5,
+        "games": 20
       },
       "second_turn": {
-        "win_rate": 43.2,
-        "games": 22
+        "win_rate": 30.0,
+        "games": 15
       }
     },
     {
-      "disposition": "Take and Hold",
+      "disposition": "Reconnaissance",
       "lists": 6,
-      "play_rate": 17.6,
-      "win_rate": 46.7,
+      "play_rate": 18.8,
+      "win_rate": 21.7,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "games": 30.0,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 14
+        "win_rate": 13.6,
+        "games": 11
       },
       "second_turn": {
-        "win_rate": 43.8,
-        "games": 16
+        "win_rate": 26.3,
+        "games": 19
       }
     },
     {
-      "disposition": "Priority Assets",
-      "lists": 6,
-      "play_rate": 17.6,
-      "win_rate": 36.7,
+      "disposition": "Take and Hold",
+      "lists": 5,
+      "play_rate": 15.6,
+      "win_rate": 42.0,
       "x0_pct": 0.0,
-      "x1_pct": 16.7,
-      "games": 30.0,
+      "x1_pct": 0.0,
+      "games": 25.0,
       "first_turn": {
         "win_rate": 50.0,
-        "games": 13
+        "games": 11
       },
       "second_turn": {
-        "win_rate": 26.5,
-        "games": 17
+        "win_rate": 35.7,
+        "games": 14
       }
     },
     {
       "disposition": "Disruption",
       "lists": 4,
-      "play_rate": 11.8,
+      "play_rate": 12.5,
       "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "games": 20.0,
       "first_turn": {
-        "win_rate": 14.3,
-        "games": 7
+        "win_rate": 12.5,
+        "games": 8
       },
       "second_turn": {
-        "win_rate": 38.5,
-        "games": 13
+        "win_rate": 41.7,
+        "games": 12
       }
     }
   ],
   "disposition_matchups": [
     {
-      "opponent_disposition": "Priority Assets",
-      "games": 40,
-      "wins": 18,
-      "win_rate": 46.2,
-      "first_turn": {
-        "win_rate": 67.6,
-        "games": 17
-      },
-      "second_turn": {
-        "win_rate": 30.4,
-        "games": 23
-      }
-    },
-    {
       "opponent_disposition": "Take and Hold",
-      "games": 35,
-      "wins": 10,
-      "win_rate": 30.0,
+      "games": 39,
+      "wins": 9,
+      "win_rate": 24.4,
       "first_turn": {
-        "win_rate": 25.0,
-        "games": 20
+        "win_rate": 17.4,
+        "games": 23
       },
       "second_turn": {
-        "win_rate": 36.7,
-        "games": 15
-      }
-    },
-    {
-      "opponent_disposition": "Purge the Foe",
-      "games": 30,
-      "wins": 10,
-      "win_rate": 33.3,
-      "first_turn": {
-        "win_rate": 22.7,
-        "games": 11
-      },
-      "second_turn": {
-        "win_rate": 39.5,
-        "games": 19
+        "win_rate": 34.4,
+        "games": 16
       }
     },
     {
       "opponent_disposition": "Reconnaissance",
-      "games": 30,
+      "games": 31,
       "wins": 10,
-      "win_rate": 35.0,
+      "win_rate": 32.3,
       "first_turn": {
-        "win_rate": 34.6,
-        "games": 13
+        "win_rate": 38.2,
+        "games": 17
       },
       "second_turn": {
-        "win_rate": 35.3,
-        "games": 17
+        "win_rate": 25.0,
+        "games": 14
+      }
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 30,
+      "wins": 11,
+      "win_rate": 38.3,
+      "first_turn": {
+        "win_rate": 46.7,
+        "games": 15
+      },
+      "second_turn": {
+        "win_rate": 30.0,
+        "games": 15
       }
     },
     {
       "opponent_disposition": "Disruption",
-      "games": 29,
+      "games": 30,
       "wins": 9,
-      "win_rate": 32.8,
+      "win_rate": 31.7,
       "first_turn": {
-        "win_rate": 30.0,
-        "games": 10
+        "win_rate": 26.5,
+        "games": 17
       },
       "second_turn": {
-        "win_rate": 34.2,
-        "games": 19
+        "win_rate": 38.5,
+        "games": 13
+      }
+    },
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 26,
+      "wins": 8,
+      "win_rate": 30.8,
+      "first_turn": {
+        "win_rate": 18.8,
+        "games": 8
+      },
+      "second_turn": {
+        "win_rate": 36.1,
+        "games": 18
       }
     }
   ],
@@ -435,12 +435,57 @@
     {
       "disposition": "Disruption",
       "opponent_disposition": "Priority Assets",
-      "games": 5,
+      "games": 6,
       "wins": 2,
-      "win_rate": 50.0,
+      "win_rate": 41.7,
       "first_turn": {
         "win_rate": 0.0,
         "games": 1
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 5
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Reconnaissance",
+      "games": 12,
+      "wins": 5,
+      "win_rate": 45.8,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 6
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Disruption",
+      "games": 11,
+      "wins": 3,
+      "win_rate": 27.3,
+      "first_turn": {
+        "win_rate": 25.0,
+        "games": 8
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Take and Hold",
+      "games": 9,
+      "wins": 3,
+      "win_rate": 33.3,
+      "first_turn": {
+        "win_rate": 10.0,
+        "games": 5
       },
       "second_turn": {
         "win_rate": 62.5,
@@ -449,58 +494,58 @@
     },
     {
       "disposition": "Priority Assets",
-      "opponent_disposition": "Reconnaissance",
-      "games": 6,
-      "wins": 2,
-      "win_rate": 33.3,
+      "opponent_disposition": "Purge the Foe",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 42.9,
       "first_turn": {
-        "win_rate": 100.0,
-        "games": 1
+        "win_rate": 25.0,
+        "games": 4
       },
       "second_turn": {
-        "win_rate": 20.0,
-        "games": 5
+        "win_rate": 66.7,
+        "games": 3
       }
     },
     {
       "disposition": "Priority Assets",
       "opponent_disposition": "Priority Assets",
       "games": 6,
-      "wins": 1,
-      "win_rate": 25.0,
+      "wins": 2,
+      "win_rate": 41.7,
       "first_turn": {
         "win_rate": 50.0,
-        "games": 3
+        "games": 5
       },
       "second_turn": {
         "win_rate": 0.0,
-        "games": 3
+        "games": 1
       }
     },
     {
-      "disposition": "Priority Assets",
-      "opponent_disposition": "Disruption",
-      "games": 6,
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Take and Hold",
+      "games": 11,
       "wins": 2,
-      "win_rate": 33.3,
+      "win_rate": 18.2,
       "first_turn": {
-        "win_rate": 33.3,
-        "games": 3
+        "win_rate": 28.6,
+        "games": 7
       },
       "second_turn": {
-        "win_rate": 33.3,
-        "games": 3
+        "win_rate": 0.0,
+        "games": 4
       }
     },
     {
       "disposition": "Purge the Foe",
       "opponent_disposition": "Reconnaissance",
-      "games": 10,
-      "wins": 3,
-      "win_rate": 35.0,
+      "games": 9,
+      "wins": 2,
+      "win_rate": 22.2,
       "first_turn": {
-        "win_rate": 41.7,
-        "games": 6
+        "win_rate": 20.0,
+        "games": 5
       },
       "second_turn": {
         "win_rate": 25.0,
@@ -509,92 +554,62 @@
     },
     {
       "disposition": "Purge the Foe",
-      "opponent_disposition": "Take and Hold",
-      "games": 9,
+      "opponent_disposition": "Priority Assets",
+      "games": 7,
       "wins": 2,
-      "win_rate": 22.2,
+      "win_rate": 35.7,
       "first_turn": {
-        "win_rate": 33.3,
-        "games": 6
+        "win_rate": 12.5,
+        "games": 4
       },
       "second_turn": {
-        "win_rate": 0.0,
+        "win_rate": 66.7,
         "games": 3
       }
     },
     {
-      "disposition": "Purge the Foe",
-      "opponent_disposition": "Disruption",
-      "games": 7,
-      "wins": 3,
-      "win_rate": 42.9,
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Take and Hold",
+      "games": 9,
+      "wins": 2,
+      "win_rate": 27.8,
       "first_turn": {
         "win_rate": 0.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 60.0,
         "games": 5
-      }
-    },
-    {
-      "disposition": "Purge the Foe",
-      "opponent_disposition": "Priority Assets",
-      "games": 7,
-      "wins": 3,
-      "win_rate": 50.0,
-      "first_turn": {
-        "win_rate": 25.0,
-        "games": 2
       },
       "second_turn": {
-        "win_rate": 60.0,
-        "games": 5
-      }
-    },
-    {
-      "disposition": "Reconnaissance",
-      "opponent_disposition": "Priority Assets",
-      "games": 15,
-      "wins": 8,
-      "win_rate": 53.3,
-      "first_turn": {
-        "win_rate": 81.2,
-        "games": 8
-      },
-      "second_turn": {
-        "win_rate": 21.4,
-        "games": 7
+        "win_rate": 62.5,
+        "games": 4
       }
     },
     {
       "disposition": "Reconnaissance",
       "opponent_disposition": "Purge the Foe",
-      "games": 12,
-      "wins": 3,
-      "win_rate": 29.2,
+      "games": 7,
+      "wins": 1,
+      "win_rate": 14.3,
       "first_turn": {
-        "win_rate": 37.5,
-        "games": 4
+        "win_rate": 50.0,
+        "games": 1
       },
       "second_turn": {
-        "win_rate": 25.0,
-        "games": 8
+        "win_rate": 8.3,
+        "games": 6
       }
     },
     {
       "disposition": "Reconnaissance",
-      "opponent_disposition": "Take and Hold",
-      "games": 11,
-      "wins": 2,
-      "win_rate": 22.7,
+      "opponent_disposition": "Priority Assets",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 20.0,
       "first_turn": {
-        "win_rate": 0.0,
-        "games": 6
+        "win_rate": 50.0,
+        "games": 2
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 5
+        "win_rate": 0.0,
+        "games": 3
       }
     },
     {
@@ -604,38 +619,8 @@
       "wins": 1,
       "win_rate": 30.0,
       "first_turn": {
-        "win_rate": null,
-        "games": 0
-      },
-      "second_turn": {
-        "win_rate": 30.0,
-        "games": 5
-      }
-    },
-    {
-      "disposition": "Reconnaissance",
-      "opponent_disposition": "Reconnaissance",
-      "games": 5,
-      "wins": 1,
-      "win_rate": 20.0,
-      "first_turn": {
         "win_rate": 0.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 33.3,
-        "games": 3
-      }
-    },
-    {
-      "disposition": "Take and Hold",
-      "opponent_disposition": "Take and Hold",
-      "games": 9,
-      "wins": 4,
-      "win_rate": 44.4,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 5
+        "games": 1
       },
       "second_turn": {
         "win_rate": 37.5,
@@ -644,63 +629,51 @@
     },
     {
       "disposition": "Take and Hold",
-      "opponent_disposition": "Disruption",
+      "opponent_disposition": "Take and Hold",
       "games": 7,
-      "wins": 3,
-      "win_rate": 42.9,
-      "first_turn": {
-        "win_rate": 66.7,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 25.0,
-        "games": 4
-      }
-    },
-    {
-      "disposition": "Take and Hold",
-      "opponent_disposition": "Purge the Foe",
-      "games": 5,
-      "wins": 2,
-      "win_rate": 40.0,
+      "wins": 1,
+      "win_rate": 21.4,
       "first_turn": {
         "win_rate": 33.3,
         "games": 3
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 2
+        "win_rate": 12.5,
+        "games": 4
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Disruption",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
       }
     },
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Reconnaissance",
       "games": 5,
-      "wins": 3,
-      "win_rate": 60.0,
+      "wins": 2,
+      "win_rate": 40.0,
       "first_turn": {
-        "win_rate": 25.0,
-        "games": 2
+        "win_rate": 50.0,
+        "games": 3
       },
       "second_turn": {
-        "win_rate": 83.3,
-        "games": 3
+        "win_rate": 25.0,
+        "games": 2
       }
     }
   ],
   "top_players": [
-    {
-      "player_name": "justin cortese",
-      "detachment": "Hunting Warpack + Traitoris Lance",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/YDk3GHQPMrDm",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
     {
       "player_name": "Eden Mich\u00e9",
       "detachment": "Bastions Of Tyranny + Lords Of Dread",
@@ -714,22 +687,10 @@
       "win_rate": 90.0
     },
     {
-      "player_name": "Ben Spears",
-      "detachment": "Infernal Lance",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/ahFxRhCxCnBG",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Derrick Brissette",
-      "detachment": "Bastions Of Tyranny + Hunting Warpack + Iconoclast Fiefdom",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/X2NkPBr0NT8H",
+      "player_name": "Alexander Costello",
+      "detachment": "Bastions Of Tyranny + Lords Of Dread",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/EOhf00i21813",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -738,34 +699,10 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Peyton Levin",
-      "detachment": "Infernal Lance",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/S2PKtRSoMfEq",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 0,
-      "draws": 4,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "David Hisel",
+      "player_name": "kobi brick",
       "detachment": "Iconoclast Fiefdom + Lords Of Dread",
       "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/c4PHXZwDzJKB",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 1,
-      "draws": 2,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Alex Scharfe",
-      "detachment": "Helhunt Lance",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/KZM83KeAKHAh",
+      "list_url": "https://www.bestcoastpairings.com/list/4wbauig1ai07",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -798,14 +735,14 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Breno Fleury",
-      "detachment": "Houndpack Lance + Iconoclast Fiefdom",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/XtjqOatICZ91",
+      "player_name": "Adam Alexander",
+      "detachment": "Infernal Lance",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/QEu9RXtgzsnt",
       "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
+      "wins": 1,
+      "losses": 1,
+      "draws": 3,
       "games": 5,
       "win_rate": 50.0
     },
@@ -834,6 +771,18 @@
       "win_rate": 50.0
     },
     {
+      "player_name": "Quinn Martin",
+      "detachment": "Lords of Dread",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/ZXTN9gU9Dm95",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 2,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 50.0
+    },
+    {
       "player_name": "Patrick Crone",
       "detachment": "Iconoclast Fiefdom + Lords Of Dread",
       "disposition": "Take and Hold",
@@ -846,10 +795,10 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Werner Born",
-      "detachment": "Hunting Warpack + Lords Of Dread",
+      "player_name": "Dave Byrne",
+      "detachment": "Houndpack Lance + Iconoclast Fiefdom",
       "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/zqM80XXzJJTI",
+      "list_url": "https://www.bestcoastpairings.com/list/xFmhlkKvRbm4",
       "source": "bcp",
       "wins": 1,
       "losses": 2,
@@ -858,22 +807,10 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Alex Veinberg",
-      "detachment": "Bastions Of Tyranny + Houndpack Lance",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/wYkA61m4QYF3",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Cameron Zareie",
-      "detachment": "Houndpack Lance + Iconoclast Fiefdom",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/YBh5nk23whUg",
+      "player_name": "Chris Mogg",
+      "detachment": "Bastions Of Tyranny + Lords Of Dread",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/oLddpNBbwSxy",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -918,6 +855,30 @@
       "win_rate": 30.0
     },
     {
+      "player_name": "Joel Maddock",
+      "detachment": "Infernal Lance",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/6baAEn4hZM7U",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
+      "player_name": "Alexander hackman",
+      "detachment": "Iconoclast Fiefdom + Traitoris Lance",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/bQWF72rfNuZI",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
       "player_name": "Christopher Montalvo",
       "detachment": "Helhunt Lance + Iconoclast Fiefdom",
       "disposition": "Take and Hold",
@@ -928,143 +889,139 @@
       "draws": 1,
       "games": 5,
       "win_rate": 30.0
+    },
+    {
+      "player_name": "Ralph Risk",
+      "detachment": "Hunting Warpack + Traitoris Lance",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/meRuX9Oq7OQ8",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "David Morales",
+      "detachment": "No Detachment",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/LORWi9iUFStI",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 20,
-      "wins": 7,
-      "win_rate": 35.0,
+      "games": 23,
+      "wins": 9,
+      "win_rate": 41.3,
       "first_turn": {
-        "win_rate": 33.3,
-        "games": 9
+        "win_rate": 40.9,
+        "games": 11
       },
       "second_turn": {
-        "win_rate": 36.4,
-        "games": 11
+        "win_rate": 41.7,
+        "games": 12
       }
     },
     {
       "opponent_faction": "Tyranids",
-      "games": 17,
-      "wins": 7,
-      "win_rate": 44.1,
+      "games": 15,
+      "wins": 8,
+      "win_rate": 53.3,
       "first_turn": {
         "win_rate": 50.0,
-        "games": 10
+        "games": 8
       },
       "second_turn": {
-        "win_rate": 35.7,
+        "win_rate": 57.1,
         "games": 7
       }
     },
     {
-      "opponent_faction": "Necrons",
-      "games": 10,
-      "wins": 5,
-      "win_rate": 50.0,
+      "opponent_faction": "Adeptus Custodes",
+      "games": 11,
+      "wins": 3,
+      "win_rate": 31.8,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 4
+        "win_rate": 25.0,
+        "games": 6
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 6
+        "win_rate": 40.0,
+        "games": 5
       }
     },
     {
-      "opponent_faction": "T'au Empire",
+      "opponent_faction": "Orks",
       "games": 10,
       "wins": 2,
-      "win_rate": 25.0,
+      "win_rate": 20.0,
       "first_turn": {
-        "win_rate": 30.0,
-        "games": 5
+        "win_rate": 8.3,
+        "games": 6
       },
       "second_turn": {
-        "win_rate": 20.0,
-        "games": 5
+        "win_rate": 37.5,
+        "games": 4
       }
     },
     {
       "opponent_faction": "Death Guard",
       "games": 9,
       "wins": 3,
-      "win_rate": 38.9,
+      "win_rate": 33.3,
       "first_turn": {
         "win_rate": 0.0,
-        "games": 2
+        "games": 4
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 7
-      }
-    },
-    {
-      "opponent_faction": "Adeptus Custodes",
-      "games": 8,
-      "wins": 2,
-      "win_rate": 31.2,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 41.7,
-        "games": 6
-      }
-    },
-    {
-      "opponent_faction": "Emperor's Children",
-      "games": 8,
-      "wins": 2,
-      "win_rate": 25.0,
-      "first_turn": {
-        "win_rate": 100.0,
-        "games": 1
-      },
-      "second_turn": {
-        "win_rate": 14.3,
-        "games": 7
-      }
-    },
-    {
-      "opponent_faction": "Thousand Sons",
-      "games": 8,
-      "wins": 1,
-      "win_rate": 12.5,
-      "first_turn": {
-        "win_rate": 33.3,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 0.0,
+        "win_rate": 60.0,
         "games": 5
       }
     },
     {
-      "opponent_faction": "Orks",
-      "games": 8,
-      "wins": 3,
-      "win_rate": 37.5,
+      "opponent_faction": "T'au Empire",
+      "games": 9,
+      "wins": 2,
+      "win_rate": 27.8,
       "first_turn": {
-        "win_rate": 37.5,
-        "games": 4
+        "win_rate": 30.0,
+        "games": 5
       },
       "second_turn": {
-        "win_rate": 37.5,
+        "win_rate": 25.0,
         "games": 4
       }
     },
     {
-      "opponent_faction": "Aeldari",
-      "games": 8,
-      "wins": 4,
-      "win_rate": 50.0,
+      "opponent_faction": "Thousand Sons",
+      "games": 7,
+      "wins": 0,
+      "win_rate": 7.1,
       "first_turn": {
-        "win_rate": 37.5,
+        "win_rate": 12.5,
         "games": 4
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 3
+      }
+    },
+    {
+      "opponent_faction": "Aeldari",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 42.9,
+      "first_turn": {
+        "win_rate": 16.7,
+        "games": 3
       },
       "second_turn": {
         "win_rate": 62.5,
@@ -1072,105 +1029,119 @@
       }
     },
     {
-      "opponent_faction": "Imperial Knights",
-      "games": 7,
-      "wins": 2,
-      "win_rate": 28.6,
+      "opponent_faction": "Necrons",
+      "games": 6,
+      "wins": 1,
+      "win_rate": 25.0,
       "first_turn": {
-        "win_rate": 33.3,
-        "games": 6
+        "win_rate": 0.0,
+        "games": 2
       },
       "second_turn": {
-        "win_rate": 0.0,
-        "games": 1
+        "win_rate": 37.5,
+        "games": 4
       }
     },
     {
       "opponent_faction": "Grey Knights",
       "games": 6,
+      "wins": 2,
+      "win_rate": 33.3,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 4
+      }
+    },
+    {
+      "opponent_faction": "Imperial Knights",
+      "games": 6,
+      "wins": 0,
+      "win_rate": 8.3,
+      "first_turn": {
+        "win_rate": 12.5,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      }
+    },
+    {
+      "opponent_faction": "Emperor's Children",
+      "games": 6,
       "wins": 1,
       "win_rate": 16.7,
       "first_turn": {
-        "win_rate": 0.0,
+        "win_rate": 100.0,
         "games": 1
       },
       "second_turn": {
-        "win_rate": 20.0,
+        "win_rate": 0.0,
         "games": 5
       }
     },
     {
       "opponent_faction": "Astra Militarum",
       "games": 6,
-      "wins": 1,
-      "win_rate": 25.0,
+      "wins": 2,
+      "win_rate": 33.3,
       "first_turn": {
         "win_rate": 50.0,
-        "games": 2
+        "games": 3
       },
       "second_turn": {
-        "win_rate": 12.5,
-        "games": 4
+        "win_rate": 16.7,
+        "games": 3
       }
     },
     {
       "opponent_faction": "World Eaters",
       "games": 5,
-      "wins": 4,
-      "win_rate": 90.0,
-      "first_turn": {
-        "win_rate": 100.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 83.3,
-        "games": 3
-      }
-    },
-    {
-      "opponent_faction": "Adepta Sororitas",
-      "games": 5,
-      "wins": 1,
-      "win_rate": 30.0,
-      "first_turn": {
-        "win_rate": 33.3,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 25.0,
-        "games": 2
-      }
-    },
-    {
-      "opponent_faction": "Drukhari",
-      "games": 5,
       "wins": 3,
       "win_rate": 60.0,
       "first_turn": {
-        "win_rate": 33.3,
+        "win_rate": 50.0,
         "games": 3
       },
       "second_turn": {
+        "win_rate": 75.0,
+        "games": 2
+      }
+    },
+    {
+      "opponent_faction": "Chaos Space Marines",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0,
+      "first_turn": {
         "win_rate": 100.0,
         "games": 2
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 3
       }
     }
   ],
   "timeline": [
     {
       "week": "2026-W25",
-      "lists": 25,
-      "games": 125,
-      "win_rate": 41.2,
-      "total_lists": 759,
-      "play_rate": 3.3,
+      "lists": 11,
+      "games": 55,
+      "win_rate": 35.5,
+      "total_lists": 281,
+      "play_rate": 3.9,
       "first_turn": {
-        "win_rate": 42.4,
-        "games": 59
+        "win_rate": 31.0,
+        "games": 29
       },
       "second_turn": {
-        "win_rate": 40.2,
-        "games": 66
+        "win_rate": 40.4,
+        "games": 26
       }
     },
     {
@@ -1203,6 +1174,22 @@
       "second_turn": {
         "win_rate": 29.4,
         "games": 17
+      }
+    },
+    {
+      "week": "2026-W29",
+      "lists": 12,
+      "games": 60,
+      "win_rate": 32.5,
+      "total_lists": 400,
+      "play_rate": 3.0,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 39
+      },
+      "second_turn": {
+        "win_rate": 31.0,
+        "games": 21
       }
     }
   ]
