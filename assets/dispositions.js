@@ -20,10 +20,17 @@ let allData = null;
 let manifest = {};
 let currentEventType = getEventType();
 let currentWindow = getWindow();
+let currentDataslateEra = getDataslateEra();  // all | launch | 2026-07-22
 let currentDispositionTab = DISPOSITIONS[0];
 let currentArmiesDetachmentsMode = "armies";
 let currentTopSortBy = "win_rate";
 let currentFactionDispMode = "count";
+
+// Bundle filename for a dataslate era: "all" uses dispositions.json, other eras
+// use the suffixed variant baked by build_site_data.py (dispositions.{era}.json).
+function dispositionsFile(era) {
+  return era && era !== "all" ? `dispositions.${era}.json` : "dispositions.json";
+}
 
 async function loadData(eventType, window) {
   const root = dataRoot(eventType, window);
@@ -34,10 +41,19 @@ async function loadData(eventType, window) {
     manifest = {};
   }
   try {
-    allData = await fetchJSON(`${root}/dispositions.json`);
+    allData = await fetchJSON(`${root}/${dispositionsFile(currentDataslateEra)}`);
     setStatus("", false);
     return true;
   } catch (e) {
+    // Fall back to the all-era bundle when a specific era variant is missing
+    // (e.g. no post-dataslate events yet for this window/event-type).
+    if (currentDataslateEra !== "all") {
+      try {
+        allData = await fetchJSON(`${root}/dispositions.json`);
+        setStatus(`No ${currentDataslateEra === "launch" ? "launch-era" : "dataslate-1"} data for this window yet — showing all eras.`, false);
+        return true;
+      } catch (_) { /* fall through to error below */ }
+    }
     allData = null;
     setStatus(`Disposition data is not yet available for this window (${e.message}). The build pipeline will populate dispositions.json in a future run.`, true);
     return false;
@@ -470,6 +486,9 @@ function syncFilterButtons() {
   document.querySelectorAll("#first-turn-btns .btn").forEach(b => {
     b.classList.toggle("active", b.dataset.val === turnFilter);
   });
+  document.querySelectorAll("#dataslate-btns .btn").forEach(b => {
+    b.classList.toggle("active", b.dataset.val === currentDataslateEra);
+  });
 }
 
 function wireFilterButtons() {
@@ -523,6 +542,28 @@ function wireFilterButtons() {
         b.classList.toggle("active", b.dataset.val === turnFilter);
       });
       render();
+    });
+  });
+
+  // Dataslate era toggle — re-fetches the era-scoped bundle (no client-side filter,
+  // since disposition stats are pre-aggregated per era server-side).
+  document.querySelectorAll("#dataslate-btns .btn").forEach(btn => {
+    btn.addEventListener("click", async () => {
+      const newEra = btn.dataset.val;
+      if (newEra === currentDataslateEra) return;
+      currentDataslateEra = newEra;
+      syncFilterButtons();
+      const url = new URL(window.location);
+      if (newEra === "all") {
+        url.searchParams.delete("dataslate_era");
+      } else {
+        url.searchParams.set("dataslate_era", newEra);
+      }
+      history.replaceState(null, "", url);
+      await loadData(currentEventType, currentWindow);
+      syncHeaderMeta();
+      render();
+      renderFooter(manifest);
     });
   });
 }

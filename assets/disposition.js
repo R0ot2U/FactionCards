@@ -5,6 +5,7 @@ let dispositionManifest = null;
 let currentEventType = getEventType();
 let currentWindow = getWindow();
 let currentDisposition = getDisposition();
+let currentDataslateEra = getDataslateEra();  // all | launch | 2026-07-22
 
 function getDisposition() {
   const params = new URLSearchParams(window.location.search);
@@ -22,20 +23,39 @@ function dispositionSlug(name) {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "");
 }
 
+// Detail bundle filename for a dataslate era, mirroring the dispositions page.
+function detailFile(slug, era) {
+  return era && era !== "all"
+    ? `disposition/${slug}.${era}.json`
+    : `disposition/${slug}.json`;
+}
+
 async function loadData(eventType, windowDays, dispositionSlugStr) {
-  const backUrl = `dispositions.html?event_type=${encodeURIComponent(eventType)}&window=${encodeURIComponent(windowDays)}`;
+  const eraParam = currentDataslateEra && currentDataslateEra !== "all"
+    ? `&dataslate_era=${encodeURIComponent(currentDataslateEra)}` : "";
+  const backUrl = `dispositions.html?event_type=${encodeURIComponent(eventType)}&window=${encodeURIComponent(windowDays)}${eraParam}`;
   const root = dataRoot(eventType, windowDays);
 
   try {
-    dispositionData = await fetchJSON(`${root}/disposition/${dispositionSlugStr}.json`);
+    dispositionData = await fetchJSON(`${root}/${detailFile(dispositionSlugStr, currentDataslateEra)}`);
   } catch (e) {
-    document.getElementById("content").innerHTML =
-      `<p class="empty" style="color:var(--red)">
-        No data available for ${dispositionDisplayName(dispositionSlugStr)} in the ${windowDays} ${eventType} window.
-        <br><span style="color:var(--dim);font-size:0.9em">There may be no tournaments in this time period.</span>
-        <br><a href="${backUrl}">← Back to dispositions</a>
-      </p>`;
-    return false;
+    // Fall back to the all-era detail bundle when the era variant is missing.
+    let recovered = false;
+    if (currentDataslateEra !== "all") {
+      try {
+        dispositionData = await fetchJSON(`${root}/disposition/${dispositionSlugStr}.json`);
+        recovered = true;
+      } catch (_) { /* fall through */ }
+    }
+    if (!recovered) {
+      document.getElementById("content").innerHTML =
+        `<p class="empty" style="color:var(--red)">
+          No data available for ${dispositionDisplayName(dispositionSlugStr)} in the ${windowDays} ${eventType} window.
+          <br><span style="color:var(--dim);font-size:0.9em">There may be no tournaments in this time period.</span>
+          <br><a href="${backUrl}">← Back to dispositions</a>
+        </p>`;
+      return false;
+    }
   }
 
   try {
