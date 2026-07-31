@@ -1,65 +1,46 @@
 {
   "faction": "Deathwatch",
   "slug": "deathwatch",
-  "as_of": "2026-07-27",
+  "as_of": "2026-07-31",
   "window_days": 30,
   "event_type": "team",
-  "lists": 4,
-  "games": 20,
-  "play_rate": 0.4,
-  "win_rate": 70.0,
-  "trend_delta": null,
+  "lists": 2,
+  "games": 10,
+  "play_rate": 0.2,
+  "win_rate": 75.0,
+  "trend_delta": 25.0,
   "top_detachment": "Black Spear Task Force",
-  "ci_lower": 48.1,
-  "meta_health": "slightly_under",
-  "x0_pct": 25.0,
-  "x1_pct": 25.0,
+  "ci_lower": 44.2,
+  "meta_health": "strongly_under",
+  "x0_pct": 0.0,
+  "x1_pct": 50.0,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 80.0,
-    "games": 10
+    "win_rate": 91.7,
+    "games": 6
   },
   "second_turn": {
-    "win_rate": 60.0,
-    "games": 10
+    "win_rate": 50.0,
+    "games": 4
   },
   "detachments": [
     {
       "detachment": "Black Spear Task Force",
       "base_archetype": "Deathwatch \u2014 Black Spear Task Force",
-      "lists": 3,
-      "games": 15,
-      "play_rate": 75.0,
-      "win_rate": 60.0,
+      "lists": 2,
+      "games": 10,
+      "play_rate": 100.0,
+      "win_rate": 75.0,
       "x0_pct": 0.0,
-      "x1_pct": 33.3,
+      "x1_pct": 50.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 75.0,
-        "games": 8
+        "win_rate": 91.7,
+        "games": 6
       },
       "second_turn": {
-        "win_rate": 42.9,
-        "games": 7
-      }
-    },
-    {
-      "detachment": "No Detachment",
-      "base_archetype": "Deathwatch \u2014 No Detachment",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 25.0,
-      "win_rate": 100.0,
-      "x0_pct": 100.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": null,
-        "games": 0
-      },
-      "second_turn": {
-        "win_rate": null,
-        "games": 0
+        "win_rate": 50.0,
+        "games": 4
       }
     }
   ],
@@ -67,7 +48,7 @@
     {
       "disposition": "Purge the Foe",
       "lists": 2,
-      "play_rate": 50.0,
+      "play_rate": 100.0,
       "win_rate": 75.0,
       "x0_pct": 0.0,
       "x1_pct": 50.0,
@@ -80,57 +61,11 @@
         "win_rate": 50.0,
         "games": 4
       }
-    },
-    {
-      "disposition": "Priority Assets",
-      "lists": 1,
-      "play_rate": 25.0,
-      "win_rate": 30.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 5.0,
-      "first_turn": {
-        "win_rate": 25.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 33.3,
-        "games": 3
-      }
-    },
-    {
-      "disposition": "Reconnaissance",
-      "lists": 1,
-      "play_rate": 25.0,
-      "win_rate": 100.0,
-      "x0_pct": 100.0,
-      "x1_pct": 0.0,
-      "games": 5.0,
-      "first_turn": {
-        "win_rate": 100.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 100.0,
-        "games": 3
-      }
     }
   ],
   "disposition_matchups": [],
   "disposition_cross": [],
   "top_players": [
-    {
-      "player_name": "Travis Finell",
-      "detachment": "No Detachment",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/x0Q5LLJ06jWT",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
     {
       "player_name": "Luke Jakins",
       "detachment": "Black Spear Task Force",
@@ -154,38 +89,10 @@
       "draws": 1,
       "games": 5,
       "win_rate": 70.0
-    },
-    {
-      "player_name": "Anna Spray-Wiegert",
-      "detachment": "Black Spear Task Force",
-      "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/P41PfJtEFjRV",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 3,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 30.0
     }
   ],
   "matchups": [],
   "timeline": [
-    {
-      "week": "2026-W25",
-      "lists": 2,
-      "games": 10,
-      "win_rate": 65.0,
-      "total_lists": 281,
-      "play_rate": 0.7,
-      "first_turn": {
-        "win_rate": 62.5,
-        "games": 4
-      },
-      "second_turn": {
-        "win_rate": 66.7,
-        "games": 6
-      }
-    },
     {
       "week": "2026-W29",
       "lists": 2,

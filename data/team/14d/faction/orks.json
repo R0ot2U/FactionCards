@@ -1,7 +1,7 @@
 {
   "faction": "Orks",
   "slug": "orks",
-  "as_of": "2026-07-27",
+  "as_of": "2026-07-31",
   "window_days": 14,
   "event_type": "team",
   "lists": 38,
@@ -9,7 +9,7 @@
   "play_rate": 6.7,
   "win_rate": 63.2,
   "trend_delta": 10.3,
-  "top_detachment": "Freebooter Krew + More Dakka!",
+  "top_detachment": "Green Tide + Taktikal Brigade",
   "ci_lower": 56.1,
   "meta_health": "strongly_over",
   "x0_pct": 5.3,
@@ -24,25 +24,6 @@
     "games": 103
   },
   "detachments": [
-    {
-      "detachment": "Freebooter Krew + More Dakka!",
-      "base_archetype": "Orks \u2014 Freebooter Krew + More Dakka!",
-      "lists": 5,
-      "games": 25,
-      "play_rate": 13.2,
-      "win_rate": 66.0,
-      "x0_pct": 0.0,
-      "x1_pct": 20.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 75.0,
-        "games": 10
-      },
-      "second_turn": {
-        "win_rate": 60.0,
-        "games": 15
-      }
-    },
     {
       "detachment": "Green Tide + Taktikal Brigade",
       "base_archetype": "Orks \u2014 Green Tide + Taktikal Brigade",
@@ -60,6 +41,25 @@
       "second_turn": {
         "win_rate": 78.6,
         "games": 14
+      }
+    },
+    {
+      "detachment": "Freebooter Krew + More Dakka!",
+      "base_archetype": "Orks \u2014 Freebooter Krew + More Dakka!",
+      "lists": 4,
+      "games": 20,
+      "play_rate": 10.5,
+      "win_rate": 57.5,
+      "x0_pct": 0.0,
+      "x1_pct": 25.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 75.0,
+        "games": 10
+      },
+      "second_turn": {
+        "win_rate": 60.0,
+        "games": 15
       }
     },
     {
@@ -177,8 +177,8 @@
       }
     },
     {
-      "detachment": "Freebooter Krew & Equatorial Hordes",
-      "base_archetype": "Orks \u2014 Freebooter Krew & Equatorial Hordes",
+      "detachment": "Freebooter Krew",
+      "base_archetype": "Orks \u2014 Freebooter Krew",
       "lists": 1,
       "games": 5,
       "play_rate": 2.6,
@@ -196,8 +196,8 @@
       }
     },
     {
-      "detachment": "Da Big Hunt + Rollin' Deff",
-      "base_archetype": "Orks \u2014 Da Big Hunt + Rollin' Deff",
+      "detachment": "Da Big Hunt",
+      "base_archetype": "Orks \u2014 Da Big Hunt",
       "lists": 1,
       "games": 5,
       "play_rate": 2.6,
@@ -345,6 +345,25 @@
       "second_turn": {
         "win_rate": 50.0,
         "games": 3
+      }
+    },
+    {
+      "detachment": "No Detachment",
+      "base_archetype": "Orks \u2014 No Detachment",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 2.6,
+      "win_rate": 100.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
       }
     },
     {
@@ -750,7 +769,7 @@
     },
     {
       "player_name": "James Greensmith",
-      "detachment": "Freebooter Krew + More Dakka!",
+      "detachment": "No Detachment",
       "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/pYSoXiccFHhv",
       "source": "bcp",
@@ -798,7 +817,7 @@
     },
     {
       "player_name": "Ian Wilson",
-      "detachment": "Freebooter Krew & Equatorial Hordes",
+      "detachment": "Freebooter Krew",
       "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/o14mQrTNBcYb",
       "source": "bcp",

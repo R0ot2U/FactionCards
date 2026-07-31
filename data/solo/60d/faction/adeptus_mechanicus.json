@@ -1,7 +1,7 @@
 {
   "faction": "Adeptus Mechanicus",
   "slug": "adeptus_mechanicus",
-  "as_of": "2026-07-27",
+  "as_of": "2026-07-31",
   "window_days": 60,
   "event_type": "solo",
   "lists": 98,
@@ -25,14 +25,33 @@
   },
   "detachments": [
     {
+      "detachment": "Lords Of The Forge + Rad-Zone Corps",
+      "base_archetype": "Adeptus Mechanicus \u2014 Lords Of The Forge + Rad-Zone Corps",
+      "lists": 24,
+      "games": 118,
+      "play_rate": 24.5,
+      "win_rate": 50.0,
+      "x0_pct": 4.2,
+      "x1_pct": 16.7,
+      "tournament_wins": 1,
+      "first_turn": {
+        "win_rate": 50.8,
+        "games": 64
+      },
+      "second_turn": {
+        "win_rate": 52.0,
+        "games": 74
+      }
+    },
+    {
       "detachment": "Cohort Cybernetica + Lords Of The Forge",
       "base_archetype": "Adeptus Mechanicus \u2014 Cohort Cybernetica + Lords Of The Forge",
-      "lists": 26,
-      "games": 137,
-      "play_rate": 26.5,
-      "win_rate": 46.0,
+      "lists": 23,
+      "games": 119,
+      "play_rate": 23.5,
+      "win_rate": 47.5,
       "x0_pct": 0.0,
-      "x1_pct": 11.5,
+      "x1_pct": 13.0,
       "tournament_wins": 0,
       "first_turn": {
         "win_rate": 48.6,
@@ -44,31 +63,31 @@
       }
     },
     {
-      "detachment": "Lords Of The Forge + Rad-Zone Corps",
-      "base_archetype": "Adeptus Mechanicus \u2014 Lords Of The Forge + Rad-Zone Corps",
-      "lists": 26,
-      "games": 128,
-      "play_rate": 26.5,
-      "win_rate": 47.7,
-      "x0_pct": 3.8,
-      "x1_pct": 15.4,
-      "tournament_wins": 1,
+      "detachment": "No Detachment",
+      "base_archetype": "Adeptus Mechanicus \u2014 No Detachment",
+      "lists": 13,
+      "games": 62,
+      "play_rate": 13.3,
+      "win_rate": 41.1,
+      "x0_pct": 0.0,
+      "x1_pct": 8.3,
+      "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 50.8,
-        "games": 64
+        "win_rate": null,
+        "games": 0
       },
       "second_turn": {
-        "win_rate": 49.3,
-        "games": 74
+        "win_rate": null,
+        "games": 0
       }
     },
     {
       "detachment": "Lords Of The Forge + Skitarii Hunter Cohort",
       "base_archetype": "Adeptus Mechanicus \u2014 Lords Of The Forge + Skitarii Hunter Cohort",
-      "lists": 13,
-      "games": 71,
-      "play_rate": 13.3,
-      "win_rate": 50.0,
+      "lists": 11,
+      "games": 61,
+      "play_rate": 11.2,
+      "win_rate": 47.5,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
@@ -120,41 +139,22 @@
       }
     },
     {
-      "detachment": "No Detachment",
-      "base_archetype": "Adeptus Mechanicus \u2014 No Detachment",
-      "lists": 4,
-      "games": 13,
-      "play_rate": 4.1,
-      "win_rate": 38.5,
-      "x0_pct": 0.0,
-      "x1_pct": 33.3,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": null,
-        "games": 0
-      },
-      "second_turn": {
-        "win_rate": null,
-        "games": 0
-      }
-    },
-    {
       "detachment": "Explorator Maniple + Lords Of The Forge",
       "base_archetype": "Adeptus Mechanicus \u2014 Explorator Maniple + Lords Of The Forge",
       "lists": 3,
-      "games": 15,
+      "games": 14,
       "play_rate": 3.1,
-      "win_rate": 36.7,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 25.0,
-        "games": 8
+        "win_rate": 36.4,
+        "games": 11
       },
       "second_turn": {
         "win_rate": 50.0,
-        "games": 7
+        "games": 9
       }
     },
     {
@@ -177,6 +177,25 @@
       }
     },
     {
+      "detachment": "Rad-Zone Corps",
+      "base_archetype": "Adeptus Mechanicus \u2014 Rad-Zone Corps",
+      "lists": 2,
+      "games": 15,
+      "play_rate": 2.0,
+      "win_rate": 46.7,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 16.7,
+        "games": 6
+      }
+    },
+    {
       "detachment": "Luminen Auto-Choir + Rad-Zone Corps",
       "base_archetype": "Adeptus Mechanicus \u2014 Luminen Auto-Choir + Rad-Zone Corps",
       "lists": 2,
@@ -196,25 +215,6 @@
       }
     },
     {
-      "detachment": "Cohort Acquisitus + Skitarii Hunter Cohort",
-      "base_archetype": "Adeptus Mechanicus \u2014 Cohort Acquisitus + Skitarii Hunter Cohort",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 1.0,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 33.3,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 100.0,
-        "games": 2
-      }
-    },
-    {
       "detachment": "Cohort Cybernetica + Luminen Auto-Choir",
       "base_archetype": "Adeptus Mechanicus \u2014 Cohort Cybernetica + Luminen Auto-Choir",
       "lists": 1,
@@ -230,63 +230,6 @@
       },
       "second_turn": {
         "win_rate": 25.0,
-        "games": 4
-      }
-    },
-    {
-      "detachment": "Rad-Zone Corps + Lords of the Forge",
-      "base_archetype": "Adeptus Mechanicus \u2014 Rad-Zone Corps + Lords of the Forge",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 1.0,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 66.7,
-        "games": 3
-      }
-    },
-    {
-      "detachment": "Rad-Zone Corps",
-      "base_archetype": "Adeptus Mechanicus \u2014 Rad-Zone Corps",
-      "lists": 1,
-      "games": 10,
-      "play_rate": 1.0,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 33.3,
-        "games": 3
-      }
-    },
-    {
-      "detachment": "Cohort Acquisitus + Cohort Cybernetica",
-      "base_archetype": "Adeptus Mechanicus \u2014 Cohort Acquisitus + Cohort Cybernetica",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 1.0,
-      "win_rate": 40.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 1
-      },
-      "second_turn": {
-        "win_rate": 50.0,
         "games": 4
       }
     },
@@ -903,7 +846,7 @@
     },
     {
       "player_name": "Vlasta Kr\u00e1l",
-      "detachment": "Lords Of The Forge + Skitarii Hunter Cohort",
+      "detachment": "No Detachment",
       "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/xpPA5udg3hYg",
       "source": "bcp",

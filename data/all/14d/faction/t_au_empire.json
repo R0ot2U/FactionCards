@@ -1,7 +1,7 @@
 {
   "faction": "T'au Empire",
   "slug": "t_au_empire",
-  "as_of": "2026-07-27",
+  "as_of": "2026-07-31",
   "window_days": 14,
   "event_type": "all",
   "lists": 165,
@@ -46,29 +46,48 @@
     {
       "detachment": "Advanced Acquisition Cadre + Retaliation Cadre",
       "base_archetype": "T'au Empire \u2014 Advanced Acquisition Cadre + Retaliation Cadre",
-      "lists": 43,
-      "games": 249,
-      "play_rate": 26.1,
-      "win_rate": 52.6,
+      "lists": 40,
+      "games": 229,
+      "play_rate": 24.2,
+      "win_rate": 52.8,
       "x0_pct": 0.0,
-      "x1_pct": 11.6,
+      "x1_pct": 12.5,
       "tournament_wins": 2,
       "first_turn": {
-        "win_rate": 54.3,
-        "games": 104
+        "win_rate": 54.6,
+        "games": 98
       },
       "second_turn": {
-        "win_rate": 51.5,
-        "games": 136
+        "win_rate": 50.8,
+        "games": 132
+      }
+    },
+    {
+      "detachment": "Retaliation Cadre",
+      "base_archetype": "T'au Empire \u2014 Retaliation Cadre",
+      "lists": 22,
+      "games": 112,
+      "play_rate": 13.3,
+      "win_rate": 45.5,
+      "x0_pct": 0.0,
+      "x1_pct": 18.2,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 45.7,
+        "games": 58
+      },
+      "second_turn": {
+        "win_rate": 50.9,
+        "games": 53
       }
     },
     {
       "detachment": "Advanced Acquisition Cadre + Kauyon",
       "base_archetype": "T'au Empire \u2014 Advanced Acquisition Cadre + Kauyon",
-      "lists": 21,
-      "games": 125,
-      "play_rate": 12.7,
-      "win_rate": 48.8,
+      "lists": 19,
+      "games": 112,
+      "play_rate": 11.5,
+      "win_rate": 47.3,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
@@ -82,52 +101,33 @@
       }
     },
     {
-      "detachment": "Retaliation Cadre",
-      "base_archetype": "T'au Empire \u2014 Retaliation Cadre",
-      "lists": 20,
-      "games": 102,
-      "play_rate": 12.1,
-      "win_rate": 44.1,
-      "x0_pct": 0.0,
-      "x1_pct": 20.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 45.2,
-        "games": 52
-      },
-      "second_turn": {
-        "win_rate": 49.0,
-        "games": 49
-      }
-    },
-    {
       "detachment": "Experimental Prototype Cadre + Kauyon",
       "base_archetype": "T'au Empire \u2014 Experimental Prototype Cadre + Kauyon",
-      "lists": 14,
-      "games": 71,
-      "play_rate": 8.5,
-      "win_rate": 50.7,
+      "lists": 11,
+      "games": 56,
+      "play_rate": 6.7,
+      "win_rate": 54.5,
       "x0_pct": 0.0,
-      "x1_pct": 7.1,
+      "x1_pct": 9.1,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 55.0,
-        "games": 40
+        "win_rate": 60.0,
+        "games": 30
       },
       "second_turn": {
-        "win_rate": 45.2,
-        "games": 31
+        "win_rate": 48.1,
+        "games": 26
       }
     },
     {
       "detachment": "No Detachment",
       "base_archetype": "T'au Empire \u2014 No Detachment",
-      "lists": 7,
-      "games": 37,
-      "play_rate": 4.2,
-      "win_rate": 43.2,
+      "lists": 11,
+      "games": 65,
+      "play_rate": 6.7,
+      "win_rate": 45.4,
       "x0_pct": 0.0,
-      "x1_pct": 28.6,
+      "x1_pct": 18.2,
       "tournament_wins": 0,
       "first_turn": {
         "win_rate": null,
@@ -136,25 +136,6 @@
       "second_turn": {
         "win_rate": null,
         "games": 0
-      }
-    },
-    {
-      "detachment": "Experimental Prototype Cadre + Kroot Hunting Pack",
-      "base_archetype": "T'au Empire \u2014 Experimental Prototype Cadre + Kroot Hunting Pack",
-      "lists": 4,
-      "games": 30,
-      "play_rate": 2.4,
-      "win_rate": 56.7,
-      "x0_pct": 0.0,
-      "x1_pct": 25.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 77.8,
-        "games": 9
-      },
-      "second_turn": {
-        "win_rate": 53.1,
-        "games": 16
       }
     },
     {
@@ -174,6 +155,44 @@
       "second_turn": {
         "win_rate": 37.5,
         "games": 8
+      }
+    },
+    {
+      "detachment": "Experimental Prototype Cadre",
+      "base_archetype": "T'au Empire \u2014 Experimental Prototype Cadre",
+      "lists": 3,
+      "games": 15,
+      "play_rate": 1.8,
+      "win_rate": 36.7,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 40.0,
+        "games": 10
+      },
+      "second_turn": {
+        "win_rate": 30.0,
+        "games": 5
+      }
+    },
+    {
+      "detachment": "Experimental Prototype Cadre + Kroot Hunting Pack",
+      "base_archetype": "T'au Empire \u2014 Experimental Prototype Cadre + Kroot Hunting Pack",
+      "lists": 3,
+      "games": 25,
+      "play_rate": 1.8,
+      "win_rate": 62.0,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 77.8,
+        "games": 9
+      },
+      "second_turn": {
+        "win_rate": 53.1,
+        "games": 16
       }
     },
     {
