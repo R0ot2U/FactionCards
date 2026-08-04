@@ -1,55 +1,36 @@
 {
   "faction": "Genestealer Cults",
   "slug": "genestealer_cults",
-  "as_of": "2026-07-31",
+  "as_of": "2026-08-04",
   "window_days": 7,
   "event_type": "team",
-  "lists": 8,
-  "games": 40,
-  "play_rate": 2.0,
-  "win_rate": 45.0,
-  "trend_delta": -30.0,
-  "top_detachment": "Heroes Of The Uprising + Purestrain Broodswarm + Xenocult Masses",
-  "ci_lower": 30.7,
+  "lists": 4,
+  "games": 20,
+  "play_rate": 1.5,
+  "win_rate": 52.5,
+  "trend_delta": 7.5,
+  "top_detachment": "Biosanctic Broodsurge + Xenocult Masses",
+  "ci_lower": 32.0,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 12.5,
+  "x1_pct": 25.0,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 57.1,
-    "games": 14
+    "win_rate": 65.4,
+    "games": 13
   },
   "second_turn": {
-    "win_rate": 38.5,
-    "games": 26
+    "win_rate": 28.6,
+    "games": 7
   },
   "detachments": [
     {
-      "detachment": "Heroes Of The Uprising + Purestrain Broodswarm + Xenocult Masses",
-      "base_archetype": "Genestealer Cults \u2014 Heroes Of The Uprising + Purestrain Broodswarm + Xenocult Masses",
-      "lists": 2,
-      "games": 10,
+      "detachment": "Biosanctic Broodsurge + Xenocult Masses",
+      "base_archetype": "Genestealer Cults \u2014 Biosanctic Broodsurge + Xenocult Masses",
+      "lists": 1,
+      "games": 5,
       "play_rate": 25.0,
-      "win_rate": 55.0,
-      "x0_pct": 0.0,
-      "x1_pct": 50.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 66.7,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 50.0,
-        "games": 7
-      }
-    },
-    {
-      "detachment": "Outlander Claw + Purestrain Broodswarm",
-      "base_archetype": "Genestealer Cults \u2014 Outlander Claw + Purestrain Broodswarm",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 25.0,
-      "win_rate": 20.0,
+      "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
@@ -59,26 +40,45 @@
       },
       "second_turn": {
         "win_rate": 0.0,
-        "games": 6
+        "games": 1
       }
     },
     {
-      "detachment": "Heroes Of The Uprising + Outlander Claw",
-      "base_archetype": "Genestealer Cults \u2014 Heroes Of The Uprising + Outlander Claw",
+      "detachment": "Heroes Of The Uprising + Purestrain Broodswarm + and Xenocult Masses",
+      "base_archetype": "Genestealer Cults \u2014 Heroes Of The Uprising + Purestrain Broodswarm + and Xenocult Masses",
       "lists": 1,
       "games": 5,
-      "play_rate": 12.5,
-      "win_rate": 60.0,
+      "play_rate": 25.0,
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      }
+    },
+    {
+      "detachment": "Biosanctic Broodsurge",
+      "base_archetype": "Genestealer Cults \u2014 Biosanctic Broodsurge",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 25.0,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 100.0,
-        "games": 1
+        "win_rate": 50.0,
+        "games": 3
       },
       "second_turn": {
         "win_rate": 50.0,
-        "games": 4
+        "games": 2
       }
     },
     {
@@ -86,27 +86,8 @@
       "base_archetype": "Genestealer Cults \u2014 Biosanctic Broodsurge + Heroes Of The Uprising",
       "lists": 1,
       "games": 5,
-      "play_rate": 12.5,
-      "win_rate": 20.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 1
-      },
-      "second_turn": {
-        "win_rate": 25.0,
-        "games": 4
-      }
-    },
-    {
-      "detachment": "Biosanctic Broodsurge + Xenocult Masses",
-      "base_archetype": "Genestealer Cults \u2014 Biosanctic Broodsurge + Xenocult Masses",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 12.5,
-      "win_rate": 80.0,
+      "play_rate": 25.0,
+      "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
@@ -115,173 +96,83 @@
         "games": 3
       },
       "second_turn": {
-        "win_rate": 100.0,
+        "win_rate": 0.0,
         "games": 2
-      }
-    },
-    {
-      "detachment": "Xenocreed Congregation + Xenocult Masses",
-      "base_archetype": "Genestealer Cults \u2014 Xenocreed Congregation + Xenocult Masses",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 12.5,
-      "win_rate": 50.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 50.0,
-        "games": 3
       }
     }
   ],
   "dispositions": [
     {
-      "disposition": "Disruption",
-      "lists": 5,
-      "play_rate": 62.5,
-      "win_rate": 54.0,
+      "disposition": "Take and Hold",
+      "lists": 2,
+      "play_rate": 50.0,
+      "win_rate": 40.0,
       "x0_pct": 0.0,
-      "x1_pct": 20.0,
-      "games": 25.0,
+      "x1_pct": 0.0,
+      "games": 10.0,
       "first_turn": {
-        "win_rate": 62.5,
-        "games": 8
+        "win_rate": 57.1,
+        "games": 7
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 17
+        "win_rate": 0.0,
+        "games": 3
       }
     },
     {
       "disposition": "Reconnaissance",
       "lists": 2,
-      "play_rate": 25.0,
-      "win_rate": 20.0,
+      "play_rate": 50.0,
+      "win_rate": 65.0,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
+      "x1_pct": 50.0,
       "games": 10.0,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 4
+        "win_rate": 75.0,
+        "games": 6
       },
       "second_turn": {
-        "win_rate": 0.0,
-        "games": 6
+        "win_rate": 50.0,
+        "games": 4
       }
-    },
+    }
+  ],
+  "disposition_matchups": [],
+  "disposition_cross": [
     {
-      "disposition": "Priority Assets",
-      "lists": 1,
-      "play_rate": 12.5,
-      "win_rate": 50.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 5.0,
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Disruption",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0,
       "first_turn": {
         "win_rate": 50.0,
         "games": 2
       },
       "second_turn": {
-        "win_rate": 50.0,
+        "win_rate": 66.7,
         "games": 3
-      }
-    }
-  ],
-  "disposition_matchups": [
-    {
-      "opponent_disposition": "Purge the Foe",
-      "games": 12,
-      "wins": 4,
-      "win_rate": 33.3,
-      "first_turn": {
-        "win_rate": 37.5,
-        "games": 4
-      },
-      "second_turn": {
-        "win_rate": 31.2,
-        "games": 8
-      }
-    }
-  ],
-  "disposition_cross": [
-    {
-      "disposition": "Disruption",
-      "opponent_disposition": "Purge the Foe",
-      "games": 8,
-      "wins": 3,
-      "win_rate": 43.8,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 40.0,
-        "games": 5
-      }
-    },
-    {
-      "disposition": "Disruption",
-      "opponent_disposition": "Priority Assets",
-      "games": 6,
-      "wins": 2,
-      "win_rate": 41.7,
-      "first_turn": {
-        "win_rate": null,
-        "games": 0
-      },
-      "second_turn": {
-        "win_rate": 41.7,
-        "games": 6
       }
     }
   ],
   "top_players": [
     {
-      "player_name": "Gary Lynch",
-      "detachment": "Heroes Of The Uprising + Purestrain Broodswarm + Xenocult Masses",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/UV3ZdaGFZYxX",
+      "player_name": "Jayden Capps",
+      "detachment": "Heroes Of The Uprising + Purestrain Broodswarm + and Xenocult Masses",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/Wb5qJE4pIddI",
       "source": "bcp",
       "wins": 4,
-      "losses": 0,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Will RD",
-      "detachment": "Biosanctic Broodsurge + Xenocult Masses",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/MIfVcstPPasS",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 0,
-      "draws": 2,
+      "losses": 1,
+      "draws": 0,
       "games": 5,
       "win_rate": 80.0
     },
     {
-      "player_name": "Thomas Neville",
-      "detachment": "Heroes Of The Uprising + Outlander Claw",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/VlPK50FyEVcc",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Matt Falzon",
-      "detachment": "Xenocreed Congregation + Xenocult Masses",
-      "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/9cs9QFTzjN4o",
+      "player_name": "Charlie Davis",
+      "detachment": "Biosanctic Broodsurge",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/R3G6qQErvTuE",
       "source": "bcp",
       "wins": 2,
       "losses": 2,
@@ -290,99 +181,46 @@
       "win_rate": 50.0
     },
     {
-      "player_name": "James Fiebig",
-      "detachment": "Outlander Claw + Purestrain Broodswarm",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/ZsKm05QGbRh5",
+      "player_name": "Mikael Gagnon",
+      "detachment": "Biosanctic Broodsurge + Xenocult Masses",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/sLYoYHcoF6ZX",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 2,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Taz Cadman",
+      "detachment": "Biosanctic Broodsurge + Heroes Of The Uprising",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/rxMCxtWChZ6T",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
       "draws": 0,
       "games": 5,
       "win_rate": 40.0
-    },
-    {
-      "player_name": "Amir Bijedic",
-      "detachment": "Biosanctic Broodsurge + Heroes Of The Uprising",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/wmfE79GLVsrq",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 4,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 20.0
-    },
-    {
-      "player_name": "Matthew \u2018Selly\u2019 Sellwood",
-      "detachment": "Heroes Of The Uprising + Purestrain Broodswarm + Xenocult Masses",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/oOlB1dwBVuii",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 4,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 20.0
-    },
-    {
-      "player_name": "Connor H",
-      "detachment": "Outlander Claw + Purestrain Broodswarm",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/9QGH9G0NZmDN",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 5,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 0.0
     }
   ],
-  "matchups": [
-    {
-      "opponent_faction": "World Eaters",
-      "games": 5,
-      "wins": 2,
-      "win_rate": 40.0,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 66.7,
-        "games": 3
-      }
-    },
-    {
-      "opponent_faction": "Death Guard",
-      "games": 5,
-      "wins": 2,
-      "win_rate": 50.0,
-      "first_turn": {
-        "win_rate": 62.5,
-        "games": 4
-      },
-      "second_turn": {
-        "win_rate": 0.0,
-        "games": 1
-      }
-    }
-  ],
+  "matchups": [],
   "timeline": [
     {
-      "week": "2026-W29",
-      "lists": 8,
-      "games": 40,
-      "win_rate": 45.0,
-      "total_lists": 400,
-      "play_rate": 2.0,
+      "week": "2026-W30",
+      "lists": 4,
+      "games": 20,
+      "win_rate": 52.5,
+      "total_lists": 274,
+      "play_rate": 1.5,
       "first_turn": {
-        "win_rate": 57.1,
-        "games": 14
+        "win_rate": 65.4,
+        "games": 13
       },
       "second_turn": {
-        "win_rate": 38.5,
-        "games": 26
+        "win_rate": 28.6,
+        "games": 7
       }
     }
   ]
