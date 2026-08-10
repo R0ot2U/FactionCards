@@ -1,36 +1,93 @@
 {
   "faction": "Astra Militarum",
   "slug": "astra_militarum",
-  "as_of": "2026-08-04",
+  "as_of": "2026-08-10",
   "window_days": 7,
   "event_type": "team",
-  "lists": 7,
-  "games": 35,
-  "play_rate": 2.6,
-  "win_rate": 44.3,
-  "trend_delta": 2.3,
-  "top_detachment": "Bridgehead Strike + Mechanised Assault",
-  "ci_lower": 29.2,
+  "lists": 17,
+  "games": 85,
+  "play_rate": 2.5,
+  "win_rate": 40.6,
+  "trend_delta": -3.7,
+  "top_detachment": "Abhuman Auxiliaries + Steel Hammer",
+  "ci_lower": 30.8,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
   "x1_pct": 0.0,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 33.3,
-    "games": 15
+    "win_rate": 46.2,
+    "games": 39
   },
   "second_turn": {
-    "win_rate": 52.5,
-    "games": 20
+    "win_rate": 35.9,
+    "games": 46
   },
   "detachments": [
     {
-      "detachment": "Bridgehead Strike + Mechanised Assault",
-      "base_archetype": "Astra Militarum \u2014 Bridgehead Strike + Mechanised Assault",
+      "detachment": "Abhuman Auxiliaries + Steel Hammer",
+      "base_archetype": "Astra Militarum \u2014 Abhuman Auxiliaries + Steel Hammer",
+      "lists": 5,
+      "games": 25,
+      "play_rate": 29.4,
+      "win_rate": 48.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 42.9,
+        "games": 14
+      },
+      "second_turn": {
+        "win_rate": 54.5,
+        "games": 11
+      }
+    },
+    {
+      "detachment": "Grizzled Company",
+      "base_archetype": "Astra Militarum \u2014 Grizzled Company",
+      "lists": 4,
+      "games": 20,
+      "play_rate": 23.5,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 40.9,
+        "games": 11
+      },
+      "second_turn": {
+        "win_rate": 38.9,
+        "games": 9
+      }
+    },
+    {
+      "detachment": "Steel Hammer",
+      "base_archetype": "Astra Militarum \u2014 Steel Hammer",
       "lists": 2,
       "games": 10,
-      "play_rate": 28.6,
-      "win_rate": 50.0,
+      "play_rate": 11.8,
+      "win_rate": 45.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 83.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 28.6,
+        "games": 7
+      }
+    },
+    {
+      "detachment": "Bridgehead Strike + Combined Arms",
+      "base_archetype": "Astra Militarum \u2014 Bridgehead Strike + Combined Arms",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 11.8,
+      "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
@@ -39,65 +96,27 @@
         "games": 4
       },
       "second_turn": {
-        "win_rate": 66.7,
+        "win_rate": 33.3,
         "games": 6
       }
     },
     {
-      "detachment": "Steel Hammer",
-      "base_archetype": "Astra Militarum \u2014 Steel Hammer",
+      "detachment": "Recon Element",
+      "base_archetype": "Astra Militarum \u2014 Recon Element",
       "lists": 1,
       "games": 5,
-      "play_rate": 14.3,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 66.7,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 50.0,
-        "games": 2
-      }
-    },
-    {
-      "detachment": "Grizzled Company",
-      "base_archetype": "Astra Militarum \u2014 Grizzled Company",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 14.3,
+      "play_rate": 5.9,
       "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 16.7,
-        "games": 3
+        "win_rate": 100.0,
+        "games": 1
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 2
-      }
-    },
-    {
-      "detachment": "Designation Force + Siege Regiment",
-      "base_archetype": "Astra Militarum \u2014 Designation Force + Siege Regiment",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 14.3,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": null,
-        "games": 0
-      },
-      "second_turn": {
-        "win_rate": 60.0,
-        "games": 5
+        "win_rate": 12.5,
+        "games": 4
       }
     },
     {
@@ -105,8 +124,8 @@
       "base_archetype": "Astra Militarum \u2014 No Detachment",
       "lists": 1,
       "games": 5,
-      "play_rate": 14.3,
-      "win_rate": 40.0,
+      "play_rate": 5.9,
+      "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
@@ -120,170 +139,356 @@
       }
     },
     {
-      "detachment": "Bridgehead Strike + Siege Regiment",
-      "base_archetype": "Astra Militarum \u2014 Bridgehead Strike + Siege Regiment",
+      "detachment": "Designation Force + Hammer Of The Emperor",
+      "base_archetype": "Astra Militarum \u2014 Designation Force + Hammer Of The Emperor",
       "lists": 1,
       "games": 5,
-      "play_rate": 14.3,
+      "play_rate": 5.9,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      }
+    },
+    {
+      "detachment": "Combined Arms",
+      "base_archetype": "Astra Militarum \u2014 Combined Arms",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.9,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 16.7,
-        "games": 3
+        "win_rate": 50.0,
+        "games": 2
       },
       "second_turn": {
-        "win_rate": 25.0,
-        "games": 2
+        "win_rate": 0.0,
+        "games": 3
       }
     }
   ],
   "dispositions": [
     {
+      "disposition": "Purge the Foe",
+      "lists": 8,
+      "play_rate": 47.1,
+      "win_rate": 48.8,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 40.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 21
+      },
+      "second_turn": {
+        "win_rate": 47.4,
+        "games": 19
+      }
+    },
+    {
       "disposition": "Priority Assets",
+      "lists": 4,
+      "play_rate": 23.5,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 20.0,
+      "first_turn": {
+        "win_rate": 40.9,
+        "games": 11
+      },
+      "second_turn": {
+        "win_rate": 38.9,
+        "games": 9
+      }
+    },
+    {
+      "disposition": "Take and Hold",
       "lists": 3,
-      "play_rate": 42.9,
+      "play_rate": 17.6,
       "win_rate": 26.7,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "games": 15.0,
       "first_turn": {
-        "win_rate": 12.5,
-        "games": 8
+        "win_rate": 33.3,
+        "games": 6
       },
       "second_turn": {
-        "win_rate": 42.9,
-        "games": 7
+        "win_rate": 22.2,
+        "games": 9
       }
     },
     {
       "disposition": "Reconnaissance",
       "lists": 2,
-      "play_rate": 28.6,
-      "win_rate": 65.0,
+      "play_rate": 11.8,
+      "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "games": 10.0,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 2
+        "win_rate": 100.0,
+        "games": 1
       },
       "second_turn": {
-        "win_rate": 68.8,
+        "win_rate": 22.2,
+        "games": 9
+      }
+    }
+  ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 22,
+      "wins": 9,
+      "win_rate": 43.2,
+      "first_turn": {
+        "win_rate": 38.9,
+        "games": 9
+      },
+      "second_turn": {
+        "win_rate": 46.2,
+        "games": 13
+      }
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 22,
+      "wins": 9,
+      "win_rate": 40.9,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 11
+      },
+      "second_turn": {
+        "win_rate": 31.8,
+        "games": 11
+      }
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 18,
+      "wins": 6,
+      "win_rate": 36.1,
+      "first_turn": {
+        "win_rate": 38.9,
+        "games": 9
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 9
+      }
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 11,
+      "wins": 5,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 70.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 6
+      }
+    },
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 10,
+      "wins": 2,
+      "win_rate": 20.0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 28.6,
+        "games": 7
+      }
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Reconnaissance",
+      "games": 7,
+      "wins": 2,
+      "win_rate": 35.7,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Take and Hold",
+      "games": 14,
+      "wins": 6,
+      "win_rate": 42.9,
+      "first_turn": {
+        "win_rate": 41.7,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 43.8,
         "games": 8
       }
     },
     {
       "disposition": "Purge the Foe",
-      "lists": 1,
-      "play_rate": 14.3,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 5.0,
+      "opponent_disposition": "Priority Assets",
+      "games": 9,
+      "wins": 5,
+      "win_rate": 61.1,
       "first_turn": {
-        "win_rate": 66.7,
-        "games": 3
+        "win_rate": 50.0,
+        "games": 7
       },
       "second_turn": {
-        "win_rate": 50.0,
+        "win_rate": 100.0,
         "games": 2
       }
     },
     {
-      "disposition": "Take and Hold",
-      "lists": 1,
-      "play_rate": 14.3,
-      "win_rate": 40.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 5.0,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 33.3,
-        "games": 3
-      }
-    }
-  ],
-  "disposition_matchups": [],
-  "disposition_cross": [
-    {
-      "disposition": "Priority Assets",
-      "opponent_disposition": "Take and Hold",
-      "games": 5,
-      "wins": 0,
-      "win_rate": 10.0,
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Purge the Foe",
+      "games": 7,
+      "wins": 2,
+      "win_rate": 28.6,
       "first_turn": {
         "win_rate": 0.0,
         "games": 2
       },
       "second_turn": {
-        "win_rate": 16.7,
-        "games": 3
+        "win_rate": 40.0,
+        "games": 5
       }
     },
     {
-      "disposition": "Priority Assets",
-      "opponent_disposition": "Disruption",
-      "games": 5,
-      "wins": 2,
-      "win_rate": 40.0,
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Reconnaissance",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 57.1,
       "first_turn": {
-        "win_rate": 25.0,
-        "games": 2
+        "win_rate": 62.5,
+        "games": 4
       },
       "second_turn": {
         "win_rate": 50.0,
         "games": 3
       }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Reconnaissance",
+      "games": 8,
+      "wins": 2,
+      "win_rate": 31.2,
+      "first_turn": {
+        "win_rate": 25.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 6
+      }
     }
   ],
   "top_players": [
     {
-      "player_name": "Jean-Francois  Plasse",
-      "detachment": "Bridgehead Strike + Mechanised Assault",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/wfci21slE72S",
+      "player_name": "Nathan Chow",
+      "detachment": "Abhuman Auxiliaries + Steel Hammer",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/pflzZDFZsvJ9",
       "source": "bcp",
       "wins": 3,
-      "losses": 1,
-      "draws": 1,
+      "losses": 2,
+      "draws": 0,
       "games": 5,
-      "win_rate": 70.0
+      "win_rate": 60.0
     },
     {
-      "player_name": "Alexandre Gaucher",
+      "player_name": "Robert Bishop",
+      "detachment": "Abhuman Auxiliaries + Steel Hammer",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/0WH3puqPY0Hm",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 1,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Ross Small",
+      "detachment": "Designation Force + Hammer Of The Emperor",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/EuxkiMT4kSP6",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Chris Redfearn",
+      "detachment": "Grizzled Company",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/uiNgUS9a686J",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Joshua Sulz",
       "detachment": "Steel Hammer",
       "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/GyPLpgNfyJHb",
+      "list_url": "https://www.bestcoastpairings.com/list/c3HWfKZEjUk8",
       "source": "bcp",
-      "wins": 3,
+      "wins": 2,
       "losses": 2,
-      "draws": 0,
+      "draws": 1,
       "games": 5,
-      "win_rate": 60.0
+      "win_rate": 50.0
     },
     {
-      "player_name": "Matthew Kelly",
-      "detachment": "Designation Force + Siege Regiment",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/NcqCw0vhw4b2",
+      "player_name": "Aaron Day",
+      "detachment": "Abhuman Auxiliaries + Steel Hammer",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/OvrjY6mrctFM",
       "source": "bcp",
-      "wins": 3,
+      "wins": 2,
       "losses": 2,
-      "draws": 0,
+      "draws": 1,
       "games": 5,
-      "win_rate": 60.0
+      "win_rate": 50.0
     },
     {
-      "player_name": "Tyson Linthorne",
-      "detachment": "No Detachment",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/PRjk4E8WMcs7",
+      "player_name": "PJ Hibgame",
+      "detachment": "Abhuman Auxiliaries + Steel Hammer",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/7V3nLSTmvBfG",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -292,22 +497,34 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Arnaud Stuart",
-      "detachment": "Bridgehead Strike + Mechanised Assault",
-      "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/CwTF2fBGA7XF",
+      "player_name": "Mike Schaeffer",
+      "detachment": "Steel Hammer",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/sz8tCLiHzcni",
       "source": "bcp",
       "wins": 1,
-      "losses": 3,
-      "draws": 1,
+      "losses": 2,
+      "draws": 2,
       "games": 5,
-      "win_rate": 30.0
+      "win_rate": 40.0
     },
     {
-      "player_name": "Brian Baker",
+      "player_name": "Ryan Willett",
       "detachment": "Grizzled Company",
       "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/0Wa2bYGIuBJZ",
+      "list_url": "https://www.bestcoastpairings.com/list/8oQIWfGubZWm",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Teek Burg",
+      "detachment": "Recon Element",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/y9skJvccTyw3",
       "source": "bcp",
       "wins": 1,
       "losses": 3,
@@ -316,34 +533,177 @@
       "win_rate": 30.0
     },
     {
-      "player_name": "Joshua Howard",
-      "detachment": "Bridgehead Strike + Siege Regiment",
+      "player_name": "Sam Roubicek",
+      "detachment": "Grizzled Company",
       "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/QI6dR60Qeo9k",
+      "list_url": "https://www.bestcoastpairings.com/list/2HrnWuGAtfKW",
       "source": "bcp",
-      "wins": 0,
+      "wins": 1,
       "losses": 3,
-      "draws": 2,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
+      "player_name": "Noah Kalmes",
+      "detachment": "No Detachment",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/52E4bYJtoFPB",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
+      "player_name": "Warwick Smith",
+      "detachment": "Abhuman Auxiliaries + Steel Hammer",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/p8657d2WG49Z",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
+      "player_name": "Joshua Wood",
+      "detachment": "Bridgehead Strike + Combined Arms",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/J4VHIcJwgF4W",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
+      "player_name": "Will Gilbert",
+      "detachment": "Bridgehead Strike + Combined Arms",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/iLEZavekr29O",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
+      "player_name": "Cameron MacColl",
+      "detachment": "Grizzled Company",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/CdYqy12V4QQm",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
+      "player_name": "Albert Wright",
+      "detachment": "Combined Arms",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/Tt2RNRuNJa1H",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
       "games": 5,
       "win_rate": 20.0
     }
   ],
-  "matchups": [],
-  "timeline": [
+  "matchups": [
     {
-      "week": "2026-W30",
-      "lists": 7,
-      "games": 35,
-      "win_rate": 44.3,
-      "total_lists": 274,
-      "play_rate": 2.6,
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 13,
+      "wins": 7,
+      "win_rate": 53.8,
       "first_turn": {
-        "win_rate": 33.3,
-        "games": 15
+        "win_rate": 58.3,
+        "games": 6
       },
       "second_turn": {
-        "win_rate": 52.5,
-        "games": 20
+        "win_rate": 50.0,
+        "games": 7
+      }
+    },
+    {
+      "opponent_faction": "Necrons",
+      "games": 8,
+      "wins": 2,
+      "win_rate": 31.2,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 10.0,
+        "games": 5
+      }
+    },
+    {
+      "opponent_faction": "Emperor's Children",
+      "games": 8,
+      "wins": 2,
+      "win_rate": 25.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 16.7,
+        "games": 6
+      }
+    },
+    {
+      "opponent_faction": "Chaos Space Marines",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 58.3,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 5
+      }
+    },
+    {
+      "opponent_faction": "Tyranids",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0,
+      "first_turn": {
+        "win_rate": 75.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 16.7,
+        "games": 3
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "week": "2026-W31",
+      "lists": 17,
+      "games": 85,
+      "win_rate": 40.6,
+      "total_lists": 681,
+      "play_rate": 2.5,
+      "first_turn": {
+        "win_rate": 46.2,
+        "games": 39
+      },
+      "second_turn": {
+        "win_rate": 35.9,
+        "games": 46
       }
     }
   ]

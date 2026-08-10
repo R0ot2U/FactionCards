@@ -1,16 +1,16 @@
 {
   "faction": "Black Templars",
   "slug": "black_templars",
-  "as_of": "2026-08-04",
+  "as_of": "2026-08-10",
   "window_days": 14,
   "event_type": "team",
-  "lists": 5,
-  "games": 25,
-  "play_rate": 0.7,
-  "win_rate": 40.0,
+  "lists": 8,
+  "games": 40,
+  "play_rate": 0.8,
+  "win_rate": 38.8,
   "trend_delta": null,
-  "top_detachment": "Bastion Task Force",
-  "ci_lower": 23.4,
+  "top_detachment": "Companions Of Vehemence + Marshal'S Household",
+  "ci_lower": 25.3,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
   "x1_pct": 0.0,
@@ -20,36 +20,17 @@
     "games": 6
   },
   "second_turn": {
-    "win_rate": 62.5,
-    "games": 4
+    "win_rate": 33.3,
+    "games": 9
   },
   "detachments": [
     {
-      "detachment": "Bastion Task Force",
-      "base_archetype": "Black Templars \u2014 Bastion Task Force",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 20.0,
-      "win_rate": 70.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 66.7,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 75.0,
-        "games": 2
-      }
-    },
-    {
-      "detachment": "Companions Of Vehemence + Wrathful Procession",
-      "base_archetype": "Black Templars \u2014 Companions Of Vehemence + Wrathful Procession",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 20.0,
-      "win_rate": 0.0,
+      "detachment": "Companions Of Vehemence + Marshal'S Household",
+      "base_archetype": "Black Templars \u2014 Companions Of Vehemence + Marshal'S Household",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 25.0,
+      "win_rate": 35.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
@@ -67,7 +48,7 @@
       "base_archetype": "Black Templars \u2014 Vanguard Spearhead + Wrathful Procession",
       "lists": 1,
       "games": 5,
-      "play_rate": 20.0,
+      "play_rate": 12.5,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -86,7 +67,7 @@
       "base_archetype": "Black Templars \u2014 Godhammer Assault Force",
       "lists": 1,
       "games": 5,
-      "play_rate": 20.0,
+      "play_rate": 12.5,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -101,12 +82,69 @@
       }
     },
     {
-      "detachment": "Companions Of Vehemence + Marshal'S Household",
-      "base_archetype": "Black Templars \u2014 Companions Of Vehemence + Marshal'S Household",
+      "detachment": "Godhammer Assault Force + The Living Miracle",
+      "base_archetype": "Black Templars \u2014 Godhammer Assault Force + The Living Miracle",
       "lists": 1,
       "games": 5,
-      "play_rate": 20.0,
+      "play_rate": 12.5,
       "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
+    },
+    {
+      "detachment": "Armoured Speartip",
+      "base_archetype": "Black Templars \u2014 Armoured Speartip",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 12.5,
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 4
+      }
+    },
+    {
+      "detachment": "Godhammer Assault Force + Marshal'S Household",
+      "base_archetype": "Black Templars \u2014 Godhammer Assault Force + Marshal'S Household",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 12.5,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
+    },
+    {
+      "detachment": "Companions Of Vehemence + Wrathful Procession",
+      "base_archetype": "Black Templars \u2014 Companions Of Vehemence + Wrathful Procession",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 12.5,
+      "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
@@ -122,43 +160,43 @@
   ],
   "dispositions": [
     {
+      "disposition": "Purge the Foe",
+      "lists": 4,
+      "play_rate": 50.0,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 20.0,
+      "first_turn": {
+        "win_rate": 72.2,
+        "games": 9
+      },
+      "second_turn": {
+        "win_rate": 13.6,
+        "games": 11
+      }
+    },
+    {
       "disposition": "Take and Hold",
       "lists": 2,
-      "play_rate": 40.0,
-      "win_rate": 65.0,
+      "play_rate": 25.0,
+      "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "games": 10.0,
       "first_turn": {
-        "win_rate": 66.7,
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 33.3,
         "games": 6
-      },
-      "second_turn": {
-        "win_rate": 62.5,
-        "games": 4
-      }
-    },
-    {
-      "disposition": "Purge the Foe",
-      "lists": 1,
-      "play_rate": 20.0,
-      "win_rate": 0.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 5.0,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 1
-      },
-      "second_turn": {
-        "win_rate": 0.0,
-        "games": 4
       }
     },
     {
       "disposition": "Reconnaissance",
       "lists": 1,
-      "play_rate": 20.0,
+      "play_rate": 12.5,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -175,7 +213,7 @@
     {
       "disposition": "Priority Assets",
       "lists": 1,
-      "play_rate": 20.0,
+      "play_rate": 12.5,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -190,26 +228,72 @@
       }
     }
   ],
-  "disposition_matchups": [],
-  "disposition_cross": [],
-  "top_players": [
+  "disposition_matchups": [
     {
-      "player_name": "Shane Porter",
-      "detachment": "Bastion Task Force",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/x3QegfbVF2Cu",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 1,
-      "draws": 1,
+      "opponent_disposition": "Reconnaissance",
+      "games": 11,
+      "wins": 4,
+      "win_rate": 40.9,
+      "first_turn": {
+        "win_rate": 87.5,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 14.3,
+        "games": 7
+      }
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Disruption",
       "games": 5,
-      "win_rate": 70.0
+      "wins": 2,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 83.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      }
     },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Reconnaissance",
+      "games": 5,
+      "wins": 0,
+      "win_rate": 10.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 4
+      }
+    }
+  ],
+  "top_players": [
     {
       "player_name": "Paul Garcin",
       "detachment": "Godhammer Assault Force",
       "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/VVKvlxVEoaU4",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "John Teets",
+      "detachment": "Godhammer Assault Force + Marshal'S Household",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/K50LM9rCSYe5",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -230,6 +314,30 @@
       "win_rate": 50.0
     },
     {
+      "player_name": "Jesse Maher",
+      "detachment": "Godhammer Assault Force + The Living Miracle",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/87LLdh2urEf0",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 2,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 50.0
+    },
+    {
+      "player_name": "Oliver Logan",
+      "detachment": "Companions Of Vehemence + Wrathful Procession",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/dZApnG8PCjuD",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
       "player_name": "Andrew Lucas",
       "detachment": "Vanguard Spearhead + Wrathful Procession",
       "disposition": "Reconnaissance",
@@ -242,36 +350,75 @@
       "win_rate": 20.0
     },
     {
-      "player_name": "Alex McGinn",
-      "detachment": "Companions Of Vehemence + Wrathful Procession",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/I9VOHOIiRFL7",
+      "player_name": "Thomas Webberly",
+      "detachment": "Armoured Speartip",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/T8HndjeipV01",
       "source": "bcp",
-      "wins": 0,
-      "losses": 5,
+      "wins": 1,
+      "losses": 4,
       "draws": 0,
       "games": 5,
-      "win_rate": 0.0
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Matt Lamacraft",
+      "detachment": "Companions Of Vehemence + Marshal'S Household",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/OvPcP6LaAByU",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 3,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 20.0
     }
   ],
-  "matchups": [],
-  "timeline": [
+  "matchups": [
     {
-      "week": "2026-W29",
-      "lists": 2,
-      "games": 10,
-      "win_rate": 35.0,
-      "total_lists": 400,
-      "play_rate": 0.5,
+      "opponent_faction": "Necrons",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 33.3,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 4
+        "win_rate": 0.0,
+        "games": 1
       },
       "second_turn": {
-        "win_rate": 25.0,
-        "games": 6
+        "win_rate": 40.0,
+        "games": 5
       }
     },
+    {
+      "opponent_faction": "Chaos Daemons",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 30.0,
+      "first_turn": {
+        "win_rate": 25.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
+    },
+    {
+      "opponent_faction": "Emperor's Children",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 20.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 3
+      }
+    }
+  ],
+  "timeline": [
     {
       "week": "2026-W30",
       "lists": 3,
@@ -286,6 +433,22 @@
       "second_turn": {
         "win_rate": 33.3,
         "games": 3
+      }
+    },
+    {
+      "week": "2026-W31",
+      "lists": 5,
+      "games": 25,
+      "win_rate": 36.0,
+      "total_lists": 681,
+      "play_rate": 0.7,
+      "first_turn": {
+        "win_rate": 65.0,
+        "games": 10
+      },
+      "second_turn": {
+        "win_rate": 16.7,
+        "games": 15
       }
     }
   ]
