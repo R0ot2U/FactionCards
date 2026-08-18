@@ -5,15 +5,15 @@
   "games": 1494,
   "win_rate": 50.8,
   "avg_vp": 11.9,
-  "x0_pct": 4.3,
-  "x1_pct": 15.4,
+  "x0_pct": 5.7,
+  "x1_pct": 16.4,
   "factions": [
     {
       "faction": "T'au Empire",
       "lists": 50,
       "games": 250,
       "win_rate": 54.4,
-      "x0_pct": 4.0,
+      "x0_pct": 8.0,
       "play_rate": 16.7
     },
     {
@@ -45,7 +45,7 @@
       "lists": 21,
       "games": 105,
       "win_rate": 49.5,
-      "x0_pct": 9.5,
+      "x0_pct": 14.3,
       "play_rate": 7.0
     },
     {
@@ -93,7 +93,7 @@
       "lists": 9,
       "games": 45,
       "win_rate": 57.8,
-      "x0_pct": 0.0,
+      "x0_pct": 11.1,
       "play_rate": 3.0
     },
     {
@@ -121,18 +121,18 @@
       "play_rate": 2.3
     },
     {
+      "faction": "Astra Militarum",
+      "lists": 6,
+      "games": 30,
+      "win_rate": 48.3,
+      "x0_pct": 0.0,
+      "play_rate": 2.0
+    },
+    {
       "faction": "Death Guard",
       "lists": 5,
       "games": 25,
       "win_rate": 30.0,
-      "x0_pct": 0.0,
-      "play_rate": 1.7
-    },
-    {
-      "faction": "Astra Militarum",
-      "lists": 5,
-      "games": 25,
-      "win_rate": 50.0,
       "x0_pct": 0.0,
       "play_rate": 1.7
     },
@@ -215,7 +215,7 @@
       "lists": 31,
       "games": 155,
       "win_rate": 51.9,
-      "x0_pct": 6.5
+      "x0_pct": 12.9
     },
     {
       "base_archetype": "World Eaters \u2014 Berzerker Warband",
@@ -233,9 +233,23 @@
     },
     {
       "base_archetype": "Imperial Knights \u2014 Dominus Foebreakers + Gate Warden Lance",
+      "lists": 13,
+      "games": 65,
+      "win_rate": 57.7,
+      "x0_pct": 7.7
+    },
+    {
+      "base_archetype": "Adeptus Custodes \u2014 Lions Of The Emperor + Might Of The Moritoi",
       "lists": 12,
       "games": 60,
-      "win_rate": 58.3,
+      "win_rate": 50.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Emperor's Children \u2014 Coterie Of The Conceited",
+      "lists": 12,
+      "games": 60,
+      "win_rate": 48.3,
       "x0_pct": 8.3
     },
     {
@@ -246,20 +260,6 @@
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Emperor's Children \u2014 Coterie Of The Conceited",
-      "lists": 11,
-      "games": 55,
-      "win_rate": 40.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Adeptus Custodes \u2014 Lions Of The Emperor + Might Of The Moritoi",
-      "lists": 10,
-      "games": 50,
-      "win_rate": 54.0,
-      "x0_pct": 0.0
-    },
-    {
       "base_archetype": "Chaos Space Marines \u2014 Murdertalon Raiders + Veterans Of The Long War",
       "lists": 9,
       "games": 45,
@@ -267,11 +267,25 @@
       "x0_pct": 0.0
     },
     {
+      "base_archetype": "Imperial Knights \u2014 Dominus Foebreakers + Valourstrike Lance",
+      "lists": 9,
+      "games": 45,
+      "win_rate": 56.7,
+      "x0_pct": 11.1
+    },
+    {
       "base_archetype": "Grey Knights \u2014 Argent Assault + Banishers",
       "lists": 8,
       "games": 40,
       "win_rate": 61.3,
       "x0_pct": 12.5
+    },
+    {
+      "base_archetype": "Adeptus Custodes \u2014 Shield Host + Tharanatoi Hammerblow",
+      "lists": 8,
+      "games": 40,
+      "win_rate": 48.8,
+      "x0_pct": 0.0
     },
     {
       "base_archetype": "Chaos Knights \u2014 Infernal Lance",
@@ -295,25 +309,11 @@
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Imperial Knights \u2014 Dominus Foebreakers + Valourstrike Lance",
-      "lists": 8,
-      "games": 40,
-      "win_rate": 55.0,
-      "x0_pct": 12.5
-    },
-    {
-      "base_archetype": "Adeptus Custodes \u2014 Shield Host + Tharanatoi Hammerblow",
-      "lists": 6,
-      "games": 30,
-      "win_rate": 51.7,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Chaos Daemons \u2014 Cavalcade Of Chaos + Shadow Legion",
+      "base_archetype": "Adeptus Custodes \u2014 Might Of The Moritoi + Shield Host",
       "lists": 5,
       "games": 25,
-      "win_rate": 74.0,
-      "x0_pct": 20.0
+      "win_rate": 54.0,
+      "x0_pct": 0.0
     },
     {
       "base_archetype": "Thousand Sons \u2014 Hexwarp Thrallband + Ritual Of Regeneration",
@@ -330,17 +330,10 @@
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Adeptus Custodes \u2014 No Detachment",
+      "base_archetype": "Chaos Daemons \u2014 Cavalcade Of Chaos + Shadow Legion",
       "lists": 4,
       "games": 20,
-      "win_rate": 37.5,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Emperor's Children \u2014 Coterie of the Conceited",
-      "lists": 4,
-      "games": 20,
-      "win_rate": 85.0,
+      "win_rate": 87.5,
       "x0_pct": 25.0
     },
     {
@@ -358,11 +351,11 @@
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Adeptus Custodes \u2014 Might Of The Moritoi + Shield Host",
+      "base_archetype": "Space Marines (Astartes) \u2014 Forgefather's Seekers + Librarius Conclave",
       "lists": 3,
       "games": 15,
-      "win_rate": 53.3,
-      "x0_pct": 0.0
+      "win_rate": 56.7,
+      "x0_pct": 33.3
     },
     {
       "base_archetype": "Grey Knights \u2014 Warpbane Task Force",
@@ -386,18 +379,11 @@
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Adeptus Custodes \u2014 Shield Host",
+      "base_archetype": "Emperor's Children \u2014 Coterie of the Conceited",
       "lists": 3,
       "games": 15,
-      "win_rate": 46.7,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Space Marines (Astartes) \u2014 Forgefather's Seekers + Librarius Conclave",
-      "lists": 2,
-      "games": 10,
-      "win_rate": 75.0,
-      "x0_pct": 0.0
+      "win_rate": 66.7,
+      "x0_pct": 33.3
     },
     {
       "base_archetype": "Emperor's Children \u2014 Carnival Of Excess + Spectacle Of Slaughter",
@@ -435,13 +421,6 @@
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Imperial Knights \u2014 No Detachment",
-      "lists": 2,
-      "games": 10,
-      "win_rate": 50.0,
-      "x0_pct": 0.0
-    },
-    {
       "base_archetype": "Space Marines (Astartes) \u2014 Firestorm Assault Force + Librarius Conclave",
       "lists": 2,
       "games": 10,
@@ -453,13 +432,6 @@
       "lists": 2,
       "games": 10,
       "win_rate": 50.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Space Marines (Astartes) \u2014 Librarius Conclave",
-      "lists": 2,
-      "games": 10,
-      "win_rate": 45.0,
       "x0_pct": 0.0
     },
     {
@@ -498,13 +470,6 @@
       "x0_pct": 50.0
     },
     {
-      "base_archetype": "Imperial Knights \u2014 Valourstrike Lance",
-      "lists": 2,
-      "games": 10,
-      "win_rate": 45.0,
-      "x0_pct": 0.0
-    },
-    {
       "base_archetype": "Death Guard \u2014 Contagion Engines + Death Lord's Chosen",
       "lists": 1,
       "games": 5,
@@ -540,7 +505,7 @@
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Space Wolves \u2014 Champions Of Fenris + Saga Of The Great Wolf",
+      "base_archetype": "Space Wolves \u2014 Sage of the Greatwolf 2DP Champions of Fenris 1 DP",
       "lists": 1,
       "games": 5,
       "win_rate": 60.0,
@@ -568,7 +533,7 @@
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Astra Militarum. \u2014 Designation Force + Hammer Of The Emperor",
+      "base_archetype": "Astra Militarum \u2014 Designation Force + Hammer Of The Emperor",
       "lists": 1,
       "games": 5,
       "win_rate": 40.0,
@@ -694,10 +659,31 @@
       "x0_pct": 0.0
     },
     {
+      "base_archetype": "Space Marines (Astartes) \u2014 Librarius Conclave",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 70.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Adeptus Custodes \u2014 No Detachment",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 40.0,
+      "x0_pct": 0.0
+    },
+    {
       "base_archetype": "Drukhari \u2014 Spectacle Of Spite",
       "lists": 1,
       "games": 5,
       "win_rate": 80.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Chaos Daemons \u2014 Shadow Legion; Cavalcade of Chaos",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 20.0,
       "x0_pct": 0.0
     },
     {
@@ -715,7 +701,7 @@
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Thousand Sons \u2014 No Detachment",
+      "base_archetype": "Thousand Sons \u2014 Hexwarp Thrallbrand + Ritual of Regeneration.",
       "lists": 1,
       "games": 5,
       "win_rate": 0.0,
@@ -806,7 +792,7 @@
       "x0_pct": 100.0
     },
     {
-      "base_archetype": "Astra Militarum \u2014 No Detachment",
+      "base_archetype": "Astra Militarum \u2014 Abhuman Auxiliaries + Steel Hammer",
       "lists": 1,
       "games": 5,
       "win_rate": 70.0,
@@ -904,6 +890,13 @@
       "x0_pct": 0.0
     },
     {
+      "base_archetype": "Imperial Knights \u2014 Valourstrike Lance",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 20.0,
+      "x0_pct": 0.0
+    },
+    {
       "base_archetype": "Astra Militarum \u2014 Bridgehead Strike + Steel Hammer",
       "lists": 1,
       "games": 5,
@@ -922,6 +915,13 @@
       "lists": 1,
       "games": 5,
       "win_rate": 30.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Imperial Knights \u2014 No Detachment",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 50.0,
       "x0_pct": 0.0
     },
     {
