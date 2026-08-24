@@ -1,65 +1,65 @@
 {
   "faction": "Deathwatch",
   "slug": "deathwatch",
-  "as_of": "2026-08-18",
+  "as_of": "2026-08-24",
   "window_days": 7,
   "event_type": "team",
-  "lists": 2,
-  "games": 13,
-  "play_rate": 0.2,
-  "win_rate": 80.8,
-  "trend_delta": -6.7,
+  "lists": 4,
+  "games": 20,
+  "play_rate": 5.4,
+  "win_rate": 65.0,
+  "trend_delta": -15.8,
   "top_detachment": "Black Spear Task Force",
-  "ci_lower": 53.7,
-  "meta_health": "slightly_over",
+  "ci_lower": 43.3,
+  "meta_health": "strongly_under",
   "x0_pct": 0.0,
   "x1_pct": 0.0,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 100.0,
-    "games": 4
+    "win_rate": 58.3,
+    "games": 12
   },
   "second_turn": {
-    "win_rate": 72.2,
-    "games": 9
+    "win_rate": 75.0,
+    "games": 8
   },
   "detachments": [
     {
       "detachment": "Black Spear Task Force",
       "base_archetype": "Deathwatch \u2014 Black Spear Task Force",
-      "lists": 2,
-      "games": 13,
+      "lists": 4,
+      "games": 20,
       "play_rate": 100.0,
-      "win_rate": 80.8,
+      "win_rate": 65.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 100.0,
-        "games": 4
+        "win_rate": 58.3,
+        "games": 12
       },
       "second_turn": {
-        "win_rate": 72.2,
-        "games": 9
+        "win_rate": 75.0,
+        "games": 8
       }
     }
   ],
   "dispositions": [
     {
       "disposition": "Purge the Foe",
-      "lists": 2,
+      "lists": 4,
       "play_rate": 100.0,
-      "win_rate": 80.8,
+      "win_rate": 65.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 13.0,
+      "games": 20.0,
       "first_turn": {
-        "win_rate": 100.0,
-        "games": 4
+        "win_rate": 58.3,
+        "games": 12
       },
       "second_turn": {
-        "win_rate": 72.2,
-        "games": 9
+        "win_rate": 75.0,
+        "games": 8
       }
     }
   ],
@@ -67,65 +67,116 @@
   "disposition_cross": [
     {
       "disposition": "Purge the Foe",
-      "opponent_disposition": "Priority Assets",
-      "games": 7,
-      "wins": 6,
-      "win_rate": 92.9,
+      "opponent_disposition": "Reconnaissance",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0,
       "first_turn": {
-        "win_rate": 100.0,
+        "win_rate": 50.0,
         "games": 2
       },
       "second_turn": {
-        "win_rate": 90.0,
-        "games": 5
+        "win_rate": 66.7,
+        "games": 3
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Priority Assets",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 70.0,
+      "first_turn": {
+        "win_rate": 62.5,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 1
       }
     }
   ],
   "top_players": [
     {
-      "player_name": "Chris Cho",
+      "player_name": "Bensen Lim",
       "detachment": "Black Spear Task Force",
       "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/Rlj0qTqqwGlN",
+      "list_url": "https://www.bestcoastpairings.com/list/szCoPBT4rhTp",
       "source": "bcp",
-      "wins": 10,
-      "losses": 2,
+      "wins": 2,
+      "losses": 0,
+      "draws": 3,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Shahrul Azmi",
+      "detachment": "Black Spear Task Force",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/t9lqhvUBA1Kz",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
       "draws": 1,
-      "games": 13,
-      "win_rate": 80.8
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Odin Preedy",
+      "detachment": "Black Spear Task Force",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/DEtPCm2QDJBy",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "aaron turner",
+      "detachment": "Black Spear Task Force",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/sdjtYtlNU7ES",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 1,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 60.0
     }
   ],
   "matchups": [
     {
-      "opponent_faction": "Adeptus Mechanicus",
+      "opponent_faction": "Orks",
       "games": 5,
-      "wins": 4,
-      "win_rate": 90.0,
+      "wins": 2,
+      "win_rate": 50.0,
       "first_turn": {
-        "win_rate": null,
-        "games": 0
+        "win_rate": 50.0,
+        "games": 3
       },
       "second_turn": {
-        "win_rate": 90.0,
-        "games": 5
+        "win_rate": 50.0,
+        "games": 2
       }
     }
   ],
   "timeline": [
     {
-      "week": "2026-W32",
-      "lists": 2,
-      "games": 13,
-      "win_rate": 80.8,
-      "total_lists": 846,
-      "play_rate": 0.2,
+      "week": "2026-W33",
+      "lists": 4,
+      "games": 20,
+      "win_rate": 65.0,
+      "total_lists": 74,
+      "play_rate": 5.4,
       "first_turn": {
-        "win_rate": 100.0,
-        "games": 4
+        "win_rate": 58.3,
+        "games": 12
       },
       "second_turn": {
-        "win_rate": 72.2,
-        "games": 9
+        "win_rate": 75.0,
+        "games": 8
       }
     }
   ]

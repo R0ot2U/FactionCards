@@ -1,439 +1,136 @@
 {
   "faction": "Drukhari",
   "slug": "drukhari",
-  "as_of": "2026-08-18",
+  "as_of": "2026-08-24",
   "window_days": 7,
   "event_type": "team",
-  "lists": 18,
-  "games": 108,
-  "play_rate": 2.1,
-  "win_rate": 36.1,
-  "trend_delta": -15.3,
+  "lists": 4,
+  "games": 20,
+  "play_rate": 5.4,
+  "win_rate": 55.0,
+  "trend_delta": 18.9,
   "top_detachment": "Exhibition Of Slaughter + Skysplinter Assault",
-  "ci_lower": 27.7,
+  "ci_lower": 34.2,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 5.6,
+  "x1_pct": 25.0,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 40.9,
-    "games": 55
+    "win_rate": 66.7,
+    "games": 9
   },
   "second_turn": {
-    "win_rate": 31.1,
-    "games": 53
+    "win_rate": 45.5,
+    "games": 11
   },
   "detachments": [
     {
       "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
       "base_archetype": "Drukhari \u2014 Exhibition Of Slaughter + Skysplinter Assault",
-      "lists": 7,
-      "games": 44,
-      "play_rate": 38.9,
-      "win_rate": 29.5,
+      "lists": 3,
+      "games": 15,
+      "play_rate": 75.0,
+      "win_rate": 53.3,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
+      "x1_pct": 33.3,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 37.0,
-        "games": 27
+        "win_rate": 57.1,
+        "games": 7
       },
       "second_turn": {
-        "win_rate": 17.6,
-        "games": 17
-      }
-    },
-    {
-      "detachment": "Kabalite Cartel + Tools Of Torment",
-      "base_archetype": "Drukhari \u2014 Kabalite Cartel + Tools Of Torment",
-      "lists": 5,
-      "games": 31,
-      "play_rate": 27.8,
-      "win_rate": 45.2,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 46.9,
-        "games": 16
-      },
-      "second_turn": {
-        "win_rate": 43.3,
-        "games": 15
+        "win_rate": 50.0,
+        "games": 8
       }
     },
     {
       "detachment": "Exhibition Of Slaughter + Kabalite Cartel",
       "base_archetype": "Drukhari \u2014 Exhibition Of Slaughter + Kabalite Cartel",
-      "lists": 3,
-      "games": 18,
-      "play_rate": 16.7,
-      "win_rate": 25.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 25.0,
-        "games": 6
-      },
-      "second_turn": {
-        "win_rate": 25.0,
-        "games": 12
-      }
-    },
-    {
-      "detachment": "Kabalite Agonysts + Skysplinter Assault",
-      "base_archetype": "Drukhari \u2014 Kabalite Agonysts + Skysplinter Assault",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 11.1,
-      "win_rate": 30.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 16.7,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 35.7,
-        "games": 7
-      }
-    },
-    {
-      "detachment": "Skysplinter Assault",
-      "base_archetype": "Drukhari \u2014 Skysplinter Assault",
       "lists": 1,
       "games": 5,
-      "play_rate": 5.6,
-      "win_rate": 90.0,
+      "play_rate": 25.0,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
-      "x1_pct": 100.0,
+      "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
         "win_rate": 100.0,
-        "games": 3
+        "games": 2
       },
       "second_turn": {
-        "win_rate": 75.0,
-        "games": 2
+        "win_rate": 33.3,
+        "games": 3
       }
     }
   ],
   "dispositions": [
     {
       "disposition": "Reconnaissance",
-      "lists": 9,
-      "play_rate": 50.0,
-      "win_rate": 38.0,
+      "lists": 3,
+      "play_rate": 75.0,
+      "win_rate": 53.3,
       "x0_pct": 0.0,
-      "x1_pct": 11.1,
-      "games": 54.0,
-      "first_turn": {
-        "win_rate": 43.5,
-        "games": 31
-      },
-      "second_turn": {
-        "win_rate": 30.4,
-        "games": 23
-      }
-    },
-    {
-      "disposition": "Disruption",
-      "lists": 9,
-      "play_rate": 50.0,
-      "win_rate": 34.3,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 54.0,
-      "first_turn": {
-        "win_rate": 37.5,
-        "games": 24
-      },
-      "second_turn": {
-        "win_rate": 31.7,
-        "games": 30
-      }
-    }
-  ],
-  "disposition_matchups": [
-    {
-      "opponent_disposition": "Reconnaissance",
-      "games": 27,
-      "wins": 6,
-      "win_rate": 22.2,
-      "first_turn": {
-        "win_rate": 13.3,
-        "games": 15
-      },
-      "second_turn": {
-        "win_rate": 33.3,
-        "games": 12
-      }
-    },
-    {
-      "opponent_disposition": "Take and Hold",
-      "games": 24,
-      "wins": 6,
-      "win_rate": 27.1,
-      "first_turn": {
-        "win_rate": 40.0,
-        "games": 10
-      },
-      "second_turn": {
-        "win_rate": 17.9,
-        "games": 14
-      }
-    },
-    {
-      "opponent_disposition": "Priority Assets",
-      "games": 23,
-      "wins": 7,
-      "win_rate": 30.4,
-      "first_turn": {
-        "win_rate": 40.6,
-        "games": 16
-      },
-      "second_turn": {
-        "win_rate": 7.1,
-        "games": 7
-      }
-    },
-    {
-      "opponent_disposition": "Disruption",
-      "games": 20,
-      "wins": 10,
-      "win_rate": 52.5,
-      "first_turn": {
-        "win_rate": 87.5,
-        "games": 8
-      },
-      "second_turn": {
-        "win_rate": 29.2,
-        "games": 12
-      }
-    },
-    {
-      "opponent_disposition": "Purge the Foe",
-      "games": 14,
-      "wins": 9,
-      "win_rate": 64.3,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 6
-      },
-      "second_turn": {
-        "win_rate": 75.0,
-        "games": 8
-      }
-    }
-  ],
-  "disposition_cross": [
-    {
-      "disposition": "Disruption",
-      "opponent_disposition": "Reconnaissance",
-      "games": 14,
-      "wins": 5,
-      "win_rate": 35.7,
-      "first_turn": {
-        "win_rate": 28.6,
-        "games": 7
-      },
-      "second_turn": {
-        "win_rate": 42.9,
-        "games": 7
-      }
-    },
-    {
-      "disposition": "Disruption",
-      "opponent_disposition": "Priority Assets",
-      "games": 12,
-      "wins": 2,
-      "win_rate": 16.7,
-      "first_turn": {
-        "win_rate": 25.0,
-        "games": 8
-      },
-      "second_turn": {
-        "win_rate": 0.0,
-        "games": 4
-      }
-    },
-    {
-      "disposition": "Disruption",
-      "opponent_disposition": "Take and Hold",
-      "games": 12,
-      "wins": 2,
-      "win_rate": 16.7,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 22.2,
-        "games": 9
-      }
-    },
-    {
-      "disposition": "Disruption",
-      "opponent_disposition": "Disruption",
-      "games": 9,
-      "wins": 4,
-      "win_rate": 50.0,
-      "first_turn": {
-        "win_rate": 100.0,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 25.0,
-        "games": 6
-      }
-    },
-    {
-      "disposition": "Disruption",
-      "opponent_disposition": "Purge the Foe",
-      "games": 7,
-      "wins": 5,
-      "win_rate": 71.4,
-      "first_turn": {
-        "win_rate": 66.7,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 75.0,
-        "games": 4
-      }
-    },
-    {
-      "disposition": "Reconnaissance",
-      "opponent_disposition": "Reconnaissance",
-      "games": 13,
-      "wins": 1,
-      "win_rate": 7.7,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 8
-      },
-      "second_turn": {
-        "win_rate": 20.0,
-        "games": 5
-      }
-    },
-    {
-      "disposition": "Reconnaissance",
-      "opponent_disposition": "Take and Hold",
-      "games": 12,
-      "wins": 4,
-      "win_rate": 37.5,
+      "x1_pct": 33.3,
+      "games": 15.0,
       "first_turn": {
         "win_rate": 57.1,
         "games": 7
       },
       "second_turn": {
-        "win_rate": 10.0,
-        "games": 5
-      }
-    },
-    {
-      "disposition": "Reconnaissance",
-      "opponent_disposition": "Priority Assets",
-      "games": 11,
-      "wins": 5,
-      "win_rate": 45.5,
-      "first_turn": {
-        "win_rate": 56.2,
+        "win_rate": 50.0,
         "games": 8
-      },
-      "second_turn": {
-        "win_rate": 16.7,
-        "games": 3
       }
     },
     {
-      "disposition": "Reconnaissance",
-      "opponent_disposition": "Disruption",
-      "games": 11,
-      "wins": 6,
-      "win_rate": 54.5,
+      "disposition": "Disruption",
+      "lists": 1,
+      "play_rate": 25.0,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5.0,
       "first_turn": {
-        "win_rate": 80.0,
-        "games": 5
+        "win_rate": 100.0,
+        "games": 2
       },
       "second_turn": {
-        "win_rate": 33.3,
-        "games": 6
-      }
-    },
-    {
-      "disposition": "Reconnaissance",
-      "opponent_disposition": "Purge the Foe",
-      "games": 7,
-      "wins": 4,
-      "win_rate": 57.1,
-      "first_turn": {
         "win_rate": 33.3,
         "games": 3
-      },
-      "second_turn": {
-        "win_rate": 75.0,
-        "games": 4
       }
     }
   ],
+  "disposition_matchups": [],
+  "disposition_cross": [],
   "top_players": [
     {
-      "player_name": "Richard Simms",
-      "detachment": "Skysplinter Assault",
+      "player_name": "Faizal Sani",
+      "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
       "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/Xn3mFvI0Hjuc",
+      "list_url": "https://www.bestcoastpairings.com/list/1QPNHQkyBR4C",
       "source": "bcp",
       "wins": 4,
-      "losses": 0,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 90.0
-    },
-    {
-      "player_name": "Pau Poensgen \ud83e\uddad",
-      "detachment": "Kabalite Cartel + Tools Of Torment",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/oxcBCfEESHcp",
-      "source": "bcp",
-      "wins": 8,
-      "losses": 5,
+      "losses": 1,
       "draws": 0,
-      "games": 13,
-      "win_rate": 61.5
-    },
-    {
-      "player_name": "Gordon Snedden",
-      "detachment": "Kabalite Agonysts + Skysplinter Assault",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/ztzYFXlEBkaa",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 1,
-      "draws": 2,
       "games": 5,
-      "win_rate": 60.0
+      "win_rate": 80.0
     },
     {
-      "player_name": "James the Beloved",
-      "detachment": "Kabalite Cartel + Tools Of Torment",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/pUHoY0iX4fPa",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 1,
-      "draws": 2,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "James Johnston",
+      "player_name": "Yong Heng Quake",
       "detachment": "Exhibition Of Slaughter + Kabalite Cartel",
       "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/GAFZ5TbRcANA",
+      "list_url": "https://www.bestcoastpairings.com/list/ZVupAVuF1aVE",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Jwee Gan",
+      "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/ugy3LYgMswaN",
       "source": "bcp",
       "wins": 2,
       "losses": 2,
@@ -442,219 +139,34 @@
       "win_rate": 50.0
     },
     {
-      "player_name": "Anton Poplavnoi",
+      "player_name": "John Wong",
       "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
       "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/DqWQiO3yGfYM",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 7,
-      "draws": 2,
-      "games": 13,
-      "win_rate": 38.5
-    },
-    {
-      "player_name": "Hayden jones",
-      "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/slYenGKK1eKm",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 7,
-      "draws": 4,
-      "games": 13,
-      "win_rate": 30.8
-    },
-    {
-      "player_name": "Joshua Townley",
-      "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/dltUxNxdlRwN",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 9,
-      "draws": 2,
-      "games": 13,
-      "win_rate": 23.1
-    },
-    {
-      "player_name": "Dan Sochor",
-      "detachment": "Kabalite Cartel + Tools Of Torment",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/Boo08Djef36n",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 10,
-      "draws": 0,
-      "games": 13,
-      "win_rate": 23.1
-    },
-    {
-      "player_name": "Brian Morgan",
-      "detachment": "Exhibition Of Slaughter + Skysplinter Assault",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/VcUfRtp26B90",
+      "list_url": "https://www.bestcoastpairings.com/list/U8qZcdqZLosc",
       "source": "bcp",
       "wins": 1,
-      "losses": 4,
-      "draws": 0,
+      "losses": 3,
+      "draws": 1,
       "games": 5,
-      "win_rate": 20.0
-    },
-    {
-      "player_name": "Botond Blasovszky",
-      "detachment": "Exhibition Of Slaughter + Kabalite Cartel",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/3aEqrw46HqDI",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 10,
-      "draws": 2,
-      "games": 13,
-      "win_rate": 15.4
-    },
-    {
-      "player_name": "David Norval",
-      "detachment": "Kabalite Agonysts + Skysplinter Assault",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/zat6zf6jIZXa",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 5,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 0.0
+      "win_rate": 30.0
     }
   ],
-  "matchups": [
-    {
-      "opponent_faction": "Emperor's Children",
-      "games": 12,
-      "wins": 7,
-      "win_rate": 58.3,
-      "first_turn": {
-        "win_rate": 71.4,
-        "games": 7
-      },
-      "second_turn": {
-        "win_rate": 40.0,
-        "games": 5
-      }
-    },
-    {
-      "opponent_faction": "Orks",
-      "games": 11,
-      "wins": 1,
-      "win_rate": 9.1,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 0.0,
-        "games": 9
-      }
-    },
-    {
-      "opponent_faction": "Leagues of Votann",
-      "games": 9,
-      "wins": 3,
-      "win_rate": 33.3,
-      "first_turn": {
-        "win_rate": 33.3,
-        "games": 6
-      },
-      "second_turn": {
-        "win_rate": 33.3,
-        "games": 3
-      }
-    },
-    {
-      "opponent_faction": "Necrons",
-      "games": 8,
-      "wins": 0,
-      "win_rate": 0.0,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 6
-      },
-      "second_turn": {
-        "win_rate": 0.0,
-        "games": 2
-      }
-    },
-    {
-      "opponent_faction": "Chaos Daemons",
-      "games": 8,
-      "wins": 3,
-      "win_rate": 43.8,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 4
-      },
-      "second_turn": {
-        "win_rate": 37.5,
-        "games": 4
-      }
-    },
-    {
-      "opponent_faction": "Adeptus Custodes",
-      "games": 6,
-      "wins": 2,
-      "win_rate": 33.3,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 4
-      },
-      "second_turn": {
-        "win_rate": 100.0,
-        "games": 2
-      }
-    },
-    {
-      "opponent_faction": "Tyranids",
-      "games": 6,
-      "wins": 1,
-      "win_rate": 25.0,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 12.5,
-        "games": 4
-      }
-    },
-    {
-      "opponent_faction": "Space Marines (Astartes)",
-      "games": 5,
-      "wins": 1,
-      "win_rate": 30.0,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 0.0,
-        "games": 2
-      }
-    }
-  ],
+  "matchups": [],
   "timeline": [
     {
-      "week": "2026-W32",
-      "lists": 18,
-      "games": 108,
-      "win_rate": 36.1,
-      "total_lists": 846,
-      "play_rate": 2.1,
+      "week": "2026-W33",
+      "lists": 4,
+      "games": 20,
+      "win_rate": 55.0,
+      "total_lists": 74,
+      "play_rate": 5.4,
       "first_turn": {
-        "win_rate": 40.9,
-        "games": 55
+        "win_rate": 66.7,
+        "games": 9
       },
       "second_turn": {
-        "win_rate": 31.1,
-        "games": 53
+        "win_rate": 45.5,
+        "games": 11
       }
     }
   ]

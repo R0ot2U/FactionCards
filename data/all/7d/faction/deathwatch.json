@@ -1,207 +1,206 @@
 {
   "faction": "Deathwatch",
   "slug": "deathwatch",
-  "as_of": "2026-08-18",
+  "as_of": "2026-08-24",
   "window_days": 7,
   "event_type": "all",
-  "lists": 15,
-  "games": 81,
-  "play_rate": 0.7,
-  "win_rate": 62.3,
-  "trend_delta": 6.9,
+  "lists": 11,
+  "games": 56,
+  "play_rate": 1.3,
+  "win_rate": 61.6,
+  "trend_delta": -0.7,
   "top_detachment": "Black Spear Task Force",
-  "ci_lower": 51.5,
-  "meta_health": "slightly_over",
-  "x0_pct": 6.7,
-  "x1_pct": 6.7,
-  "tournament_wins": 0,
+  "ci_lower": 48.5,
+  "meta_health": "slightly_under",
+  "x0_pct": 27.3,
+  "x1_pct": 0.0,
+  "tournament_wins": 2,
   "first_turn": {
-    "win_rate": 60.6,
-    "games": 33
+    "win_rate": 64.3,
+    "games": 35
   },
   "second_turn": {
-    "win_rate": 63.5,
-    "games": 48
+    "win_rate": 57.1,
+    "games": 21
   },
   "detachments": [
     {
       "detachment": "Black Spear Task Force",
       "base_archetype": "Deathwatch \u2014 Black Spear Task Force",
-      "lists": 14,
-      "games": 76,
-      "play_rate": 93.3,
-      "win_rate": 63.8,
-      "x0_pct": 7.7,
-      "x1_pct": 7.7,
-      "tournament_wins": 0,
+      "lists": 10,
+      "games": 50,
+      "play_rate": 90.9,
+      "win_rate": 57.0,
+      "x0_pct": 20.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 2,
       "first_turn": {
-        "win_rate": 61.3,
+        "win_rate": 59.7,
         "games": 31
       },
       "second_turn": {
-        "win_rate": 65.6,
-        "games": 45
+        "win_rate": 52.6,
+        "games": 19
       }
     },
     {
-      "detachment": "Librarius Conclave + Orbital Assault Force",
-      "base_archetype": "Deathwatch \u2014 Librarius Conclave + Orbital Assault Force",
+      "detachment": "No Detachment",
+      "base_archetype": "Deathwatch \u2014 No Detachment",
       "lists": 1,
-      "games": 5,
-      "play_rate": 6.7,
-      "win_rate": 40.0,
-      "x0_pct": 0.0,
+      "games": 6,
+      "play_rate": 9.1,
+      "win_rate": 100.0,
+      "x0_pct": 100.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 2
+        "win_rate": null,
+        "games": 0
       },
       "second_turn": {
-        "win_rate": 33.3,
-        "games": 3
+        "win_rate": null,
+        "games": 0
       }
     }
   ],
   "dispositions": [
     {
       "disposition": "Purge the Foe",
-      "lists": 14,
-      "play_rate": 93.3,
-      "win_rate": 63.8,
-      "x0_pct": 7.1,
-      "x1_pct": 7.1,
-      "games": 76.0,
+      "lists": 10,
+      "play_rate": 90.9,
+      "win_rate": 57.0,
+      "x0_pct": 20.0,
+      "x1_pct": 0.0,
+      "games": 50.0,
       "first_turn": {
-        "win_rate": 61.3,
+        "win_rate": 59.7,
         "games": 31
       },
       "second_turn": {
-        "win_rate": 65.6,
-        "games": 45
+        "win_rate": 52.6,
+        "games": 19
       }
     },
     {
       "disposition": "Take and Hold",
       "lists": 1,
-      "play_rate": 6.7,
-      "win_rate": 40.0,
-      "x0_pct": 0.0,
+      "play_rate": 9.1,
+      "win_rate": 100.0,
+      "x0_pct": 100.0,
       "x1_pct": 0.0,
-      "games": 5.0,
+      "games": 6.0,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 2
+        "win_rate": 100.0,
+        "games": 4
       },
       "second_turn": {
-        "win_rate": 33.3,
-        "games": 3
+        "win_rate": 100.0,
+        "games": 2
       }
     }
   ],
   "disposition_matchups": [
     {
-      "opponent_disposition": "Priority Assets",
-      "games": 29,
-      "wins": 17,
-      "win_rate": 60.3,
+      "opponent_disposition": "Take and Hold",
+      "games": 18,
+      "wins": 11,
+      "win_rate": 61.1,
       "first_turn": {
-        "win_rate": 54.5,
+        "win_rate": 77.3,
         "games": 11
       },
       "second_turn": {
-        "win_rate": 63.9,
-        "games": 18
+        "win_rate": 35.7,
+        "games": 7
       }
     },
     {
-      "opponent_disposition": "Take and Hold",
-      "games": 24,
-      "wins": 18,
-      "win_rate": 75.0,
+      "opponent_disposition": "Purge the Foe",
+      "games": 12,
+      "wins": 8,
+      "win_rate": 70.8,
       "first_turn": {
-        "win_rate": 66.7,
-        "games": 9
+        "win_rate": 71.4,
+        "games": 7
       },
       "second_turn": {
-        "win_rate": 80.0,
-        "games": 15
+        "win_rate": 70.0,
+        "games": 5
+      }
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 12,
+      "wins": 6,
+      "win_rate": 54.2,
+      "first_turn": {
+        "win_rate": 55.0,
+        "games": 10
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 2
       }
     },
     {
       "opponent_disposition": "Reconnaissance",
       "games": 12,
-      "wins": 6,
-      "win_rate": 50.0,
+      "wins": 7,
+      "win_rate": 58.3,
       "first_turn": {
-        "win_rate": 57.1,
-        "games": 7
+        "win_rate": 50.0,
+        "games": 6
       },
       "second_turn": {
-        "win_rate": 40.0,
-        "games": 5
+        "win_rate": 66.7,
+        "games": 6
       }
     }
   ],
   "disposition_cross": [
     {
       "disposition": "Purge the Foe",
-      "opponent_disposition": "Priority Assets",
-      "games": 27,
-      "wins": 17,
-      "win_rate": 64.8,
-      "first_turn": {
-        "win_rate": 54.5,
-        "games": 11
-      },
-      "second_turn": {
-        "win_rate": 71.9,
-        "games": 16
-      }
-    },
-    {
-      "disposition": "Purge the Foe",
       "opponent_disposition": "Take and Hold",
-      "games": 23,
-      "wins": 17,
-      "win_rate": 73.9,
+      "games": 16,
+      "wins": 9,
+      "win_rate": 56.2,
       "first_turn": {
-        "win_rate": 66.7,
+        "win_rate": 72.2,
         "games": 9
       },
       "second_turn": {
-        "win_rate": 78.6,
-        "games": 14
+        "win_rate": 35.7,
+        "games": 7
       }
     },
     {
       "disposition": "Purge the Foe",
       "opponent_disposition": "Reconnaissance",
-      "games": 11,
-      "wins": 6,
-      "win_rate": 54.5,
+      "games": 12,
+      "wins": 7,
+      "win_rate": 58.3,
       "first_turn": {
-        "win_rate": 66.7,
+        "win_rate": 50.0,
         "games": 6
       },
       "second_turn": {
-        "win_rate": 40.0,
-        "games": 5
+        "win_rate": 66.7,
+        "games": 6
       }
     },
     {
       "disposition": "Purge the Foe",
-      "opponent_disposition": "Disruption",
-      "games": 8,
-      "wins": 4,
+      "opponent_disposition": "Priority Assets",
+      "games": 11,
+      "wins": 5,
       "win_rate": 50.0,
       "first_turn": {
-        "win_rate": 33.3,
-        "games": 3
+        "win_rate": 50.0,
+        "games": 9
       },
       "second_turn": {
-        "win_rate": 60.0,
-        "games": 5
+        "win_rate": 50.0,
+        "games": 2
       }
     },
     {
@@ -209,23 +208,35 @@
       "opponent_disposition": "Purge the Foe",
       "games": 7,
       "wins": 4,
-      "win_rate": 57.1,
+      "win_rate": 64.3,
       "first_turn": {
-        "win_rate": 100.0,
-        "games": 2
+        "win_rate": 80.0,
+        "games": 5
       },
       "second_turn": {
-        "win_rate": 40.0,
-        "games": 5
+        "win_rate": 25.0,
+        "games": 2
       }
     }
   ],
   "top_players": [
     {
-      "player_name": "Mark Hertel",
+      "player_name": "Travis Finell",
+      "detachment": "No Detachment",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/GybIlo4AOhVd",
+      "source": "bcp",
+      "wins": 6,
+      "losses": 0,
+      "draws": 0,
+      "games": 6,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Sam Nowell",
       "detachment": "Black Spear Task Force",
       "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/kuoRSZXY08z1",
+      "list_url": "https://www.bestcoastpairings.com/list/WxGYdaTB7xZ8",
       "source": "bcp",
       "wins": 5,
       "losses": 0,
@@ -234,46 +245,46 @@
       "win_rate": 100.0
     },
     {
-      "player_name": "Lane DeLong",
+      "player_name": "Luke Jakins",
       "detachment": "Black Spear Task Force",
       "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/hww2fkircSP3",
+      "list_url": "https://www.bestcoastpairings.com/list/zy4z7kIauPNk",
       "source": "bcp",
-      "wins": 4,
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Bensen Lim",
+      "detachment": "Black Spear Task Force",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/szCoPBT4rhTp",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 0,
+      "draws": 3,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Shahrul Azmi",
+      "detachment": "Black Spear Task Force",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/t9lqhvUBA1Kz",
+      "source": "bcp",
+      "wins": 3,
       "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
-      "player_name": "Chris Cho",
-      "detachment": "Black Spear Task Force",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/Rlj0qTqqwGlN",
-      "source": "bcp",
-      "wins": 14,
-      "losses": 4,
       "draws": 1,
-      "games": 19,
-      "win_rate": 76.3
+      "games": 5,
+      "win_rate": 70.0
     },
     {
-      "player_name": "Yann TRAN",
+      "player_name": "Odin Preedy",
       "detachment": "Black Spear Task Force",
       "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/b7y8pfboJwfD",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 2,
-      "draws": 0,
-      "games": 6,
-      "win_rate": 66.7
-    },
-    {
-      "player_name": "Liam Martin",
-      "detachment": "Black Spear Task Force",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/5zSW72y6dhUh",
+      "list_url": "https://www.bestcoastpairings.com/list/DEtPCm2QDJBy",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -282,70 +293,34 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Duck Miller",
+      "player_name": "aaron turner",
       "detachment": "Black Spear Task Force",
       "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/MyJudhXNeJHz",
+      "list_url": "https://www.bestcoastpairings.com/list/sdjtYtlNU7ES",
       "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
+      "wins": 2,
+      "losses": 1,
+      "draws": 2,
       "games": 5,
       "win_rate": 60.0
     },
     {
-      "player_name": "Brendan Berry",
+      "player_name": "Jesse Utriainen",
       "detachment": "Black Spear Task Force",
       "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/u5IcUN7EssPI",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Thomas Ferrante",
-      "detachment": "Black Spear Task Force",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/tq5W3htX9ybQ",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Kole Decker",
-      "detachment": "Black Spear Task Force",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/9YSrTdSHKntI",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Timothy Pansch",
-      "detachment": "Black Spear Task Force",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/JN4z00zbmcb6",
+      "list_url": "https://www.bestcoastpairings.com/list/Wk2ICCcJ3Hh5",
       "source": "bcp",
       "wins": 2,
       "losses": 2,
-      "draws": 0,
-      "games": 4,
+      "draws": 1,
+      "games": 5,
       "win_rate": 50.0
     },
     {
-      "player_name": "Joseph Triska",
-      "detachment": "Librarius Conclave + Orbital Assault Force",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/IZ10Udu8N3a5",
+      "player_name": "Matt Lassen",
+      "detachment": "Black Spear Task Force",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/icAoaeSYoqSO",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -354,131 +329,61 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Armand Calas",
+      "player_name": "Chris Holdridge",
       "detachment": "Black Spear Task Force",
       "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/FMys8AC3PzFE",
+      "list_url": "https://www.bestcoastpairings.com/list/v9RDsY522KIE",
       "source": "bcp",
-      "wins": 2,
+      "wins": 1,
       "losses": 4,
       "draws": 0,
-      "games": 6,
-      "win_rate": 33.3
+      "games": 5,
+      "win_rate": 20.0
     },
     {
-      "player_name": "Joona Knorn",
+      "player_name": "Derek Lane",
       "detachment": "Black Spear Task Force",
       "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/pxZMh5WP54hN",
+      "list_url": "https://www.bestcoastpairings.com/list/uC8GEAEANciN",
       "source": "bcp",
-      "wins": 2,
-      "losses": 4,
+      "wins": 0,
+      "losses": 5,
       "draws": 0,
-      "games": 6,
-      "win_rate": 33.3
+      "games": 5,
+      "win_rate": 0.0
     }
   ],
   "matchups": [
     {
-      "opponent_faction": "Chaos Daemons",
-      "games": 8,
-      "wins": 5,
-      "win_rate": 62.5,
-      "first_turn": {
-        "win_rate": 66.7,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 60.0,
-        "games": 5
-      }
-    },
-    {
-      "opponent_faction": "Adeptus Mechanicus",
-      "games": 8,
-      "wins": 4,
-      "win_rate": 56.2,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 75.0,
-        "games": 6
-      }
-    },
-    {
       "opponent_faction": "Orks",
-      "games": 7,
+      "games": 6,
       "wins": 3,
-      "win_rate": 42.9,
+      "win_rate": 58.3,
       "first_turn": {
-        "win_rate": 0.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 60.0,
-        "games": 5
-      }
-    },
-    {
-      "opponent_faction": "Adeptus Custodes",
-      "games": 6,
-      "wins": 5,
-      "win_rate": 83.3,
-      "first_turn": {
-        "win_rate": 75.0,
+        "win_rate": 62.5,
         "games": 4
       },
       "second_turn": {
-        "win_rate": 100.0,
+        "win_rate": 50.0,
         "games": 2
-      }
-    },
-    {
-      "opponent_faction": "Emperor's Children",
-      "games": 6,
-      "wins": 2,
-      "win_rate": 33.3,
-      "first_turn": {
-        "win_rate": 100.0,
-        "games": 1
-      },
-      "second_turn": {
-        "win_rate": 20.0,
-        "games": 5
-      }
-    },
-    {
-      "opponent_faction": "Chaos Space Marines",
-      "games": 6,
-      "wins": 5,
-      "win_rate": 83.3,
-      "first_turn": {
-        "win_rate": 100.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 75.0,
-        "games": 4
       }
     }
   ],
   "timeline": [
     {
-      "week": "2026-W32",
-      "lists": 15,
-      "games": 81,
-      "win_rate": 62.3,
-      "total_lists": 2240,
-      "play_rate": 0.7,
+      "week": "2026-W33",
+      "lists": 11,
+      "games": 56,
+      "win_rate": 61.6,
+      "total_lists": 847,
+      "play_rate": 1.3,
       "first_turn": {
-        "win_rate": 60.6,
-        "games": 33
+        "win_rate": 64.3,
+        "games": 35
       },
       "second_turn": {
-        "win_rate": 63.5,
-        "games": 48
+        "win_rate": 57.1,
+        "games": 21
       }
     }
   ]
