@@ -1,89 +1,51 @@
 {
   "faction": "Space Wolves",
   "slug": "space_wolves",
-  "as_of": "2026-08-24",
+  "as_of": "2026-09-01",
   "window_days": 14,
   "event_type": "team",
   "lists": 7,
-  "games": 41,
-  "play_rate": 0.8,
-  "win_rate": 59.8,
-  "trend_delta": 25.5,
-  "top_detachment": "Fulguris Task Force + Saga Of The Beastslayer",
-  "ci_lower": 44.5,
+  "games": 38,
+  "play_rate": 1.4,
+  "win_rate": 36.8,
+  "trend_delta": -16.7,
+  "top_detachment": "Legends of Saga + Saga Of The Great Wolf + Song",
+  "ci_lower": 23.4,
   "meta_health": "strongly_under",
-  "x0_pct": 14.3,
-  "x1_pct": 14.3,
+  "x0_pct": 0.0,
+  "x1_pct": 28.6,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 55.6,
-    "games": 18
+    "win_rate": 38.5,
+    "games": 26
   },
   "second_turn": {
-    "win_rate": 63.0,
-    "games": 23
+    "win_rate": 33.3,
+    "games": 12
   },
   "detachments": [
     {
-      "detachment": "Fulguris Task Force + Saga Of The Beastslayer",
-      "base_archetype": "Space Wolves \u2014 Fulguris Task Force + Saga Of The Beastslayer",
-      "lists": 2,
-      "games": 13,
-      "play_rate": 28.6,
-      "win_rate": 61.5,
+      "detachment": "Legends of Saga + Saga Of The Great Wolf + Song",
+      "base_archetype": "Space Wolves \u2014 Legends of Saga + Saga Of The Great Wolf + Song",
+      "lists": 4,
+      "games": 22,
+      "play_rate": 57.1,
+      "win_rate": 18.2,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 6
+        "win_rate": 22.2,
+        "games": 18
       },
       "second_turn": {
-        "win_rate": 71.4,
-        "games": 7
-      }
-    },
-    {
-      "detachment": "Bastion Task Force + Fulguris Task Force",
-      "base_archetype": "Space Wolves \u2014 Bastion Task Force + Fulguris Task Force",
-      "lists": 2,
-      "games": 13,
-      "play_rate": 28.6,
-      "win_rate": 53.8,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 80.0,
-        "games": 5
-      },
-      "second_turn": {
-        "win_rate": 37.5,
-        "games": 8
-      }
-    },
-    {
-      "detachment": "Legends of Saga + Saga Of The Beastslayer + Song",
-      "base_archetype": "Space Wolves \u2014 Legends of Saga + Saga Of The Beastslayer + Song",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 14.3,
-      "win_rate": 100.0,
-      "x0_pct": 100.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 100.0,
-        "games": 1
-      },
-      "second_turn": {
-        "win_rate": 100.0,
+        "win_rate": 0.0,
         "games": 4
       }
     },
     {
-      "detachment": "Legends of Saga + Saga Of The Great Wolf + Song",
-      "base_archetype": "Space Wolves \u2014 Legends of Saga + Saga Of The Great Wolf + Song",
+      "detachment": "Librarius Conclave + Saga Of The Great Wolf",
+      "base_archetype": "Space Wolves \u2014 Librarius Conclave + Saga Of The Great Wolf",
       "lists": 1,
       "games": 5,
       "play_rate": 14.3,
@@ -93,16 +55,35 @@
       "tournament_wins": 0,
       "first_turn": {
         "win_rate": 0.0,
-        "games": 4
+        "games": 2
       },
       "second_turn": {
         "win_rate": 0.0,
-        "games": 1
+        "games": 3
       }
     },
     {
-      "detachment": "Saga Of The Great Wolf + Veterans Of The Fang",
-      "base_archetype": "Space Wolves \u2014 Saga Of The Great Wolf + Veterans Of The Fang",
+      "detachment": "Legends of Saga + Saga Of The Beastslayer + Song",
+      "base_archetype": "Space Wolves \u2014 Legends of Saga + Saga Of The Beastslayer + Song",
+      "lists": 1,
+      "games": 6,
+      "play_rate": 14.3,
+      "win_rate": 91.7,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 83.3,
+        "games": 3
+      }
+    },
+    {
+      "detachment": "Bastion Task Force + Veterans Of The Fang",
+      "base_archetype": "Space Wolves \u2014 Bastion Task Force + Veterans Of The Fang",
       "lists": 1,
       "games": 5,
       "play_rate": 14.3,
@@ -112,148 +93,164 @@
       "tournament_wins": 0,
       "first_turn": {
         "win_rate": 100.0,
-        "games": 2
+        "games": 3
       },
       "second_turn": {
-        "win_rate": 83.3,
-        "games": 3
+        "win_rate": 75.0,
+        "games": 2
       }
     }
   ],
   "dispositions": [
     {
-      "disposition": "Purge the Foe",
-      "lists": 3,
-      "play_rate": 42.9,
-      "win_rate": 72.2,
-      "x0_pct": 33.3,
+      "disposition": "Take and Hold",
+      "lists": 4,
+      "play_rate": 57.1,
+      "win_rate": 18.2,
+      "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 18.0,
+      "games": 22.0,
       "first_turn": {
-        "win_rate": 57.1,
-        "games": 7
+        "win_rate": 22.2,
+        "games": 18
       },
       "second_turn": {
-        "win_rate": 81.8,
-        "games": 11
+        "win_rate": 0.0,
+        "games": 4
       }
     },
     {
       "disposition": "Reconnaissance",
-      "lists": 2,
-      "play_rate": 28.6,
-      "win_rate": 53.8,
+      "lists": 1,
+      "play_rate": 14.3,
+      "win_rate": 0.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 13.0,
-      "first_turn": {
-        "win_rate": 80.0,
-        "games": 5
-      },
-      "second_turn": {
-        "win_rate": 37.5,
-        "games": 8
-      }
-    },
-    {
-      "disposition": "Take and Hold",
-      "lists": 2,
-      "play_rate": 28.6,
-      "win_rate": 45.0,
-      "x0_pct": 0.0,
-      "x1_pct": 50.0,
-      "games": 10.0,
-      "first_turn": {
-        "win_rate": 33.3,
-        "games": 6
-      },
-      "second_turn": {
-        "win_rate": 62.5,
-        "games": 4
-      }
-    }
-  ],
-  "disposition_matchups": [
-    {
-      "opponent_disposition": "Take and Hold",
-      "games": 10,
-      "wins": 7,
-      "win_rate": 75.0,
-      "first_turn": {
-        "win_rate": 83.3,
-        "games": 6
-      },
-      "second_turn": {
-        "win_rate": 62.5,
-        "games": 4
-      }
-    }
-  ],
-  "disposition_cross": [
-    {
-      "disposition": "Purge the Foe",
-      "opponent_disposition": "Disruption",
-      "games": 6,
-      "wins": 3,
-      "win_rate": 50.0,
+      "games": 5.0,
       "first_turn": {
         "win_rate": 0.0,
         "games": 2
       },
       "second_turn": {
-        "win_rate": 75.0,
-        "games": 4
+        "win_rate": 0.0,
+        "games": 3
       }
     },
     {
       "disposition": "Purge the Foe",
-      "opponent_disposition": "Reconnaissance",
-      "games": 5,
-      "wins": 4,
-      "win_rate": 80.0,
+      "lists": 1,
+      "play_rate": 14.3,
+      "win_rate": 91.7,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "games": 6.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 83.3,
+        "games": 3
+      }
+    },
+    {
+      "disposition": "Disruption",
+      "lists": 1,
+      "play_rate": 14.3,
+      "win_rate": 90.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "games": 5.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 2
+      }
+    }
+  ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 11,
+      "wins": 2,
+      "win_rate": 18.2,
+      "first_turn": {
+        "win_rate": 12.5,
+        "games": 8
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
+    },
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 10,
+      "wins": 6,
+      "win_rate": 60.0,
+      "first_turn": {
+        "win_rate": 71.4,
+        "games": 7
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Priority Assets",
+      "games": 8,
+      "wins": 0,
+      "win_rate": 0.0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 7
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 1
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Purge the Foe",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0,
       "first_turn": {
         "win_rate": 75.0,
         "games": 4
       },
       "second_turn": {
-        "win_rate": 100.0,
-        "games": 1
-      }
-    },
-    {
-      "disposition": "Reconnaissance",
-      "opponent_disposition": "Take and Hold",
-      "games": 7,
-      "wins": 5,
-      "win_rate": 71.4,
-      "first_turn": {
-        "win_rate": 80.0,
-        "games": 5
-      },
-      "second_turn": {
-        "win_rate": 50.0,
+        "win_rate": 0.0,
         "games": 2
       }
     }
   ],
   "top_players": [
     {
-      "player_name": "Josh Reilly",
+      "player_name": "Kylan Greene",
       "detachment": "Legends of Saga + Saga Of The Beastslayer + Song",
       "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/lytaPRzxrPqm",
+      "list_url": "https://www.bestcoastpairings.com/list/3npetkFXJimu",
       "source": "bcp",
       "wins": 5,
       "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
+      "draws": 1,
+      "games": 6,
+      "win_rate": 91.7
     },
     {
-      "player_name": "Callum Bromley",
-      "detachment": "Saga Of The Great Wolf + Veterans Of The Fang",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/Jarg5qd5jnV1",
+      "player_name": "Kevin Lieb",
+      "detachment": "Bastion Task Force + Veterans Of The Fang",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/5O5bpOm4osUH",
       "source": "bcp",
       "wins": 4,
       "losses": 0,
@@ -262,28 +259,52 @@
       "win_rate": 90.0
     },
     {
-      "player_name": "Andrei Romanov",
-      "detachment": "Fulguris Task Force + Saga Of The Beastslayer",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/nRB3aYKqdYPr",
+      "player_name": "Trent Bannerman",
+      "detachment": "Legends of Saga + Saga Of The Great Wolf + Song",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/8O4TtkzZSYRT",
       "source": "bcp",
-      "wins": 5,
-      "losses": 2,
-      "draws": 6,
-      "games": 13,
-      "win_rate": 61.5
+      "wins": 3,
+      "losses": 3,
+      "draws": 0,
+      "games": 6,
+      "win_rate": 50.0
     },
     {
-      "player_name": "Razvan Coman",
-      "detachment": "Bastion Task Force + Fulguris Task Force",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/zad5sMfoheYq",
+      "player_name": "James Crawson",
+      "detachment": "Legends of Saga + Saga Of The Great Wolf + Song",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/288PZhSVSM6R",
       "source": "bcp",
-      "wins": 5,
+      "wins": 1,
       "losses": 4,
-      "draws": 4,
-      "games": 13,
-      "win_rate": 53.8
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Donovan Garrett",
+      "detachment": "Legends of Saga + Saga Of The Great Wolf + Song",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/l2ENl54TjMUF",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 6,
+      "draws": 0,
+      "games": 6,
+      "win_rate": 0.0
+    },
+    {
+      "player_name": "Olly Scott",
+      "detachment": "Librarius Conclave + Saga Of The Great Wolf",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/OfYQLnvlSNmM",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 5,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 0.0
     },
     {
       "player_name": "Aiden Goh",
@@ -300,65 +321,21 @@
   ],
   "matchups": [
     {
-      "opponent_faction": "Chaos Daemons",
-      "games": 8,
-      "wins": 3,
-      "win_rate": 37.5,
-      "first_turn": {
-        "win_rate": 75.0,
-        "games": 4
-      },
-      "second_turn": {
-        "win_rate": 0.0,
-        "games": 4
-      }
-    },
-    {
       "opponent_faction": "Necrons",
-      "games": 7,
-      "wins": 5,
-      "win_rate": 71.4,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 4
-      },
-      "second_turn": {
-        "win_rate": 100.0,
-        "games": 3
-      }
-    },
-    {
-      "opponent_faction": "Emperor's Children",
-      "games": 6,
+      "games": 5,
       "wins": 2,
-      "win_rate": 33.3,
+      "win_rate": 40.0,
       "first_turn": {
-        "win_rate": 25.0,
-        "games": 4
+        "win_rate": 40.0,
+        "games": 5
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 2
+        "win_rate": null,
+        "games": 0
       }
     }
   ],
   "timeline": [
-    {
-      "week": "2026-W32",
-      "lists": 6,
-      "games": 36,
-      "win_rate": 68.1,
-      "total_lists": 846,
-      "play_rate": 0.7,
-      "first_turn": {
-        "win_rate": 71.4,
-        "games": 14
-      },
-      "second_turn": {
-        "win_rate": 65.9,
-        "games": 22
-      }
-    },
     {
       "week": "2026-W33",
       "lists": 1,
@@ -373,6 +350,22 @@
       "second_turn": {
         "win_rate": 0.0,
         "games": 1
+      }
+    },
+    {
+      "week": "2026-W34",
+      "lists": 6,
+      "games": 33,
+      "win_rate": 42.4,
+      "total_lists": 438,
+      "play_rate": 1.4,
+      "first_turn": {
+        "win_rate": 45.5,
+        "games": 22
+      },
+      "second_turn": {
+        "win_rate": 36.4,
+        "games": 11
       }
     }
   ]

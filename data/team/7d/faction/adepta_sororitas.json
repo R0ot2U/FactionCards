@@ -1,46 +1,84 @@
 {
   "faction": "Adepta Sororitas",
   "slug": "adepta_sororitas",
-  "as_of": "2026-08-24",
+  "as_of": "2026-09-01",
   "window_days": 7,
   "event_type": "team",
-  "lists": 2,
-  "games": 10,
-  "play_rate": 2.7,
-  "win_rate": 50.0,
-  "trend_delta": -9.3,
+  "lists": 9,
+  "games": 48,
+  "play_rate": 2.1,
+  "win_rate": 49.0,
+  "trend_delta": -1.0,
   "top_detachment": "Hallowed Martyrs",
-  "ci_lower": 23.7,
+  "ci_lower": 35.4,
   "meta_health": "strongly_under",
-  "x0_pct": 50.0,
-  "x1_pct": 0.0,
-  "tournament_wins": 1,
+  "x0_pct": 0.0,
+  "x1_pct": 11.1,
+  "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 33.3,
-    "games": 6
+    "win_rate": 54.2,
+    "games": 24
   },
   "second_turn": {
-    "win_rate": 75.0,
-    "games": 4
+    "win_rate": 43.8,
+    "games": 24
   },
   "detachments": [
     {
       "detachment": "Hallowed Martyrs",
       "base_archetype": "Adepta Sororitas \u2014 Hallowed Martyrs",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 50.0,
-      "win_rate": 100.0,
-      "x0_pct": 100.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 1,
+      "lists": 4,
+      "games": 23,
+      "play_rate": 44.4,
+      "win_rate": 63.0,
+      "x0_pct": 0.0,
+      "x1_pct": 25.0,
+      "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 100.0,
-        "games": 2
+        "win_rate": 71.4,
+        "games": 7
       },
       "second_turn": {
-        "win_rate": 100.0,
-        "games": 3
+        "win_rate": 59.4,
+        "games": 16
+      }
+    },
+    {
+      "detachment": "Bringers Of Flame + Sanctified Orators",
+      "base_archetype": "Adepta Sororitas \u2014 Bringers Of Flame + Sanctified Orators",
+      "lists": 2,
+      "games": 9,
+      "play_rate": 22.2,
+      "win_rate": 44.4,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 60.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 4
+      }
+    },
+    {
+      "detachment": "Bringers Of Flame + Sacred Champions",
+      "base_archetype": "Adepta Sororitas \u2014 Bringers Of Flame + Sacred Champions",
+      "lists": 2,
+      "games": 11,
+      "play_rate": 22.2,
+      "win_rate": 36.4,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 44.4,
+        "games": 9
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 2
       }
     },
     {
@@ -48,101 +86,321 @@
       "base_archetype": "Adepta Sororitas \u2014 Bringers Of Flame + Chorus Of Condemnation",
       "lists": 1,
       "games": 5,
-      "play_rate": 50.0,
-      "win_rate": 0.0,
+      "play_rate": 11.1,
+      "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 0.0,
-        "games": 4
+        "win_rate": 33.3,
+        "games": 3
       },
       "second_turn": {
         "win_rate": 0.0,
-        "games": 1
+        "games": 2
       }
     }
   ],
   "dispositions": [
     {
       "disposition": "Priority Assets",
-      "lists": 1,
-      "play_rate": 50.0,
-      "win_rate": 100.0,
-      "x0_pct": 100.0,
-      "x1_pct": 0.0,
-      "games": 5.0,
+      "lists": 6,
+      "play_rate": 66.7,
+      "win_rate": 54.4,
+      "x0_pct": 0.0,
+      "x1_pct": 16.7,
+      "games": 34.0,
       "first_turn": {
-        "win_rate": 100.0,
-        "games": 2
+        "win_rate": 56.2,
+        "games": 16
       },
       "second_turn": {
-        "win_rate": 100.0,
-        "games": 3
+        "win_rate": 52.8,
+        "games": 18
+      }
+    },
+    {
+      "disposition": "Disruption",
+      "lists": 2,
+      "play_rate": 22.2,
+      "win_rate": 44.4,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 9.0,
+      "first_turn": {
+        "win_rate": 60.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 4
       }
     },
     {
       "disposition": "Reconnaissance",
       "lists": 1,
-      "play_rate": 50.0,
-      "win_rate": 0.0,
+      "play_rate": 11.1,
+      "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "games": 5.0,
       "first_turn": {
-        "win_rate": 0.0,
-        "games": 4
+        "win_rate": 33.3,
+        "games": 3
       },
       "second_turn": {
         "win_rate": 0.0,
-        "games": 1
+        "games": 2
       }
     }
   ],
-  "disposition_matchups": [],
-  "disposition_cross": [],
-  "top_players": [
+  "disposition_matchups": [
     {
-      "player_name": "Wai ken Mo",
-      "detachment": "Hallowed Martyrs",
-      "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/CgmNkRR5UgrN",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
+      "opponent_disposition": "Priority Assets",
+      "games": 14,
+      "wins": 6,
+      "win_rate": 46.4,
+      "first_turn": {
+        "win_rate": 44.4,
+        "games": 9
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 5
+      }
     },
     {
-      "player_name": "Affendi Ariffin",
+      "opponent_disposition": "Disruption",
+      "games": 12,
+      "wins": 5,
+      "win_rate": 45.8,
+      "first_turn": {
+        "win_rate": 80.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 21.4,
+        "games": 7
+      }
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 10,
+      "wins": 6,
+      "win_rate": 60.0,
+      "first_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 6
+      }
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Disruption",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 20.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 3
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Priority Assets",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 56.2,
+      "first_turn": {
+        "win_rate": 62.5,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Disruption",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 64.3,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 37.5,
+        "games": 4
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Purge the Foe",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 42.9,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Reconnaissance",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 57.1,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      }
+    }
+  ],
+  "top_players": [
+    {
+      "player_name": "Eric Johnson",
+      "detachment": "Hallowed Martyrs",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/f0eJyYmStb71",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 1,
+      "draws": 0,
+      "games": 6,
+      "win_rate": 83.3
+    },
+    {
+      "player_name": "Brendon Wong",
+      "detachment": "Hallowed Martyrs",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/21TIeqThCdwr",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Jake Morgan",
+      "detachment": "Bringers Of Flame + Sanctified Orators",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/sRj8d7DAMKAx",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 2,
+      "draws": 0,
+      "games": 6,
+      "win_rate": 66.7
+    },
+    {
+      "player_name": "John Harris",
+      "detachment": "Hallowed Martyrs",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/jBwCQ0SJ72CC",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 3,
+      "draws": 0,
+      "games": 6,
+      "win_rate": 50.0
+    },
+    {
+      "player_name": "Christian Harless",
+      "detachment": "Hallowed Martyrs",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/Ac87cuDFTSl5",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 2,
+      "draws": 2,
+      "games": 6,
+      "win_rate": 50.0
+    },
+    {
+      "player_name": "Dylan Smith",
+      "detachment": "Bringers Of Flame + Sacred Champions",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/4f1YGhGbAitS",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 2,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Paxton Fletcher",
+      "detachment": "Bringers Of Flame + Sacred Champions",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/tmNczUbg2Wkq",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 4,
+      "draws": 0,
+      "games": 6,
+      "win_rate": 33.3
+    },
+    {
+      "player_name": "Billy Whipple",
       "detachment": "Bringers Of Flame + Chorus Of Condemnation",
       "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/fYLBtuwaPX8m",
+      "list_url": "https://www.bestcoastpairings.com/list/sfShmUdp7VWK",
       "source": "bcp",
-      "wins": 0,
-      "losses": 5,
+      "wins": 1,
+      "losses": 4,
       "draws": 0,
       "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Robert Odom",
+      "detachment": "Bringers Of Flame + Sanctified Orators",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/lgYfJlR2Cxz4",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 3,
+      "draws": 0,
+      "games": 3,
       "win_rate": 0.0
     }
   ],
   "matchups": [],
   "timeline": [
     {
-      "week": "2026-W33",
-      "lists": 2,
-      "games": 10,
-      "win_rate": 50.0,
-      "total_lists": 74,
-      "play_rate": 2.7,
+      "week": "2026-W34",
+      "lists": 9,
+      "games": 48,
+      "win_rate": 49.0,
+      "total_lists": 438,
+      "play_rate": 2.1,
       "first_turn": {
-        "win_rate": 33.3,
-        "games": 6
+        "win_rate": 54.2,
+        "games": 24
       },
       "second_turn": {
-        "win_rate": 75.0,
-        "games": 4
+        "win_rate": 43.8,
+        "games": 24
       }
     }
   ]
