@@ -1,14 +1,14 @@
 {
   "faction": "Tyranids",
   "slug": "tyranids",
-  "as_of": "2026-09-01",
+  "as_of": "2026-09-03",
   "window_days": 30,
   "event_type": "all",
   "lists": 313,
   "games": 1684,
   "play_rate": 5.5,
   "win_rate": 46.6,
-  "trend_delta": -3.9,
+  "trend_delta": -4.3,
   "top_detachment": "Assimilation Swarm + Talons Of The Norn Queen",
   "ci_lower": 44.3,
   "meta_health": "strongly_under",
@@ -46,12 +46,12 @@
     {
       "detachment": "Ambush Predators + Vanguard Onslaught",
       "base_archetype": "Tyranids \u2014 Ambush Predators + Vanguard Onslaught",
-      "lists": 58,
-      "games": 312,
-      "play_rate": 18.5,
-      "win_rate": 42.3,
+      "lists": 59,
+      "games": 317,
+      "play_rate": 18.8,
+      "win_rate": 42.4,
       "x0_pct": 1.8,
-      "x1_pct": 9.1,
+      "x1_pct": 8.9,
       "tournament_wins": 0,
       "first_turn": {
         "win_rate": 40.3,
@@ -122,12 +122,12 @@
     {
       "detachment": "Crusher Stampede + Talons Of The Norn Queen",
       "base_archetype": "Tyranids \u2014 Crusher Stampede + Talons Of The Norn Queen",
-      "lists": 21,
-      "games": 106,
-      "play_rate": 6.7,
-      "win_rate": 43.4,
+      "lists": 22,
+      "games": 112,
+      "play_rate": 7.0,
+      "win_rate": 41.1,
       "x0_pct": 0.0,
-      "x1_pct": 9.5,
+      "x1_pct": 9.1,
       "tournament_wins": 0,
       "first_turn": {
         "win_rate": 40.8,
@@ -136,6 +136,25 @@
       "second_turn": {
         "win_rate": 41.3,
         "games": 63
+      }
+    },
+    {
+      "detachment": "No Detachment",
+      "base_archetype": "Tyranids \u2014 No Detachment",
+      "lists": 12,
+      "games": 68,
+      "play_rate": 3.8,
+      "win_rate": 43.4,
+      "x0_pct": 0.0,
+      "x1_pct": 8.3,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
       }
     },
     {
@@ -174,25 +193,6 @@
       "second_turn": {
         "win_rate": 69.6,
         "games": 23
-      }
-    },
-    {
-      "detachment": "No Detachment",
-      "base_archetype": "Tyranids \u2014 No Detachment",
-      "lists": 9,
-      "games": 53,
-      "play_rate": 2.9,
-      "win_rate": 42.5,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": null,
-        "games": 0
-      },
-      "second_turn": {
-        "win_rate": null,
-        "games": 0
       }
     },
     {
@@ -272,25 +272,6 @@
       }
     },
     {
-      "detachment": "Vanguard Onslaught",
-      "base_archetype": "Tyranids \u2014 Vanguard Onslaught",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 0.6,
-      "win_rate": 50.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 50.0,
-        "games": 3
-      }
-    },
-    {
       "detachment": "Assimilation Swarm + Warrior Bioform Onslaught",
       "base_archetype": "Tyranids \u2014 Assimilation Swarm + Warrior Bioform Onslaught",
       "lists": 2,
@@ -329,22 +310,22 @@
       }
     },
     {
-      "detachment": "Crusher Stampede",
-      "base_archetype": "Tyranids \u2014 Crusher Stampede",
+      "detachment": "Vanguard Onslaught",
+      "base_archetype": "Tyranids \u2014 Vanguard Onslaught",
       "lists": 1,
-      "games": 6,
+      "games": 5,
       "play_rate": 0.3,
-      "win_rate": 0.0,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": null,
-        "games": 0
+        "win_rate": 50.0,
+        "games": 2
       },
       "second_turn": {
-        "win_rate": null,
-        "games": 0
+        "win_rate": 50.0,
+        "games": 3
       }
     },
     {
@@ -476,8 +457,8 @@
   "disposition_matchups": [
     {
       "opponent_disposition": "Priority Assets",
-      "games": 459,
-      "wins": 220,
+      "games": 460,
+      "wins": 221,
       "win_rate": 48.0,
       "first_turn": {
         "win_rate": 45.7,
@@ -485,21 +466,21 @@
       },
       "second_turn": {
         "win_rate": 50.2,
-        "games": 239
+        "games": 240
       }
     },
     {
       "opponent_disposition": "Take and Hold",
-      "games": 422,
-      "wins": 199,
+      "games": 424,
+      "wins": 200,
       "win_rate": 47.2,
       "first_turn": {
-        "win_rate": 47.3,
-        "games": 204
+        "win_rate": 47.1,
+        "games": 205
       },
       "second_turn": {
-        "win_rate": 47.0,
-        "games": 218
+        "win_rate": 47.3,
+        "games": 219
       }
     },
     {
@@ -532,16 +513,16 @@
     },
     {
       "opponent_disposition": "Disruption",
-      "games": 169,
-      "wins": 88,
+      "games": 166,
+      "wins": 87,
       "win_rate": 52.4,
       "first_turn": {
-        "win_rate": 56.1,
-        "games": 74
+        "win_rate": 56.8,
+        "games": 73
       },
       "second_turn": {
-        "win_rate": 49.5,
-        "games": 95
+        "win_rate": 48.9,
+        "games": 93
       }
     }
   ],
@@ -849,8 +830,8 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Priority Assets",
-      "games": 199,
-      "wins": 98,
+      "games": 200,
+      "wins": 99,
       "win_rate": 49.5,
       "first_turn": {
         "win_rate": 49.5,
@@ -858,22 +839,22 @@
       },
       "second_turn": {
         "win_rate": 49.5,
-        "games": 100
+        "games": 101
       }
     },
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Take and Hold",
-      "games": 180,
-      "wins": 81,
+      "games": 182,
+      "wins": 82,
       "win_rate": 45.3,
       "first_turn": {
-        "win_rate": 44.9,
-        "games": 88
+        "win_rate": 44.4,
+        "games": 89
       },
       "second_turn": {
-        "win_rate": 45.7,
-        "games": 92
+        "win_rate": 46.2,
+        "games": 93
       }
     },
     {
@@ -909,16 +890,16 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Disruption",
-      "games": 69,
-      "wins": 33,
-      "win_rate": 48.6,
+      "games": 66,
+      "wins": 32,
+      "win_rate": 48.5,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 28
+        "win_rate": 51.9,
+        "games": 27
       },
       "second_turn": {
-        "win_rate": 47.6,
-        "games": 41
+        "win_rate": 46.2,
+        "games": 39
       }
     }
   ],

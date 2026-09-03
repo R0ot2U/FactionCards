@@ -1,14 +1,14 @@
 {
   "faction": "Grey Knights",
   "slug": "grey_knights",
-  "as_of": "2026-09-01",
+  "as_of": "2026-09-03",
   "window_days": 30,
   "event_type": "solo",
   "lists": 85,
   "games": 453,
   "play_rate": 2.4,
   "win_rate": 48.3,
-  "trend_delta": -0.8,
+  "trend_delta": -0.4,
   "top_detachment": "Argent Assault + Banishers",
   "ci_lower": 43.8,
   "meta_health": "strongly_under",
@@ -120,6 +120,25 @@
       }
     },
     {
+      "detachment": "No Detachment",
+      "base_archetype": "Grey Knights \u2014 No Detachment",
+      "lists": 3,
+      "games": 17,
+      "play_rate": 3.5,
+      "win_rate": 23.5,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
+    },
+    {
       "detachment": "Argent Assault + Brotherhood Strike",
       "base_archetype": "Grey Knights \u2014 Argent Assault + Brotherhood Strike",
       "lists": 3,
@@ -136,25 +155,6 @@
       "second_turn": {
         "win_rate": 50.0,
         "games": 7
-      }
-    },
-    {
-      "detachment": "No Detachment",
-      "base_archetype": "Grey Knights \u2014 No Detachment",
-      "lists": 2,
-      "games": 12,
-      "play_rate": 2.4,
-      "win_rate": 25.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": null,
-        "games": 0
-      },
-      "second_turn": {
-        "win_rate": null,
-        "games": 0
       }
     },
     {
@@ -324,16 +324,16 @@
   "disposition_matchups": [
     {
       "opponent_disposition": "Take and Hold",
-      "games": 143,
+      "games": 144,
       "wins": 71,
-      "win_rate": 49.7,
+      "win_rate": 49.3,
       "first_turn": {
         "win_rate": 41.2,
         "games": 80
       },
       "second_turn": {
-        "win_rate": 60.3,
-        "games": 63
+        "win_rate": 59.4,
+        "games": 64
       }
     },
     {
@@ -380,16 +380,16 @@
     },
     {
       "opponent_disposition": "Disruption",
-      "games": 29,
+      "games": 28,
       "wins": 10,
-      "win_rate": 36.2,
+      "win_rate": 37.5,
       "first_turn": {
         "win_rate": 43.3,
         "games": 15
       },
       "second_turn": {
-        "win_rate": 28.6,
-        "games": 14
+        "win_rate": 30.8,
+        "games": 13
       }
     }
   ],
@@ -442,16 +442,16 @@
     {
       "disposition": "Priority Assets",
       "opponent_disposition": "Take and Hold",
-      "games": 55,
+      "games": 56,
       "wins": 26,
-      "win_rate": 47.3,
+      "win_rate": 46.4,
       "first_turn": {
         "win_rate": 39.3,
         "games": 28
       },
       "second_turn": {
-        "win_rate": 55.6,
-        "games": 27
+        "win_rate": 53.6,
+        "games": 28
       }
     },
     {
@@ -502,16 +502,16 @@
     {
       "disposition": "Priority Assets",
       "opponent_disposition": "Disruption",
-      "games": 8,
+      "games": 7,
       "wins": 2,
-      "win_rate": 31.2,
+      "win_rate": 35.7,
       "first_turn": {
         "win_rate": 37.5,
         "games": 4
       },
       "second_turn": {
-        "win_rate": 25.0,
-        "games": 4
+        "win_rate": 33.3,
+        "games": 3
       }
     },
     {

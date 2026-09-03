@@ -71,7 +71,7 @@ function renderFactionPage(result) {
   document.title = `${data.faction} — Informed Crusader`;
   document.getElementById("breadcrumb-faction").textContent = data.faction;
   document.getElementById("window-label").textContent =
-    `${data.faction} · ${data.window_days}-day window · ${turnLabel()} · as of ${data.as_of}`;
+    `${data.faction} · ${windowLabel(data.window_days)} · ${turnLabel()} · as of ${data.as_of}`;
 
   // Build content
   const content = document.getElementById("content");
@@ -355,7 +355,7 @@ function heroHtml(data) {
     <div class="hero">
       <div style="flex:1;">
         <h2>${data.faction}</h2>
-        <div class="meta">${data.window_days}-day window · as of ${data.as_of} · ${eventLabel}</div>
+        <div class="meta">${windowLabel(data.window_days)} · as of ${data.as_of} · ${eventLabel}</div>
       </div>
       <div class="hero-stats">
         <div class="stat-box">
@@ -377,7 +377,7 @@ function heroHtml(data) {
         </div>
         <div class="stat-box">
           <div class="val">${trendHtml(data.trend_delta)}</div>
-          <div class="lbl" title="Win-rate change vs the previous ${data.window_days}-day window">Trend</div>
+          <div class="lbl" title="Win-rate change vs the previous ${windowLabel(data.window_days)}">Trend</div>
         </div>
         <div class="stat-box">
           <div class="val">${(data.x0_pct || 0).toFixed(1)}%</div>

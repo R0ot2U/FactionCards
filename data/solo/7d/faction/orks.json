@@ -1,7 +1,7 @@
 {
   "faction": "Orks",
   "slug": "orks",
-  "as_of": "2026-09-01",
+  "as_of": "2026-09-03",
   "window_days": 7,
   "event_type": "solo",
   "lists": 57,
@@ -84,10 +84,10 @@
     {
       "detachment": "Dread Mob + More Dakka!",
       "base_archetype": "Orks \u2014 Dread Mob + More Dakka!",
-      "lists": 3,
-      "games": 15,
-      "play_rate": 5.3,
-      "win_rate": 50.0,
+      "lists": 4,
+      "games": 20,
+      "play_rate": 7.0,
+      "win_rate": 42.5,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
@@ -196,25 +196,6 @@
       }
     },
     {
-      "detachment": "Dread Mob",
-      "base_archetype": "Orks \u2014 Dread Mob",
-      "lists": 2,
-      "games": 13,
-      "play_rate": 3.5,
-      "win_rate": 11.5,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 10.0,
-        "games": 5
-      }
-    },
-    {
       "detachment": "Da Big Hunt + More Dakka!",
       "base_archetype": "Orks \u2014 Da Big Hunt + More Dakka!",
       "lists": 1,
@@ -250,6 +231,25 @@
       "second_turn": {
         "win_rate": 0.0,
         "games": 1
+      }
+    },
+    {
+      "detachment": "No Detachment",
+      "base_archetype": "Orks \u2014 No Detachment",
+      "lists": 1,
+      "games": 6,
+      "play_rate": 1.8,
+      "win_rate": 83.3,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
       }
     },
     {
@@ -326,6 +326,25 @@
       "second_turn": {
         "win_rate": 37.5,
         "games": 4
+      }
+    },
+    {
+      "detachment": "Dread Mob",
+      "base_archetype": "Orks \u2014 Dread Mob",
+      "lists": 1,
+      "games": 8,
+      "play_rate": 1.8,
+      "win_rate": 6.2,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 10.0,
+        "games": 5
       }
     }
   ],
@@ -419,16 +438,16 @@
   "disposition_matchups": [
     {
       "opponent_disposition": "Take and Hold",
-      "games": 108,
-      "wins": 61,
-      "win_rate": 56.5,
+      "games": 110,
+      "wins": 62,
+      "win_rate": 56.4,
       "first_turn": {
         "win_rate": 69.3,
         "games": 44
       },
       "second_turn": {
         "win_rate": 47.7,
-        "games": 64
+        "games": 66
       }
     },
     {
@@ -475,16 +494,16 @@
     },
     {
       "opponent_disposition": "Disruption",
-      "games": 12,
-      "wins": 5,
-      "win_rate": 41.7,
+      "games": 10,
+      "wins": 4,
+      "win_rate": 40.0,
       "first_turn": {
         "win_rate": 33.3,
         "games": 3
       },
       "second_turn": {
-        "win_rate": 44.4,
-        "games": 9
+        "win_rate": 42.9,
+        "games": 7
       }
     }
   ],
@@ -537,16 +556,16 @@
     {
       "disposition": "Priority Assets",
       "opponent_disposition": "Take and Hold",
-      "games": 14,
+      "games": 15,
       "wins": 6,
-      "win_rate": 46.4,
+      "win_rate": 43.3,
       "first_turn": {
         "win_rate": 62.5,
         "games": 4
       },
       "second_turn": {
-        "win_rate": 40.0,
-        "games": 10
+        "win_rate": 36.4,
+        "games": 11
       }
     },
     {
@@ -642,16 +661,16 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Take and Hold",
-      "games": 57,
-      "wins": 35,
-      "win_rate": 62.3,
+      "games": 58,
+      "wins": 36,
+      "win_rate": 62.9,
       "first_turn": {
         "win_rate": 75.0,
         "games": 24
       },
       "second_turn": {
-        "win_rate": 53.0,
-        "games": 33
+        "win_rate": 54.4,
+        "games": 34
       }
     },
     {
@@ -702,16 +721,16 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Disruption",
-      "games": 9,
-      "wins": 4,
-      "win_rate": 44.4,
+      "games": 8,
+      "wins": 3,
+      "win_rate": 37.5,
       "first_turn": {
         "win_rate": 33.3,
         "games": 3
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 6
+        "win_rate": 40.0,
+        "games": 5
       }
     }
   ],
@@ -814,7 +833,7 @@
     },
     {
       "player_name": "Ivan Andres",
-      "detachment": "",
+      "detachment": "No Detachment",
       "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/switgieKc6zq",
       "source": "bcp",

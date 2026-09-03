@@ -1,7 +1,7 @@
 {
   "faction": "T'au Empire",
   "slug": "t_au_empire",
-  "as_of": "2026-09-01",
+  "as_of": "2026-09-03",
   "window_days": 14,
   "event_type": "all",
   "lists": 107,
@@ -9,7 +9,7 @@
   "play_rate": 4.8,
   "win_rate": 50.1,
   "trend_delta": -1.4,
-  "top_detachment": "Retaliation Cadre",
+  "top_detachment": "Experimental Prototype Cadre + Kauyon",
   "ci_lower": 46.0,
   "meta_health": "slightly_under",
   "x0_pct": 3.7,
@@ -24,6 +24,25 @@
     "games": 285
   },
   "detachments": [
+    {
+      "detachment": "Experimental Prototype Cadre + Kauyon",
+      "base_archetype": "T'au Empire \u2014 Experimental Prototype Cadre + Kauyon",
+      "lists": 33,
+      "games": 174,
+      "play_rate": 30.8,
+      "win_rate": 51.4,
+      "x0_pct": 3.0,
+      "x1_pct": 21.2,
+      "tournament_wins": 1,
+      "first_turn": {
+        "win_rate": 51.1,
+        "games": 91
+      },
+      "second_turn": {
+        "win_rate": 51.8,
+        "games": 83
+      }
+    },
     {
       "detachment": "Retaliation Cadre",
       "base_archetype": "T'au Empire \u2014 Retaliation Cadre",
@@ -41,25 +60,6 @@
       "second_turn": {
         "win_rate": 55.5,
         "games": 82
-      }
-    },
-    {
-      "detachment": "Experimental Prototype Cadre + Kauyon",
-      "base_archetype": "T'au Empire \u2014 Experimental Prototype Cadre + Kauyon",
-      "lists": 32,
-      "games": 169,
-      "play_rate": 29.9,
-      "win_rate": 51.2,
-      "x0_pct": 3.1,
-      "x1_pct": 21.9,
-      "tournament_wins": 1,
-      "first_turn": {
-        "win_rate": 51.1,
-        "games": 91
-      },
-      "second_turn": {
-        "win_rate": 51.8,
-        "games": 83
       }
     },
     {
@@ -174,25 +174,6 @@
       "second_turn": {
         "win_rate": 66.7,
         "games": 3
-      }
-    },
-    {
-      "detachment": "Experimental Prototype Cadre",
-      "base_archetype": "T'au Empire \u2014 Experimental Prototype Cadre",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 0.9,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": null,
-        "games": 0
-      },
-      "second_turn": {
-        "win_rate": null,
-        "games": 0
       }
     }
   ],

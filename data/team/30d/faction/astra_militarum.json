@@ -1,7 +1,7 @@
 {
   "faction": "Astra Militarum",
   "slug": "astra_militarum",
-  "as_of": "2026-09-01",
+  "as_of": "2026-09-03",
   "window_days": 30,
   "event_type": "team",
   "lists": 46,
@@ -28,9 +28,9 @@
       "detachment": "Abhuman Auxiliaries + Steel Hammer",
       "base_archetype": "Astra Militarum \u2014 Abhuman Auxiliaries + Steel Hammer",
       "lists": 8,
-      "games": 42,
+      "games": 31,
       "play_rate": 17.4,
-      "win_rate": 45.2,
+      "win_rate": 43.5,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
@@ -158,6 +158,25 @@
       }
     },
     {
+      "detachment": "Designation Force + Siege Regiment",
+      "base_archetype": "Astra Militarum \u2014 Designation Force + Siege Regiment",
+      "lists": 2,
+      "games": 5,
+      "play_rate": 4.3,
+      "win_rate": 10.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 41.7,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 40.0,
+        "games": 5
+      }
+    },
+    {
       "detachment": "Bridgehead Strike + Hammer Of The Emperor",
       "base_archetype": "Astra Militarum \u2014 Bridgehead Strike + Hammer Of The Emperor",
       "lists": 2,
@@ -174,25 +193,6 @@
       "second_turn": {
         "win_rate": 0.0,
         "games": 5
-      }
-    },
-    {
-      "detachment": "Siege Regiment",
-      "base_archetype": "Astra Militarum \u2014 Siege Regiment",
-      "lists": 2,
-      "games": 6,
-      "play_rate": 4.3,
-      "win_rate": 50.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 60.0,
-        "games": 5
-      },
-      "second_turn": {
-        "win_rate": 0.0,
-        "games": 1
       }
     },
     {
@@ -215,22 +215,22 @@
       }
     },
     {
-      "detachment": "Designation Force + Siege Regiment",
-      "base_archetype": "Astra Militarum \u2014 Designation Force + Siege Regiment",
+      "detachment": "Siege Regiment",
+      "base_archetype": "Astra Militarum \u2014 Siege Regiment",
       "lists": 1,
-      "games": 5,
+      "games": 6,
       "play_rate": 2.2,
-      "win_rate": 10.0,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 41.7,
-        "games": 6
+        "win_rate": 60.0,
+        "games": 5
       },
       "second_turn": {
-        "win_rate": 40.0,
-        "games": 5
+        "win_rate": 0.0,
+        "games": 1
       }
     },
     {
@@ -452,12 +452,12 @@
     },
     {
       "opponent_disposition": "Take and Hold",
-      "games": 60,
-      "wins": 23,
-      "win_rate": 38.3,
+      "games": 61,
+      "wins": 24,
+      "win_rate": 39.3,
       "first_turn": {
-        "win_rate": 34.5,
-        "games": 29
+        "win_rate": 36.7,
+        "games": 30
       },
       "second_turn": {
         "win_rate": 41.9,
@@ -494,12 +494,12 @@
     },
     {
       "opponent_disposition": "Disruption",
-      "games": 38,
-      "wins": 21,
-      "win_rate": 55.3,
+      "games": 37,
+      "wins": 20,
+      "win_rate": 54.1,
       "first_turn": {
-        "win_rate": 70.0,
-        "games": 25
+        "win_rate": 68.8,
+        "games": 24
       },
       "second_turn": {
         "win_rate": 26.9,
@@ -781,12 +781,12 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Take and Hold",
-      "games": 9,
-      "wins": 2,
-      "win_rate": 22.2,
+      "games": 10,
+      "wins": 3,
+      "win_rate": 30.0,
       "first_turn": {
-        "win_rate": 0.0,
-        "games": 2
+        "win_rate": 33.3,
+        "games": 3
       },
       "second_turn": {
         "win_rate": 28.6,
@@ -796,12 +796,12 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Disruption",
-      "games": 8,
-      "wins": 4,
-      "win_rate": 50.0,
+      "games": 7,
+      "wins": 3,
+      "win_rate": 42.9,
       "first_turn": {
-        "win_rate": 58.3,
-        "games": 6
+        "win_rate": 50.0,
+        "games": 5
       },
       "second_turn": {
         "win_rate": 25.0,
@@ -854,7 +854,7 @@
     },
     {
       "player_name": "Sam Young",
-      "detachment": "Siege Regiment",
+      "detachment": "Designation Force + Siege Regiment",
       "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/cAGOanU0wse2",
       "source": "bcp",

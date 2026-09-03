@@ -1,7 +1,7 @@
 {
   "faction": "Orks",
   "slug": "orks",
-  "as_of": "2026-09-01",
+  "as_of": "2026-09-03",
   "window_days": 60,
   "event_type": "team",
   "lists": 231,
@@ -9,7 +9,7 @@
   "play_rate": 7.3,
   "win_rate": 61.9,
   "trend_delta": 3.1,
-  "top_detachment": "Freebooter Krew + More Dakka!",
+  "top_detachment": "Equatorial Hordes + Freebooter Krew",
   "ci_lower": 59.2,
   "meta_health": "strongly_over",
   "x0_pct": 11.7,
@@ -27,12 +27,12 @@
     {
       "detachment": "Equatorial Hordes + Freebooter Krew",
       "base_archetype": "Orks \u2014 Equatorial Hordes + Freebooter Krew",
-      "lists": 45,
-      "games": 268,
-      "play_rate": 19.5,
-      "win_rate": 64.9,
-      "x0_pct": 18.9,
-      "x1_pct": 21.6,
+      "lists": 46,
+      "games": 274,
+      "play_rate": 19.9,
+      "win_rate": 65.7,
+      "x0_pct": 21.1,
+      "x1_pct": 21.1,
       "tournament_wins": 3,
       "first_turn": {
         "win_rate": 68.1,
@@ -405,25 +405,6 @@
       }
     },
     {
-      "detachment": "Freebooter Krew",
-      "base_archetype": "Orks \u2014 Freebooter Krew",
-      "lists": 2,
-      "games": 11,
-      "play_rate": 0.9,
-      "win_rate": 77.3,
-      "x0_pct": 50.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 66.7,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 25.0,
-        "games": 2
-      }
-    },
-    {
       "detachment": "Da Big Hunt + Taktikal Brigade",
       "base_archetype": "Orks \u2014 Da Big Hunt + Taktikal Brigade",
       "lists": 1,
@@ -614,6 +595,25 @@
       }
     },
     {
+      "detachment": "Freebooter Krew",
+      "base_archetype": "Orks \u2014 Freebooter Krew",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 0.4,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 2
+      }
+    },
+    {
       "detachment": "More Dakka! + Rollin' Deff + Taktikal Brigade",
       "base_archetype": "Orks \u2014 More Dakka! + Rollin' Deff + Taktikal Brigade",
       "lists": 1,
@@ -723,12 +723,12 @@
   "disposition_matchups": [
     {
       "opponent_disposition": "Take and Hold",
-      "games": 289,
-      "wins": 171,
-      "win_rate": 59.2,
+      "games": 290,
+      "wins": 172,
+      "win_rate": 59.3,
       "first_turn": {
-        "win_rate": 61.1,
-        "games": 140
+        "win_rate": 61.3,
+        "games": 141
       },
       "second_turn": {
         "win_rate": 57.4,
@@ -779,12 +779,12 @@
     },
     {
       "opponent_disposition": "Disruption",
-      "games": 221,
-      "wins": 150,
-      "win_rate": 68.1,
+      "games": 220,
+      "wins": 149,
+      "win_rate": 68.0,
       "first_turn": {
-        "win_rate": 73.0,
-        "games": 111
+        "win_rate": 72.7,
+        "games": 110
       },
       "second_turn": {
         "win_rate": 63.2,
@@ -1126,12 +1126,12 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Take and Hold",
-      "games": 150,
-      "wins": 103,
-      "win_rate": 68.7,
+      "games": 151,
+      "wins": 104,
+      "win_rate": 68.9,
       "first_turn": {
-        "win_rate": 75.0,
-        "games": 66
+        "win_rate": 75.4,
+        "games": 67
       },
       "second_turn": {
         "win_rate": 63.7,
@@ -1156,12 +1156,12 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Disruption",
-      "games": 133,
-      "wins": 93,
-      "win_rate": 70.3,
+      "games": 132,
+      "wins": 92,
+      "win_rate": 70.1,
       "first_turn": {
-        "win_rate": 75.9,
-        "games": 58
+        "win_rate": 75.4,
+        "games": 57
       },
       "second_turn": {
         "win_rate": 66.0,
@@ -1232,7 +1232,7 @@
     },
     {
       "player_name": "Nathan Morgan",
-      "detachment": "Freebooter Krew",
+      "detachment": "Equatorial Hordes + Freebooter Krew",
       "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/fc5vOM0SJjPk",
       "source": "bcp",

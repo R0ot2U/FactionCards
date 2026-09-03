@@ -1,7 +1,7 @@
 {
   "faction": "Necrons",
   "slug": "necrons",
-  "as_of": "2026-09-01",
+  "as_of": "2026-09-03",
   "window_days": 14,
   "event_type": "solo",
   "lists": 112,
@@ -253,6 +253,25 @@
       }
     },
     {
+      "detachment": "No Detachment",
+      "base_archetype": "Necrons \u2014 No Detachment",
+      "lists": 2,
+      "games": 12,
+      "play_rate": 1.8,
+      "win_rate": 41.7,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
+    },
+    {
       "detachment": "Hand Of The Dynasty + Pantheon Of Woe",
       "base_archetype": "Necrons \u2014 Hand Of The Dynasty + Pantheon Of Woe",
       "lists": 2,
@@ -307,25 +326,6 @@
       "second_turn": {
         "win_rate": 33.3,
         "games": 3
-      }
-    },
-    {
-      "detachment": "No Detachment",
-      "base_archetype": "Necrons \u2014 No Detachment",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 0.9,
-      "win_rate": 0.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": null,
-        "games": 0
-      },
-      "second_turn": {
-        "win_rate": null,
-        "games": 0
       }
     }
   ],
@@ -402,12 +402,12 @@
   "disposition_matchups": [
     {
       "opponent_disposition": "Take and Hold",
-      "games": 177,
+      "games": 178,
       "wins": 88,
-      "win_rate": 50.0,
+      "win_rate": 49.7,
       "first_turn": {
-        "win_rate": 48.3,
-        "games": 88
+        "win_rate": 47.8,
+        "games": 89
       },
       "second_turn": {
         "win_rate": 51.7,
@@ -416,16 +416,16 @@
     },
     {
       "opponent_disposition": "Priority Assets",
-      "games": 175,
+      "games": 176,
       "wins": 95,
-      "win_rate": 54.6,
+      "win_rate": 54.3,
       "first_turn": {
         "win_rate": 58.9,
         "games": 84
       },
       "second_turn": {
-        "win_rate": 50.5,
-        "games": 91
+        "win_rate": 50.0,
+        "games": 92
       }
     },
     {
@@ -458,16 +458,16 @@
     },
     {
       "opponent_disposition": "Disruption",
-      "games": 27,
+      "games": 25,
       "wins": 9,
-      "win_rate": 35.2,
+      "win_rate": 38.0,
       "first_turn": {
-        "win_rate": 46.2,
-        "games": 13
+        "win_rate": 50.0,
+        "games": 12
       },
       "second_turn": {
-        "win_rate": 25.0,
-        "games": 14
+        "win_rate": 26.9,
+        "games": 13
       }
     }
   ],
@@ -565,16 +565,16 @@
     {
       "disposition": "Purge the Foe",
       "opponent_disposition": "Priority Assets",
-      "games": 58,
+      "games": 59,
       "wins": 33,
-      "win_rate": 56.9,
+      "win_rate": 55.9,
       "first_turn": {
         "win_rate": 63.3,
         "games": 30
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 28
+        "win_rate": 48.3,
+        "games": 29
       }
     },
     {
@@ -610,16 +610,16 @@
     {
       "disposition": "Purge the Foe",
       "opponent_disposition": "Disruption",
-      "games": 14,
+      "games": 13,
       "wins": 3,
-      "win_rate": 25.0,
+      "win_rate": 26.9,
       "first_turn": {
         "win_rate": 40.0,
         "games": 5
       },
       "second_turn": {
-        "win_rate": 16.7,
-        "games": 9
+        "win_rate": 18.8,
+        "games": 8
       }
     },
     {
@@ -685,12 +685,12 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Take and Hold",
-      "games": 68,
+      "games": 69,
       "wins": 30,
-      "win_rate": 44.9,
+      "win_rate": 44.2,
       "first_turn": {
-        "win_rate": 47.4,
-        "games": 39
+        "win_rate": 46.2,
+        "games": 40
       },
       "second_turn": {
         "win_rate": 41.4,
@@ -740,21 +740,6 @@
       "second_turn": {
         "win_rate": 27.3,
         "games": 11
-      }
-    },
-    {
-      "disposition": "Take and Hold",
-      "opponent_disposition": "Disruption",
-      "games": 5,
-      "wins": 2,
-      "win_rate": 40.0,
-      "first_turn": {
-        "win_rate": 66.7,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 0.0,
-        "games": 2
       }
     }
   ],

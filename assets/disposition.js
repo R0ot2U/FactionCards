@@ -312,7 +312,9 @@ function syncActiveButtons() {
 }
 
 function updateBackLinks() {
-  const backUrl = `dispositions.html?event_type=${encodeURIComponent(currentEventType)}&window=${encodeURIComponent(currentWindow)}`;
+  const eraParam = currentDataslateEra && currentDataslateEra !== "all"
+    ? `&dataslate_era=${encodeURIComponent(currentDataslateEra)}` : "";
+  const backUrl = `dispositions.html?event_type=${encodeURIComponent(currentEventType)}&window=${encodeURIComponent(currentWindow)}${eraParam}`;
   const backLink = document.getElementById("back-link");
   const breadcrumbBack = document.getElementById("breadcrumb-back");
   if (backLink) backLink.href = backUrl;

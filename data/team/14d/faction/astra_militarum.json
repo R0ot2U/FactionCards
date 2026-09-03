@@ -1,7 +1,7 @@
 {
   "faction": "Astra Militarum",
   "slug": "astra_militarum",
-  "as_of": "2026-09-01",
+  "as_of": "2026-09-03",
   "window_days": 14,
   "event_type": "team",
   "lists": 13,
@@ -28,9 +28,9 @@
       "detachment": "Abhuman Auxiliaries + Steel Hammer",
       "base_archetype": "Astra Militarum \u2014 Abhuman Auxiliaries + Steel Hammer",
       "lists": 2,
-      "games": 17,
+      "games": 6,
       "play_rate": 15.4,
-      "win_rate": 41.2,
+      "win_rate": 25.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
@@ -41,6 +41,25 @@
       "second_turn": {
         "win_rate": 12.5,
         "games": 4
+      }
+    },
+    {
+      "detachment": "Designation Force + Siege Regiment",
+      "base_archetype": "Astra Militarum \u2014 Designation Force + Siege Regiment",
+      "lists": 2,
+      "games": 11,
+      "play_rate": 15.4,
+      "win_rate": 40.9,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 41.7,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 40.0,
+        "games": 5
       }
     },
     {
@@ -63,44 +82,6 @@
       }
     },
     {
-      "detachment": "Siege Regiment",
-      "base_archetype": "Astra Militarum \u2014 Siege Regiment",
-      "lists": 2,
-      "games": 12,
-      "play_rate": 15.4,
-      "win_rate": 58.3,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 60.0,
-        "games": 5
-      },
-      "second_turn": {
-        "win_rate": 0.0,
-        "games": 1
-      }
-    },
-    {
-      "detachment": "Designation Force + Siege Regiment",
-      "base_archetype": "Astra Militarum \u2014 Designation Force + Siege Regiment",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 7.7,
-      "win_rate": 10.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 41.7,
-        "games": 6
-      },
-      "second_turn": {
-        "win_rate": 40.0,
-        "games": 5
-      }
-    },
-    {
       "detachment": "Grizzled Company",
       "base_archetype": "Astra Militarum \u2014 Grizzled Company",
       "lists": 1,
@@ -117,6 +98,25 @@
       "second_turn": {
         "win_rate": 50.0,
         "games": 4
+      }
+    },
+    {
+      "detachment": "Siege Regiment",
+      "base_archetype": "Astra Militarum \u2014 Siege Regiment",
+      "lists": 1,
+      "games": 6,
+      "play_rate": 7.7,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 60.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 1
       }
     },
     {
@@ -316,12 +316,12 @@
     },
     {
       "opponent_disposition": "Disruption",
-      "games": 13,
-      "wins": 5,
-      "win_rate": 42.3,
+      "games": 12,
+      "wins": 4,
+      "win_rate": 37.5,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 8
+        "win_rate": 42.9,
+        "games": 7
       },
       "second_turn": {
         "win_rate": 30.0,
@@ -450,7 +450,7 @@
     },
     {
       "player_name": "Sam Young",
-      "detachment": "Siege Regiment",
+      "detachment": "Designation Force + Siege Regiment",
       "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/cAGOanU0wse2",
       "source": "bcp",

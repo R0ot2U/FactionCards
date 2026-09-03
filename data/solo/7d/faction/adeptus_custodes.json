@@ -1,7 +1,7 @@
 {
   "faction": "Adeptus Custodes",
   "slug": "adeptus_custodes",
-  "as_of": "2026-09-01",
+  "as_of": "2026-09-03",
   "window_days": 7,
   "event_type": "solo",
   "lists": 56,
@@ -27,12 +27,12 @@
     {
       "detachment": "Lions Of The Emperor",
       "base_archetype": "Adeptus Custodes \u2014 Lions Of The Emperor",
-      "lists": 16,
-      "games": 117,
-      "play_rate": 28.6,
-      "win_rate": 56.0,
+      "lists": 25,
+      "games": 161,
+      "play_rate": 44.6,
+      "win_rate": 54.3,
       "x0_pct": 0.0,
-      "x1_pct": 6.2,
+      "x1_pct": 8.0,
       "tournament_wins": 0,
       "first_turn": {
         "win_rate": 49.3,
@@ -60,25 +60,6 @@
       "second_turn": {
         "win_rate": 60.5,
         "games": 38
-      }
-    },
-    {
-      "detachment": "Lions of the Emperor",
-      "base_archetype": "Adeptus Custodes \u2014 Lions of the Emperor",
-      "lists": 10,
-      "games": 52,
-      "play_rate": 17.9,
-      "win_rate": 50.0,
-      "x0_pct": 0.0,
-      "x1_pct": 10.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 4
-      },
-      "second_turn": {
-        "win_rate": 50.0,
-        "games": 4
       }
     },
     {
@@ -120,6 +101,25 @@
       }
     },
     {
+      "detachment": "No Detachment",
+      "base_archetype": "Adeptus Custodes \u2014 No Detachment",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 3.6,
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
+    },
+    {
       "detachment": "Silent Hunters + Solar Spearhead",
       "base_archetype": "Adeptus Custodes \u2014 Silent Hunters + Solar Spearhead",
       "lists": 2,
@@ -158,22 +158,22 @@
       }
     },
     {
-      "detachment": "No Detachment",
-      "base_archetype": "Adeptus Custodes \u2014 No Detachment",
+      "detachment": "Lions of the Emperor",
+      "base_archetype": "Adeptus Custodes \u2014 Lions of the Emperor",
       "lists": 1,
-      "games": 5,
+      "games": 8,
       "play_rate": 1.8,
-      "win_rate": 10.0,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": null,
-        "games": 0
+        "win_rate": 50.0,
+        "games": 4
       },
       "second_turn": {
-        "win_rate": null,
-        "games": 0
+        "win_rate": 50.0,
+        "games": 4
       }
     },
     {
@@ -218,19 +218,19 @@
   "dispositions": [
     {
       "disposition": "Take and Hold",
-      "lists": 43,
-      "play_rate": 76.8,
-      "win_rate": 54.7,
-      "x0_pct": 2.3,
-      "x1_pct": 14.0,
-      "games": 258.0,
+      "lists": 45,
+      "play_rate": 80.4,
+      "win_rate": 55.2,
+      "x0_pct": 2.2,
+      "x1_pct": 15.6,
+      "games": 268.0,
       "first_turn": {
-        "win_rate": 50.4,
-        "games": 122
+        "win_rate": 51.2,
+        "games": 128
       },
       "second_turn": {
-        "win_rate": 58.5,
-        "games": 136
+        "win_rate": 58.9,
+        "games": 140
       }
     },
     {
@@ -251,23 +251,6 @@
       }
     },
     {
-      "disposition": "Disruption",
-      "lists": 3,
-      "play_rate": 5.4,
-      "win_rate": 66.7,
-      "x0_pct": 0.0,
-      "x1_pct": 33.3,
-      "games": 15.0,
-      "first_turn": {
-        "win_rate": 70.0,
-        "games": 10
-      },
-      "second_turn": {
-        "win_rate": 60.0,
-        "games": 5
-      }
-    },
-    {
       "disposition": "Reconnaissance",
       "lists": 3,
       "play_rate": 5.4,
@@ -282,6 +265,23 @@
       "second_turn": {
         "win_rate": 55.0,
         "games": 10
+      }
+    },
+    {
+      "disposition": "Disruption",
+      "lists": 1,
+      "play_rate": 1.8,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5.0,
+      "first_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 1
       }
     }
   ],
@@ -345,36 +345,6 @@
   ],
   "disposition_cross": [
     {
-      "disposition": "Disruption",
-      "opponent_disposition": "Priority Assets",
-      "games": 7,
-      "wins": 5,
-      "win_rate": 71.4,
-      "first_turn": {
-        "win_rate": 83.3,
-        "games": 6
-      },
-      "second_turn": {
-        "win_rate": 0.0,
-        "games": 1
-      }
-    },
-    {
-      "disposition": "Disruption",
-      "opponent_disposition": "Take and Hold",
-      "games": 5,
-      "wins": 3,
-      "win_rate": 60.0,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 66.7,
-        "games": 3
-      }
-    },
-    {
       "disposition": "Purge the Foe",
       "opponent_disposition": "Take and Hold",
       "games": 19,
@@ -437,12 +407,12 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Priority Assets",
-      "games": 75,
-      "wins": 41,
-      "win_rate": 55.3,
+      "games": 80,
+      "wins": 45,
+      "win_rate": 56.9,
       "first_turn": {
-        "win_rate": 55.1,
-        "games": 39
+        "win_rate": 58.0,
+        "games": 44
       },
       "second_turn": {
         "win_rate": 55.6,
@@ -452,31 +422,31 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Take and Hold",
-      "games": 71,
-      "wins": 38,
-      "win_rate": 53.5,
+      "games": 75,
+      "wins": 40,
+      "win_rate": 53.3,
       "first_turn": {
-        "win_rate": 55.6,
-        "games": 36
+        "win_rate": 54.1,
+        "games": 37
       },
       "second_turn": {
-        "win_rate": 51.4,
-        "games": 35
+        "win_rate": 52.6,
+        "games": 38
       }
     },
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Reconnaissance",
-      "games": 48,
-      "wins": 28,
-      "win_rate": 59.4,
+      "games": 49,
+      "wins": 29,
+      "win_rate": 60.2,
       "first_turn": {
         "win_rate": 55.0,
         "games": 20
       },
       "second_turn": {
-        "win_rate": 62.5,
-        "games": 28
+        "win_rate": 63.8,
+        "games": 29
       }
     },
     {
@@ -573,7 +543,7 @@
     },
     {
       "player_name": "Snake",
-      "detachment": "Lions of the Emperor",
+      "detachment": "Lions Of The Emperor",
       "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/LnaZTFrUB1fd",
       "source": "bcp",
@@ -598,7 +568,7 @@
     {
       "player_name": "James Evans",
       "detachment": "Lions Of The Emperor + Might Of The Moritoi",
-      "disposition": "Disruption",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/M3mCmT7DOn20",
       "source": "bcp",
       "wins": 4,
@@ -718,7 +688,7 @@
     {
       "player_name": "Stefan Colhoun",
       "detachment": "Lions Of The Emperor",
-      "disposition": "Disruption",
+      "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/xUdMqB7qS4CB",
       "source": "bcp",
       "wins": 3,
@@ -741,7 +711,7 @@
     },
     {
       "player_name": "Ruben Torre",
-      "detachment": "Lions of the Emperor",
+      "detachment": "Lions Of The Emperor",
       "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/xsLmbNdwjnwh",
       "source": "bcp",

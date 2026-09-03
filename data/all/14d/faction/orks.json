@@ -1,7 +1,7 @@
 {
   "faction": "Orks",
   "slug": "orks",
-  "as_of": "2026-09-01",
+  "as_of": "2026-09-03",
   "window_days": 14,
   "event_type": "all",
   "lists": 133,
@@ -9,7 +9,7 @@
   "play_rate": 5.9,
   "win_rate": 55.7,
   "trend_delta": -5.1,
-  "top_detachment": "War Horde",
+  "top_detachment": "Equatorial Hordes + Freebooter Krew",
   "ci_lower": 52.1,
   "meta_health": "slightly_over",
   "x0_pct": 9.0,
@@ -24,6 +24,25 @@
     "games": 386
   },
   "detachments": [
+    {
+      "detachment": "Equatorial Hordes + Freebooter Krew",
+      "base_archetype": "Orks \u2014 Equatorial Hordes + Freebooter Krew",
+      "lists": 37,
+      "games": 187,
+      "play_rate": 27.8,
+      "win_rate": 60.2,
+      "x0_pct": 13.9,
+      "x1_pct": 22.2,
+      "tournament_wins": 2,
+      "first_turn": {
+        "win_rate": 59.9,
+        "games": 86
+      },
+      "second_turn": {
+        "win_rate": 60.4,
+        "games": 101
+      }
+    },
     {
       "detachment": "War Horde",
       "base_archetype": "Orks \u2014 War Horde",
@@ -41,25 +60,6 @@
       "second_turn": {
         "win_rate": 52.2,
         "games": 113
-      }
-    },
-    {
-      "detachment": "Equatorial Hordes + Freebooter Krew",
-      "base_archetype": "Orks \u2014 Equatorial Hordes + Freebooter Krew",
-      "lists": 36,
-      "games": 181,
-      "play_rate": 27.1,
-      "win_rate": 58.8,
-      "x0_pct": 11.4,
-      "x1_pct": 22.9,
-      "tournament_wins": 2,
-      "first_turn": {
-        "win_rate": 59.9,
-        "games": 86
-      },
-      "second_turn": {
-        "win_rate": 60.4,
-        "games": 101
       }
     },
     {
@@ -82,6 +82,25 @@
       }
     },
     {
+      "detachment": "Dread Mob + More Dakka!",
+      "base_archetype": "Orks \u2014 Dread Mob + More Dakka!",
+      "lists": 6,
+      "games": 30,
+      "play_rate": 4.5,
+      "win_rate": 38.3,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 45.8,
+        "games": 12
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 18
+      }
+    },
+    {
       "detachment": "Green Tide",
       "base_archetype": "Orks \u2014 Green Tide",
       "lists": 6,
@@ -98,25 +117,6 @@
       "second_turn": {
         "win_rate": 38.5,
         "games": 13
-      }
-    },
-    {
-      "detachment": "Dread Mob + More Dakka!",
-      "base_archetype": "Orks \u2014 Dread Mob + More Dakka!",
-      "lists": 5,
-      "games": 25,
-      "play_rate": 3.8,
-      "win_rate": 42.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 45.8,
-        "games": 12
-      },
-      "second_turn": {
-        "win_rate": 33.3,
-        "games": 18
       }
     },
     {
@@ -234,44 +234,6 @@
       }
     },
     {
-      "detachment": "Dread Mob",
-      "base_archetype": "Orks \u2014 Dread Mob",
-      "lists": 2,
-      "games": 13,
-      "play_rate": 1.5,
-      "win_rate": 11.5,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 10.0,
-        "games": 5
-      }
-    },
-    {
-      "detachment": "Freebooter Krew",
-      "base_archetype": "Orks \u2014 Freebooter Krew",
-      "lists": 2,
-      "games": 11,
-      "play_rate": 1.5,
-      "win_rate": 77.3,
-      "x0_pct": 50.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 66.7,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 25.0,
-        "games": 2
-      }
-    },
-    {
       "detachment": "Da Big Hunt + More Dakka!",
       "base_archetype": "Orks \u2014 Da Big Hunt + More Dakka!",
       "lists": 1,
@@ -307,6 +269,25 @@
       "second_turn": {
         "win_rate": 75.0,
         "games": 4
+      }
+    },
+    {
+      "detachment": "No Detachment",
+      "base_archetype": "Orks \u2014 No Detachment",
+      "lists": 1,
+      "games": 6,
+      "play_rate": 0.8,
+      "win_rate": 83.3,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
       }
     },
     {
@@ -383,6 +364,25 @@
       "second_turn": {
         "win_rate": 37.5,
         "games": 4
+      }
+    },
+    {
+      "detachment": "Dread Mob",
+      "base_archetype": "Orks \u2014 Dread Mob",
+      "lists": 1,
+      "games": 8,
+      "play_rate": 0.8,
+      "win_rate": 6.2,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 10.0,
+        "games": 5
       }
     },
     {
@@ -479,6 +479,25 @@
         "win_rate": null,
         "games": 0
       }
+    },
+    {
+      "detachment": "Freebooter Krew",
+      "base_archetype": "Orks \u2014 Freebooter Krew",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 0.8,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 2
+      }
     }
   ],
   "dispositions": [
@@ -571,16 +590,16 @@
   "disposition_matchups": [
     {
       "opponent_disposition": "Take and Hold",
-      "games": 216,
-      "wins": 120,
-      "win_rate": 55.8,
+      "games": 219,
+      "wins": 122,
+      "win_rate": 55.9,
       "first_turn": {
-        "win_rate": 63.2,
-        "games": 95
+        "win_rate": 63.5,
+        "games": 96
       },
       "second_turn": {
         "win_rate": 50.0,
-        "games": 121
+        "games": 123
       }
     },
     {
@@ -627,16 +646,16 @@
     },
     {
       "opponent_disposition": "Disruption",
-      "games": 55,
-      "wins": 31,
-      "win_rate": 56.4,
+      "games": 52,
+      "wins": 29,
+      "win_rate": 55.8,
       "first_turn": {
-        "win_rate": 53.4,
-        "games": 29
+        "win_rate": 51.8,
+        "games": 28
       },
       "second_turn": {
-        "win_rate": 59.6,
-        "games": 26
+        "win_rate": 60.4,
+        "games": 24
       }
     }
   ],
@@ -719,16 +738,16 @@
     {
       "disposition": "Priority Assets",
       "opponent_disposition": "Take and Hold",
-      "games": 19,
+      "games": 20,
       "wins": 8,
-      "win_rate": 42.1,
+      "win_rate": 40.0,
       "first_turn": {
         "win_rate": 50.0,
         "games": 6
       },
       "second_turn": {
-        "win_rate": 38.5,
-        "games": 13
+        "win_rate": 35.7,
+        "games": 14
       }
     },
     {
@@ -869,16 +888,16 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Take and Hold",
-      "games": 116,
-      "wins": 67,
-      "win_rate": 58.2,
+      "games": 118,
+      "wins": 69,
+      "win_rate": 58.9,
       "first_turn": {
-        "win_rate": 65.7,
-        "games": 54
+        "win_rate": 66.4,
+        "games": 55
       },
       "second_turn": {
-        "win_rate": 51.6,
-        "games": 62
+        "win_rate": 52.4,
+        "games": 63
       }
     },
     {
@@ -929,16 +948,16 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Disruption",
-      "games": 40,
-      "wins": 21,
-      "win_rate": 52.5,
+      "games": 38,
+      "wins": 19,
+      "win_rate": 50.0,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 23
+        "win_rate": 47.7,
+        "games": 22
       },
       "second_turn": {
-        "win_rate": 55.9,
-        "games": 17
+        "win_rate": 53.1,
+        "games": 16
       }
     }
   ],
@@ -969,7 +988,7 @@
     },
     {
       "player_name": "Nathan Morgan",
-      "detachment": "Freebooter Krew",
+      "detachment": "Equatorial Hordes + Freebooter Krew",
       "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/fc5vOM0SJjPk",
       "source": "bcp",
@@ -1161,7 +1180,7 @@
     },
     {
       "player_name": "Ivan Andres",
-      "detachment": "",
+      "detachment": "No Detachment",
       "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/switgieKc6zq",
       "source": "bcp",

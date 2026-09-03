@@ -2,7 +2,18 @@
 
 const DEFAULT_EVENT_TYPE = "all";
 const DEFAULT_WINDOW = "7d";
-const SUPPORTED_WINDOWS = ["7d", "14d", "30d", "60d"];
+const SUPPORTED_WINDOWS = ["7d", "14d", "30d", "60d", "all"];
+
+// Single source of truth for dataslate eras: value (URL param + data dir suffix),
+// button label, optional badge text, and optional tooltip. Add a new entry here
+// each time a dataslate lands — every consumer (era buttons, badges, messages)
+// reads from this list instead of hardcoding era strings.
+const DATASLATE_ERAS = [
+  { value: "all", label: "All Eras" },
+  { value: "launch", label: "Launch", title: "Pre-dataslate (before 2026-07-22)" },
+  { value: "2026-07-22", label: "Dataslate 1", badge: "DS1", title: "First dataslate (2026-07-22 to 2026-08-25)" },
+  { value: "2026-08-26", label: "Dataslate 2", badge: "DS2", title: "Second dataslate (2026-08-26+)" },
+];
 
 // Cache manifest loaded once on page load
 let cacheManifest = null;
@@ -37,7 +48,19 @@ function getWindow() {
 function getDataslateEra() {
   const params = new URLSearchParams(window.location.search);
   const era = params.get("dataslate_era") || "all";
-  return ["all", "launch", "2026-07-22"].includes(era) ? era : "all";
+  return DATASLATE_ERAS.some(e => e.value === era) ? era : "all";
+}
+
+// Badge HTML for a dataslate era (e.g. "DS1"), or "" if the era has no badge.
+function eraBadgeHtml(era) {
+  const meta = DATASLATE_ERAS.find(e => e.value === era);
+  if (!meta || !meta.badge) return "";
+  return `<span style="display:inline-block;background:var(--accent);color:var(--bg);font-size:0.65rem;padding:0.15rem 0.35rem;border-radius:3px;margin-left:0.5rem;font-weight:600;vertical-align:middle;" title="${meta.title || meta.label}">${meta.badge}</span>`;
+}
+
+// Display label for a dataslate era value (e.g. "2026-07-22" -> "Dataslate 1").
+function eraLabel(era) {
+  return DATASLATE_ERAS.find(e => e.value === era)?.label || era;
 }
 
 // Turn filter state (all | first | second)
@@ -80,6 +103,12 @@ function turnLabel() {
   if (turnFilter === "first") return " (Went First)";
   if (turnFilter === "second") return " (Went Second)";
   return "";
+}
+
+// Human label for a window_days value from a manifest ("All time" for the unbounded sentinel).
+function windowLabel(days) {
+  if (!days) return "";
+  return days >= 9999 ? "All time" : `${days}-day window`;
 }
 
 function dataRoot(eventType, window) {
@@ -235,7 +264,7 @@ function renderFooter(manifest) {
   const el = document.getElementById("site-footer");
   if (!el) return;
   const builtAt = manifest?.built_at ? new Date(manifest.built_at).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }) : "";
-  const window = manifest?.window_days ? `${manifest.window_days}-day window` : "";
+  const window = windowLabel(manifest?.window_days);
   const asOf = manifest?.as_of ? `as of ${manifest.as_of}` : "";
   el.innerHTML = `
     <div class="footer-inner">

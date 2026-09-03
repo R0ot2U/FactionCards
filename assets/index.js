@@ -251,7 +251,7 @@ async function init() {
 
   // Header meta
   document.getElementById("window-label").textContent =
-    `${manifest.window_days}-day window · as of ${manifest.as_of}`;
+    `${windowLabel(manifest.window_days)} · as of ${manifest.as_of}`;
   document.getElementById("build-info").textContent =
     `${manifest.total_tournaments.toLocaleString()} tournaments · ${manifest.total_lists.toLocaleString()} players · ${manifest.total_games.toLocaleString()} games`;
 
@@ -304,7 +304,7 @@ async function init() {
 
       // Update header stats
       document.getElementById("window-label").textContent =
-        `${manifest.window_days}-day window · as of ${manifest.as_of}`;
+        `${windowLabel(manifest.window_days)} · as of ${manifest.as_of}`;
       document.getElementById("build-info").textContent =
         `${manifest.total_tournaments.toLocaleString()} tournaments · ${manifest.total_lists.toLocaleString()} players · ${manifest.total_games.toLocaleString()} games`;
     });
@@ -333,7 +333,7 @@ async function init() {
 
       // Update header stats
       document.getElementById("window-label").textContent =
-        `${manifest.window_days}-day window · as of ${manifest.as_of}`;
+        `${windowLabel(manifest.window_days)} · as of ${manifest.as_of}`;
       document.getElementById("build-info").textContent =
         `${manifest.total_tournaments.toLocaleString()} tournaments · ${manifest.total_lists.toLocaleString()} players · ${manifest.total_games.toLocaleString()} games`;
     });
@@ -434,7 +434,7 @@ function renderTable() {
         <td data-sort="${wr}" title="Win rate across all games in the window (draw = 0.5 win)">${'<span class="' + wrCls + '">' + wr.toFixed(1) + '%</span>'}</td>
         <td data-sort="${r.x0_pct ?? -999}" title="Percentage of players going undefeated">${x0_pct}</td>
         <td data-sort="${r.x1_pct ?? -999}" title="Percentage of players with exactly 1 loss">${x1_pct}</td>
-        <td data-sort="${r.trend_delta ?? -999}" title="Win-rate change vs the previous ${manifest.window_days}-day window">${trendHtml(r.trend_delta)}</td>
+        <td data-sort="${r.trend_delta ?? -999}" title="Win-rate change vs the previous ${windowLabel(manifest.window_days)}">${trendHtml(r.trend_delta)}</td>
         <td style="color:var(--dim);font-size:0.8rem">${r.top_detachment || "—"}</td>
         <td style="color:var(--dim);font-size:0.8rem">${r.top_disposition || "—"}</td>
       </tr>`;

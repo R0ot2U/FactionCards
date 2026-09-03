@@ -1,7 +1,7 @@
 {
   "faction": "Chaos Space Marines",
   "slug": "chaos_space_marines",
-  "as_of": "2026-09-01",
+  "as_of": "2026-09-03",
   "window_days": 14,
   "event_type": "team",
   "lists": 24,
@@ -9,7 +9,7 @@
   "play_rate": 4.7,
   "win_rate": 41.6,
   "trend_delta": 2.8,
-  "top_detachment": "Cabal Of Chaos + Fellhammer Siege-Host",
+  "top_detachment": "Creations Of Bile",
   "ci_lower": 33.5,
   "meta_health": "strongly_under",
   "x0_pct": 8.3,
@@ -24,6 +24,25 @@
     "games": 76
   },
   "detachments": [
+    {
+      "detachment": "Creations Of Bile",
+      "base_archetype": "Chaos Space Marines \u2014 Creations Of Bile",
+      "lists": 7,
+      "games": 39,
+      "play_rate": 29.2,
+      "win_rate": 53.8,
+      "x0_pct": 28.6,
+      "x1_pct": 0.0,
+      "tournament_wins": 1,
+      "first_turn": {
+        "win_rate": 56.2,
+        "games": 16
+      },
+      "second_turn": {
+        "win_rate": 52.2,
+        "games": 23
+      }
+    },
     {
       "detachment": "Cabal Of Chaos + Fellhammer Siege-Host",
       "base_archetype": "Chaos Space Marines \u2014 Cabal Of Chaos + Fellhammer Siege-Host",
@@ -44,25 +63,6 @@
       }
     },
     {
-      "detachment": "Creations of Bile",
-      "base_archetype": "Chaos Space Marines \u2014 Creations of Bile",
-      "lists": 4,
-      "games": 24,
-      "play_rate": 16.7,
-      "win_rate": 54.2,
-      "x0_pct": 25.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 1,
-      "first_turn": {
-        "win_rate": null,
-        "games": 0
-      },
-      "second_turn": {
-        "win_rate": null,
-        "games": 0
-      }
-    },
-    {
       "detachment": "Huron's Marauders",
       "base_archetype": "Chaos Space Marines \u2014 Huron's Marauders",
       "lists": 3,
@@ -79,25 +79,6 @@
       "second_turn": {
         "win_rate": 50.0,
         "games": 10
-      }
-    },
-    {
-      "detachment": "Creations Of Bile",
-      "base_archetype": "Chaos Space Marines \u2014 Creations Of Bile",
-      "lists": 3,
-      "games": 15,
-      "play_rate": 12.5,
-      "win_rate": 53.3,
-      "x0_pct": 33.3,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 56.2,
-        "games": 16
-      },
-      "second_turn": {
-        "win_rate": 52.2,
-        "games": 23
       }
     },
     {
@@ -174,6 +155,25 @@
       "second_turn": {
         "win_rate": 50.0,
         "games": 1
+      }
+    },
+    {
+      "detachment": "No Detachment",
+      "base_archetype": "Chaos Space Marines \u2014 No Detachment",
+      "lists": 1,
+      "games": 6,
+      "play_rate": 4.2,
+      "win_rate": 16.7,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
       }
     },
     {
@@ -578,7 +578,7 @@
   "top_players": [
     {
       "player_name": "Kody Drake",
-      "detachment": "Creations of Bile",
+      "detachment": "Creations Of Bile",
       "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/81clUIeCjUbE",
       "source": "bcp",
@@ -602,7 +602,7 @@
     },
     {
       "player_name": "Dylan Wheat",
-      "detachment": "Creations of Bile",
+      "detachment": "Creations Of Bile",
       "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/SewQ4vnCbGdR",
       "source": "bcp",
@@ -710,7 +710,7 @@
     },
     {
       "player_name": "justin alford",
-      "detachment": "Creations of Bile",
+      "detachment": "Creations Of Bile",
       "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/lzDQeeKqoXWg",
       "source": "bcp",
@@ -794,7 +794,7 @@
     },
     {
       "player_name": "Casey Millar",
-      "detachment": "",
+      "detachment": "No Detachment",
       "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/YuqavDVk5DgO",
       "source": "bcp",

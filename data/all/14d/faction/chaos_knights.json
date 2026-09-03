@@ -1,7 +1,7 @@
 {
   "faction": "Chaos Knights",
   "slug": "chaos_knights",
-  "as_of": "2026-09-01",
+  "as_of": "2026-09-03",
   "window_days": 14,
   "event_type": "all",
   "lists": 58,
@@ -120,6 +120,25 @@
       }
     },
     {
+      "detachment": "No Detachment",
+      "base_archetype": "Chaos Knights \u2014 No Detachment",
+      "lists": 4,
+      "games": 25,
+      "play_rate": 6.9,
+      "win_rate": 52.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
+    },
+    {
       "detachment": "Hunting Warpack + Traitoris Lance",
       "base_archetype": "Chaos Knights \u2014 Hunting Warpack + Traitoris Lance",
       "lists": 3,
@@ -196,6 +215,25 @@
       }
     },
     {
+      "detachment": "Iconoclast Fiefdom + Lords Of Dread",
+      "base_archetype": "Chaos Knights \u2014 Iconoclast Fiefdom + Lords Of Dread",
+      "lists": 3,
+      "games": 15,
+      "play_rate": 5.2,
+      "win_rate": 33.3,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 25.0,
+        "games": 8
+      },
+      "second_turn": {
+        "win_rate": 42.9,
+        "games": 7
+      }
+    },
+    {
       "detachment": "Bastions Of Tyranny + Traitoris Lance",
       "base_archetype": "Chaos Knights \u2014 Bastions Of Tyranny + Traitoris Lance",
       "lists": 2,
@@ -212,25 +250,6 @@
       "second_turn": {
         "win_rate": 18.8,
         "games": 8
-      }
-    },
-    {
-      "detachment": "Iconoclast Fiefdom + Lords Of Dread",
-      "base_archetype": "Chaos Knights \u2014 Iconoclast Fiefdom + Lords Of Dread",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 3.4,
-      "win_rate": 30.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 25.0,
-        "games": 8
-      },
-      "second_turn": {
-        "win_rate": 42.9,
-        "games": 7
       }
     },
     {
@@ -269,25 +288,6 @@
       "second_turn": {
         "win_rate": 50.0,
         "games": 4
-      }
-    },
-    {
-      "detachment": "Lords of Dread",
-      "base_archetype": "Chaos Knights \u2014 Lords of Dread",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 1.7,
-      "win_rate": 40.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": null,
-        "games": 0
-      },
-      "second_turn": {
-        "win_rate": null,
-        "games": 0
       }
     },
     {
@@ -400,30 +400,30 @@
   "disposition_matchups": [
     {
       "opponent_disposition": "Priority Assets",
-      "games": 81,
-      "wins": 33,
-      "win_rate": 40.7,
+      "games": 82,
+      "wins": 34,
+      "win_rate": 41.5,
       "first_turn": {
         "win_rate": 37.8,
         "games": 37
       },
       "second_turn": {
-        "win_rate": 43.2,
-        "games": 44
+        "win_rate": 44.4,
+        "games": 45
       }
     },
     {
       "opponent_disposition": "Take and Hold",
-      "games": 75,
-      "wins": 26,
-      "win_rate": 34.7,
+      "games": 76,
+      "wins": 27,
+      "win_rate": 35.5,
       "first_turn": {
         "win_rate": 35.9,
         "games": 32
       },
       "second_turn": {
-        "win_rate": 33.7,
-        "games": 43
+        "win_rate": 35.2,
+        "games": 44
       }
     },
     {
@@ -456,35 +456,20 @@
     },
     {
       "opponent_disposition": "Disruption",
-      "games": 27,
-      "wins": 15,
-      "win_rate": 57.4,
+      "games": 25,
+      "wins": 13,
+      "win_rate": 54.0,
       "first_turn": {
         "win_rate": 59.4,
         "games": 16
       },
       "second_turn": {
-        "win_rate": 54.5,
-        "games": 11
+        "win_rate": 44.4,
+        "games": 9
       }
     }
   ],
   "disposition_cross": [
-    {
-      "disposition": "Disruption",
-      "opponent_disposition": "Disruption",
-      "games": 8,
-      "wins": 5,
-      "win_rate": 62.5,
-      "first_turn": {
-        "win_rate": 62.5,
-        "games": 4
-      },
-      "second_turn": {
-        "win_rate": 62.5,
-        "games": 4
-      }
-    },
     {
       "disposition": "Disruption",
       "opponent_disposition": "Purge the Foe",
@@ -502,17 +487,32 @@
     },
     {
       "disposition": "Disruption",
+      "opponent_disposition": "Disruption",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 57.1,
+      "first_turn": {
+        "win_rate": 62.5,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 3
+      }
+    },
+    {
+      "disposition": "Disruption",
       "opponent_disposition": "Take and Hold",
-      "games": 5,
-      "wins": 1,
-      "win_rate": 30.0,
+      "games": 6,
+      "wins": 2,
+      "win_rate": 41.7,
       "first_turn": {
         "win_rate": 75.0,
         "games": 2
       },
       "second_turn": {
-        "win_rate": 0.0,
-        "games": 3
+        "win_rate": 25.0,
+        "games": 4
       }
     },
     {
@@ -683,16 +683,16 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Priority Assets",
-      "games": 31,
-      "wins": 11,
-      "win_rate": 37.1,
+      "games": 32,
+      "wins": 12,
+      "win_rate": 39.1,
       "first_turn": {
         "win_rate": 35.3,
         "games": 17
       },
       "second_turn": {
-        "win_rate": 39.3,
-        "games": 14
+        "win_rate": 43.3,
+        "games": 15
       }
     },
     {
@@ -743,16 +743,16 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Disruption",
-      "games": 8,
-      "wins": 4,
-      "win_rate": 56.2,
+      "games": 7,
+      "wins": 3,
+      "win_rate": 50.0,
       "first_turn": {
         "win_rate": 50.0,
         "games": 4
       },
       "second_turn": {
-        "win_rate": 62.5,
-        "games": 4
+        "win_rate": 50.0,
+        "games": 3
       }
     }
   ],
@@ -795,7 +795,7 @@
     },
     {
       "player_name": "Javier Tola",
-      "detachment": "",
+      "detachment": "No Detachment",
       "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/L8n70rThyk4M",
       "source": "bcp",
@@ -903,7 +903,7 @@
     },
     {
       "player_name": "John Shaw",
-      "detachment": "",
+      "detachment": "No Detachment",
       "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/wSQnIdxJUp98",
       "source": "bcp",
@@ -951,7 +951,7 @@
     },
     {
       "player_name": "El puto Capi",
-      "detachment": "",
+      "detachment": "No Detachment",
       "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/yaD5PwEDB6eL",
       "source": "bcp",

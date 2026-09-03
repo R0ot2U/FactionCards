@@ -1,14 +1,14 @@
 {
   "faction": "Death Guard",
   "slug": "death_guard",
-  "as_of": "2026-09-01",
+  "as_of": "2026-09-03",
   "window_days": 30,
   "event_type": "solo",
   "lists": 126,
   "games": 677,
   "play_rate": 3.5,
   "win_rate": 46.4,
-  "trend_delta": 3.2,
+  "trend_delta": 4.5,
   "top_detachment": "Virulent Vectorium",
   "ci_lower": 42.7,
   "meta_health": "strongly_under",
@@ -44,6 +44,25 @@
       }
     },
     {
+      "detachment": "Death Lord's Chosen + Paragons Of Putrescence",
+      "base_archetype": "Death Guard \u2014 Death Lord's Chosen + Paragons Of Putrescence",
+      "lists": 17,
+      "games": 91,
+      "play_rate": 13.5,
+      "win_rate": 45.6,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 46.6,
+        "games": 44
+      },
+      "second_turn": {
+        "win_rate": 44.7,
+        "games": 47
+      }
+    },
+    {
       "detachment": "Champions Of Contagion + Paragons Of Putrescence",
       "base_archetype": "Death Guard \u2014 Champions Of Contagion + Paragons Of Putrescence",
       "lists": 17,
@@ -60,25 +79,6 @@
       "second_turn": {
         "win_rate": 39.7,
         "games": 39
-      }
-    },
-    {
-      "detachment": "Death Lord's Chosen + Paragons Of Putrescence",
-      "base_archetype": "Death Guard \u2014 Death Lord's Chosen + Paragons Of Putrescence",
-      "lists": 16,
-      "games": 89,
-      "play_rate": 12.7,
-      "win_rate": 45.5,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 46.6,
-        "games": 44
-      },
-      "second_turn": {
-        "win_rate": 44.7,
-        "games": 47
       }
     },
     {
@@ -179,9 +179,9 @@
     {
       "detachment": "Death Lord's Chosen",
       "base_archetype": "Death Guard \u2014 Death Lord's Chosen",
-      "lists": 4,
-      "games": 17,
-      "play_rate": 3.2,
+      "lists": 3,
+      "games": 15,
+      "play_rate": 2.4,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -250,6 +250,25 @@
       "second_turn": {
         "win_rate": 42.9,
         "games": 7
+      }
+    },
+    {
+      "detachment": "No Detachment",
+      "base_archetype": "Death Guard \u2014 No Detachment",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 1.6,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
       }
     },
     {
@@ -345,25 +364,6 @@
       "second_turn": {
         "win_rate": 33.3,
         "games": 3
-      }
-    },
-    {
-      "detachment": "No Detachment",
-      "base_archetype": "Death Guard \u2014 No Detachment",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 0.8,
-      "win_rate": 20.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": null,
-        "games": 0
-      },
-      "second_turn": {
-        "win_rate": null,
-        "games": 0
       }
     }
   ],
@@ -471,16 +471,16 @@
     },
     {
       "opponent_disposition": "Priority Assets",
-      "games": 178,
-      "wins": 82,
-      "win_rate": 46.1,
+      "games": 179,
+      "wins": 83,
+      "win_rate": 46.4,
       "first_turn": {
         "win_rate": 51.3,
         "games": 79
       },
       "second_turn": {
-        "win_rate": 41.9,
-        "games": 99
+        "win_rate": 42.5,
+        "games": 100
       }
     },
     {
@@ -513,16 +513,16 @@
     },
     {
       "opponent_disposition": "Disruption",
-      "games": 39,
-      "wins": 16,
-      "win_rate": 42.3,
+      "games": 38,
+      "wins": 15,
+      "win_rate": 40.8,
       "first_turn": {
         "win_rate": 45.0,
         "games": 20
       },
       "second_turn": {
-        "win_rate": 39.5,
-        "games": 19
+        "win_rate": 36.1,
+        "games": 18
       }
     }
   ],
@@ -800,16 +800,16 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Priority Assets",
-      "games": 74,
-      "wins": 33,
-      "win_rate": 44.6,
+      "games": 75,
+      "wins": 34,
+      "win_rate": 45.3,
       "first_turn": {
         "win_rate": 54.5,
         "games": 33
       },
       "second_turn": {
-        "win_rate": 36.6,
-        "games": 41
+        "win_rate": 38.1,
+        "games": 42
       }
     },
     {
@@ -845,16 +845,16 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Disruption",
-      "games": 14,
-      "wins": 6,
-      "win_rate": 42.9,
+      "games": 13,
+      "wins": 5,
+      "win_rate": 38.5,
       "first_turn": {
         "win_rate": 50.0,
         "games": 6
       },
       "second_turn": {
-        "win_rate": 37.5,
-        "games": 8
+        "win_rate": 28.6,
+        "games": 7
       }
     }
   ],

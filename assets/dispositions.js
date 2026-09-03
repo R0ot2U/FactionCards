@@ -50,7 +50,7 @@ async function loadData(eventType, window) {
     if (currentDataslateEra !== "all") {
       try {
         allData = await fetchJSON(`${root}/dispositions.json`);
-        setStatus(`No ${currentDataslateEra === "launch" ? "launch-era" : "dataslate-1"} data for this window yet — showing all eras.`, false);
+        setStatus(`No ${eraLabel(currentDataslateEra)} data for this window yet — showing all eras.`, false);
         return true;
       } catch (_) { /* fall through to error below */ }
     }
@@ -466,7 +466,7 @@ function render() {
 function syncHeaderMeta() {
   const wl = document.getElementById("window-label");
   if (wl && manifest.window_days) {
-    wl.textContent = `${manifest.window_days}-day window · as of ${manifest.as_of}`;
+    wl.textContent = `${windowLabel(manifest.window_days)} · as of ${manifest.as_of}`;
   }
   const bi = document.getElementById("build-info");
   if (bi && manifest.total_tournaments != null) {

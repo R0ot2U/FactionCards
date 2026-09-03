@@ -1,7 +1,7 @@
 {
   "faction": "Space Marines (Astartes)",
   "slug": "space_marines_astartes",
-  "as_of": "2026-09-01",
+  "as_of": "2026-09-03",
   "window_days": 14,
   "event_type": "team",
   "lists": 30,
@@ -9,7 +9,7 @@
   "play_rate": 5.9,
   "win_rate": 39.6,
   "trend_delta": -11.8,
-  "top_detachment": "Forgefather's Seekers + Librarius Conclave",
+  "top_detachment": "Blade Of Ultramar",
   "ci_lower": 32.6,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
@@ -24,6 +24,25 @@
     "games": 89
   },
   "detachments": [
+    {
+      "detachment": "Blade Of Ultramar",
+      "base_archetype": "Space Marines (Astartes) \u2014 Blade Of Ultramar",
+      "lists": 5,
+      "games": 28,
+      "play_rate": 16.7,
+      "win_rate": 41.1,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 68.8,
+        "games": 16
+      },
+      "second_turn": {
+        "win_rate": 4.2,
+        "games": 12
+      }
+    },
     {
       "detachment": "Forgefather's Seekers + Librarius Conclave",
       "base_archetype": "Space Marines (Astartes) \u2014 Forgefather's Seekers + Librarius Conclave",
@@ -60,25 +79,6 @@
       "second_turn": {
         "win_rate": 26.9,
         "games": 13
-      }
-    },
-    {
-      "detachment": "Blade of Ultramar",
-      "base_archetype": "Space Marines (Astartes) \u2014 Blade of Ultramar",
-      "lists": 4,
-      "games": 24,
-      "play_rate": 13.3,
-      "win_rate": 33.3,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": null,
-        "games": 0
-      },
-      "second_turn": {
-        "win_rate": null,
-        "games": 0
       }
     },
     {
@@ -120,22 +120,22 @@
       }
     },
     {
-      "detachment": "Blade Of Ultramar",
-      "base_archetype": "Space Marines (Astartes) \u2014 Blade Of Ultramar",
+      "detachment": "Hammer Of Avernii + Librarius Conclave",
+      "base_archetype": "Space Marines (Astartes) \u2014 Hammer Of Avernii + Librarius Conclave",
       "lists": 2,
-      "games": 10,
+      "games": 11,
       "play_rate": 6.7,
-      "win_rate": 55.0,
+      "win_rate": 54.5,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 68.8,
-        "games": 16
+        "win_rate": 0.0,
+        "games": 1
       },
       "second_turn": {
-        "win_rate": 4.2,
-        "games": 12
+        "win_rate": 60.0,
+        "games": 10
       }
     },
     {
@@ -196,25 +196,6 @@
       }
     },
     {
-      "detachment": "Hammer of Avernii",
-      "base_archetype": "Space Marines (Astartes) \u2014 Hammer of Avernii",
-      "lists": 1,
-      "games": 6,
-      "play_rate": 3.3,
-      "win_rate": 66.7,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": null,
-        "games": 0
-      },
-      "second_turn": {
-        "win_rate": null,
-        "games": 0
-      }
-    },
-    {
       "detachment": "Anvil Siege Force + Librarius Conclave",
       "base_archetype": "Space Marines (Astartes) \u2014 Anvil Siege Force + Librarius Conclave",
       "lists": 1,
@@ -253,6 +234,25 @@
       }
     },
     {
+      "detachment": "Blades of Ultramar",
+      "base_archetype": "Space Marines (Astartes) \u2014 Blades of Ultramar",
+      "lists": 1,
+      "games": 6,
+      "play_rate": 3.3,
+      "win_rate": 33.3,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      }
+    },
+    {
       "detachment": "Bastion Task Force + Subversion Assets",
       "base_archetype": "Space Marines (Astartes) \u2014 Bastion Task Force + Subversion Assets",
       "lists": 1,
@@ -288,25 +288,6 @@
       "second_turn": {
         "win_rate": 0.0,
         "games": 1
-      }
-    },
-    {
-      "detachment": "Hammer Of Avernii + Librarius Conclave",
-      "base_archetype": "Space Marines (Astartes) \u2014 Hammer Of Avernii + Librarius Conclave",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 3.3,
-      "win_rate": 40.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 1
-      },
-      "second_turn": {
-        "win_rate": 60.0,
-        "games": 10
       }
     },
     {
@@ -730,7 +711,7 @@
     },
     {
       "player_name": "Jake Nagy",
-      "detachment": "Blade of Ultramar",
+      "detachment": "Blade Of Ultramar",
       "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/N7za5gM8Ds57",
       "source": "bcp",
@@ -766,7 +747,7 @@
     },
     {
       "player_name": "Sam Cooper",
-      "detachment": "Hammer of Avernii",
+      "detachment": "Hammer Of Avernii + Librarius Conclave",
       "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/unh2hb3SGnV2",
       "source": "bcp",
@@ -922,7 +903,7 @@
     },
     {
       "player_name": "josh hoffman",
-      "detachment": "Blade of Ultramar",
+      "detachment": "Blades of Ultramar",
       "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/ho6OZIBeLkNe",
       "source": "bcp",

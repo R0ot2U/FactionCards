@@ -1,14 +1,14 @@
 {
   "faction": "Aeldari",
   "slug": "aeldari",
-  "as_of": "2026-09-01",
+  "as_of": "2026-09-03",
   "window_days": 30,
   "event_type": "solo",
   "lists": 101,
   "games": 539,
   "play_rate": 2.8,
   "win_rate": 48.4,
-  "trend_delta": 3.2,
+  "trend_delta": 3.3,
   "top_detachment": "Armoured Warhost + Seer Council",
   "ci_lower": 44.2,
   "meta_health": "strongly_under",
@@ -272,6 +272,25 @@
       }
     },
     {
+      "detachment": "No Detachment",
+      "base_archetype": "Aeldari \u2014 No Detachment",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 2.0,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
+    },
+    {
       "detachment": "Seer Council + Twilight Flickers",
       "base_archetype": "Aeldari \u2014 Seer Council + Twilight Flickers",
       "lists": 2,
@@ -425,36 +444,19 @@
     },
     {
       "disposition": "Priority Assets",
-      "lists": 18,
-      "play_rate": 17.8,
-      "win_rate": 52.4,
-      "x0_pct": 5.6,
-      "x1_pct": 16.7,
-      "games": 105.0,
+      "lists": 19,
+      "play_rate": 18.8,
+      "win_rate": 52.3,
+      "x0_pct": 5.3,
+      "x1_pct": 15.8,
+      "games": 110.0,
       "first_turn": {
-        "win_rate": 47.1,
-        "games": 51
-      },
-      "second_turn": {
-        "win_rate": 57.4,
+        "win_rate": 45.4,
         "games": 54
-      }
-    },
-    {
-      "disposition": "Disruption",
-      "lists": 16,
-      "play_rate": 15.8,
-      "win_rate": 48.9,
-      "x0_pct": 6.2,
-      "x1_pct": 0.0,
-      "games": 89.0,
-      "first_turn": {
-        "win_rate": 47.3,
-        "games": 37
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 52
+        "win_rate": 58.9,
+        "games": 56
       }
     },
     {
@@ -472,6 +474,23 @@
       "second_turn": {
         "win_rate": 52.2,
         "games": 45
+      }
+    },
+    {
+      "disposition": "Disruption",
+      "lists": 15,
+      "play_rate": 14.9,
+      "win_rate": 48.8,
+      "x0_pct": 6.7,
+      "x1_pct": 0.0,
+      "games": 84.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 34
+      },
+      "second_turn": {
+        "win_rate": 48.0,
+        "games": 50
       }
     },
     {
@@ -509,16 +528,16 @@
     },
     {
       "opponent_disposition": "Priority Assets",
-      "games": 158,
+      "games": 159,
       "wins": 78,
-      "win_rate": 49.7,
+      "win_rate": 49.4,
       "first_turn": {
         "win_rate": 50.0,
         "games": 68
       },
       "second_turn": {
-        "win_rate": 49.4,
-        "games": 90
+        "win_rate": 48.9,
+        "games": 91
       }
     },
     {
@@ -551,16 +570,16 @@
     },
     {
       "opponent_disposition": "Disruption",
-      "games": 47,
+      "games": 46,
       "wins": 24,
-      "win_rate": 51.1,
+      "win_rate": 52.2,
       "first_turn": {
         "win_rate": 54.3,
         "games": 23
       },
       "second_turn": {
-        "win_rate": 47.9,
-        "games": 24
+        "win_rate": 50.0,
+        "games": 23
       }
     }
   ],
@@ -568,27 +587,27 @@
     {
       "disposition": "Disruption",
       "opponent_disposition": "Priority Assets",
-      "games": 31,
-      "wins": 15,
-      "win_rate": 48.4,
+      "games": 29,
+      "wins": 14,
+      "win_rate": 48.3,
       "first_turn": {
-        "win_rate": 30.8,
-        "games": 13
+        "win_rate": 33.3,
+        "games": 12
       },
       "second_turn": {
-        "win_rate": 61.1,
-        "games": 18
+        "win_rate": 58.8,
+        "games": 17
       }
     },
     {
       "disposition": "Disruption",
       "opponent_disposition": "Take and Hold",
-      "games": 22,
+      "games": 20,
       "wins": 7,
-      "win_rate": 34.1,
+      "win_rate": 35.0,
       "first_turn": {
-        "win_rate": 38.9,
-        "games": 9
+        "win_rate": 42.9,
+        "games": 7
       },
       "second_turn": {
         "win_rate": 30.8,
@@ -613,16 +632,16 @@
     {
       "disposition": "Disruption",
       "opponent_disposition": "Purge the Foe",
-      "games": 14,
-      "wins": 10,
-      "win_rate": 71.4,
+      "games": 13,
+      "wins": 9,
+      "win_rate": 69.2,
       "first_turn": {
         "win_rate": 75.0,
         "games": 4
       },
       "second_turn": {
-        "win_rate": 70.0,
-        "games": 10
+        "win_rate": 66.7,
+        "games": 9
       }
     },
     {
@@ -643,12 +662,12 @@
     {
       "disposition": "Priority Assets",
       "opponent_disposition": "Take and Hold",
-      "games": 42,
-      "wins": 24,
-      "win_rate": 58.3,
+      "games": 44,
+      "wins": 25,
+      "win_rate": 56.8,
       "first_turn": {
-        "win_rate": 52.1,
-        "games": 24
+        "win_rate": 50.0,
+        "games": 26
       },
       "second_turn": {
         "win_rate": 66.7,
@@ -658,12 +677,12 @@
     {
       "disposition": "Priority Assets",
       "opponent_disposition": "Priority Assets",
-      "games": 24,
+      "games": 25,
       "wins": 13,
-      "win_rate": 56.2,
+      "win_rate": 54.0,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 9
+        "win_rate": 45.0,
+        "games": 10
       },
       "second_turn": {
         "win_rate": 60.0,
@@ -673,31 +692,31 @@
     {
       "disposition": "Priority Assets",
       "opponent_disposition": "Purge the Foe",
-      "games": 15,
-      "wins": 8,
-      "win_rate": 53.3,
+      "games": 16,
+      "wins": 9,
+      "win_rate": 56.2,
       "first_turn": {
         "win_rate": 83.3,
         "games": 6
       },
       "second_turn": {
-        "win_rate": 33.3,
-        "games": 9
+        "win_rate": 40.0,
+        "games": 10
       }
     },
     {
       "disposition": "Priority Assets",
       "opponent_disposition": "Disruption",
-      "games": 13,
+      "games": 12,
       "wins": 5,
-      "win_rate": 38.5,
+      "win_rate": 41.7,
       "first_turn": {
         "win_rate": 20.0,
         "games": 5
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 8
+        "win_rate": 57.1,
+        "games": 7
       }
     },
     {

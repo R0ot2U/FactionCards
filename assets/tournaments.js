@@ -254,7 +254,7 @@ async function init() {
 
   // Header meta
   document.getElementById("window-label").textContent =
-    `Tournaments · ${manifest.window_days}-day window · as of ${manifest.as_of}`;
+    `Tournaments · ${windowLabel(manifest.window_days)} · as of ${manifest.as_of}`;
   document.getElementById("build-info").textContent =
     `${manifest.total_tournaments.toLocaleString()} tournaments · ${manifest.total_lists.toLocaleString()} players · ${manifest.total_games.toLocaleString()} games`;
 
@@ -269,8 +269,8 @@ async function init() {
     b.classList.toggle("active", b.dataset.val === currentDataslateEra);
   });
 
-  // Filter map data to match current window
-  const tournamentIds = new Set(allTournaments.map(t => t.event_id));
+  // Filter map data to match current window + era filter
+  const tournamentIds = new Set(filteredTournaments().map(t => t.event_id));
   const filteredMapData = mapData.filter(e => tournamentIds.has(e.event_id));
 
   renderTable();
@@ -301,8 +301,8 @@ async function init() {
       expandedRows.clear(); // Reset expanded state
       await loadData(currentEventType, currentWindow);
 
-      // Filter map data to match current window
-      const tournamentIds = new Set(allTournaments.map(t => t.event_id));
+      // Filter map data to match current window + era filter
+      const tournamentIds = new Set(filteredTournaments().map(t => t.event_id));
       const filteredMapData = mapData.filter(e => tournamentIds.has(e.event_id));
 
       renderTable();
@@ -311,7 +311,7 @@ async function init() {
 
       // Update header stats
       document.getElementById("window-label").textContent =
-        `Tournaments · ${manifest.window_days}-day window · as of ${manifest.as_of}`;
+        `Tournaments · ${windowLabel(manifest.window_days)} · as of ${manifest.as_of}`;
       document.getElementById("build-info").textContent =
         `${manifest.total_tournaments.toLocaleString()} tournaments · ${manifest.total_lists.toLocaleString()} players · ${manifest.total_games.toLocaleString()} games`;
     });
@@ -335,8 +335,8 @@ async function init() {
       expandedRows.clear(); // Reset expanded state
       await loadData(currentEventType, currentWindow);
 
-      // Filter map data to match current window
-      const tournamentIds = new Set(allTournaments.map(t => t.event_id));
+      // Filter map data to match current window + era filter
+      const tournamentIds = new Set(filteredTournaments().map(t => t.event_id));
       const filteredMapData = mapData.filter(e => tournamentIds.has(e.event_id));
 
       renderTable();
@@ -345,7 +345,7 @@ async function init() {
 
       // Update header stats
       document.getElementById("window-label").textContent =
-        `Tournaments · ${manifest.window_days}-day window · as of ${manifest.as_of}`;
+        `Tournaments · ${windowLabel(manifest.window_days)} · as of ${manifest.as_of}`;
       document.getElementById("build-info").textContent =
         `${manifest.total_tournaments.toLocaleString()} tournaments · ${manifest.total_lists.toLocaleString()} players · ${manifest.total_games.toLocaleString()} games`;
     });
@@ -467,9 +467,7 @@ function renderTable() {
       : r.event_name;
 
     // Dataslate era badge
-    const eraBadge = r.dataslate_era === "2026-07-22"
-      ? `<span style="display:inline-block;background:var(--accent);color:var(--bg);font-size:0.65rem;padding:0.15rem 0.35rem;border-radius:3px;margin-left:0.5rem;font-weight:600;vertical-align:middle;" title="First Dataslate (2026-07-22+)">DS1</span>`
-      : "";
+    const eraBadge = eraBadgeHtml(r.dataslate_era);
 
     htmlRows.push(`
       <tr class="tournament-row" style="cursor:pointer;">

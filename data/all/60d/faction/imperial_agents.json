@@ -1,36 +1,36 @@
 {
   "faction": "Imperial Agents",
   "slug": "imperial_agents",
-  "as_of": "2026-09-01",
+  "as_of": "2026-09-03",
   "window_days": 60,
   "event_type": "all",
-  "lists": 35,
-  "games": 211,
+  "lists": 34,
+  "games": 206,
   "play_rate": 0.3,
-  "win_rate": 45.5,
-  "trend_delta": 0.5,
+  "win_rate": 44.7,
+  "trend_delta": 2.2,
   "top_detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
-  "ci_lower": 38.9,
+  "ci_lower": 38.0,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 5.7,
+  "x1_pct": 2.9,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 42.4,
-    "games": 85
+    "win_rate": 40.7,
+    "games": 81
   },
   "second_turn": {
-    "win_rate": 40.2,
-    "games": 102
+    "win_rate": 39.6,
+    "games": 101
   },
   "detachments": [
     {
       "detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
       "base_archetype": "Imperial Agents \u2014 Imperialis Fleet + Veiled Blade Elimination Force",
       "lists": 22,
-      "games": 159,
-      "play_rate": 62.9,
-      "win_rate": 45.9,
+      "games": 154,
+      "play_rate": 64.7,
+      "win_rate": 44.8,
       "x0_pct": 0.0,
       "x1_pct": 4.5,
       "tournament_wins": 0,
@@ -46,20 +46,20 @@
     {
       "detachment": "Imperialis Fleet",
       "base_archetype": "Imperial Agents \u2014 Imperialis Fleet",
-      "lists": 7,
+      "lists": 6,
       "games": 16,
-      "play_rate": 20.0,
+      "play_rate": 17.6,
       "win_rate": 50.0,
       "x0_pct": 0.0,
-      "x1_pct": 16.7,
+      "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 58.8,
-        "games": 17
+        "win_rate": 53.8,
+        "games": 13
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 14
+        "win_rate": 46.2,
+        "games": 13
       }
     },
     {
@@ -67,7 +67,7 @@
       "base_archetype": "Imperial Agents \u2014 Veiled Blade Elimination Force",
       "lists": 2,
       "games": 5,
-      "play_rate": 5.7,
+      "play_rate": 5.9,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -162,7 +162,7 @@
     {
       "disposition": "Reconnaissance",
       "lists": 21,
-      "play_rate": 60.0,
+      "play_rate": 61.8,
       "win_rate": 41.4,
       "x0_pct": 0.0,
       "x1_pct": 4.8,
@@ -178,11 +178,11 @@
     },
     {
       "disposition": "Disruption",
-      "lists": 11,
-      "play_rate": 31.4,
+      "lists": 10,
+      "play_rate": 29.4,
       "win_rate": 36.7,
       "x0_pct": 0.0,
-      "x1_pct": 9.1,
+      "x1_pct": 0.0,
       "games": 49.0,
       "first_turn": {
         "win_rate": 33.3,
@@ -196,7 +196,7 @@
     {
       "disposition": "Take and Hold",
       "lists": 2,
-      "play_rate": 5.7,
+      "play_rate": 5.9,
       "win_rate": 67.9,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -231,16 +231,16 @@
   "disposition_matchups": [
     {
       "opponent_disposition": "Take and Hold",
-      "games": 64,
-      "wins": 34,
-      "win_rate": 53.1,
+      "games": 63,
+      "wins": 33,
+      "win_rate": 52.4,
       "first_turn": {
         "win_rate": 46.2,
         "games": 26
       },
       "second_turn": {
-        "win_rate": 57.9,
-        "games": 38
+        "win_rate": 56.8,
+        "games": 37
       }
     },
     {
@@ -258,31 +258,31 @@
       }
     },
     {
-      "opponent_disposition": "Reconnaissance",
-      "games": 40,
-      "wins": 16,
-      "win_rate": 40.0,
+      "opponent_disposition": "Purge the Foe",
+      "games": 38,
+      "wins": 14,
+      "win_rate": 38.2,
       "first_turn": {
-        "win_rate": 41.2,
-        "games": 17
-      },
-      "second_turn": {
         "win_rate": 39.1,
         "games": 23
+      },
+      "second_turn": {
+        "win_rate": 36.7,
+        "games": 15
       }
     },
     {
-      "opponent_disposition": "Purge the Foe",
-      "games": 39,
-      "wins": 15,
-      "win_rate": 39.7,
+      "opponent_disposition": "Reconnaissance",
+      "games": 37,
+      "wins": 14,
+      "win_rate": 37.8,
       "first_turn": {
-        "win_rate": 39.1,
-        "games": 23
+        "win_rate": 40.0,
+        "games": 15
       },
       "second_turn": {
-        "win_rate": 40.6,
-        "games": 16
+        "win_rate": 36.4,
+        "games": 22
       }
     },
     {
@@ -489,23 +489,11 @@
       "disposition": "Disruption",
       "list_url": "https://www.bestcoastpairings.com/list/TRVXlkXnUjqI",
       "source": "bcp",
-      "wins": 22,
-      "losses": 6,
+      "wins": 18,
+      "losses": 5,
       "draws": 0,
-      "games": 28,
-      "win_rate": 78.6
-    },
-    {
-      "player_name": "Sam Young",
-      "detachment": "Imperialis Fleet",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/0F0TUwA0YASk",
-      "source": "bcp",
-      "wins": 16,
-      "losses": 4,
-      "draws": 1,
-      "games": 21,
-      "win_rate": 78.6
+      "games": 23,
+      "win_rate": 78.3
     },
     {
       "player_name": "Matt Stadnik",
@@ -722,6 +710,18 @@
       "draws": 0,
       "games": 8,
       "win_rate": 25.0
+    },
+    {
+      "player_name": "Lee Brady",
+      "detachment": "No Detachment",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/FIX7dOIrkYC5",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 6,
+      "draws": 0,
+      "games": 8,
+      "win_rate": 25.0
     }
   ],
   "matchups": [
@@ -741,12 +741,12 @@
     },
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 15,
+      "games": 14,
       "wins": 8,
-      "win_rate": 53.3,
+      "win_rate": 57.1,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 6
+        "win_rate": 60.0,
+        "games": 5
       },
       "second_turn": {
         "win_rate": 55.6,
@@ -755,16 +755,16 @@
     },
     {
       "opponent_faction": "Death Guard",
-      "games": 13,
-      "wins": 7,
-      "win_rate": 57.7,
+      "games": 12,
+      "wins": 6,
+      "win_rate": 54.2,
       "first_turn": {
         "win_rate": 66.7,
         "games": 6
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 7
+        "win_rate": 41.7,
+        "games": 6
       }
     },
     {
@@ -881,40 +881,40 @@
     },
     {
       "opponent_faction": "Dark Angels",
-      "games": 10,
-      "wins": 5,
-      "win_rate": 50.0,
+      "games": 9,
+      "wins": 4,
+      "win_rate": 44.4,
       "first_turn": {
         "win_rate": 33.3,
         "games": 3
       },
       "second_turn": {
-        "win_rate": 57.1,
-        "games": 7
+        "win_rate": 50.0,
+        "games": 6
       }
     },
     {
       "opponent_faction": "Leagues of Votann",
-      "games": 9,
-      "wins": 7,
-      "win_rate": 77.8,
+      "games": 8,
+      "wins": 6,
+      "win_rate": 75.0,
       "first_turn": {
         "win_rate": 80.0,
         "games": 5
       },
       "second_turn": {
-        "win_rate": 75.0,
-        "games": 4
+        "win_rate": 66.7,
+        "games": 3
       }
     },
     {
       "opponent_faction": "Aeldari",
-      "games": 9,
-      "wins": 5,
-      "win_rate": 55.6,
+      "games": 8,
+      "wins": 4,
+      "win_rate": 50.0,
       "first_turn": {
-        "win_rate": 66.7,
-        "games": 3
+        "win_rate": 50.0,
+        "games": 2
       },
       "second_turn": {
         "win_rate": 50.0,
@@ -965,22 +965,6 @@
     }
   ],
   "timeline": [
-    {
-      "week": "2026-W26",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 80.0,
-      "total_lists": 682,
-      "play_rate": 0.1,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 100.0,
-        "games": 3
-      }
-    },
     {
       "week": "2026-W27",
       "lists": 2,

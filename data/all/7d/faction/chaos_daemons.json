@@ -1,7 +1,7 @@
 {
   "faction": "Chaos Daemons",
   "slug": "chaos_daemons",
-  "as_of": "2026-09-01",
+  "as_of": "2026-09-03",
   "window_days": 7,
   "event_type": "all",
   "lists": 58,
@@ -196,6 +196,25 @@
       }
     },
     {
+      "detachment": "No Detachment",
+      "base_archetype": "Chaos Daemons \u2014 No Detachment",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 1.7,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
+    },
+    {
       "detachment": "Shadow Legion",
       "base_archetype": "Chaos Daemons \u2014 Shadow Legion",
       "lists": 1,
@@ -343,12 +362,12 @@
   "disposition_matchups": [
     {
       "opponent_disposition": "Priority Assets",
-      "games": 96,
-      "wins": 55,
-      "win_rate": 57.3,
+      "games": 97,
+      "wins": 56,
+      "win_rate": 57.7,
       "first_turn": {
-        "win_rate": 59.2,
-        "games": 49
+        "win_rate": 60.0,
+        "games": 50
       },
       "second_turn": {
         "win_rate": 55.3,
@@ -357,12 +376,12 @@
     },
     {
       "opponent_disposition": "Take and Hold",
-      "games": 65,
-      "wins": 33,
-      "win_rate": 50.8,
+      "games": 66,
+      "wins": 34,
+      "win_rate": 51.5,
       "first_turn": {
-        "win_rate": 63.8,
-        "games": 29
+        "win_rate": 65.0,
+        "games": 30
       },
       "second_turn": {
         "win_rate": 40.3,
@@ -399,12 +418,12 @@
     },
     {
       "opponent_disposition": "Disruption",
-      "games": 32,
-      "wins": 17,
-      "win_rate": 54.7,
+      "games": 30,
+      "wins": 15,
+      "win_rate": 51.7,
       "first_turn": {
-        "win_rate": 64.3,
-        "games": 14
+        "win_rate": 58.3,
+        "games": 12
       },
       "second_turn": {
         "win_rate": 47.2,
@@ -431,15 +450,30 @@
     {
       "disposition": "Disruption",
       "opponent_disposition": "Disruption",
-      "games": 11,
-      "wins": 5,
-      "win_rate": 50.0,
+      "games": 10,
+      "wins": 4,
+      "win_rate": 45.0,
       "first_turn": {
-        "win_rate": 66.7,
-        "games": 6
+        "win_rate": 60.0,
+        "games": 5
       },
       "second_turn": {
         "win_rate": 30.0,
+        "games": 5
+      }
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Take and Hold",
+      "games": 9,
+      "wins": 4,
+      "win_rate": 44.4,
+      "first_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 20.0,
         "games": 5
       }
     },
@@ -459,29 +493,14 @@
       }
     },
     {
-      "disposition": "Disruption",
-      "opponent_disposition": "Take and Hold",
-      "games": 8,
-      "wins": 3,
-      "win_rate": 37.5,
-      "first_turn": {
-        "win_rate": 66.7,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 20.0,
-        "games": 5
-      }
-    },
-    {
       "disposition": "Priority Assets",
       "opponent_disposition": "Priority Assets",
-      "games": 22,
-      "wins": 11,
-      "win_rate": 50.0,
+      "games": 23,
+      "wins": 12,
+      "win_rate": 52.2,
       "first_turn": {
-        "win_rate": 54.5,
-        "games": 11
+        "win_rate": 58.3,
+        "games": 12
       },
       "second_turn": {
         "win_rate": 45.5,

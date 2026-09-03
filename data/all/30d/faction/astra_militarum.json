@@ -1,14 +1,14 @@
 {
   "faction": "Astra Militarum",
   "slug": "astra_militarum",
-  "as_of": "2026-09-01",
+  "as_of": "2026-09-03",
   "window_days": 30,
   "event_type": "all",
   "lists": 163,
   "games": 856,
   "play_rate": 2.9,
   "win_rate": 41.9,
-  "trend_delta": 2.1,
+  "trend_delta": 1.6,
   "top_detachment": "Abhuman Auxiliaries + Steel Hammer",
   "ci_lower": 38.6,
   "meta_health": "strongly_under",
@@ -28,9 +28,9 @@
       "detachment": "Abhuman Auxiliaries + Steel Hammer",
       "base_archetype": "Astra Militarum \u2014 Abhuman Auxiliaries + Steel Hammer",
       "lists": 26,
-      "games": 124,
+      "games": 113,
       "play_rate": 16.0,
-      "win_rate": 35.1,
+      "win_rate": 33.6,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
@@ -255,9 +255,9 @@
     {
       "detachment": "Designation Force + Siege Regiment",
       "base_archetype": "Astra Militarum \u2014 Designation Force + Siege Regiment",
-      "lists": 5,
+      "lists": 6,
       "games": 23,
-      "play_rate": 3.1,
+      "play_rate": 3.7,
       "win_rate": 26.1,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -269,6 +269,25 @@
       "second_turn": {
         "win_rate": 26.5,
         "games": 17
+      }
+    },
+    {
+      "detachment": "No Detachment",
+      "base_archetype": "Astra Militarum \u2014 No Detachment",
+      "lists": 5,
+      "games": 25,
+      "play_rate": 3.1,
+      "win_rate": 34.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
       }
     },
     {
@@ -348,44 +367,6 @@
       }
     },
     {
-      "detachment": "No Detachment",
-      "base_archetype": "Astra Militarum \u2014 No Detachment",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 1.2,
-      "win_rate": 25.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": null,
-        "games": 0
-      },
-      "second_turn": {
-        "win_rate": null,
-        "games": 0
-      }
-    },
-    {
-      "detachment": "Siege Regiment",
-      "base_archetype": "Astra Militarum \u2014 Siege Regiment",
-      "lists": 2,
-      "games": 6,
-      "play_rate": 1.2,
-      "win_rate": 50.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 60.0,
-        "games": 5
-      },
-      "second_turn": {
-        "win_rate": 0.0,
-        "games": 1
-      }
-    },
-    {
       "detachment": "Armoured Infantry + Designation Force",
       "base_archetype": "Astra Militarum \u2014 Armoured Infantry + Designation Force",
       "lists": 1,
@@ -402,6 +383,25 @@
       "second_turn": {
         "win_rate": 0.0,
         "games": 2
+      }
+    },
+    {
+      "detachment": "Siege Regiment",
+      "base_archetype": "Astra Militarum \u2014 Siege Regiment",
+      "lists": 1,
+      "games": 6,
+      "play_rate": 0.6,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 60.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 1
       }
     },
     {
@@ -514,12 +514,12 @@
   "disposition_matchups": [
     {
       "opponent_disposition": "Take and Hold",
-      "games": 252,
-      "wins": 94,
-      "win_rate": 37.5,
+      "games": 253,
+      "wins": 95,
+      "win_rate": 37.7,
       "first_turn": {
-        "win_rate": 36.0,
-        "games": 118
+        "win_rate": 36.6,
+        "games": 119
       },
       "second_turn": {
         "win_rate": 38.8,
@@ -570,12 +570,12 @@
     },
     {
       "opponent_disposition": "Disruption",
-      "games": 80,
-      "wins": 35,
-      "win_rate": 43.8,
+      "games": 79,
+      "wins": 34,
+      "win_rate": 43.0,
       "first_turn": {
-        "win_rate": 56.8,
-        "games": 44
+        "win_rate": 55.8,
+        "games": 43
       },
       "second_turn": {
         "win_rate": 27.8,
@@ -872,12 +872,12 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Take and Hold",
-      "games": 62,
-      "wins": 19,
-      "win_rate": 30.6,
+      "games": 63,
+      "wins": 20,
+      "win_rate": 31.7,
       "first_turn": {
-        "win_rate": 20.0,
-        "games": 30
+        "win_rate": 22.6,
+        "games": 31
       },
       "second_turn": {
         "win_rate": 40.6,
@@ -932,12 +932,12 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Disruption",
-      "games": 21,
-      "wins": 10,
-      "win_rate": 47.6,
+      "games": 20,
+      "wins": 9,
+      "win_rate": 45.0,
       "first_turn": {
-        "win_rate": 57.7,
-        "games": 13
+        "win_rate": 54.2,
+        "games": 12
       },
       "second_turn": {
         "win_rate": 31.2,
@@ -1056,7 +1056,7 @@
     },
     {
       "player_name": "Sam Young",
-      "detachment": "Siege Regiment",
+      "detachment": "Designation Force + Siege Regiment",
       "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/cAGOanU0wse2",
       "source": "bcp",

@@ -1,7 +1,7 @@
 {
   "faction": "Chaos Space Marines",
   "slug": "chaos_space_marines",
-  "as_of": "2026-09-01",
+  "as_of": "2026-09-03",
   "window_days": 7,
   "event_type": "all",
   "lists": 57,
@@ -9,7 +9,7 @@
   "play_rate": 4.1,
   "win_rate": 44.3,
   "trend_delta": -4.4,
-  "top_detachment": "Renegade Raiders",
+  "top_detachment": "Creations Of Bile",
   "ci_lower": 38.9,
   "meta_health": "strongly_under",
   "x0_pct": 3.5,
@@ -24,6 +24,25 @@
     "games": 179
   },
   "detachments": [
+    {
+      "detachment": "Creations Of Bile",
+      "base_archetype": "Chaos Space Marines \u2014 Creations Of Bile",
+      "lists": 10,
+      "games": 57,
+      "play_rate": 17.5,
+      "win_rate": 54.4,
+      "x0_pct": 20.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 1,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 24
+      },
+      "second_turn": {
+        "win_rate": 57.6,
+        "games": 33
+      }
+    },
     {
       "detachment": "Renegade Raiders",
       "base_archetype": "Chaos Space Marines \u2014 Renegade Raiders",
@@ -82,25 +101,6 @@
       }
     },
     {
-      "detachment": "Creations of Bile",
-      "base_archetype": "Chaos Space Marines \u2014 Creations of Bile",
-      "lists": 6,
-      "games": 34,
-      "play_rate": 10.5,
-      "win_rate": 55.9,
-      "x0_pct": 16.7,
-      "x1_pct": 0.0,
-      "tournament_wins": 1,
-      "first_turn": {
-        "win_rate": null,
-        "games": 0
-      },
-      "second_turn": {
-        "win_rate": null,
-        "games": 0
-      }
-    },
-    {
       "detachment": "Cabal Of Chaos + Fellhammer Siege-Host",
       "base_archetype": "Chaos Space Marines \u2014 Cabal Of Chaos + Fellhammer Siege-Host",
       "lists": 5,
@@ -136,25 +136,6 @@
       "second_turn": {
         "win_rate": 27.8,
         "games": 9
-      }
-    },
-    {
-      "detachment": "Creations Of Bile",
-      "base_archetype": "Chaos Space Marines \u2014 Creations Of Bile",
-      "lists": 4,
-      "games": 23,
-      "play_rate": 7.0,
-      "win_rate": 52.2,
-      "x0_pct": 25.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 24
-      },
-      "second_turn": {
-        "win_rate": 57.6,
-        "games": 33
       }
     },
     {
@@ -253,8 +234,8 @@
       }
     },
     {
-      "detachment": "Fellhammer Siege-host",
-      "base_archetype": "Chaos Space Marines \u2014 Fellhammer Siege-host",
+      "detachment": "Fellhammer Siege-Host + Murdertalon Raiders",
+      "base_archetype": "Chaos Space Marines \u2014 Fellhammer Siege-Host + Murdertalon Raiders",
       "lists": 1,
       "games": 5,
       "play_rate": 1.8,
@@ -263,12 +244,12 @@
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": null,
-        "games": 0
+        "win_rate": 33.3,
+        "games": 3
       },
       "second_turn": {
-        "win_rate": null,
-        "games": 0
+        "win_rate": 100.0,
+        "games": 2
       }
     },
     {
@@ -307,6 +288,25 @@
       "second_turn": {
         "win_rate": 33.3,
         "games": 3
+      }
+    },
+    {
+      "detachment": "No Detachment",
+      "base_archetype": "Chaos Space Marines \u2014 No Detachment",
+      "lists": 1,
+      "games": 6,
+      "play_rate": 1.8,
+      "win_rate": 16.7,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
       }
     },
     {
@@ -929,7 +929,7 @@
   "top_players": [
     {
       "player_name": "Kody Drake",
-      "detachment": "Creations of Bile",
+      "detachment": "Creations Of Bile",
       "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/81clUIeCjUbE",
       "source": "bcp",
@@ -1001,7 +1001,7 @@
     },
     {
       "player_name": "Dylan Wheat",
-      "detachment": "Creations of Bile",
+      "detachment": "Creations Of Bile",
       "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/SewQ4vnCbGdR",
       "source": "bcp",
@@ -1085,7 +1085,7 @@
     },
     {
       "player_name": "Stefan \"Guwop\"",
-      "detachment": "Fellhammer Siege-host",
+      "detachment": "Fellhammer Siege-Host + Murdertalon Raiders",
       "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/rwIbCmpYh6MD",
       "source": "bcp",
@@ -1109,7 +1109,7 @@
     },
     {
       "player_name": "Finlay Stewart",
-      "detachment": "Creations of Bile",
+      "detachment": "Creations Of Bile",
       "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/1WxT0B5yc14R",
       "source": "bcp",
@@ -1121,7 +1121,7 @@
     },
     {
       "player_name": "Will Gould",
-      "detachment": "Creations of Bile",
+      "detachment": "Creations Of Bile",
       "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/guwDRsjwJLZq",
       "source": "bcp",

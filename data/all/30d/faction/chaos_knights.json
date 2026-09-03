@@ -1,14 +1,14 @@
 {
   "faction": "Chaos Knights",
   "slug": "chaos_knights",
-  "as_of": "2026-09-01",
+  "as_of": "2026-09-03",
   "window_days": 30,
   "event_type": "all",
   "lists": 116,
   "games": 609,
   "play_rate": 2.1,
   "win_rate": 42.1,
-  "trend_delta": 1.5,
+  "trend_delta": 0.5,
   "top_detachment": "Houndpack Lance + Iconoclast Fiefdom",
   "ci_lower": 38.3,
   "meta_health": "strongly_under",
@@ -158,6 +158,25 @@
       }
     },
     {
+      "detachment": "Iconoclast Fiefdom + Lords Of Dread",
+      "base_archetype": "Chaos Knights \u2014 Iconoclast Fiefdom + Lords Of Dread",
+      "lists": 5,
+      "games": 28,
+      "play_rate": 4.3,
+      "win_rate": 39.3,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 29.2,
+        "games": 12
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 13
+      }
+    },
+    {
       "detachment": "Hunting Warpack + Lords Of Dread",
       "base_archetype": "Chaos Knights \u2014 Hunting Warpack + Lords Of Dread",
       "lists": 4,
@@ -177,22 +196,22 @@
       }
     },
     {
-      "detachment": "Iconoclast Fiefdom + Lords Of Dread",
-      "base_archetype": "Chaos Knights \u2014 Iconoclast Fiefdom + Lords Of Dread",
+      "detachment": "No Detachment",
+      "base_archetype": "Chaos Knights \u2014 No Detachment",
       "lists": 4,
-      "games": 23,
+      "games": 25,
       "play_rate": 3.4,
-      "win_rate": 39.1,
+      "win_rate": 52.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 29.2,
-        "games": 12
+        "win_rate": null,
+        "games": 0
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 13
+        "win_rate": null,
+        "games": 0
       }
     },
     {
@@ -348,25 +367,6 @@
       }
     },
     {
-      "detachment": "Lords of Dread",
-      "base_archetype": "Chaos Knights \u2014 Lords of Dread",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 0.9,
-      "win_rate": 40.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": null,
-        "games": 0
-      },
-      "second_turn": {
-        "win_rate": null,
-        "games": 0
-      }
-    },
-    {
       "detachment": "Houndpack Lance 2DP + Iconoclast Fiefdom 1DP",
       "base_archetype": "Chaos Knights \u2014 Houndpack Lance 2DP + Iconoclast Fiefdom 1DP",
       "lists": 1,
@@ -490,16 +490,16 @@
     },
     {
       "opponent_disposition": "Take and Hold",
-      "games": 145,
-      "wins": 56,
-      "win_rate": 39.0,
+      "games": 146,
+      "wins": 57,
+      "win_rate": 39.4,
       "first_turn": {
         "win_rate": 43.1,
         "games": 72
       },
       "second_turn": {
-        "win_rate": 34.9,
-        "games": 73
+        "win_rate": 35.8,
+        "games": 74
       }
     },
     {
@@ -532,16 +532,16 @@
     },
     {
       "opponent_disposition": "Disruption",
-      "games": 62,
-      "wins": 29,
-      "win_rate": 47.6,
+      "games": 61,
+      "wins": 28,
+      "win_rate": 46.7,
       "first_turn": {
         "win_rate": 50.0,
         "games": 32
       },
       "second_turn": {
-        "win_rate": 45.0,
-        "games": 30
+        "win_rate": 43.1,
+        "games": 29
       }
     }
   ],
@@ -549,16 +549,16 @@
     {
       "disposition": "Disruption",
       "opponent_disposition": "Disruption",
-      "games": 14,
-      "wins": 8,
-      "win_rate": 57.1,
+      "games": 13,
+      "wins": 7,
+      "win_rate": 53.8,
       "first_turn": {
         "win_rate": 57.1,
         "games": 7
       },
       "second_turn": {
-        "win_rate": 57.1,
-        "games": 7
+        "win_rate": 50.0,
+        "games": 6
       }
     },
     {
@@ -578,6 +578,21 @@
     },
     {
       "disposition": "Disruption",
+      "opponent_disposition": "Take and Hold",
+      "games": 9,
+      "wins": 5,
+      "win_rate": 61.1,
+      "first_turn": {
+        "win_rate": 87.5,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 40.0,
+        "games": 5
+      }
+    },
+    {
+      "disposition": "Disruption",
       "opponent_disposition": "Purge the Foe",
       "games": 9,
       "wins": 1,
@@ -588,21 +603,6 @@
       },
       "second_turn": {
         "win_rate": 0.0,
-        "games": 4
-      }
-    },
-    {
-      "disposition": "Disruption",
-      "opponent_disposition": "Take and Hold",
-      "games": 8,
-      "wins": 4,
-      "win_rate": 56.2,
-      "first_turn": {
-        "win_rate": 87.5,
-        "games": 4
-      },
-      "second_turn": {
-        "win_rate": 25.0,
         "games": 4
       }
     },
@@ -1009,7 +1009,7 @@
     },
     {
       "player_name": "Javier Tola",
-      "detachment": "",
+      "detachment": "No Detachment",
       "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/L8n70rThyk4M",
       "source": "bcp",
