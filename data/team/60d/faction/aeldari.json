@@ -1,27 +1,27 @@
 {
   "faction": "Aeldari",
   "slug": "aeldari",
-  "as_of": "2026-09-03",
+  "as_of": "2026-09-07",
   "window_days": 60,
   "event_type": "team",
-  "lists": 95,
-  "games": 492,
+  "lists": 96,
+  "games": 497,
   "play_rate": 3.0,
-  "win_rate": 44.3,
-  "trend_delta": 5.3,
+  "win_rate": 44.6,
+  "trend_delta": 5.6,
   "top_detachment": "Armoured Warhost + Seer Council",
-  "ci_lower": 40.0,
+  "ci_lower": 40.3,
   "meta_health": "strongly_under",
-  "x0_pct": 6.3,
-  "x1_pct": 9.5,
+  "x0_pct": 6.2,
+  "x1_pct": 9.4,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 47.6,
-    "games": 251
+    "win_rate": 47.4,
+    "games": 252
   },
   "second_turn": {
-    "win_rate": 42.6,
-    "games": 251
+    "win_rate": 43.3,
+    "games": 255
   },
   "detachments": [
     {
@@ -29,7 +29,7 @@
       "base_archetype": "Aeldari \u2014 Armoured Warhost + Seer Council",
       "lists": 16,
       "games": 74,
-      "play_rate": 16.8,
+      "play_rate": 16.7,
       "win_rate": 35.1,
       "x0_pct": 6.7,
       "x1_pct": 6.7,
@@ -48,7 +48,7 @@
       "base_archetype": "Aeldari \u2014 Path Of The Outcast + Seer Council",
       "lists": 12,
       "games": 60,
-      "play_rate": 12.6,
+      "play_rate": 12.5,
       "win_rate": 40.8,
       "x0_pct": 0.0,
       "x1_pct": 8.3,
@@ -67,7 +67,7 @@
       "base_archetype": "Aeldari \u2014 Aspect Host",
       "lists": 11,
       "games": 64,
-      "play_rate": 11.6,
+      "play_rate": 11.5,
       "win_rate": 40.6,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -86,7 +86,7 @@
       "base_archetype": "Aeldari \u2014 Path Of The Outcast + Windrider Host",
       "lists": 6,
       "games": 30,
-      "play_rate": 6.3,
+      "play_rate": 6.2,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -101,11 +101,30 @@
       }
     },
     {
+      "detachment": "Armoured Warhost + Guardian Battlehost",
+      "base_archetype": "Aeldari \u2014 Armoured Warhost + Guardian Battlehost",
+      "lists": 6,
+      "games": 31,
+      "play_rate": 6.2,
+      "win_rate": 67.7,
+      "x0_pct": 16.7,
+      "x1_pct": 16.7,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 56.2,
+        "games": 16
+      },
+      "second_turn": {
+        "win_rate": 80.0,
+        "games": 15
+      }
+    },
+    {
       "detachment": "Warhost",
       "base_archetype": "Aeldari \u2014 Warhost",
       "lists": 6,
       "games": 32,
-      "play_rate": 6.3,
+      "play_rate": 6.2,
       "win_rate": 57.8,
       "x0_pct": 0.0,
       "x1_pct": 16.7,
@@ -124,7 +143,7 @@
       "base_archetype": "Aeldari \u2014 Armoured Warhost + Serpent's Brood",
       "lists": 6,
       "games": 32,
-      "play_rate": 6.3,
+      "play_rate": 6.2,
       "win_rate": 45.3,
       "x0_pct": 16.7,
       "x1_pct": 0.0,
@@ -139,30 +158,11 @@
       }
     },
     {
-      "detachment": "Armoured Warhost + Guardian Battlehost",
-      "base_archetype": "Aeldari \u2014 Armoured Warhost + Guardian Battlehost",
-      "lists": 5,
-      "games": 26,
-      "play_rate": 5.3,
-      "win_rate": 67.3,
-      "x0_pct": 20.0,
-      "x1_pct": 20.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 60.0,
-        "games": 15
-      },
-      "second_turn": {
-        "win_rate": 77.3,
-        "games": 11
-      }
-    },
-    {
       "detachment": "Armoured Warhost + Windrider Host",
       "base_archetype": "Aeldari \u2014 Armoured Warhost + Windrider Host",
       "lists": 5,
       "games": 25,
-      "play_rate": 5.3,
+      "play_rate": 5.2,
       "win_rate": 26.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -200,7 +200,7 @@
       "base_archetype": "Aeldari \u2014 Corsair Coterie + Path Of The Outcast",
       "lists": 3,
       "games": 19,
-      "play_rate": 3.2,
+      "play_rate": 3.1,
       "win_rate": 26.3,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -219,7 +219,7 @@
       "base_archetype": "Aeldari \u2014 Eldritch Raiders + Path Of The Outcast",
       "lists": 3,
       "games": 10,
-      "play_rate": 3.2,
+      "play_rate": 3.1,
       "win_rate": 60.0,
       "x0_pct": 33.3,
       "x1_pct": 33.3,
@@ -238,7 +238,7 @@
       "base_archetype": "Aeldari \u2014 Path Of The Outcast + Spirit Conclave",
       "lists": 3,
       "games": 15,
-      "play_rate": 3.2,
+      "play_rate": 3.1,
       "win_rate": 43.3,
       "x0_pct": 0.0,
       "x1_pct": 33.3,
@@ -257,7 +257,7 @@
       "base_archetype": "Aeldari \u2014 Eldritch Raiders + Fateful Performance",
       "lists": 3,
       "games": 16,
-      "play_rate": 3.2,
+      "play_rate": 3.1,
       "win_rate": 37.5,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -314,7 +314,7 @@
       "base_archetype": "Aeldari \u2014 Corsair Coterie + Fateful Performance",
       "lists": 1,
       "games": 5,
-      "play_rate": 1.1,
+      "play_rate": 1.0,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -333,7 +333,7 @@
       "base_archetype": "Aeldari \u2014 Spirit Conclave",
       "lists": 1,
       "games": 5,
-      "play_rate": 1.1,
+      "play_rate": 1.0,
       "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -352,7 +352,7 @@
       "base_archetype": "Aeldari \u2014 Armoured Warhost + Devoted Of Ynnead",
       "lists": 1,
       "games": 6,
-      "play_rate": 1.1,
+      "play_rate": 1.0,
       "win_rate": 91.7,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
@@ -371,7 +371,7 @@
       "base_archetype": "Aeldari \u2014 Eldritch Raiders + Twilight Flickers",
       "lists": 1,
       "games": 10,
-      "play_rate": 1.1,
+      "play_rate": 1.0,
       "win_rate": 65.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -390,7 +390,7 @@
       "base_archetype": "Aeldari \u2014 Fateful Performance + Windrider Host",
       "lists": 1,
       "games": 5,
-      "play_rate": 1.1,
+      "play_rate": 1.0,
       "win_rate": 80.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
@@ -409,7 +409,7 @@
       "base_archetype": "Aeldari \u2014 Seer Council + Twilight Flickers",
       "lists": 1,
       "games": 5,
-      "play_rate": 1.1,
+      "play_rate": 1.0,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -428,7 +428,7 @@
       "base_archetype": "Aeldari \u2014 Twilight Flickers + Windrider Host",
       "lists": 1,
       "games": 5,
-      "play_rate": 1.1,
+      "play_rate": 1.0,
       "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -447,7 +447,7 @@
       "base_archetype": "Aeldari \u2014 No Detachment",
       "lists": 1,
       "games": 5,
-      "play_rate": 1.1,
+      "play_rate": 1.0,
       "win_rate": 100.0,
       "x0_pct": 100.0,
       "x1_pct": 0.0,
@@ -466,7 +466,7 @@
     {
       "disposition": "Reconnaissance",
       "lists": 57,
-      "play_rate": 60.0,
+      "play_rate": 59.4,
       "win_rate": 45.1,
       "x0_pct": 5.3,
       "x1_pct": 10.5,
@@ -483,7 +483,7 @@
     {
       "disposition": "Disruption",
       "lists": 18,
-      "play_rate": 18.9,
+      "play_rate": 18.8,
       "win_rate": 40.5,
       "x0_pct": 0.0,
       "x1_pct": 5.6,
@@ -500,7 +500,7 @@
     {
       "disposition": "Priority Assets",
       "lists": 9,
-      "play_rate": 9.5,
+      "play_rate": 9.4,
       "win_rate": 28.2,
       "x0_pct": 11.1,
       "x1_pct": 0.0,
@@ -516,19 +516,19 @@
     },
     {
       "disposition": "Take and Hold",
-      "lists": 7,
-      "play_rate": 7.4,
-      "win_rate": 51.4,
-      "x0_pct": 14.3,
-      "x1_pct": 14.3,
-      "games": 37.0,
+      "lists": 8,
+      "play_rate": 8.3,
+      "win_rate": 53.6,
+      "x0_pct": 12.5,
+      "x1_pct": 12.5,
+      "games": 42.0,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 20
+        "win_rate": 47.6,
+        "games": 21
       },
       "second_turn": {
-        "win_rate": 52.9,
-        "games": 17
+        "win_rate": 59.5,
+        "games": 21
       }
     },
     {
@@ -552,7 +552,7 @@
   "disposition_matchups": [
     {
       "opponent_disposition": "Purge the Foe",
-      "games": 108,
+      "games": 109,
       "wins": 45,
       "win_rate": 41.7,
       "first_turn": {
@@ -561,7 +561,7 @@
       },
       "second_turn": {
         "win_rate": 46.9,
-        "games": 48
+        "games": 49
       }
     },
     {
@@ -580,40 +580,40 @@
     },
     {
       "opponent_disposition": "Priority Assets",
-      "games": 98,
-      "wins": 46,
-      "win_rate": 47.4,
+      "games": 99,
+      "wins": 47,
+      "win_rate": 48.0,
       "first_turn": {
         "win_rate": 43.0,
         "games": 43
       },
       "second_turn": {
-        "win_rate": 50.9,
-        "games": 55
+        "win_rate": 51.8,
+        "games": 56
       }
     },
     {
       "opponent_disposition": "Take and Hold",
-      "games": 91,
-      "wins": 34,
-      "win_rate": 37.4,
+      "games": 92,
+      "wins": 35,
+      "win_rate": 38.0,
       "first_turn": {
         "win_rate": 47.0,
         "games": 50
       },
       "second_turn": {
-        "win_rate": 25.6,
-        "games": 41
+        "win_rate": 27.4,
+        "games": 42
       }
     },
     {
       "opponent_disposition": "Disruption",
-      "games": 90,
+      "games": 91,
       "wins": 44,
-      "win_rate": 48.9,
+      "win_rate": 48.4,
       "first_turn": {
-        "win_rate": 53.4,
-        "games": 44
+        "win_rate": 52.2,
+        "games": 45
       },
       "second_turn": {
         "win_rate": 44.6,
@@ -865,27 +865,27 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Purge the Foe",
-      "games": 9,
+      "games": 10,
       "wins": 3,
-      "win_rate": 33.3,
+      "win_rate": 35.0,
       "first_turn": {
         "win_rate": 16.7,
         "games": 6
       },
       "second_turn": {
-        "win_rate": 66.7,
-        "games": 3
+        "win_rate": 62.5,
+        "games": 4
       }
     },
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Disruption",
-      "games": 9,
+      "games": 10,
       "wins": 5,
-      "win_rate": 55.6,
+      "win_rate": 50.0,
       "first_turn": {
-        "win_rate": 33.3,
-        "games": 3
+        "win_rate": 25.0,
+        "games": 4
       },
       "second_turn": {
         "win_rate": 66.7,
@@ -895,31 +895,31 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Priority Assets",
-      "games": 7,
-      "wins": 6,
-      "win_rate": 92.9,
+      "games": 8,
+      "wins": 7,
+      "win_rate": 93.8,
       "first_turn": {
         "win_rate": 100.0,
         "games": 4
       },
       "second_turn": {
-        "win_rate": 83.3,
-        "games": 3
+        "win_rate": 87.5,
+        "games": 4
       }
     },
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Take and Hold",
-      "games": 6,
-      "wins": 2,
-      "win_rate": 33.3,
+      "games": 7,
+      "wins": 3,
+      "win_rate": 42.9,
       "first_turn": {
         "win_rate": 66.7,
         "games": 3
       },
       "second_turn": {
-        "win_rate": 0.0,
-        "games": 3
+        "win_rate": 25.0,
+        "games": 4
       }
     },
     {
@@ -1120,6 +1120,18 @@
       "win_rate": 75.0
     },
     {
+      "player_name": "Gareth Chambers",
+      "detachment": "Armoured Warhost + Guardian Battlehost",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/pCMETMXma1bI",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
       "player_name": "Jake Campbell",
       "detachment": "Path Of The Outcast + Windrider Host",
       "disposition": "Reconnaissance",
@@ -1166,18 +1178,6 @@
       "draws": 0,
       "games": 13,
       "win_rate": 69.2
-    },
-    {
-      "player_name": "Michael McCaffrey",
-      "detachment": "Armoured Warhost + Serpent's Brood",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/xanWB9yicqiC",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 2,
-      "draws": 0,
-      "games": 6,
-      "win_rate": 66.7
     }
   ],
   "matchups": [
@@ -1239,16 +1239,16 @@
     },
     {
       "opponent_faction": "Necrons",
-      "games": 29,
-      "wins": 6,
-      "win_rate": 22.4,
+      "games": 31,
+      "wins": 8,
+      "win_rate": 25.8,
       "first_turn": {
         "win_rate": 16.7,
         "games": 15
       },
       "second_turn": {
-        "win_rate": 28.6,
-        "games": 14
+        "win_rate": 34.4,
+        "games": 16
       }
     },
     {
@@ -1281,12 +1281,12 @@
     },
     {
       "opponent_faction": "Tyranids",
-      "games": 27,
+      "games": 28,
       "wins": 14,
-      "win_rate": 51.9,
+      "win_rate": 50.0,
       "first_turn": {
-        "win_rate": 65.6,
-        "games": 16
+        "win_rate": 61.8,
+        "games": 17
       },
       "second_turn": {
         "win_rate": 31.8,
@@ -1378,6 +1378,20 @@
       }
     },
     {
+      "opponent_faction": "Adeptus Mechanicus",
+      "games": 14,
+      "wins": 6,
+      "win_rate": 42.9,
+      "first_turn": {
+        "win_rate": 16.7,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 62.5,
+        "games": 8
+      }
+    },
+    {
       "opponent_faction": "Grey Knights",
       "games": 14,
       "wins": 8,
@@ -1389,20 +1403,6 @@
       "second_turn": {
         "win_rate": 87.5,
         "games": 4
-      }
-    },
-    {
-      "opponent_faction": "Adeptus Mechanicus",
-      "games": 13,
-      "wins": 5,
-      "win_rate": 38.5,
-      "first_turn": {
-        "win_rate": 16.7,
-        "games": 6
-      },
-      "second_turn": {
-        "win_rate": 57.1,
-        "games": 7
       }
     },
     {
@@ -1643,6 +1643,22 @@
       "second_turn": {
         "win_rate": 50.0,
         "games": 54
+      }
+    },
+    {
+      "week": "2026-W35",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 70.0,
+      "total_lists": 73,
+      "play_rate": 1.4,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 87.5,
+        "games": 4
       }
     }
   ]
