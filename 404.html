@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+// GitHub Pages has no server-side rewriting, so /GreatestPlayerEva/<s1>/<s2>
+// 404s here. Detect that pattern and redirect to the real page with the
+// segments passed as a query string; everything else falls through to the
+// normal 404 below.
+(function () {
+  var parts = location.pathname.split('/').filter(Boolean);
+  var i = parts.indexOf('GreatestPlayerEva');
+  if (i !== -1 && parts.length >= i + 3) {
+    var base = parts.slice(0, i).join('/');
+    var target = (base ? '/' + base : '') + '/GreatestPlayerEva.html?s1=' + parts[i + 1] + '&s2=' + parts[i + 2];
+    location.replace(target);
+  }
+})();
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Page Not Found — Informed Crusader</title>
