@@ -1,143 +1,548 @@
 {
   "faction": "Adeptus Mechanicus",
   "slug": "adeptus_mechanicus",
-  "as_of": "2026-09-07",
+  "as_of": "2026-09-14",
   "window_days": 14,
   "event_type": "team",
-  "lists": 5,
-  "games": 26,
-  "play_rate": 1.0,
-  "win_rate": 69.2,
-  "trend_delta": 14.9,
-  "top_detachment": "Cohort Cybernetica + Lords Of The Forge",
-  "ci_lower": 50.0,
-  "meta_health": "neutral",
-  "x0_pct": 20.0,
-  "x1_pct": 20.0,
-  "tournament_wins": 0,
+  "lists": 39,
+  "games": 221,
+  "play_rate": 2.7,
+  "win_rate": 54.5,
+  "trend_delta": -21.7,
+  "top_detachment": "Lords Of The Forge + Skitarii Hunter Cohort",
+  "ci_lower": 47.9,
+  "meta_health": "slightly_under",
+  "x0_pct": 7.7,
+  "x1_pct": 12.8,
+  "tournament_wins": 2,
   "first_turn": {
-    "win_rate": 68.8,
-    "games": 8
+    "win_rate": 53.0,
+    "games": 83
   },
   "second_turn": {
-    "win_rate": 69.4,
-    "games": 18
+    "win_rate": 55.4,
+    "games": 138
   },
   "detachments": [
     {
-      "detachment": "Cohort Cybernetica + Lords Of The Forge",
-      "base_archetype": "Adeptus Mechanicus \u2014 Cohort Cybernetica + Lords Of The Forge",
-      "lists": 3,
-      "games": 15,
-      "play_rate": 60.0,
-      "win_rate": 66.7,
+      "detachment": "Lords Of The Forge + Skitarii Hunter Cohort",
+      "base_archetype": "Adeptus Mechanicus \u2014 Lords Of The Forge + Skitarii Hunter Cohort",
+      "lists": 10,
+      "games": 58,
+      "play_rate": 25.6,
+      "win_rate": 61.2,
+      "x0_pct": 20.0,
+      "x1_pct": 20.0,
+      "tournament_wins": 1,
+      "first_turn": {
+        "win_rate": 46.3,
+        "games": 27
+      },
+      "second_turn": {
+        "win_rate": 74.2,
+        "games": 31
+      }
+    },
+    {
+      "detachment": "Rad-Zone Corps",
+      "base_archetype": "Adeptus Mechanicus \u2014 Rad-Zone Corps",
+      "lists": 10,
+      "games": 58,
+      "play_rate": 25.6,
+      "win_rate": 61.2,
       "x0_pct": 0.0,
-      "x1_pct": 33.3,
+      "x1_pct": 20.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 50.0,
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
+    },
+    {
+      "detachment": "Cohort Cybernetica + Lords Of The Forge",
+      "base_archetype": "Adeptus Mechanicus \u2014 Cohort Cybernetica + Lords Of The Forge",
+      "lists": 8,
+      "games": 45,
+      "play_rate": 20.5,
+      "win_rate": 52.2,
+      "x0_pct": 12.5,
+      "x1_pct": 0.0,
+      "tournament_wins": 1,
+      "first_turn": {
+        "win_rate": 60.0,
+        "games": 20
+      },
+      "second_turn": {
+        "win_rate": 46.0,
+        "games": 25
+      }
+    },
+    {
+      "detachment": "Cohort Acquisitus + Lords Of The Forge + Luminen Auto-Choir",
+      "base_archetype": "Adeptus Mechanicus \u2014 Cohort Acquisitus + Lords Of The Forge + Luminen Auto-Choir",
+      "lists": 2,
+      "games": 11,
+      "play_rate": 5.1,
+      "win_rate": 36.4,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 16.7,
         "games": 3
       },
       "second_turn": {
-        "win_rate": 70.8,
-        "games": 12
+        "win_rate": 43.8,
+        "games": 8
+      }
+    },
+    {
+      "detachment": "Eradication Cohort",
+      "base_archetype": "Adeptus Mechanicus \u2014 Eradication Cohort",
+      "lists": 2,
+      "games": 11,
+      "play_rate": 5.1,
+      "win_rate": 54.5,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 57.1,
+        "games": 7
       }
     },
     {
       "detachment": "Lords Of The Forge + Rad-Zone Corps",
       "base_archetype": "Adeptus Mechanicus \u2014 Lords Of The Forge + Rad-Zone Corps",
       "lists": 2,
-      "games": 11,
-      "play_rate": 40.0,
-      "win_rate": 72.7,
-      "x0_pct": 50.0,
+      "games": 10,
+      "play_rate": 5.1,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 50.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 56.8,
+        "games": 22
+      },
+      "second_turn": {
+        "win_rate": 53.8,
+        "games": 40
+      }
+    },
+    {
+      "detachment": "No Detachment",
+      "base_archetype": "Adeptus Mechanicus \u2014 No Detachment",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 5.1,
+      "win_rate": 45.0,
+      "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 80.0,
-        "games": 5
+        "win_rate": null,
+        "games": 0
       },
       "second_turn": {
-        "win_rate": 66.7,
-        "games": 6
+        "win_rate": null,
+        "games": 0
+      }
+    },
+    {
+      "detachment": "Haloscreed Battle Clade",
+      "base_archetype": "Adeptus Mechanicus \u2014 Haloscreed Battle Clade",
+      "lists": 2,
+      "games": 12,
+      "play_rate": 5.1,
+      "win_rate": 29.2,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 31.8,
+        "games": 11
+      }
+    },
+    {
+      "detachment": "Cohort Cybernetica",
+      "base_archetype": "Adeptus Mechanicus \u2014 Cohort Cybernetica",
+      "lists": 1,
+      "games": 6,
+      "play_rate": 2.6,
+      "win_rate": 66.7,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
       }
     }
   ],
   "dispositions": [
     {
       "disposition": "Priority Assets",
-      "lists": 3,
-      "play_rate": 60.0,
-      "win_rate": 71.9,
-      "x0_pct": 33.3,
-      "x1_pct": 0.0,
-      "games": 16.0,
+      "lists": 24,
+      "play_rate": 61.5,
+      "win_rate": 54.8,
+      "x0_pct": 8.3,
+      "x1_pct": 12.5,
+      "games": 135.0,
       "first_turn": {
-        "win_rate": 83.3,
-        "games": 6
+        "win_rate": 60.6,
+        "games": 47
       },
       "second_turn": {
-        "win_rate": 65.0,
-        "games": 10
+        "win_rate": 51.7,
+        "games": 88
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "lists": 9,
+      "play_rate": 23.1,
+      "win_rate": 57.7,
+      "x0_pct": 11.1,
+      "x1_pct": 22.2,
+      "games": 52.0,
+      "first_turn": {
+        "win_rate": 40.5,
+        "games": 21
+      },
+      "second_turn": {
+        "win_rate": 69.4,
+        "games": 31
       }
     },
     {
       "disposition": "Take and Hold",
-      "lists": 2,
-      "play_rate": 40.0,
-      "win_rate": 65.0,
+      "lists": 3,
+      "play_rate": 7.7,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
-      "x1_pct": 50.0,
-      "games": 10.0,
+      "x1_pct": 0.0,
+      "games": 17.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 9
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 8
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "lists": 2,
+      "play_rate": 5.1,
+      "win_rate": 54.5,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 11.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 57.1,
+        "games": 7
+      }
+    },
+    {
+      "disposition": "Disruption",
+      "lists": 1,
+      "play_rate": 2.6,
+      "win_rate": 33.3,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 6.0,
       "first_turn": {
         "win_rate": 25.0,
         "games": 2
       },
       "second_turn": {
-        "win_rate": 75.0,
-        "games": 8
+        "win_rate": 37.5,
+        "games": 4
       }
     }
   ],
-  "disposition_matchups": [],
-  "disposition_cross": [
+  "disposition_matchups": [
     {
-      "disposition": "Priority Assets",
-      "opponent_disposition": "Reconnaissance",
-      "games": 6,
-      "wins": 5,
-      "win_rate": 83.3,
+      "opponent_disposition": "Priority Assets",
+      "games": 57,
+      "wins": 34,
+      "win_rate": 59.6,
       "first_turn": {
-        "win_rate": 75.0,
-        "games": 4
+        "win_rate": 52.3,
+        "games": 22
       },
       "second_turn": {
-        "win_rate": 100.0,
-        "games": 2
+        "win_rate": 64.3,
+        "games": 35
       }
     },
     {
-      "disposition": "Take and Hold",
+      "opponent_disposition": "Reconnaissance",
+      "games": 47,
+      "wins": 26,
+      "win_rate": 56.4,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 15
+      },
+      "second_turn": {
+        "win_rate": 59.4,
+        "games": 32
+      }
+    },
+    {
       "opponent_disposition": "Purge the Foe",
+      "games": 44,
+      "wins": 23,
+      "win_rate": 52.3,
+      "first_turn": {
+        "win_rate": 54.8,
+        "games": 21
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 23
+      }
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 40,
+      "wins": 18,
+      "win_rate": 45.0,
+      "first_turn": {
+        "win_rate": 53.6,
+        "games": 14
+      },
+      "second_turn": {
+        "win_rate": 40.4,
+        "games": 26
+      }
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 30,
+      "wins": 16,
+      "win_rate": 53.3,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 10
+      },
+      "second_turn": {
+        "win_rate": 55.0,
+        "games": 20
+      }
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Priority Assets",
+      "games": 35,
+      "wins": 21,
+      "win_rate": 61.4,
+      "first_turn": {
+        "win_rate": 59.1,
+        "games": 11
+      },
+      "second_turn": {
+        "win_rate": 62.5,
+        "games": 24
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Reconnaissance",
+      "games": 31,
+      "wins": 18,
+      "win_rate": 58.1,
+      "first_turn": {
+        "win_rate": 44.4,
+        "games": 9
+      },
+      "second_turn": {
+        "win_rate": 63.6,
+        "games": 22
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Purge the Foe",
+      "games": 29,
+      "wins": 15,
+      "win_rate": 53.4,
+      "first_turn": {
+        "win_rate": 78.6,
+        "games": 14
+      },
+      "second_turn": {
+        "win_rate": 30.0,
+        "games": 15
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Disruption",
+      "games": 17,
+      "wins": 10,
+      "win_rate": 58.8,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 54.5,
+        "games": 11
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Take and Hold",
+      "games": 17,
+      "wins": 5,
+      "win_rate": 29.4,
+      "first_turn": {
+        "win_rate": 40.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 12
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Take and Hold",
       "games": 5,
-      "wins": 4,
-      "win_rate": 80.0,
+      "wins": 2,
+      "win_rate": 40.0,
       "first_turn": {
         "win_rate": null,
         "games": 0
       },
       "second_turn": {
-        "win_rate": 80.0,
+        "win_rate": 40.0,
         "games": 5
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Priority Assets",
+      "games": 12,
+      "wins": 7,
+      "win_rate": 58.3,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 6
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Take and Hold",
+      "games": 11,
+      "wins": 7,
+      "win_rate": 68.2,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 78.6,
+        "games": 7
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Purge the Foe",
+      "games": 9,
+      "wins": 5,
+      "win_rate": 61.1,
+      "first_turn": {
+        "win_rate": 12.5,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 5
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Disruption",
+      "games": 9,
+      "wins": 3,
+      "win_rate": 33.3,
+      "first_turn": {
+        "win_rate": 25.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 40.0,
+        "games": 5
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Reconnaissance",
+      "games": 8,
+      "wins": 5,
+      "win_rate": 62.5,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 60.0,
+        "games": 5
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Take and Hold",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 58.3,
+      "first_turn": {
+        "win_rate": 70.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 1
       }
     }
   ],
   "top_players": [
     {
-      "player_name": "Seth Piper",
-      "detachment": "Lords Of The Forge + Rad-Zone Corps",
+      "player_name": "Richard Siegler",
+      "detachment": "Lords Of The Forge + Skitarii Hunter Cohort",
       "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/5FqejcpNNBGo",
+      "list_url": "https://www.bestcoastpairings.com/list/MEAMnokvxU9N",
       "source": "bcp",
       "wins": 6,
       "losses": 0,
@@ -146,10 +551,82 @@
       "win_rate": 100.0
     },
     {
-      "player_name": "Patricio Campos",
+      "player_name": "\u0141ukasz Golonka",
       "detachment": "Cohort Cybernetica + Lords Of The Forge",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/UFIsBeH2bbQl",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/YYO5Hsjhw3Nw",
+      "source": "bcp",
+      "wins": 6,
+      "losses": 0,
+      "draws": 0,
+      "games": 6,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Falco .",
+      "detachment": "Lords Of The Forge + Skitarii Hunter Cohort",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/FdU91K8CKLDC",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Zach Zullo",
+      "detachment": "Rad-Zone Corps",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/bkdwT62ardSd",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 1,
+      "games": 6,
+      "win_rate": 91.7
+    },
+    {
+      "player_name": "Jan Lubojacky",
+      "detachment": "Rad-Zone Corps",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/wlaXUf26xBF9",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 1,
+      "games": 6,
+      "win_rate": 91.7
+    },
+    {
+      "player_name": "Tomasz Oczkowski",
+      "detachment": "Lords Of The Forge + Skitarii Hunter Cohort",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/GLOF5q0ChCkX",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 1,
+      "draws": 0,
+      "games": 6,
+      "win_rate": 83.3
+    },
+    {
+      "player_name": "Pawe\u0142 Morawski",
+      "detachment": "Lords Of The Forge + Skitarii Hunter Cohort",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/xMt3BKudDsqm",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 1,
+      "draws": 0,
+      "games": 6,
+      "win_rate": 83.3
+    },
+    {
+      "player_name": "Kopyt Ko\u0142odziej",
+      "detachment": "Lords Of The Forge + Rad-Zone Corps",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/k6WegrwKx7Pb",
       "source": "bcp",
       "wins": 4,
       "losses": 1,
@@ -170,48 +647,393 @@
       "win_rate": 70.0
     },
     {
-      "player_name": "Toby Barnwell",
-      "detachment": "Cohort Cybernetica + Lords Of The Forge",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/fAa3C4et9NsE",
+      "player_name": "Harley Scully",
+      "detachment": "Rad-Zone Corps",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/20aC5QU3E6Tq",
       "source": "bcp",
-      "wins": 2,
-      "losses": 2,
+      "wins": 3,
+      "losses": 1,
       "draws": 1,
       "games": 5,
-      "win_rate": 50.0
+      "win_rate": 70.0
     },
     {
-      "player_name": "Brandon Norton",
-      "detachment": "Lords Of The Forge + Rad-Zone Corps",
+      "player_name": "Jorge DocZero",
+      "detachment": "No Detachment",
       "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/ZWPQKQWWR7qh",
+      "list_url": "https://www.bestcoastpairings.com/list/fxhHxta6pn0a",
       "source": "bcp",
-      "wins": 2,
-      "losses": 3,
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Brad Townsend",
+      "detachment": "Cohort Cybernetica + Lords Of The Forge",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/CT82Yz8l1iUA",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 2,
+      "draws": 0,
+      "games": 6,
+      "win_rate": 66.7
+    },
+    {
+      "player_name": "Ethan Pettibone",
+      "detachment": "Eradication Cohort",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/GIKVfhO4rfdw",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 2,
+      "draws": 0,
+      "games": 6,
+      "win_rate": 66.7
+    },
+    {
+      "player_name": "Floof Cox",
+      "detachment": "Rad-Zone Corps",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/P7iyyTuYSlyd",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 2,
+      "games": 6,
+      "win_rate": 66.7
+    },
+    {
+      "player_name": "David Greulich",
+      "detachment": "Rad-Zone Corps",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/FxRqUscBoTqV",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 2,
+      "games": 6,
+      "win_rate": 66.7
+    },
+    {
+      "player_name": "Micha\u0142 Paduch",
+      "detachment": "Cohort Cybernetica",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/cyb77I620PsK",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 2,
+      "draws": 0,
+      "games": 6,
+      "win_rate": 66.7
+    },
+    {
+      "player_name": "Mariusz Katana",
+      "detachment": "Rad-Zone Corps",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/YJH0eUMyqdSK",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 2,
+      "draws": 0,
+      "games": 6,
+      "win_rate": 66.7
+    },
+    {
+      "player_name": "Szymon Czajka",
+      "detachment": "Lords Of The Forge + Skitarii Hunter Cohort",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/Husq2tH0pxjZ",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 2,
+      "draws": 0,
+      "games": 6,
+      "win_rate": 66.7
+    },
+    {
+      "player_name": "Adam Watson",
+      "detachment": "Lords Of The Forge + Skitarii Hunter Cohort",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/HzAOr9ELC04h",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
       "draws": 0,
       "games": 5,
-      "win_rate": 40.0
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Brad Crouch",
+      "detachment": "Rad-Zone Corps",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/N3BuwhrLaInc",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
     }
   ],
-  "matchups": [],
-  "timeline": [
+  "matchups": [
     {
-      "week": "2026-W34",
-      "lists": 3,
-      "games": 16,
-      "win_rate": 75.0,
-      "total_lists": 438,
-      "play_rate": 0.7,
+      "opponent_faction": "Adeptus Custodes",
+      "games": 19,
+      "wins": 7,
+      "win_rate": 39.5,
       "first_turn": {
-        "win_rate": 80.0,
-        "games": 5
+        "win_rate": 62.5,
+        "games": 8
       },
       "second_turn": {
-        "win_rate": 72.7,
+        "win_rate": 22.7,
         "games": 11
       }
     },
+    {
+      "opponent_faction": "Dark Angels",
+      "games": 18,
+      "wins": 10,
+      "win_rate": 55.6,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 57.7,
+        "games": 13
+      }
+    },
+    {
+      "opponent_faction": "Orks",
+      "games": 18,
+      "wins": 9,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 8
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 10
+      }
+    },
+    {
+      "opponent_faction": "Necrons",
+      "games": 18,
+      "wins": 10,
+      "win_rate": 58.3,
+      "first_turn": {
+        "win_rate": 61.1,
+        "games": 9
+      },
+      "second_turn": {
+        "win_rate": 55.6,
+        "games": 9
+      }
+    },
+    {
+      "opponent_faction": "T'au Empire",
+      "games": 14,
+      "wins": 7,
+      "win_rate": 53.6,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 59.1,
+        "games": 11
+      }
+    },
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 13,
+      "wins": 7,
+      "win_rate": 57.7,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 55.0,
+        "games": 10
+      }
+    },
+    {
+      "opponent_faction": "Emperor's Children",
+      "games": 11,
+      "wins": 7,
+      "win_rate": 63.6,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 8
+      }
+    },
+    {
+      "opponent_faction": "Tyranids",
+      "games": 11,
+      "wins": 6,
+      "win_rate": 59.1,
+      "first_turn": {
+        "win_rate": 41.7,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 80.0,
+        "games": 5
+      }
+    },
+    {
+      "opponent_faction": "Leagues of Votann",
+      "games": 10,
+      "wins": 6,
+      "win_rate": 60.0,
+      "first_turn": {
+        "win_rate": 60.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 60.0,
+        "games": 5
+      }
+    },
+    {
+      "opponent_faction": "Genestealer Cults",
+      "games": 9,
+      "wins": 5,
+      "win_rate": 61.1,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 56.2,
+        "games": 8
+      }
+    },
+    {
+      "opponent_faction": "Chaos Daemons",
+      "games": 8,
+      "wins": 1,
+      "win_rate": 12.5,
+      "first_turn": {
+        "win_rate": 20.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 3
+      }
+    },
+    {
+      "opponent_faction": "World Eaters",
+      "games": 7,
+      "wins": 5,
+      "win_rate": 71.4,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 60.0,
+        "games": 5
+      }
+    },
+    {
+      "opponent_faction": "Imperial Knights",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 57.1,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      }
+    },
+    {
+      "opponent_faction": "Grey Knights",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 75.0,
+      "first_turn": {
+        "win_rate": 83.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      }
+    },
+    {
+      "opponent_faction": "Drukhari",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 66.7,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 60.0,
+        "games": 5
+      }
+    },
+    {
+      "opponent_faction": "Aeldari",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 20.0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
+    },
+    {
+      "opponent_faction": "Death Guard",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      }
+    },
+    {
+      "opponent_faction": "Astra Militarum",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      }
+    }
+  ],
+  "timeline": [
     {
       "week": "2026-W35",
       "lists": 2,
@@ -226,6 +1048,22 @@
       "second_turn": {
         "win_rate": 64.3,
         "games": 7
+      }
+    },
+    {
+      "week": "2026-W36",
+      "lists": 37,
+      "games": 211,
+      "win_rate": 54.3,
+      "total_lists": 1376,
+      "play_rate": 2.7,
+      "first_turn": {
+        "win_rate": 53.1,
+        "games": 80
+      },
+      "second_turn": {
+        "win_rate": 55.0,
+        "games": 131
       }
     }
   ]
