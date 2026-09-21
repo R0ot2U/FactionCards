@@ -1,57 +1,57 @@
 {
   "faction": "Black Templars",
   "slug": "black_templars",
-  "as_of": "2026-09-14",
+  "as_of": "2026-09-22",
   "window_days": 30,
   "event_type": "team",
-  "lists": 11,
-  "games": 57,
-  "play_rate": 0.5,
-  "win_rate": 47.4,
-  "trend_delta": 7.8,
-  "top_detachment": "Bastion Task Force",
-  "ci_lower": 35.0,
+  "lists": 12,
+  "games": 62,
+  "play_rate": 0.4,
+  "win_rate": 50.8,
+  "trend_delta": 15.9,
+  "top_detachment": "Vindication Task Force + Wrathful Procession",
+  "ci_lower": 38.7,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 27.3,
+  "x1_pct": 33.3,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 45.8,
-    "games": 24
+    "win_rate": 46.4,
+    "games": 28
   },
   "second_turn": {
-    "win_rate": 48.5,
-    "games": 33
+    "win_rate": 54.4,
+    "games": 34
   },
   "detachments": [
     {
-      "detachment": "Bastion Task Force",
-      "base_archetype": "Black Templars \u2014 Bastion Task Force",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 18.2,
-      "win_rate": 25.0,
+      "detachment": "Vindication Task Force + Wrathful Procession",
+      "base_archetype": "Black Templars \u2014 Vindication Task Force + Wrathful Procession",
+      "lists": 3,
+      "games": 16,
+      "play_rate": 25.0,
+      "win_rate": 68.8,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
+      "x1_pct": 66.7,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 30.0,
-        "games": 5
+        "win_rate": 61.1,
+        "games": 9
       },
       "second_turn": {
-        "win_rate": 20.0,
-        "games": 5
+        "win_rate": 78.6,
+        "games": 7
       }
     },
     {
       "detachment": "No Detachment",
       "base_archetype": "Black Templars \u2014 No Detachment",
-      "lists": 1,
-      "games": 6,
-      "play_rate": 9.1,
-      "win_rate": 83.3,
+      "lists": 3,
+      "games": 16,
+      "play_rate": 25.0,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
-      "x1_pct": 100.0,
+      "x1_pct": 33.3,
       "tournament_wins": 0,
       "first_turn": {
         "win_rate": null,
@@ -67,7 +67,7 @@
       "base_archetype": "Black Templars \u2014 Companions Of Vehemence + The Living Miracle",
       "lists": 1,
       "games": 5,
-      "play_rate": 9.1,
+      "play_rate": 8.3,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -86,7 +86,7 @@
       "base_archetype": "Black Templars \u2014 Marshal'S Household + The Living Miracle + and Wrathful Procession",
       "lists": 1,
       "games": 5,
-      "play_rate": 9.1,
+      "play_rate": 8.3,
       "win_rate": 0.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -105,7 +105,7 @@
       "base_archetype": "Black Templars \u2014 Gladius Task Force",
       "lists": 1,
       "games": 5,
-      "play_rate": 9.1,
+      "play_rate": 8.3,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -120,11 +120,30 @@
       }
     },
     {
+      "detachment": "Bastion Task Force",
+      "base_archetype": "Black Templars \u2014 Bastion Task Force",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 8.3,
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      }
+    },
+    {
       "detachment": "Forgefather's Seekers + Librarius Conclave",
       "base_archetype": "Black Templars \u2014 Forgefather's Seekers + Librarius Conclave",
       "lists": 1,
       "games": 6,
-      "play_rate": 9.1,
+      "play_rate": 8.3,
       "win_rate": 83.3,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
@@ -137,49 +156,30 @@
         "win_rate": 80.0,
         "games": 5
       }
-    },
-    {
-      "detachment": "Vindication Task Force + Wrathful Procession",
-      "base_archetype": "Black Templars \u2014 Vindication Task Force + Wrathful Procession",
-      "lists": 1,
-      "games": 6,
-      "play_rate": 9.1,
-      "win_rate": 83.3,
-      "x0_pct": 0.0,
-      "x1_pct": 100.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 100.0,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 66.7,
-        "games": 3
-      }
     }
   ],
   "dispositions": [
     {
       "disposition": "Take and Hold",
-      "lists": 7,
-      "play_rate": 63.6,
-      "win_rate": 41.9,
+      "lists": 8,
+      "play_rate": 66.7,
+      "win_rate": 47.6,
       "x0_pct": 0.0,
-      "x1_pct": 28.6,
-      "games": 37.0,
+      "x1_pct": 37.5,
+      "games": 42.0,
       "first_turn": {
-        "win_rate": 53.1,
-        "games": 16
+        "win_rate": 52.5,
+        "games": 20
       },
       "second_turn": {
-        "win_rate": 33.3,
-        "games": 21
+        "win_rate": 43.2,
+        "games": 22
       }
     },
     {
       "disposition": "Disruption",
       "lists": 2,
-      "play_rate": 18.2,
+      "play_rate": 16.7,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -196,7 +196,7 @@
     {
       "disposition": "Priority Assets",
       "lists": 2,
-      "play_rate": 18.2,
+      "play_rate": 16.7,
       "win_rate": 63.6,
       "x0_pct": 0.0,
       "x1_pct": 50.0,
@@ -214,44 +214,44 @@
   "disposition_matchups": [
     {
       "opponent_disposition": "Take and Hold",
-      "games": 16,
-      "wins": 8,
+      "games": 18,
+      "wins": 9,
       "win_rate": 50.0,
       "first_turn": {
-        "win_rate": 71.4,
-        "games": 7
+        "win_rate": 60.0,
+        "games": 10
       },
       "second_turn": {
-        "win_rate": 33.3,
-        "games": 9
+        "win_rate": 37.5,
+        "games": 8
       }
     },
     {
       "opponent_disposition": "Purge the Foe",
+      "games": 14,
+      "wins": 8,
+      "win_rate": 57.1,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 62.5,
+        "games": 8
+      }
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
       "games": 12,
       "wins": 6,
       "win_rate": 50.0,
       "first_turn": {
         "win_rate": 50.0,
-        "games": 6
-      },
-      "second_turn": {
-        "win_rate": 50.0,
-        "games": 6
-      }
-    },
-    {
-      "opponent_disposition": "Reconnaissance",
-      "games": 11,
-      "wins": 5,
-      "win_rate": 45.5,
-      "first_turn": {
-        "win_rate": 50.0,
         "games": 4
       },
       "second_turn": {
-        "win_rate": 42.9,
-        "games": 7
+        "win_rate": 50.0,
+        "games": 8
       }
     }
   ],
@@ -259,42 +259,12 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Take and Hold",
-      "games": 10,
-      "wins": 4,
-      "win_rate": 45.0,
+      "games": 12,
+      "wins": 5,
+      "win_rate": 45.8,
       "first_turn": {
-        "win_rate": 70.0,
-        "games": 5
-      },
-      "second_turn": {
-        "win_rate": 20.0,
-        "games": 5
-      }
-    },
-    {
-      "disposition": "Take and Hold",
-      "opponent_disposition": "Priority Assets",
-      "games": 7,
-      "wins": 2,
-      "win_rate": 28.6,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 40.0,
-        "games": 5
-      }
-    },
-    {
-      "disposition": "Take and Hold",
-      "opponent_disposition": "Reconnaissance",
-      "games": 7,
-      "wins": 3,
-      "win_rate": 42.9,
-      "first_turn": {
-        "win_rate": 66.7,
-        "games": 3
+        "win_rate": 56.2,
+        "games": 8
       },
       "second_turn": {
         "win_rate": 25.0,
@@ -304,35 +274,77 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Purge the Foe",
-      "games": 7,
-      "wins": 2,
-      "win_rate": 28.6,
+      "games": 9,
+      "wins": 4,
+      "win_rate": 44.4,
       "first_turn": {
         "win_rate": 50.0,
         "games": 4
       },
       "second_turn": {
-        "win_rate": 0.0,
+        "win_rate": 40.0,
+        "games": 5
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Reconnaissance",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 66.7,
         "games": 3
+      },
+      "second_turn": {
+        "win_rate": 40.0,
+        "games": 5
       }
     },
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Disruption",
-      "games": 6,
+      "games": 7,
       "wins": 4,
-      "win_rate": 66.7,
+      "win_rate": 64.3,
       "first_turn": {
         "win_rate": 50.0,
         "games": 2
       },
       "second_turn": {
-        "win_rate": 75.0,
-        "games": 4
+        "win_rate": 70.0,
+        "games": 5
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Priority Assets",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 33.3,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
       }
     }
   ],
   "top_players": [
+    {
+      "player_name": "Tech-Priest  Dickie",
+      "detachment": "Vindication Task Force + Wrathful Procession",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/IVKB5LLHjHfK",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
     {
       "player_name": "Rudy Torres",
       "detachment": "No Detachment",
@@ -383,7 +395,7 @@
     },
     {
       "player_name": "Alejandro Mu\u00f1oz Guerado",
-      "detachment": "",
+      "detachment": "No Detachment",
       "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/aIBc7syN8WA4",
       "source": "bcp",
@@ -418,10 +430,10 @@
       "win_rate": 37.5
     },
     {
-      "player_name": "David Elmy",
-      "detachment": "Bastion Task Force",
+      "player_name": "Luke Choi",
+      "detachment": "Vindication Task Force + Wrathful Procession",
       "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/ewO7H2t8Cm9O",
+      "list_url": "https://www.bestcoastpairings.com/list/PxAxr0fWaqT7",
       "source": "bcp",
       "wins": 1,
       "losses": 3,
@@ -431,7 +443,7 @@
     },
     {
       "player_name": "Alberto Gonzalez Aguera",
-      "detachment": "",
+      "detachment": "No Detachment",
       "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/1otapfsceKpS",
       "source": "bcp",
@@ -469,12 +481,12 @@
   "matchups": [
     {
       "opponent_faction": "Adeptus Custodes",
-      "games": 8,
+      "games": 9,
       "wins": 5,
-      "win_rate": 62.5,
+      "win_rate": 55.6,
       "first_turn": {
-        "win_rate": 100.0,
-        "games": 3
+        "win_rate": 75.0,
+        "games": 4
       },
       "second_turn": {
         "win_rate": 40.0,
@@ -499,34 +511,32 @@
       "opponent_faction": "Orks",
       "games": 5,
       "wins": 1,
-      "win_rate": 20.0,
+      "win_rate": 30.0,
       "first_turn": {
         "win_rate": 0.0,
         "games": 1
       },
       "second_turn": {
-        "win_rate": 25.0,
+        "win_rate": 37.5,
+        "games": 4
+      }
+    },
+    {
+      "opponent_faction": "Chaos Daemons",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 50.0,
         "games": 4
       }
     }
   ],
   "timeline": [
-    {
-      "week": "2026-W32",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 30.0,
-      "total_lists": 110,
-      "play_rate": 0.9,
-      "first_turn": {
-        "win_rate": 25.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 33.3,
-        "games": 3
-      }
-    },
     {
       "week": "2026-W34",
       "lists": 3,
@@ -557,6 +567,22 @@
       "second_turn": {
         "win_rate": 52.4,
         "games": 21
+      }
+    },
+    {
+      "week": "2026-W37",
+      "lists": 2,
+      "games": 10,
+      "win_rate": 60.0,
+      "total_lists": 869,
+      "play_rate": 0.2,
+      "first_turn": {
+        "win_rate": 41.7,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 87.5,
+        "games": 4
       }
     }
   ]

@@ -1,718 +1,372 @@
 {
   "disposition": "Disruption",
   "slug": "disruption",
-  "lists": 226,
-  "games": 1257,
-  "win_rate": 44.0,
-  "avg_vp": 9.2,
-  "x0_pct": 4.4,
-  "x1_pct": 8.8,
+  "lists": 143,
+  "games": 713,
+  "win_rate": 49.4,
+  "avg_vp": 11.1,
+  "x0_pct": 5.6,
+  "x1_pct": 13.3,
   "factions": [
     {
       "faction": "Tyranids",
-      "lists": 29,
-      "games": 158,
-      "win_rate": 39.2,
-      "x0_pct": 0.0,
-      "play_rate": 12.8
+      "lists": 39,
+      "games": 195,
+      "win_rate": 43.8,
+      "x0_pct": 2.6,
+      "play_rate": 27.3
     },
     {
       "faction": "Emperor's Children",
-      "lists": 23,
-      "games": 128,
-      "win_rate": 46.9,
-      "x0_pct": 8.7,
-      "play_rate": 10.2
-    },
-    {
-      "faction": "Leagues of Votann",
-      "lists": 17,
-      "games": 98,
-      "win_rate": 43.9,
-      "x0_pct": 0.0,
-      "play_rate": 7.5
-    },
-    {
-      "faction": "Orks",
-      "lists": 16,
-      "games": 92,
-      "win_rate": 46.7,
-      "x0_pct": 0.0,
-      "play_rate": 7.1
-    },
-    {
-      "faction": "Death Guard",
-      "lists": 15,
-      "games": 81,
-      "win_rate": 51.2,
-      "x0_pct": 6.7,
-      "play_rate": 6.6
-    },
-    {
-      "faction": "Adeptus Custodes",
       "lists": 13,
-      "games": 73,
-      "win_rate": 50.7,
-      "x0_pct": 0.0,
-      "play_rate": 5.8
+      "games": 65,
+      "win_rate": 66.9,
+      "x0_pct": 23.1,
+      "play_rate": 9.1
     },
     {
       "faction": "Drukhari",
-      "lists": 11,
-      "games": 62,
-      "win_rate": 36.3,
+      "lists": 10,
+      "games": 50,
+      "win_rate": 53.0,
+      "x0_pct": 10.0,
+      "play_rate": 7.0
+    },
+    {
+      "faction": "Death Guard",
+      "lists": 9,
+      "games": 45,
+      "win_rate": 55.6,
+      "x0_pct": 0.0,
+      "play_rate": 6.3
+    },
+    {
+      "faction": "Grey Knights",
+      "lists": 8,
+      "games": 40,
+      "win_rate": 30.0,
+      "x0_pct": 0.0,
+      "play_rate": 5.6
+    },
+    {
+      "faction": "World Eaters",
+      "lists": 7,
+      "games": 34,
+      "win_rate": 47.1,
       "x0_pct": 0.0,
       "play_rate": 4.9
     },
     {
       "faction": "Dark Angels",
-      "lists": 11,
-      "games": 62,
-      "win_rate": 54.8,
-      "x0_pct": 9.1,
-      "play_rate": 4.9
-    },
-    {
-      "faction": "Grey Knights",
-      "lists": 11,
-      "games": 62,
-      "win_rate": 34.7,
-      "x0_pct": 0.0,
-      "play_rate": 4.9
-    },
-    {
-      "faction": "Chaos Space Marines",
-      "lists": 9,
-      "games": 49,
-      "win_rate": 32.7,
-      "x0_pct": 11.1,
-      "play_rate": 4.0
-    },
-    {
-      "faction": "Aeldari",
       "lists": 7,
-      "games": 40,
-      "win_rate": 42.5,
-      "x0_pct": 0.0,
-      "play_rate": 3.1
+      "games": 35,
+      "win_rate": 64.3,
+      "x0_pct": 14.3,
+      "play_rate": 4.9
     },
     {
-      "faction": "Necrons",
+      "faction": "Orks",
+      "lists": 7,
+      "games": 35,
+      "win_rate": 65.7,
+      "x0_pct": 14.3,
+      "play_rate": 4.9
+    },
+    {
+      "faction": "Leagues of Votann",
       "lists": 6,
-      "games": 32,
-      "win_rate": 48.4,
+      "games": 30,
+      "win_rate": 41.7,
       "x0_pct": 16.7,
-      "play_rate": 2.7
-    },
-    {
-      "faction": "Blood Angels",
-      "lists": 6,
-      "games": 33,
-      "win_rate": 34.8,
-      "x0_pct": 0.0,
-      "play_rate": 2.7
-    },
-    {
-      "faction": "Space Marines (Astartes)",
-      "lists": 6,
-      "games": 31,
-      "win_rate": 54.8,
-      "x0_pct": 16.7,
-      "play_rate": 2.7
-    },
-    {
-      "faction": "World Eaters",
-      "lists": 6,
-      "games": 36,
-      "win_rate": 29.2,
-      "x0_pct": 0.0,
-      "play_rate": 2.7
-    },
-    {
-      "faction": "Space Wolves",
-      "lists": 5,
-      "games": 26,
-      "win_rate": 59.6,
-      "x0_pct": 20.0,
-      "play_rate": 2.2
-    },
-    {
-      "faction": "Imperial Knights",
-      "lists": 5,
-      "games": 28,
-      "win_rate": 30.4,
-      "x0_pct": 0.0,
-      "play_rate": 2.2
+      "play_rate": 4.2
     },
     {
       "faction": "Chaos Daemons",
       "lists": 5,
-      "games": 28,
-      "win_rate": 41.1,
+      "games": 25,
+      "win_rate": 44.0,
       "x0_pct": 0.0,
-      "play_rate": 2.2
+      "play_rate": 3.5
+    },
+    {
+      "faction": "Chaos Space Marines",
+      "lists": 5,
+      "games": 25,
+      "win_rate": 66.0,
+      "x0_pct": 0.0,
+      "play_rate": 3.5
+    },
+    {
+      "faction": "Aeldari",
+      "lists": 4,
+      "games": 19,
+      "win_rate": 26.3,
+      "x0_pct": 0.0,
+      "play_rate": 2.8
     },
     {
       "faction": "Genestealer Cults",
-      "lists": 5,
-      "games": 27,
-      "win_rate": 46.3,
-      "x0_pct": 20.0,
-      "play_rate": 2.2
+      "lists": 3,
+      "games": 15,
+      "win_rate": 36.7,
+      "x0_pct": 0.0,
+      "play_rate": 2.1
     },
     {
-      "faction": "Thousand Sons",
-      "lists": 5,
-      "games": 30,
-      "win_rate": 45.0,
+      "faction": "Adeptus Custodes",
+      "lists": 3,
+      "games": 15,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
-      "play_rate": 2.2
+      "play_rate": 2.1
     },
     {
       "faction": "Astra Militarum",
-      "lists": 4,
-      "games": 22,
-      "win_rate": 54.5,
+      "lists": 3,
+      "games": 15,
+      "win_rate": 26.7,
       "x0_pct": 0.0,
-      "play_rate": 1.8
+      "play_rate": 2.1
+    },
+    {
+      "faction": "Necrons",
+      "lists": 3,
+      "games": 15,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "play_rate": 2.1
+    },
+    {
+      "faction": "Thousand Sons",
+      "lists": 3,
+      "games": 15,
+      "win_rate": 56.7,
+      "x0_pct": 0.0,
+      "play_rate": 2.1
+    },
+    {
+      "faction": "Adepta Sororitas",
+      "lists": 2,
+      "games": 10,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "play_rate": 1.4
     },
     {
       "faction": "T'au Empire",
-      "lists": 4,
-      "games": 21,
-      "win_rate": 52.4,
+      "lists": 2,
+      "games": 10,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
-      "play_rate": 1.8
+      "play_rate": 1.4
     },
     {
-      "faction": "Chaos Knights",
-      "lists": 3,
-      "games": 17,
-      "win_rate": 64.7,
-      "x0_pct": 33.3,
-      "play_rate": 1.3
-    },
-    {
-      "faction": "Black Templars",
+      "faction": "Space Marines (Astartes)",
       "lists": 1,
-      "games": 4,
-      "win_rate": 37.5,
+      "games": 5,
+      "win_rate": 30.0,
       "x0_pct": 0.0,
-      "play_rate": 0.4
+      "play_rate": 0.7
     },
     {
       "faction": "Adeptus Mechanicus",
       "lists": 1,
-      "games": 6,
-      "win_rate": 33.3,
+      "games": 5,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
-      "play_rate": 0.4
+      "play_rate": 0.7
     },
     {
-      "faction": "Adepta Sororitas",
+      "faction": "Chaos Knights",
       "lists": 1,
       "games": 5,
-      "win_rate": 0.0,
+      "win_rate": 40.0,
       "x0_pct": 0.0,
-      "play_rate": 0.4
+      "play_rate": 0.7
+    },
+    {
+      "faction": "Imperial Knights",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 30.0,
+      "x0_pct": 0.0,
+      "play_rate": 0.7
     }
   ],
   "detachments": [
     {
       "base_archetype": "Tyranids \u2014 Subterranean Assault",
-      "lists": 18,
-      "games": 97,
-      "win_rate": 39.2,
+      "lists": 24,
+      "games": 120,
+      "win_rate": 44.6,
+      "x0_pct": 4.2
+    },
+    {
+      "base_archetype": "Death Guard \u2014 Paragons Of Putrescence + Shamblerot Vectorium",
+      "lists": 6,
+      "games": 30,
+      "win_rate": 55.0,
       "x0_pct": 0.0
     },
     {
       "base_archetype": "Emperor's Children \u2014 Carnival Of Excess + Frenzied Host",
-      "lists": 10,
-      "games": 55,
-      "win_rate": 61.8,
-      "x0_pct": 10.0
-    },
-    {
-      "base_archetype": "Adeptus Custodes \u2014 Shield Host + Tharanatoi Hammerblow",
-      "lists": 10,
-      "games": 58,
-      "win_rate": 55.2,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Leagues of Votann \u2014 Armoured Trailblazers + Needga\u00e2rd Oathband",
-      "lists": 9,
-      "games": 53,
-      "win_rate": 49.1,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Death Guard \u2014 Paragons Of Putrescence + Shamblerot Vectorium",
-      "lists": 8,
-      "games": 43,
-      "win_rate": 58.1,
-      "x0_pct": 12.5
+      "lists": 5,
+      "games": 25,
+      "win_rate": 88.0,
+      "x0_pct": 60.0
     },
     {
       "base_archetype": "Dark Angels \u2014 Company Of Hunters + Darkflight Pursuit",
-      "lists": 6,
-      "games": 34,
-      "win_rate": 55.9,
-      "x0_pct": 16.7
+      "lists": 5,
+      "games": 25,
+      "win_rate": 80.0,
+      "x0_pct": 20.0
     },
     {
       "base_archetype": "Grey Knights \u2014 Argent Assault + Banishers",
       "lists": 5,
-      "games": 30,
-      "win_rate": 25.0,
+      "games": 25,
+      "win_rate": 30.0,
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Grey Knights \u2014 Brotherhood Strike + Fires Of Purgation",
+      "base_archetype": "Emperor's Children \u2014 Peerless Bladesmen + Spectacle Of Slaughter",
       "lists": 4,
-      "games": 21,
-      "win_rate": 54.8,
+      "games": 20,
+      "win_rate": 60.0,
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Emperor's Children \u2014 Court Of The Phoenician + Spectacle Of Slaughter",
+      "base_archetype": "Drukhari \u2014 Exhibition Of Slaughter + Kabalite Cartel",
       "lists": 4,
-      "games": 23,
-      "win_rate": 34.8,
+      "games": 20,
+      "win_rate": 35.0,
       "x0_pct": 0.0
     },
     {
       "base_archetype": "Tyranids \u2014 Ambush Predators + Vanguard Onslaught",
       "lists": 4,
-      "games": 24,
-      "win_rate": 31.2,
+      "games": 20,
+      "win_rate": 55.0,
       "x0_pct": 0.0
     },
     {
       "base_archetype": "World Eaters \u2014 Brazen Engines + Possessed Slaughterband",
-      "lists": 4,
-      "games": 24,
-      "win_rate": 25.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Chaos Daemons \u2014 Cavalcade Of Chaos + Shadow Legion",
-      "lists": 4,
-      "games": 23,
-      "win_rate": 43.5,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Drukhari \u2014 Kabalite Cartel + Tools Of Torment",
       "lists": 3,
-      "games": 17,
-      "win_rate": 38.2,
+      "games": 14,
+      "win_rate": 35.7,
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Dark Angels \u2014 Stormlance Task Force",
-      "lists": 3,
-      "games": 17,
-      "win_rate": 52.9,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Chaos Space Marines \u2014 Cabal Of Chaos + Nightmare Hunt",
-      "lists": 3,
-      "games": 16,
-      "win_rate": 12.5,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Space Wolves \u2014 Stormlance Task Force",
+      "base_archetype": "Leagues of Votann \u2014 Armoured Trailblazers + Needga\u00e2rd Oathband",
       "lists": 3,
       "games": 15,
-      "win_rate": 70.0,
+      "win_rate": 50.0,
       "x0_pct": 33.3
     },
     {
-      "base_archetype": "Death Guard \u2014 Contagion Engines + Tallyband Summoners",
-      "lists": 3,
-      "games": 16,
-      "win_rate": 37.5,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Drukhari \u2014 Exhibition Of Slaughter + Kabalite Cartel",
-      "lists": 3,
-      "games": 16,
-      "win_rate": 31.2,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Emperor's Children \u2014 Peerless Bladesmen + Spectacle Of Slaughter",
+      "base_archetype": "Chaos Space Marines \u2014 Cabal Of Chaos + Veterans Of The Long War",
       "lists": 3,
       "games": 15,
-      "win_rate": 43.3,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Chaos Knights \u2014 Helhunt Lance + Hunting Warpack",
-      "lists": 3,
-      "games": 17,
-      "win_rate": 64.7,
-      "x0_pct": 33.3
-    },
-    {
-      "base_archetype": "Orks \u2014 Dread Mob + Madcap Meks + Wreckas",
-      "lists": 2,
-      "games": 11,
-      "win_rate": 45.5,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Blood Angels \u2014 Legacy Of Grace + Stormlance Task Force",
-      "lists": 2,
-      "games": 11,
-      "win_rate": 54.5,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Imperial Knights \u2014 Questor Forgepact + Valourstrike Lance",
-      "lists": 2,
-      "games": 11,
-      "win_rate": 22.7,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Drukhari \u2014 Kabalite Agonysts + Realspace Raiders",
-      "lists": 2,
-      "games": 11,
-      "win_rate": 18.2,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Aeldari \u2014 Path Of The Outcast + Windrider Host",
-      "lists": 2,
-      "games": 12,
-      "win_rate": 58.3,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Aeldari \u2014 Fateful Performance + Seer Council",
-      "lists": 2,
-      "games": 12,
-      "win_rate": 33.3,
+      "win_rate": 76.7,
       "x0_pct": 0.0
     },
     {
       "base_archetype": "Tyranids \u2014 Ambush Predators + Synaptic Nexus",
-      "lists": 2,
-      "games": 12,
-      "win_rate": 37.5,
+      "lists": 3,
+      "games": 15,
+      "win_rate": 53.3,
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Death Guard \u2014 Paragons Of Putrescence + Tallyband Summoners",
+      "base_archetype": "World Eaters \u2014 Brazen Engines + Butchers Of Khorne + and Vessels of Wrath",
       "lists": 2,
-      "games": 11,
-      "win_rate": 40.9,
+      "games": 10,
+      "win_rate": 70.0,
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Emperor's Children \u2014 Carnival Of Excess + Spectacle Of Slaughter",
+      "base_archetype": "Emperor's Children \u2014 Carnival Of Excess + Elegant Brutes",
       "lists": 2,
-      "games": 12,
-      "win_rate": 41.7,
+      "games": 10,
+      "win_rate": 35.0,
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Emperor's Children \u2014 Mercurial Host + Spectacle Of Slaughter",
+      "base_archetype": "Chaos Daemons \u2014 Cavalcade Of Chaos + Shadow Legion",
       "lists": 2,
-      "games": 12,
-      "win_rate": 12.5,
+      "games": 10,
+      "win_rate": 40.0,
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Leagues of Votann \u2014 Farseekers + Persecution Prospect",
+      "base_archetype": "Adeptus Custodes \u2014 Shield Host + Tharanatoi Hammerblow",
       "lists": 2,
-      "games": 12,
-      "win_rate": 20.8,
+      "games": 10,
+      "win_rate": 50.0,
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Blood Angels \u2014 The Angelic Host + Vengeful Hosts",
-      "lists": 2,
-      "games": 11,
-      "win_rate": 4.5,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "T'au Empire \u2014 Auxiliary Cadre + Kauyon",
+      "base_archetype": "Chaos Daemons \u2014 Blood Legion + Cavalcade Of Chaos",
       "lists": 2,
       "games": 10,
       "win_rate": 60.0,
       "x0_pct": 0.0
     },
     {
+      "base_archetype": "Drukhari \u2014 Kabalite Agonysts + Skysplinter Assault",
+      "lists": 2,
+      "games": 10,
+      "win_rate": 40.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Necrons \u2014 Obeisance Phalanx + The Phaeron'S Armoury",
+      "lists": 2,
+      "games": 10,
+      "win_rate": 45.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Aeldari \u2014 Fateful Performance + Seer Council",
+      "lists": 2,
+      "games": 9,
+      "win_rate": 27.8,
+      "x0_pct": 0.0
+    },
+    {
       "base_archetype": "Astra Militarum \u2014 Bridgehead Strike + Siege Regiment",
       "lists": 2,
       "games": 10,
-      "win_rate": 50.0,
+      "win_rate": 20.0,
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Space Marines (Astartes) \u2014 Librarius Conclave + Shadowmark Talon",
+      "base_archetype": "Drukhari \u2014 Kabalite Cartel + Tools Of Torment",
       "lists": 2,
-      "games": 11,
-      "win_rate": 45.5,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Chaos Space Marines \u2014 Cabal Of Chaos + Veterans Of The Long War",
-      "lists": 2,
-      "games": 11,
-      "win_rate": 54.5,
+      "games": 10,
+      "win_rate": 90.0,
       "x0_pct": 50.0
     },
     {
-      "base_archetype": "Genestealer Cults \u2014 Biosanctic Broodsurge + Heroes Of The Uprising",
-      "lists": 2,
-      "games": 11,
-      "win_rate": 50.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Tyranids \u2014 Synaptic Nexus + Talons Of The Norn Queen",
-      "lists": 2,
-      "games": 10,
-      "win_rate": 50.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Drukhari \u2014 Kabalite Agonysts + Skysplinter Assault",
-      "lists": 2,
-      "games": 12,
-      "win_rate": 70.8,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Thousand Sons \u2014 Sekhetar Cohort + Warpforged Cabal",
-      "lists": 2,
-      "games": 12,
-      "win_rate": 50.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "World Eaters \u2014 Brazen Engines + Goretrack Onslaught",
-      "lists": 2,
-      "games": 12,
-      "win_rate": 37.5,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Thousand Sons \u2014 Ritual Of Regeneration + Sekhetar Cohort + Servants Of Change",
-      "lists": 2,
-      "games": 12,
-      "win_rate": 37.5,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Imperial Knights \u2014 Gate Warden Lance + Questor Forgepact",
-      "lists": 2,
-      "games": 12,
-      "win_rate": 25.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Necrons \u2014 Pantheon Of Woe + Skyshroud Spearhead",
+      "base_archetype": "Drukhari \u2014 No Detachment",
       "lists": 1,
       "games": 5,
-      "win_rate": 100.0,
-      "x0_pct": 100.0
+      "win_rate": 60.0,
+      "x0_pct": 0.0
     },
     {
-      "base_archetype": "Necrons \u2014 Obeisance Phalanx + Skyshroud Spearhead",
+      "base_archetype": "Leagues of Votann \u2014 Armoured Trailblazers + Brandfast Oathband",
       "lists": 1,
       "games": 5,
       "win_rate": 40.0,
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Space Marines (Astartes) \u2014 Orbital Assault Force + Subversion Assets",
+      "base_archetype": "Chaos Daemons \u2014 Cavalcade Of Chaos + Plague Legion",
       "lists": 1,
       "games": 5,
-      "win_rate": 0.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Space Marines (Astartes) \u2014 Stormlance Task Force",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 100.0,
-      "x0_pct": 100.0
-    },
-    {
-      "base_archetype": "Space Wolves \u2014 Saga Of The Beastslayer + Veterans Of The Fang",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 50.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Necrons \u2014 Pantheon Of Woe + The Phaeron'S Armoury",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 50.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Black Templars \u2014 Stormlance Task Force + The Living Miracle",
-      "lists": 1,
-      "games": 4,
-      "win_rate": 37.5,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Astra Militarum \u2014 Designation Force + Siege Regiment",
-      "lists": 1,
-      "games": 6,
-      "win_rate": 83.3,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Leagues of Votann \u2014 Armoured Trailblazers + D\u00ealve Assault Shift",
-      "lists": 1,
-      "games": 6,
-      "win_rate": 83.3,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Death Guard \u2014 Shamblerot Vectorium",
-      "lists": 1,
-      "games": 6,
-      "win_rate": 66.7,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Orks \u2014 Da Big Hunt + Green Tide + and Madcap Meks",
-      "lists": 1,
-      "games": 6,
-      "win_rate": 58.3,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Orks \u2014 Flyboyz + Madcap Meks + and Wreckas",
-      "lists": 1,
-      "games": 6,
-      "win_rate": 58.3,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Orks \u2014 Blitz Brigade + Da Big Hunt + and Wurrband",
-      "lists": 1,
-      "games": 6,
-      "win_rate": 58.3,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Chaos Space Marines \u2014 Cabal of Chaos & Fellhammer Siege-host",
-      "lists": 1,
-      "games": 6,
-      "win_rate": 50.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Necrons \u2014 Obeisance Phalanx + The Phaeron'S Armoury",
-      "lists": 1,
-      "games": 6,
-      "win_rate": 50.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Orks \u2014 Bully Boyz + Dread Mob + Madcap Meks",
-      "lists": 1,
-      "games": 6,
-      "win_rate": 50.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Space Wolves \u2014 Saga Of The Great Wolf + Veterans Of The Fang",
-      "lists": 1,
-      "games": 6,
-      "win_rate": 41.7,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Adeptus Mechanicus \u2014 Cohort Acquisitus + Lords Of The Forge + Luminen Auto-Choir",
-      "lists": 1,
-      "games": 6,
-      "win_rate": 33.3,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Leagues of Votann \u2014 Armoured Trailblazers + Farseekers + and Hearthguard Covenant",
-      "lists": 1,
-      "games": 6,
-      "win_rate": 33.3,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Orks \u2014 Da Big Hunt + Wreckas + Wurrband",
-      "lists": 1,
-      "games": 6,
-      "win_rate": 33.3,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Dark Angels \u2014 Company of Hunters",
-      "lists": 1,
-      "games": 6,
-      "win_rate": 33.3,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Drukhari DETACHMENT: Kabalite Cartel, Tools of Torment (Murderous Agenda) \u2014 Kabalite Cartel",
-      "lists": 1,
-      "games": 6,
-      "win_rate": 33.3,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Astra Militarum \u2014 Siege Regiment",
-      "lists": 1,
-      "games": 6,
-      "win_rate": 33.3,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Orks \u2014 Flyboyz + Madcap Meks + Wreckas",
-      "lists": 1,
-      "games": 6,
-      "win_rate": 25.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Chaos Space Marines \u2014 Dread Talons + Murdertalon Raiders",
-      "lists": 1,
-      "games": 6,
-      "win_rate": 25.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Genestealer Cults \u2014 Heroes Of The Uprising + Purestrain Broodswarm + and Xenocult Masses",
-      "lists": 1,
-      "games": 6,
-      "win_rate": 16.7,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Drukhari \u2014 Kabalite Cartel",
-      "lists": 1,
-      "games": 6,
-      "win_rate": 8.3,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Emperor's Children \u2014 Peerless Bladesmen",
-      "lists": 1,
-      "games": 6,
-      "win_rate": 0.0,
+      "win_rate": 20.0,
       "x0_pct": 0.0
     },
     {
@@ -723,175 +377,294 @@
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Orks \u2014 Green Tide + Taktikal Brigade + and Wurrband",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 60.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Orks \u2014 Brute Bosses + Green Tide + Madcap Meks",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 60.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Orks \u2014 Bully Boyz + Green Tide + Wurrband",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 40.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Chaos Space Marines \u2014 Cabal Of Chaos + Warpstrike Champions",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 40.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Death Guard \u2014 Flyblown Host + Tallyband Summoners",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 40.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Leagues of Votann \u2014 Persecution Prospect",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 30.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Space Marines (Astartes) \u2014 Spearpoint Task Force + Vengeful Hosts",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 80.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Space Marines (Astartes) \u2014 Shadowmark Talon + Vengeful Hosts",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 60.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Chaos Daemons \u2014 Blood Legion + Cavalcade Of Chaos",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 30.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Aeldari \u2014 Fateful Performance + Spirit Conclave",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 20.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Grey Knights \u2014 No Detachment",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 10.0,
-      "x0_pct": 0.0
-    },
-    {
-      "base_archetype": "Aeldari \u2014 No Detachment",
+      "base_archetype": "Grey Knights \u2014 Brotherhood Strike + Fires Of Purgation",
       "lists": 1,
       "games": 5,
       "win_rate": 0.0,
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Aeldari \u2014 Armoured Warhost + Windrider Host",
+      "base_archetype": "Orks \u2014 Madcap Meks + Shoota Boyz + Wreckas",
       "lists": 1,
-      "games": 6,
-      "win_rate": 83.3,
+      "games": 5,
+      "win_rate": 80.0,
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Orks \u2014 Brute Bosses + Kult Of Speed + Madcap Meks",
+      "base_archetype": "Orks \u2014 Dread Mob + Madcap Meks + Wreckas",
       "lists": 1,
-      "games": 6,
-      "win_rate": 66.7,
+      "games": 5,
+      "win_rate": 60.0,
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Blood Angels \u2014 Stormlance Task Force + Vengeful Hosts",
+      "base_archetype": "Tyranids \u2014 Ambush Predators + Crusher Stampede",
       "lists": 1,
-      "games": 6,
-      "win_rate": 66.7,
+      "games": 5,
+      "win_rate": 40.0,
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Orks \u2014 Blitz Brigade + Madcap Meks + Runt Swarm",
+      "base_archetype": "Astra Militarum \u2014 Designation Force + Siege Regiment",
       "lists": 1,
-      "games": 6,
+      "games": 5,
+      "win_rate": 40.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Orks \u2014 Green Tide + Runt Swarm + Wurrband",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 10.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Dark Angels \u2014 Company Of Hunters + Dark Age Arsenal",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 0.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Orks \u2014 Dread Mob + Madcap Meks + and Shoota Boyz",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 80.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Drukhari \u2014 Kabalite Agonysts + Spectacle Of Spite",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 70.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Adepta Sororitas \u2014 Bringers Of Flame + Sanctified Orators",
+      "lists": 1,
+      "games": 5,
       "win_rate": 50.0,
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Orks \u2014 Dread Mob + Madcap",
+      "base_archetype": "World Eaters \u2014 Brazen Engines + Butchers Of Khorne + Vessels Of Wrath",
       "lists": 1,
-      "games": 6,
+      "games": 5,
       "win_rate": 50.0,
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Orks \u2014 Bully Boyz + Da Big Hunt + Wurrband",
+      "base_archetype": "Death Guard \u2014 Flyblown Host + Tallyband Summoners",
       "lists": 1,
-      "games": 6,
-      "win_rate": 33.3,
+      "games": 5,
+      "win_rate": 50.0,
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Leagues of Votann \u2014 Armoured Trailblazers + Brandfast Oathband",
+      "base_archetype": "World Eaters \u2014 Brazen Engines + Goretrack Onslaught",
       "lists": 1,
-      "games": 6,
-      "win_rate": 33.3,
+      "games": 5,
+      "win_rate": 30.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Space Marines (Astartes) \u2014 Shadowmark Talon + Vengeful Hosts",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 30.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Orks \u2014 Dread Mob + Madcap Meks + and Wreckas",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 100.0,
+      "x0_pct": 100.0
+    },
+    {
+      "base_archetype": "Chaos Space Marines \u2014 Warpstrike Champions",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 60.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Emperor's Children \u2014 Court Of The Phoenician + Spectacle Of Slaughter",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 60.0,
       "x0_pct": 0.0
     },
     {
       "base_archetype": "Grey Knights \u2014 Banishers",
       "lists": 1,
-      "games": 6,
-      "win_rate": 33.3,
+      "games": 5,
+      "win_rate": 50.0,
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Necrons \u2014 Hand Of The Dynasty + Pantheon Of Woe",
+      "base_archetype": "Adeptus Mechanicus \u2014 Cohort Cybernetica + Luminen Auto-Choir",
       "lists": 1,
-      "games": 6,
-      "win_rate": 33.3,
+      "games": 5,
+      "win_rate": 50.0,
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Orks \u2014 Dread Mob + Wreckas + Wurrband",
+      "base_archetype": "Tyranids \u2014 Synaptic Nexus",
       "lists": 1,
-      "games": 6,
-      "win_rate": 16.7,
+      "games": 5,
+      "win_rate": 50.0,
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "T'au Empire \u2014 Kauyon . auxiliary cadre",
+      "base_archetype": "T'au Empire \u2014 Auxiliary Cadre + Kauyon",
       "lists": 1,
-      "games": 6,
-      "win_rate": 16.7,
+      "games": 5,
+      "win_rate": 40.0,
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Necrons \u2014 Pantheon of Woe",
+      "base_archetype": "Aeldari \u2014 Fateful Performance + Guardian Battlehost",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 40.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Leagues of Votann \u2014 Armoured Trailblazers + Farseekers + and Hearthguard Covenant",
       "lists": 1,
       "games": 5,
       "win_rate": 20.0,
       "x0_pct": 0.0
     },
     {
-      "base_archetype": "Leagues of Votann \u2014 Needga\u00e2rd Oathband",
+      "base_archetype": "Orks \u2014 Brute Bosses + Bully Boyz + Madcap Meks",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 90.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Emperor's Children \u2014 Carnival Of Excess + Spectacle Of Slaughter",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 60.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Thousand Sons \u2014 Sekhetar Cohort + Warpforged Cabal",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 60.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Genestealer Cults \u2014 Biosanctic Broodsurge + Heroes Of The Uprising",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 50.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Adepta Sororitas \u2014 Champions Of Faith + Sanctified Orators",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 50.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Dark Angels \u2014 Stormlance Task Force",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 50.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Chaos Knights \u2014 Helhunt Lance",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 40.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Thousand Sons \u2014 Warpforged Cabal",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 30.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Imperial Knights \u2014 Questor Forgepact + Spearhead-At-Arms",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 30.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Tyranids \u2014 Ambush Predators + Assimilation Swarm",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 10.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Aeldari \u2014 Eldritch Raiders + Fateful Performance",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 10.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Death Guard \u2014 Paragons Of Putrescence + Tallyband Summoners",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 60.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Thousand Sons \u2014 Ritual Of Regeneration + Sekhetar Cohort + Servants Of Change",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 80.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Tyranids \u2014 Synaptic Nexus + Warrior Bioform Onslaught",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 40.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Tyranids \u2014 Synaptic Nexus + Talons Of The Norn Queen",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 20.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Necrons \u2014 Pantheon Of Woe + Skyshroud Spearhead",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 60.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Orks \u2014 Blitz Brigade + Kult Of Speed + Wurrband",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 40.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Leagues of Votann \u2014 Farseekers + Persecution Prospect",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 40.0,
+      "x0_pct": 0.0
+    },
+    {
+      "base_archetype": "Grey Knights \u2014 Banishers + Immaterial Interdiction",
       "lists": 1,
       "games": 5,
       "win_rate": 40.0,
@@ -901,149 +674,149 @@
   "matchups": [
     {
       "opponent": "Priority Assets",
-      "wins": 105,
-      "games": 241,
-      "win_rate": 43.8
+      "wins": 63,
+      "games": 127,
+      "win_rate": 50.0
     },
     {
       "opponent": "Purge the Foe",
-      "wins": 106,
-      "games": 276,
-      "win_rate": 38.4
+      "wins": 72,
+      "games": 151,
+      "win_rate": 47.7
     },
     {
       "opponent": "Reconnaissance",
-      "wins": 115,
-      "games": 242,
-      "win_rate": 47.5
+      "wins": 71,
+      "games": 140,
+      "win_rate": 50.7
     },
     {
       "opponent": "Take and Hold",
-      "wins": 114,
-      "games": 288,
-      "win_rate": 39.8
+      "wins": 78,
+      "games": 166,
+      "win_rate": 47.3
     }
   ],
   "top_players": [
     {
+      "player_name": "Anders Petersen",
+      "faction": "Emperor's Children",
+      "detachment": "Carnival Of Excess + Frenzied Host",
+      "list_url": "https://www.bestcoastpairings.com/list/8KqLGFW09SWQ",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Tim Schneider",
+      "faction": "Leagues of Votann",
+      "detachment": "Armoured Trailblazers + Needga\u00e2rd Oathband",
+      "list_url": "https://www.bestcoastpairings.com/list/izPEY1rXq3hw",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Dylan Cowan",
+      "faction": "Emperor's Children",
+      "detachment": "Carnival Of Excess + Frenzied Host",
+      "list_url": "https://www.bestcoastpairings.com/list/NbQM8SgBdyym",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Cameron Prebble",
+      "faction": "Tyranids",
+      "detachment": "Subterranean Assault",
+      "list_url": "https://www.bestcoastpairings.com/list/XEFVb3Mh13hV",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Codie Clapton",
+      "faction": "Orks",
+      "detachment": "Dread Mob + Madcap Meks + and Wreckas",
+      "list_url": "https://www.bestcoastpairings.com/list/PHJ0clHzmrbt",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Bram Broadcastle",
+      "faction": "Drukhari",
+      "detachment": "Kabalite Cartel + Tools Of Torment",
+      "list_url": "https://www.bestcoastpairings.com/list/r2fY6KZoskag",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Woody Wu",
+      "faction": "Dark Angels",
+      "detachment": "Company Of Hunters + Darkflight Pursuit",
+      "list_url": "https://www.bestcoastpairings.com/list/8MQxNtZo1EyZ",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Alfonso Barajas",
+      "faction": "Emperor's Children",
+      "detachment": "Carnival Of Excess + Frenzied Host",
+      "list_url": "https://www.bestcoastpairings.com/list/YXZvB3wYTGSc",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Shadowblade 40K",
+      "faction": "Dark Angels",
+      "detachment": "Company Of Hunters + Darkflight Pursuit",
+      "list_url": "https://www.bestcoastpairings.com/list/olHHuzJvaRjj",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
+    {
       "player_name": "liam Vsl",
       "faction": "Chaos Space Marines",
       "detachment": "Cabal Of Chaos + Veterans Of The Long War",
-      "list_url": "https://www.bestcoastpairings.com/list/z5g8W0vsu3J6",
+      "list_url": "https://www.bestcoastpairings.com/list/XXzgGieJxTXn",
       "source": "bcp",
-      "wins": 6,
+      "wins": 4,
       "losses": 0,
-      "draws": 0,
-      "games": 6,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Maciej Ciupa",
-      "faction": "Chaos Knights",
-      "detachment": "Helhunt Lance + Hunting Warpack",
-      "list_url": "https://www.bestcoastpairings.com/list/BJBRJWCLOFfU",
-      "source": "bcp",
-      "wins": 6,
-      "losses": 0,
-      "draws": 0,
-      "games": 6,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Justin Jansen",
-      "faction": "Necrons",
-      "detachment": "Pantheon Of Woe + Skyshroud Spearhead",
-      "list_url": "https://www.bestcoastpairings.com/list/qozxKZhk0Iaj",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
+      "draws": 1,
       "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Lewis Ferrari",
-      "faction": "Dark Angels",
-      "detachment": "Company Of Hunters + Darkflight Pursuit",
-      "list_url": "https://www.bestcoastpairings.com/list/BScAdXfa7CWc",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Shane Sheppard",
-      "faction": "Space Marines (Astartes)",
-      "detachment": "Stormlance Task Force",
-      "list_url": "https://www.bestcoastpairings.com/list/h18DIexTl3mN",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Alex Nicolic",
-      "faction": "Death Guard",
-      "detachment": "Paragons Of Putrescence + Shamblerot Vectorium",
-      "list_url": "https://www.bestcoastpairings.com/list/0OlJAP8fbB8p",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Oliver Gaisford",
-      "faction": "Emperor's Children",
-      "detachment": "Carnival Of Excess + Frenzied Host",
-      "list_url": "https://www.bestcoastpairings.com/list/gKZphjkC8ggY",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Manu Santana",
-      "faction": "Genestealer Cults",
-      "detachment": "",
-      "list_url": "https://www.bestcoastpairings.com/list/rN6utoqTCrse",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Gandiaga Abe",
-      "faction": "Emperor's Children",
-      "detachment": "",
-      "list_url": "https://www.bestcoastpairings.com/list/yumDkD3kPnhO",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Matthew McCurdy",
-      "faction": "Space Wolves",
-      "detachment": "Stormlance Task Force",
-      "list_url": "https://www.bestcoastpairings.com/list/0SWHy7Fk2Z4S",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
+      "win_rate": 90.0
     }
   ]
 }
