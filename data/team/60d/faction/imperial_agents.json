@@ -1,65 +1,46 @@
 {
   "faction": "Imperial Agents",
   "slug": "imperial_agents",
-  "as_of": "2026-09-22",
+  "as_of": "2026-09-28",
   "window_days": 60,
   "event_type": "team",
   "lists": 6,
   "games": 31,
   "play_rate": 0.1,
-  "win_rate": 37.1,
-  "trend_delta": -12.9,
+  "win_rate": 46.8,
+  "trend_delta": 6.8,
   "top_detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
-  "ci_lower": 22.4,
+  "ci_lower": 30.6,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 0.0,
+  "x1_pct": 16.7,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 25.0,
+    "win_rate": 37.5,
     "games": 16
   },
   "second_turn": {
-    "win_rate": 50.0,
+    "win_rate": 56.7,
     "games": 15
   },
   "detachments": [
     {
       "detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
       "base_archetype": "Imperial Agents \u2014 Imperialis Fleet + Veiled Blade Elimination Force",
-      "lists": 5,
-      "games": 26,
-      "play_rate": 83.3,
-      "win_rate": 42.3,
+      "lists": 6,
+      "games": 31,
+      "play_rate": 100.0,
+      "win_rate": 46.8,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
+      "x1_pct": 16.7,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 25.0,
+        "win_rate": 37.5,
         "games": 16
       },
       "second_turn": {
-        "win_rate": 50.0,
+        "win_rate": 56.7,
         "games": 15
-      }
-    },
-    {
-      "detachment": "Imperialis Fleet",
-      "base_archetype": "Imperial Agents \u2014 Imperialis Fleet",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 16.7,
-      "win_rate": 10.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": null,
-        "games": 0
-      },
-      "second_turn": {
-        "win_rate": null,
-        "games": 0
       }
     }
   ],
@@ -68,16 +49,16 @@
       "disposition": "Reconnaissance",
       "lists": 4,
       "play_rate": 66.7,
-      "win_rate": 35.7,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
+      "x1_pct": 25.0,
       "games": 21.0,
       "first_turn": {
-        "win_rate": 27.3,
+        "win_rate": 45.5,
         "games": 11
       },
       "second_turn": {
-        "win_rate": 45.0,
+        "win_rate": 55.0,
         "games": 10
       }
     },
@@ -104,12 +85,12 @@
     {
       "disposition": "Reconnaissance",
       "opponent_disposition": "Purge the Foe",
-      "games": 6,
-      "wins": 2,
-      "win_rate": 41.7,
+      "games": 7,
+      "wins": 3,
+      "win_rate": 50.0,
       "first_turn": {
-        "win_rate": 25.0,
-        "games": 4
+        "win_rate": 40.0,
+        "games": 5
       },
       "second_turn": {
         "win_rate": 75.0,
@@ -119,35 +100,32 @@
     {
       "disposition": "Reconnaissance",
       "opponent_disposition": "Priority Assets",
-      "games": 6,
-      "wins": 2,
-      "win_rate": 41.7,
+      "games": 7,
+      "wins": 4,
+      "win_rate": 64.3,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 4
-      },
-      "second_turn": {
-        "win_rate": 25.0,
-        "games": 2
-      }
-    },
-    {
-      "disposition": "Reconnaissance",
-      "opponent_disposition": "Reconnaissance",
-      "games": 5,
-      "wins": 1,
-      "win_rate": 30.0,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 50.0,
+        "win_rate": 66.7,
         "games": 3
+      },
+      "second_turn": {
+        "win_rate": 62.5,
+        "games": 4
       }
     }
   ],
   "top_players": [
+    {
+      "player_name": "Andrew Gilbert",
+      "detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/TpXYDayK3OvZ",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
     {
       "player_name": "Ross Tully",
       "detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
@@ -185,18 +163,6 @@
       "win_rate": 50.0
     },
     {
-      "player_name": "Dwayne Preston",
-      "detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/6dgpTGMzkspj",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 4,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 20.0
-    },
-    {
       "player_name": "Jacob Wells",
       "detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
       "disposition": "Disruption",
@@ -210,7 +176,7 @@
     },
     {
       "player_name": "Sam Fagan",
-      "detachment": "Imperialis Fleet",
+      "detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
       "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/4L1V66eCnieT",
       "source": "bcp",
@@ -223,22 +189,6 @@
   ],
   "matchups": [],
   "timeline": [
-    {
-      "week": "2026-W29",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 20.0,
-      "total_lists": 400,
-      "play_rate": 0.2,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 50.0,
-        "games": 2
-      }
-    },
     {
       "week": "2026-W31",
       "lists": 2,
@@ -285,6 +235,22 @@
       "second_turn": {
         "win_rate": 50.0,
         "games": 5
+      }
+    },
+    {
+      "week": "2026-W38",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 80.0,
+      "total_lists": 547,
+      "play_rate": 0.2,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 2
       }
     }
   ]

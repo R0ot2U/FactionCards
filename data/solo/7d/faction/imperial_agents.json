@@ -1,186 +1,195 @@
 {
   "faction": "Imperial Agents",
   "slug": "imperial_agents",
-  "as_of": "2026-09-22",
+  "as_of": "2026-09-28",
   "window_days": 7,
   "event_type": "solo",
-  "lists": 5,
-  "games": 24,
-  "play_rate": 0.9,
-  "win_rate": 54.2,
-  "trend_delta": 6.7,
+  "lists": 9,
+  "games": 44,
+  "play_rate": 0.5,
+  "win_rate": 42.0,
+  "trend_delta": -12.2,
   "top_detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
-  "ci_lower": 35.1,
+  "ci_lower": 28.7,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 0.0,
+  "x1_pct": 11.1,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 42.9,
-    "games": 14
+    "win_rate": 36.8,
+    "games": 19
   },
   "second_turn": {
-    "win_rate": 70.0,
-    "games": 10
+    "win_rate": 46.0,
+    "games": 25
   },
   "detachments": [
     {
       "detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
       "base_archetype": "Imperial Agents \u2014 Imperialis Fleet + Veiled Blade Elimination Force",
-      "lists": 2,
-      "games": 11,
-      "play_rate": 40.0,
-      "win_rate": 54.5,
+      "lists": 9,
+      "games": 44,
+      "play_rate": 100.0,
+      "win_rate": 42.0,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
+      "x1_pct": 11.1,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 25.0,
-        "games": 4
+        "win_rate": 36.8,
+        "games": 19
       },
       "second_turn": {
-        "win_rate": 71.4,
-        "games": 7
-      }
-    },
-    {
-      "detachment": "Imperialis Fleet",
-      "base_archetype": "Imperial Agents \u2014 Imperialis Fleet",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 20.0,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 66.7,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 50.0,
-        "games": 2
-      }
-    },
-    {
-      "detachment": "Ordo Hereticus + Purgation Force",
-      "base_archetype": "Imperial Agents \u2014 Ordo Hereticus + Purgation Force",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 20.0,
-      "win_rate": 40.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 25.0,
-        "games": 4
-      },
-      "second_turn": {
-        "win_rate": 100.0,
-        "games": 1
+        "win_rate": 46.0,
+        "games": 25
       }
     }
   ],
   "dispositions": [
     {
       "disposition": "Reconnaissance",
-      "lists": 3,
-      "play_rate": 60.0,
-      "win_rate": 56.2,
+      "lists": 8,
+      "play_rate": 88.9,
+      "win_rate": 44.9,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 16.0,
+      "x1_pct": 12.5,
+      "games": 39.0,
       "first_turn": {
-        "win_rate": 42.9,
-        "games": 7
+        "win_rate": 41.2,
+        "games": 17
       },
       "second_turn": {
-        "win_rate": 66.7,
+        "win_rate": 47.7,
+        "games": 22
+      }
+    },
+    {
+      "disposition": "Disruption",
+      "lists": 1,
+      "play_rate": 11.1,
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5.0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
+    }
+  ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 18,
+      "wins": 4,
+      "win_rate": 22.2,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 9
+      },
+      "second_turn": {
+        "win_rate": 44.4,
         "games": 9
       }
     },
     {
-      "disposition": "Take and Hold",
-      "lists": 2,
-      "play_rate": 40.0,
-      "win_rate": 50.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 8.0,
-      "first_turn": {
-        "win_rate": 42.9,
-        "games": 7
-      },
-      "second_turn": {
-        "win_rate": 100.0,
-        "games": 1
-      }
-    }
-  ],
-  "disposition_matchups": [],
-  "disposition_cross": [
-    {
-      "disposition": "Reconnaissance",
       "opponent_disposition": "Priority Assets",
-      "games": 5,
-      "wins": 3,
-      "win_rate": 60.0,
-      "first_turn": {
-        "win_rate": 66.7,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 50.0,
-        "games": 2
-      }
-    },
-    {
-      "disposition": "Reconnaissance",
-      "opponent_disposition": "Take and Hold",
-      "games": 5,
-      "wins": 2,
-      "win_rate": 40.0,
+      "games": 12,
+      "wins": 4,
+      "win_rate": 37.5,
       "first_turn": {
         "win_rate": 33.3,
         "games": 3
       },
       "second_turn": {
+        "win_rate": 38.9,
+        "games": 9
+      }
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Take and Hold",
+      "games": 15,
+      "wins": 4,
+      "win_rate": 26.7,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 7
+      },
+      "second_turn": {
         "win_rate": 50.0,
-        "games": 2
+        "games": 8
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Priority Assets",
+      "games": 10,
+      "wins": 3,
+      "win_rate": 35.0,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 35.7,
+        "games": 7
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Purge the Foe",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 66.7,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Disruption",
+      "games": 5,
+      "wins": 4,
+      "win_rate": 80.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 4
       }
     }
   ],
   "top_players": [
     {
-      "player_name": "Sabastian Warnas",
+      "player_name": "Joseph Sault",
       "detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
       "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/KjuAPl6EqfIc",
+      "list_url": "https://www.bestcoastpairings.com/list/kcgrnE0biqaw",
       "source": "bcp",
       "wins": 4,
-      "losses": 2,
-      "draws": 0,
-      "games": 6,
-      "win_rate": 66.7
-    },
-    {
-      "player_name": "geo martin",
-      "detachment": "",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/MKYnk9sxEH6g",
-      "source": "bcp",
-      "wins": 2,
       "losses": 1,
       "draws": 0,
-      "games": 3,
-      "win_rate": 66.7
+      "games": 5,
+      "win_rate": 80.0
     },
     {
-      "player_name": "Dan Richards",
-      "detachment": "Imperialis Fleet",
+      "player_name": "Arin Lavery",
+      "detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
       "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/vcSfIGVXmEaa",
+      "list_url": "https://www.bestcoastpairings.com/list/1wVEy4myFEb3",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -189,10 +198,22 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Pascal Semmler",
+      "player_name": "James Sadler",
       "detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
       "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/HY9ILhQqUTiG",
+      "list_url": "https://www.bestcoastpairings.com/list/mQzbb72mfSil",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 2,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 50.0
+    },
+    {
+      "player_name": "Aron Provijn",
+      "detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/Mj799DATucdi",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
@@ -201,34 +222,97 @@
       "win_rate": 40.0
     },
     {
-      "player_name": "Jolyon Stone",
-      "detachment": "Ordo Hereticus + Purgation Force",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/XahjLowadGQh",
+      "player_name": "Joel Cox",
+      "detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/yuAWL0gYFsVb",
       "source": "bcp",
       "wins": 2,
       "losses": 3,
       "draws": 0,
       "games": 5,
       "win_rate": 40.0
+    },
+    {
+      "player_name": "Jacob Wells",
+      "detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/FyfI7YuEQWKL",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Chris Stern",
+      "detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/2n6Dm4KXAD3a",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "George Small",
+      "detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/6tsZFG2TLYFh",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Jens Furchtmann",
+      "detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/oDbUf7CqCDij",
+      "source": "bcp",
+      "wins": 0,
+      "losses": 4,
+      "draws": 0,
+      "games": 4,
+      "win_rate": 0.0
     }
   ],
-  "matchups": [],
-  "timeline": [
+  "matchups": [
     {
-      "week": "2026-W37",
-      "lists": 5,
-      "games": 24,
-      "win_rate": 54.2,
-      "total_lists": 586,
-      "play_rate": 0.9,
+      "opponent_faction": "Adeptus Custodes",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0,
       "first_turn": {
-        "win_rate": 42.9,
-        "games": 14
+        "win_rate": 0.0,
+        "games": 2
       },
       "second_turn": {
-        "win_rate": 70.0,
-        "games": 10
+        "win_rate": 75.0,
+        "games": 4
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "week": "2026-W38",
+      "lists": 9,
+      "games": 44,
+      "win_rate": 42.0,
+      "total_lists": 1690,
+      "play_rate": 0.5,
+      "first_turn": {
+        "win_rate": 36.8,
+        "games": 19
+      },
+      "second_turn": {
+        "win_rate": 46.0,
+        "games": 25
       }
     }
   ]
