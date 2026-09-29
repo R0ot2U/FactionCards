@@ -1,7 +1,7 @@
 {
   "faction": "Adeptus Mechanicus",
   "slug": "adeptus_mechanicus",
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "window_days": 9999,
   "event_type": "solo",
   "lists": 325,
@@ -9,7 +9,7 @@
   "play_rate": 2.4,
   "win_rate": 48.0,
   "trend_delta": null,
-  "top_detachment": "Cohort Cybernetica + Lords Of The Forge",
+  "top_detachment": "Lords Of The Forge + Rad-Zone Corps",
   "ci_lower": 45.7,
   "meta_health": "slightly_under",
   "x0_pct": 3.4,
@@ -24,6 +24,25 @@
     "games": 889
   },
   "detachments": [
+    {
+      "detachment": "Lords Of The Forge + Rad-Zone Corps",
+      "base_archetype": "Adeptus Mechanicus \u2014 Lords Of The Forge + Rad-Zone Corps",
+      "lists": 98,
+      "games": 519,
+      "play_rate": 30.2,
+      "win_rate": 51.3,
+      "x0_pct": 2.1,
+      "x1_pct": 14.4,
+      "tournament_wins": 2,
+      "first_turn": {
+        "win_rate": 51.5,
+        "games": 238
+      },
+      "second_turn": {
+        "win_rate": 50.4,
+        "games": 271
+      }
+    },
     {
       "detachment": "Cohort Cybernetica + Lords Of The Forge",
       "base_archetype": "Adeptus Mechanicus \u2014 Cohort Cybernetica + Lords Of The Forge",
@@ -41,25 +60,6 @@
       "second_turn": {
         "win_rate": 52.2,
         "games": 228
-      }
-    },
-    {
-      "detachment": "Lords Of The Forge + Rad-Zone Corps",
-      "base_archetype": "Adeptus Mechanicus \u2014 Lords Of The Forge + Rad-Zone Corps",
-      "lists": 86,
-      "games": 471,
-      "play_rate": 26.5,
-      "win_rate": 49.8,
-      "x0_pct": 2.3,
-      "x1_pct": 11.6,
-      "tournament_wins": 2,
-      "first_turn": {
-        "win_rate": 51.5,
-        "games": 238
-      },
-      "second_turn": {
-        "win_rate": 50.4,
-        "games": 271
       }
     },
     {
@@ -101,25 +101,6 @@
       }
     },
     {
-      "detachment": "Rad-Zone Corps",
-      "base_archetype": "Adeptus Mechanicus \u2014 Rad-Zone Corps",
-      "lists": 15,
-      "games": 68,
-      "play_rate": 4.6,
-      "win_rate": 65.4,
-      "x0_pct": 0.0,
-      "x1_pct": 35.7,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 62.5,
-        "games": 8
-      },
-      "second_turn": {
-        "win_rate": 57.1,
-        "games": 7
-      }
-    },
-    {
       "detachment": "Eradication Cohort",
       "base_archetype": "Adeptus Mechanicus \u2014 Eradication Cohort",
       "lists": 14,
@@ -141,12 +122,12 @@
     {
       "detachment": "No Detachment",
       "base_archetype": "Adeptus Mechanicus \u2014 No Detachment",
-      "lists": 11,
-      "games": 47,
-      "play_rate": 3.4,
-      "win_rate": 35.1,
+      "lists": 12,
+      "games": 52,
+      "play_rate": 3.7,
+      "win_rate": 35.6,
       "x0_pct": 0.0,
-      "x1_pct": 10.0,
+      "x1_pct": 9.1,
       "tournament_wins": 0,
       "first_turn": {
         "win_rate": null,
@@ -231,6 +212,25 @@
       "second_turn": {
         "win_rate": 25.0,
         "games": 10
+      }
+    },
+    {
+      "detachment": "Rad-Zone Corps",
+      "base_archetype": "Adeptus Mechanicus \u2014 Rad-Zone Corps",
+      "lists": 3,
+      "games": 20,
+      "play_rate": 0.9,
+      "win_rate": 65.0,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 62.5,
+        "games": 8
+      },
+      "second_turn": {
+        "win_rate": 57.1,
+        "games": 7
       }
     },
     {
@@ -980,7 +980,7 @@
     },
     {
       "player_name": "Samuel Martin",
-      "detachment": "Rad-Zone Corps",
+      "detachment": "Lords Of The Forge + Rad-Zone Corps",
       "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/dWMhGcPpRjUf",
       "source": "bcp",

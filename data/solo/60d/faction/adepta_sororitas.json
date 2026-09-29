@@ -1,46 +1,46 @@
 {
   "faction": "Adepta Sororitas",
   "slug": "adepta_sororitas",
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "window_days": 60,
   "event_type": "solo",
   "lists": 204,
-  "games": 1049,
+  "games": 1051,
   "play_rate": 2.2,
-  "win_rate": 51.3,
-  "trend_delta": 5.9,
+  "win_rate": 51.5,
+  "trend_delta": 6.1,
   "top_detachment": "Hallowed Martyrs",
-  "ci_lower": 48.3,
+  "ci_lower": 48.5,
   "meta_health": "slightly_under",
   "x0_pct": 2.5,
   "x1_pct": 12.7,
-  "tournament_wins": 3,
+  "tournament_wins": 4,
   "first_turn": {
-    "win_rate": 51.6,
-    "games": 537
+    "win_rate": 51.8,
+    "games": 539
   },
   "second_turn": {
-    "win_rate": 51.4,
-    "games": 499
+    "win_rate": 51.5,
+    "games": 500
   },
   "detachments": [
     {
       "detachment": "Hallowed Martyrs",
       "base_archetype": "Adepta Sororitas \u2014 Hallowed Martyrs",
-      "lists": 60,
-      "games": 335,
-      "play_rate": 29.4,
-      "win_rate": 52.1,
-      "x0_pct": 3.3,
-      "x1_pct": 16.7,
-      "tournament_wins": 0,
+      "lists": 59,
+      "games": 332,
+      "play_rate": 28.9,
+      "win_rate": 52.6,
+      "x0_pct": 3.4,
+      "x1_pct": 16.9,
+      "tournament_wins": 1,
       "first_turn": {
-        "win_rate": 49.4,
-        "games": 170
+        "win_rate": 50.0,
+        "games": 172
       },
       "second_turn": {
-        "win_rate": 56.7,
-        "games": 141
+        "win_rate": 57.0,
+        "games": 142
       }
     },
     {
@@ -85,9 +85,9 @@
       "detachment": "Penitent Host + Sacred Champions",
       "base_archetype": "Adepta Sororitas \u2014 Penitent Host + Sacred Champions",
       "lists": 16,
-      "games": 97,
+      "games": 99,
       "play_rate": 7.8,
-      "win_rate": 57.2,
+      "win_rate": 59.1,
       "x0_pct": 6.2,
       "x1_pct": 6.2,
       "tournament_wins": 1,
@@ -117,6 +117,25 @@
       "second_turn": {
         "win_rate": 34.8,
         "games": 23
+      }
+    },
+    {
+      "detachment": "No Detachment",
+      "base_archetype": "Adepta Sororitas \u2014 No Detachment",
+      "lists": 7,
+      "games": 30,
+      "play_rate": 3.4,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
       }
     },
     {
@@ -193,25 +212,6 @@
       "second_turn": {
         "win_rate": 75.0,
         "games": 4
-      }
-    },
-    {
-      "detachment": "No Detachment",
-      "base_archetype": "Adepta Sororitas \u2014 No Detachment",
-      "lists": 4,
-      "games": 15,
-      "play_rate": 2.0,
-      "win_rate": 53.3,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": null,
-        "games": 0
-      },
-      "second_turn": {
-        "win_rate": null,
-        "games": 0
       }
     },
     {
@@ -353,17 +353,17 @@
       "disposition": "Priority Assets",
       "lists": 144,
       "play_rate": 70.6,
-      "win_rate": 52.8,
+      "win_rate": 53.0,
       "x0_pct": 2.8,
       "x1_pct": 16.0,
-      "games": 728.0,
+      "games": 731.0,
       "first_turn": {
-        "win_rate": 53.8,
-        "games": 383
+        "win_rate": 54.0,
+        "games": 385
       },
       "second_turn": {
-        "win_rate": 53.3,
-        "games": 335
+        "win_rate": 53.4,
+        "games": 336
       }
     },
     {
@@ -438,16 +438,16 @@
   "disposition_matchups": [
     {
       "opponent_disposition": "Priority Assets",
-      "games": 310,
-      "wins": 154,
-      "win_rate": 49.7,
+      "games": 311,
+      "wins": 155,
+      "win_rate": 49.8,
       "first_turn": {
         "win_rate": 53.0,
         "games": 151
       },
       "second_turn": {
-        "win_rate": 46.5,
-        "games": 159
+        "win_rate": 46.9,
+        "games": 160
       }
     },
     {
@@ -466,12 +466,12 @@
     },
     {
       "opponent_disposition": "Reconnaissance",
-      "games": 199,
-      "wins": 98,
-      "win_rate": 49.2,
+      "games": 200,
+      "wins": 99,
+      "win_rate": 49.5,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 110
+        "win_rate": 50.5,
+        "games": 111
       },
       "second_turn": {
         "win_rate": 48.3,
@@ -480,12 +480,12 @@
     },
     {
       "opponent_disposition": "Purge the Foe",
-      "games": 173,
-      "wins": 94,
-      "win_rate": 54.6,
+      "games": 174,
+      "wins": 95,
+      "win_rate": 54.9,
       "first_turn": {
-        "win_rate": 55.1,
-        "games": 88
+        "win_rate": 55.6,
+        "games": 89
       },
       "second_turn": {
         "win_rate": 54.1,
@@ -601,27 +601,27 @@
     {
       "disposition": "Priority Assets",
       "opponent_disposition": "Priority Assets",
-      "games": 197,
-      "wins": 101,
-      "win_rate": 51.3,
+      "games": 198,
+      "wins": 102,
+      "win_rate": 51.5,
       "first_turn": {
         "win_rate": 52.5,
         "games": 101
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 96
+        "win_rate": 50.5,
+        "games": 97
       }
     },
     {
       "disposition": "Priority Assets",
       "opponent_disposition": "Reconnaissance",
-      "games": 133,
-      "wins": 64,
-      "win_rate": 48.5,
+      "games": 134,
+      "wins": 65,
+      "win_rate": 48.9,
       "first_turn": {
-        "win_rate": 45.1,
-        "games": 71
+        "win_rate": 45.8,
+        "games": 72
       },
       "second_turn": {
         "win_rate": 52.4,
@@ -631,12 +631,12 @@
     {
       "disposition": "Priority Assets",
       "opponent_disposition": "Purge the Foe",
-      "games": 123,
-      "wins": 69,
-      "win_rate": 56.5,
+      "games": 124,
+      "wins": 70,
+      "win_rate": 56.9,
       "first_turn": {
-        "win_rate": 55.8,
-        "games": 69
+        "win_rate": 56.4,
+        "games": 70
       },
       "second_turn": {
         "win_rate": 57.4,
@@ -883,6 +883,18 @@
       "win_rate": 90.9
     },
     {
+      "player_name": "Jean-Loup GENIN",
+      "detachment": "Hallowed Martyrs",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/eDJu1ULjSr3J",
+      "source": "bcp",
+      "wins": 14,
+      "losses": 2,
+      "draws": 0,
+      "games": 16,
+      "win_rate": 87.5
+    },
+    {
       "player_name": "Keven Rand",
       "detachment": "Army Of Faith + Sanctified Orators",
       "disposition": "Disruption",
@@ -893,18 +905,6 @@
       "draws": 1,
       "games": 4,
       "win_rate": 87.5
-    },
-    {
-      "player_name": "Jean-Loup GENIN",
-      "detachment": "Hallowed Martyrs",
-      "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/eDJu1ULjSr3J",
-      "source": "bcp",
-      "wins": 11,
-      "losses": 2,
-      "draws": 0,
-      "games": 13,
-      "win_rate": 84.6
     },
     {
       "player_name": "Fabian Bader",
@@ -1128,12 +1128,12 @@
     },
     {
       "opponent_faction": "Orks",
-      "games": 61,
-      "wins": 33,
-      "win_rate": 54.1,
+      "games": 62,
+      "wins": 34,
+      "win_rate": 54.8,
       "first_turn": {
-        "win_rate": 58.6,
-        "games": 29
+        "win_rate": 60.0,
+        "games": 30
       },
       "second_turn": {
         "win_rate": 50.0,
@@ -1211,6 +1211,20 @@
       }
     },
     {
+      "opponent_faction": "Dark Angels",
+      "games": 51,
+      "wins": 19,
+      "win_rate": 38.2,
+      "first_turn": {
+        "win_rate": 34.8,
+        "games": 33
+      },
+      "second_turn": {
+        "win_rate": 44.4,
+        "games": 18
+      }
+    },
+    {
       "opponent_faction": "Adeptus Custodes",
       "games": 51,
       "wins": 20,
@@ -1225,31 +1239,17 @@
       }
     },
     {
-      "opponent_faction": "Dark Angels",
-      "games": 50,
-      "wins": 18,
-      "win_rate": 37.0,
-      "first_turn": {
-        "win_rate": 32.8,
-        "games": 32
-      },
-      "second_turn": {
-        "win_rate": 44.4,
-        "games": 18
-      }
-    },
-    {
       "opponent_faction": "Death Guard",
-      "games": 46,
-      "wins": 22,
-      "win_rate": 48.9,
+      "games": 47,
+      "wins": 23,
+      "win_rate": 50.0,
       "first_turn": {
         "win_rate": 51.9,
         "games": 26
       },
       "second_turn": {
-        "win_rate": 45.0,
-        "games": 20
+        "win_rate": 47.6,
+        "games": 21
       }
     },
     {
@@ -1623,17 +1623,17 @@
     {
       "week": "2026-W38",
       "lists": 42,
-      "games": 186,
-      "win_rate": 51.3,
+      "games": 189,
+      "win_rate": 52.1,
       "total_lists": 1690,
       "play_rate": 2.5,
       "first_turn": {
-        "win_rate": 54.7,
-        "games": 95
+        "win_rate": 55.7,
+        "games": 97
       },
       "second_turn": {
-        "win_rate": 47.8,
-        "games": 91
+        "win_rate": 48.4,
+        "games": 92
       }
     }
   ]

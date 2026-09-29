@@ -1,46 +1,46 @@
 {
   "faction": "Death Guard",
   "slug": "death_guard",
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "window_days": 7,
   "event_type": "solo",
   "lists": 69,
-  "games": 344,
+  "games": 345,
   "play_rate": 4.1,
-  "win_rate": 51.0,
-  "trend_delta": 1.5,
+  "win_rate": 51.2,
+  "trend_delta": 1.7,
   "top_detachment": "Paragons Of Putrescence + Shamblerot Vectorium",
-  "ci_lower": 45.8,
+  "ci_lower": 45.9,
   "meta_health": "slightly_under",
   "x0_pct": 1.4,
   "x1_pct": 11.6,
-  "tournament_wins": 1,
+  "tournament_wins": 0,
   "first_turn": {
     "win_rate": 53.0,
     "games": 165
   },
   "second_turn": {
     "win_rate": 49.4,
-    "games": 178
+    "games": 180
   },
   "detachments": [
     {
       "detachment": "Paragons Of Putrescence + Shamblerot Vectorium",
       "base_archetype": "Death Guard \u2014 Paragons Of Putrescence + Shamblerot Vectorium",
       "lists": 17,
-      "games": 84,
+      "games": 85,
       "play_rate": 24.6,
-      "win_rate": 63.1,
+      "win_rate": 63.5,
       "x0_pct": 6.2,
       "x1_pct": 31.2,
-      "tournament_wins": 1,
+      "tournament_wins": 0,
       "first_turn": {
         "win_rate": 58.3,
         "games": 42
       },
       "second_turn": {
-        "win_rate": 69.5,
-        "games": 41
+        "win_rate": 68.6,
+        "games": 43
       }
     },
     {
@@ -234,8 +234,8 @@
       }
     },
     {
-      "detachment": "Mortarion's Hammer",
-      "base_archetype": "Death Guard \u2014 Mortarion's Hammer",
+      "detachment": "Mortarion's Hammer + Paragons Of Putrescence",
+      "base_archetype": "Death Guard \u2014 Mortarion's Hammer + Paragons Of Putrescence",
       "lists": 1,
       "games": 5,
       "play_rate": 1.4,
@@ -244,17 +244,17 @@
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": null,
-        "games": 0
+        "win_rate": 75.0,
+        "games": 4
       },
       "second_turn": {
-        "win_rate": null,
-        "games": 0
+        "win_rate": 0.0,
+        "games": 1
       }
     },
     {
-      "detachment": "Flyblown Host",
-      "base_archetype": "Death Guard \u2014 Flyblown Host",
+      "detachment": "Champions Of Contagion + Flyblown Host",
+      "base_archetype": "Death Guard \u2014 Champions Of Contagion + Flyblown Host",
       "lists": 1,
       "games": 5,
       "play_rate": 1.4,
@@ -263,12 +263,12 @@
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": null,
-        "games": 0
+        "win_rate": 100.0,
+        "games": 1
       },
       "second_turn": {
-        "win_rate": null,
-        "games": 0
+        "win_rate": 25.0,
+        "games": 4
       }
     },
     {
@@ -335,14 +335,14 @@
       "win_rate": 51.0,
       "x0_pct": 5.0,
       "x1_pct": 15.0,
-      "games": 102.0,
+      "games": 104.0,
       "first_turn": {
         "win_rate": 53.2,
         "games": 47
       },
       "second_turn": {
         "win_rate": 49.1,
-        "games": 55
+        "games": 57
       }
     },
     {
@@ -400,30 +400,30 @@
   "disposition_matchups": [
     {
       "opponent_disposition": "Priority Assets",
-      "games": 106,
+      "games": 107,
       "wins": 60,
-      "win_rate": 56.6,
+      "win_rate": 56.1,
       "first_turn": {
         "win_rate": 52.3,
         "games": 44
       },
       "second_turn": {
-        "win_rate": 59.7,
-        "games": 62
+        "win_rate": 58.7,
+        "games": 63
       }
     },
     {
       "opponent_disposition": "Take and Hold",
-      "games": 98,
-      "wins": 51,
-      "win_rate": 52.6,
+      "games": 99,
+      "wins": 52,
+      "win_rate": 53.0,
       "first_turn": {
         "win_rate": 58.2,
         "games": 55
       },
       "second_turn": {
-        "win_rate": 45.3,
-        "games": 43
+        "win_rate": 46.6,
+        "games": 44
       }
     },
     {
@@ -532,6 +532,21 @@
     },
     {
       "disposition": "Priority Assets",
+      "opponent_disposition": "Priority Assets",
+      "games": 30,
+      "wins": 20,
+      "win_rate": 66.7,
+      "first_turn": {
+        "win_rate": 72.7,
+        "games": 11
+      },
+      "second_turn": {
+        "win_rate": 63.2,
+        "games": 19
+      }
+    },
+    {
+      "disposition": "Priority Assets",
       "opponent_disposition": "Purge the Foe",
       "games": 30,
       "wins": 12,
@@ -547,32 +562,17 @@
     },
     {
       "disposition": "Priority Assets",
-      "opponent_disposition": "Priority Assets",
-      "games": 29,
-      "wins": 20,
-      "win_rate": 69.0,
-      "first_turn": {
-        "win_rate": 72.7,
-        "games": 11
-      },
-      "second_turn": {
-        "win_rate": 66.7,
-        "games": 18
-      }
-    },
-    {
-      "disposition": "Priority Assets",
       "opponent_disposition": "Take and Hold",
-      "games": 21,
-      "wins": 11,
-      "win_rate": 52.4,
+      "games": 22,
+      "wins": 12,
+      "win_rate": 54.5,
       "first_turn": {
         "win_rate": 50.0,
         "games": 12
       },
       "second_turn": {
-        "win_rate": 55.6,
-        "games": 9
+        "win_rate": 60.0,
+        "games": 10
       }
     },
     {
@@ -763,11 +763,11 @@
       "disposition": "Priority Assets",
       "list_url": "https://www.bestcoastpairings.com/list/CD2Vt5wo8GcP",
       "source": "bcp",
-      "wins": 7,
-      "losses": 0,
+      "wins": 8,
+      "losses": 1,
       "draws": 0,
-      "games": 7,
-      "win_rate": 100.0
+      "games": 9,
+      "win_rate": 88.9
     },
     {
       "player_name": "Xavier Raney",
@@ -1210,6 +1210,20 @@
       }
     },
     {
+      "opponent_faction": "Adepta Sororitas",
+      "games": 8,
+      "wins": 6,
+      "win_rate": 75.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 6
+      }
+    },
+    {
       "opponent_faction": "Space Wolves",
       "games": 8,
       "wins": 4,
@@ -1249,20 +1263,6 @@
       "second_turn": {
         "win_rate": 75.0,
         "games": 4
-      }
-    },
-    {
-      "opponent_faction": "Adepta Sororitas",
-      "games": 7,
-      "wins": 6,
-      "win_rate": 85.7,
-      "first_turn": {
-        "win_rate": 100.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 80.0,
-        "games": 5
       }
     },
     {
@@ -1309,16 +1309,16 @@
     },
     {
       "opponent_faction": "Grey Knights",
-      "games": 6,
-      "wins": 4,
-      "win_rate": 66.7,
+      "games": 7,
+      "wins": 5,
+      "win_rate": 71.4,
       "first_turn": {
         "win_rate": 66.7,
         "games": 3
       },
       "second_turn": {
-        "win_rate": 66.7,
-        "games": 3
+        "win_rate": 75.0,
+        "games": 4
       }
     },
     {
@@ -1340,7 +1340,7 @@
     {
       "week": "2026-W38",
       "lists": 69,
-      "games": 343,
+      "games": 345,
       "win_rate": 51.2,
       "total_lists": 1690,
       "play_rate": 4.1,
@@ -1350,7 +1350,7 @@
       },
       "second_turn": {
         "win_rate": 49.4,
-        "games": 178
+        "games": 180
       }
     }
   ]

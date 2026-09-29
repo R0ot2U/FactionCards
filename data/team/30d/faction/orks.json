@@ -1,27 +1,27 @@
 {
   "faction": "Orks",
   "slug": "orks",
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "window_days": 30,
   "event_type": "team",
-  "lists": 230,
-  "games": 1214,
+  "lists": 221,
+  "games": 1169,
   "play_rate": 7.7,
-  "win_rate": 59.3,
-  "trend_delta": -2.7,
+  "win_rate": 59.0,
+  "trend_delta": -3.3,
   "top_detachment": "Blitz Brigade + Dread Mob + Wreckas",
-  "ci_lower": 56.5,
+  "ci_lower": 56.1,
   "meta_health": "strongly_over",
-  "x0_pct": 9.1,
-  "x1_pct": 23.5,
-  "tournament_wins": 5,
+  "x0_pct": 8.1,
+  "x1_pct": 24.0,
+  "tournament_wins": 3,
   "first_turn": {
-    "win_rate": 58.9,
-    "games": 570
+    "win_rate": 58.5,
+    "games": 546
   },
   "second_turn": {
-    "win_rate": 59.7,
-    "games": 646
+    "win_rate": 59.4,
+    "games": 625
   },
   "detachments": [
     {
@@ -29,7 +29,7 @@
       "base_archetype": "Orks \u2014 Blitz Brigade + Dread Mob + Wreckas",
       "lists": 18,
       "games": 93,
-      "play_rate": 7.8,
+      "play_rate": 8.1,
       "win_rate": 65.1,
       "x0_pct": 5.6,
       "x1_pct": 33.3,
@@ -46,12 +46,12 @@
     {
       "detachment": "No Detachment",
       "base_archetype": "Orks \u2014 No Detachment",
-      "lists": 12,
-      "games": 61,
-      "play_rate": 5.2,
-      "win_rate": 72.1,
-      "x0_pct": 33.3,
-      "x1_pct": 25.0,
+      "lists": 14,
+      "games": 70,
+      "play_rate": 6.3,
+      "win_rate": 71.4,
+      "x0_pct": 28.6,
+      "x1_pct": 21.4,
       "tournament_wins": 1,
       "first_turn": {
         "win_rate": null,
@@ -67,7 +67,7 @@
       "base_archetype": "Orks \u2014 War Horde",
       "lists": 12,
       "games": 64,
-      "play_rate": 5.2,
+      "play_rate": 5.4,
       "win_rate": 61.7,
       "x0_pct": 8.3,
       "x1_pct": 16.7,
@@ -86,7 +86,7 @@
       "base_archetype": "Orks \u2014 Dread Mob + Shoota Boyz + Wreckas",
       "lists": 10,
       "games": 54,
-      "play_rate": 4.3,
+      "play_rate": 4.5,
       "win_rate": 66.7,
       "x0_pct": 10.0,
       "x1_pct": 50.0,
@@ -105,7 +105,7 @@
       "base_archetype": "Orks \u2014 Blitz Brigade + Shoota Boyz + Wreckas",
       "lists": 7,
       "games": 37,
-      "play_rate": 3.0,
+      "play_rate": 3.2,
       "win_rate": 70.3,
       "x0_pct": 14.3,
       "x1_pct": 42.9,
@@ -120,11 +120,30 @@
       }
     },
     {
+      "detachment": "Bully Boyz + Dread Mob + Wreckas",
+      "base_archetype": "Orks \u2014 Bully Boyz + Dread Mob + Wreckas",
+      "lists": 7,
+      "games": 36,
+      "play_rate": 3.2,
+      "win_rate": 65.3,
+      "x0_pct": 0.0,
+      "x1_pct": 42.9,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 75.0,
+        "games": 16
+      },
+      "second_turn": {
+        "win_rate": 57.5,
+        "games": 20
+      }
+    },
+    {
       "detachment": "Blitz Brigade + Dread Mob + and Wreckas",
       "base_archetype": "Orks \u2014 Blitz Brigade + Dread Mob + and Wreckas",
       "lists": 7,
       "games": 39,
-      "play_rate": 3.0,
+      "play_rate": 3.2,
       "win_rate": 69.2,
       "x0_pct": 0.0,
       "x1_pct": 42.9,
@@ -139,30 +158,11 @@
       }
     },
     {
-      "detachment": "Bully Boyz + Dread Mob + Wreckas",
-      "base_archetype": "Orks \u2014 Bully Boyz + Dread Mob + Wreckas",
-      "lists": 6,
-      "games": 31,
-      "play_rate": 2.6,
-      "win_rate": 67.7,
-      "x0_pct": 0.0,
-      "x1_pct": 50.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 75.0,
-        "games": 16
-      },
-      "second_turn": {
-        "win_rate": 57.5,
-        "games": 20
-      }
-    },
-    {
       "detachment": "Dread Mob + Flyboyz + Wreckas",
       "base_archetype": "Orks \u2014 Dread Mob + Flyboyz + Wreckas",
       "lists": 6,
       "games": 31,
-      "play_rate": 2.6,
+      "play_rate": 2.7,
       "win_rate": 77.4,
       "x0_pct": 16.7,
       "x1_pct": 33.3,
@@ -177,30 +177,11 @@
       }
     },
     {
-      "detachment": "Equatorial Hordes + Freebooter Krew",
-      "base_archetype": "Orks \u2014 Equatorial Hordes + Freebooter Krew",
-      "lists": 5,
-      "games": 25,
-      "play_rate": 2.2,
-      "win_rate": 72.0,
-      "x0_pct": 20.0,
-      "x1_pct": 40.0,
-      "tournament_wins": 1,
-      "first_turn": {
-        "win_rate": 69.2,
-        "games": 13
-      },
-      "second_turn": {
-        "win_rate": 75.0,
-        "games": 12
-      }
-    },
-    {
       "detachment": "Dread Mob + Kult Of Speed + Wreckas",
       "base_archetype": "Orks \u2014 Dread Mob + Kult Of Speed + Wreckas",
       "lists": 5,
       "games": 26,
-      "play_rate": 2.2,
+      "play_rate": 2.3,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -219,7 +200,7 @@
       "base_archetype": "Orks \u2014 Dread Mob + Flyboyz + Kult Of Speed",
       "lists": 5,
       "games": 27,
-      "play_rate": 2.2,
+      "play_rate": 2.3,
       "win_rate": 70.4,
       "x0_pct": 0.0,
       "x1_pct": 40.0,
@@ -234,30 +215,11 @@
       }
     },
     {
-      "detachment": "Freebooter Krew + More Dakka!",
-      "base_archetype": "Orks \u2014 Freebooter Krew + More Dakka!",
-      "lists": 4,
-      "games": 20,
-      "play_rate": 1.7,
-      "win_rate": 82.5,
-      "x0_pct": 50.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 1,
-      "first_turn": {
-        "win_rate": 87.5,
-        "games": 8
-      },
-      "second_turn": {
-        "win_rate": 79.2,
-        "games": 12
-      }
-    },
-    {
       "detachment": "Dread Mob + Madcap Meks + Wreckas",
       "base_archetype": "Orks \u2014 Dread Mob + Madcap Meks + Wreckas",
       "lists": 4,
       "games": 21,
-      "play_rate": 1.7,
+      "play_rate": 1.8,
       "win_rate": 38.1,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -276,7 +238,7 @@
       "base_archetype": "Orks \u2014 Kult Of Speed + Shoota Boyz + Wreckas",
       "lists": 4,
       "games": 20,
-      "play_rate": 1.7,
+      "play_rate": 1.8,
       "win_rate": 65.0,
       "x0_pct": 0.0,
       "x1_pct": 50.0,
@@ -295,7 +257,7 @@
       "base_archetype": "Orks \u2014 Flyboyz + Kult Of Speed + Wreckas",
       "lists": 3,
       "games": 15,
-      "play_rate": 1.3,
+      "play_rate": 1.4,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 33.3,
@@ -314,7 +276,7 @@
       "base_archetype": "Orks \u2014 Dread Mob + Green Tide + and Wreckas",
       "lists": 3,
       "games": 17,
-      "play_rate": 1.3,
+      "play_rate": 1.4,
       "win_rate": 58.8,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -333,7 +295,7 @@
       "base_archetype": "Orks \u2014 Blitz Brigade + Da Big Hunt + Flyboyz",
       "lists": 3,
       "games": 21,
-      "play_rate": 1.3,
+      "play_rate": 1.4,
       "win_rate": 85.7,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
@@ -352,7 +314,7 @@
       "base_archetype": "Orks \u2014 Blitz Brigade + Shoota Boyz + and Wreckas",
       "lists": 3,
       "games": 16,
-      "play_rate": 1.3,
+      "play_rate": 1.4,
       "win_rate": 46.9,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -371,7 +333,7 @@
       "base_archetype": "Orks \u2014 Bully Boyz + Dread Mob + Madcap Meks",
       "lists": 3,
       "games": 16,
-      "play_rate": 1.3,
+      "play_rate": 1.4,
       "win_rate": 34.4,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -382,6 +344,25 @@
       },
       "second_turn": {
         "win_rate": 50.0,
+        "games": 8
+      }
+    },
+    {
+      "detachment": "Freebooter Krew + More Dakka!",
+      "base_archetype": "Orks \u2014 Freebooter Krew + More Dakka!",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 0.9,
+      "win_rate": 65.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 68.8,
         "games": 8
       }
     },
@@ -633,11 +614,30 @@
       }
     },
     {
+      "detachment": "Equatorial Hordes + Freebooter Krew",
+      "base_archetype": "Orks \u2014 Equatorial Hordes + Freebooter Krew",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 0.5,
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      }
+    },
+    {
       "detachment": "Bully Boyz + Equatorial Hordes",
       "base_archetype": "Orks \u2014 Bully Boyz + Equatorial Hordes",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 70.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -656,7 +656,7 @@
       "base_archetype": "Orks \u2014 Kult Of Speed + Runt Swarm + Shoota Boyz",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -675,7 +675,7 @@
       "base_archetype": "Orks \u2014 Dread Mob + Kult Of Speed + and Shoota Boyz",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 100.0,
       "x0_pct": 100.0,
       "x1_pct": 0.0,
@@ -694,7 +694,7 @@
       "base_archetype": "Orks \u2014 Brute Bosses + Bully Boyz + Wreckas",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 70.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -713,7 +713,7 @@
       "base_archetype": "Orks \u2014 Bully Boyz + Flyboyz + and Wreckas",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 70.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -732,7 +732,7 @@
       "base_archetype": "Orks \u2014 Flyboyz + Kult Of Speed + and Madcap Meks",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -751,7 +751,7 @@
       "base_archetype": "Orks \u2014 Bully Boyz + Madcap Meks + and Wreckas",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -770,7 +770,7 @@
       "base_archetype": "Orks \u2014 Dread Mob + Green Tide + Kult Of Speed",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -785,30 +785,11 @@
       }
     },
     {
-      "detachment": "Bully Boyz + More Dakka!",
-      "base_archetype": "Orks \u2014 Bully Boyz + More Dakka!",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 0.4,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 1
-      },
-      "second_turn": {
-        "win_rate": 75.0,
-        "games": 4
-      }
-    },
-    {
       "detachment": "Green Tide + Shoota Boyz + Wreckas",
       "base_archetype": "Orks \u2014 Green Tide + Shoota Boyz + Wreckas",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 90.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
@@ -827,7 +808,7 @@
       "base_archetype": "Orks \u2014 Madcap Meks + Shoota Boyz + Wreckas",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 80.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -846,7 +827,7 @@
       "base_archetype": "Orks \u2014 Green Tide + Madcap Meks + Wreckas",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -865,7 +846,7 @@
       "base_archetype": "Orks \u2014 Green Tide + Runt Swarm + Wurrband",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 10.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -884,7 +865,7 @@
       "base_archetype": "Orks \u2014 Green Tide + Runt Swarm + Shoota Boyz",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 0.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -903,7 +884,7 @@
       "base_archetype": "Orks \u2014 Bully Boyz + Flyboyz + and Kult of Speed",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 80.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
@@ -922,7 +903,7 @@
       "base_archetype": "Orks \u2014 Bully Boyz + Shoota Boyz + Wreckas",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 80.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
@@ -941,7 +922,7 @@
       "base_archetype": "Orks \u2014 Da Big Hunt + Rollin' Deff",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 70.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -960,7 +941,7 @@
       "base_archetype": "Orks \u2014 Dread Mob + Madcap Meks + and Shoota Boyz",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 80.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
@@ -979,7 +960,7 @@
       "base_archetype": "Orks \u2014 Blitz Brigade + Da Big Hunt + and Flyboyz",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 70.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -998,7 +979,7 @@
       "base_archetype": "Orks \u2014 Brute Bosses + Bully Boyz + Dread Mob",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1017,7 +998,7 @@
       "base_archetype": "Orks \u2014 Da Big Hunt + Green Tide + and Wreckas",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1036,7 +1017,7 @@
       "base_archetype": "Orks \u2014 Dread Mob + Madcap Meks + and Wreckas",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 100.0,
       "x0_pct": 100.0,
       "x1_pct": 0.0,
@@ -1055,7 +1036,7 @@
       "base_archetype": "Orks \u2014 Dread Mob + Runt Swarm + and Wreckas",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 90.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
@@ -1074,7 +1055,7 @@
       "base_archetype": "Orks \u2014 Bully Boyz + Dread Mob + Green Tide",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1093,7 +1074,7 @@
       "base_archetype": "Orks \u2014 Blitz Brigade + Bully Boyz + Runt Swarm",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1112,7 +1093,7 @@
       "base_archetype": "Orks \u2014 Brute Bosses + Bully Boyz + Madcap Meks",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 90.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
@@ -1131,7 +1112,7 @@
       "base_archetype": "Orks \u2014 Da Big Hunt + Dread Mob + Wreckas",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 80.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
@@ -1150,7 +1131,7 @@
       "base_archetype": "Orks \u2014 Blitz Brigade + Flyboyz + Wreckas",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1169,7 +1150,7 @@
       "base_archetype": "Orks \u2014 Bully Boyz + Kult Of Speed + Wreckas",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1188,7 +1169,7 @@
       "base_archetype": "Orks \u2014 Blitz Brigade + Bully Boyz + Dread Mob",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1207,7 +1188,7 @@
       "base_archetype": "Orks \u2014 Bully Boyz + Flyboyz + Wreckas",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1226,7 +1207,7 @@
       "base_archetype": "Orks \u2014 Bully Boyz + Kult Of Speed + and Shoota Boyz",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 80.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
@@ -1245,7 +1226,7 @@
       "base_archetype": "Orks \u2014 Green Tide + Taktikal Brigade + and Wreckas",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1260,30 +1241,11 @@
       }
     },
     {
-      "detachment": "Bully Boyz",
-      "base_archetype": "Orks \u2014 Bully Boyz",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 0.4,
-      "win_rate": 50.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": null,
-        "games": 0
-      },
-      "second_turn": {
-        "win_rate": null,
-        "games": 0
-      }
-    },
-    {
       "detachment": "Bully Boyz + Dread Mob + and Kult of Speed",
       "base_archetype": "Orks \u2014 Bully Boyz + Dread Mob + and Kult of Speed",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1302,7 +1264,7 @@
       "base_archetype": "Orks \u2014 Bully Boyz + Dread Mob + Runt Swarm",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 100.0,
       "x0_pct": 100.0,
       "x1_pct": 0.0,
@@ -1321,7 +1283,7 @@
       "base_archetype": "Orks \u2014 Blitz Brigade + Green Tide + Wreckas",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 100.0,
       "x0_pct": 100.0,
       "x1_pct": 0.0,
@@ -1340,7 +1302,7 @@
       "base_archetype": "Orks \u2014 Dread Mob + G Blitz Brigade + and Wreckas",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 83.3,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
@@ -1359,7 +1321,7 @@
       "base_archetype": "Orks \u2014 Bully Boys + Dread Mob + and Wreckas",
       "lists": 1,
       "games": 11,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 72.7,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1378,7 +1340,7 @@
       "base_archetype": "Orks \u2014 Brute Bosses + Green Tide + Kult Of Speed",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 66.7,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1397,7 +1359,7 @@
       "base_archetype": "Orks \u2014 Dread Mob + Green Tide + Madcap Meks",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 66.7,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1416,7 +1378,7 @@
       "base_archetype": "Orks \u2014 Bully Boyz + Dread Mob + and Wreckas",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 58.3,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1435,7 +1397,7 @@
       "base_archetype": "Orks \u2014 Da Big Hunt + Green Tide + and Madcap Meks",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 58.3,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1454,7 +1416,7 @@
       "base_archetype": "Orks \u2014 Flyboyz + Madcap Meks + and Wreckas",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 58.3,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1473,7 +1435,7 @@
       "base_archetype": "Orks \u2014 Blitz Brigade + Da Big Hunt + and Wurrband",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 58.3,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1492,7 +1454,7 @@
       "base_archetype": "Orks \u2014 Blitz Brigade + Runt Swarm + and Shoota Boyz",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1511,7 +1473,7 @@
       "base_archetype": "Orks \u2014 Blitz Brigade + Green Tide + and Taktikal Brigade",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1530,7 +1492,7 @@
       "base_archetype": "Orks \u2014 Green Tide + Shoota Boyz + and Wreckas",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 41.7,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1549,7 +1511,7 @@
       "base_archetype": "Orks \u2014 Flyboyz + Kult Of Speed + and Wreckas",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 33.3,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1568,7 +1530,7 @@
       "base_archetype": "Orks \u2014 Da Big Hunt + Wreckas + Wurrband",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 33.3,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1587,7 +1549,7 @@
       "base_archetype": "Orks \u2014 Flyboyz + Madcap Meks + Wreckas",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 25.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1606,7 +1568,7 @@
       "base_archetype": "Orks \u2014 Blitz Brigade + Kult Of Speed + Wreckas",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 25.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1625,7 +1587,7 @@
       "base_archetype": "Orks \u2014 Dread Mob + Green Tide + Wreckas",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 16.7,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1640,49 +1602,11 @@
       }
     },
     {
-      "detachment": "Freebooter Krew",
-      "base_archetype": "Orks \u2014 Freebooter Krew",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 0.4,
-      "win_rate": 50.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 66.7,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 25.0,
-        "games": 2
-      }
-    },
-    {
-      "detachment": "Dread Mob + More Dakka!",
-      "base_archetype": "Orks \u2014 Dread Mob + More Dakka!",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 0.4,
-      "win_rate": 20.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 33.3,
-        "games": 3
-      }
-    },
-    {
       "detachment": "Kult Of Speed + Runt Swarm + Wreckas",
       "base_archetype": "Orks \u2014 Kult Of Speed + Runt Swarm + Wreckas",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 80.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
@@ -1701,7 +1625,7 @@
       "base_archetype": "Orks \u2014 Blitz Brigade + Green Tide + Kult Of Speed",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 80.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
@@ -1720,7 +1644,7 @@
       "base_archetype": "Orks \u2014 Green Tide + Taktikal Brigade + and Wurrband",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1739,7 +1663,7 @@
       "base_archetype": "Orks \u2014 Brute Bosses + Da Big Hunt + Green Tide",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1758,7 +1682,7 @@
       "base_archetype": "Orks \u2014 Brute Bosses + Green Tide + Madcap Meks",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1777,7 +1701,7 @@
       "base_archetype": "Orks \u2014 Bully Boyz + Green Tide + Wurrband",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1796,7 +1720,7 @@
       "base_archetype": "Orks \u2014 Dread Mob + Flyboyz + and Kult of Speed",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1815,7 +1739,7 @@
       "base_archetype": "Orks \u2014 Blitz Brigade + Bully Boyz + and Wreckas",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1834,7 +1758,7 @@
       "base_archetype": "Orks \u2014 Blitz Brigade + Brute Bosses + and Da Big Hunt",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 100.0,
       "x0_pct": 100.0,
       "x1_pct": 0.0,
@@ -1853,7 +1777,7 @@
       "base_archetype": "Orks \u2014 Bully Boyz + Kult Of Speed + Runt Swarm",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 83.3,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
@@ -1872,7 +1796,7 @@
       "base_archetype": "Orks \u2014 Brute Bosses + Kult Of Speed + Madcap Meks",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 66.7,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1891,7 +1815,7 @@
       "base_archetype": "Orks \u2014 Blitz Brigade + Madcap Meks + Runt Swarm",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1910,7 +1834,7 @@
       "base_archetype": "Orks \u2014 Dread Mob + Madcap",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1929,7 +1853,7 @@
       "base_archetype": "Orks \u2014 Bully Boyz + Dread Mob + and Shoota Boyz",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 33.3,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1948,7 +1872,7 @@
       "base_archetype": "Orks \u2014 Flyboyz + Runt Swarm + Wreckas",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1967,7 +1891,7 @@
       "base_archetype": "Orks \u2014 Bully Boyz + Da Big Hunt + Wurrband",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 33.3,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -1986,7 +1910,7 @@
       "base_archetype": "Orks \u2014 Da Big Hunt + Dread Mob + Flyboyz",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 33.3,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -2005,7 +1929,7 @@
       "base_archetype": "Orks \u2014 Dread Mob + Wreckas + Wurrband",
       "lists": 1,
       "games": 6,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 16.7,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -2024,7 +1948,7 @@
       "base_archetype": "Orks \u2014 Kult Of Speed + Taktikal Brigade + Wreckas",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 0.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -2043,7 +1967,7 @@
       "base_archetype": "Orks \u2014 Blitz Brigade + Bully Boyz + Green Tide",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -2062,7 +1986,7 @@
       "base_archetype": "Orks \u2014 Brute Bosses + Shoota Boyz + Wreckas",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -2081,7 +2005,7 @@
       "base_archetype": "Orks \u2014 Blitz Brigade + Dread Mob + Kult Of Speed",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 80.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
@@ -2100,7 +2024,7 @@
       "base_archetype": "Orks \u2014 Blitz Brigade + Brute Bosses + Wreckas",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 70.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -2119,7 +2043,7 @@
       "base_archetype": "Orks \u2014 Da Big Hunt + Dread Mob + Kult Of Speed",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -2138,7 +2062,7 @@
       "base_archetype": "Orks \u2014 Blitz Brigade + Kult Of Speed + Wurrband",
       "lists": 1,
       "games": 5,
-      "play_rate": 0.4,
+      "play_rate": 0.5,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
@@ -2156,42 +2080,42 @@
   "dispositions": [
     {
       "disposition": "Purge the Foe",
-      "lists": 66,
-      "play_rate": 28.7,
+      "lists": 65,
+      "play_rate": 29.4,
       "win_rate": 63.5,
-      "x0_pct": 6.1,
-      "x1_pct": 34.8,
-      "games": 345.0,
+      "x0_pct": 6.2,
+      "x1_pct": 35.4,
+      "games": 340.0,
       "first_turn": {
-        "win_rate": 64.0,
-        "games": 161
+        "win_rate": 64.4,
+        "games": 160
       },
       "second_turn": {
-        "win_rate": 63.0,
-        "games": 184
+        "win_rate": 62.8,
+        "games": 180
       }
     },
     {
       "disposition": "Take and Hold",
-      "lists": 62,
-      "play_rate": 27.0,
-      "win_rate": 57.8,
-      "x0_pct": 12.9,
+      "lists": 56,
+      "play_rate": 25.3,
+      "win_rate": 56.4,
+      "x0_pct": 10.7,
       "x1_pct": 16.1,
-      "games": 325.0,
+      "games": 295.0,
       "first_turn": {
-        "win_rate": 59.0,
-        "games": 150
+        "win_rate": 57.5,
+        "games": 133
       },
       "second_turn": {
-        "win_rate": 56.9,
-        "games": 175
+        "win_rate": 55.6,
+        "games": 162
       }
     },
     {
       "disposition": "Priority Assets",
       "lists": 44,
-      "play_rate": 19.1,
+      "play_rate": 19.9,
       "win_rate": 60.3,
       "x0_pct": 11.4,
       "x1_pct": 27.3,
@@ -2207,25 +2131,25 @@
     },
     {
       "disposition": "Disruption",
-      "lists": 32,
-      "play_rate": 13.9,
-      "win_rate": 52.0,
-      "x0_pct": 6.2,
-      "x1_pct": 9.4,
-      "games": 171.0,
+      "lists": 30,
+      "play_rate": 13.6,
+      "win_rate": 51.6,
+      "x0_pct": 3.3,
+      "x1_pct": 10.0,
+      "games": 161.0,
       "first_turn": {
-        "win_rate": 46.3,
-        "games": 81
+        "win_rate": 44.7,
+        "games": 75
       },
       "second_turn": {
-        "win_rate": 57.2,
-        "games": 90
+        "win_rate": 57.6,
+        "games": 86
       }
     },
     {
       "disposition": "Reconnaissance",
       "lists": 26,
-      "play_rate": 11.3,
+      "play_rate": 11.8,
       "win_rate": 59.6,
       "x0_pct": 7.7,
       "x1_pct": 23.1,
@@ -2243,72 +2167,72 @@
   "disposition_matchups": [
     {
       "opponent_disposition": "Priority Assets",
-      "games": 280,
-      "wins": 189,
+      "games": 274,
+      "wins": 185,
       "win_rate": 67.5,
       "first_turn": {
-        "win_rate": 65.2,
-        "games": 132
+        "win_rate": 65.4,
+        "games": 130
       },
       "second_turn": {
-        "win_rate": 69.6,
-        "games": 148
+        "win_rate": 69.4,
+        "games": 144
       }
     },
     {
       "opponent_disposition": "Take and Hold",
-      "games": 271,
-      "wins": 150,
-      "win_rate": 55.5,
+      "games": 261,
+      "wins": 143,
+      "win_rate": 55.0,
       "first_turn": {
-        "win_rate": 53.3,
-        "games": 135
+        "win_rate": 52.7,
+        "games": 131
       },
       "second_turn": {
-        "win_rate": 57.7,
-        "games": 136
+        "win_rate": 57.3,
+        "games": 130
       }
     },
     {
       "opponent_disposition": "Purge the Foe",
-      "games": 231,
-      "wins": 127,
-      "win_rate": 55.2,
+      "games": 221,
+      "wins": 119,
+      "win_rate": 54.1,
       "first_turn": {
-        "win_rate": 57.3,
-        "games": 116
+        "win_rate": 55.5,
+        "games": 109
       },
       "second_turn": {
-        "win_rate": 53.0,
-        "games": 115
+        "win_rate": 52.7,
+        "games": 112
       }
     },
     {
       "opponent_disposition": "Reconnaissance",
-      "games": 230,
-      "wins": 130,
-      "win_rate": 56.5,
+      "games": 217,
+      "wins": 120,
+      "win_rate": 55.5,
       "first_turn": {
-        "win_rate": 59.0,
-        "games": 106
+        "win_rate": 57.7,
+        "games": 98
       },
       "second_turn": {
-        "win_rate": 54.4,
-        "games": 124
+        "win_rate": 53.8,
+        "games": 119
       }
     },
     {
       "opponent_disposition": "Disruption",
-      "games": 192,
-      "wins": 113,
-      "win_rate": 58.9,
+      "games": 186,
+      "wins": 111,
+      "win_rate": 59.7,
       "first_turn": {
-        "win_rate": 58.6,
-        "games": 81
+        "win_rate": 60.9,
+        "games": 78
       },
       "second_turn": {
-        "win_rate": 59.0,
-        "games": 111
+        "win_rate": 58.8,
+        "games": 108
       }
     }
   ],
@@ -2316,27 +2240,27 @@
     {
       "disposition": "Disruption",
       "opponent_disposition": "Take and Hold",
-      "games": 54,
-      "wins": 21,
-      "win_rate": 39.8,
+      "games": 52,
+      "wins": 20,
+      "win_rate": 39.4,
       "first_turn": {
-        "win_rate": 38.0,
-        "games": 25
+        "win_rate": 35.4,
+        "games": 24
       },
       "second_turn": {
-        "win_rate": 41.4,
-        "games": 29
+        "win_rate": 42.9,
+        "games": 28
       }
     },
     {
       "disposition": "Disruption",
       "opponent_disposition": "Reconnaissance",
-      "games": 32,
-      "wins": 17,
-      "win_rate": 54.7,
+      "games": 30,
+      "wins": 16,
+      "win_rate": 55.0,
       "first_turn": {
         "win_rate": 50.0,
-        "games": 16
+        "games": 14
       },
       "second_turn": {
         "win_rate": 59.4,
@@ -2346,46 +2270,46 @@
     {
       "disposition": "Disruption",
       "opponent_disposition": "Priority Assets",
-      "games": 30,
-      "wins": 20,
+      "games": 27,
+      "wins": 18,
       "win_rate": 66.7,
       "first_turn": {
-        "win_rate": 55.0,
-        "games": 10
+        "win_rate": 56.2,
+        "games": 8
       },
       "second_turn": {
-        "win_rate": 72.5,
-        "games": 20
+        "win_rate": 71.1,
+        "games": 19
       }
     },
     {
       "disposition": "Disruption",
       "opponent_disposition": "Purge the Foe",
-      "games": 28,
-      "wins": 14,
+      "games": 26,
+      "wins": 13,
       "win_rate": 50.0,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 17
+        "win_rate": 46.9,
+        "games": 16
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 11
+        "win_rate": 55.0,
+        "games": 10
       }
     },
     {
       "disposition": "Disruption",
       "opponent_disposition": "Disruption",
-      "games": 25,
-      "wins": 14,
-      "win_rate": 56.0,
+      "games": 24,
+      "wins": 13,
+      "win_rate": 54.2,
       "first_turn": {
         "win_rate": 41.7,
         "games": 12
       },
       "second_turn": {
-        "win_rate": 69.2,
-        "games": 13
+        "win_rate": 66.7,
+        "games": 12
       }
     },
     {
@@ -2466,16 +2390,16 @@
     {
       "disposition": "Purge the Foe",
       "opponent_disposition": "Take and Hold",
-      "games": 82,
-      "wins": 59,
-      "win_rate": 72.0,
+      "games": 80,
+      "wins": 57,
+      "win_rate": 71.2,
       "first_turn": {
         "win_rate": 68.8,
         "games": 40
       },
       "second_turn": {
-        "win_rate": 75.0,
-        "games": 42
+        "win_rate": 73.8,
+        "games": 40
       }
     },
     {
@@ -2496,12 +2420,12 @@
     {
       "disposition": "Purge the Foe",
       "opponent_disposition": "Purge the Foe",
-      "games": 64,
+      "games": 63,
       "wins": 37,
-      "win_rate": 58.6,
+      "win_rate": 59.5,
       "first_turn": {
-        "win_rate": 56.1,
-        "games": 33
+        "win_rate": 57.8,
+        "games": 32
       },
       "second_turn": {
         "win_rate": 61.3,
@@ -2511,31 +2435,31 @@
     {
       "disposition": "Purge the Foe",
       "opponent_disposition": "Disruption",
-      "games": 62,
+      "games": 61,
       "wins": 37,
-      "win_rate": 60.5,
+      "win_rate": 61.5,
       "first_turn": {
         "win_rate": 65.9,
         "games": 22
       },
       "second_turn": {
-        "win_rate": 57.5,
-        "games": 40
+        "win_rate": 59.0,
+        "games": 39
       }
     },
     {
       "disposition": "Purge the Foe",
       "opponent_disposition": "Reconnaissance",
-      "games": 58,
-      "wins": 31,
-      "win_rate": 54.3,
+      "games": 57,
+      "wins": 30,
+      "win_rate": 53.5,
       "first_turn": {
         "win_rate": 64.0,
         "games": 25
       },
       "second_turn": {
-        "win_rate": 47.0,
-        "games": 33
+        "win_rate": 45.3,
+        "games": 32
       }
     },
     {
@@ -2615,77 +2539,77 @@
     },
     {
       "disposition": "Take and Hold",
-      "opponent_disposition": "Reconnaissance",
-      "games": 74,
-      "wins": 45,
-      "win_rate": 61.5,
-      "first_turn": {
-        "win_rate": 64.1,
-        "games": 39
-      },
-      "second_turn": {
-        "win_rate": 58.6,
-        "games": 35
-      }
-    },
-    {
-      "disposition": "Take and Hold",
       "opponent_disposition": "Priority Assets",
-      "games": 74,
-      "wins": 47,
-      "win_rate": 63.5,
+      "games": 71,
+      "wins": 45,
+      "win_rate": 63.4,
       "first_turn": {
         "win_rate": 65.0,
         "games": 30
       },
       "second_turn": {
-        "win_rate": 62.5,
-        "games": 44
+        "win_rate": 62.2,
+        "games": 41
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Reconnaissance",
+      "games": 64,
+      "wins": 38,
+      "win_rate": 59.4,
+      "first_turn": {
+        "win_rate": 60.6,
+        "games": 33
+      },
+      "second_turn": {
+        "win_rate": 58.1,
+        "games": 31
       }
     },
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Purge the Foe",
-      "games": 66,
-      "wins": 34,
-      "win_rate": 51.5,
+      "games": 59,
+      "wins": 27,
+      "win_rate": 45.8,
       "first_turn": {
-        "win_rate": 60.0,
-        "games": 30
+        "win_rate": 52.0,
+        "games": 25
       },
       "second_turn": {
-        "win_rate": 44.4,
-        "games": 36
+        "win_rate": 41.2,
+        "games": 34
       }
     },
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Take and Hold",
-      "games": 50,
-      "wins": 23,
-      "win_rate": 46.0,
+      "games": 46,
+      "wins": 20,
+      "win_rate": 43.5,
       "first_turn": {
-        "win_rate": 45.7,
-        "games": 23
+        "win_rate": 40.5,
+        "games": 21
       },
       "second_turn": {
-        "win_rate": 46.3,
-        "games": 27
+        "win_rate": 46.0,
+        "games": 25
       }
     },
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Disruption",
-      "games": 50,
-      "wins": 31,
-      "win_rate": 63.0,
+      "games": 46,
+      "wins": 30,
+      "win_rate": 66.3,
       "first_turn": {
-        "win_rate": 54.3,
-        "games": 23
+        "win_rate": 62.5,
+        "games": 20
       },
       "second_turn": {
-        "win_rate": 70.4,
-        "games": 27
+        "win_rate": 69.2,
+        "games": 26
       }
     }
   ],
@@ -2775,18 +2699,6 @@
       "win_rate": 100.0
     },
     {
-      "player_name": "Matt Thornhill",
-      "detachment": "Freebooter Krew + More Dakka!",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/m6zkT6IuhPmZ",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
       "player_name": "Jan Lloret",
       "detachment": "Blitz Brigade + Dread Mob + Wreckas",
       "disposition": "Take and Hold",
@@ -2839,30 +2751,6 @@
       "detachment": "Blitz Brigade + Shoota Boyz + Wreckas",
       "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/Jbcb4NAbBovK",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Asa Wentworth",
-      "detachment": "Equatorial Hordes + Freebooter Krew",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/Q5qPhKnKQfFW",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 0,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 100.0
-    },
-    {
-      "player_name": "Benjamin Rubenstein",
-      "detachment": "Freebooter Krew + More Dakka!",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/mk0w2wbYz5eM",
       "source": "bcp",
       "wins": 5,
       "losses": 0,
@@ -2929,13 +2817,49 @@
       "draws": 0,
       "games": 11,
       "win_rate": 90.9
+    },
+    {
+      "player_name": "erik nelson",
+      "detachment": "Dread Mob + Shoota Boyz + Wreckas",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/sLjUmWgNoFxx",
+      "source": "bcp",
+      "wins": 10,
+      "losses": 1,
+      "draws": 0,
+      "games": 11,
+      "win_rate": 90.9
+    },
+    {
+      "player_name": "THe Juan",
+      "detachment": "Blitz Brigade + Shoota Boyz + Wreckas",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/btc22tFbmBPa",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "Jacob Warn",
+      "detachment": "Kult Of Speed + Shoota Boyz + Wreckas",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/7bLdM5JV5TEf",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Adeptus Custodes",
-      "games": 102,
-      "wins": 51,
+      "games": 100,
+      "wins": 50,
       "win_rate": 50.0,
       "first_turn": {
         "win_rate": 49.1,
@@ -2943,31 +2867,17 @@
       },
       "second_turn": {
         "win_rate": 51.1,
-        "games": 46
-      }
-    },
-    {
-      "opponent_faction": "Necrons",
-      "games": 77,
-      "wins": 43,
-      "win_rate": 56.5,
-      "first_turn": {
-        "win_rate": 57.4,
-        "games": 34
-      },
-      "second_turn": {
-        "win_rate": 55.8,
-        "games": 43
+        "games": 44
       }
     },
     {
       "opponent_faction": "Leagues of Votann",
-      "games": 74,
-      "wins": 42,
-      "win_rate": 56.8,
+      "games": 73,
+      "wins": 41,
+      "win_rate": 56.2,
       "first_turn": {
-        "win_rate": 64.9,
-        "games": 37
+        "win_rate": 63.9,
+        "games": 36
       },
       "second_turn": {
         "win_rate": 48.6,
@@ -2975,27 +2885,41 @@
       }
     },
     {
-      "opponent_faction": "Tyranids",
-      "games": 73,
-      "wins": 39,
-      "win_rate": 54.1,
+      "opponent_faction": "Necrons",
+      "games": 72,
+      "wins": 40,
+      "win_rate": 56.2,
       "first_turn": {
-        "win_rate": 45.6,
-        "games": 34
+        "win_rate": 57.8,
+        "games": 32
       },
       "second_turn": {
-        "win_rate": 61.5,
-        "games": 39
+        "win_rate": 55.0,
+        "games": 40
+      }
+    },
+    {
+      "opponent_faction": "Tyranids",
+      "games": 69,
+      "wins": 37,
+      "win_rate": 54.3,
+      "first_turn": {
+        "win_rate": 47.0,
+        "games": 33
+      },
+      "second_turn": {
+        "win_rate": 61.1,
+        "games": 36
       }
     },
     {
       "opponent_faction": "Chaos Space Marines",
-      "games": 70,
-      "wins": 45,
-      "win_rate": 64.3,
+      "games": 68,
+      "wins": 43,
+      "win_rate": 63.2,
       "first_turn": {
-        "win_rate": 67.1,
-        "games": 38
+        "win_rate": 65.3,
+        "games": 36
       },
       "second_turn": {
         "win_rate": 60.9,
@@ -3004,12 +2928,12 @@
     },
     {
       "opponent_faction": "T'au Empire",
-      "games": 62,
-      "wins": 40,
-      "win_rate": 64.5,
+      "games": 61,
+      "wins": 39,
+      "win_rate": 63.9,
       "first_turn": {
-        "win_rate": 58.9,
-        "games": 28
+        "win_rate": 57.4,
+        "games": 27
       },
       "second_turn": {
         "win_rate": 69.1,
@@ -3018,12 +2942,12 @@
     },
     {
       "opponent_faction": "Chaos Daemons",
-      "games": 60,
-      "wins": 31,
-      "win_rate": 52.5,
+      "games": 59,
+      "wins": 30,
+      "win_rate": 51.7,
       "first_turn": {
-        "win_rate": 58.6,
-        "games": 29
+        "win_rate": 57.1,
+        "games": 28
       },
       "second_turn": {
         "win_rate": 46.8,
@@ -3032,12 +2956,12 @@
     },
     {
       "opponent_faction": "Dark Angels",
-      "games": 57,
-      "wins": 32,
-      "win_rate": 56.1,
+      "games": 56,
+      "wins": 31,
+      "win_rate": 55.4,
       "first_turn": {
-        "win_rate": 58.3,
-        "games": 24
+        "win_rate": 56.5,
+        "games": 23
       },
       "second_turn": {
         "win_rate": 54.5,
@@ -3046,26 +2970,26 @@
     },
     {
       "opponent_faction": "Emperor's Children",
-      "games": 49,
-      "wins": 29,
-      "win_rate": 60.2,
+      "games": 47,
+      "wins": 28,
+      "win_rate": 60.6,
       "first_turn": {
         "win_rate": 72.0,
         "games": 25
       },
       "second_turn": {
-        "win_rate": 47.9,
-        "games": 24
+        "win_rate": 47.7,
+        "games": 22
       }
     },
     {
       "opponent_faction": "Death Guard",
-      "games": 48,
+      "games": 47,
       "wins": 25,
-      "win_rate": 53.1,
+      "win_rate": 54.3,
       "first_turn": {
-        "win_rate": 39.1,
-        "games": 23
+        "win_rate": 40.9,
+        "games": 22
       },
       "second_turn": {
         "win_rate": 66.0,
@@ -3074,16 +2998,16 @@
     },
     {
       "opponent_faction": "Space Marines (Astartes)",
-      "games": 47,
-      "wins": 31,
-      "win_rate": 67.0,
+      "games": 45,
+      "wins": 29,
+      "win_rate": 65.6,
       "first_turn": {
-        "win_rate": 71.4,
-        "games": 21
+        "win_rate": 70.0,
+        "games": 20
       },
       "second_turn": {
-        "win_rate": 63.5,
-        "games": 26
+        "win_rate": 62.0,
+        "games": 25
       }
     },
     {
@@ -3102,44 +3026,16 @@
     },
     {
       "opponent_faction": "Imperial Knights",
-      "games": 38,
-      "wins": 22,
-      "win_rate": 59.2,
+      "games": 36,
+      "wins": 21,
+      "win_rate": 59.7,
       "first_turn": {
-        "win_rate": 59.4,
-        "games": 16
+        "win_rate": 56.7,
+        "games": 15
       },
       "second_turn": {
-        "win_rate": 59.1,
-        "games": 22
-      }
-    },
-    {
-      "opponent_faction": "World Eaters",
-      "games": 34,
-      "wins": 22,
-      "win_rate": 66.2,
-      "first_turn": {
-        "win_rate": 69.2,
-        "games": 13
-      },
-      "second_turn": {
-        "win_rate": 64.3,
+        "win_rate": 61.9,
         "games": 21
-      }
-    },
-    {
-      "opponent_faction": "Chaos Knights",
-      "games": 33,
-      "wins": 27,
-      "win_rate": 81.8,
-      "first_turn": {
-        "win_rate": 78.1,
-        "games": 16
-      },
-      "second_turn": {
-        "win_rate": 85.3,
-        "games": 17
       }
     },
     {
@@ -3157,69 +3053,69 @@
       }
     },
     {
-      "opponent_faction": "Thousand Sons",
+      "opponent_faction": "World Eaters",
       "games": 32,
-      "wins": 22,
-      "win_rate": 68.8,
+      "wins": 20,
+      "win_rate": 64.1,
       "first_turn": {
-        "win_rate": 55.6,
-        "games": 18
+        "win_rate": 69.2,
+        "games": 13
       },
       "second_turn": {
-        "win_rate": 85.7,
-        "games": 14
+        "win_rate": 60.5,
+        "games": 19
+      }
+    },
+    {
+      "opponent_faction": "Chaos Knights",
+      "games": 31,
+      "wins": 25,
+      "win_rate": 80.6,
+      "first_turn": {
+        "win_rate": 76.7,
+        "games": 15
+      },
+      "second_turn": {
+        "win_rate": 84.4,
+        "games": 16
+      }
+    },
+    {
+      "opponent_faction": "Thousand Sons",
+      "games": 30,
+      "wins": 20,
+      "win_rate": 66.7,
+      "first_turn": {
+        "win_rate": 52.9,
+        "games": 17
+      },
+      "second_turn": {
+        "win_rate": 84.6,
+        "games": 13
       }
     },
     {
       "opponent_faction": "Drukhari",
-      "games": 28,
-      "wins": 20,
-      "win_rate": 73.2,
-      "first_turn": {
-        "win_rate": 80.0,
-        "games": 10
-      },
-      "second_turn": {
-        "win_rate": 69.4,
-        "games": 18
-      }
-    },
-    {
-      "opponent_faction": "Aeldari",
-      "games": 26,
-      "wins": 14,
-      "win_rate": 55.8,
-      "first_turn": {
-        "win_rate": 41.7,
-        "games": 12
-      },
-      "second_turn": {
-        "win_rate": 67.9,
-        "games": 14
-      }
-    },
-    {
-      "opponent_faction": "Genestealer Cults",
       "games": 25,
-      "wins": 17,
-      "win_rate": 68.0,
+      "wins": 18,
+      "win_rate": 74.0,
       "first_turn": {
-        "win_rate": 81.8,
-        "games": 11
+        "win_rate": 87.5,
+        "games": 8
       },
       "second_turn": {
-        "win_rate": 57.1,
-        "games": 14
+        "win_rate": 67.6,
+        "games": 17
       }
     },
     {
       "opponent_faction": "Grey Knights",
-      "games": 25,
+      "games": 24,
       "wins": 18,
-      "win_rate": 72.0,
+      "win_rate": 75.0,
       "first_turn": {
-        "win_rate": 72.2,
-        "games": 9
+        "win_rate": 81.2,
+        "games": 8
       },
       "second_turn": {
         "win_rate": 71.9,
@@ -3227,13 +3123,41 @@
       }
     },
     {
-      "opponent_faction": "Blood Angels",
-      "games": 22,
+      "opponent_faction": "Aeldari",
+      "games": 24,
+      "wins": 14,
+      "win_rate": 58.3,
+      "first_turn": {
+        "win_rate": 45.5,
+        "games": 11
+      },
+      "second_turn": {
+        "win_rate": 69.2,
+        "games": 13
+      }
+    },
+    {
+      "opponent_faction": "Genestealer Cults",
+      "games": 23,
       "wins": 15,
-      "win_rate": 68.2,
+      "win_rate": 65.2,
       "first_turn": {
         "win_rate": 80.0,
         "games": 10
+      },
+      "second_turn": {
+        "win_rate": 53.8,
+        "games": 13
+      }
+    },
+    {
+      "opponent_faction": "Blood Angels",
+      "games": 20,
+      "wins": 14,
+      "win_rate": 70.0,
+      "first_turn": {
+        "win_rate": 87.5,
+        "games": 8
       },
       "second_turn": {
         "win_rate": 58.3,
@@ -3242,12 +3166,12 @@
     },
     {
       "opponent_faction": "Adepta Sororitas",
-      "games": 18,
-      "wins": 11,
-      "win_rate": 61.1,
+      "games": 17,
+      "wins": 10,
+      "win_rate": 58.8,
       "first_turn": {
-        "win_rate": 63.6,
-        "games": 11
+        "win_rate": 60.0,
+        "games": 10
       },
       "second_turn": {
         "win_rate": 57.1,
@@ -3298,22 +3222,6 @@
     }
   ],
   "timeline": [
-    {
-      "week": "2026-W34",
-      "lists": 9,
-      "games": 45,
-      "win_rate": 67.8,
-      "total_lists": 124,
-      "play_rate": 7.3,
-      "first_turn": {
-        "win_rate": 66.7,
-        "games": 24
-      },
-      "second_turn": {
-        "win_rate": 69.0,
-        "games": 21
-      }
-    },
     {
       "week": "2026-W35",
       "lists": 4,

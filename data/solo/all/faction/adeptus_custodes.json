@@ -1,7 +1,7 @@
 {
   "faction": "Adeptus Custodes",
   "slug": "adeptus_custodes",
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "window_days": 9999,
   "event_type": "solo",
   "lists": 822,
@@ -9,7 +9,7 @@
   "play_rate": 6.0,
   "win_rate": 52.5,
   "trend_delta": null,
-  "top_detachment": "Lions Of The Emperor + Might Of The Moritoi",
+  "top_detachment": "Lions Of The Emperor",
   "ci_lower": 51.0,
   "meta_health": "slightly_over",
   "x0_pct": 2.8,
@@ -21,9 +21,28 @@
   },
   "second_turn": {
     "win_rate": 53.0,
-    "games": 2207
+    "games": 2208
   },
   "detachments": [
+    {
+      "detachment": "Lions Of The Emperor",
+      "base_archetype": "Adeptus Custodes \u2014 Lions Of The Emperor",
+      "lists": 250,
+      "games": 1313,
+      "play_rate": 30.4,
+      "win_rate": 56.1,
+      "x0_pct": 4.9,
+      "x1_pct": 15.0,
+      "tournament_wins": 11,
+      "first_turn": {
+        "win_rate": 56.5,
+        "games": 647
+      },
+      "second_turn": {
+        "win_rate": 57.5,
+        "games": 684
+      }
+    },
     {
       "detachment": "Lions Of The Emperor + Might Of The Moritoi",
       "base_archetype": "Adeptus Custodes \u2014 Lions Of The Emperor + Might Of The Moritoi",
@@ -41,25 +60,6 @@
       "second_turn": {
         "win_rate": 58.8,
         "games": 578
-      }
-    },
-    {
-      "detachment": "Lions Of The Emperor",
-      "base_archetype": "Adeptus Custodes \u2014 Lions Of The Emperor",
-      "lists": 175,
-      "games": 920,
-      "play_rate": 21.3,
-      "win_rate": 57.4,
-      "x0_pct": 6.4,
-      "x1_pct": 12.7,
-      "tournament_wins": 11,
-      "first_turn": {
-        "win_rate": 56.5,
-        "games": 647
-      },
-      "second_turn": {
-        "win_rate": 57.5,
-        "games": 683
       }
     },
     {
@@ -101,25 +101,6 @@
       }
     },
     {
-      "detachment": "Lions of the Emperor",
-      "base_archetype": "Adeptus Custodes \u2014 Lions of the Emperor",
-      "lists": 89,
-      "games": 464,
-      "play_rate": 10.8,
-      "win_rate": 54.3,
-      "x0_pct": 1.1,
-      "x1_pct": 23.9,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 63.4,
-        "games": 41
-      },
-      "second_turn": {
-        "win_rate": 57.5,
-        "games": 40
-      }
-    },
-    {
       "detachment": "Lions Of The Emperor + Silent Hunters",
       "base_archetype": "Adeptus Custodes \u2014 Lions Of The Emperor + Silent Hunters",
       "lists": 43,
@@ -141,12 +122,12 @@
     {
       "detachment": "No Detachment",
       "base_archetype": "Adeptus Custodes \u2014 No Detachment",
-      "lists": 20,
-      "games": 89,
-      "play_rate": 2.4,
-      "win_rate": 39.9,
+      "lists": 21,
+      "games": 94,
+      "play_rate": 2.6,
+      "win_rate": 41.0,
       "x0_pct": 0.0,
-      "x1_pct": 5.0,
+      "x1_pct": 4.8,
       "tournament_wins": 0,
       "first_turn": {
         "win_rate": null,
@@ -173,6 +154,25 @@
       },
       "second_turn": {
         "win_rate": 45.0,
+        "games": 40
+      }
+    },
+    {
+      "detachment": "Lions of the Emperor",
+      "base_archetype": "Adeptus Custodes \u2014 Lions of the Emperor",
+      "lists": 16,
+      "games": 71,
+      "play_rate": 1.9,
+      "win_rate": 60.6,
+      "x0_pct": 0.0,
+      "x1_pct": 37.5,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 63.4,
+        "games": 41
+      },
+      "second_turn": {
+        "win_rate": 57.5,
         "games": 40
       }
     },
@@ -470,14 +470,14 @@
       "win_rate": 54.8,
       "x0_pct": 4.3,
       "x1_pct": 16.4,
-      "games": 2302.0,
+      "games": 2303.0,
       "first_turn": {
         "win_rate": 55.0,
         "games": 1139
       },
       "second_turn": {
         "win_rate": 55.1,
-        "games": 1151
+        "games": 1152
       }
     },
     {
@@ -594,16 +594,16 @@
     },
     {
       "opponent_disposition": "Reconnaissance",
-      "games": 692,
+      "games": 693,
       "wins": 348,
-      "win_rate": 50.3,
+      "win_rate": 50.2,
       "first_turn": {
         "win_rate": 47.0,
         "games": 328
       },
       "second_turn": {
-        "win_rate": 53.3,
-        "games": 364
+        "win_rate": 53.2,
+        "games": 365
       }
     },
     {
@@ -955,16 +955,16 @@
     {
       "disposition": "Take and Hold",
       "opponent_disposition": "Reconnaissance",
-      "games": 391,
+      "games": 392,
       "wins": 212,
-      "win_rate": 54.3,
+      "win_rate": 54.2,
       "first_turn": {
         "win_rate": 49.2,
         "games": 184
       },
       "second_turn": {
-        "win_rate": 58.9,
-        "games": 207
+        "win_rate": 58.7,
+        "games": 208
       }
     },
     {
@@ -1144,18 +1144,6 @@
       "win_rate": 100.0
     },
     {
-      "player_name": "Adam Tubby",
-      "detachment": "Lions Of The Emperor + Might Of The Moritoi",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/UfbXPWPyHe0I",
-      "source": "bcp",
-      "wins": 17,
-      "losses": 1,
-      "draws": 0,
-      "games": 18,
-      "win_rate": 94.4
-    },
-    {
       "player_name": "Filip Jakob Pogacnik",
       "detachment": "Lions Of The Emperor",
       "disposition": "Take and Hold",
@@ -1190,6 +1178,18 @@
       "draws": 1,
       "games": 5,
       "win_rate": 90.0
+    },
+    {
+      "player_name": "Adam Tubby",
+      "detachment": "Lions Of The Emperor + Might Of The Moritoi",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/UfbXPWPyHe0I",
+      "source": "bcp",
+      "wins": 17,
+      "losses": 2,
+      "draws": 0,
+      "games": 19,
+      "win_rate": 89.5
     },
     {
       "player_name": "Maxime Rampen",
@@ -1229,7 +1229,7 @@
     },
     {
       "player_name": "Edward Diamond",
-      "detachment": "Lions of the Emperor",
+      "detachment": "Lions Of The Emperor",
       "disposition": "Take and Hold",
       "list_url": "https://www.bestcoastpairings.com/list/iJ1PlfEk9tKA",
       "source": "bcp",
@@ -1313,16 +1313,16 @@
     },
     {
       "opponent_faction": "Dark Angels",
-      "games": 202,
+      "games": 203,
       "wins": 92,
-      "win_rate": 45.5,
+      "win_rate": 45.3,
       "first_turn": {
         "win_rate": 49.5,
         "games": 102
       },
       "second_turn": {
-        "win_rate": 41.5,
-        "games": 100
+        "win_rate": 41.1,
+        "games": 101
       }
     },
     {
@@ -1848,8 +1848,8 @@
     {
       "week": "2026-W38",
       "lists": 127,
-      "games": 584,
-      "win_rate": 52.7,
+      "games": 585,
+      "win_rate": 52.6,
       "total_lists": 1690,
       "play_rate": 7.5,
       "first_turn": {
@@ -1857,8 +1857,8 @@
         "games": 305
       },
       "second_turn": {
-        "win_rate": 56.3,
-        "games": 279
+        "win_rate": 56.1,
+        "games": 280
       }
     }
   ]

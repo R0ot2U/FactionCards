@@ -1,16 +1,16 @@
 {
   "faction": "T'au Empire",
   "slug": "t_au_empire",
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "window_days": 14,
   "event_type": "solo",
   "lists": 91,
   "games": 458,
   "play_rate": 4.0,
-  "win_rate": 50.8,
-  "trend_delta": -0.9,
+  "win_rate": 51.0,
+  "trend_delta": -0.7,
   "top_detachment": "Retaliation Cadre",
-  "ci_lower": 46.2,
+  "ci_lower": 46.4,
   "meta_health": "slightly_under",
   "x0_pct": 2.2,
   "x1_pct": 16.5,
@@ -20,7 +20,7 @@
     "games": 251
   },
   "second_turn": {
-    "win_rate": 48.6,
+    "win_rate": 49.1,
     "games": 217
   },
   "detachments": [
@@ -82,6 +82,25 @@
       }
     },
     {
+      "detachment": "No Detachment",
+      "base_archetype": "T'au Empire \u2014 No Detachment",
+      "lists": 4,
+      "games": 21,
+      "play_rate": 4.4,
+      "win_rate": 38.1,
+      "x0_pct": 0.0,
+      "x1_pct": 25.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
+    },
+    {
       "detachment": "Advanced Acquisition Cadre + Kauyon",
       "base_archetype": "T'au Empire \u2014 Advanced Acquisition Cadre + Kauyon",
       "lists": 4,
@@ -101,31 +120,12 @@
       }
     },
     {
-      "detachment": "No Detachment",
-      "base_archetype": "T'au Empire \u2014 No Detachment",
-      "lists": 3,
-      "games": 16,
-      "play_rate": 3.3,
-      "win_rate": 50.0,
-      "x0_pct": 0.0,
-      "x1_pct": 33.3,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": null,
-        "games": 0
-      },
-      "second_turn": {
-        "win_rate": null,
-        "games": 0
-      }
-    },
-    {
       "detachment": "Kroot Hunting Pack",
       "base_archetype": "T'au Empire \u2014 Kroot Hunting Pack",
-      "lists": 3,
-      "games": 13,
-      "play_rate": 3.3,
-      "win_rate": 53.8,
+      "lists": 2,
+      "games": 10,
+      "play_rate": 2.2,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
@@ -139,12 +139,31 @@
       }
     },
     {
+      "detachment": "Advanced Acquisition Cadre + Kroot Hunting Pack",
+      "base_archetype": "T'au Empire \u2014 Advanced Acquisition Cadre + Kroot Hunting Pack",
+      "lists": 2,
+      "games": 8,
+      "play_rate": 2.2,
+      "win_rate": 68.8,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 62.5,
+        "games": 4
+      }
+    },
+    {
       "detachment": "Experimental Prototype Cadre + Kroot Hunting Pack",
       "base_archetype": "T'au Empire \u2014 Experimental Prototype Cadre + Kroot Hunting Pack",
       "lists": 1,
       "games": 5,
       "play_rate": 1.1,
-      "win_rate": 80.0,
+      "win_rate": 100.0,
       "x0_pct": 0.0,
       "x1_pct": 100.0,
       "tournament_wins": 0,
@@ -153,7 +172,7 @@
         "games": 1
       },
       "second_turn": {
-        "win_rate": 75.0,
+        "win_rate": 100.0,
         "games": 4
       }
     },
@@ -174,25 +193,6 @@
       "second_turn": {
         "win_rate": 66.7,
         "games": 3
-      }
-    },
-    {
-      "detachment": "Advanced Acquisition Cadre + Kroot Hunting Pack",
-      "base_archetype": "T'au Empire \u2014 Advanced Acquisition Cadre + Kroot Hunting Pack",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 1.1,
-      "win_rate": 70.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 75.0,
-        "games": 4
-      },
-      "second_turn": {
-        "win_rate": 62.5,
-        "games": 4
       }
     },
     {
@@ -271,7 +271,7 @@
       "disposition": "Take and Hold",
       "lists": 3,
       "play_rate": 3.3,
-      "win_rate": 60.0,
+      "win_rate": 66.7,
       "x0_pct": 0.0,
       "x1_pct": 33.3,
       "games": 15.0,
@@ -280,7 +280,7 @@
         "games": 11
       },
       "second_turn": {
-        "win_rate": 75.0,
+        "win_rate": 100.0,
         "games": 4
       }
     },
@@ -320,14 +320,14 @@
     {
       "opponent_disposition": "Priority Assets",
       "games": 133,
-      "wins": 59,
-      "win_rate": 44.4,
+      "wins": 60,
+      "win_rate": 45.1,
       "first_turn": {
         "win_rate": 50.7,
         "games": 75
       },
       "second_turn": {
-        "win_rate": 36.2,
+        "win_rate": 37.9,
         "games": 58
       }
     },
@@ -604,14 +604,14 @@
       "disposition": "Take and Hold",
       "opponent_disposition": "Priority Assets",
       "games": 6,
-      "wins": 3,
-      "win_rate": 50.0,
+      "wins": 4,
+      "win_rate": 66.7,
       "first_turn": {
         "win_rate": 50.0,
         "games": 4
       },
       "second_turn": {
-        "win_rate": 50.0,
+        "win_rate": 100.0,
         "games": 2
       }
     }
@@ -634,6 +634,18 @@
       "detachment": "Retaliation Cadre",
       "disposition": "Purge the Foe",
       "list_url": "https://www.bestcoastpairings.com/list/b3kj0Hk7jiVk",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Ross Tully",
+      "detachment": "Experimental Prototype Cadre + Kroot Hunting Pack",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/NCJ9Kunmi9Hr",
       "source": "bcp",
       "wins": 5,
       "losses": 0,
@@ -774,18 +786,6 @@
       "win_rate": 80.0
     },
     {
-      "player_name": "Ross Tully",
-      "detachment": "Experimental Prototype Cadre + Kroot Hunting Pack",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/NCJ9Kunmi9Hr",
-      "source": "bcp",
-      "wins": 4,
-      "losses": 1,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 80.0
-    },
-    {
       "player_name": "Oliver Campbell",
       "detachment": "Retaliation Cadre",
       "disposition": "Purge the Foe",
@@ -835,7 +835,7 @@
     },
     {
       "player_name": "Alexander Thomson",
-      "detachment": "Kroot Hunting Pack",
+      "detachment": "Advanced Acquisition Cadre + Kroot Hunting Pack",
       "disposition": "Reconnaissance",
       "list_url": "https://www.bestcoastpairings.com/list/0xxhwdjTLSLx",
       "source": "bcp",
@@ -1114,14 +1114,14 @@
     {
       "opponent_faction": "Aeldari",
       "games": 10,
-      "wins": 1,
-      "win_rate": 10.0,
+      "wins": 2,
+      "win_rate": 20.0,
       "first_turn": {
         "win_rate": 14.3,
         "games": 7
       },
       "second_turn": {
-        "win_rate": 0.0,
+        "win_rate": 33.3,
         "games": 3
       }
     },
@@ -1217,7 +1217,7 @@
       "week": "2026-W38",
       "lists": 67,
       "games": 330,
-      "win_rate": 48.9,
+      "win_rate": 49.2,
       "total_lists": 1690,
       "play_rate": 4.0,
       "first_turn": {
@@ -1225,7 +1225,7 @@
         "games": 178
       },
       "second_turn": {
-        "win_rate": 48.4,
+        "win_rate": 49.0,
         "games": 152
       }
     }
