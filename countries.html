@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Country Leaderboard — Informed Crusader</title>
+<meta name="description" content="Warhammer 40k competitive country rankings: compare player pools, average ELO rating, and win rates by country.">
+<meta property="og:title" content="Country Leaderboard — Informed Crusader">
+<meta property="og:description" content="Country rankings from BCP and New Recruit competitive events.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+
+<header>
+  <a class="site-logo" href="index.html">Informed Crusader</a>
+  <span class="subtitle" id="window-label"></span>
+  <span class="spacer"></span>
+  <a class="nav-link" href="index.html">Factions</a>
+  <a class="nav-link" href="players.html">Players</a>
+  <a class="nav-link active" href="countries.html">Countries</a>
+  <a class="nav-link" href="tournaments.html">Tournaments</a>
+  <a class="nav-link" href="dispositions.html">Dispositions</a>
+  <a class="nav-link" href="legend.html">About</a>
+  <span class="meta-info" id="build-info"></span>
+</header>
+
+<main>
+  <div class="controls">
+    <input class="search-input" type="search" id="search" placeholder="Search country…" autocomplete="off">
+    <div class="btn-group" id="event-type-btns" role="group" aria-label="Event type filter">
+      <button class="btn active" data-val="all">All Events</button>
+      <button class="btn" data-val="solo">Singles</button>
+      <button class="btn" data-val="team">Teams</button>
+    </div>
+    <span id="row-count" style="color:var(--dim);font-size:0.8rem;margin-left:4px;"></span>
+  </div>
+
+  <div class="panel">
+    <div class="panel-title">Country Leaderboard <span class="panel-note">(player attributed to every country they've competed in)</span></div>
+    <div class="table-wrap">
+      <table id="countries-table">
+        <thead>
+          <tr>
+            <th title="Rank by average ELO rating">Rank</th>
+            <th>Country</th>
+            <th title="Players attributed to this country">Players</th>
+            <th title="Average current ELO rating of attributed players">Avg Rating</th>
+            <th title="Average win rate of attributed players (draw = 0.5 win)">Avg Win %</th>
+            <th title="Total games played across attributed players">Games</th>
+            <th title="Number of tournaments held in this country">Events</th>
+            <th title="Highest-rated attributed player">Top Player</th>
+          </tr>
+        </thead>
+        <tbody id="countries-tbody">
+          <tr><td colspan="8" class="loading">Loading data…</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</main>
+
+<footer id="site-footer"></footer>
+
+<script src="assets/app.js" defer></script>
+<script src="assets/countries.js" defer></script>
+<script data-goatcounter="https://informedcrusader.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

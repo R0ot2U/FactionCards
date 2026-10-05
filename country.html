@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Country Detail — Informed Crusader</title>
+<meta name="description" content="Warhammer 40k country detail: player leaderboard and faction breakdown for a single country's competitive scene.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+
+<header>
+  <a class="site-logo" href="index.html">Informed Crusader</a>
+  <span class="subtitle" id="window-label"></span>
+  <span class="spacer"></span>
+  <a class="nav-link" href="index.html">Factions</a>
+  <a class="nav-link" href="players.html">Players</a>
+  <a class="nav-link active" href="countries.html">Countries</a>
+  <a class="nav-link" href="tournaments.html">Tournaments</a>
+  <a class="nav-link" href="dispositions.html">Dispositions</a>
+  <a class="nav-link" href="legend.html">About</a>
+  <a class="nav-link" id="back-link" href="countries.html">← All Countries</a>
+</header>
+
+<main>
+  <div class="breadcrumb">
+    <a id="breadcrumb-back" href="countries.html">Country Leaderboard</a>
+    › <span id="breadcrumb-country">Loading…</span>
+  </div>
+
+  <div class="controls">
+    <div class="btn-group" id="event-type-btns" role="group" aria-label="Event type filter">
+      <button class="btn active" data-val="all">All Events</button>
+      <button class="btn" data-val="solo">Singles</button>
+      <button class="btn" data-val="team">Teams</button>
+    </div>
+  </div>
+
+  <div id="content" class="loading">Loading country data…</div>
+</main>
+
+<footer id="site-footer"></footer>
+
+<script src="assets/app.js" defer></script>
+<script src="assets/country.js" defer></script>
+<script data-goatcounter="https://informedcrusader.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
