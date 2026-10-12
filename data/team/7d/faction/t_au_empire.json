@@ -1,74 +1,131 @@
 {
   "faction": "T'au Empire",
   "slug": "t_au_empire",
-  "as_of": "2026-10-05",
+  "as_of": "2026-10-12",
   "window_days": 7,
   "event_type": "team",
-  "lists": 7,
-  "games": 35,
-  "play_rate": 5.8,
-  "win_rate": 40.0,
-  "trend_delta": -3.7,
+  "lists": 44,
+  "games": 220,
+  "play_rate": 4.6,
+  "win_rate": 53.9,
+  "trend_delta": 13.9,
   "top_detachment": "Retaliation Cadre",
-  "ci_lower": 25.6,
-  "meta_health": "strongly_under",
-  "x0_pct": 0.0,
-  "x1_pct": 0.0,
+  "ci_lower": 47.3,
+  "meta_health": "slightly_under",
+  "x0_pct": 2.3,
+  "x1_pct": 22.7,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 31.2,
-    "games": 16
+    "win_rate": 55.2,
+    "games": 96
   },
   "second_turn": {
-    "win_rate": 47.4,
-    "games": 19
+    "win_rate": 52.8,
+    "games": 124
   },
   "detachments": [
     {
       "detachment": "Retaliation Cadre",
       "base_archetype": "T'au Empire \u2014 Retaliation Cadre",
-      "lists": 3,
-      "games": 15,
-      "play_rate": 42.9,
-      "win_rate": 36.7,
+      "lists": 21,
+      "games": 105,
+      "play_rate": 47.7,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
+      "x1_pct": 42.9,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 31.2,
-        "games": 8
+        "win_rate": 61.1,
+        "games": 45
       },
       "second_turn": {
-        "win_rate": 42.9,
-        "games": 7
+        "win_rate": 59.2,
+        "games": 60
       }
     },
     {
       "detachment": "Experimental Prototype Cadre + Kauyon",
       "base_archetype": "T'au Empire \u2014 Experimental Prototype Cadre + Kauyon",
-      "lists": 2,
-      "games": 10,
-      "play_rate": 28.6,
-      "win_rate": 40.0,
+      "lists": 9,
+      "games": 45,
+      "play_rate": 20.5,
+      "win_rate": 44.4,
+      "x0_pct": 0.0,
+      "x1_pct": 11.1,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 55.0,
+        "games": 20
+      },
+      "second_turn": {
+        "win_rate": 36.7,
+        "games": 30
+      }
+    },
+    {
+      "detachment": "Mont'ka",
+      "base_archetype": "T'au Empire \u2014 Mont'ka",
+      "lists": 7,
+      "games": 35,
+      "play_rate": 15.9,
+      "win_rate": 50.0,
+      "x0_pct": 14.3,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 44.4,
+        "games": 18
+      },
+      "second_turn": {
+        "win_rate": 55.9,
+        "games": 17
+      }
+    },
+    {
+      "detachment": "Kauyon",
+      "base_archetype": "T'au Empire \u2014 Kauyon",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 2.3,
+      "win_rate": 70.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 41.7,
-        "games": 6
+        "win_rate": 100.0,
+        "games": 1
       },
       "second_turn": {
-        "win_rate": 37.5,
+        "win_rate": 62.5,
         "games": 4
       }
     },
     {
-      "detachment": "Advanced Acquisition Cadre + Kauyon",
-      "base_archetype": "T'au Empire \u2014 Advanced Acquisition Cadre + Kauyon",
+      "detachment": "Kroot Hunting Pack",
+      "base_archetype": "T'au Empire \u2014 Kroot Hunting Pack",
       "lists": 1,
       "games": 5,
-      "play_rate": 14.3,
+      "play_rate": 2.3,
       "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      }
+    },
+    {
+      "detachment": "Experimental Prototype Cadre",
+      "base_archetype": "T'au Empire \u2014 Experimental Prototype Cadre",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 2.3,
+      "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
@@ -77,76 +134,110 @@
         "games": 0
       },
       "second_turn": {
-        "win_rate": 60.0,
-        "games": 5
+        "win_rate": null,
+        "games": 0
       }
     },
     {
-      "detachment": "Mont'ka",
-      "base_archetype": "T'au Empire \u2014 Mont'ka",
+      "detachment": "Auxiliary Cadre + Kauyon",
+      "base_archetype": "T'au Empire \u2014 Auxiliary Cadre + Kauyon",
       "lists": 1,
       "games": 5,
-      "play_rate": 14.3,
+      "play_rate": 2.3,
       "win_rate": 30.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 0.0,
-        "games": 2
+        "win_rate": 30.0,
+        "games": 5
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 3
+        "win_rate": null,
+        "games": 0
       }
     }
   ],
   "dispositions": [
     {
       "disposition": "Purge the Foe",
-      "lists": 3,
-      "play_rate": 42.9,
-      "win_rate": 36.7,
+      "lists": 16,
+      "play_rate": 36.4,
+      "win_rate": 59.4,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 15.0,
+      "x1_pct": 43.8,
+      "games": 80.0,
       "first_turn": {
-        "win_rate": 31.2,
-        "games": 8
+        "win_rate": 59.2,
+        "games": 38
       },
       "second_turn": {
-        "win_rate": 42.9,
-        "games": 7
-      }
-    },
-    {
-      "disposition": "Reconnaissance",
-      "lists": 2,
-      "play_rate": 28.6,
-      "win_rate": 55.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 10.0,
-      "first_turn": {
-        "win_rate": 75.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 50.0,
-        "games": 8
+        "win_rate": 59.5,
+        "games": 42
       }
     },
     {
       "disposition": "Priority Assets",
+      "lists": 13,
+      "play_rate": 29.5,
+      "win_rate": 55.4,
+      "x0_pct": 7.7,
+      "x1_pct": 7.7,
+      "games": 65.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 29
+      },
+      "second_turn": {
+        "win_rate": 59.7,
+        "games": 36
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "lists": 12,
+      "play_rate": 27.3,
+      "win_rate": 45.8,
+      "x0_pct": 0.0,
+      "x1_pct": 16.7,
+      "games": 60.0,
+      "first_turn": {
+        "win_rate": 56.8,
+        "games": 22
+      },
+      "second_turn": {
+        "win_rate": 39.5,
+        "games": 38
+      }
+    },
+    {
+      "disposition": "Disruption",
       "lists": 2,
-      "play_rate": 28.6,
-      "win_rate": 30.0,
+      "play_rate": 4.5,
+      "win_rate": 45.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "games": 10.0,
       "first_turn": {
-        "win_rate": 16.7,
+        "win_rate": 41.7,
         "games": 6
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "lists": 1,
+      "play_rate": 2.3,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
       },
       "second_turn": {
         "win_rate": 50.0,
@@ -156,13 +247,266 @@
   ],
   "disposition_matchups": [
     {
+      "opponent_disposition": "Reconnaissance",
+      "games": 53,
+      "wins": 25,
+      "win_rate": 48.1,
+      "first_turn": {
+        "win_rate": 58.3,
+        "games": 24
+      },
+      "second_turn": {
+        "win_rate": 39.7,
+        "games": 29
+      }
+    },
+    {
       "opponent_disposition": "Purge the Foe",
-      "games": 12,
+      "games": 51,
+      "wins": 26,
+      "win_rate": 51.0,
+      "first_turn": {
+        "win_rate": 58.0,
+        "games": 25
+      },
+      "second_turn": {
+        "win_rate": 44.2,
+        "games": 26
+      }
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 47,
+      "wins": 22,
+      "win_rate": 46.8,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 15
+      },
+      "second_turn": {
+        "win_rate": 53.1,
+        "games": 32
+      }
+    },
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 34,
+      "wins": 20,
+      "win_rate": 58.8,
+      "first_turn": {
+        "win_rate": 60.0,
+        "games": 15
+      },
+      "second_turn": {
+        "win_rate": 57.9,
+        "games": 19
+      }
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 33,
+      "wins": 23,
+      "win_rate": 69.7,
+      "first_turn": {
+        "win_rate": 59.4,
+        "games": 16
+      },
+      "second_turn": {
+        "win_rate": 79.4,
+        "games": 17
+      }
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Take and Hold",
+      "games": 15,
+      "wins": 7,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 64.3,
+        "games": 7
+      },
+      "second_turn": {
+        "win_rate": 37.5,
+        "games": 8
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Priority Assets",
+      "games": 14,
+      "wins": 7,
+      "win_rate": 53.6,
+      "first_turn": {
+        "win_rate": 10.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 77.8,
+        "games": 9
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Purge the Foe",
+      "games": 13,
+      "wins": 6,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 40.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 56.2,
+        "games": 8
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Reconnaissance",
+      "games": 13,
       "wins": 5,
-      "win_rate": 41.7,
+      "win_rate": 42.3,
+      "first_turn": {
+        "win_rate": 41.7,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 42.9,
+        "games": 7
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Disruption",
+      "games": 9,
+      "wins": 8,
+      "win_rate": 88.9,
+      "first_turn": {
+        "win_rate": 80.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 4
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Reconnaissance",
+      "games": 22,
+      "wins": 12,
+      "win_rate": 56.8,
+      "first_turn": {
+        "win_rate": 62.5,
+        "games": 12
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 10
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Purge the Foe",
+      "games": 21,
+      "wins": 12,
+      "win_rate": 57.1,
+      "first_turn": {
+        "win_rate": 70.8,
+        "games": 12
+      },
+      "second_turn": {
+        "win_rate": 38.9,
+        "games": 9
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Priority Assets",
+      "games": 16,
+      "wins": 6,
+      "win_rate": 40.6,
+      "first_turn": {
+        "win_rate": 40.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 40.9,
+        "games": 11
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Take and Hold",
+      "games": 10,
+      "wins": 8,
+      "win_rate": 85.0,
+      "first_turn": {
+        "win_rate": 62.5,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 6
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Disruption",
+      "games": 8,
+      "wins": 6,
+      "win_rate": 75.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 4
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Priority Assets",
+      "games": 13,
+      "wins": 7,
+      "win_rate": 53.8,
       "first_turn": {
         "win_rate": 83.3,
         "games": 3
+      },
+      "second_turn": {
+        "win_rate": 45.0,
+        "games": 10
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Disruption",
+      "games": 13,
+      "wins": 7,
+      "win_rate": 53.8,
+      "first_turn": {
+        "win_rate": 41.7,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 64.3,
+        "games": 7
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Reconnaissance",
+      "games": 13,
+      "wins": 5,
+      "win_rate": 38.5,
+      "first_turn": {
+        "win_rate": 62.5,
+        "games": 4
       },
       "second_turn": {
         "win_rate": 27.8,
@@ -170,73 +514,234 @@
       }
     },
     {
-      "opponent_disposition": "Take and Hold",
-      "games": 10,
-      "wins": 1,
-      "win_rate": 15.0,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 5
-      },
-      "second_turn": {
-        "win_rate": 30.0,
-        "games": 5
-      }
-    }
-  ],
-  "disposition_cross": [
-    {
-      "disposition": "Priority Assets",
+      "disposition": "Reconnaissance",
       "opponent_disposition": "Purge the Foe",
-      "games": 5,
-      "wins": 3,
-      "win_rate": 60.0,
+      "games": 12,
+      "wins": 4,
+      "win_rate": 37.5,
       "first_turn": {
-        "win_rate": 100.0,
-        "games": 1
+        "win_rate": 60.0,
+        "games": 5
       },
       "second_turn": {
+        "win_rate": 21.4,
+        "games": 7
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Take and Hold",
+      "games": 9,
+      "wins": 4,
+      "win_rate": 44.4,
+      "first_turn": {
         "win_rate": 50.0,
         "games": 4
-      }
-    },
-    {
-      "disposition": "Purge the Foe",
-      "opponent_disposition": "Take and Hold",
-      "games": 6,
-      "wins": 0,
-      "win_rate": 8.3,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 4
       },
       "second_turn": {
-        "win_rate": 25.0,
-        "games": 2
-      }
-    },
-    {
-      "disposition": "Purge the Foe",
-      "opponent_disposition": "Purge the Foe",
-      "games": 5,
-      "wins": 2,
-      "win_rate": 40.0,
-      "first_turn": {
-        "win_rate": 75.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 16.7,
-        "games": 3
+        "win_rate": 40.0,
+        "games": 5
       }
     }
   ],
   "top_players": [
     {
-      "player_name": "Eric Wulff",
-      "detachment": "Advanced Acquisition Cadre + Kauyon",
+      "player_name": "Fernando Soriano",
+      "detachment": "Mont'ka",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/UfjA9rBzWyXM",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Giorgos Durieux",
+      "detachment": "Retaliation Cadre",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/NylzoGz7fbcK",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "Campbell Freeman",
+      "detachment": "Retaliation Cadre",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/aBmzKvJSs8y4",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "Jono Bishop",
+      "detachment": "Retaliation Cadre",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/77WpU5KryliX",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "Orestis Stab",
+      "detachment": "Retaliation Cadre",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/3g4vwQbWa89n",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Van Wetering Robin",
+      "detachment": "Retaliation Cadre",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/z6K4dFaVCJbD",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Julien Laffut",
+      "detachment": "Retaliation Cadre",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/TFEFph6cgW8V",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "David Capponi",
+      "detachment": "Retaliation Cadre",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/ghenzWWkgihq",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Maxine Goldmannov\u00e1",
+      "detachment": "Retaliation Cadre",
       "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/OwzpttpEhM0E",
+      "list_url": "https://www.bestcoastpairings.com/list/jleLFgk3mM2G",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Fabian Paulista",
+      "detachment": "Retaliation Cadre",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/xibzMU1rjJh8",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Alex Pe\u00f1a",
+      "detachment": "Experimental Prototype Cadre + Kauyon",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/ABy59VXsot2R",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Joshua Rhodes",
+      "detachment": "Retaliation Cadre",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/psQanqGIKLrR",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Alberto Vacas \ud83d\udc2e",
+      "detachment": "Kauyon",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/VC6QCsmiy4ig",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Sergio Fern\u00e1ndez",
+      "detachment": "",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/85npXctqQEiB",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Dineeth Liyanagama",
+      "detachment": "Experimental Prototype Cadre + Kauyon",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/6kYfGFViN8BL",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Denis Bulgaranov",
+      "detachment": "Retaliation Cadre",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/PbAt6EOdworY",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 1,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Pierre-Yves Desplanques",
+      "detachment": "Experimental Prototype Cadre + Kauyon",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/7RARZKpKdpfU",
       "source": "bcp",
       "wins": 3,
       "losses": 2,
@@ -245,109 +750,311 @@
       "win_rate": 60.0
     },
     {
-      "player_name": "Rikard Tr\u00f6ger",
-      "detachment": "Retaliation Cadre",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/l9YKM5SyEYAN",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "Oskar Segerlund",
-      "detachment": "Experimental Prototype Cadre + Kauyon",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/L0we135HvNeC",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "P\u00e4r Bengtsson",
-      "detachment": "Retaliation Cadre",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/562xlUZYwqqF",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 2,
-      "draws": 2,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Fredrik Jansson",
+      "player_name": "Daniel MacMeeking",
       "detachment": "Experimental Prototype Cadre + Kauyon",
       "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/viGaVra1GqkH",
+      "list_url": "https://www.bestcoastpairings.com/list/8WNUn3QFmWf2",
       "source": "bcp",
-      "wins": 1,
-      "losses": 3,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 30.0
-    },
-    {
-      "player_name": "Per Bj\u00f6rklund",
-      "detachment": "Mont'ka",
-      "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/kvItYzkcF6ME",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 3,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 30.0
-    },
-    {
-      "player_name": "Erik Wahlberg",
-      "detachment": "Retaliation Cadre",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/tlSIcdf5vxcE",
-      "source": "bcp",
-      "wins": 1,
-      "losses": 4,
+      "wins": 3,
+      "losses": 2,
       "draws": 0,
       "games": 5,
-      "win_rate": 20.0
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Nico Aun' Sud' Aca",
+      "detachment": "Kroot Hunting Pack",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/C09VGvsC6onx",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Fernando Digual",
+      "detachment": "",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/lW8ltH1jIgwF",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
     }
   ],
   "matchups": [
     {
       "opponent_faction": "Necrons",
-      "games": 5,
-      "wins": 1,
-      "win_rate": 30.0,
+      "games": 18,
+      "wins": 9,
+      "win_rate": 52.8,
       "first_turn": {
-        "win_rate": 100.0,
-        "games": 1
+        "win_rate": 50.0,
+        "games": 7
       },
       "second_turn": {
-        "win_rate": 12.5,
+        "win_rate": 54.5,
+        "games": 11
+      }
+    },
+    {
+      "opponent_faction": "Orks",
+      "games": 15,
+      "wins": 3,
+      "win_rate": 23.3,
+      "first_turn": {
+        "win_rate": 20.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 10
+      }
+    },
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 14,
+      "wins": 8,
+      "win_rate": 57.1,
+      "first_turn": {
+        "win_rate": 62.5,
+        "games": 8
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 6
+      }
+    },
+    {
+      "opponent_faction": "Chaos Daemons",
+      "games": 13,
+      "wins": 7,
+      "win_rate": 53.8,
+      "first_turn": {
+        "win_rate": 60.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 8
+      }
+    },
+    {
+      "opponent_faction": "World Eaters",
+      "games": 13,
+      "wins": 6,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 7
+      }
+    },
+    {
+      "opponent_faction": "Adepta Sororitas",
+      "games": 12,
+      "wins": 7,
+      "win_rate": 58.3,
+      "first_turn": {
+        "win_rate": 80.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 42.9,
+        "games": 7
+      }
+    },
+    {
+      "opponent_faction": "Emperor's Children",
+      "games": 11,
+      "wins": 6,
+      "win_rate": 59.1,
+      "first_turn": {
+        "win_rate": 50.0,
         "games": 4
+      },
+      "second_turn": {
+        "win_rate": 64.3,
+        "games": 7
+      }
+    },
+    {
+      "opponent_faction": "Death Guard",
+      "games": 11,
+      "wins": 6,
+      "win_rate": 59.1,
+      "first_turn": {
+        "win_rate": 70.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 6
+      }
+    },
+    {
+      "opponent_faction": "Chaos Space Marines",
+      "games": 10,
+      "wins": 5,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      }
+    },
+    {
+      "opponent_faction": "Adeptus Custodes",
+      "games": 10,
+      "wins": 7,
+      "win_rate": 75.0,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 78.6,
+        "games": 7
+      }
+    },
+    {
+      "opponent_faction": "Dark Angels",
+      "games": 9,
+      "wins": 3,
+      "win_rate": 38.9,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 6
+      }
+    },
+    {
+      "opponent_faction": "Imperial Knights",
+      "games": 8,
+      "wins": 7,
+      "win_rate": 87.5,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      }
+    },
+    {
+      "opponent_faction": "Tyranids",
+      "games": 7,
+      "wins": 2,
+      "win_rate": 28.6,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 4
+      }
+    },
+    {
+      "opponent_faction": "Thousand Sons",
+      "games": 6,
+      "wins": 1,
+      "win_rate": 16.7,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      }
+    },
+    {
+      "opponent_faction": "Grey Knights",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 66.7,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 6
+      }
+    },
+    {
+      "opponent_faction": "Drukhari",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 58.3,
+      "first_turn": {
+        "win_rate": 70.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 1
+      }
+    },
+    {
+      "opponent_faction": "Leagues of Votann",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 75.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 87.5,
+        "games": 4
+      }
+    },
+    {
+      "opponent_faction": "Aeldari",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 66.7,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 3
       }
     }
   ],
   "timeline": [
     {
-      "week": "2026-W39",
-      "lists": 7,
-      "games": 35,
-      "win_rate": 40.0,
-      "total_lists": 120,
-      "play_rate": 5.8,
+      "week": "2026-W40",
+      "lists": 44,
+      "games": 220,
+      "win_rate": 53.9,
+      "total_lists": 965,
+      "play_rate": 4.6,
       "first_turn": {
-        "win_rate": 31.2,
-        "games": 16
+        "win_rate": 55.2,
+        "games": 96
       },
       "second_turn": {
-        "win_rate": 47.4,
-        "games": 19
+        "win_rate": 52.8,
+        "games": 124
       }
     }
   ]

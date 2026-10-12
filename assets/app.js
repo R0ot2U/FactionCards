@@ -12,7 +12,8 @@ const DATASLATE_ERAS = [
   { value: "all", label: "All Eras" },
   { value: "launch", label: "Launch", title: "Pre-dataslate (before 2026-07-22)" },
   { value: "2026-07-22", label: "Dataslate 1", badge: "DS1", title: "First dataslate (2026-07-22 to 2026-08-25)" },
-  { value: "2026-08-26", label: "Dataslate 2", badge: "DS2", title: "Second dataslate (2026-08-26+)" },
+  { value: "2026-08-26", label: "Dataslate 2", badge: "DS2", title: "Second dataslate (2026-08-26 to 2026-09-29)" },
+  { value: "2026-09-30", label: "Dataslate 3", badge: "DS3", title: "Third dataslate (2026-09-30+)" },
 ];
 
 // Cache manifest loaded once on page load

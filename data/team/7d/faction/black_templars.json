@@ -1,64 +1,121 @@
 {
   "faction": "Black Templars",
   "slug": "black_templars",
-  "as_of": "2026-09-29",
+  "as_of": "2026-10-12",
   "window_days": 7,
   "event_type": "team",
-  "lists": 2,
-  "games": 10,
-  "play_rate": 0.4,
-  "win_rate": 50.0,
-  "trend_delta": -10.0,
-  "top_detachment": "Bastion Task Force",
-  "ci_lower": 23.7,
+  "lists": 8,
+  "games": 39,
+  "play_rate": 0.8,
+  "win_rate": 43.6,
+  "trend_delta": null,
+  "top_detachment": "Fist of the God-Emperor + Vow-sworn Crusaders",
+  "ci_lower": 29.3,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
   "x1_pct": 0.0,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 25.0,
-    "games": 6
+    "win_rate": 52.4,
+    "games": 21
   },
   "second_turn": {
-    "win_rate": 87.5,
-    "games": 4
+    "win_rate": 35.3,
+    "games": 17
   },
   "detachments": [
     {
-      "detachment": "Bastion Task Force",
-      "base_archetype": "Black Templars \u2014 Bastion Task Force",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 50.0,
+      "detachment": "Fist of the God-Emperor + Vow-sworn Crusaders",
+      "base_archetype": "Black Templars \u2014 Fist of the God-Emperor + Vow-sworn Crusaders",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 25.0,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 37.5,
+        "win_rate": 75.0,
         "games": 4
       },
       "second_turn": {
-        "win_rate": 100.0,
+        "win_rate": 33.3,
+        "games": 6
+      }
+    },
+    {
+      "detachment": "Assault Brethren + Ironstorm Spearhead + and Tacticus Attack Force",
+      "base_archetype": "Black Templars \u2014 Assault Brethren + Ironstorm Spearhead + and Tacticus Attack Force",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 12.5,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 0.0,
         "games": 1
       }
     },
     {
-      "detachment": "Companions Of Vehemence + Marshal'S Household",
-      "base_archetype": "Black Templars \u2014 Companions Of Vehemence + Marshal'S Household",
+      "detachment": "Assault Brethren + Marshal'S Household + and Tacticus Attack Force",
+      "base_archetype": "Black Templars \u2014 Assault Brethren + Marshal'S Household + and Tacticus Attack Force",
       "lists": 1,
       "games": 5,
-      "play_rate": 50.0,
-      "win_rate": 50.0,
+      "play_rate": 12.5,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      }
+    },
+    {
+      "detachment": "Marshal'S Household + Stormlance Task Force",
+      "base_archetype": "Black Templars \u2014 Marshal'S Household + Stormlance Task Force",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 12.5,
+      "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
         "win_rate": 0.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      }
+    },
+    {
+      "detachment": "Assault Brethren + Ironclad Champions + Tacticus Attack Force",
+      "base_archetype": "Black Templars \u2014 Assault Brethren + Ironclad Champions + Tacticus Attack Force",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 12.5,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 50.0,
         "games": 2
       },
       "second_turn": {
-        "win_rate": 83.3,
+        "win_rate": 33.3,
         "games": 3
       }
     }
@@ -66,83 +123,263 @@
   "dispositions": [
     {
       "disposition": "Take and Hold",
-      "lists": 1,
+      "lists": 4,
       "play_rate": 50.0,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 5.0,
+      "games": 20.0,
       "first_turn": {
-        "win_rate": 37.5,
+        "win_rate": 70.0,
+        "games": 10
+      },
+      "second_turn": {
+        "win_rate": 30.0,
+        "games": 10
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "lists": 2,
+      "play_rate": 25.0,
+      "win_rate": 44.4,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 9.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "lists": 2,
+      "play_rate": 25.0,
+      "win_rate": 30.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 10.0,
+      "first_turn": {
+        "win_rate": 20.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 40.0,
+        "games": 5
+      }
+    }
+  ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 14,
+      "wins": 7,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 42.9,
+        "games": 7
+      },
+      "second_turn": {
+        "win_rate": 57.1,
+        "games": 7
+      }
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Priority Assets",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 20.0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Priority Assets",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Purge the Foe",
+      "games": 5,
+      "wins": 0,
+      "win_rate": 0.0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 3
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Take and Hold",
+      "games": 5,
+      "wins": 4,
+      "win_rate": 80.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 1
+      }
+    }
+  ],
+  "top_players": [
+    {
+      "player_name": "Andres Del Alamo",
+      "detachment": "",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/S4GFJc0sjwU0",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Tobi\u00e1\u0161 K\u0159\u00ed\u017eek",
+      "detachment": "Fist of the God-Emperor + Vow-sworn Crusaders",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/zyGZQPw6qI9Q",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Tom\u00e1\u0161 Jan\u010d\u00edk",
+      "detachment": "Ironstorm Spearhead + Vow-sworn Crusaders",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/SijphTDAuGjH",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 2,
+      "draws": 0,
+      "games": 4,
+      "win_rate": 50.0
+    },
+    {
+      "player_name": "Kostas Konstantopoulos",
+      "detachment": "Fist of the God-Emperor + Vow-sworn Crusaders",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/rHvKfPlripcS",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Aitor Alonso",
+      "detachment": "Assault Brethren + Ironstorm Spearhead + and Tacticus Attack Force",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/nklwknS4GREL",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Jakub Pavl\u00ed\u010dek",
+      "detachment": "Assault Brethren + Marshal'S Household + and Tacticus Attack Force",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/dCujCAtYjpQh",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Iv\u00e1n Castro Bravo",
+      "detachment": "Assault Brethren + Ironclad Champions + Tacticus Attack Force",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/gUYbI9DJSNd4",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "James Rye",
+      "detachment": "Marshal'S Household + Stormlance Task Force",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/4I6bc39sSvJu",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    }
+  ],
+  "matchups": [
+    {
+      "opponent_faction": "Thousand Sons",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0,
+      "first_turn": {
+        "win_rate": 25.0,
         "games": 4
       },
       "second_turn": {
         "win_rate": 100.0,
         "games": 1
       }
-    },
-    {
-      "disposition": "Purge the Foe",
-      "lists": 1,
-      "play_rate": 50.0,
-      "win_rate": 50.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 5.0,
-      "first_turn": {
-        "win_rate": 0.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 83.3,
-        "games": 3
-      }
     }
   ],
-  "disposition_matchups": [],
-  "disposition_cross": [],
-  "top_players": [
-    {
-      "player_name": "Andrei Robertson",
-      "detachment": "Bastion Task Force",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/ku9X2rqJEcP7",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "Kaven Picard",
-      "detachment": "Companions Of Vehemence + Marshal'S Household",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/xjdrR2102jTR",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    }
-  ],
-  "matchups": [],
   "timeline": [
     {
-      "week": "2026-W38",
-      "lists": 2,
-      "games": 10,
-      "win_rate": 50.0,
-      "total_lists": 547,
-      "play_rate": 0.4,
+      "week": "2026-W40",
+      "lists": 8,
+      "games": 39,
+      "win_rate": 43.6,
+      "total_lists": 965,
+      "play_rate": 0.8,
       "first_turn": {
-        "win_rate": 25.0,
-        "games": 6
+        "win_rate": 52.4,
+        "games": 21
       },
       "second_turn": {
-        "win_rate": 87.5,
-        "games": 4
+        "win_rate": 35.3,
+        "games": 17
       }
     }
   ]

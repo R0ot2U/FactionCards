@@ -1,46 +1,65 @@
 {
   "faction": "Imperial Agents",
   "slug": "imperial_agents",
-  "as_of": "2026-10-05",
+  "as_of": "2026-10-12",
   "window_days": 60,
   "event_type": "team",
-  "lists": 6,
-  "games": 31,
+  "lists": 5,
+  "games": 26,
   "play_rate": 0.1,
-  "win_rate": 46.8,
-  "trend_delta": 6.8,
+  "win_rate": 48.1,
+  "trend_delta": 8.1,
   "top_detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
-  "ci_lower": 30.6,
+  "ci_lower": 30.4,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 16.7,
+  "x1_pct": 20.0,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 37.5,
-    "games": 16
+    "win_rate": 35.7,
+    "games": 14
   },
   "second_turn": {
-    "win_rate": 56.7,
-    "games": 15
+    "win_rate": 62.5,
+    "games": 12
   },
   "detachments": [
     {
       "detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
       "base_archetype": "Imperial Agents \u2014 Imperialis Fleet + Veiled Blade Elimination Force",
-      "lists": 6,
-      "games": 31,
-      "play_rate": 100.0,
-      "win_rate": 46.8,
+      "lists": 4,
+      "games": 21,
+      "play_rate": 80.0,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
-      "x1_pct": 16.7,
+      "x1_pct": 25.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 37.5,
-        "games": 16
+        "win_rate": 45.5,
+        "games": 11
       },
       "second_turn": {
-        "win_rate": 56.7,
-        "games": 15
+        "win_rate": 55.0,
+        "games": 10
+      }
+    },
+    {
+      "detachment": "Questoris Companions",
+      "base_archetype": "Imperial Agents \u2014 Questoris Companions",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 20.0,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 2
       }
     }
   ],
@@ -48,7 +67,7 @@
     {
       "disposition": "Reconnaissance",
       "lists": 4,
-      "play_rate": 66.7,
+      "play_rate": 80.0,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 25.0,
@@ -63,20 +82,20 @@
       }
     },
     {
-      "disposition": "Disruption",
-      "lists": 2,
-      "play_rate": 33.3,
+      "disposition": "Take and Hold",
+      "lists": 1,
+      "play_rate": 20.0,
       "win_rate": 40.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
-      "games": 10.0,
+      "games": 5.0,
       "first_turn": {
-        "win_rate": 20.0,
-        "games": 5
+        "win_rate": 0.0,
+        "games": 3
       },
       "second_turn": {
-        "win_rate": 60.0,
-        "games": 5
+        "win_rate": 100.0,
+        "games": 2
       }
     }
   ],
@@ -127,18 +146,6 @@
       "win_rate": 80.0
     },
     {
-      "player_name": "Ross Tully",
-      "detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/TRVXlkXnUjqI",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
       "player_name": "Geoffrey Hodges",
       "detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
       "disposition": "Reconnaissance",
@@ -163,16 +170,16 @@
       "win_rate": 50.0
     },
     {
-      "player_name": "Jacob Wells",
-      "detachment": "Imperialis Fleet + Veiled Blade Elimination Force",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/AMr7OTUsXOjR",
+      "player_name": "Alastor \u2122",
+      "detachment": "Questoris Companions",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/yJDWMPdVB063",
       "source": "bcp",
-      "wins": 1,
-      "losses": 4,
+      "wins": 2,
+      "losses": 3,
       "draws": 0,
       "games": 5,
-      "win_rate": 20.0
+      "win_rate": 40.0
     },
     {
       "player_name": "Sam Fagan",
@@ -189,22 +196,6 @@
   ],
   "matchups": [],
   "timeline": [
-    {
-      "week": "2026-W31",
-      "lists": 2,
-      "games": 10,
-      "win_rate": 40.0,
-      "total_lists": 681,
-      "play_rate": 0.3,
-      "first_turn": {
-        "win_rate": 20.0,
-        "games": 5
-      },
-      "second_turn": {
-        "win_rate": 60.0,
-        "games": 5
-      }
-    },
     {
       "week": "2026-W34",
       "lists": 1,
@@ -246,6 +237,22 @@
       "play_rate": 0.2,
       "first_turn": {
         "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      }
+    },
+    {
+      "week": "2026-W40",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 40.0,
+      "total_lists": 965,
+      "play_rate": 0.1,
+      "first_turn": {
+        "win_rate": 0.0,
         "games": 3
       },
       "second_turn": {

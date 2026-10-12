@@ -1,55 +1,150 @@
 {
   "faction": "Death Guard",
   "slug": "death_guard",
-  "as_of": "2026-10-05",
+  "as_of": "2026-10-12",
   "window_days": 7,
   "event_type": "team",
-  "lists": 9,
-  "games": 45,
-  "play_rate": 7.5,
-  "win_rate": 37.8,
-  "trend_delta": -17.2,
-  "top_detachment": "Virulent Vectorium",
-  "ci_lower": 25.1,
-  "meta_health": "strongly_under",
-  "x0_pct": 0.0,
-  "x1_pct": 0.0,
-  "tournament_wins": 0,
+  "lists": 57,
+  "games": 285,
+  "play_rate": 5.9,
+  "win_rate": 52.1,
+  "trend_delta": 14.3,
+  "top_detachment": "Paragons Of Putrescence + Shamblerot Vectorium",
+  "ci_lower": 46.3,
+  "meta_health": "slightly_under",
+  "x0_pct": 8.8,
+  "x1_pct": 14.0,
+  "tournament_wins": 1,
   "first_turn": {
-    "win_rate": 35.4,
-    "games": 24
+    "win_rate": 53.7,
+    "games": 147
   },
   "second_turn": {
-    "win_rate": 40.5,
-    "games": 21
+    "win_rate": 50.4,
+    "games": 138
   },
   "detachments": [
     {
+      "detachment": "Paragons Of Putrescence + Shamblerot Vectorium",
+      "base_archetype": "Death Guard \u2014 Paragons Of Putrescence + Shamblerot Vectorium",
+      "lists": 17,
+      "games": 85,
+      "play_rate": 29.8,
+      "win_rate": 62.9,
+      "x0_pct": 17.6,
+      "x1_pct": 17.6,
+      "tournament_wins": 1,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 45
+      },
+      "second_turn": {
+        "win_rate": 61.8,
+        "games": 55
+      }
+    },
+    {
       "detachment": "Virulent Vectorium",
       "base_archetype": "Death Guard \u2014 Virulent Vectorium",
+      "lists": 16,
+      "games": 80,
+      "play_rate": 28.1,
+      "win_rate": 47.5,
+      "x0_pct": 0.0,
+      "x1_pct": 12.5,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 44.4,
+        "games": 45
+      },
+      "second_turn": {
+        "win_rate": 51.4,
+        "games": 35
+      }
+    },
+    {
+      "detachment": "Paragons Of Putrescence + Tallyband Summoners",
+      "base_archetype": "Death Guard \u2014 Paragons Of Putrescence + Tallyband Summoners",
       "lists": 4,
       "games": 20,
-      "play_rate": 44.4,
-      "win_rate": 47.5,
+      "play_rate": 7.0,
+      "win_rate": 32.5,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 45.0,
-        "games": 10
+        "win_rate": 35.7,
+        "games": 14
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 10
+        "win_rate": 25.0,
+        "games": 6
       }
     },
     {
-      "detachment": "Champions Of Contagion + Paragons Of Putrescence",
-      "base_archetype": "Death Guard \u2014 Champions Of Contagion + Paragons Of Putrescence",
+      "detachment": "Flyblown Host",
+      "base_archetype": "Death Guard \u2014 Flyblown Host",
+      "lists": 3,
+      "games": 15,
+      "play_rate": 5.3,
+      "win_rate": 50.0,
+      "x0_pct": 33.3,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 4
+      }
+    },
+    {
+      "detachment": "Contagion Engines + Shamblerot Vectorium",
+      "base_archetype": "Death Guard \u2014 Contagion Engines + Shamblerot Vectorium",
+      "lists": 3,
+      "games": 15,
+      "play_rate": 5.3,
+      "win_rate": 36.7,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 42.9,
+        "games": 7
+      },
+      "second_turn": {
+        "win_rate": 31.2,
+        "games": 8
+      }
+    },
+    {
+      "detachment": "Shamblerot Vectorium",
+      "base_archetype": "Death Guard \u2014 Shamblerot Vectorium",
       "lists": 2,
       "games": 10,
-      "play_rate": 22.2,
-      "win_rate": 25.0,
+      "play_rate": 3.5,
+      "win_rate": 55.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
+    },
+    {
+      "detachment": "Flyblown Host + Tallyband Summoners",
+      "base_archetype": "Death Guard \u2014 Flyblown Host + Tallyband Summoners",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 3.5,
+      "win_rate": 35.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
@@ -58,41 +153,41 @@
         "games": 5
       },
       "second_turn": {
-        "win_rate": 20.0,
+        "win_rate": 40.0,
         "games": 5
       }
     },
     {
-      "detachment": "Contagion Engines + Shamblerot Vectorium",
-      "base_archetype": "Death Guard \u2014 Contagion Engines + Shamblerot Vectorium",
+      "detachment": "Mortarion's Hammer + Paragons Of Putrescence",
+      "base_archetype": "Death Guard \u2014 Mortarion's Hammer + Paragons Of Putrescence",
       "lists": 1,
       "games": 5,
-      "play_rate": 11.1,
-      "win_rate": 40.0,
-      "x0_pct": 0.0,
+      "play_rate": 1.8,
+      "win_rate": 100.0,
+      "x0_pct": 100.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 4
+        "win_rate": 100.0,
+        "games": 2
       },
       "second_turn": {
-        "win_rate": 0.0,
-        "games": 1
+        "win_rate": 100.0,
+        "games": 3
       }
     },
     {
-      "detachment": "Death Lord's Chosen + Paragons Of Putrescence",
-      "base_archetype": "Death Guard \u2014 Death Lord's Chosen + Paragons Of Putrescence",
+      "detachment": "Tallyband Summoners",
+      "base_archetype": "Death Guard \u2014 Tallyband Summoners",
       "lists": 1,
       "games": 5,
-      "play_rate": 11.1,
-      "win_rate": 40.0,
+      "play_rate": 1.8,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 0.0,
+        "win_rate": 100.0,
         "games": 1
       },
       "second_turn": {
@@ -105,308 +200,1146 @@
       "base_archetype": "Death Guard \u2014 Contagion Engines + Mortarion's Hammer",
       "lists": 1,
       "games": 5,
-      "play_rate": 11.1,
-      "win_rate": 20.0,
+      "play_rate": 1.8,
+      "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 12.5,
-        "games": 4
+        "win_rate": 75.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
+    },
+    {
+      "detachment": "Champions Of Contagion + Flyblown Host",
+      "base_archetype": "Death Guard \u2014 Champions Of Contagion + Flyblown Host",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 1.8,
+      "win_rate": 30.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 16.7,
+        "games": 3
       },
       "second_turn": {
         "win_rate": 50.0,
-        "games": 1
+        "games": 2
+      }
+    },
+    {
+      "detachment": "Contagion Engines + Death Lord's Chosen",
+      "base_archetype": "Death Guard \u2014 Contagion Engines + Death Lord's Chosen",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 1.8,
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      }
+    },
+    {
+      "detachment": "No Detachment",
+      "base_archetype": "Death Guard \u2014 No Detachment",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 1.8,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
+    },
+    {
+      "detachment": "Champions Of Contagion + Paragons Of Putrescence",
+      "base_archetype": "Death Guard \u2014 Champions Of Contagion + Paragons Of Putrescence",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 1.8,
+      "win_rate": 30.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 30.0,
+        "games": 5
+      }
+    },
+    {
+      "detachment": "Flyblown Host + Shamblerot Vectorium",
+      "base_archetype": "Death Guard \u2014 Flyblown Host + Shamblerot Vectorium",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 1.8,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
       }
     }
   ],
   "dispositions": [
     {
-      "disposition": "Take and Hold",
-      "lists": 6,
-      "play_rate": 66.7,
-      "win_rate": 40.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 30.0,
+      "disposition": "Disruption",
+      "lists": 21,
+      "play_rate": 36.8,
+      "win_rate": 56.2,
+      "x0_pct": 14.3,
+      "x1_pct": 9.5,
+      "games": 105.0,
       "first_turn": {
-        "win_rate": 40.0,
-        "games": 15
+        "win_rate": 61.1,
+        "games": 45
       },
       "second_turn": {
-        "win_rate": 40.0,
-        "games": 15
+        "win_rate": 52.5,
+        "games": 60
       }
     },
     {
-      "disposition": "Reconnaissance",
-      "lists": 1,
-      "play_rate": 11.1,
-      "win_rate": 40.0,
+      "disposition": "Take and Hold",
+      "lists": 14,
+      "play_rate": 24.6,
+      "win_rate": 47.9,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 5.0,
+      "x1_pct": 7.1,
+      "games": 70.0,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 4
+        "win_rate": 44.9,
+        "games": 39
       },
       "second_turn": {
-        "win_rate": 0.0,
-        "games": 1
+        "win_rate": 51.6,
+        "games": 31
       }
     },
     {
       "disposition": "Priority Assets",
-      "lists": 1,
-      "play_rate": 11.1,
-      "win_rate": 40.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 5.0,
+      "lists": 9,
+      "play_rate": 15.8,
+      "win_rate": 52.2,
+      "x0_pct": 11.1,
+      "x1_pct": 22.2,
+      "games": 45.0,
       "first_turn": {
-        "win_rate": 0.0,
-        "games": 1
+        "win_rate": 53.6,
+        "games": 28
       },
       "second_turn": {
         "win_rate": 50.0,
-        "games": 4
+        "games": 17
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "lists": 8,
+      "play_rate": 14.0,
+      "win_rate": 47.5,
+      "x0_pct": 0.0,
+      "x1_pct": 25.0,
+      "games": 40.0,
+      "first_turn": {
+        "win_rate": 59.5,
+        "games": 21
+      },
+      "second_turn": {
+        "win_rate": 34.2,
+        "games": 19
       }
     },
     {
       "disposition": "Purge the Foe",
-      "lists": 1,
-      "play_rate": 11.1,
-      "win_rate": 20.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 5.0,
+      "lists": 5,
+      "play_rate": 8.8,
+      "win_rate": 54.0,
+      "x0_pct": 20.0,
+      "x1_pct": 20.0,
+      "games": 25.0,
       "first_turn": {
-        "win_rate": 12.5,
-        "games": 4
+        "win_rate": 46.4,
+        "games": 14
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 1
+        "win_rate": 63.6,
+        "games": 11
       }
     }
   ],
   "disposition_matchups": [
     {
-      "opponent_disposition": "Purge the Foe",
-      "games": 13,
-      "wins": 5,
-      "win_rate": 38.5,
+      "opponent_disposition": "Take and Hold",
+      "games": 71,
+      "wins": 38,
+      "win_rate": 54.2,
       "first_turn": {
-        "win_rate": 37.5,
-        "games": 4
+        "win_rate": 58.0,
+        "games": 44
       },
       "second_turn": {
-        "win_rate": 38.9,
-        "games": 9
+        "win_rate": 48.1,
+        "games": 27
+      }
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 59,
+      "wins": 29,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 47.6,
+        "games": 21
+      },
+      "second_turn": {
+        "win_rate": 51.3,
+        "games": 38
+      }
+    },
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 52,
+      "wins": 27,
+      "win_rate": 51.9,
+      "first_turn": {
+        "win_rate": 48.1,
+        "games": 26
+      },
+      "second_turn": {
+        "win_rate": 55.8,
+        "games": 26
       }
     },
     {
       "opponent_disposition": "Priority Assets",
-      "games": 11,
-      "wins": 5,
-      "win_rate": 50.0,
+      "games": 52,
+      "wins": 27,
+      "win_rate": 52.9,
       "first_turn": {
-        "win_rate": 61.1,
-        "games": 9
+        "win_rate": 64.3,
+        "games": 28
       },
       "second_turn": {
-        "win_rate": 0.0,
-        "games": 2
+        "win_rate": 39.6,
+        "games": 24
+      }
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 51,
+      "wins": 26,
+      "win_rate": 51.0,
+      "first_turn": {
+        "win_rate": 46.4,
+        "games": 28
+      },
+      "second_turn": {
+        "win_rate": 56.5,
+        "games": 23
       }
     }
   ],
   "disposition_cross": [
     {
-      "disposition": "Take and Hold",
-      "opponent_disposition": "Purge the Foe",
-      "games": 10,
-      "wins": 4,
-      "win_rate": 45.0,
+      "disposition": "Disruption",
+      "opponent_disposition": "Take and Hold",
+      "games": 25,
+      "wins": 16,
+      "win_rate": 64.0,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 3
+        "win_rate": 75.0,
+        "games": 10
       },
       "second_turn": {
-        "win_rate": 42.9,
-        "games": 7
+        "win_rate": 56.7,
+        "games": 15
       }
     },
     {
-      "disposition": "Take and Hold",
+      "disposition": "Disruption",
+      "opponent_disposition": "Disruption",
+      "games": 25,
+      "wins": 14,
+      "win_rate": 58.0,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 9
+      },
+      "second_turn": {
+        "win_rate": 53.1,
+        "games": 16
+      }
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Priority Assets",
+      "games": 18,
+      "wins": 6,
+      "win_rate": 36.1,
+      "first_turn": {
+        "win_rate": 61.1,
+        "games": 9
+      },
+      "second_turn": {
+        "win_rate": 11.1,
+        "games": 9
+      }
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Purge the Foe",
+      "games": 17,
+      "wins": 11,
+      "win_rate": 64.7,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 8
+      },
+      "second_turn": {
+        "win_rate": 77.8,
+        "games": 9
+      }
+    },
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Reconnaissance",
+      "games": 16,
+      "wins": 9,
+      "win_rate": 56.2,
+      "first_turn": {
+        "win_rate": 57.1,
+        "games": 7
+      },
+      "second_turn": {
+        "win_rate": 55.6,
+        "games": 9
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Take and Hold",
+      "games": 16,
+      "wins": 7,
+      "win_rate": 43.8,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 14
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Disruption",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 56.2,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 5
+      }
+    },
+    {
+      "disposition": "Priority Assets",
       "opponent_disposition": "Priority Assets",
       "games": 8,
       "wins": 3,
       "win_rate": 43.8,
       "first_turn": {
-        "win_rate": 58.3,
-        "games": 6
+        "win_rate": 25.0,
+        "games": 4
       },
       "second_turn": {
-        "win_rate": 0.0,
-        "games": 2
+        "win_rate": 62.5,
+        "games": 4
       }
-    }
-  ],
-  "top_players": [
-    {
-      "player_name": "Carl Lund",
-      "detachment": "Virulent Vectorium",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/pGJfBIZzXb8J",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
     },
     {
-      "player_name": "Ian H\u00e4gglund",
-      "detachment": "Virulent Vectorium",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/n5tquVQZBes1",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Sebastian Magnusson",
-      "detachment": "Contagion Engines + Shamblerot Vectorium",
-      "disposition": "Reconnaissance",
-      "list_url": "https://www.bestcoastpairings.com/list/2wykxyipu630",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Robert Svensson",
-      "detachment": "Death Lord's Chosen + Paragons Of Putrescence",
       "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/TmEmLUi3on9K",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Anders Gustavsson",
-      "detachment": "Virulent Vectorium",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/IfC1b4Di6J7n",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Diego Sepulveda",
-      "detachment": "Virulent Vectorium",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/DMRrWmrUBKj4",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 2,
-      "draws": 3,
-      "games": 5,
-      "win_rate": 30.0
-    },
-    {
-      "player_name": "Fredrik Andersson",
-      "detachment": "Champions Of Contagion + Paragons Of Putrescence",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/AqXsXlLO78Mo",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 2,
-      "draws": 3,
-      "games": 5,
-      "win_rate": 30.0
-    },
-    {
-      "player_name": "Kim Olsson",
-      "detachment": "Contagion Engines + Mortarion's Hammer",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/JedIToCXyJsI",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 3,
-      "draws": 2,
-      "games": 5,
-      "win_rate": 20.0
-    },
-    {
-      "player_name": "Mathias Hansen",
-      "detachment": "Champions Of Contagion + Paragons Of Putrescence",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/wqd3yrnUtawP",
-      "source": "bcp",
-      "wins": 0,
-      "losses": 3,
-      "draws": 2,
-      "games": 5,
-      "win_rate": 20.0
-    }
-  ],
-  "matchups": [
-    {
-      "opponent_faction": "Necrons",
+      "opponent_disposition": "Purge the Foe",
       "games": 8,
-      "wins": 1,
-      "win_rate": 18.8,
+      "wins": 5,
+      "win_rate": 68.8,
       "first_turn": {
-        "win_rate": 50.0,
+        "win_rate": 100.0,
         "games": 3
       },
       "second_turn": {
-        "win_rate": 0.0,
+        "win_rate": 50.0,
         "games": 5
       }
     },
     {
-      "opponent_faction": "Emperor's Children",
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Reconnaissance",
       "games": 5,
+      "wins": 3,
+      "win_rate": 60.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Disruption",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 41.7,
+      "first_turn": {
+        "win_rate": 25.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Take and Hold",
+      "games": 6,
+      "wins": 5,
+      "win_rate": 83.3,
+      "first_turn": {
+        "win_rate": 80.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Reconnaissance",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Priority Assets",
+      "games": 12,
+      "wins": 7,
+      "win_rate": 58.3,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 6
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Reconnaissance",
+      "games": 10,
+      "wins": 5,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 4
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Take and Hold",
+      "games": 9,
+      "wins": 4,
+      "win_rate": 44.4,
+      "first_turn": {
+        "win_rate": 58.3,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 16.7,
+        "games": 3
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "opponent_disposition": "Disruption",
+      "games": 6,
       "wins": 1,
-      "win_rate": 30.0,
+      "win_rate": 16.7,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 4
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Purge the Foe",
+      "games": 19,
+      "wins": 6,
+      "win_rate": 34.2,
+      "first_turn": {
+        "win_rate": 37.5,
+        "games": 12
+      },
+      "second_turn": {
+        "win_rate": 28.6,
+        "games": 7
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Reconnaissance",
+      "games": 15,
+      "wins": 7,
+      "win_rate": 46.7,
+      "first_turn": {
+        "win_rate": 37.5,
+        "games": 8
+      },
+      "second_turn": {
+        "win_rate": 57.1,
+        "games": 7
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Take and Hold",
+      "games": 13,
+      "wins": 5,
+      "win_rate": 42.3,
+      "first_turn": {
+        "win_rate": 37.5,
+        "games": 8
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 5
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Priority Assets",
+      "games": 11,
+      "wins": 8,
+      "win_rate": 77.3,
+      "first_turn": {
+        "win_rate": 78.6,
+        "games": 7
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Disruption",
+      "games": 10,
+      "wins": 5,
+      "win_rate": 50.0,
       "first_turn": {
         "win_rate": 33.3,
         "games": 3
       },
       "second_turn": {
-        "win_rate": 25.0,
+        "win_rate": 57.1,
+        "games": 7
+      }
+    }
+  ],
+  "top_players": [
+    {
+      "player_name": "Luka Dragacevic",
+      "detachment": "Flyblown Host",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/ZQn9lLzTIFAa",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "\u0398\u03a9\u039c\u0391\u03a3 \u039a\u0391\u03a1\u0391\u039c\u03a0\u038a\u039d\u0397\u03a3",
+      "detachment": "Mortarion's Hammer + Paragons Of Putrescence",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/c1PWT3QMrNfZ",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Alex Nicolic",
+      "detachment": "Paragons Of Putrescence + Shamblerot Vectorium",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/nAh1XtNKIwIK",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Nikhil Talwar",
+      "detachment": "Paragons Of Putrescence + Shamblerot Vectorium",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/Y5355ecTnQH0",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Nassim Fouchane",
+      "detachment": "Paragons Of Putrescence + Shamblerot Vectorium",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/OQ4ASIXONIbR",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "\ud83e\udddf\u200d\u2642\ufe0fRaul G\u00f3mez \ud83e\udddf\u200d\u2642\ufe0f",
+      "detachment": "",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/GOePFSecW0qd",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "Kurt Cullen",
+      "detachment": "Virulent Vectorium",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/4sOmiENBEphh",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 0,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 90.0
+    },
+    {
+      "player_name": "Fabian Thoenes",
+      "detachment": "Virulent Vectorium",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/dfG9q8cAiny1",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Eduardo Cuesta",
+      "detachment": "Paragons Of Putrescence + Shamblerot Vectorium",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/WXX7LacN0BI5",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 0,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Ismael Armada Gonz\u00e1lez",
+      "detachment": "Virulent Vectorium",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/cOcyOT2bc2Fn",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 0,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Jaime Gabarr\u00f3n",
+      "detachment": "Contagion Engines + Shamblerot Vectorium",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/cd9AoLgnRurq",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Luis Miguez",
+      "detachment": "Contagion Engines + Death Lord's Chosen",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/005kYPxcqXM3",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Daddy O",
+      "detachment": "Paragons Of Putrescence + Shamblerot Vectorium",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/vgl0eM11mIqF",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Filip \u0160imek",
+      "detachment": "Paragons Of Putrescence + Shamblerot Vectorium",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/Kmt2CeXD9XZN",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Robert Stacey",
+      "detachment": "Paragons Of Putrescence + Shamblerot Vectorium",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/4SVYoaDR2O2S",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Nachet Panther Box",
+      "detachment": "Virulent Vectorium",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/Ox1yUIsZ4Zqk",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Martin Dole\u017eal",
+      "detachment": "Paragons Of Putrescence + Shamblerot Vectorium",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/0dbW25Fy2CWD",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "David Cottam",
+      "detachment": "Paragons Of Putrescence + Tallyband Summoners",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/cpfHuENcHkNI",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 1,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 70.0
+    },
+    {
+      "player_name": "Konstantinos Papadopoulos",
+      "detachment": "Virulent Vectorium",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/k9EFy0XbtmnW",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Greg Oikonomou",
+      "detachment": "Tallyband Summoners",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/qlsn2waAQ78b",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    }
+  ],
+  "matchups": [
+    {
+      "opponent_faction": "Necrons",
+      "games": 30,
+      "wins": 16,
+      "win_rate": 55.0,
+      "first_turn": {
+        "win_rate": 52.4,
+        "games": 21
+      },
+      "second_turn": {
+        "win_rate": 61.1,
+        "games": 9
+      }
+    },
+    {
+      "opponent_faction": "Adeptus Custodes",
+      "games": 30,
+      "wins": 14,
+      "win_rate": 48.3,
+      "first_turn": {
+        "win_rate": 40.0,
+        "games": 15
+      },
+      "second_turn": {
+        "win_rate": 56.7,
+        "games": 15
+      }
+    },
+    {
+      "opponent_faction": "Orks",
+      "games": 21,
+      "wins": 12,
+      "win_rate": 57.1,
+      "first_turn": {
+        "win_rate": 63.6,
+        "games": 11
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 10
+      }
+    },
+    {
+      "opponent_faction": "Chaos Space Marines",
+      "games": 18,
+      "wins": 10,
+      "win_rate": 58.3,
+      "first_turn": {
+        "win_rate": 56.2,
+        "games": 8
+      },
+      "second_turn": {
+        "win_rate": 60.0,
+        "games": 10
+      }
+    },
+    {
+      "opponent_faction": "Tyranids",
+      "games": 15,
+      "wins": 7,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 75.0,
+        "games": 8
+      },
+      "second_turn": {
+        "win_rate": 21.4,
+        "games": 7
+      }
+    },
+    {
+      "opponent_faction": "Emperor's Children",
+      "games": 15,
+      "wins": 11,
+      "win_rate": 73.3,
+      "first_turn": {
+        "win_rate": 81.2,
+        "games": 8
+      },
+      "second_turn": {
+        "win_rate": 64.3,
+        "games": 7
+      }
+    },
+    {
+      "opponent_faction": "Chaos Daemons",
+      "games": 14,
+      "wins": 7,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 55.6,
+        "games": 9
+      },
+      "second_turn": {
+        "win_rate": 40.0,
+        "games": 5
+      }
+    },
+    {
+      "opponent_faction": "World Eaters",
+      "games": 12,
+      "wins": 9,
+      "win_rate": 75.0,
+      "first_turn": {
+        "win_rate": 66.7,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 83.3,
+        "games": 6
+      }
+    },
+    {
+      "opponent_faction": "Dark Angels",
+      "games": 12,
+      "wins": 3,
+      "win_rate": 29.2,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 14.3,
+        "games": 7
+      }
+    },
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 12,
+      "wins": 5,
+      "win_rate": 41.7,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 6
+      }
+    },
+    {
+      "opponent_faction": "T'au Empire",
+      "games": 11,
+      "wins": 4,
+      "win_rate": 40.9,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 30.0,
+        "games": 5
+      }
+    },
+    {
+      "opponent_faction": "Leagues of Votann",
+      "games": 9,
+      "wins": 3,
+      "win_rate": 38.9,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 6
+      }
+    },
+    {
+      "opponent_faction": "Aeldari",
+      "games": 8,
+      "wins": 5,
+      "win_rate": 68.8,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 80.0,
+        "games": 5
+      }
+    },
+    {
+      "opponent_faction": "Imperial Knights",
+      "games": 8,
+      "wins": 4,
+      "win_rate": 56.2,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 60.0,
+        "games": 5
+      }
+    },
+    {
+      "opponent_faction": "Genestealer Cults",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 57.1,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 4
+      }
+    },
+    {
+      "opponent_faction": "Thousand Sons",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 41.7,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
+    },
+    {
+      "opponent_faction": "Adeptus Mechanicus",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 33.3,
+      "first_turn": {
+        "win_rate": 50.0,
         "games": 2
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 4
+      }
+    },
+    {
+      "opponent_faction": "Adepta Sororitas",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 33.3,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 4
+      }
+    },
+    {
+      "opponent_faction": "Astra Militarum",
+      "games": 6,
+      "wins": 3,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      }
+    },
+    {
+      "opponent_faction": "Grey Knights",
+      "games": 5,
+      "wins": 5,
+      "win_rate": 100.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 1
       }
     }
   ],
   "timeline": [
     {
-      "week": "2026-W39",
-      "lists": 9,
-      "games": 45,
-      "win_rate": 37.8,
-      "total_lists": 120,
-      "play_rate": 7.5,
+      "week": "2026-W40",
+      "lists": 57,
+      "games": 285,
+      "win_rate": 52.1,
+      "total_lists": 965,
+      "play_rate": 5.9,
       "first_turn": {
-        "win_rate": 35.4,
-        "games": 24
+        "win_rate": 53.7,
+        "games": 147
       },
       "second_turn": {
-        "win_rate": 40.5,
-        "games": 21
+        "win_rate": 50.4,
+        "games": 138
       }
     }
   ]

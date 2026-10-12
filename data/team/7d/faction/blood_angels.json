@@ -1,100 +1,874 @@
 {
   "faction": "Blood Angels",
   "slug": "blood_angels",
-  "as_of": "2026-10-05",
+  "as_of": "2026-10-12",
   "window_days": 7,
   "event_type": "team",
-  "lists": 1,
-  "games": 5,
-  "play_rate": 0.8,
-  "win_rate": 50.0,
-  "trend_delta": -3.8,
-  "top_detachment": "Rage-Cursed Onslaught",
-  "ci_lower": 17.0,
+  "lists": 17,
+  "games": 85,
+  "play_rate": 1.8,
+  "win_rate": 47.1,
+  "trend_delta": null,
+  "top_detachment": "Assault Brethren + Ironclad Champions + Tacticus Attack Force",
+  "ci_lower": 36.8,
   "meta_health": "strongly_under",
-  "x0_pct": 0.0,
+  "x0_pct": 11.8,
   "x1_pct": 0.0,
-  "tournament_wins": 0,
+  "tournament_wins": 1,
   "first_turn": {
     "win_rate": 50.0,
-    "games": 3
+    "games": 34
   },
   "second_turn": {
-    "win_rate": 50.0,
-    "games": 2
+    "win_rate": 45.7,
+    "games": 46
   },
   "detachments": [
     {
-      "detachment": "Rage-Cursed Onslaught",
-      "base_archetype": "Blood Angels \u2014 Rage-Cursed Onslaught",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 100.0,
+      "detachment": "Assault Brethren + Ironclad Champions + Tacticus Attack Force",
+      "base_archetype": "Blood Angels \u2014 Assault Brethren + Ironclad Champions + Tacticus Attack Force",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 11.8,
       "win_rate": 50.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 57.1,
+        "games": 7
+      }
+    },
+    {
+      "detachment": "Assault Brethren + Encarmine Speartip + Tacticus Attack Force",
+      "base_archetype": "Blood Angels \u2014 Assault Brethren + Encarmine Speartip + Tacticus Attack Force",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 11.8,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
         "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
+    },
+    {
+      "detachment": "Liberator Assault Group",
+      "base_archetype": "Blood Angels \u2014 Liberator Assault Group",
+      "lists": 2,
+      "games": 10,
+      "play_rate": 11.8,
+      "win_rate": 30.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 25.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 6
+      }
+    },
+    {
+      "detachment": "Angelic Inheritors",
+      "base_archetype": "Blood Angels \u2014 Angelic Inheritors",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.9,
+      "win_rate": 100.0,
+      "x0_pct": 100.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      }
+    },
+    {
+      "detachment": "Assault Brethren, Gravis Linebreaker Force and Tacticus Attack Force",
+      "base_archetype": "Blood Angels \u2014 Assault Brethren, Gravis Linebreaker Force and Tacticus Attack Force",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.9,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": null,
+        "games": 0
+      }
+    },
+    {
+      "detachment": "Assault Brethren + Encarmine Speartip + Ironstorm Spearhead",
+      "base_archetype": "Blood Angels \u2014 Assault Brethren + Encarmine Speartip + Ironstorm Spearhead",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.9,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": 40.0,
+        "games": 5
+      }
+    },
+    {
+      "detachment": "Assault Brethren + Ironstorm Spearhead + Stormlance Task Force",
+      "base_archetype": "Blood Angels \u2014 Assault Brethren + Ironstorm Spearhead + Stormlance Task Force",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.9,
+      "win_rate": 100.0,
+      "x0_pct": 100.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 1,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      }
+    },
+    {
+      "detachment": "Assault Brethren + Stormlance Task Force + Wrath Of The Doomed",
+      "base_archetype": "Blood Angels \u2014 Assault Brethren + Stormlance Task Force + Wrath Of The Doomed",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.9,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      }
+    },
+    {
+      "detachment": "Assault Brethren + Ironclad Champions + Terminator Storm Force",
+      "base_archetype": "Blood Angels \u2014 Assault Brethren + Ironclad Champions + Terminator Storm Force",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.9,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      }
+    },
+    {
+      "detachment": "Assault Brethren + Encarmine Speartip + and Tacticus Attack Force",
+      "base_archetype": "Blood Angels \u2014 Assault Brethren + Encarmine Speartip + and Tacticus Attack Force",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.9,
+      "win_rate": 30.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 25.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
+    },
+    {
+      "detachment": "Encarmine Speartip + Tactical Brethren + Tacticus Attack Force",
+      "base_archetype": "Blood Angels \u2014 Encarmine Speartip + Tactical Brethren + Tacticus Attack Force",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.9,
+      "win_rate": 40.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 33.3,
         "games": 3
       },
       "second_turn": {
         "win_rate": 50.0,
         "games": 2
+      }
+    },
+    {
+      "detachment": "Rage-Cursed Onslaught",
+      "base_archetype": "Blood Angels \u2014 Rage-Cursed Onslaught",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 5.9,
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 3
       }
     }
   ],
   "dispositions": [
     {
+      "disposition": "Take and Hold",
+      "lists": 7,
+      "play_rate": 41.2,
+      "win_rate": 45.7,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 35.0,
+      "first_turn": {
+        "win_rate": 35.7,
+        "games": 14
+      },
+      "second_turn": {
+        "win_rate": 52.4,
+        "games": 21
+      }
+    },
+    {
       "disposition": "Purge the Foe",
+      "lists": 4,
+      "play_rate": 23.5,
+      "win_rate": 60.0,
+      "x0_pct": 50.0,
+      "x1_pct": 0.0,
+      "games": 20.0,
+      "first_turn": {
+        "win_rate": 63.6,
+        "games": 11
+      },
+      "second_turn": {
+        "win_rate": 55.6,
+        "games": 9
+      }
+    },
+    {
+      "disposition": "Disruption",
+      "lists": 3,
+      "play_rate": 17.6,
+      "win_rate": 36.7,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 15.0,
+      "first_turn": {
+        "win_rate": 37.5,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 36.4,
+        "games": 11
+      }
+    },
+    {
+      "disposition": "Priority Assets",
+      "lists": 2,
+      "play_rate": 11.8,
+      "win_rate": 35.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 10.0,
+      "first_turn": {
+        "win_rate": 62.5,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 16.7,
+        "games": 6
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
       "lists": 1,
-      "play_rate": 100.0,
-      "win_rate": 50.0,
+      "play_rate": 5.9,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "games": 5.0,
       "first_turn": {
         "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      }
+    }
+  ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Take and Hold",
+      "games": 22,
+      "wins": 11,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 60.0,
+        "games": 10
+      },
+      "second_turn": {
+        "win_rate": 41.7,
+        "games": 12
+      }
+    },
+    {
+      "opponent_disposition": "Disruption",
+      "games": 17,
+      "wins": 9,
+      "win_rate": 52.9,
+      "first_turn": {
+        "win_rate": 70.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 45.8,
+        "games": 12
+      }
+    },
+    {
+      "opponent_disposition": "Purge the Foe",
+      "games": 16,
+      "wins": 4,
+      "win_rate": 25.0,
+      "first_turn": {
+        "win_rate": 30.0,
+        "games": 10
+      },
+      "second_turn": {
+        "win_rate": 16.7,
+        "games": 6
+      }
+    },
+    {
+      "opponent_disposition": "Reconnaissance",
+      "games": 15,
+      "wins": 7,
+      "win_rate": 50.0,
+      "first_turn": {
+        "win_rate": 25.0,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 9
+      }
+    },
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 15,
+      "wins": 8,
+      "win_rate": 56.7,
+      "first_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 11
+      }
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Disruption",
+      "opponent_disposition": "Take and Hold",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 33.3,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 4
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Reconnaissance",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 57.1,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 60.0,
+        "games": 5
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "opponent_disposition": "Disruption",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0,
+      "first_turn": {
+        "win_rate": 66.7,
         "games": 3
       },
       "second_turn": {
         "win_rate": 50.0,
         "games": 2
       }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Take and Hold",
+      "games": 10,
+      "wins": 4,
+      "win_rate": 40.0,
+      "first_turn": {
+        "win_rate": 40.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 40.0,
+        "games": 5
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Purge the Foe",
+      "games": 7,
+      "wins": 1,
+      "win_rate": 14.3,
+      "first_turn": {
+        "win_rate": 20.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Priority Assets",
+      "games": 7,
+      "wins": 4,
+      "win_rate": 57.1,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 6
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Disruption",
+      "games": 6,
+      "wins": 4,
+      "win_rate": 66.7,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 60.0,
+        "games": 5
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Reconnaissance",
+      "games": 5,
+      "wins": 3,
+      "win_rate": 60.0,
+      "first_turn": {
+        "win_rate": 0.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      }
     }
   ],
-  "disposition_matchups": [],
-  "disposition_cross": [],
   "top_players": [
     {
-      "player_name": "Loke Nordstr\u00c3\u00b6m",
-      "detachment": "Rage-Cursed Onslaught",
+      "player_name": "mitch Mari\u00ebn",
+      "detachment": "Angelic Inheritors",
       "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/ifOW3NM1A4IM",
+      "list_url": "https://www.bestcoastpairings.com/list/KtsHEUAwOHC1",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Borja FM",
+      "detachment": "Assault Brethren + Ironstorm Spearhead + Stormlance Task Force",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/iFT7ECWJSgRv",
+      "source": "bcp",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 100.0
+    },
+    {
+      "player_name": "Zisis Panetsidis",
+      "detachment": "Assault Brethren + Ironclad Champions + Tacticus Attack Force",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/LyTsAY5D0spI",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Brice Perruche",
+      "detachment": "Assault Brethren, Gravis Linebreaker Force and Tacticus Attack Force",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/PSGJ0WoS403s",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Angel Ca\u00f1amero",
+      "detachment": "Assault Brethren + Stormlance Task Force + Wrath Of The Doomed",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/lRTPTAQPo0W8",
       "source": "bcp",
       "wins": 2,
+      "losses": 1,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Miguel Vi\u00f1as",
+      "detachment": "Assault Brethren + Ironclad Champions + Terminator Storm Force",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/CzPnrErehOo0",
+      "source": "bcp",
+      "wins": 3,
       "losses": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Teodor Nikolov",
+      "detachment": "Assault Brethren + Ironclad Champions + Tacticus Attack Force",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/Y4OHft7OsqXr",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Jesper Lund",
+      "detachment": "Assault Brethren + Encarmine Speartip + Ironstorm Spearhead",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/pxhv2qnP9cxP",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Andras Fulop",
+      "detachment": "Encarmine Speartip + Tactical Brethren + Tacticus Attack Force",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/RTCVvxR6Fbg4",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Pavel Suk",
+      "detachment": "Assault Brethren + Encarmine Speartip + Tacticus Attack Force",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/62NJNlEoDQtm",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Ryan Sadler",
+      "detachment": "Liberator Assault Group",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/2FoY4hs9SJVO",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "Daniel Bolton",
+      "detachment": "Assault Brethren + Encarmine Speartip + Tacticus Attack Force",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/H7XT24v0sOsZ",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 40.0
+    },
+    {
+      "player_name": "David del Rey",
+      "detachment": "Assault Brethren + Encarmine Speartip + and Tacticus Attack Force",
+      "disposition": "Disruption",
+      "list_url": "https://www.bestcoastpairings.com/list/uYYrMjHTd5do",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
       "draws": 1,
       "games": 5,
-      "win_rate": 50.0
+      "win_rate": 30.0
+    },
+    {
+      "player_name": "Luis Seilices",
+      "detachment": "",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/tXgln5H4w6Ij",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 3,
+      "draws": 1,
+      "games": 5,
+      "win_rate": 30.0
+    },
+    {
+      "player_name": "ronan souprayen",
+      "detachment": "",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/yMvz4w99kT7B",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Cale Herreros",
+      "detachment": "Rage-Cursed Onslaught",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/ZGZu3wSJTVG0",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
+    },
+    {
+      "player_name": "Ben Liston",
+      "detachment": "Liberator Assault Group",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/i39KVqZE4zbC",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 20.0
     }
   ],
-  "matchups": [],
-  "timeline": [
+  "matchups": [
     {
-      "week": "2026-W39",
-      "lists": 1,
-      "games": 5,
-      "win_rate": 50.0,
-      "total_lists": 120,
-      "play_rate": 0.8,
+      "opponent_faction": "World Eaters",
+      "games": 10,
+      "wins": 4,
+      "win_rate": 40.0,
       "first_turn": {
         "win_rate": 50.0,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 4
+      }
+    },
+    {
+      "opponent_faction": "Adeptus Custodes",
+      "games": 8,
+      "wins": 3,
+      "win_rate": 37.5,
+      "first_turn": {
+        "win_rate": 20.0,
+        "games": 5
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      }
+    },
+    {
+      "opponent_faction": "Orks",
+      "games": 7,
+      "wins": 3,
+      "win_rate": 42.9,
+      "first_turn": {
+        "win_rate": 33.3,
         "games": 3
       },
       "second_turn": {
         "win_rate": 50.0,
-        "games": 2
+        "games": 4
+      }
+    },
+    {
+      "opponent_faction": "Space Marines (Astartes)",
+      "games": 6,
+      "wins": 6,
+      "win_rate": 100.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 100.0,
+        "games": 5
+      }
+    },
+    {
+      "opponent_faction": "Emperor's Children",
+      "games": 6,
+      "wins": 2,
+      "win_rate": 33.3,
+      "first_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 33.3,
+        "games": 3
+      }
+    },
+    {
+      "opponent_faction": "Tyranids",
+      "games": 5,
+      "wins": 4,
+      "win_rate": 80.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 75.0,
+        "games": 4
+      }
+    },
+    {
+      "opponent_faction": "Chaos Space Marines",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 25.0,
+        "games": 4
+      }
+    },
+    {
+      "opponent_faction": "Leagues of Votann",
+      "games": 5,
+      "wins": 1,
+      "win_rate": 30.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 12.5,
+        "games": 4
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "week": "2026-W40",
+      "lists": 17,
+      "games": 85,
+      "win_rate": 47.1,
+      "total_lists": 965,
+      "play_rate": 1.8,
+      "first_turn": {
+        "win_rate": 48.6,
+        "games": 35
+      },
+      "second_turn": {
+        "win_rate": 46.0,
+        "games": 50
       }
     }
   ]
