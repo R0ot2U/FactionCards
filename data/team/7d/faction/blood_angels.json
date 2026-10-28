@@ -1,74 +1,55 @@
 {
   "faction": "Blood Angels",
   "slug": "blood_angels",
-  "as_of": "2026-10-19",
+  "as_of": "2026-10-28",
   "window_days": 7,
   "event_type": "team",
-  "lists": 6,
-  "games": 28,
-  "play_rate": 1.0,
-  "win_rate": 37.5,
-  "trend_delta": -10.0,
-  "top_detachment": "Assault Brethren + Encarmine Speartip + and Tacticus Attack Force",
-  "ci_lower": 22.1,
+  "lists": 3,
+  "games": 15,
+  "play_rate": 5.0,
+  "win_rate": 56.7,
+  "trend_delta": 19.2,
+  "top_detachment": "Assault Brethren + Tacticus Attack Force + Terminator Storm Force",
+  "ci_lower": 32.9,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 0.0,
+  "x1_pct": 33.3,
   "tournament_wins": 0,
   "first_turn": {
     "win_rate": 50.0,
-    "games": 19
+    "games": 7
   },
   "second_turn": {
-    "win_rate": 15.8,
-    "games": 19
+    "win_rate": 62.5,
+    "games": 8
   },
   "detachments": [
     {
-      "detachment": "Assault Brethren + Encarmine Speartip + and Tacticus Attack Force",
-      "base_archetype": "Blood Angels \u2014 Assault Brethren + Encarmine Speartip + and Tacticus Attack Force",
+      "detachment": "Assault Brethren + Tacticus Attack Force + Terminator Storm Force",
+      "base_archetype": "Blood Angels \u2014 Assault Brethren + Tacticus Attack Force + Terminator Storm Force",
       "lists": 1,
       "games": 5,
-      "play_rate": 16.7,
-      "win_rate": 50.0,
+      "play_rate": 33.3,
+      "win_rate": 90.0,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
+      "x1_pct": 100.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 5
+        "win_rate": 100.0,
+        "games": 1
       },
       "second_turn": {
-        "win_rate": null,
-        "games": 0
+        "win_rate": 87.5,
+        "games": 4
       }
     },
     {
-      "detachment": "Assault Brethren + Ironclad Champions + Tacticus Attack Force",
-      "base_archetype": "Blood Angels \u2014 Assault Brethren + Ironclad Champions + Tacticus Attack Force",
+      "detachment": "Assault Brethren",
+      "base_archetype": "Blood Angels \u2014 Assault Brethren",
       "lists": 1,
       "games": 5,
-      "play_rate": 16.7,
-      "win_rate": 10.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 25.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 0.0,
-        "games": 3
-      }
-    },
-    {
-      "detachment": "Encarmine Speartip + assault brethren + tacticus attack force",
-      "base_archetype": "Blood Angels \u2014 Encarmine Speartip + assault brethren + tacticus attack force",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 16.7,
-      "win_rate": 70.0,
+      "play_rate": 33.3,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
@@ -77,210 +58,139 @@
         "games": 3
       },
       "second_turn": {
-        "win_rate": 50.0,
+        "win_rate": 25.0,
         "games": 2
       }
     },
     {
-      "detachment": "Eredi Angelici",
-      "base_archetype": "Blood Angels \u2014 Eredi Angelici",
+      "detachment": "Assault Brethren + Ironstorm Spearhead + Tacticus Attack Force",
+      "base_archetype": "Blood Angels \u2014 Assault Brethren + Ironstorm Spearhead + Tacticus Attack Force",
       "lists": 1,
       "games": 5,
-      "play_rate": 16.7,
-      "win_rate": 40.0,
+      "play_rate": 33.3,
+      "win_rate": 20.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 33.3,
-        "games": 3
-      }
-    },
-    {
-      "detachment": "Deathwatch Support + Gravis Siege Force + Tactical Brethren",
-      "base_archetype": "Blood Angels \u2014 Deathwatch Support + Gravis Siege Force + Tactical Brethren",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 16.7,
-      "win_rate": 40.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 100.0,
-        "games": 2
-      },
-      "second_turn": {
         "win_rate": 0.0,
         "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 2
       }
     }
   ],
   "dispositions": [
     {
-      "disposition": "Disruption",
-      "lists": 3,
-      "play_rate": 50.0,
-      "win_rate": 53.3,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 15.0,
-      "first_turn": {
-        "win_rate": 70.0,
-        "games": 10
-      },
-      "second_turn": {
-        "win_rate": 20.0,
-        "games": 5
-      }
-    },
-    {
-      "disposition": "Purge the Foe",
-      "lists": 2,
-      "play_rate": 33.3,
-      "win_rate": 25.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 8.0,
-      "first_turn": {
-        "win_rate": 33.3,
-        "games": 3
-      },
-      "second_turn": {
-        "win_rate": 20.0,
-        "games": 5
-      }
-    },
-    {
       "disposition": "Priority Assets",
       "lists": 1,
-      "play_rate": 16.7,
-      "win_rate": 10.0,
+      "play_rate": 33.3,
+      "win_rate": 90.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "games": 5.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 87.5,
+        "games": 4
+      }
+    },
+    {
+      "disposition": "Reconnaissance",
+      "lists": 1,
+      "play_rate": 33.3,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "games": 5.0,
       "first_turn": {
-        "win_rate": 25.0,
-        "games": 2
+        "win_rate": 83.3,
+        "games": 3
       },
       "second_turn": {
+        "win_rate": 25.0,
+        "games": 2
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "lists": 1,
+      "play_rate": 33.3,
+      "win_rate": 20.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5.0,
+      "first_turn": {
         "win_rate": 0.0,
         "games": 3
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 2
       }
     }
   ],
   "disposition_matchups": [],
-  "disposition_cross": [
-    {
-      "disposition": "Disruption",
-      "opponent_disposition": "Reconnaissance",
-      "games": 5,
-      "wins": 2,
-      "win_rate": 50.0,
-      "first_turn": {
-        "win_rate": 75.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 33.3,
-        "games": 3
-      }
-    }
-  ],
+  "disposition_cross": [],
   "top_players": [
     {
-      "player_name": "Gianmarco Tamburini",
-      "detachment": "Encarmine Speartip + assault brethren + tacticus attack force",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/bOfjQjyOV0uB",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 1,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 70.0
-    },
-    {
-      "player_name": "Alan Martin",
-      "detachment": "Assault Brethren + Encarmine Speartip + and Tacticus Attack Force",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/m4tAkHCfKOH0",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "Nicola Matteazzi",
-      "detachment": "Eredi Angelici",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/JiB0KGIEwjmK",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "Sam Powers",
-      "detachment": "Deathwatch Support + Gravis Siege Force + Tactical Brethren",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/CEZlEeTm2PKi",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 40.0
-    },
-    {
-      "player_name": "John Henn",
-      "detachment": "Assault Brethren + Ironclad Champions + Tacticus Attack Force",
+      "player_name": "Dawid Nowak",
+      "detachment": "Assault Brethren + Tacticus Attack Force + Terminator Storm Force",
       "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/WRTSdYcDuDYq",
+      "list_url": "https://www.bestcoastpairings.com/list/OLbBIR5H5BY2",
       "source": "bcp",
-      "wins": 0,
-      "losses": 4,
+      "wins": 4,
+      "losses": 0,
       "draws": 1,
       "games": 5,
-      "win_rate": 10.0
+      "win_rate": 90.0
     },
     {
-      "player_name": "Nick Rustage",
-      "detachment": "Assault Brethren + Encarmine Speartip + Wrath Of The Doomed",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/YQy6SPN3u11E",
+      "player_name": "Michal Nowak",
+      "detachment": "Assault Brethren",
+      "disposition": "Reconnaissance",
+      "list_url": "https://www.bestcoastpairings.com/list/oKbqEOSJof7F",
       "source": "bcp",
-      "wins": 0,
-      "losses": 3,
+      "wins": 2,
+      "losses": 1,
+      "draws": 2,
+      "games": 5,
+      "win_rate": 60.0
+    },
+    {
+      "player_name": "Wojciech Adamski",
+      "detachment": "Assault Brethren + Ironstorm Spearhead + Tacticus Attack Force",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/6clVUWFKrMF5",
+      "source": "bcp",
+      "wins": 1,
+      "losses": 4,
       "draws": 0,
-      "games": 3,
-      "win_rate": 0.0
+      "games": 5,
+      "win_rate": 20.0
     }
   ],
   "matchups": [],
   "timeline": [
     {
-      "week": "2026-W41",
-      "lists": 6,
-      "games": 28,
-      "win_rate": 37.5,
-      "total_lists": 578,
-      "play_rate": 1.0,
+      "week": "2026-W42",
+      "lists": 3,
+      "games": 15,
+      "win_rate": 56.7,
+      "total_lists": 60,
+      "play_rate": 5.0,
       "first_turn": {
-        "win_rate": 56.7,
-        "games": 15
+        "win_rate": 50.0,
+        "games": 7
       },
       "second_turn": {
-        "win_rate": 15.4,
-        "games": 13
+        "win_rate": 62.5,
+        "games": 8
       }
     }
   ]
