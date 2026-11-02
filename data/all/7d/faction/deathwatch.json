@@ -1,83 +1,45 @@
 {
   "faction": "Deathwatch",
   "slug": "deathwatch",
-  "as_of": "2026-10-28",
+  "as_of": "2026-11-02",
   "window_days": 7,
   "event_type": "all",
-  "lists": 5,
-  "games": 31,
-  "play_rate": 0.5,
-  "win_rate": 54.8,
-  "trend_delta": -0.2,
+  "lists": 1,
+  "games": 5,
+  "play_rate": 0.1,
+  "win_rate": 80.0,
+  "trend_delta": 25.2,
   "top_detachment": "Black Spear Task Force",
-  "ci_lower": 37.8,
+  "ci_lower": 37.6,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 0.0,
+  "x1_pct": 100.0,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 58.3,
-    "games": 12
+    "win_rate": 66.7,
+    "games": 3
   },
   "second_turn": {
-    "win_rate": 52.6,
-    "games": 19
+    "win_rate": 100.0,
+    "games": 2
   },
   "detachments": [
     {
       "detachment": "Black Spear Task Force",
       "base_archetype": "Deathwatch \u2014 Black Spear Task Force",
-      "lists": 3,
-      "games": 21,
-      "play_rate": 60.0,
-      "win_rate": 57.1,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 8
-      },
-      "second_turn": {
-        "win_rate": 61.5,
-        "games": 13
-      }
-    },
-    {
-      "detachment": "Assault Brethren + Phobos Shadow Force + Tacticus Attack Force",
-      "base_archetype": "Deathwatch \u2014 Assault Brethren + Phobos Shadow Force + Tacticus Attack Force",
       "lists": 1,
       "games": 5,
-      "play_rate": 20.0,
-      "win_rate": 40.0,
+      "play_rate": 100.0,
+      "win_rate": 80.0,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "tournament_wins": 0,
-      "first_turn": {
-        "win_rate": 100.0,
-        "games": 1
-      },
-      "second_turn": {
-        "win_rate": 25.0,
-        "games": 4
-      }
-    },
-    {
-      "detachment": "Phobos Shadow Force + Stormlance Task Force + Tactical Brethren",
-      "base_archetype": "Deathwatch \u2014 Phobos Shadow Force + Stormlance Task Force + Tactical Brethren",
-      "lists": 1,
-      "games": 5,
-      "play_rate": 20.0,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
+      "x1_pct": 100.0,
       "tournament_wins": 0,
       "first_turn": {
         "win_rate": 66.7,
         "games": 3
       },
       "second_turn": {
-        "win_rate": 50.0,
+        "win_rate": 100.0,
         "games": 2
       }
     }
@@ -85,184 +47,54 @@
   "dispositions": [
     {
       "disposition": "Purge the Foe",
-      "lists": 2,
-      "play_rate": 40.0,
-      "win_rate": 53.8,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 13.0,
-      "first_turn": {
-        "win_rate": 75.0,
-        "games": 4
-      },
-      "second_turn": {
-        "win_rate": 44.4,
-        "games": 9
-      }
-    },
-    {
-      "disposition": "Take and Hold",
       "lists": 1,
-      "play_rate": 20.0,
-      "win_rate": 40.0,
+      "play_rate": 100.0,
+      "win_rate": 80.0,
       "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 5.0,
-      "first_turn": {
-        "win_rate": 100.0,
-        "games": 1
-      },
-      "second_turn": {
-        "win_rate": 25.0,
-        "games": 4
-      }
-    },
-    {
-      "disposition": "Disruption",
-      "lists": 1,
-      "play_rate": 20.0,
-      "win_rate": 60.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
+      "x1_pct": 100.0,
       "games": 5.0,
       "first_turn": {
         "win_rate": 66.7,
         "games": 3
       },
       "second_turn": {
-        "win_rate": 50.0,
-        "games": 2
-      }
-    },
-    {
-      "disposition": "Priority Assets",
-      "lists": 1,
-      "play_rate": 20.0,
-      "win_rate": 62.5,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 8.0,
-      "first_turn": {
-        "win_rate": 25.0,
-        "games": 4
-      },
-      "second_turn": {
         "win_rate": 100.0,
-        "games": 4
+        "games": 2
       }
     }
   ],
   "disposition_matchups": [],
-  "disposition_cross": [
-    {
-      "disposition": "Purge the Foe",
-      "opponent_disposition": "Purge the Foe",
-      "games": 5,
-      "wins": 1,
-      "win_rate": 30.0,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 1
-      },
-      "second_turn": {
-        "win_rate": 25.0,
-        "games": 4
-      }
-    },
-    {
-      "disposition": "Purge the Foe",
-      "opponent_disposition": "Take and Hold",
-      "games": 5,
-      "wins": 2,
-      "win_rate": 50.0,
-      "first_turn": {
-        "win_rate": 75.0,
-        "games": 2
-      },
-      "second_turn": {
-        "win_rate": 33.3,
-        "games": 3
-      }
-    }
-  ],
+  "disposition_cross": [],
   "top_players": [
     {
-      "player_name": "Liam Steptoe",
-      "detachment": "Black Spear Task Force",
-      "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/QaA6phlubPoQ",
-      "source": "bcp",
-      "wins": 5,
-      "losses": 3,
-      "draws": 0,
-      "games": 8,
-      "win_rate": 62.5
-    },
-    {
-      "player_name": "Rob Haskins",
-      "detachment": "Phobos Shadow Force + Stormlance Task Force + Tactical Brethren",
-      "disposition": "Disruption",
-      "list_url": "https://www.bestcoastpairings.com/list/TICfi90wBYD8",
-      "source": "bcp",
-      "wins": 3,
-      "losses": 2,
-      "draws": 0,
-      "games": 5,
-      "win_rate": 60.0
-    },
-    {
-      "player_name": "Joshua Gray",
+      "player_name": "Guy Miscampbell",
       "detachment": "Black Spear Task Force",
       "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/y2yxASfAugWp",
+      "list_url": "https://www.bestcoastpairings.com/list/tCuH7OQ1jyGP",
       "source": "bcp",
       "wins": 4,
-      "losses": 3,
-      "draws": 1,
-      "games": 8,
-      "win_rate": 56.2
-    },
-    {
-      "player_name": "Luke Mullen",
-      "detachment": "Black Spear Task Force",
-      "disposition": "Purge the Foe",
-      "list_url": "https://www.bestcoastpairings.com/list/Fsu4HszCbLV4",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 2,
-      "draws": 1,
-      "games": 5,
-      "win_rate": 50.0
-    },
-    {
-      "player_name": "Jakob Armstrong",
-      "detachment": "Assault Brethren + Phobos Shadow Force + Tacticus Attack Force",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/H6uDR2AF6mSw",
-      "source": "bcp",
-      "wins": 2,
-      "losses": 3,
+      "losses": 1,
       "draws": 0,
       "games": 5,
-      "win_rate": 40.0
+      "win_rate": 80.0
     }
   ],
   "matchups": [],
   "timeline": [
     {
-      "week": "2026-W42",
-      "lists": 5,
-      "games": 31,
-      "win_rate": 54.8,
-      "total_lists": 1037,
-      "play_rate": 0.5,
+      "week": "2026-W43",
+      "lists": 1,
+      "games": 5,
+      "win_rate": 80.0,
+      "total_lists": 1110,
+      "play_rate": 0.1,
       "first_turn": {
-        "win_rate": 58.3,
-        "games": 12
+        "win_rate": 66.7,
+        "games": 3
       },
       "second_turn": {
-        "win_rate": 52.6,
-        "games": 19
+        "win_rate": 100.0,
+        "games": 2
       }
     }
   ]

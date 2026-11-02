@@ -1,79 +1,218 @@
 {
   "faction": "Black Templars",
   "slug": "black_templars",
-  "as_of": "2026-10-19",
+  "as_of": "2026-11-02",
   "window_days": 7,
   "event_type": "team",
-  "lists": 4,
-  "games": 20,
+  "lists": 7,
+  "games": 39,
   "play_rate": 0.7,
-  "win_rate": 25.0,
-  "trend_delta": -18.6,
-  "top_detachment": "Assault Brethren + Ironclad Champions + Terminator Storm Force",
-  "ci_lower": 11.2,
+  "win_rate": 56.4,
+  "trend_delta": null,
+  "top_detachment": "Forgefather's Seekers + Ironstorm Spearhead",
+  "ci_lower": 41.0,
   "meta_health": "strongly_under",
   "x0_pct": 0.0,
-  "x1_pct": 0.0,
+  "x1_pct": 14.3,
   "tournament_wins": 0,
   "first_turn": {
-    "win_rate": 54.2,
-    "games": 12
+    "win_rate": 72.7,
+    "games": 11
   },
   "second_turn": {
-    "win_rate": 26.9,
-    "games": 13
+    "win_rate": 50.0,
+    "games": 28
   },
   "detachments": [
     {
-      "detachment": "Assault Brethren + Ironclad Champions + Terminator Storm Force",
-      "base_archetype": "Black Templars \u2014 Assault Brethren + Ironclad Champions + Terminator Storm Force",
+      "detachment": "Forgefather's Seekers + Ironstorm Spearhead",
+      "base_archetype": "Black Templars \u2014 Forgefather's Seekers + Ironstorm Spearhead",
       "lists": 1,
-      "games": 5,
-      "play_rate": 25.0,
-      "win_rate": 20.0,
+      "games": 6,
+      "play_rate": 14.3,
+      "win_rate": 75.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 50.0,
-        "games": 2
+        "win_rate": 66.7,
+        "games": 3
       },
       "second_turn": {
-        "win_rate": 0.0,
+        "win_rate": 83.3,
         "games": 3
       }
     },
     {
-      "detachment": "Assault Brethren + Ironstorm Spearhead + Terminator Storm Force",
-      "base_archetype": "Black Templars \u2014 Assault Brethren + Ironstorm Spearhead + Terminator Storm Force",
+      "detachment": "Assault Brethren + Ironclad Champions + and Terminator Storm Force",
+      "base_archetype": "Black Templars \u2014 Assault Brethren + Ironclad Champions + and Terminator Storm Force",
+      "lists": 1,
+      "games": 6,
+      "play_rate": 14.3,
+      "win_rate": 50.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": null,
+        "games": 0
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 6
+      }
+    },
+    {
+      "detachment": "Devastator Brethren + Ironclad Champions + Ironstorm Spearhead",
+      "base_archetype": "Black Templars \u2014 Devastator Brethren + Ironclad Champions + Ironstorm Spearhead",
       "lists": 1,
       "games": 5,
-      "play_rate": 25.0,
+      "play_rate": 14.3,
       "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 83.3,
-        "games": 3
+        "win_rate": 100.0,
+        "games": 1
       },
       "second_turn": {
-        "win_rate": 25.0,
-        "games": 2
+        "win_rate": 50.0,
+        "games": 4
       }
     },
     {
-      "detachment": "Assault Brethren + Deathwatch Support + Tacticus Attack Force",
-      "base_archetype": "Black Templars \u2014 Assault Brethren + Deathwatch Support + Tacticus Attack Force",
+      "detachment": "Marshal'S Household + Vow-sworn Crusaders",
+      "base_archetype": "Black Templars \u2014 Marshal'S Household + Vow-sworn Crusaders",
       "lists": 1,
       "games": 5,
-      "play_rate": 25.0,
-      "win_rate": 20.0,
+      "play_rate": 14.3,
+      "win_rate": 80.0,
+      "x0_pct": 0.0,
+      "x1_pct": 100.0,
+      "tournament_wins": 0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 2
+      },
+      "second_turn": {
+        "win_rate": 66.7,
+        "games": 3
+      }
+    },
+    {
+      "detachment": "Assault Brethren + Vow-sworn Crusaders",
+      "base_archetype": "Black Templars \u2014 Assault Brethren + Vow-sworn Crusaders",
+      "lists": 1,
+      "games": 5,
+      "play_rate": 14.3,
+      "win_rate": 60.0,
       "x0_pct": 0.0,
       "x1_pct": 0.0,
       "tournament_wins": 0,
       "first_turn": {
-        "win_rate": 0.0,
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      }
+    }
+  ],
+  "dispositions": [
+    {
+      "disposition": "Priority Assets",
+      "lists": 3,
+      "play_rate": 42.9,
+      "win_rate": 71.9,
+      "x0_pct": 0.0,
+      "x1_pct": 33.3,
+      "games": 16.0,
+      "first_turn": {
+        "win_rate": 83.3,
+        "games": 6
+      },
+      "second_turn": {
+        "win_rate": 65.0,
+        "games": 10
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "lists": 3,
+      "play_rate": 42.9,
+      "win_rate": 41.7,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 18.0,
+      "first_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      },
+      "second_turn": {
+        "win_rate": 39.3,
+        "games": 14
+      }
+    },
+    {
+      "disposition": "Purge the Foe",
+      "lists": 1,
+      "play_rate": 14.3,
+      "win_rate": 60.0,
+      "x0_pct": 0.0,
+      "x1_pct": 0.0,
+      "games": 5.0,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 1
+      },
+      "second_turn": {
+        "win_rate": 50.0,
+        "games": 4
+      }
+    }
+  ],
+  "disposition_matchups": [
+    {
+      "opponent_disposition": "Priority Assets",
+      "games": 13,
+      "wins": 10,
+      "win_rate": 76.9,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 70.0,
+        "games": 10
+      }
+    }
+  ],
+  "disposition_cross": [
+    {
+      "disposition": "Priority Assets",
+      "opponent_disposition": "Priority Assets",
+      "games": 7,
+      "wins": 5,
+      "win_rate": 78.6,
+      "first_turn": {
+        "win_rate": 100.0,
+        "games": 3
+      },
+      "second_turn": {
+        "win_rate": 62.5,
+        "games": 4
+      }
+    },
+    {
+      "disposition": "Take and Hold",
+      "opponent_disposition": "Take and Hold",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 40.0,
+      "first_turn": {
+        "win_rate": 50.0,
         "games": 2
       },
       "second_turn": {
@@ -82,110 +221,108 @@
       }
     }
   ],
-  "dispositions": [
-    {
-      "disposition": "Priority Assets",
-      "lists": 2,
-      "play_rate": 50.0,
-      "win_rate": 10.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 10.0,
-      "first_turn": {
-        "win_rate": 25.0,
-        "games": 4
-      },
-      "second_turn": {
-        "win_rate": 0.0,
-        "games": 6
-      }
-    },
-    {
-      "disposition": "Take and Hold",
-      "lists": 2,
-      "play_rate": 50.0,
-      "win_rate": 40.0,
-      "x0_pct": 0.0,
-      "x1_pct": 0.0,
-      "games": 10.0,
-      "first_turn": {
-        "win_rate": 50.0,
-        "games": 5
-      },
-      "second_turn": {
-        "win_rate": 30.0,
-        "games": 5
-      }
-    }
-  ],
-  "disposition_matchups": [],
-  "disposition_cross": [],
   "top_players": [
     {
-      "player_name": "Gionathan Soares da Silva",
-      "detachment": "Assault Brethren + Ironstorm Spearhead + Terminator Storm Force",
-      "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/ETuCT2RZoVpw",
+      "player_name": "Jonas \u00c5hling",
+      "detachment": "Marshal'S Household + Vow-sworn Crusaders",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/bBgba9xxjr2S",
       "source": "bcp",
-      "wins": 2,
+      "wins": 4,
       "losses": 1,
-      "draws": 2,
+      "draws": 0,
+      "games": 5,
+      "win_rate": 80.0
+    },
+    {
+      "player_name": "Carlos Castillo Ruiz",
+      "detachment": "Forgefather's Seekers + Ironstorm Spearhead",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/hJsuCAovzhs6",
+      "source": "bcp",
+      "wins": 4,
+      "losses": 1,
+      "draws": 1,
+      "games": 6,
+      "win_rate": 75.0
+    },
+    {
+      "player_name": "Alex Lomax",
+      "detachment": "Devastator Brethren + Ironclad Champions + Ironstorm Spearhead",
+      "disposition": "Priority Assets",
+      "list_url": "https://www.bestcoastpairings.com/list/CKH5CZSzdWWf",
+      "source": "bcp",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
       "games": 5,
       "win_rate": 60.0
     },
     {
-      "player_name": "Grant Adams",
-      "detachment": "Assault Brethren + Ironclad Champions + Terminator Storm Force",
-      "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/HNlmXiE7onBN",
+      "player_name": "Adam Nathanson",
+      "detachment": "Assault Brethren + Vow-sworn Crusaders",
+      "disposition": "Purge the Foe",
+      "list_url": "https://www.bestcoastpairings.com/list/dOS5ZXIQKKrb",
       "source": "bcp",
-      "wins": 1,
-      "losses": 4,
+      "wins": 3,
+      "losses": 2,
       "draws": 0,
       "games": 5,
-      "win_rate": 20.0
+      "win_rate": 60.0
     },
     {
-      "player_name": "Cliff Nelson",
-      "detachment": "Assault Brethren + Deathwatch Support + Tacticus Attack Force",
+      "player_name": "Carlos David Mart\u00edn Trujillo",
+      "detachment": "Assault Brethren + Ironclad Champions + and Terminator Storm Force",
       "disposition": "Take and Hold",
-      "list_url": "https://www.bestcoastpairings.com/list/2Dolzr7j2nhK",
+      "list_url": "https://www.bestcoastpairings.com/list/xeB9Y7JNY0nD",
       "source": "bcp",
-      "wins": 1,
-      "losses": 4,
+      "wins": 3,
+      "losses": 3,
       "draws": 0,
-      "games": 5,
-      "win_rate": 20.0
+      "games": 6,
+      "win_rate": 50.0
     },
     {
-      "player_name": "Andrea Bazzurri",
+      "player_name": "Drew Marther",
       "detachment": "",
-      "disposition": "Priority Assets",
-      "list_url": "https://www.bestcoastpairings.com/list/QIwRwcpoIhTA",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/3uPLBFg5nrvM",
       "source": "bcp",
-      "wins": 0,
-      "losses": 5,
+      "wins": 2,
+      "losses": 3,
+      "draws": 1,
+      "games": 6,
+      "win_rate": 41.7
+    },
+    {
+      "player_name": "Alberto Gonzalez Aguera",
+      "detachment": "",
+      "disposition": "Take and Hold",
+      "list_url": "https://www.bestcoastpairings.com/list/5csGJyeQHEpR",
+      "source": "bcp",
+      "wins": 2,
+      "losses": 4,
       "draws": 0,
-      "games": 5,
-      "win_rate": 0.0
+      "games": 6,
+      "win_rate": 33.3
     }
   ],
   "matchups": [],
   "timeline": [
     {
-      "week": "2026-W41",
-      "lists": 4,
-      "games": 20,
-      "win_rate": 25.0,
-      "total_lists": 578,
+      "week": "2026-W43",
+      "lists": 7,
+      "games": 39,
+      "win_rate": 56.4,
+      "total_lists": 1044,
       "play_rate": 0.7,
       "first_turn": {
-        "win_rate": 38.9,
-        "games": 9
+        "win_rate": 72.7,
+        "games": 11
       },
       "second_turn": {
-        "win_rate": 13.6,
-        "games": 11
+        "win_rate": 50.0,
+        "games": 28
       }
     }
   ]
